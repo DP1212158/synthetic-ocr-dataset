@@ -1,0 +1,71 @@
+{
+  "name": "delivery_v4_standard",
+  "description": "基于壮语 v4 准交付效果固化的多语种最终版生成标准。",
+  "source_policy": {
+    "input_version": "clean_rendered_version",
+    "do_not_overwrite_source": true,
+    "category_count": 12,
+    "images_per_category": 6
+  },
+  "image_assets": {
+    "default_dir": "/Users/dp/Downloads/中央民族大学合作项目/random120-coco2014",
+    "copy_into_version_assets": true,
+    "fill_labels": [
+      "image",
+      "photo",
+      "figure",
+      "photo_lead",
+      "image_figure"
+    ],
+    "asset_crop": "object-fit-cover"
+  },
+  "language_mix": {
+    "enabled": true,
+    "pure_variants": [1, 3, 5],
+    "mixed_variants": [2, 4, 6],
+    "mixed_min_cjk_ratio": 0.1,
+    "mixed_max_cjk_ratio": 0.3,
+    "default_document_targets": {
+      "2": 0.14,
+      "4": 0.18,
+      "6": 0.16
+    },
+    "pure_requires_cjk_zero": true
+  },
+  "visual_cleanup": {
+    "reduce_non_structural_horizontal_lines": true,
+    "preserve_tables_forms_certificates": true
+  },
+  "augmentation": {
+    "enabled": true,
+    "profile": "delivery_all_light",
+    "seed": 20260705,
+    "directional_light_required": true,
+    "no_shear": true,
+    "no_perspective": true,
+    "no_warp": true
+  },
+  "labels": {
+    "keep_order": true,
+    "add_reading_order": true,
+    "fields": [
+      "reading_order",
+      "reading_group",
+      "reading_role",
+      "reading_order_confidence"
+    ]
+  },
+  "qa": {
+    "total_images": 72,
+    "passed_basic": 72,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "density_warning_images": 0,
+    "unsupported_char_blocks": 0,
+    "acceptance_pass": true,
+    "language_mix_pass": true,
+    "language_validity_pass": true,
+    "reading_order_pass": true,
+    "image_asset_pass": true
+  }
+}

@@ -1,0 +1,2513 @@
+{
+  "image_id": "900d2475-900d-2475-900d-900d2475900d",
+  "file_name": "01_newspaper_page_json_03.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "newspaper_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "bai",
+    "language_name": "白语",
+    "script_note": "白文拉丁字母方案，横排从左到右",
+    "template_type": "newspaper_page",
+    "category": "newspaper_page",
+    "variant": 3,
+    "layout_name": "newspaper_page_v03",
+    "document_id": "01_newspaper_page_json_03",
+    "title": "Vahcuengh Yienghneix",
+    "doc_no": "ZA-V1-01-03",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "newspaper_page",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 83,
+      "page_width": 1275,
+      "page_height": 1686,
+      "body_scroll_width": 1275,
+      "body_scroll_height": 1686,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 23,
+        "y": 17,
+        "width": 1194,
+        "height": 1622,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1754,
+        "content_bbox": {
+          "x_min": 54,
+          "y_min": 48,
+          "x_max": 1186,
+          "y_max": 1607.7
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.8892,
+        "bottom_blank_ratio_before_crop": 0.0834
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 12485946911052809332,
+        "family": "compressed_scan",
+        "geometry": {
+          "source_size": {
+            "width": 1194,
+            "height": 1622
+          },
+          "scale": {
+            "scale": 1.00533,
+            "width": 1200,
+            "height": 1631
+          },
+          "rotation": {
+            "angle_degrees": -3.1001,
+            "width": 1287,
+            "height": 1694
+          },
+          "translation": {
+            "dx": 3,
+            "dy": 3,
+            "width": 1287,
+            "height": 1694
+          },
+          "edge_crop": {
+            "left": 8,
+            "top": 4,
+            "right": 4,
+            "bottom": 4,
+            "width": 1275,
+            "height": 1686
+          },
+          "output_size_before_visual": {
+            "width": 1275,
+            "height": 1686
+          }
+        },
+        "output_size": {
+          "width": 1275,
+          "height": 1686
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "01_newspaper_page_json_03_b0001",
+      "coordinates": {
+        "x_min": 35.51,
+        "y_min": 224.06,
+        "x_max": 247.35,
+        "y_max": 254.75
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "Vwnzva · Sawcuengh · Gijyez",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0002",
+      "coordinates": {
+        "x_min": 252.67,
+        "y_min": 46.69,
+        "x_max": 897.85,
+        "y_max": 242.57
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "Vahcuengh Yienghneix",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "60px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0003",
+      "coordinates": {
+        "x_min": 910.87,
+        "y_min": 185.44,
+        "x_max": 960.5,
+        "y_max": 207.34
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "No 183",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0004",
+      "coordinates": {
+        "x_min": 999.51,
+        "y_min": 179.1,
+        "x_max": 1077.55,
+        "y_max": 202.54
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026-07-03",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0005",
+      "coordinates": {
+        "x_min": 1116.65,
+        "y_min": 173.93,
+        "x_max": 1172.91,
+        "y_max": 196.19
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "Dakbieq",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0006",
+      "coordinates": {
+        "x_min": 38.07,
+        "y_min": 268.08,
+        "x_max": 312.61,
+        "y_max": 314.18
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "wa, kexded zerfwa",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0007",
+      "coordinates": {
+        "x_min": 40.15,
+        "y_min": 306.42,
+        "x_max": 316.76,
+        "y_max": 390.77
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "dantkex nox jiainlzvfvf，lapzil Bufzuint zul yienxxiant xuixyap、weilhai",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0008",
+      "coordinates": {
+        "x_min": 45.5,
+        "y_min": 405.11,
+        "x_max": 320.04,
+        "y_max": 451.3
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "nil yif qit bei",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0009",
+      "coordinates": {
+        "x_min": 47.58,
+        "y_min": 443.55,
+        "x_max": 322.93,
+        "y_max": 504.71
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "zid bei yaf lao ga het, zex zilmel lao ngaidjiet nil? Caike ngaot",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0010",
+      "coordinates": {
+        "x_min": 51.67,
+        "y_min": 519.04,
+        "x_max": 326.2,
+        "y_max": 565.14
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "no zelcaif qioul,",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0011",
+      "coordinates": {
+        "x_min": 53.74,
+        "y_min": 557.4,
+        "x_max": 329.1,
+        "y_max": 618.65
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Seitnivx nid zex li'la, nerl gef get hhex de zvpxuix geiz, daotnivx",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0012",
+      "coordinates": {
+        "x_min": 57.84,
+        "y_min": 632.99,
+        "x_max": 334.07,
+        "y_max": 710.4
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "A: Nial Deitleix ba'zit zex hux",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0013",
+      "coordinates": {
+        "x_min": 61.61,
+        "y_min": 702.65,
+        "x_max": 336.96,
+        "y_max": 763.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "suxsuit gonxcenp caitquit bifyal nox cubsix, tipgax nopyif nox yonpxuix",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0014",
+      "coordinates": {
+        "x_min": 65.7,
+        "y_min": 778.14,
+        "x_max": 340.24,
+        "y_max": 824.33
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "Beif nil kualle",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 41,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0015",
+      "coordinates": {
+        "x_min": 67.78,
+        "y_min": 816.59,
+        "x_max": 345.65,
+        "y_max": 924.12
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Dedbaod dep heil gao bei taox, Laofzi gal ded qial jip mip, Heilhe bei qi heilhe ya, Xiail mifngua zil jiap. ， ， ，",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 45,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0016",
+      "coordinates": {
+        "x_min": 74.38,
+        "y_min": 938.46,
+        "x_max": 348.92,
+        "y_max": 984.55
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "oup vvxxi daox",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 49,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0017",
+      "coordinates": {
+        "x_min": 76.46,
+        "y_min": 976.8,
+        "x_max": 354.33,
+        "y_max": 1084.43
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "qienpjif yainpzonb nox，baob jienx yot pix zuint nox ssenp miep zenbfvt pixzuint，zeflienb tinebyef guainxbib.”",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 54,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0018",
+      "coordinates": {
+        "x_min": 95.76,
+        "y_min": 1111.47,
+        "x_max": 346.21,
+        "y_max": 1156.26
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "Gvangj Gau",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 60,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0019",
+      "coordinates": {
+        "x_min": 97.84,
+        "y_min": 1149.82,
+        "x_max": 348.78,
+        "y_max": 1203.65
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ngaot zei zil de daix hait leid nil? He zex",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 62,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0020",
+      "coordinates": {
+        "x_min": 89.66,
+        "y_min": 1220.63,
+        "x_max": 364.2,
+        "y_max": 1266.74
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ngvx tiol，gait",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 66,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0021",
+      "coordinates": {
+        "x_min": 91.74,
+        "y_min": 1258.99,
+        "x_max": 368.36,
+        "y_max": 1343.43
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Xinl no at sua jianl kex, yuain yal sua sua xiernl xitxit-huanlhuanl, sua sua xiernl houlyi.",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 70,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0022",
+      "coordinates": {
+        "x_min": 97.09,
+        "y_min": 1357.76,
+        "x_max": 371.63,
+        "y_max": 1403.86
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "zidjia, ni'xiai",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 73,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0023",
+      "coordinates": {
+        "x_min": 99.17,
+        "y_min": 1396.12,
+        "x_max": 374.52,
+        "y_max": 1457.27
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "piep de Deitleit dil yif jiail“Xia coup Deitleit-zuil meit xiacui”.Xuillil",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 75,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0024",
+      "coordinates": {
+        "x_min": 325.97,
+        "y_min": 252.49,
+        "x_max": 600.42,
+        "y_max": 298.59
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "Yapwa guoz hel",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0025",
+      "coordinates": {
+        "x_min": 328.05,
+        "y_min": 290.84,
+        "x_max": 605.83,
+        "y_max": 398.47
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Ngaot zet geif nidgerf gaz het, Hal jiert zerd het no weifni, Zouyuip Ssexde, Svz gaot wa'baod, Zai zex jiaxyouz no jitfvf. ， ， ， ，",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0026",
+      "coordinates": {
+        "x_min": 334.66,
+        "y_min": 412.81,
+        "x_max": 609.1,
+        "y_max": 458.9
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ngaot hhex zvpxuix",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0027",
+      "coordinates": {
+        "x_min": 336.73,
+        "y_min": 451.15,
+        "x_max": 611.99,
+        "y_max": 512.31
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "xix no xix, mud no mud, ni'xier guoz zid duox laoz. Guafhaot leil",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0028",
+      "coordinates": {
+        "x_min": 340.82,
+        "y_min": 526.65,
+        "x_max": 615.27,
+        "y_max": 572.74
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "nel youzzi zex",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0029",
+      "coordinates": {
+        "x_min": 342.9,
+        "y_min": 565.0,
+        "x_max": 618.17,
+        "y_max": 626.25
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "svx miert ， laod cerxzid-cerxjia taollao nisua nvd dit zu kvx gua",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0030",
+      "coordinates": {
+        "x_min": 346.99,
+        "y_min": 640.58,
+        "x_max": 621.44,
+        "y_max": 686.68
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "laozsi zilnidxit,",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0031",
+      "coordinates": {
+        "x_min": 349.07,
+        "y_min": 678.93,
+        "x_max": 625.59,
+        "y_max": 763.27
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "A: Zex bal haotdvf xiaf bel goux nid zex hat goux nid? B: Bel goux nid zex bel jioul nil bel gexmex.",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0032",
+      "coordinates": {
+        "x_min": 354.41,
+        "y_min": 777.61,
+        "x_max": 628.86,
+        "y_max": 823.8
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "dvz leid het",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 40,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0033",
+      "coordinates": {
+        "x_min": 356.5,
+        "y_min": 816.06,
+        "x_max": 633.01,
+        "y_max": 900.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Getsua guoz ni xilsua het, zuf nial zalgerdzi at sua zei bit at sua qioul, xitxit-huafhuaf guoz ni'xier.",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 44,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0034",
+      "coordinates": {
+        "x_min": 361.84,
+        "y_min": 914.73,
+        "x_max": 636.29,
+        "y_max": 960.83
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "zei'bit seit",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 47,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0035",
+      "coordinates": {
+        "x_min": 363.92,
+        "y_min": 953.09,
+        "x_max": 639.18,
+        "y_max": 1014.23
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "sua baot alsert sif leil xithuaf hal. Xiyoupjil, Houploupmel, Zalhuot",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 51,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0036",
+      "coordinates": {
+        "x_min": 368.01,
+        "y_min": 1028.58,
+        "x_max": 642.46,
+        "y_max": 1074.76
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "cutlit nox yotcanp",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 55,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0037",
+      "coordinates": {
+        "x_min": 370.09,
+        "y_min": 1067.02,
+        "x_max": 646.61,
+        "y_max": 1151.36
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "B: Vepjuil zei zex cix, cafjiao, balyuip, saxgaofbat, yuipgui det xief.",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 58,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0038",
+      "coordinates": {
+        "x_min": 375.43,
+        "y_min": 1165.7,
+        "x_max": 649.88,
+        "y_max": 1211.79
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "guaifjiax guixdienb",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 63,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0039",
+      "coordinates": {
+        "x_min": 377.51,
+        "y_min": 1204.05,
+        "x_max": 654.03,
+        "y_max": 1288.49
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "B: Dettal gaod leid het zaldier'zi zex daot youplatyeid laoz. Yeid at sul zex zez de gal ber nidgerf le.",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 67,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0040",
+      "coordinates": {
+        "x_min": 382.86,
+        "y_min": 1302.82,
+        "x_max": 657.31,
+        "y_max": 1348.92
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "gaod leid het",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 71,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0041",
+      "coordinates": {
+        "x_min": 384.94,
+        "y_min": 1341.18,
+        "x_max": 660.2,
+        "y_max": 1402.32
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "merx baf youd baf zuax cvt, jitwerf het zeix qiert aoddaod xioudzi.",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 74,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0042",
+      "coordinates": {
+        "x_min": 613.78,
+        "y_min": 236.9,
+        "x_max": 888.33,
+        "y_max": 283.0
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "bifsif mux bettal",
+      "is_text": true,
+      "order": "41",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0043",
+      "coordinates": {
+        "x_min": 615.86,
+        "y_min": 275.24,
+        "x_max": 891.22,
+        "y_max": 336.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "qi'zipngvx sua bei guoz yef, zex at sua bit sua guoz hux, quaip guerf",
+      "is_text": true,
+      "order": "42",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0044",
+      "coordinates": {
+        "x_min": 619.95,
+        "y_min": 350.73,
+        "x_max": 894.5,
+        "y_max": 396.93
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ngaot da bel",
+      "is_text": true,
+      "order": "43",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0045",
+      "coordinates": {
+        "x_min": 622.03,
+        "y_min": 389.19,
+        "x_max": 897.39,
+        "y_max": 450.34
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "bel nei no gouxzetmex gvz nal weix, bel maox leil zil nivxnazzi,",
+      "is_text": true,
+      "order": "44",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0046",
+      "coordinates": {
+        "x_min": 626.12,
+        "y_min": 464.68,
+        "x_max": 900.66,
+        "y_max": 510.78
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "zil ger de duox,",
+      "is_text": true,
+      "order": "45",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0047",
+      "coordinates": {
+        "x_min": 628.19,
+        "y_min": 503.02,
+        "x_max": 906.07,
+        "y_max": 610.66
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Ngaot zoud de Erxgaot no bif, Guox de svz no vud, Yap seifnad gv bei yef, At zua zua ni Salhaid no weifni, ， ， ，",
+      "is_text": true,
+      "order": "46",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0048",
+      "coordinates": {
+        "x_min": 634.8,
+        "y_min": 624.99,
+        "x_max": 909.35,
+        "y_max": 671.09
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "A'pep bel gao",
+      "is_text": true,
+      "order": "47",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0049",
+      "coordinates": {
+        "x_min": 636.88,
+        "y_min": 663.34,
+        "x_max": 912.24,
+        "y_max": 724.49
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "A:At daldix,ngaot sal kuol kaox laoz,ngaot niou bei xiaoftal laoz.",
+      "is_text": true,
+      "order": "48",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0050",
+      "coordinates": {
+        "x_min": 640.97,
+        "y_min": 738.82,
+        "x_max": 915.51,
+        "y_max": 784.93
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "kex binpzil jityap",
+      "is_text": true,
+      "order": "49",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 38,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0051",
+      "coordinates": {
+        "x_min": 643.04,
+        "y_min": 777.18,
+        "x_max": 919.67,
+        "y_max": 861.62
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "A: Alda det zuaf salzip kuit at jieif. Belda bet zuaf zex hux zaodsei, zip kuit at nouz.",
+      "is_text": true,
+      "order": "50",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 42,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0052",
+      "coordinates": {
+        "x_min": 648.39,
+        "y_min": 875.95,
+        "x_max": 922.94,
+        "y_max": 922.06
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ziffvf ， cil",
+      "is_text": true,
+      "order": "51",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 46,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0053",
+      "coordinates": {
+        "x_min": 650.47,
+        "y_min": 914.3,
+        "x_max": 925.83,
+        "y_max": 975.46
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "pex haol. Hel Alherf bal da bel no daot der, nerl der aod bel no",
+      "is_text": true,
+      "order": "52",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 50,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0054",
+      "coordinates": {
+        "x_min": 654.56,
+        "y_min": 989.8,
+        "x_max": 929.11,
+        "y_max": 1035.99
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "jix pet gua def",
+      "is_text": true,
+      "order": "53",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 53,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0055",
+      "coordinates": {
+        "x_min": 656.64,
+        "y_min": 1028.24,
+        "x_max": 932.0,
+        "y_max": 1089.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "sefsix anxquainp ketkaol yuinlxienp, baotzenb gonlxuix suitzif futhef",
+      "is_text": true,
+      "order": "54",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 56,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0056",
+      "coordinates": {
+        "x_min": 660.73,
+        "y_min": 1103.73,
+        "x_max": 935.27,
+        "y_max": 1149.83
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "jianthuab atgaind、",
+      "is_text": true,
+      "order": "55",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 61,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0057",
+      "coordinates": {
+        "x_min": 662.81,
+        "y_min": 1142.07,
+        "x_max": 940.68,
+        "y_max": 1249.71
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Bif pel ngel bad xiouffvlfvl, gaolli geiz ngaot fvf qia'qia, huof het bel oud wu zex ngaot, ladhuof cvmierf xia.",
+      "is_text": true,
+      "order": "56",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 64,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0058",
+      "coordinates": {
+        "x_min": 669.41,
+        "y_min": 1264.04,
+        "x_max": 943.96,
+        "y_max": 1310.15
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "xienpzenb zutguaint",
+      "is_text": true,
+      "order": "57",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 68,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0059",
+      "coordinates": {
+        "x_min": 671.49,
+        "y_min": 1302.39,
+        "x_max": 946.85,
+        "y_max": 1363.55
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "lal zi ziz ， didderx diddaox ， nvf ， guazsit ， Saolberd zaopzed ，",
+      "is_text": true,
+      "order": "58",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 72,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0060",
+      "coordinates": {
+        "x_min": 901.69,
+        "y_min": 221.31,
+        "x_max": 1176.13,
+        "y_max": 267.41
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "zei yon baot",
+      "is_text": true,
+      "order": "59",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0061",
+      "coordinates": {
+        "x_min": 903.77,
+        "y_min": 259.66,
+        "x_max": 1181.54,
+        "y_max": 367.29
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Qierl de nivxtei naot zvp nvd, gvz geif daot gvf nil daot gaod, daot xuix cv cvt nel haotdvf, zalgerd jie naot dou dedbaod.",
+      "is_text": true,
+      "order": "60",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0062",
+      "coordinates": {
+        "x_min": 910.37,
+        "y_min": 381.63,
+        "x_max": 1184.81,
+        "y_max": 427.72
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "Xifsanx hhaf hol zil, sit",
+      "is_text": true,
+      "order": "61",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0063",
+      "coordinates": {
+        "x_min": 912.45,
+        "y_min": 419.97,
+        "x_max": 1187.7,
+        "y_max": 481.13
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "A: Zaox, belhhex bei ni yef xiaf. Nerl nil leil cilkoul get herlsi.",
+      "is_text": true,
+      "order": "62",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0064",
+      "coordinates": {
+        "x_min": 916.54,
+        "y_min": 495.47,
+        "x_max": 1190.97,
+        "y_max": 541.56
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "nil merx ded",
+      "is_text": true,
+      "order": "63",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0065",
+      "coordinates": {
+        "x_min": 918.61,
+        "y_min": 533.81,
+        "x_max": 1195.13,
+        "y_max": 618.25
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "zerfwa nial guoz zerfwa herl, at nid daot ke sua. Waherlyi ngerd qiat dedxuix, nvdbex bif no der&#39",
+      "is_text": true,
+      "order": "64",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0066",
+      "coordinates": {
+        "x_min": 923.96,
+        "y_min": 632.59,
+        "x_max": 1198.4,
+        "y_max": 678.69
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "tel yef nei yaz",
+      "is_text": true,
+      "order": "65",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0067",
+      "coordinates": {
+        "x_min": 926.04,
+        "y_min": 670.94,
+        "x_max": 1201.29,
+        "y_max": 732.09
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "A: Guxdeit liffaf belhhex xief mux sa. Deltal zil zalgerd gu'lif ssvt jif.",
+      "is_text": true,
+      "order": "66",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0068",
+      "coordinates": {
+        "x_min": 930.13,
+        "y_min": 746.43,
+        "x_max": 1204.57,
+        "y_max": 792.62
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "bierf haol, diou",
+      "is_text": true,
+      "order": "67",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 39,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0069",
+      "coordinates": {
+        "x_min": 932.21,
+        "y_min": 784.88,
+        "x_max": 1209.98,
+        "y_max": 892.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Jietjiet zoud zil ngouz zv duox, youf qi yef zil zuof bal ger, ga ngaot ger ni ngvfdef het, herl beid laoz herl cuer.",
+      "is_text": true,
+      "order": "68",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 43,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0070",
+      "coordinates": {
+        "x_min": 938.81,
+        "y_min": 906.75,
+        "x_max": 1213.25,
+        "y_max": 952.83
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "Hhafjial、tulkex",
+      "is_text": true,
+      "order": "69",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 48,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0071",
+      "coordinates": {
+        "x_min": 940.89,
+        "y_min": 945.09,
+        "x_max": 1217.4,
+        "y_max": 1029.53
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Zvpmerx sua, nial guerjia leid salxuid wapmerx-der'biaf, atni-bitni daot ferwa",
+      "is_text": true,
+      "order": "70",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 52,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0072",
+      "coordinates": {
+        "x_min": 946.24,
+        "y_min": 1043.87,
+        "x_max": 1220.68,
+        "y_max": 1089.96
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "zoyilfaflif nox",
+      "is_text": true,
+      "order": "71",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 57,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0073",
+      "coordinates": {
+        "x_min": 948.32,
+        "y_min": 1082.22,
+        "x_max": 1224.82,
+        "y_max": 1166.56
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "zerfwa nial guoz zerfwa herl, at nid daot ke sua. Waherlyi ngerd qiat dedxuix, nvdbex bif no der&#39",
+      "is_text": true,
+      "order": "72",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 59,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0074",
+      "coordinates": {
+        "x_min": 953.66,
+        "y_min": 1180.9,
+        "x_max": 1228.1,
+        "y_max": 1227.09
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "zix lvgvbeid",
+      "is_text": true,
+      "order": "73",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 65,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0075",
+      "coordinates": {
+        "x_min": 955.74,
+        "y_min": 1219.35,
+        "x_max": 1233.51,
+        "y_max": 1326.88
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Bif pel ngel bad xiouffvlfvl, gaolli geiz ngaot fvf qia'qia, huof het bel oud wu zex ngaot, ladhuof cvmierf xia.",
+      "is_text": true,
+      "order": "74",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 69,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0076",
+      "coordinates": {
+        "x_min": 104.02,
+        "y_min": 1488.56,
+        "x_max": 327.28,
+        "y_max": 1574.71
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "Geif maox seiz kuil, gvf pia heil ded jit ded",
+      "is_text": true,
+      "order": "75",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 80,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0077",
+      "coordinates": {
+        "x_min": 333.29,
+        "y_min": 1476.14,
+        "x_max": 556.55,
+        "y_max": 1562.3
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "mel da,suanl no kox zi zil biai",
+      "is_text": true,
+      "order": "76",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 79,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0078",
+      "coordinates": {
+        "x_min": 562.58,
+        "y_min": 1463.72,
+        "x_max": 785.84,
+        "y_max": 1549.88
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ferwa, zuf nial ber'xierz huox",
+      "is_text": true,
+      "order": "77",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 77,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0079",
+      "coordinates": {
+        "x_min": 791.85,
+        "y_min": 1451.31,
+        "x_max": 1015.12,
+        "y_max": 1537.46
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "zi ye herlgerd, at sua bit sua",
+      "is_text": true,
+      "order": "78",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 78,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0080",
+      "coordinates": {
+        "x_min": 1021.13,
+        "y_min": 1438.89,
+        "x_max": 1244.4,
+        "y_max": 1525.04
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "Beldedmef did zex berf mipzit,",
+      "is_text": true,
+      "order": "79",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 76,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0081",
+      "coordinates": {
+        "x_min": 108.59,
+        "y_min": 1572.89,
+        "x_max": 331.85,
+        "y_max": 1659.04
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "kaotsil mipzit saofkux ， qilyouz-berse xiaozxiaof caotzix ， zu&#x27",
+      "is_text": true,
+      "order": "80",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 83,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0082",
+      "coordinates": {
+        "x_min": 337.86,
+        "y_min": 1560.47,
+        "x_max": 561.12,
+        "y_max": 1646.62
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ze'piaot seifnivx jiax nid, bel",
+      "is_text": true,
+      "order": "81",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 82,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0083",
+      "coordinates": {
+        "x_min": 567.14,
+        "y_min": 1548.05,
+        "x_max": 790.41,
+        "y_max": 1634.21
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "yindgainlhox mal senxhuf gol",
+      "is_text": true,
+      "order": "82",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 81,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:02:28.310Z",
+  "updated_at": "2026-07-03T12:03:46"
+}

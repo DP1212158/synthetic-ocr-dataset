@@ -1,0 +1,367 @@
+{
+  "image_id": "cd8d8b18-cd8d-8b18-cd8d-cd8d8b18cd8d",
+  "file_name": "05_book_page_vertical_tree_03.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "mongolian_vertical_json_tree_v3_v4_split_mix_assets",
+    "language_code": "mn-trad",
+    "language_name": "传统蒙古文",
+    "script_note": "传统蒙古文，竖排从上到下，列从左到右",
+    "template_type": "book_page",
+    "category": "book_page",
+    "variant": 3,
+    "layout_name": "book_page_vertical_tree_03",
+    "document_id": "05_book_page_vertical_tree_03",
+    "title": "书籍页",
+    "doc_no": "MN-V3-05-03",
+    "date": "2026-07-02",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "book_page",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 10,
+      "page_width": 763,
+      "page_height": 1210,
+      "body_scroll_width": 763,
+      "body_scroll_height": 1210,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 126,
+        "y": 86,
+        "width": 686,
+        "height": 1168,
+        "enabled": true,
+        "original_width": 980,
+        "original_height": 1500,
+        "content_bbox": {
+          "x_min": 150,
+          "y_min": 110,
+          "x_max": 788,
+          "y_max": 1230
+        },
+        "padding": 24,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.7467,
+        "bottom_blank_ratio_before_crop": 0.18
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 9248835133698565199,
+        "family": "soft_copy",
+        "geometry": {
+          "source_size": {
+            "width": 686,
+            "height": 1168
+          },
+          "scale": {
+            "scale": 1.00999,
+            "width": 693,
+            "height": 1180
+          },
+          "rotation": {
+            "angle_degrees": 3.8502,
+            "width": 771,
+            "height": 1224
+          },
+          "translation": {
+            "dx": -8,
+            "dy": -5,
+            "width": 771,
+            "height": 1224
+          },
+          "edge_crop": {
+            "left": 5,
+            "top": 7,
+            "right": 3,
+            "bottom": 7,
+            "width": 763,
+            "height": 1210
+          },
+          "output_size_before_visual": {
+            "width": 763,
+            "height": 1210
+          }
+        },
+        "output_size": {
+          "width": 763,
+          "height": 1210
+        }
+      }
+    },
+    "reading_order_policy": "vertical_lr_columns_top_to_bottom_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "05_book_page_vertical_tree_03_b0002",
+      "coordinates": {
+        "x_min": 12.84,
+        "y_min": 13.81,
+        "x_max": 165.38,
+        "y_max": 1147.6
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠲᠠᠢ ᠪᠠᠨ ᠨᠡᠶ᠋ᠢᠯᠡᠭᠡᠳ",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "34px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "body",
+      "reading_role": "title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_03_b0003",
+      "coordinates": {
+        "x_min": 174.84,
+        "y_min": 104.6,
+        "x_max": 278.86,
+        "y_max": 994.37
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠵᠢᠷᠪᠢᠭᠢᠨᠡᠬᠦ ᠶᠢᠨ ᠳᠤᠮᠳᠠ ᠬᠡᠳᠦᠨ ᠥᠨᠳᠥᠷ ᠶᠠᠭᠤᠮ᠎ᠠ ᠰᠦᠮᠡᠯᠵᠡᠨ ᠦᠵᠡᠭ᠍ᠳᠡᠬᠦ ᠨᠢ ᠬᠠᠷᠢ ᠭᠠᠵᠠᠷ ᠤᠨ ᠬᠥᠮᠥᠨ ᠦ ᠨᠢᠳᠦᠨ",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_03_b0004",
+      "coordinates": {
+        "x_min": 295.77,
+        "y_min": 112.74,
+        "x_max": 387.7,
+        "y_max": 1001.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠬᠦᠰᠡᠯ ᠵᠣᠷᠢᠭ ᠢ ᠮᠢᠨᠢ ᠬᠥᠪᠴᠢᠯᠡᠵᠦ ᠥᠭᠭᠦᠭᠰᠡᠨ ᠬᠥᠬᠡ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠥᠨᠳᠥᠷᠯᠢᠭ ᠮᠢᠨᠢ ᠪᠠᠯᠠᠷ ᠴᠠᠭ ᠡᠴᠡ ᠲᠡᠮᠡᠤᠯᠵᠦ",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_03_b0005",
+      "coordinates": {
+        "x_min": 352.2,
+        "y_min": 116.54,
+        "x_max": 444.13,
+        "y_max": 1005.49
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠪᠣᠯᠪᠠᠴᠤ ᠳᠡᠭᠡᠷ᠎ᠡ ᠨᠢ ᠤᠨᠤᠭᠰᠠᠨ ᠦᠵᠡᠰᠭᠦᠯᠡᠩᠲᠦ ᠥᠬᠢᠨ ᠠᠵᠢᠭ ᠦᠭᠡᠢ ᠰᠠᠭᠤᠵᠤ ᠦᠭᠦᠯᠡᠯᠳᠦᠬᠦ ᠪᠥᠭᠡᠳ ᠦᠭᠡ ᠬᠡᠯᠡᠯᠴᠡᠨ",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_03_b0006",
+      "coordinates": {
+        "x_min": 408.64,
+        "y_min": 120.34,
+        "x_max": 500.55,
+        "y_max": 1009.29
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠪᠤᠷᠴᠠᠭ ᠤᠨ ᠲᠠᠯᠠᠪᠠᠢ ᠶᠢᠨ ᠬᠠᠷᠢᠴᠠᠯ ᠨᠢ7:2᠂ ᠰᠢᠷ᠎ᠠ ᠪᠤᠷᠴᠠᠭ ᠪᠠ ᠲᠣᠳᠣᠷᠭ᠎ᠠ ᠶᠢᠨ ᠲᠠᠯᠠᠪᠠᠢ ᠶᠢᠨ ᠬᠠᠷᠢᠴᠠᠯ ᠨᠢ6:1",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_03_b0007",
+      "coordinates": {
+        "x_min": 465.06,
+        "y_min": 124.13,
+        "x_max": 556.99,
+        "y_max": 1013.09
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "᠎ᠤᠨ ᠱᠢᠯᠭᠠᠯᠲᠠ ᠎ᠶ᠋ᠢᠨ ᠦᠨᠳᠦᠰᠦᠯᠡᠬᠦ᠌ ᠰᠤᠷᠬᠤ ᠪᠢᠴᠢᠭ ᠪᠤᠯᠪᠠ᠃ ᠎ᠳᠦ ᠱᠢ ᠎ᠶ᠋ᠢᠨ ᠡᠷᠳᠡᠮ ᠱᠢᠨᠵᠢᠯᠡᠭᠦᠨ ᠎ᠦ ᠦᠵᠡᠯ ᠰᠢᠯᠭᠡᠭᠡᠨ",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_03_b0008",
+      "coordinates": {
+        "x_min": 521.49,
+        "y_min": 127.93,
+        "x_max": 613.42,
+        "y_max": 1016.89
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠴᠢᠳᠠᠬᠤ ᠦᠭᠡᠢ ᠠᠯᠳᠠᠭ᠎ᠠ ᠶᠢ ᠬᠠᠷᠠᠮᠰᠠᠯ ᠬᠡᠳᠡᠢ ᠤᠷᠤᠢᠳᠤᠵᠤ ᠮᠠᠰᠢᠨ ᠭᠠᠷᠭᠠᠨ ᠨᠢᠯᠪᠤᠰᠤ ᠶᠢ ᠤᠬᠢᠯᠠᠵᠤ ᠳᠠᠭᠤᠯᠠᠵᠤ ᠶᠠᠪᠤᠬᠤ",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_03_b0009",
+      "coordinates": {
+        "x_min": 577.92,
+        "y_min": 131.73,
+        "x_max": 669.85,
+        "y_max": 1020.68
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠬᠡᠯᠡ ᠨᠢ ᠮᠣᠩᠭᠣᠯ ᠎ᠵᠢᠡᠷ ᠵᠢᠡᠨ ᠪᠠᠢᠪᠠᠯ ᠬᠡᠵᠢᠶᠡᠳᠡ ᠳ᠋ᠦ ᠪᠡᠨ ᠮᠣᠩᠭᠣᠯ ᠬᠢᠯᠢ ᠪᠡᠨ ᠠᠯᠳᠠᠵᠤ ᠲᠦᠷᠦ ᠨᠢ ᠨᠤᠷᠠᠭᠰᠠᠨ ᠴᠤ ᠮᠦᠬᠦᠰᠢ ᠦᠭᠡᠢ ᠮᠣᠩᠭᠣᠯ",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_03_b0010",
+      "coordinates": {
+        "x_min": 634.35,
+        "y_min": 135.53,
+        "x_max": 726.28,
+        "y_max": 1024.48
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠡᠴᠡ ᠪᠡᠨ ᠲᠠᠬᠢᠭᠠᠳ ᠲᠦᠷᠦᠬᠦ ᠪᠢᠰᠢ ᠳ᠋ᠠ ᠪᠢ ᠶᠠᠮᠠᠷ ᠦᠨᠡᠨ ᠬᠤᠳᠠᠯ ᠤᠨ ᠠᠷᠤ ᠳ᠋ᠤ ᠰᠡᠭᠦᠯᠴᠢ ᠵᠢᠨ ᠴᠡᠭ ᠢ ᠬᠠᠳᠬᠤᠬᠤ",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    }
+  ],
+  "created_at": "2026-07-03T06:38:21.264Z",
+  "updated_at": "2026-07-03T14:39:25"
+}

@@ -1,0 +1,2020 @@
+{
+  "image_id": "8e0d214f-8e0d-214f-8e0d-8e0d214f8e0d",
+  "file_name": "01_newspaper_page_json_01.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "newspaper_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "za",
+    "language_name": "壮语",
+    "script_note": "现代标准壮文 Vahcuengh，拉丁字母拼写",
+    "template_type": "newspaper_page",
+    "category": "newspaper_page",
+    "variant": 1,
+    "layout_name": "newspaper_page_v01",
+    "document_id": "01_newspaper_page_json_01",
+    "title": "Vahcuengh Yienghneix",
+    "doc_no": "ZA-V2-01-01",
+    "date": "2026-07-01",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "newspaper_page",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 66,
+      "page_width": 1191,
+      "page_height": 1928,
+      "body_scroll_width": 1191,
+      "body_scroll_height": 1928,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 23,
+        "y": 34,
+        "width": 1194,
+        "height": 1912,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1974,
+        "content_bbox": {
+          "x_min": 54,
+          "y_min": 65,
+          "x_max": 1186,
+          "y_max": 1914.5
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.9369,
+        "bottom_blank_ratio_before_crop": 0.0301
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 11398817905796354700,
+        "family": "printed_noise",
+        "geometry": {
+          "source_size": {
+            "width": 1194,
+            "height": 1912
+          },
+          "scale": {
+            "scale": 1.00687,
+            "width": 1202,
+            "height": 1925
+          },
+          "rotation": {
+            "angle_degrees": 0.3338,
+            "width": 1214,
+            "height": 1932
+          },
+          "translation": {
+            "dx": 0,
+            "dy": -4,
+            "width": 1214,
+            "height": 1932
+          },
+          "edge_crop": {
+            "left": 11,
+            "top": 3,
+            "right": 12,
+            "bottom": 1,
+            "width": 1191,
+            "height": 1928
+          },
+          "output_size_before_visual": {
+            "width": 1191,
+            "height": 1928
+          }
+        },
+        "output_size": {
+          "width": 1191,
+          "height": 1928
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "01_newspaper_page_json_01_b0001",
+      "coordinates": {
+        "x_min": 31.12,
+        "y_min": 24.39,
+        "x_max": 1171.0,
+        "y_max": 51.67
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "Ngoenzneix",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0002",
+      "coordinates": {
+        "x_min": 30.64,
+        "y_min": 45.03,
+        "x_max": 1170.88,
+        "y_max": 133.93
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "Vahcuengh Yienghneix",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "61px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0003",
+      "coordinates": {
+        "x_min": 30.44,
+        "y_min": 141.39,
+        "x_max": 82.52,
+        "y_max": 162.33
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "No 181",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0004",
+      "coordinates": {
+        "x_min": 562.26,
+        "y_min": 144.49,
+        "x_max": 644.74,
+        "y_max": 165.61
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026-07-01",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0005",
+      "coordinates": {
+        "x_min": 1124.49,
+        "y_min": 147.76,
+        "x_max": 1170.32,
+        "y_max": 168.67
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "Saw A",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0006",
+      "coordinates": {
+        "x_min": 29.97,
+        "y_min": 196.27,
+        "x_max": 424.82,
+        "y_max": 245.79
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "vunz hai aenhoih",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "34px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0007",
+      "coordinates": {
+        "x_min": 28.34,
+        "y_min": 253.56,
+        "x_max": 424.49,
+        "y_max": 524.08
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": false,
+        "asset_id": "COCO_val2014_000000091839",
+        "asset_source": "random120-coco2014",
+        "asset_crop": "object-fit-cover"
+      },
+      "reading_order": 63,
+      "reading_group": "image",
+      "reading_role": "image",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0008",
+      "coordinates": {
+        "x_min": 28.2,
+        "y_min": 528.82,
+        "x_max": 422.89,
+        "y_max": 549.15
+      },
+      "points": null,
+      "block_label": "caption",
+      "block_content": "gak 10 gwz, cienq raemx gwn,",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "caption",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0009",
+      "coordinates": {
+        "x_min": 27.71,
+        "y_min": 556.92,
+        "x_max": 422.72,
+        "y_max": 633.12
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "cienzwnj cienzboq heiq yaek mied. Doenggvaq heiq ciuhgeq caeuq daezcaiz lwgnyez cauhmoq yungzhab,",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0010",
+      "coordinates": {
+        "x_min": 27.24,
+        "y_min": 637.87,
+        "x_max": 422.25,
+        "y_max": 714.07
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Saujsu Minzcuz Yijyenz Vwnzsw Gunghcoz Veijyenzyei caeuq Gvangjsih Yinzminz Gvangjbo Dendaiz",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0011",
+      "coordinates": {
+        "x_min": 26.62,
+        "y_min": 718.82,
+        "x_max": 421.78,
+        "y_max": 819.69
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "gij bonjsaeh bauj guekgya ancienz caiq lai gyaak, gaiq hong ceihleix ndawbiengz ndaej engq mizrengz, aen daihbuenz ndawbiengz baujciz onjdingh",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0012",
+      "coordinates": {
+        "x_min": 26.15,
+        "y_min": 824.44,
+        "x_max": 421.16,
+        "y_max": 900.64
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "yinzgungch cinwngz vuenh daih vaiq, vunqisk moq, hopgeiz raez, fungyiemj sang daegdiemj dox habngamj",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0013",
+      "coordinates": {
+        "x_min": 442.57,
+        "y_min": 198.67,
+        "x_max": 656.81,
+        "y_max": 265.66
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "haeux; Ndaem laeng",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0014",
+      "coordinates": {
+        "x_min": 441.67,
+        "y_min": 271.46,
+        "x_max": 656.39,
+        "y_max": 420.52
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Singqfeih Gunghyung Singq liengz, feih soemj, saep. Siuhuj doeng roenraemx, gaijdoeg siu foeg. Aeu daeuj yw oksiq, nyan daengj.",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0015",
+      "coordinates": {
+        "x_min": 441.05,
+        "y_min": 426.32,
+        "x_max": 655.48,
+        "y_max": 526.13
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "mayh yuengh slei maz laemh zionx vax gangj hoj, byaemh zaoh ok aen veenfhvaq nyaemzslei",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0016",
+      "coordinates": {
+        "x_min": 440.5,
+        "y_min": 554.09,
+        "x_max": 654.74,
+        "y_max": 621.08
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "yungh mbouj yungh",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0017",
+      "coordinates": {
+        "x_min": 439.6,
+        "y_min": 626.89,
+        "x_max": 654.32,
+        "y_max": 775.93
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Daihcibseiq Aen Haj Bi Caeuq Gij Vehsuenq Gyae Daengz Bi 2035 Gvendaengz Hwngfat Gozminz Ginghei Caeuq Aenbiengz》",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0018",
+      "coordinates": {
+        "x_min": 438.98,
+        "y_min": 781.73,
+        "x_max": 653.41,
+        "y_max": 881.55
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Sai : Biek nuengx youq bakdou, Ndang gou fouz baenz nyap ③ , Fouz baenz nyap gyangdah,",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0019",
+      "coordinates": {
+        "x_min": 438.43,
+        "y_min": 909.5,
+        "x_max": 652.67,
+        "y_max": 976.5
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "youq okcienz beijlwd,",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 41,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0020",
+      "coordinates": {
+        "x_min": 437.53,
+        "y_min": 982.3,
+        "x_max": 652.25,
+        "y_max": 1131.35
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "daih'it diuh mbouj sij diuhhauh, daihngeih, sam, seiq, haj, roek doengh aen diuh nei x cungj aeu sij. Seizneix sien hag roek aen diuhsingdoeng neix.",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 46,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0021",
+      "coordinates": {
+        "x_min": 436.91,
+        "y_min": 1137.16,
+        "x_max": 651.34,
+        "y_max": 1236.97
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ciuqeiq hawciengz, ciennieh hae yinhguh, youq okcienz beijlwd, souik hawj leih,",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 52,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0022",
+      "coordinates": {
+        "x_min": 436.36,
+        "y_min": 1264.92,
+        "x_max": 650.6,
+        "y_max": 1331.92
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "naeuz: \"Baenz, riengz",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 55,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0023",
+      "coordinates": {
+        "x_min": 435.31,
+        "y_min": 1337.72,
+        "x_max": 650.17,
+        "y_max": 1511.44
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "3 Ciuq dangjcangh moq gvidingh, senjok aen cunghyangh veijyenzvei. cunghyangh guvwn veijyenzvei caeuq cungh-yangh giliz genjcz veijyenzvei moq.",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 57,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0024",
+      "coordinates": {
+        "x_min": 434.7,
+        "y_min": 1517.24,
+        "x_max": 649.13,
+        "y_max": 1616.95
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "lo cix mbouj rox. Seizhaenx, miz boux hauxseng doegsaw ndeu bae gingsingz wngqgauj,",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 59,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0025",
+      "coordinates": {
+        "x_min": 434.34,
+        "y_min": 1644.91,
+        "x_max": 648.38,
+        "y_max": 1679.08
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "Dai coz sim mbouj",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 61,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0026",
+      "coordinates": {
+        "x_min": 433.72,
+        "y_min": 1684.88,
+        "x_max": 648.15,
+        "y_max": 1784.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "maqmuengh mbanjranz couh youq gwnz ndang sou lo!” Dingq lauxsae coenz vah neix,",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 64,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0027",
+      "coordinates": {
+        "x_min": 433.11,
+        "y_min": 1790.5,
+        "x_max": 647.54,
+        "y_max": 1890.22
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "baenz cienh. Vaiz mbok coh ndeij gaeu, faenh hoiq deng Dah Gyax. Lwg raen naj meh.",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 65,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0028",
+      "coordinates": {
+        "x_min": 674.55,
+        "y_min": 200.02,
+        "x_max": 888.79,
+        "y_max": 267.01
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "daeuj Dahbengz : Roegenq",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0029",
+      "coordinates": {
+        "x_min": 673.79,
+        "y_min": 272.81,
+        "x_max": 888.36,
+        "y_max": 397.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Aenhauh okbanj: CN45-0036 B.2025 Nd.10 Ng.1 Liggaeuq ietceih nienz ndwenbet cocib Geizsoq: Gungh daih 3688 geiz",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0030",
+      "coordinates": {
+        "x_min": 673.17,
+        "y_min": 403.0,
+        "x_max": 887.6,
+        "y_max": 502.82
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "laux doxlawh ndeu. Muzdiz dwg sawj cunghyangh veijenzvei nenzginghva, doengzseiz",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0031",
+      "coordinates": {
+        "x_min": 672.62,
+        "y_min": 530.77,
+        "x_max": 886.86,
+        "y_max": 597.76
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "hauh. Gvangjsih bouh",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0032",
+      "coordinates": {
+        "x_min": 671.86,
+        "y_min": 603.57,
+        "x_max": 886.44,
+        "y_max": 728.05
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "9 Veiz Yinghcaiz. Cungguek Ywcuengh Vaigohyoz M . Baekging: Baekging Dayoz Yihyoz Cuzbanjse, 2017.",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0033",
+      "coordinates": {
+        "x_min": 671.25,
+        "y_min": 733.86,
+        "x_max": 885.68,
+        "y_max": 833.57
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "gwnz gyaeuj cungj hwnj nwnj, mizhoux gen ga deng gaeu gat, deng oen coeg oklwed.",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0034",
+      "coordinates": {
+        "x_min": 670.88,
+        "y_min": 861.52,
+        "x_max": 884.93,
+        "y_max": 895.69
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "gvaiq mbouj ndaej",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 38,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0035",
+      "coordinates": {
+        "x_min": 669.98,
+        "y_min": 901.49,
+        "x_max": 884.7,
+        "y_max": 1050.55
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "CUNGHGOZ GUNGCANJDANGJ DAIH CIB NGEIH BAEZ DAENGX GUEK DAIBYAUJ DAIHHOIH GAIHMUSWZ",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 43,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0036",
+      "coordinates": {
+        "x_min": 669.37,
+        "y_min": 1056.35,
+        "x_max": 883.8,
+        "y_max": 1156.16
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Dah Bengz : daxmeh cin caw rwix dungx qyak, gaiq ndei hawj gou gwn, gaiq rwix ce hawj beix.",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 49,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0037",
+      "coordinates": {
+        "x_min": 669.01,
+        "y_min": 1184.12,
+        "x_max": 883.05,
+        "y_max": 1218.18
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "hix aeu daengz",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 53,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0038",
+      "coordinates": {
+        "x_min": 668.39,
+        "y_min": 1223.99,
+        "x_max": 882.82,
+        "y_max": 1323.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ok gij heiq ndei guji cauhmoq, soengyungz saethaih, lai hawj vunz gaenz roengzgoek.",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 54,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0039",
+      "coordinates": {
+        "x_min": 667.78,
+        "y_min": 1329.61,
+        "x_max": 882.21,
+        "y_max": 1429.42
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "lingjduaj dwj daj goekgaen hauj raeuz doihaeuj gij yendaiva yieng Cungguek. Faenh",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 56,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0040",
+      "coordinates": {
+        "x_min": 667.22,
+        "y_min": 1457.37,
+        "x_max": 881.46,
+        "y_max": 1524.37
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "vava loegloeg, Gamjlezningz",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 58,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0041",
+      "coordinates": {
+        "x_min": 666.61,
+        "y_min": 1530.17,
+        "x_max": 881.04,
+        "y_max": 1629.99
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "bae Swconh fangjvwn seiz youq gyangroen gangj gij vah haenx ndawde bouhfaenh ndeu.",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 60,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0042",
+      "coordinates": {
+        "x_min": 665.99,
+        "y_min": 1635.79,
+        "x_max": 880.42,
+        "y_max": 1735.5
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "doxgap guh, Coh aen \"loqsiengj Cungguek\", Youq gwnz diuz roen hung neix haenqrengz",
+      "is_text": true,
+      "order": "41",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 62,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0043",
+      "coordinates": {
+        "x_min": 922.88,
+        "y_min": 201.47,
+        "x_max": 1170.0,
+        "y_max": 227.07
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "Mboq Doengh",
+      "is_text": true,
+      "order": "42",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "21px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0044",
+      "coordinates": {
+        "x_min": 922.64,
+        "y_min": 233.69,
+        "x_max": 1169.81,
+        "y_max": 267.95
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "Dahgyoij doiq caiczawj cangj:",
+      "is_text": true,
+      "order": "43",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0045",
+      "coordinates": {
+        "x_min": 922.33,
+        "y_min": 266.51,
+        "x_max": 1169.62,
+        "y_max": 321.51
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "17 CIENSIM MAEUZ FAZCANJ CAEZSIM CAUH HUZNDEI",
+      "is_text": true,
+      "order": "44",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0046",
+      "coordinates": {
+        "x_min": 922.13,
+        "y_min": 320.07,
+        "x_max": 1169.31,
+        "y_max": 354.44
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "De lienzlienz nyingz sam",
+      "is_text": true,
+      "order": "45",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0047",
+      "coordinates": {
+        "x_min": 921.94,
+        "y_min": 353.0,
+        "x_max": 1169.12,
+        "y_max": 387.26
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "lumj fwn, dw-grengz yaek",
+      "is_text": true,
+      "order": "46",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0048",
+      "coordinates": {
+        "x_min": 921.51,
+        "y_min": 385.82,
+        "x_max": 1168.93,
+        "y_max": 461.66
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "haw 、dawz 、dawz 、dawh 、cawx 、hawq 、gawq 、gawh ， aw",
+      "is_text": true,
+      "order": "47",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0049",
+      "coordinates": {
+        "x_min": 921.08,
+        "y_min": 460.23,
+        "x_max": 1168.49,
+        "y_max": 535.97
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "24 SAM NYIED SAM BOUXCUENGH HUZNDEI YOUQ BAZGVEI “ · ”",
+      "is_text": true,
+      "order": "48",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0050",
+      "coordinates": {
+        "x_min": 920.64,
+        "y_min": 534.53,
+        "x_max": 1168.06,
+        "y_max": 610.37
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "YIVU GYAUYUZ GOCWNGZ BYAUHCUNJ SAWCUENGH SIZYEN GYAUGOHSUH",
+      "is_text": true,
+      "order": "49",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0051",
+      "coordinates": {
+        "x_min": 920.45,
+        "y_min": 608.93,
+        "x_max": 1167.63,
+        "y_max": 643.2
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "yied lai, go faex couh yied",
+      "is_text": true,
+      "order": "50",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0052",
+      "coordinates": {
+        "x_min": 920.26,
+        "y_min": 641.76,
+        "x_max": 1167.44,
+        "y_max": 676.12
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "vunz doxhaep, Lumj duzma",
+      "is_text": true,
+      "order": "51",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0053",
+      "coordinates": {
+        "x_min": 919.95,
+        "y_min": 674.68,
+        "x_max": 1167.24,
+        "y_max": 729.69
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "o fouxndoengz godaihcing / govaihag vagominz makdumh",
+      "is_text": true,
+      "order": "52",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0054",
+      "coordinates": {
+        "x_min": 919.63,
+        "y_min": 728.25,
+        "x_max": 1166.93,
+        "y_max": 783.35
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "daj《Nanzningz Vanjbau》aeu daeuj genj hoiz. Hanz Bei",
+      "is_text": true,
+      "order": "53",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0055",
+      "coordinates": {
+        "x_min": 919.44,
+        "y_min": 781.91,
+        "x_max": 1166.62,
+        "y_max": 816.18
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "lijyouz canjnieh hwngvuengh",
+      "is_text": true,
+      "order": "54",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0056",
+      "coordinates": {
+        "x_min": 919.25,
+        "y_min": 814.74,
+        "x_max": 1166.43,
+        "y_max": 849.0
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "dangj raeuz miz yiyi youqgaenj,",
+      "is_text": true,
+      "order": "55",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0057",
+      "coordinates": {
+        "x_min": 918.94,
+        "y_min": 847.56,
+        "x_max": 1166.24,
+        "y_max": 902.67
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "Swciyen Yungzsuij Cin Myauzgyah",
+      "is_text": true,
+      "order": "56",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 39,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0058",
+      "coordinates": {
+        "x_min": 918.75,
+        "y_min": 901.23,
+        "x_max": 1165.93,
+        "y_max": 935.49
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "doihaeuj hong diuzcingj guheaez",
+      "is_text": true,
+      "order": "57",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 40,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0059",
+      "coordinates": {
+        "x_min": 918.56,
+        "y_min": 934.05,
+        "x_max": 1165.73,
+        "y_max": 968.32
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "Siujbingz dungzci sij bien",
+      "is_text": true,
+      "order": "58",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 42,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0060",
+      "coordinates": {
+        "x_min": 918.37,
+        "y_min": 966.88,
+        "x_max": 1165.54,
+        "y_max": 1001.14
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "dwg Nanzningz Si Minzeuz",
+      "is_text": true,
+      "order": "59",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 44,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0061",
+      "coordinates": {
+        "x_min": 918.17,
+        "y_min": 999.7,
+        "x_max": 1165.35,
+        "y_max": 1034.05
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "x max q gvaq h dah p、t、k",
+      "is_text": true,
+      "order": "60",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 45,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0062",
+      "coordinates": {
+        "x_min": 917.98,
+        "y_min": 1032.62,
+        "x_max": 1165.16,
+        "y_max": 1066.88
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "dwg lienz, cih he dwg raemx,",
+      "is_text": true,
+      "order": "61",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 47,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0063",
+      "coordinates": {
+        "x_min": 917.79,
+        "y_min": 1065.45,
+        "x_max": 1164.97,
+        "y_max": 1099.7
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "Level Examination special",
+      "is_text": true,
+      "order": "62",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 48,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0064",
+      "coordinates": {
+        "x_min": 917.6,
+        "y_min": 1098.26,
+        "x_max": 1164.78,
+        "y_max": 1132.53
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "Muengh mwngz gvaq ndaej ndi!",
+      "is_text": true,
+      "order": "63",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 50,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0065",
+      "coordinates": {
+        "x_min": 917.17,
+        "y_min": 1131.09,
+        "x_max": 1164.59,
+        "y_max": 1206.93
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "BOUX BOZSW FEIHCOUH NDIEPGYAEZ VAHCUENGH——Bozaidunh ——Adams",
+      "is_text": true,
+      "order": "64",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 51,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_01_b0066",
+      "coordinates": {
+        "x_min": 20.21,
+        "y_min": 1906.7,
+        "x_max": 1160.04,
+        "y_max": 1924.79
+      },
+      "points": null,
+      "block_label": "footer",
+      "block_content": "newspaper json template v01",
+      "is_text": true,
+      "order": "65",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 66,
+      "reading_group": "footer",
+      "reading_role": "footer",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T05:14:23.863Z",
+  "updated_at": "2026-07-03T13:15:49"
+}

@@ -1,0 +1,244 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "handwritten_letter_vertical_tree_02",
+  "variant": 2,
+  "category_id": "handwritten_letter",
+  "category_cn": "手写笔记信件",
+  "folder": "12_手写笔记信件",
+  "template_name_cn": "课堂笔记",
+  "layout_family": "class_note",
+  "design_prompt": "笔记页面，标题、分点内容和边栏标记。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1040,
+    "height": 1480,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 10,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "note_paper",
+      "kind": "decor",
+      "label": "decor",
+      "class": "note-fill",
+      "box": {
+        "x": 80,
+        "y": 80,
+        "w": 880,
+        "h": 1320
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "note_title",
+      "class": "subtitle hand",
+      "box": {
+        "x": 130,
+        "y": 120,
+        "w": 44,
+        "h": 1160
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "note_01",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 220,
+        "y": 130,
+        "w": 34,
+        "h": 1100
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "note_02",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 278,
+        "y": 130,
+        "w": 34,
+        "h": 1100
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "note_03",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 336,
+        "y": 130,
+        "w": 34,
+        "h": 1100
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "note_04",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 394,
+        "y": 130,
+        "w": 34,
+        "h": 1100
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "note_05",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 452,
+        "y": 130,
+        "w": 34,
+        "h": 1100
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "note_06",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 510,
+        "y": 130,
+        "w": 34,
+        "h": 1100
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "note_07",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 568,
+        "y": 130,
+        "w": 34,
+        "h": 1100
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "note_08",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 626,
+        "y": 130,
+        "w": 34,
+        "h": 1100
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "note_09",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 684,
+        "y": 130,
+        "w": 34,
+        "h": 1100
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    }
+  ]
+}

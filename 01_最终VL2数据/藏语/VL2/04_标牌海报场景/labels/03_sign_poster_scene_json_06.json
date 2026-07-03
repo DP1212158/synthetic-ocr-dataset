@@ -1,0 +1,251 @@
+{
+  "image_id": "24367bc9-2436-7bc9-2436-24367bc92436",
+  "file_name": "03_sign_poster_scene_json_06.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "v12_category_json_renderer_bo_v1_v4_split_mix_assets",
+    "language_code": "bo",
+    "language_name": "藏语",
+    "script_note": "藏文横排文本，第一阶段用于公开文本源验证与模板填充",
+    "template_type": "sign_poster_scene",
+    "category": "sign_poster_scene",
+    "variant": 6,
+    "layout_name": "sign_poster_scene_v06",
+    "document_id": "03_sign_poster_scene_json_06",
+    "title": "བྱང་བུ་དང་འགྲེམས་བསྒྲགས",
+    "doc_no": "B1-03-06",
+    "date": "2026-07-01",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.16,
+    "chinese_topic": "sign_poster_scene",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 5,
+      "page_width": 1160,
+      "page_height": 535,
+      "body_scroll_width": 1160,
+      "body_scroll_height": 535,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 81,
+        "y": 213,
+        "width": 1153,
+        "height": 494,
+        "enabled": true,
+        "original_width": 1260,
+        "original_height": 980,
+        "content_bbox": {
+          "x_min": 105.1,
+          "y_min": 237.5,
+          "x_max": 1210,
+          "y_max": 682.5
+        },
+        "padding": 24,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.4541,
+        "bottom_blank_ratio_before_crop": 0.3036
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 17462661297896348212,
+        "family": "shadow_photo",
+        "geometry": {
+          "source_size": {
+            "width": 1153,
+            "height": 494
+          },
+          "scale": {
+            "scale": 0.99219,
+            "width": 1144,
+            "height": 490
+          },
+          "rotation": {
+            "angle_degrees": -2.6941,
+            "width": 1166,
+            "height": 544
+          },
+          "translation": {
+            "dx": 1,
+            "dy": -1,
+            "width": 1166,
+            "height": 544
+          },
+          "edge_crop": {
+            "left": 1,
+            "top": 7,
+            "right": 5,
+            "bottom": 2,
+            "width": 1160,
+            "height": 535
+          },
+          "output_size_before_visual": {
+            "width": 1160,
+            "height": 535
+          }
+        },
+        "output_size": {
+          "width": 1160,
+          "height": 535
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "03_sign_poster_scene_json_06_b0001",
+      "coordinates": {
+        "x_min": 35.69,
+        "y_min": 141.44,
+        "x_max": 620.96,
+        "y_max": 184.21
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_sign_poster_scene_json_06_b0002",
+      "coordinates": {
+        "x_min": 33.41,
+        "y_min": 141.44,
+        "x_max": 624.93,
+        "y_max": 268.76
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ཀ་ཐོག་དགོ 请保",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "60px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_sign_poster_scene_json_06_b0003",
+      "coordinates": {
+        "x_min": 34.74,
+        "y_min": 247.72,
+        "x_max": 628.78,
+        "y_max": 409.66
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "རྡོ་བརྐོས་དེར་བུད་མེད་ཅིག་གི་མཛེས་པ་དང་བབ་ཆགས་ཀ。报名信息请现场确认。开放时间以公告为准；现场广播将发布提示",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "29px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_sign_poster_scene_json_06_b0004",
+      "coordinates": {
+        "x_min": 703.83,
+        "y_min": 17.4,
+        "x_max": 1139.67,
+        "y_max": 453.25
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": false,
+        "asset_id": "COCO_val2014_000000035770",
+        "asset_source": "random120-coco2014",
+        "asset_crop": "object-fit-cover"
+      },
+      "reading_order": 4,
+      "reading_group": "image",
+      "reading_role": "image",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_sign_poster_scene_json_06_b0005",
+      "coordinates": {
+        "x_min": 723.41,
+        "y_min": 433.66,
+        "x_max": 1140.84,
+        "y_max": 478.02
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "བྱང་བུ་དང་འགྲེམས་བསྒྲགས",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T05:36:30.432Z",
+  "updated_at": "2026-07-03T13:37:39"
+}

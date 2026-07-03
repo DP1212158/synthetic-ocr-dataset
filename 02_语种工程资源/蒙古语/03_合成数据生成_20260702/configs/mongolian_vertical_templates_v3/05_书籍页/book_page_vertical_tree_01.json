@@ -1,0 +1,327 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "book_page_vertical_tree_01",
+  "variant": 1,
+  "category_id": "book_page",
+  "category_cn": "书籍页",
+  "folder": "05_书籍页",
+  "template_name_cn": "经典密排书页",
+  "layout_family": "classic_dense_book",
+  "design_prompt": "传统竖排书籍正文页，多列正文铺满页面。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 980,
+    "height": 1500,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 8,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "page",
+      "kind": "text",
+      "label": "page_number",
+      "role": "page_number",
+      "class": "tiny",
+      "box": {
+        "x": 56,
+        "y": 64,
+        "w": 34,
+        "h": 1350
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 24,
+        "max_chars": 96,
+        "value": "1"
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "book_title",
+      "class": "title",
+      "box": {
+        "x": 122,
+        "y": 74,
+        "w": 48,
+        "h": 1320
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 8,
+        "max_chars": 42
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 220,
+        "y": 74,
+        "w": 30,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 140
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 270,
+        "y": 74,
+        "w": 30,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 140
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 320,
+        "y": 74,
+        "w": 30,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 140
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 370,
+        "y": 74,
+        "w": 30,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 140
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 420,
+        "y": 74,
+        "w": 30,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 140
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 470,
+        "y": 74,
+        "w": 30,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 140
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_07",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 520,
+        "y": 74,
+        "w": 30,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 140
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_08",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 570,
+        "y": 74,
+        "w": 30,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 140
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_09",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 620,
+        "y": 74,
+        "w": 30,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 140
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_10",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 670,
+        "y": 74,
+        "w": 30,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 140
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_11",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 720,
+        "y": 74,
+        "w": 30,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 140
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_12",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 770,
+        "y": 74,
+        "w": 30,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 140
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_13",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 820,
+        "y": 74,
+        "w": 30,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 140
+      },
+      "visual": {}
+    }
+  ]
+}

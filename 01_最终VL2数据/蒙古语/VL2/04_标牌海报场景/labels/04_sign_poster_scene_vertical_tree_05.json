@@ -1,0 +1,309 @@
+{
+  "image_id": "ce21c320-ce21-c320-ce21-ce21c320ce21",
+  "file_name": "04_sign_poster_scene_vertical_tree_05.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "mongolian_vertical_json_tree_v3_v4_split_mix_assets",
+    "language_code": "mn-trad",
+    "language_name": "传统蒙古文",
+    "script_note": "传统蒙古文，竖排从上到下，列从左到右",
+    "template_type": "sign_poster_scene",
+    "category": "sign_poster_scene",
+    "variant": 5,
+    "layout_name": "sign_poster_scene_vertical_tree_05",
+    "document_id": "04_sign_poster_scene_vertical_tree_05",
+    "title": "标牌海报场景",
+    "doc_no": "MN-V3-04-05",
+    "date": "2026-07-02",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "sign_poster_scene",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 7,
+      "page_width": 894,
+      "page_height": 1041,
+      "body_scroll_width": 894,
+      "body_scroll_height": 1041,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 96,
+        "y": 76,
+        "width": 804,
+        "height": 968,
+        "enabled": true,
+        "original_width": 920,
+        "original_height": 1180,
+        "content_bbox": {
+          "x_min": 120,
+          "y_min": 100,
+          "x_max": 876,
+          "y_max": 1020
+        },
+        "padding": 24,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.7797,
+        "bottom_blank_ratio_before_crop": 0.1356
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 4860468719602407374,
+        "family": "printed_noise",
+        "geometry": {
+          "source_size": {
+            "width": 804,
+            "height": 968
+          },
+          "scale": {
+            "scale": 1.00339,
+            "width": 807,
+            "height": 971
+          },
+          "rotation": {
+            "angle_degrees": 5.8398,
+            "width": 902,
+            "height": 1049
+          },
+          "translation": {
+            "dx": -6,
+            "dy": 0,
+            "width": 902,
+            "height": 1049
+          },
+          "edge_crop": {
+            "left": 1,
+            "top": 8,
+            "right": 7,
+            "bottom": 0,
+            "width": 894,
+            "height": 1041
+          },
+          "output_size_before_visual": {
+            "width": 894,
+            "height": 1041
+          }
+        },
+        "output_size": {
+          "width": 894,
+          "height": 1041
+        }
+      }
+    },
+    "reading_order_policy": "vertical_lr_columns_top_to_bottom_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "04_sign_poster_scene_vertical_tree_05_b0002",
+      "coordinates": {
+        "x_min": 76.55,
+        "y_min": 18.41,
+        "x_max": 372.83,
+        "y_max": 404.29
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": false,
+        "asset_id": "COCO_val2014_000000000359",
+        "asset_source": "random120-coco2014",
+        "asset_crop": "object-fit-cover"
+      },
+      "reading_order": 7,
+      "reading_group": "image",
+      "reading_role": "image",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_vertical_tree_05_b0003",
+      "coordinates": {
+        "x_min": 318.83,
+        "y_min": 49.03,
+        "x_max": 476.65,
+        "y_max": 973.9
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "34px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "body",
+      "reading_role": "title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_vertical_tree_05_b0004",
+      "coordinates": {
+        "x_min": 436.8,
+        "y_min": 80.23,
+        "x_max": 554.46,
+        "y_max": 902.21
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠠᠭᠤᠤ ᠶᠡᠬᠡ ᠡᠷᠭᠢᠯᠲᠡ ᠶᠢ ᠪᠡᠶᠡᠯᠡᠭᠦᠯᠵᠦ᠂ ᠥᠭᠡᠷᠡᠴᠢᠯᠡᠯᠲᠡ ᠨᠡᠭᠡᠭᠡᠯᠲᠡ ᠪᠠ ᠨᠡᠢᠭᠡᠮ",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_vertical_tree_05_b0005",
+      "coordinates": {
+        "x_min": 514.66,
+        "y_min": 88.19,
+        "x_max": 632.31,
+        "y_max": 910.17
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠢᠮᠠᠭᠠᠨ ᠤᠰᠤᠨ ᠨᠢᠳᠤᠨᠤᠨ ᠪᠠᠢᠭᠰᠠᠨ ᠲᠡᠭᠡ ᠮᠥᠨ ᠃ ᠶᠠᠭᠠᠬᠢᠬᠤ ᠦᠭᠡᠢ ᠵᠣᠭᠰᠣᠭᠠᠯ ᠳᠤ ᠪᠠᠨ ᠵᠣᠭᠰᠣᠭᠰᠠᠨ ᠲᠡᠭᠡ ᠮᠥᠨ ᠃",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_vertical_tree_05_b0006",
+      "coordinates": {
+        "x_min": 592.52,
+        "y_min": 96.16,
+        "x_max": 710.18,
+        "y_max": 918.14
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠪᠦᠬᠦᠨ ᠰᠠᠢᠬᠠᠨ ᠴᠤ᠌ ᠢᠷᠡᠨ᠎ᠡ ᠳ᠋ᠠ ᠭᠡᠵᠦ᠍ ᠪᠣᠳᠤᠬᠤ ᠨᠢ ᠢᠯᠡᠭᠦᠦ ᠰᠠᠢᠬᠠᠨ ᠪᠠᠢᠳᠠᠭ᠃",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_vertical_tree_05_b0007",
+      "coordinates": {
+        "x_min": 670.37,
+        "y_min": 104.12,
+        "x_max": 788.03,
+        "y_max": 926.1
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠪᠦᠷᠢᠨ ᠵᠦᠪ ᠬᠠᠷᠢᠭᠤᠯᠲᠠ ᠶᠢᠨ ᠳ᠋ᠤᠭᠠᠷ ᠲᠡᠮᠳᠡᠭ ᠳᠤᠤᠷᠠᠬᠢ ᠬᠠᠭᠠᠯᠲᠠ ᠪᠢᠴᠢ᠃ ᠦᠭᠭᠦᠭᠳᠡᠭᠰᠡᠨ",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_vertical_tree_05_b0008",
+      "coordinates": {
+        "x_min": 748.23,
+        "y_min": 112.08,
+        "x_max": 865.88,
+        "y_max": 934.06
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠡᠨᠡ ᠯᠠ ᠬᠡᠯᠡ ᠪᠡᠷ ᠠᠪᠤ ᠴᠢᠨᠢ ᠡᠬᠢᠨ ᠳᠦ ᠪᠡᠨ ᠰᠢᠯᠦᠭ ᠢ ᠬᠡᠯᠬᠢᠭ᠍ᠰᠡᠨ ᠶᠤᠮ ᠡᠨᠡ",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    }
+  ],
+  "created_at": "2026-07-03T06:38:16.909Z",
+  "updated_at": "2026-07-03T14:39:24"
+}

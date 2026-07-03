@@ -1,0 +1,109 @@
+{
+  "category": {
+    "category_id": "notice_announcement",
+    "category_cn": "公告通知",
+    "title": "བརྡ་ཁྱབ་བརྡ་ཐོ",
+    "templates": [
+      {
+        "template_id": "notice_announcement_v01",
+        "variant": 1,
+        "layout_family": "formal_notice",
+        "content_density": "medium_high",
+        "page": {
+          "width": 1240,
+          "height": 1754
+        },
+        "preserve_full_page": true,
+        "structure": [
+          "issuer",
+          "doc_no",
+          "title",
+          "body",
+          "signature"
+        ]
+      },
+      {
+        "template_id": "notice_announcement_v02",
+        "variant": 2,
+        "layout_family": "bulletin_board_notice",
+        "content_density": "medium_high",
+        "page": {
+          "width": 1240,
+          "height": 1650
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "bold_title",
+          "items",
+          "contact_box",
+          "border"
+        ]
+      },
+      {
+        "template_id": "notice_announcement_v03",
+        "variant": 3,
+        "layout_family": "meeting_notice",
+        "content_density": "medium_high",
+        "page": {
+          "width": 1240,
+          "height": 1650
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "meeting_info",
+          "agenda",
+          "notice_notes"
+        ]
+      },
+      {
+        "template_id": "notice_announcement_v04",
+        "variant": 4,
+        "layout_family": "attachment_notice",
+        "content_density": "dense",
+        "page": {
+          "width": 1240,
+          "height": 1754
+        },
+        "preserve_full_page": true,
+        "structure": [
+          "body",
+          "attachments",
+          "submission_notes"
+        ]
+      },
+      {
+        "template_id": "notice_announcement_v05",
+        "variant": 5,
+        "layout_family": "public_notice",
+        "content_density": "medium_high",
+        "page": {
+          "width": 1240,
+          "height": 1650
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "public_title",
+          "public_body",
+          "supervision_info"
+        ]
+      },
+      {
+        "template_id": "notice_announcement_v06",
+        "variant": 6,
+        "layout_family": "timeline_notice",
+        "content_density": "medium_high",
+        "page": {
+          "width": 1240,
+          "height": 1650
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "timeline",
+          "remarks",
+          "footer"
+        ]
+      }
+    ]
+  },
+  "source_schema": "category_layout_templates.v1"
+}

@@ -1,0 +1,339 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "historical_classic_vertical_tree_06",
+  "variant": 6,
+  "category_id": "historical_classic",
+  "category_cn": "历史文档_古籍",
+  "folder": "09_历史文档_古籍",
+  "template_name_cn": "家谱谱牒页",
+  "layout_family": "genealogy_record",
+  "design_prompt": "谱牒/名单式页面，多列短条目和分隔线。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 960,
+    "height": 1600,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 10,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "outer",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box",
+      "box": {
+        "x": 44,
+        "y": 44,
+        "w": 872,
+        "h": 1512
+      },
+      "visual": {}
+    },
+    {
+      "id": "meta",
+      "kind": "text",
+      "label": "metadata",
+      "role": "archive_meta",
+      "class": "small",
+      "box": {
+        "x": 92,
+        "y": 86,
+        "w": 42,
+        "h": 1400
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 20
+      },
+      "visual": {}
+    },
+    {
+      "id": "name_1",
+      "kind": "text",
+      "label": "list_item",
+      "role": "genealogy_item",
+      "class": "small",
+      "box": {
+        "x": 170,
+        "y": 100,
+        "w": 30,
+        "h": 1260
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "name_2",
+      "kind": "text",
+      "label": "list_item",
+      "role": "genealogy_item",
+      "class": "small",
+      "box": {
+        "x": 222,
+        "y": 100,
+        "w": 30,
+        "h": 1260
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "name_3",
+      "kind": "text",
+      "label": "list_item",
+      "role": "genealogy_item",
+      "class": "small",
+      "box": {
+        "x": 274,
+        "y": 100,
+        "w": 30,
+        "h": 1260
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "name_4",
+      "kind": "text",
+      "label": "list_item",
+      "role": "genealogy_item",
+      "class": "small",
+      "box": {
+        "x": 326,
+        "y": 100,
+        "w": 30,
+        "h": 1260
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "name_5",
+      "kind": "text",
+      "label": "list_item",
+      "role": "genealogy_item",
+      "class": "small",
+      "box": {
+        "x": 378,
+        "y": 100,
+        "w": 30,
+        "h": 1260
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "name_6",
+      "kind": "text",
+      "label": "list_item",
+      "role": "genealogy_item",
+      "class": "small",
+      "box": {
+        "x": 430,
+        "y": 100,
+        "w": 30,
+        "h": 1260
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "name_7",
+      "kind": "text",
+      "label": "list_item",
+      "role": "genealogy_item",
+      "class": "small",
+      "box": {
+        "x": 482,
+        "y": 100,
+        "w": 30,
+        "h": 1260
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "name_8",
+      "kind": "text",
+      "label": "list_item",
+      "role": "genealogy_item",
+      "class": "small",
+      "box": {
+        "x": 534,
+        "y": 100,
+        "w": 30,
+        "h": 1260
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "name_9",
+      "kind": "text",
+      "label": "list_item",
+      "role": "genealogy_item",
+      "class": "small",
+      "box": {
+        "x": 586,
+        "y": 100,
+        "w": 30,
+        "h": 1260
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "name_10",
+      "kind": "text",
+      "label": "list_item",
+      "role": "genealogy_item",
+      "class": "small",
+      "box": {
+        "x": 638,
+        "y": 100,
+        "w": 30,
+        "h": 1260
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "name_11",
+      "kind": "text",
+      "label": "list_item",
+      "role": "genealogy_item",
+      "class": "small",
+      "box": {
+        "x": 690,
+        "y": 100,
+        "w": 30,
+        "h": 1260
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "name_12",
+      "kind": "text",
+      "label": "list_item",
+      "role": "genealogy_item",
+      "class": "small",
+      "box": {
+        "x": 742,
+        "y": 100,
+        "w": 30,
+        "h": 1260
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "name_13",
+      "kind": "text",
+      "label": "list_item",
+      "role": "genealogy_item",
+      "class": "small",
+      "box": {
+        "x": 794,
+        "y": 100,
+        "w": 30,
+        "h": 1260
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "name_14",
+      "kind": "text",
+      "label": "list_item",
+      "role": "genealogy_item",
+      "class": "small",
+      "box": {
+        "x": 846,
+        "y": 100,
+        "w": 30,
+        "h": 1260
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 44
+      },
+      "visual": {}
+    }
+  ]
+}

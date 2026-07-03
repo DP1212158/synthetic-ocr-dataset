@@ -1,0 +1,366 @@
+{
+  "schema_version": "category_layout_templates.v1",
+  "language_code": "za",
+  "description": "v12 第二批阅读型页面结构树：书籍页、教科书页、杂志期刊页。",
+  "categories": [
+    {
+      "category_id": "book_page",
+      "category_cn": "书籍页",
+      "title": "Sawbon Yieb",
+      "templates": [
+        {
+          "template_id": "book_page_v01",
+          "variant": 1,
+          "layout_family": "traditional_chapter_body",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "running_header",
+            "chapter_title",
+            "two_column_body",
+            "folio"
+          ],
+          "tight_crop": false
+        },
+        {
+          "template_id": "book_page_v02",
+          "variant": 2,
+          "layout_family": "chapter_opener",
+          "content_density": "medium",
+          "page": {
+            "width": 1240,
+            "height": 1620
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "chapter_number",
+            "large_title",
+            "epigraph",
+            "opening_paragraphs",
+            "margin_notes"
+          ],
+          "tight_crop": true
+        },
+        {
+          "template_id": "book_page_v03",
+          "variant": 3,
+          "layout_family": "illustrated_annotation_page",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "section_title",
+            "body_text",
+            "image_figure",
+            "caption",
+            "continuation_text"
+          ],
+          "tight_crop": false
+        },
+        {
+          "template_id": "book_page_v04",
+          "variant": 4,
+          "layout_family": "marginalia_reading_page",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "main_text_column",
+            "outer_margin_notes",
+            "keyword_index",
+            "folio"
+          ],
+          "tight_crop": false
+        },
+        {
+          "template_id": "book_page_v05",
+          "variant": 5,
+          "layout_family": "book_contents_page",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1240,
+            "height": 1500
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "contents_title",
+            "chapter_entries",
+            "leaders",
+            "page_numbers"
+          ],
+          "tight_crop": true
+        },
+        {
+          "template_id": "book_page_v06",
+          "variant": 6,
+          "layout_family": "selected_readings_extract",
+          "content_density": "medium",
+          "page": {
+            "width": 1240,
+            "height": 1600
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "extract_blocks",
+            "source_notes",
+            "separator_rules",
+            "folio"
+          ],
+          "tight_crop": true
+        }
+      ]
+    },
+    {
+      "category_id": "textbook_page",
+      "category_cn": "教科书页",
+      "title": "Sawyoz Yieb",
+      "templates": [
+        {
+          "template_id": "textbook_page_v01",
+          "variant": 1,
+          "layout_family": "lesson_explanation",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "lesson_number",
+            "lesson_title",
+            "knowledge_points",
+            "example_box",
+            "key_point_sidebar"
+          ],
+          "tight_crop": true
+        },
+        {
+          "template_id": "textbook_page_v02",
+          "variant": 2,
+          "layout_family": "practice_exercise_page",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "exercise_header",
+            "numbered_questions",
+            "answer_lines",
+            "hint_footer"
+          ],
+          "tight_crop": true
+        },
+        {
+          "template_id": "textbook_page_v03",
+          "variant": 3,
+          "layout_family": "diagram_explanation",
+          "content_density": "medium",
+          "page": {
+            "width": 1240,
+            "height": 1600
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "large_diagram",
+            "numbered_callouts",
+            "concept_summary",
+            "caption"
+          ],
+          "tight_crop": true
+        },
+        {
+          "template_id": "textbook_page_v04",
+          "variant": 4,
+          "layout_family": "vocabulary_terms",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "term_entries",
+            "definitions",
+            "examples",
+            "side_index"
+          ],
+          "tight_crop": true
+        },
+        {
+          "template_id": "textbook_page_v05",
+          "variant": 5,
+          "layout_family": "class_activity",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1240,
+            "height": 1650
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "activity_title",
+            "task_description",
+            "step_list",
+            "materials",
+            "observation_area"
+          ],
+          "tight_crop": true
+        },
+        {
+          "template_id": "textbook_page_v06",
+          "variant": 6,
+          "layout_family": "unit_review",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1240,
+            "height": 1700
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "unit_title",
+            "review_blocks",
+            "mini_exercises",
+            "self_check"
+          ],
+          "tight_crop": true
+        }
+      ]
+    },
+    {
+      "category_id": "magazine_journal",
+      "category_cn": "杂志期刊页",
+      "title": "Cazci Gijbon",
+      "templates": [
+        {
+          "template_id": "magazine_journal_v01",
+          "variant": 1,
+          "layout_family": "feature_opening_spread",
+          "content_density": "medium",
+          "page": {
+            "width": 1240,
+            "height": 1500
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "hero_image",
+            "department_name",
+            "feature_title",
+            "deck",
+            "short_blocks"
+          ],
+          "tight_crop": true
+        },
+        {
+          "template_id": "magazine_journal_v02",
+          "variant": 2,
+          "layout_family": "cover_like_journal_page",
+          "content_density": "medium",
+          "page": {
+            "width": 1240,
+            "height": 1600
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "journal_name",
+            "issue_info",
+            "central_visual",
+            "cover_lines",
+            "date"
+          ],
+          "tight_crop": true
+        },
+        {
+          "template_id": "magazine_journal_v03",
+          "variant": 3,
+          "layout_family": "landscape_photo_essay",
+          "content_density": "medium",
+          "page": {
+            "width": 1500,
+            "height": 920
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "landscape_image",
+            "caption",
+            "article_columns",
+            "department_label"
+          ],
+          "tight_crop": true
+        },
+        {
+          "template_id": "magazine_journal_v04",
+          "variant": 4,
+          "layout_family": "journal_contents_guide",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1240,
+            "height": 1350
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "contents_header",
+            "section_labels",
+            "article_entries",
+            "abstracts",
+            "page_numbers"
+          ],
+          "tight_crop": true
+        },
+        {
+          "template_id": "magazine_journal_v05",
+          "variant": 5,
+          "layout_family": "column_article",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "column_name",
+            "article_title",
+            "author_info",
+            "three_column_text",
+            "pull_quote"
+          ],
+          "tight_crop": true
+        },
+        {
+          "template_id": "magazine_journal_v06",
+          "variant": 6,
+          "layout_family": "modular_information_page",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1240,
+            "height": 1500
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "feature_card",
+            "small_modules",
+            "visual_block",
+            "metadata_chips"
+          ],
+          "tight_crop": true
+        }
+      ]
+    }
+  ],
+  "version": "v2",
+  "optimization_notes": [
+    "text source title noise is handled by synthetic_text_utils",
+    "tight_crop enabled for non-full-page or sparse templates",
+    "weak classes strengthened through category-specific renderer changes"
+  ]
+}

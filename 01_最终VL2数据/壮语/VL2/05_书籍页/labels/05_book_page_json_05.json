@@ -1,0 +1,2223 @@
+{
+  "image_id": "dba2ffcb-dba2-ffcb-dba2-dba2ffcbdba2",
+  "file_name": "05_book_page_json_05.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "reading_pages_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "za",
+    "language_name": "壮语",
+    "script_note": "现代标准壮文 Vahcuengh，拉丁字母拼写",
+    "template_type": "book_page",
+    "category": "book_page",
+    "variant": 5,
+    "layout_name": "book_page_v05",
+    "document_id": "05_book_page_json_05",
+    "title": "Sawbon Yieb",
+    "doc_no": "ZA-V2-05-05",
+    "date": "2026-07-02",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "book_page",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 73,
+      "page_width": 1244,
+      "page_height": 1044,
+      "body_scroll_width": 1244,
+      "body_scroll_height": 1044,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 31,
+        "y": 23,
+        "width": 1178,
+        "height": 973,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1500,
+        "content_bbox": {
+          "x_min": 62,
+          "y_min": 54,
+          "x_max": 1178,
+          "y_max": 965
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.6073,
+        "bottom_blank_ratio_before_crop": 0.3567
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 1157216733706970628,
+        "family": "compressed_scan",
+        "geometry": {
+          "source_size": {
+            "width": 1178,
+            "height": 973
+          },
+          "scale": {
+            "scale": 1.01279,
+            "width": 1193,
+            "height": 985
+          },
+          "rotation": {
+            "angle_degrees": -3.2112,
+            "width": 1247,
+            "height": 1051
+          },
+          "translation": {
+            "dx": -1,
+            "dy": 2,
+            "width": 1247,
+            "height": 1051
+          },
+          "edge_crop": {
+            "left": 3,
+            "top": 2,
+            "right": 0,
+            "bottom": 5,
+            "width": 1244,
+            "height": 1044
+          },
+          "output_size_before_visual": {
+            "width": 1244,
+            "height": 1044
+          }
+        },
+        "output_size": {
+          "width": 1244,
+          "height": 1044
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "05_book_page_json_05_b0073",
+      "coordinates": {
+        "x_min": 29.11,
+        "y_min": 33.11,
+        "x_max": 1162.14,
+        "y_max": 177.31
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "Muluq",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "52px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0001",
+      "coordinates": {
+        "x_min": 35.01,
+        "y_min": 173.96,
+        "x_max": 528.76,
+        "y_max": 224.84
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "01 YIZ MINZCUJ CWNGGENZ",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0002",
+      "coordinates": {
+        "x_min": 36.77,
+        "y_min": 205.3,
+        "x_max": 530.2,
+        "y_max": 250.53
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "Dayznio guck rauz vaxdaengz",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0003",
+      "coordinates": {
+        "x_min": 535.55,
+        "y_min": 170.78,
+        "x_max": 586.83,
+        "y_max": 222.44
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "11",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 44,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0004",
+      "coordinates": {
+        "x_min": 614.42,
+        "y_min": 141.45,
+        "x_max": 1108.18,
+        "y_max": 192.33
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "02 Laebguek caetroek bi,",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0005",
+      "coordinates": {
+        "x_min": 616.18,
+        "y_min": 172.79,
+        "x_max": 1109.62,
+        "y_max": 218.02
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "Ginghei gauj ndaej hwnj,",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0006",
+      "coordinates": {
+        "x_min": 1114.96,
+        "y_min": 138.27,
+        "x_max": 1166.25,
+        "y_max": 189.94
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "14",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 43,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0007",
+      "coordinates": {
+        "x_min": 38.83,
+        "y_min": 242.11,
+        "x_max": 532.58,
+        "y_max": 292.99
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "03 gak 15 gwz, cienq",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0008",
+      "coordinates": {
+        "x_min": 40.59,
+        "y_min": 273.45,
+        "x_max": 534.02,
+        "y_max": 318.68
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "gyaqsaw cienmonz gai saw",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0009",
+      "coordinates": {
+        "x_min": 539.38,
+        "y_min": 238.93,
+        "x_max": 590.66,
+        "y_max": 290.6
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "17",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 46,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0010",
+      "coordinates": {
+        "x_min": 618.24,
+        "y_min": 209.6,
+        "x_max": 1112.0,
+        "y_max": 260.48
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "04 baij gwnz daiz,",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0011",
+      "coordinates": {
+        "x_min": 620.0,
+        "y_min": 240.94,
+        "x_max": 1113.44,
+        "y_max": 286.17
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "Aen haenx aen'daiz dwg lwi? Mbouj dwg. Aen'eij.",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0012",
+      "coordinates": {
+        "x_min": 1118.79,
+        "y_min": 206.42,
+        "x_max": 1170.07,
+        "y_max": 258.09
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "20",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 45,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0013",
+      "coordinates": {
+        "x_min": 42.66,
+        "y_min": 310.26,
+        "x_max": 536.41,
+        "y_max": 361.14
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "05 daezok gak hangh",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0014",
+      "coordinates": {
+        "x_min": 44.42,
+        "y_min": 341.61,
+        "x_max": 537.85,
+        "y_max": 386.83
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ciuhgeq caeuq canjnieb",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0015",
+      "coordinates": {
+        "x_min": 543.2,
+        "y_min": 307.08,
+        "x_max": 594.48,
+        "y_max": 358.75
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "23",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 48,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0016",
+      "coordinates": {
+        "x_min": 622.07,
+        "y_min": 277.75,
+        "x_max": 1115.83,
+        "y_max": 328.64
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "06 cij daeuj cij",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0017",
+      "coordinates": {
+        "x_min": 623.82,
+        "y_min": 309.1,
+        "x_max": 1117.27,
+        "y_max": 354.33
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "bae lot fat hang, mo mi",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0018",
+      "coordinates": {
+        "x_min": 1122.61,
+        "y_min": 274.58,
+        "x_max": 1173.9,
+        "y_max": 326.24
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "26",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 47,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0019",
+      "coordinates": {
+        "x_min": 46.48,
+        "y_min": 378.41,
+        "x_max": 540.23,
+        "y_max": 429.31
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "07 ah bah cah dah",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0020",
+      "coordinates": {
+        "x_min": 48.24,
+        "y_min": 409.76,
+        "x_max": 541.67,
+        "y_max": 454.99
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "Gwn ninz youq mbouj onj,",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0021",
+      "coordinates": {
+        "x_min": 547.02,
+        "y_min": 375.24,
+        "x_max": 598.3,
+        "y_max": 426.9
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "29",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 50,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0022",
+      "coordinates": {
+        "x_min": 625.89,
+        "y_min": 345.91,
+        "x_max": 1119.65,
+        "y_max": 396.8
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "08 gvidingh, senjok aen",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0023",
+      "coordinates": {
+        "x_min": 627.65,
+        "y_min": 377.26,
+        "x_max": 1121.09,
+        "y_max": 422.48
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "Yunghfap Yunghliengh Cienq raemx gwn, 15 ~ 20 gwz.",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0024",
+      "coordinates": {
+        "x_min": 1126.43,
+        "y_min": 342.73,
+        "x_max": 1177.72,
+        "y_max": 394.4
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "32",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 49,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0025",
+      "coordinates": {
+        "x_min": 50.3,
+        "y_min": 446.57,
+        "x_max": 544.06,
+        "y_max": 497.46
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "09 ndaej haemq ndei",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0026",
+      "coordinates": {
+        "x_min": 52.06,
+        "y_min": 477.92,
+        "x_max": 545.5,
+        "y_max": 523.14
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "luem — um bum dum num gum",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0027",
+      "coordinates": {
+        "x_min": 550.85,
+        "y_min": 443.39,
+        "x_max": 602.13,
+        "y_max": 495.06
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "35",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 52,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0028",
+      "coordinates": {
+        "x_min": 629.71,
+        "y_min": 414.06,
+        "x_max": 1123.47,
+        "y_max": 464.95
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "10 aen ranz aen",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0029",
+      "coordinates": {
+        "x_min": 631.47,
+        "y_min": 445.41,
+        "x_max": 1124.91,
+        "y_max": 490.63
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "saedsaeh cingzgvang Cunghgoz",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0030",
+      "coordinates": {
+        "x_min": 1130.26,
+        "y_min": 410.88,
+        "x_max": 1181.55,
+        "y_max": 462.55
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "38",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 51,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0031",
+      "coordinates": {
+        "x_min": 54.13,
+        "y_min": 514.73,
+        "x_max": 547.88,
+        "y_max": 565.61
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "11 dag gij mae neix",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0032",
+      "coordinates": {
+        "x_min": 55.89,
+        "y_min": 546.07,
+        "x_max": 549.31,
+        "y_max": 591.19
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ma geij ndaek siucaiz bw!",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0033",
+      "coordinates": {
+        "x_min": 554.67,
+        "y_min": 511.55,
+        "x_max": 605.95,
+        "y_max": 563.11
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "41",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 54,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0034",
+      "coordinates": {
+        "x_min": 633.54,
+        "y_min": 482.22,
+        "x_max": 1127.3,
+        "y_max": 533.1
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "12 22 HENHOH MINZCUZ",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0035",
+      "coordinates": {
+        "x_min": 635.3,
+        "y_min": 513.56,
+        "x_max": 1128.73,
+        "y_max": 558.68
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "Dizcang hableix gaemguenj, yungh engq lai gyauyuz gangjfug",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0036",
+      "coordinates": {
+        "x_min": 1134.08,
+        "y_min": 479.04,
+        "x_max": 1185.36,
+        "y_max": 530.6
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "44",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 53,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0037",
+      "coordinates": {
+        "x_min": 57.95,
+        "y_min": 582.78,
+        "x_max": 551.7,
+        "y_max": 633.76
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "13 Moz Haijyinz cingj",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0038",
+      "coordinates": {
+        "x_min": 59.71,
+        "y_min": 614.22,
+        "x_max": 553.14,
+        "y_max": 659.35
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "Gou baez coekdawz ② sam",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0039",
+      "coordinates": {
+        "x_min": 558.49,
+        "y_min": 579.61,
+        "x_max": 609.77,
+        "y_max": 631.27
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "47",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 56,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0040",
+      "coordinates": {
+        "x_min": 637.36,
+        "y_min": 550.27,
+        "x_max": 1131.12,
+        "y_max": 601.26
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "14 daej mwh ngaiz",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0041",
+      "coordinates": {
+        "x_min": 639.12,
+        "y_min": 581.72,
+        "x_max": 1132.56,
+        "y_max": 626.85
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "— indication classification of",
+      "is_text": true,
+      "order": "41",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0042",
+      "coordinates": {
+        "x_min": 1137.9,
+        "y_min": 547.1,
+        "x_max": 1189.19,
+        "y_max": 598.76
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "50",
+      "is_text": true,
+      "order": "42",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 55,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0043",
+      "coordinates": {
+        "x_min": 61.77,
+        "y_min": 650.94,
+        "x_max": 555.53,
+        "y_max": 701.92
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "15 Ndaem gonq baenz",
+      "is_text": true,
+      "order": "43",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0044",
+      "coordinates": {
+        "x_min": 63.53,
+        "y_min": 682.39,
+        "x_max": 556.96,
+        "y_max": 727.51
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "bamj baenz mbai Seng lwg",
+      "is_text": true,
+      "order": "44",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0045",
+      "coordinates": {
+        "x_min": 562.31,
+        "y_min": 647.76,
+        "x_max": 613.59,
+        "y_max": 699.42
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "53",
+      "is_text": true,
+      "order": "45",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 58,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0046",
+      "coordinates": {
+        "x_min": 641.18,
+        "y_min": 618.43,
+        "x_max": 1134.95,
+        "y_max": 669.41
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "16 laehdae yungh gij",
+      "is_text": true,
+      "order": "46",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0047",
+      "coordinates": {
+        "x_min": 642.94,
+        "y_min": 649.88,
+        "x_max": 1136.38,
+        "y_max": 695.0
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "：“The Grammatical Structure of Zhuang” 《 》， 400",
+      "is_text": true,
+      "order": "47",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0048",
+      "coordinates": {
+        "x_min": 1141.72,
+        "y_min": 615.25,
+        "x_max": 1193.01,
+        "y_max": 666.92
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "56",
+      "is_text": true,
+      "order": "48",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 57,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0049",
+      "coordinates": {
+        "x_min": 65.59,
+        "y_min": 719.09,
+        "x_max": 559.35,
+        "y_max": 770.08
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "17 ndwen ngeih Hongreih",
+      "is_text": true,
+      "order": "49",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0050",
+      "coordinates": {
+        "x_min": 67.36,
+        "y_min": 750.54,
+        "x_max": 560.79,
+        "y_max": 795.66
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "fwnz la, gou guh ndaej",
+      "is_text": true,
+      "order": "50",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0051",
+      "coordinates": {
+        "x_min": 566.14,
+        "y_min": 715.91,
+        "x_max": 617.42,
+        "y_max": 767.58
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "59",
+      "is_text": true,
+      "order": "51",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 60,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0052",
+      "coordinates": {
+        "x_min": 645.0,
+        "y_min": 686.58,
+        "x_max": 1138.77,
+        "y_max": 737.57
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "18 aendungx、naenx gij",
+      "is_text": true,
+      "order": "52",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0053",
+      "coordinates": {
+        "x_min": 646.77,
+        "y_min": 718.03,
+        "x_max": 1140.2,
+        "y_max": 763.15
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "le couh ndek soujbaq roengz",
+      "is_text": true,
+      "order": "53",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0054",
+      "coordinates": {
+        "x_min": 1145.55,
+        "y_min": 683.4,
+        "x_max": 1196.84,
+        "y_max": 735.07
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "62",
+      "is_text": true,
+      "order": "54",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 59,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0055",
+      "coordinates": {
+        "x_min": 69.42,
+        "y_min": 787.24,
+        "x_max": 563.17,
+        "y_max": 838.13
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "19 Neix dwg aen",
+      "is_text": true,
+      "order": "55",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 40,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0056",
+      "coordinates": {
+        "x_min": 71.18,
+        "y_min": 818.59,
+        "x_max": 564.61,
+        "y_max": 863.81
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "yaek daeuj daengz gwnz",
+      "is_text": true,
+      "order": "56",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 41,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0057",
+      "coordinates": {
+        "x_min": 569.96,
+        "y_min": 784.06,
+        "x_max": 621.24,
+        "y_max": 835.73
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "65",
+      "is_text": true,
+      "order": "57",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 62,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0058",
+      "coordinates": {
+        "x_min": 648.83,
+        "y_min": 754.73,
+        "x_max": 1142.59,
+        "y_max": 805.63
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "20 DOIQ VUNZDIG DOUCWNGH",
+      "is_text": true,
+      "order": "58",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 38,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0059",
+      "coordinates": {
+        "x_min": 650.59,
+        "y_min": 786.08,
+        "x_max": 1144.03,
+        "y_max": 831.31
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "baenz lwg sai Wng gai mbouj",
+      "is_text": true,
+      "order": "59",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 39,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0060",
+      "coordinates": {
+        "x_min": 1149.37,
+        "y_min": 751.56,
+        "x_max": 1200.66,
+        "y_max": 803.22
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "68",
+      "is_text": true,
+      "order": "60",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 61,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0061",
+      "coordinates": {
+        "x_min": 73.24,
+        "y_min": 855.39,
+        "x_max": 567.49,
+        "y_max": 915.08
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "21 SENHCONZ GIJ",
+      "is_text": true,
+      "order": "61",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 64,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0062",
+      "coordinates": {
+        "x_min": 75.49,
+        "y_min": 895.54,
+        "x_max": 569.42,
+        "y_max": 949.57
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "fwen couh eu song sam baiz,",
+      "is_text": true,
+      "order": "62",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 67,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0063",
+      "coordinates": {
+        "x_min": 573.78,
+        "y_min": 852.22,
+        "x_max": 626.05,
+        "y_max": 921.48
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "71",
+      "is_text": true,
+      "order": "63",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 65,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0064",
+      "coordinates": {
+        "x_min": 652.65,
+        "y_min": 822.89,
+        "x_max": 1146.41,
+        "y_max": 873.78
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "22 geng mbouj dawz",
+      "is_text": true,
+      "order": "64",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 42,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0065",
+      "coordinates": {
+        "x_min": 654.41,
+        "y_min": 854.24,
+        "x_max": 1148.84,
+        "y_max": 917.06
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "2 DOENGZCAEZ DOXGIET HAENQGUH DOENGZCAEZ FANZYUNGZ FAZCANJ",
+      "is_text": true,
+      "order": "65",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 66,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0066",
+      "coordinates": {
+        "x_min": 1153.19,
+        "y_min": 819.71,
+        "x_max": 1205.47,
+        "y_max": 888.98
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "74",
+      "is_text": true,
+      "order": "66",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 63,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0067",
+      "coordinates": {
+        "x_min": 78.05,
+        "y_min": 941.15,
+        "x_max": 571.8,
+        "y_max": 992.03
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "23 Bwzszw Si, Bingzsiengz",
+      "is_text": true,
+      "order": "67",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 70,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0068",
+      "coordinates": {
+        "x_min": 79.81,
+        "y_min": 972.5,
+        "x_max": 573.24,
+        "y_max": 1017.62
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "seiz yungh miz doengh gijneix:",
+      "is_text": true,
+      "order": "68",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 73,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0069",
+      "coordinates": {
+        "x_min": 578.6,
+        "y_min": 937.97,
+        "x_max": 629.87,
+        "y_max": 989.54
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "77",
+      "is_text": true,
+      "order": "69",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 71,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0070",
+      "coordinates": {
+        "x_min": 657.46,
+        "y_min": 908.64,
+        "x_max": 1151.22,
+        "y_max": 959.52
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "24 ：“The Grammatical",
+      "is_text": true,
+      "order": "70",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 68,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0071",
+      "coordinates": {
+        "x_min": 659.22,
+        "y_min": 939.99,
+        "x_max": 1152.66,
+        "y_max": 985.11
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "nwengh、song、sam、seiq、haj、roek、ceet、bet、gouj、cib、bak、cien",
+      "is_text": true,
+      "order": "71",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 72,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_05_b0072",
+      "coordinates": {
+        "x_min": 1158.0,
+        "y_min": 905.46,
+        "x_max": 1209.29,
+        "y_max": 957.03
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "80",
+      "is_text": true,
+      "order": "72",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 69,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T05:14:55.606Z",
+  "updated_at": "2026-07-03T13:16:06"
+}

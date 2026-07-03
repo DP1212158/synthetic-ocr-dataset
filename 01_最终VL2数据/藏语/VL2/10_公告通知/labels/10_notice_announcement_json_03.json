@@ -1,0 +1,1179 @@
+{
+  "image_id": "da13862c-da13-862c-da13-da13862cda13",
+  "file_name": "10_notice_announcement_json_03.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "remaining_pages_json_renderer_bo_v1_v4_split_mix_assets",
+    "language_code": "bo",
+    "language_name": "藏语",
+    "script_note": "藏文横排文本，第一阶段用于公开文本源验证与模板填充",
+    "template_type": "notice_announcement",
+    "category": "notice_announcement",
+    "variant": 3,
+    "layout_name": "notice_announcement_v03",
+    "document_id": "10_notice_announcement_json_03",
+    "title": "བརྡ་ཁྱབ་བརྡ་ཐོ",
+    "doc_no": "V12-10-03",
+    "date": "2026-07-01",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "notice_announcement",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 38,
+      "page_width": 1189,
+      "page_height": 983,
+      "body_scroll_width": 1189,
+      "body_scroll_height": 983,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 31,
+        "y": 23,
+        "width": 1178,
+        "height": 961,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1650,
+        "content_bbox": {
+          "x_min": 62,
+          "y_min": 54,
+          "x_max": 1178,
+          "y_max": 952.5
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.5445,
+        "bottom_blank_ratio_before_crop": 0.4227
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 14064672811380563206,
+        "family": "shadow_photo",
+        "geometry": {
+          "source_size": {
+            "width": 1178,
+            "height": 961
+          },
+          "scale": {
+            "scale": 0.99781,
+            "width": 1175,
+            "height": 959
+          },
+          "rotation": {
+            "angle_degrees": -1.5311,
+            "width": 1201,
+            "height": 991
+          },
+          "translation": {
+            "dx": -6,
+            "dy": 4,
+            "width": 1201,
+            "height": 991
+          },
+          "edge_crop": {
+            "left": 7,
+            "top": 5,
+            "right": 5,
+            "bottom": 3,
+            "width": 1189,
+            "height": 983
+          },
+          "output_size_before_visual": {
+            "width": 1189,
+            "height": 983
+          }
+        },
+        "output_size": {
+          "width": 1189,
+          "height": 983
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "10_notice_announcement_json_03_b0026",
+      "coordinates": {
+        "x_min": 50.66,
+        "y_min": 30.73,
+        "x_max": 1133.64,
+        "y_max": 124.57
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ས་ག་ཟླ་བ",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "44px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0027",
+      "coordinates": {
+        "x_min": 34.49,
+        "y_min": 155.07,
+        "x_max": 368.84,
+        "y_max": 208.87
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "དུས་ཚོད",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0028",
+      "coordinates": {
+        "x_min": 35.69,
+        "y_min": 199.96,
+        "x_max": 370.04,
+        "y_max": 253.75
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "2026-07",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0029",
+      "coordinates": {
+        "x_min": 37.9,
+        "y_min": 282.74,
+        "x_max": 372.25,
+        "y_max": 336.53
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ས་གནས",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0030",
+      "coordinates": {
+        "x_min": 39.1,
+        "y_min": 327.63,
+        "x_max": 373.45,
+        "y_max": 381.43
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ཀེ་རི་སི",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0031",
+      "coordinates": {
+        "x_min": 41.31,
+        "y_min": 410.42,
+        "x_max": 375.66,
+        "y_max": 464.21
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ཞུགས་མཁན",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0032",
+      "coordinates": {
+        "x_min": 42.51,
+        "y_min": 455.3,
+        "x_max": 376.86,
+        "y_max": 509.1
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "པ ༦ རབ་ཏུ་བྱུང་བའི་མཛད་པ ༧ ལོ་",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0033",
+      "coordinates": {
+        "x_min": 31.41,
+        "y_min": 524.78,
+        "x_max": 391.64,
+        "y_max": 577.17
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཀཿཐོག་ནི་བོད་བརྒྱུད་ནང་བསྟན་སྔ་འགྱུར་རྙིང་མ་པའི་ལུགས་འཛིན་པའི་དགོན་པ་ཞིག་རེད",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0034",
+      "coordinates": {
+        "x_min": 32.56,
+        "y_min": 567.58,
+        "x_max": 392.21,
+        "y_max": 598.52
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "༤ནི་རང་བྱུང་གི་གྲངས་ཞིག་སྟེ་༣པའི་རྗེས་མ་དང་༥པའི་སྔོན་དུ་ཡིན",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0035",
+      "coordinates": {
+        "x_min": 33.13,
+        "y_min": 588.92,
+        "x_max": 392.78,
+        "y_max": 619.96
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཀ་ཐོག་ནི་བོད་ཀྱི་གྲུབ་མཐའ་རྙིང་མ་པའི་དགོན་སྡེ་གཅིག་རེད",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0036",
+      "coordinates": {
+        "x_min": 33.7,
+        "y_min": 610.36,
+        "x_max": 393.35,
+        "y_max": 641.31
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཀ་ན་ནི་ཨ་ཧྥེ་རི་ཁའི་རྒྱལ་ཁབ་ཞིག་རེད དེའི་རྒྱལ་ས་ནི་ཨ་ཁ་ར་རེད",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0037",
+      "coordinates": {
+        "x_min": 34.27,
+        "y_min": 631.71,
+        "x_max": 393.92,
+        "y_max": 662.65
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "བཅད་རྡོ་བརྐོས་མི་རྣམས་ལ་འཆར་ཡན་གྱི་བར་སྟོང་",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0001",
+      "coordinates": {
+        "x_min": 408.45,
+        "y_min": 148.59,
+        "x_max": 499.42,
+        "y_max": 195.87
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "9:00",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0002",
+      "coordinates": {
+        "x_min": 508.2,
+        "y_min": 131.58,
+        "x_max": 1135.8,
+        "y_max": 193.21
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "སྙན་ངག་གི་དཔེར་བརྗོད་དང་མཚུངས་པ་གསལ་བྱེད་ཀྱི་སྒྲའི་དོགས་གཅོད་བཞུགས",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0003",
+      "coordinates": {
+        "x_min": 410.19,
+        "y_min": 213.42,
+        "x_max": 501.15,
+        "y_max": 260.71
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "10:00",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0004",
+      "coordinates": {
+        "x_min": 509.93,
+        "y_min": 196.41,
+        "x_max": 1137.54,
+        "y_max": 258.04
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ལ་ཁ་སྣོན་དང་ལེགས་སྒྲིག་བྱས་ཏེ་ནང་དོན་དང་",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0005",
+      "coordinates": {
+        "x_min": 411.92,
+        "y_min": 278.26,
+        "x_max": 502.89,
+        "y_max": 325.55
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "11:00",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0006",
+      "coordinates": {
+        "x_min": 511.66,
+        "y_min": 261.25,
+        "x_max": 1139.27,
+        "y_max": 322.88
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "འོད་ཀྱིས་བརྟན་གཡོའི་དངོས གསལ་བར་བྱེད་པའི་",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0007",
+      "coordinates": {
+        "x_min": 413.65,
+        "y_min": 343.09,
+        "x_max": 504.62,
+        "y_max": 390.37
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "12:00",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0008",
+      "coordinates": {
+        "x_min": 513.4,
+        "y_min": 326.08,
+        "x_max": 1141.0,
+        "y_max": 387.71
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "རྒྱ་མཚོར་ནོའོ་བྷེལ་ཞི་བདེའི་བྱ་དགའརག་གནང་",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0009",
+      "coordinates": {
+        "x_min": 415.38,
+        "y_min": 407.93,
+        "x_max": 506.35,
+        "y_max": 455.21
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "13:00",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0010",
+      "coordinates": {
+        "x_min": 515.13,
+        "y_min": 390.92,
+        "x_max": 1142.73,
+        "y_max": 452.54
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "གླིང་གེ་སར་རྒྱལ་པོའི་ཕ་ཡུལ་དུ་འབོད་པའི་ཁམས་",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0011",
+      "coordinates": {
+        "x_min": 417.12,
+        "y_min": 472.76,
+        "x_max": 508.09,
+        "y_max": 520.05
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "14:00",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0012",
+      "coordinates": {
+        "x_min": 516.86,
+        "y_min": 455.75,
+        "x_max": 1144.47,
+        "y_max": 517.38
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "གོའི་ཀན་སུའུ་ཞིང་ཆེན་གྱི་ལྷོ་རྒྱུད་དུ་ཆགས་",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0013",
+      "coordinates": {
+        "x_min": 418.85,
+        "y_min": 537.6,
+        "x_max": 509.82,
+        "y_max": 584.88
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "15:00",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0014",
+      "coordinates": {
+        "x_min": 518.59,
+        "y_min": 520.59,
+        "x_max": 1146.2,
+        "y_max": 582.22
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཁྱད་ཆོས་ལྡན 《ཡེ་ལི་ཡ་ཐི 》ལས་གྷི་རི་སིའི་",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0015",
+      "coordinates": {
+        "x_min": 420.58,
+        "y_min": 602.43,
+        "x_max": 511.55,
+        "y_max": 649.71
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "16:00",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0016",
+      "coordinates": {
+        "x_min": 520.33,
+        "y_min": 585.42,
+        "x_max": 1147.93,
+        "y_max": 647.04
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཕྱོགས་འཚོལ་སྙེག་གི་འདུན་པ་ལྷུར་ལེན་བགྱིས་",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0017",
+      "coordinates": {
+        "x_min": 422.32,
+        "y_min": 667.26,
+        "x_max": 513.28,
+        "y_max": 714.55
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "17:00",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0018",
+      "coordinates": {
+        "x_min": 522.06,
+        "y_min": 650.25,
+        "x_max": 1149.67,
+        "y_max": 711.88
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "པས་སོ ཞེས་པ་ལྟ་བུ བཅུ་པ་རྨད་བྱུང་གི་དཔེ་",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0019",
+      "coordinates": {
+        "x_min": 424.05,
+        "y_min": 732.1,
+        "x_max": 515.02,
+        "y_max": 779.38
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "18:00",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0020",
+      "coordinates": {
+        "x_min": 523.79,
+        "y_min": 715.09,
+        "x_max": 1151.4,
+        "y_max": 776.72
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "འདི་དོན་ལ་ཡོད་པའི་སྒྲུབ་བྱེད་ཏག་ཏག་མི་འདུག་ལགས",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0021",
+      "coordinates": {
+        "x_min": 425.78,
+        "y_min": 796.94,
+        "x_max": 516.75,
+        "y_max": 844.22
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "19:00",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0022",
+      "coordinates": {
+        "x_min": 525.53,
+        "y_min": 779.93,
+        "x_max": 1153.13,
+        "y_max": 841.55
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཝང་ཞེས་པ་འགྲེམ་སྤེལ་བྱས་རྗེས་རྒྱལ་ནང་དུ་",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0023",
+      "coordinates": {
+        "x_min": 427.52,
+        "y_min": 861.76,
+        "x_max": 518.48,
+        "y_max": 909.05
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "20:00",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0024",
+      "coordinates": {
+        "x_min": 527.26,
+        "y_min": 844.75,
+        "x_max": 1154.87,
+        "y_max": 906.38
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "མཁན་ཞིག་དང་ཟུར་ཟའི་རི་མོའི་དེབ་དང་ཕྲུ་གུའི་",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "10_notice_announcement_json_03_b0038",
+      "coordinates": {
+        "x_min": 41.97,
+        "y_min": 899.61,
+        "x_max": 1155.86,
+        "y_max": 956.7
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ལི་ཡ་ཐི 》ལས་གཙོ་བོ་ཞིབ་བརྗོད་ཀྱི་ཐབས་ལམ་གཉིས་སྤྱད་ཡོད་དེ དང་པོ་ནི་རྩོམ་པ་པོས་ཞིབ་བརྗོད་པའི་ངོས་ནས་གཏམ་རྒྱུད་ཀྱི་",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T05:37:09.042Z",
+  "updated_at": "2026-07-03T13:38:01"
+}

@@ -1,0 +1,280 @@
+{
+  "image_id": "41ad9ba7-41ad-9ba7-41ad-41ad9ba741ad",
+  "file_name": "02_certificate_proof_json_03.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "batch1_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "ko",
+    "language_name": "朝鲜语",
+    "script_note": "谚文 Hangul，横排从左到右",
+    "template_type": "certificate_proof",
+    "category": "certificate_proof",
+    "variant": 3,
+    "layout_name": "certificate_proof_v03",
+    "document_id": "02_certificate_proof_json_03",
+    "title": "Sawcingq Cingmingz",
+    "doc_no": "ZA-V1-02-03",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "certificate_proof",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 6,
+      "page_width": 1254,
+      "page_height": 585,
+      "body_scroll_width": 1254,
+      "body_scroll_height": 585,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 133,
+        "y": 235,
+        "width": 1234,
+        "height": 530,
+        "enabled": true,
+        "original_width": 1500,
+        "original_height": 1000,
+        "content_bbox": {
+          "x_min": 158,
+          "y_min": 260.8,
+          "x_max": 1342,
+          "y_max": 739.2
+        },
+        "padding": 25,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.4784,
+        "bottom_blank_ratio_before_crop": 0.2608
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 3677537667375843325,
+        "family": "warm_paper",
+        "geometry": {
+          "source_size": {
+            "width": 1234,
+            "height": 530
+          },
+          "scale": {
+            "scale": 1.0,
+            "width": 1234,
+            "height": 530
+          },
+          "rotation": {
+            "angle_degrees": 2.9072,
+            "width": 1260,
+            "height": 592
+          },
+          "translation": {
+            "dx": 0,
+            "dy": 0,
+            "width": 1260,
+            "height": 592
+          },
+          "edge_crop": {
+            "left": 3,
+            "top": 3,
+            "right": 3,
+            "bottom": 4,
+            "width": 1254,
+            "height": 585
+          },
+          "output_size_before_visual": {
+            "width": 1254,
+            "height": 585
+          }
+        },
+        "output_size": {
+          "width": 1254,
+          "height": 585
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "02_certificate_proof_json_03_b0001",
+      "coordinates": {
+        "x_min": 46.27,
+        "y_min": 24.03,
+        "x_max": 1230.02,
+        "y_max": 109.15
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "-9103",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_03_b0002",
+      "coordinates": {
+        "x_min": 42.91,
+        "y_min": 49.1,
+        "x_max": 1228.74,
+        "y_max": 175.27
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "조선어 문서",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "48px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_03_b0003",
+      "coordinates": {
+        "x_min": 338.01,
+        "y_min": 158.4,
+        "x_max": 924.25,
+        "y_max": 250.93
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "모진 마음을 달릴 수 있었고",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "42px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_03_b0004",
+      "coordinates": {
+        "x_min": 33.32,
+        "y_min": 234.06,
+        "x_max": 1219.35,
+        "y_max": 364.12
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "위도와 경도는 지구상에 가상으로 그는 가로선과 세로선이야. 위도는 적도를 기준으로 북극까지를 북위 90° 도 로, 남극까지를 남위 90° 도 로 나눈 겨야. 경도는 북극과 남극을 잇는 세로선을 360° 도 로 나눈 거고.",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_03_b0005",
+      "coordinates": {
+        "x_min": 461.21,
+        "y_min": 374.25,
+        "x_max": 618.63,
+        "y_max": 531.67
+      },
+      "points": null,
+      "block_label": "seal",
+      "block_content": "조선어 문서",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "seal",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_03_b0006",
+      "coordinates": {
+        "x_min": 1112.05,
+        "y_min": 469.46,
+        "x_max": 1210.2,
+        "y_max": 499.45
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026-07-01",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:02:35.596Z",
+  "updated_at": "2026-07-03T12:03:52"
+}

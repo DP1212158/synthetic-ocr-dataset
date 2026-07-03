@@ -1,0 +1,1284 @@
+{
+  "image_id": "e0a307aa-e0a3-07aa-e0a3-e0a307aae0a3",
+  "file_name": "05_book_page_json_02.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "reading_pages_json_renderer_za_v1",
+    "language_code": "bo",
+    "language_name": "藏语",
+    "script_note": "藏文字母，横排从左到右",
+    "template_type": "book_page",
+    "category": "book_page",
+    "variant": 2,
+    "layout_name": "book_page_v02",
+    "document_id": "05_book_page_json_02",
+    "title": "Sawbon Yieb",
+    "doc_no": "ZA-VL3_CLEAN-05-02",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "diagnostics": {
+      "marked_blocks": 42,
+      "page_width": 1240,
+      "page_height": 1620,
+      "body_scroll_width": 1240,
+      "body_scroll_height": 1620,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 31,
+        "y": 23,
+        "width": 1178,
+        "height": 1007,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1620,
+        "content_bbox": {
+          "x_min": 62,
+          "y_min": 54,
+          "x_max": 1178,
+          "y_max": 998.3
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.5829,
+        "bottom_blank_ratio_before_crop": 0.3838
+      }
+    }
+  },
+  "blocks": [
+    {
+      "block_id": "05_book_page_json_02_b0025",
+      "coordinates": {
+        "x_min": 31,
+        "y_min": 279.8,
+        "x_max": 817,
+        "y_max": 322.8
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "02",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 0,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "28px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0026",
+      "coordinates": {
+        "x_min": 31,
+        "y_min": 322.8,
+        "x_max": 817,
+        "y_max": 395.1
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "དེ་ལ་ཀརྨ་ཆགས་མེད་ད ང་།",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 1,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "54px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0027",
+      "coordinates": {
+        "x_min": 31,
+        "y_min": 407.1,
+        "x_max": 817,
+        "y_max": 435.7
+      },
+      "points": null,
+      "block_label": "document_subtitle",
+      "block_content": "གཙུག་ཏོར་གདུག་དཀར་ནི།",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 2,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "21px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0001",
+      "coordinates": {
+        "x_min": 847,
+        "y_min": 31,
+        "x_max": 1147,
+        "y_max": 63.4
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ཉེར་ལྔ་པ། བཟླས་བརྗོད་ལ་མི་ལྟོས་པའི་བསམ་གཏན།",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 3,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "15px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0002",
+      "coordinates": {
+        "x_min": 847,
+        "y_min": 71.4,
+        "x_max": 1147,
+        "y_max": 124.2
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "འོན་ཀྱང་མདོ་ལུགས་ལ་ངོར་ཆེན་ཀུན་དགའ་བཟང་པོས་བྱ་རྒྱུད་སྤྱིའི་རྣམ་བཤད་ལས།",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 4,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "15px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0003",
+      "coordinates": {
+        "x_min": 847,
+        "y_min": 132.2,
+        "x_max": 1147,
+        "y_max": 164.6
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "“ དེས་ན་མདུན་དུ་དེ་བཞིན་གཤེགས་པའི་སྐུ་སྤྱན་དྲངས་ལ།",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 5,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "15px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0004",
+      "coordinates": {
+        "x_min": 847,
+        "y_min": 172.6,
+        "x_max": 1147,
+        "y_max": 225.3
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ལྷ་བསྒོམ་པའི་སྐབས་སུ་བདག་བསྐྱེད་དང་མདུན་བསྐྱེད་ཅེས་པ་གཉིས་ཡོད་ཅི ང་།",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 6,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "15px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0005",
+      "coordinates": {
+        "x_min": 847,
+        "y_min": 233.3,
+        "x_max": 1147,
+        "y_max": 265.7
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "དེ་ལ་རྗེ་རིན་པོ་ཆེས་བསམ་གཏན་ཕྱི་མ་ནས་གཞི་གཉིས་བསྟན་པ་ད ང་།",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 7,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "15px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0006",
+      "coordinates": {
+        "x_min": 847,
+        "y_min": 273.7,
+        "x_max": 1147,
+        "y_max": 326.5
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "མཁས་གྲུབ་ཀརྨ་ཆགས་མེད་ཀྱིས་ཡི་དམ་རབ་འབྱམས་ཀྱི་དབང་བསྐུར་བའི་ལོ་རྒྱུས་ལས།",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 8,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "15px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0007",
+      "coordinates": {
+        "x_min": 847,
+        "y_min": 334.5,
+        "x_max": 1147,
+        "y_max": 387.3
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "དེ་ལྟར་ན་ཡང་ཆོས་འབྱུང་རྣམས་ལ་མཇལ་ན་ཡུལ་གང་དུ་བསྟན་པ་དར་རྒྱས་ཆེ་ཞི ང་།",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 9,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "15px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0008",
+      "coordinates": {
+        "x_min": 847,
+        "y_min": 395.3,
+        "x_max": 1147,
+        "y_max": 427.7
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "སློབ་དཔོན་འདི་གཉིས་ཕན་ཚུན་འབྲེལ་བ་གང་ཡོད་མེད་ད ང་།",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 10,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "15px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0028",
+      "coordinates": {
+        "x_min": 31,
+        "y_min": 476.7,
+        "x_max": 575,
+        "y_max": 524.3
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "སྔོན་འཛམ་བུའི་གླིང་ན་འབྱུང་པོ་གདུག་པ་ཅན་ཞིག་གིས་སངས་རྒྱས་ཀྱི་གོ་འཕང་ཐོབ་པར་རེ་བས་ལུས་སྦྱིན་སྲེག་ཏུ་བཏང་ཡང་སངས་མ་རྒྱས།",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 11,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0029",
+      "coordinates": {
+        "x_min": 31,
+        "y_min": 532.3,
+        "x_max": 575,
+        "y_max": 556.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཤི་འཕོས་ནས་དུར་སྲུང་ཞིག་བསད་ཅིང་དེའི་ལུས་སུ་ཞུགས། རོ་རྣམས་ཟོས་པས་ལུས་གཅིག་ལ་མགོ་སྟོང་དང་བརྒྱད་ཅུ།",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 12,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0030",
+      "coordinates": {
+        "x_min": 31,
+        "y_min": 564.1,
+        "x_max": 575,
+        "y_max": 587.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ལག་པ་ཁྲི། མིག་འབུམ་ཡོད་པ་ཞིག་ཏུ་གྱུར། མི་གསོན་པོ་རྣམས་ཀྱང་ཟོས་ནས་དུར་སྲིན་ལེགས་ལྡན་ནག་པོ་ཞེས་གྲགས།",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 13,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0031",
+      "coordinates": {
+        "x_min": 31,
+        "y_min": 595.9,
+        "x_max": 575,
+        "y_max": 643.5
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཕྱིས་སུ་བོད་དུ་བྱ་རྒྱུད་ཀྱི་དབང་དང་རྗེས་གནང་རྣམས་སོ་སོར་དར་བ་ལས་ཀྱང་ཕྱོགས་གཅིག་ཏུ་བསྒྲིགས་པ་ལ་བརྟེན་ནས་དར་ཁྱབ་ཆེ་བ་བྱུང་བ་ལ།",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 14,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0032",
+      "coordinates": {
+        "x_min": 31,
+        "y_min": 651.5,
+        "x_max": 575,
+        "y_max": 675.3
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཇོ་ནང་ཏཱ་ར་ནཱ་ཐས་བླ་མ་རྣམས་ལས་གསན་པ་དང་དེ་ལས་བརྒྱུད་པའི་བྱ་རྒྱུད་རྣམས་ནི་སྤྱན་རས་གཟིགས་ལྷ་མ ང་།",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 15,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0033",
+      "coordinates": {
+        "x_min": 31,
+        "y_min": 683.3,
+        "x_max": 575,
+        "y_max": 707.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "རྣམ་འཇོམས་ལྷ་བཅུ་དགུ་མ། གཟུངས་ཆེན་གྲྭ་ལྔ། གདུགས་དཀར་ལྷ་མ ང་། ཚེ་དཔག་མེད་ཛེ་ཏ་རིའི་ལུགས་ལྷ་དགུ།",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 16,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0034",
+      "coordinates": {
+        "x_min": 31,
+        "y_min": 715.1,
+        "x_max": 575,
+        "y_max": 738.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "མི་འཁྲུགས་པ་ལྷ་དགུ། འོད་ཟེར་ཅན་ལྷ་ལྔ། གཟའ་ཡི་ཡུམ། ཐུབ་པ་དམ་ཚིག་གསུམ་བཀོད།",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 17,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0035",
+      "coordinates": {
+        "x_min": 603,
+        "y_min": 476.7,
+        "x_max": 1147,
+        "y_max": 524.3
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "རིགས་གསུམ་སྤྱིའི་དབང་རྣམས་ཡིན་པར་གསལ། ཡང་ཇོ་ནང་རྗེ་བཙུན་ཆེན་པོའི་སྐུ་སྐྱེ་བ་བརྒྱུད་མར་བྱོན་པ་ཡིན་པར་གྲགས་ཤི ང་།",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 18,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0036",
+      "coordinates": {
+        "x_min": 603,
+        "y_min": 532.3,
+        "x_max": 1147,
+        "y_max": 556.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཆོས་བརྒྱུད་དགེ་ལུགས་ཡིན་པ་ལ།",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 19,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0037",
+      "coordinates": {
+        "x_min": 603,
+        "y_min": 564.1,
+        "x_max": 1147,
+        "y_max": 587.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "དེ་ལྟར་ན་རྣལ་འབྱོར་དང་རྣལ་འབྱོར་བླ་མེད་གཉིས་ལ་བདག་བསྐྱེད་ཡོད་ཚུལ་ནི་ཧ་ཅང་གསལ་བས་རྩོད་པ་མེད་ན་ཡ ང་།",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 20,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0038",
+      "coordinates": {
+        "x_min": 603,
+        "y_min": 595.9,
+        "x_max": 1147,
+        "y_max": 643.5
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "བདག་བསྐྱེད་ཡོད་མེད་རྩོད་པ་ཅན་ནི་བྱ་སྤྱོད་གཉིས་སོ ། ། བྱ་སྤྱོད་གཉིས་ཀ་ལ་བདག་བསྐྱེད་ཡོད་པར་གསུངས་པ་ནི་སངས་རྒྱས་གསང་བ་ད ང་།",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 21,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0039",
+      "coordinates": {
+        "x_min": 603,
+        "y_min": 651.5,
+        "x_max": 1147,
+        "y_max": 699.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "བྱ་སྤྱོད་གཉིས་ཀ་ལ་བདག་བསྐྱེད་མེད་པར་བཞེད་པ་ནི་བྱང་ཆུབ་མཆོག་ཡིན་པར་གྲགས་ཀྱང་ཕྱི་མས་འདི་ལྟར་བཞེད་མིན་ལ་རྩོད་པ་ཡོད།",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 22,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0040",
+      "coordinates": {
+        "x_min": 603,
+        "y_min": 707.1,
+        "x_max": 1147,
+        "y_max": 754.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "དེ་གཉིས་ལས་ཀྱང་བདག་བསྐྱེད་ཡོད་མེད་རྩོད་པ་ཡོད་པ་ནི་གཙོ་བོ་བྱ་རྒྱུད་ཡིན་པ་ལས་སྤྱོད་རྒྱུད་ལ་མཁས་པ་ཕལ་མོ་ཆེས་བདག་བསྐྱེད་ཡོད་པར་བཞེད།",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 23,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0041",
+      "coordinates": {
+        "x_min": 603,
+        "y_min": 762.7,
+        "x_max": 1147,
+        "y_max": 786.5
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "བྱ་བའི་རྒྱུད་རྣམས་ཀྱི་ནང་དུ་ལྷ་ཡི་བྲིས་སྐུ་བཞེངས་ནས་དེ་ལ་མཆོད་ཅིང་བསྟོད་པ་ད ང་།",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 24,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0009",
+      "coordinates": {
+        "x_min": 31,
+        "y_min": 817.5,
+        "x_max": 73,
+        "y_max": 845.7
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "01",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 25,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "18px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0010",
+      "coordinates": {
+        "x_min": 81,
+        "y_min": 817.5,
+        "x_max": 581,
+        "y_max": 845.7
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "བཅུ་གཉིས་པ། རྒྱུད་གོང་འོག་གི་ལུགས་བསྲེ་ཚུལ།",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 26,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0011",
+      "coordinates": {
+        "x_min": 597,
+        "y_min": 817.5,
+        "x_max": 639,
+        "y_max": 845.7
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "02",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 27,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "18px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0012",
+      "coordinates": {
+        "x_min": 647,
+        "y_min": 817.5,
+        "x_max": 1147,
+        "y_max": 845.7
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "གཉིས་པ་སྦྱོར་བའི་སྤྱོད་པ་ནི་བཟླས་བརྗོད་ལ་སོགས་པའི་ཏིང་ངེ་འཛིན་རྣམས་ཏེ།",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 28,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0013",
+      "coordinates": {
+        "x_min": 31,
+        "y_min": 860.7,
+        "x_max": 73,
+        "y_max": 888.9
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "03",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 29,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "18px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0014",
+      "coordinates": {
+        "x_min": 81,
+        "y_min": 860.7,
+        "x_max": 581,
+        "y_max": 888.9
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "དེས་ན་ལེགས་གྲུབ་ཀྱི་རྒྱུད་ཀྱི་ལུ ང་།",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 30,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0015",
+      "coordinates": {
+        "x_min": 597,
+        "y_min": 860.7,
+        "x_max": 639,
+        "y_max": 888.9
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "04",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 31,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "18px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0016",
+      "coordinates": {
+        "x_min": 647,
+        "y_min": 860.7,
+        "x_max": 1147,
+        "y_max": 888.9
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "“ བཟླས་བརྗོད་བྱེད་པས་བཟླས་བརྗོད་ཚེ །",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 32,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0017",
+      "coordinates": {
+        "x_min": 31,
+        "y_min": 903.9,
+        "x_max": 73,
+        "y_max": 932.1
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "05",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 33,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "18px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0018",
+      "coordinates": {
+        "x_min": 81,
+        "y_min": 903.9,
+        "x_max": 581,
+        "y_max": 932.1
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "། རིག་སྔགས་ལྷ་ཉིད་བཏང་ནས་ནི ། ། སྒོམ་པ་མཆོག་ཏུ་གཅེས་པ་ཡ ང་ །",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 34,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0019",
+      "coordinates": {
+        "x_min": 597,
+        "y_min": 903.9,
+        "x_max": 639,
+        "y_max": 932.1
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "06",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 35,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "18px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0020",
+      "coordinates": {
+        "x_min": 647,
+        "y_min": 903.9,
+        "x_max": 1147,
+        "y_max": 932.1
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "། རྟོག་པ་བཟུང་ནས་ཡོངས་མི་བསམ ། ། \" ཞེས་པ་ད ང་།",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 36,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0021",
+      "coordinates": {
+        "x_min": 31,
+        "y_min": 947.1,
+        "x_max": 73,
+        "y_max": 975.3
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "07",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 37,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "18px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0022",
+      "coordinates": {
+        "x_min": 81,
+        "y_min": 947.1,
+        "x_max": 581,
+        "y_max": 975.3
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "དཔུང་བཟང་གིས་ཞུས་པའི་རྒྱུད་ལས། “ སྙེམས་དང་བུད་མེད་མི་དགེར་ལྡན་པའི་སེམས །",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 38,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0023",
+      "coordinates": {
+        "x_min": 597,
+        "y_min": 947.1,
+        "x_max": 639,
+        "y_max": 975.3
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "08",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 39,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "18px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "05_book_page_json_02_b0024",
+      "coordinates": {
+        "x_min": 647,
+        "y_min": 947.1,
+        "x_max": 1147,
+        "y_max": 975.3
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "། གང་དང་གང་དུ་ཀུན་དུ་རྒྱུ་བ་ད ག ། དེ་དང་དེ་ནས་བསྒྲིམས་ཏེ་རྣམ་བཟློག་ནས །",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 40,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "17px",
+        "font_family": "\"Qomolangma-Uchen Sarchung\", Kailasa, \"Arial Unicode MS\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    }
+  ],
+  "created_at": "2026-07-03T09:05:47.659Z",
+  "updated_at": "2026-07-03T09:05:47.659Z"
+}

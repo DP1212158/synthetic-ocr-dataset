@@ -1,0 +1,537 @@
+{
+  "schema_version": "category_layout_templates.v1",
+  "language_code": "bo",
+  "description": "v12 剩余五类结构树：学术文献页、历史文档_古籍、公告通知、复杂表单登记页、手写笔记信件。",
+  "categories": [
+    {
+      "category_id": "academic_paper",
+      "category_cn": "学术文献页",
+      "title": "Vwnzyen Gijbon",
+      "templates": [
+        {
+          "template_id": "academic_paper_v01",
+          "variant": 1,
+          "layout_family": "paper_first_page",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "title",
+            "authors",
+            "abstract",
+            "keywords",
+            "two_column_intro"
+          ]
+        },
+        {
+          "template_id": "academic_paper_v02",
+          "variant": 2,
+          "layout_family": "paper_figure_page",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "section_title",
+            "body",
+            "figure",
+            "caption",
+            "analysis"
+          ]
+        },
+        {
+          "template_id": "academic_paper_v03",
+          "variant": 3,
+          "layout_family": "experiment_result_page",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "method_text",
+            "metrics",
+            "small_table",
+            "conclusion"
+          ]
+        },
+        {
+          "template_id": "academic_paper_v04",
+          "variant": 4,
+          "layout_family": "references_page",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "references_title",
+            "numbered_items",
+            "footnotes"
+          ]
+        },
+        {
+          "template_id": "academic_paper_v05",
+          "variant": 5,
+          "layout_family": "review_article_page",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "section_blocks",
+            "concept_box",
+            "comparison_notes"
+          ]
+        },
+        {
+          "template_id": "academic_paper_v06",
+          "variant": 6,
+          "layout_family": "review_comment_page",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "main_text",
+            "comment_margin",
+            "revision_notes"
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "historical_classic",
+      "category_cn": "历史文档_古籍",
+      "title": "Gijbon Lijsi",
+      "templates": [
+        {
+          "template_id": "historical_classic_v01",
+          "variant": 1,
+          "layout_family": "classic_two_column",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "volume_header",
+            "double_frame",
+            "two_column_text"
+          ]
+        },
+        {
+          "template_id": "historical_classic_v02",
+          "variant": 2,
+          "layout_family": "sutra_page",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1050,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "narrow_text_block",
+            "wide_margins",
+            "short_notes"
+          ]
+        },
+        {
+          "template_id": "historical_classic_v03",
+          "variant": 3,
+          "layout_family": "archive_manuscript",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1240,
+            "height": 1650
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "archive_id",
+            "date",
+            "body",
+            "endorsement"
+          ]
+        },
+        {
+          "template_id": "historical_classic_v04",
+          "variant": 4,
+          "layout_family": "clipping_archive",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1240,
+            "height": 1600
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "main_clip",
+            "small_clips",
+            "source_notes"
+          ]
+        },
+        {
+          "template_id": "historical_classic_v05",
+          "variant": 5,
+          "layout_family": "collation_notes",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "main_text",
+            "numbered_notes",
+            "separator"
+          ]
+        },
+        {
+          "template_id": "historical_classic_v06",
+          "variant": 6,
+          "layout_family": "rubbing_catalog",
+          "content_density": "medium",
+          "page": {
+            "width": 1240,
+            "height": 1550
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "large_image",
+            "transcription",
+            "source_info"
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "notice_announcement",
+      "category_cn": "公告通知",
+      "title": "Gvangj Gau",
+      "templates": [
+        {
+          "template_id": "notice_announcement_v01",
+          "variant": 1,
+          "layout_family": "formal_notice",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "issuer",
+            "doc_no",
+            "title",
+            "body",
+            "signature"
+          ]
+        },
+        {
+          "template_id": "notice_announcement_v02",
+          "variant": 2,
+          "layout_family": "bulletin_board_notice",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1240,
+            "height": 1650
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "bold_title",
+            "items",
+            "contact_box",
+            "border"
+          ]
+        },
+        {
+          "template_id": "notice_announcement_v03",
+          "variant": 3,
+          "layout_family": "meeting_notice",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1240,
+            "height": 1650
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "meeting_info",
+            "agenda",
+            "notice_notes"
+          ]
+        },
+        {
+          "template_id": "notice_announcement_v04",
+          "variant": 4,
+          "layout_family": "attachment_notice",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "body",
+            "attachments",
+            "submission_notes"
+          ]
+        },
+        {
+          "template_id": "notice_announcement_v05",
+          "variant": 5,
+          "layout_family": "public_notice",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1240,
+            "height": 1650
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "public_title",
+            "public_body",
+            "supervision_info"
+          ]
+        },
+        {
+          "template_id": "notice_announcement_v06",
+          "variant": 6,
+          "layout_family": "timeline_notice",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1240,
+            "height": 1650
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "timeline",
+            "remarks",
+            "footer"
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "complex_form",
+      "category_cn": "复杂表单登记页",
+      "title": "Cingzdan Danghgi",
+      "templates": [
+        {
+          "template_id": "complex_form_v01",
+          "variant": 1,
+          "layout_family": "personal_registration",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "form_title",
+            "field_groups",
+            "long_text",
+            "signature"
+          ]
+        },
+        {
+          "template_id": "complex_form_v02",
+          "variant": 2,
+          "layout_family": "approval_form",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "applicant_info",
+            "request_body",
+            "approval_steps"
+          ]
+        },
+        {
+          "template_id": "complex_form_v03",
+          "variant": 3,
+          "layout_family": "material_checklist",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "materials",
+            "status",
+            "remarks",
+            "handler"
+          ]
+        },
+        {
+          "template_id": "complex_form_v04",
+          "variant": 4,
+          "layout_family": "questionnaire",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "survey_intro",
+            "questions",
+            "options",
+            "short_answers"
+          ]
+        },
+        {
+          "template_id": "complex_form_v05",
+          "variant": 5,
+          "layout_family": "landscape_archive_card",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1500,
+            "height": 980
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "archive_id",
+            "info",
+            "photo",
+            "review"
+          ]
+        },
+        {
+          "template_id": "complex_form_v06",
+          "variant": 6,
+          "layout_family": "two_column_signup",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "left_fields",
+            "right_fields",
+            "declaration",
+            "signature"
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "handwritten_letter",
+      "category_cn": "手写笔记信件",
+      "title": "Saunghawj Gijsei",
+      "templates": [
+        {
+          "template_id": "handwritten_letter_v01",
+          "variant": 1,
+          "layout_family": "lined_notes",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "lined_paper",
+            "title",
+            "date",
+            "note_lines"
+          ]
+        },
+        {
+          "template_id": "handwritten_letter_v02",
+          "variant": 2,
+          "layout_family": "private_letter",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1240,
+            "height": 1650
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "salutation",
+            "paragraphs",
+            "signature"
+          ]
+        },
+        {
+          "template_id": "handwritten_letter_v03",
+          "variant": 3,
+          "layout_family": "class_excerpt_notes",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "excerpt_title",
+            "numbered_notes",
+            "underlines"
+          ]
+        },
+        {
+          "template_id": "handwritten_letter_v04",
+          "variant": 4,
+          "layout_family": "sticky_note_board",
+          "content_density": "medium",
+          "page": {
+            "width": 1240,
+            "height": 1350
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "sticky_notes",
+            "board"
+          ]
+        },
+        {
+          "template_id": "handwritten_letter_v05",
+          "variant": 5,
+          "layout_family": "diary_page",
+          "content_density": "dense",
+          "page": {
+            "width": 1240,
+            "height": 1754
+          },
+          "preserve_full_page": true,
+          "structure": [
+            "date",
+            "diary_title",
+            "paragraphs",
+            "binding_edge"
+          ]
+        },
+        {
+          "template_id": "handwritten_letter_v06",
+          "variant": 6,
+          "layout_family": "memo_note",
+          "content_density": "medium_high",
+          "page": {
+            "width": 1180,
+            "height": 1450
+          },
+          "preserve_full_page": false,
+          "structure": [
+            "memo_title",
+            "todo_items",
+            "signature"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "image_id": "bff13604-bff1-3604-bff1-bff13604bff1",
+  "file_name": "04_sign_poster_scene_json_02.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "batch1_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "kk-arab",
+    "language_name": "哈萨克语",
+    "script_note": "改良阿拉伯字母，横排从右到左",
+    "template_type": "sign_poster_scene",
+    "category": "sign_poster_scene",
+    "variant": 2,
+    "layout_name": "sign_poster_scene_v02",
+    "document_id": "04_sign_poster_scene_json_02",
+    "title": "Byaij Cazdoj",
+    "doc_no": "ZA-V1-04-02",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.14,
+    "chinese_topic": "sign_poster_scene",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 9,
+      "page_width": 935,
+      "page_height": 1623,
+      "body_scroll_width": 935,
+      "body_scroll_height": 1623,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 64,
+        "y": 84,
+        "width": 852,
+        "height": 1587,
+        "enabled": true,
+        "original_width": 980,
+        "original_height": 1760,
+        "content_bbox": {
+          "x_min": 88,
+          "y_min": 108,
+          "x_max": 892,
+          "y_max": 1646.3
+        },
+        "padding": 24,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.874,
+        "bottom_blank_ratio_before_crop": 0.0646
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 9115570825700302017,
+        "family": "compressed_scan",
+        "geometry": {
+          "source_size": {
+            "width": 852,
+            "height": 1587
+          },
+          "scale": {
+            "scale": 1.0,
+            "width": 852,
+            "height": 1587
+          },
+          "rotation": {
+            "angle_degrees": -3.1044,
+            "width": 937,
+            "height": 1631
+          },
+          "translation": {
+            "dx": 0,
+            "dy": 2,
+            "width": 937,
+            "height": 1631
+          },
+          "edge_crop": {
+            "left": 1,
+            "top": 4,
+            "right": 1,
+            "bottom": 4,
+            "width": 935,
+            "height": 1623
+          },
+          "output_size_before_visual": {
+            "width": 935,
+            "height": 1623
+          }
+        },
+        "output_size": {
+          "width": 935,
+          "height": 1623
+        }
+      }
+    },
+    "reading_order_policy": "rtl_visual_top_to_bottom_right_to_left_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "04_sign_poster_scene_json_02_b0006",
+      "coordinates": {
+        "x_min": 24.26,
+        "y_min": 23.26,
+        "x_max": 885.1,
+        "y_max": 1136.53
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": false,
+        "asset_id": "COCO_val2014_000000062824",
+        "asset_source": "random120-coco2014",
+        "asset_crop": "object-fit-cover"
+      },
+      "reading_order": 4,
+      "reading_group": "image",
+      "reading_role": "image",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_02_b0007",
+      "coordinates": {
+        "x_min": 83.8,
+        "y_min": 1120.95,
+        "x_max": 889.87,
+        "y_max": 1224.4
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_02_b0008",
+      "coordinates": {
+        "x_min": 88.24,
+        "y_min": 1202.83,
+        "x_max": 895.92,
+        "y_max": 1336.04
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "66px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_02_b0009",
+      "coordinates": {
+        "x_min": 94.29,
+        "y_min": 1314.47,
+        "x_max": 901.73,
+        "y_max": 1443.08
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "كۇشەيتۋ − جاڭا ءداۋىردىڭ جاڭا جورىعىندا پيونەرلەر وتريادى قىزمەتىن ويداعىداي ىست。请勿遮挡安全通道；文明参与共同维护秩序",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "30px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_02_b0001",
+      "coordinates": {
+        "x_min": 771.44,
+        "y_min": 1405.86,
+        "x_max": 899.91,
+        "y_max": 1483.51
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": ": حالىق تورابى",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "21px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_02_b0002",
+      "coordinates": {
+        "x_min": 462.4,
+        "y_min": 1413.27,
+        "x_max": 763.31,
+        "y_max": 1500.27
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "باستىع。文明参与共同维护秩序",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "21px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_02_b0003",
+      "coordinates": {
+        "x_min": 286.26,
+        "y_min": 1430.03,
+        "x_max": 454.26,
+        "y_max": 1509.83
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "شىنداپ كىرىسىپ،",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "21px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_02_b0004",
+      "coordinates": {
+        "x_min": 168.03,
+        "y_min": 1439.58,
+        "x_max": 278.12,
+        "y_max": 1516.24
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "تۇرمىس | دەنە",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "21px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_02_b0005",
+      "coordinates": {
+        "x_min": 791.71,
+        "y_min": 1488.74,
+        "x_max": 904.4,
+        "y_max": 1565.53
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "بولاشاققا كوز",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "21px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:17:53.869Z",
+  "updated_at": "2026-07-03T12:18:59"
+}

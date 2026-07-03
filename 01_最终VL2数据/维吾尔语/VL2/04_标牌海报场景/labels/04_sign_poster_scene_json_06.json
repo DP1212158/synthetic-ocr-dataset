@@ -1,0 +1,251 @@
+{
+  "image_id": "bbf12fb8-bbf1-2fb8-bbf1-bbf12fb8bbf1",
+  "file_name": "04_sign_poster_scene_json_06.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "batch1_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "ug",
+    "language_name": "维吾尔语",
+    "script_note": "改良阿拉伯字母，横排从右到左",
+    "template_type": "sign_poster_scene",
+    "category": "sign_poster_scene",
+    "variant": 6,
+    "layout_name": "sign_poster_scene_v06",
+    "document_id": "04_sign_poster_scene_json_06",
+    "title": "Byaij Cazdoj",
+    "doc_no": "ZA-V1-04-06",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.16,
+    "chinese_topic": "sign_poster_scene",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 5,
+      "page_width": 1183,
+      "page_height": 542,
+      "body_scroll_width": 1183,
+      "body_scroll_height": 542,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 26,
+        "y": 213,
+        "width": 1154,
+        "height": 494,
+        "enabled": true,
+        "original_width": 1260,
+        "original_height": 980,
+        "content_bbox": {
+          "x_min": 50,
+          "y_min": 237.5,
+          "x_max": 1155.8,
+          "y_max": 682.5
+        },
+        "padding": 24,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.4541,
+        "bottom_blank_ratio_before_crop": 0.3036
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 9998077624997312711,
+        "family": "shadow_photo",
+        "geometry": {
+          "source_size": {
+            "width": 1154,
+            "height": 494
+          },
+          "scale": {
+            "scale": 1.00936,
+            "width": 1165,
+            "height": 499
+          },
+          "rotation": {
+            "angle_degrees": 2.8972,
+            "width": 1189,
+            "height": 558
+          },
+          "translation": {
+            "dx": 3,
+            "dy": -2,
+            "width": 1189,
+            "height": 558
+          },
+          "edge_crop": {
+            "left": 5,
+            "top": 11,
+            "right": 1,
+            "bottom": 5,
+            "width": 1183,
+            "height": 542
+          },
+          "output_size_before_visual": {
+            "width": 1183,
+            "height": 542
+          }
+        },
+        "output_size": {
+          "width": 1183,
+          "height": 542
+        }
+      }
+    },
+    "reading_order_policy": "rtl_visual_top_to_bottom_right_to_left_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "04_sign_poster_scene_json_06_b0001",
+      "coordinates": {
+        "x_min": 560.19,
+        "y_min": 105.85,
+        "x_max": 1157.51,
+        "y_max": 176.8
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_06_b0002",
+      "coordinates": {
+        "x_min": 547.05,
+        "y_min": 130.82,
+        "x_max": 1155.53,
+        "y_max": 348.43
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "تۈنلەر، سە 请保管好个人",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "60px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_06_b0003",
+      "coordinates": {
+        "x_min": 539.13,
+        "y_min": 324.63,
+        "x_max": 1140.68,
+        "y_max": 451.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ئايەي شەرۋازى ھالىمنى يەتسەڭچۇ دەردىمگە سورساڭچۇ قېشى قارا مۇلايىم گۇناھىم。咨询台提供资料领取",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "29px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_06_b0004",
+      "coordinates": {
+        "x_min": 24.73,
+        "y_min": 12.92,
+        "x_max": 469.55,
+        "y_max": 457.74
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": false,
+        "asset_id": "COCO_val2014_000000001064",
+        "asset_source": "random120-coco2014",
+        "asset_crop": "object-fit-cover"
+      },
+      "reading_order": 4,
+      "reading_group": "image",
+      "reading_role": "image",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_06_b0005",
+      "coordinates": {
+        "x_min": 23.46,
+        "y_min": 436.31,
+        "x_max": 448.12,
+        "y_max": 482.94
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:09:29.416Z",
+  "updated_at": "2026-07-03T12:10:37"
+}

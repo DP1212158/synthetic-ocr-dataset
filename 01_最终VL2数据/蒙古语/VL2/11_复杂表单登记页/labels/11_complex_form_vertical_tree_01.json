@@ -1,0 +1,1353 @@
+{
+  "image_id": "998fa79b-998f-a79b-998f-998fa79b998f",
+  "file_name": "11_complex_form_vertical_tree_01.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "mongolian_vertical_json_tree_v3_v4_split_mix_assets",
+    "language_code": "mn-trad",
+    "language_name": "传统蒙古文",
+    "script_note": "传统蒙古文，竖排从上到下，列从左到右",
+    "template_type": "complex_form",
+    "category": "complex_form",
+    "variant": 1,
+    "layout_name": "complex_form_vertical_tree_01",
+    "document_id": "11_complex_form_vertical_tree_01",
+    "title": "复杂表单登记页",
+    "doc_no": "MN-V3-11-01",
+    "date": "2026-07-02",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "complex_form",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 43,
+      "page_width": 901,
+      "page_height": 1374,
+      "body_scroll_width": 901,
+      "body_scroll_height": 1374,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 72,
+        "y": 62,
+        "width": 888,
+        "height": 1380,
+        "enabled": true,
+        "original_width": 1160,
+        "original_height": 1500,
+        "content_bbox": {
+          "x_min": 102,
+          "y_min": 92,
+          "x_max": 930,
+          "y_max": 1412
+        },
+        "padding": 30,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.88,
+        "bottom_blank_ratio_before_crop": 0.0587
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 13071035345785894447,
+        "family": "clean_scan",
+        "geometry": {
+          "source_size": {
+            "width": 888,
+            "height": 1380
+          },
+          "scale": {
+            "scale": 0.99418,
+            "width": 883,
+            "height": 1372
+          },
+          "rotation": {
+            "angle_degrees": 0.9272,
+            "width": 906,
+            "height": 1387
+          },
+          "translation": {
+            "dx": 2,
+            "dy": 5,
+            "width": 906,
+            "height": 1387
+          },
+          "edge_crop": {
+            "left": 4,
+            "top": 7,
+            "right": 1,
+            "bottom": 6,
+            "width": 901,
+            "height": 1374
+          },
+          "output_size_before_visual": {
+            "width": 901,
+            "height": 1374
+          }
+        },
+        "output_size": {
+          "width": 901,
+          "height": 1374
+        }
+      }
+    },
+    "reading_order_policy": "vertical_lr_columns_top_to_bottom_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0002",
+      "coordinates": {
+        "x_min": 28.31,
+        "y_min": 28.31,
+        "x_max": 103.22,
+        "y_max": 1341.32
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "34px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "body",
+      "reading_role": "title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0003",
+      "coordinates": {
+        "x_min": 153.23,
+        "y_min": 47.93,
+        "x_max": 186.43,
+        "y_max": 257.17
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0004",
+      "coordinates": {
+        "x_min": 186.38,
+        "y_min": 48.48,
+        "x_max": 232.15,
+        "y_max": 297.66
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠮᠢᠨᠢ ᠤᠯᠤᠰ ᠤᠨ",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0005",
+      "coordinates": {
+        "x_min": 244.68,
+        "y_min": 49.41,
+        "x_max": 277.88,
+        "y_max": 258.65
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0006",
+      "coordinates": {
+        "x_min": 277.83,
+        "y_min": 49.96,
+        "x_max": 323.61,
+        "y_max": 299.14
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠬᠠᠷᠠᠵᠠ ᠬᠦᠢᠲᠡᠨ",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0007",
+      "coordinates": {
+        "x_min": 336.13,
+        "y_min": 50.89,
+        "x_max": 369.33,
+        "y_max": 260.13
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0008",
+      "coordinates": {
+        "x_min": 369.29,
+        "y_min": 51.44,
+        "x_max": 415.06,
+        "y_max": 300.62
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠬᠡᠰᠡᠭ ᠡᠨᠧᠷᠭᠢ",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0009",
+      "coordinates": {
+        "x_min": 427.59,
+        "y_min": 52.37,
+        "x_max": 460.78,
+        "y_max": 261.61
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0010",
+      "coordinates": {
+        "x_min": 460.74,
+        "y_min": 52.92,
+        "x_max": 506.51,
+        "y_max": 302.1
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠪᠠᠢᠭ᠎ᠠ ᠭᠠᠵᠠᠷ",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0011",
+      "coordinates": {
+        "x_min": 519.03,
+        "y_min": 53.85,
+        "x_max": 552.24,
+        "y_max": 263.09
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0012",
+      "coordinates": {
+        "x_min": 552.19,
+        "y_min": 54.4,
+        "x_max": 597.96,
+        "y_max": 303.58
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠬᠢᠷᠠᠬᠤ ᠤᠨᠠᠵᠤ",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0013",
+      "coordinates": {
+        "x_min": 610.49,
+        "y_min": 55.33,
+        "x_max": 643.69,
+        "y_max": 264.57
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0014",
+      "coordinates": {
+        "x_min": 643.64,
+        "y_min": 55.88,
+        "x_max": 689.41,
+        "y_max": 305.06
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠤ ᠡᠮᠦᠨ᠎ᠡ ᠤᠳᠬ᠎ᠠ",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0015",
+      "coordinates": {
+        "x_min": 701.94,
+        "y_min": 56.81,
+        "x_max": 735.14,
+        "y_max": 266.05
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0016",
+      "coordinates": {
+        "x_min": 735.09,
+        "y_min": 57.36,
+        "x_max": 780.87,
+        "y_max": 306.54
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠦᠭᠡᠢ᠂ ᠬᠠᠷᠢᠨ ᠴᠤ",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 38,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0017",
+      "coordinates": {
+        "x_min": 793.4,
+        "y_min": 58.29,
+        "x_max": 826.59,
+        "y_max": 267.53
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 41,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0018",
+      "coordinates": {
+        "x_min": 826.55,
+        "y_min": 58.84,
+        "x_max": 872.32,
+        "y_max": 308.02
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠲᠤᠲᠤᠮ ᠵᠤᠵᠠᠭᠠᠨ",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 43,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0019",
+      "coordinates": {
+        "x_min": 146.48,
+        "y_min": 465.43,
+        "x_max": 179.67,
+        "y_max": 674.66
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0020",
+      "coordinates": {
+        "x_min": 179.63,
+        "y_min": 465.98,
+        "x_max": 225.39,
+        "y_max": 715.17
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠵᠢᠨ ᠲᠣᠭᠣᠨᠣ ᠪᠡᠷ",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0021",
+      "coordinates": {
+        "x_min": 237.92,
+        "y_min": 466.91,
+        "x_max": 271.13,
+        "y_max": 676.14
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0022",
+      "coordinates": {
+        "x_min": 271.08,
+        "y_min": 467.46,
+        "x_max": 316.85,
+        "y_max": 716.65
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠬᠦᠷᠦᠭ ᠦᠳ ᠨᠢᠳᠦᠨ",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0023",
+      "coordinates": {
+        "x_min": 329.37,
+        "y_min": 468.39,
+        "x_max": 362.58,
+        "y_max": 677.62
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0024",
+      "coordinates": {
+        "x_min": 362.53,
+        "y_min": 468.94,
+        "x_max": 408.3,
+        "y_max": 718.13
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠦ ᠪᠢᠴᠢᠭᠡᠰᠦ ᠡ",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0025",
+      "coordinates": {
+        "x_min": 420.83,
+        "y_min": 469.87,
+        "x_max": 454.02,
+        "y_max": 679.1
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0026",
+      "coordinates": {
+        "x_min": 453.98,
+        "y_min": 470.42,
+        "x_max": 499.76,
+        "y_max": 719.61
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠶᠢᠨ ᠣᠷᠴᠢᠨ ᠠᠬᠤᠢ",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0027",
+      "coordinates": {
+        "x_min": 512.28,
+        "y_min": 471.35,
+        "x_max": 545.48,
+        "y_max": 680.58
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0028",
+      "coordinates": {
+        "x_min": 545.43,
+        "y_min": 471.9,
+        "x_max": 591.21,
+        "y_max": 721.09
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠪᠦᠬᠦᠨ ᠰᠠᠢᠬᠠᠨ",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0029",
+      "coordinates": {
+        "x_min": 603.74,
+        "y_min": 472.83,
+        "x_max": 636.93,
+        "y_max": 682.06
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0030",
+      "coordinates": {
+        "x_min": 636.89,
+        "y_min": 473.38,
+        "x_max": 682.65,
+        "y_max": 722.57
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠤᠯᠠᠭᠠᠨ ᠲᠤᠶᠠᠭ᠎ᠠ",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0031",
+      "coordinates": {
+        "x_min": 695.18,
+        "y_min": 474.31,
+        "x_max": 728.39,
+        "y_max": 683.54
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0032",
+      "coordinates": {
+        "x_min": 728.34,
+        "y_min": 474.86,
+        "x_max": 774.11,
+        "y_max": 724.05
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠲᠡᠷᠡ ᠪᠥᠬᠥᠨ ᠢ",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 39,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0033",
+      "coordinates": {
+        "x_min": 786.64,
+        "y_min": 475.79,
+        "x_max": 819.84,
+        "y_max": 685.02
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 40,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0034",
+      "coordinates": {
+        "x_min": 819.79,
+        "y_min": 476.34,
+        "x_max": 865.56,
+        "y_max": 725.53
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠮᠤᠩᠭᠤᠯ ᠪᠤᠯᠬᠤᠷ",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 42,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0035",
+      "coordinates": {
+        "x_min": 138.43,
+        "y_min": 962.45,
+        "x_max": 171.63,
+        "y_max": 1171.69
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0036",
+      "coordinates": {
+        "x_min": 171.58,
+        "y_min": 963.0,
+        "x_max": 217.35,
+        "y_max": 1212.19
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠢᠷᠡᠭ᠍ᠰᠡᠨ ᠠᠢᠯ",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0037",
+      "coordinates": {
+        "x_min": 267.66,
+        "y_min": 964.55,
+        "x_max": 300.85,
+        "y_max": 1173.78
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0038",
+      "coordinates": {
+        "x_min": 300.81,
+        "y_min": 965.09,
+        "x_max": 346.58,
+        "y_max": 1214.29
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠤᠷᠠᠴᠢᠨ ᠲᠣᠭᠣᠷᠢᠨ",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0039",
+      "coordinates": {
+        "x_min": 396.88,
+        "y_min": 966.64,
+        "x_max": 430.08,
+        "y_max": 1175.87
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0040",
+      "coordinates": {
+        "x_min": 430.03,
+        "y_min": 967.18,
+        "x_max": 475.81,
+        "y_max": 1216.38
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠠᠨᠭᠭᠢ ᠡᠴᠡ ᠲᠤᠰ",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0041",
+      "coordinates": {
+        "x_min": 526.1,
+        "y_min": 968.73,
+        "x_max": 559.31,
+        "y_max": 1177.96
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0042",
+      "coordinates": {
+        "x_min": 559.26,
+        "y_min": 969.28,
+        "x_max": 605.03,
+        "y_max": 1218.47
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠪᠠᠨ ᠲᠥᠪ ᠪᠣᠯᠭᠠᠨ",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0043",
+      "coordinates": {
+        "x_min": 655.33,
+        "y_min": 970.82,
+        "x_max": 688.53,
+        "y_max": 1180.05
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "41",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_vertical_tree_01_b0044",
+      "coordinates": {
+        "x_min": 688.49,
+        "y_min": 971.37,
+        "x_max": 734.25,
+        "y_max": 1220.56
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ᠨᠡᠮᠡᠭᠳᠡᠯ ᠦᠨ",
+      "is_text": true,
+      "order": "42",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T06:38:58.145Z",
+  "updated_at": "2026-07-03T14:39:42"
+}

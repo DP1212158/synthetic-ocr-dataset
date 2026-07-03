@@ -1,0 +1,113 @@
+{
+  "category": {
+    "category_id": "historical_classic",
+    "category_cn": "历史文档_古籍",
+    "title": "Gijbon Lijsi",
+    "templates": [
+      {
+        "template_id": "historical_classic_v01",
+        "variant": 1,
+        "layout_family": "classic_two_column",
+        "content_density": "dense",
+        "page": {
+          "width": 1240,
+          "height": 1754
+        },
+        "preserve_full_page": true,
+        "structure": [
+          "volume_header",
+          "double_frame",
+          "two_column_text"
+        ],
+        "tight_crop": false
+      },
+      {
+        "template_id": "historical_classic_v02",
+        "variant": 2,
+        "layout_family": "sutra_page",
+        "content_density": "medium_high",
+        "page": {
+          "width": 1050,
+          "height": 1754
+        },
+        "preserve_full_page": true,
+        "structure": [
+          "narrow_text_block",
+          "wide_margins",
+          "short_notes"
+        ],
+        "tight_crop": false
+      },
+      {
+        "template_id": "historical_classic_v03",
+        "variant": 3,
+        "layout_family": "archive_manuscript",
+        "content_density": "medium_high",
+        "page": {
+          "width": 1240,
+          "height": 1650
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "archive_id",
+          "date",
+          "body",
+          "endorsement"
+        ],
+        "tight_crop": true
+      },
+      {
+        "template_id": "historical_classic_v04",
+        "variant": 4,
+        "layout_family": "clipping_archive",
+        "content_density": "medium_high",
+        "page": {
+          "width": 1240,
+          "height": 1600
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "main_clip",
+          "small_clips",
+          "source_notes"
+        ],
+        "tight_crop": true
+      },
+      {
+        "template_id": "historical_classic_v05",
+        "variant": 5,
+        "layout_family": "collation_notes",
+        "content_density": "dense",
+        "page": {
+          "width": 1240,
+          "height": 1754
+        },
+        "preserve_full_page": true,
+        "structure": [
+          "main_text",
+          "numbered_notes",
+          "separator"
+        ],
+        "tight_crop": false
+      },
+      {
+        "template_id": "historical_classic_v06",
+        "variant": 6,
+        "layout_family": "rubbing_catalog",
+        "content_density": "medium",
+        "page": {
+          "width": 1240,
+          "height": 1550
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "large_image",
+          "transcription",
+          "source_info"
+        ],
+        "tight_crop": true
+      }
+    ]
+  },
+  "source_schema": "category_layout_templates.v1"
+}

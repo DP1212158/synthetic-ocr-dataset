@@ -1,0 +1,362 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "academic_paper_vertical_tree_01",
+  "variant": 1,
+  "category_id": "academic_paper",
+  "category_cn": "学术文献页",
+  "folder": "08_学术文献页",
+  "template_name_cn": "论文首页",
+  "layout_family": "academic_first_page",
+  "design_prompt": "题名、摘要、关键词、正文和图表占位。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1120,
+    "height": 1580,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 12,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "meta",
+      "kind": "text",
+      "label": "metadata",
+      "role": "paper_meta",
+      "class": "small",
+      "box": {
+        "x": 54,
+        "y": 58,
+        "w": 42,
+        "h": 1460
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 24,
+        "max_chars": 96,
+        "value": "2026"
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "paper_title",
+      "class": "title",
+      "box": {
+        "x": 128,
+        "y": 58,
+        "w": 56,
+        "h": 1460
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 8,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "abstract",
+      "kind": "text",
+      "label": "section_title",
+      "role": "abstract",
+      "class": "subtitle",
+      "box": {
+        "x": 220,
+        "y": 76,
+        "w": 34,
+        "h": 1380
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 280,
+        "y": 76,
+        "w": 30,
+        "h": 1380
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 38,
+        "max_chars": 120
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 328,
+        "y": 76,
+        "w": 30,
+        "h": 1380
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 38,
+        "max_chars": 120
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 376,
+        "y": 76,
+        "w": 30,
+        "h": 1380
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 38,
+        "max_chars": 120
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 424,
+        "y": 76,
+        "w": 30,
+        "h": 1380
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 38,
+        "max_chars": 120
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 472,
+        "y": 76,
+        "w": 30,
+        "h": 1380
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 38,
+        "max_chars": 120
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 520,
+        "y": 76,
+        "w": 30,
+        "h": 1380
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 38,
+        "max_chars": 120
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_07",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 568,
+        "y": 76,
+        "w": 30,
+        "h": 1380
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 38,
+        "max_chars": 120
+      },
+      "visual": {}
+    },
+    {
+      "id": "fig",
+      "kind": "image",
+      "label": "image",
+      "role": "figure",
+      "class": "image-fill",
+      "box": {
+        "x": 710,
+        "y": 96,
+        "w": 250,
+        "h": 360
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "caption",
+      "kind": "text",
+      "label": "caption",
+      "role": "caption",
+      "class": "small",
+      "box": {
+        "x": 988,
+        "y": 96,
+        "w": 28,
+        "h": 360
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 34
+      },
+      "visual": {}
+    },
+    {
+      "id": "more_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 710,
+        "y": 510,
+        "w": 30,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "more_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 758,
+        "y": 510,
+        "w": 30,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "more_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 806,
+        "y": 510,
+        "w": 30,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "more_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 854,
+        "y": 510,
+        "w": 30,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "more_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 902,
+        "y": 510,
+        "w": 30,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 90
+      },
+      "visual": {}
+    }
+  ]
+}

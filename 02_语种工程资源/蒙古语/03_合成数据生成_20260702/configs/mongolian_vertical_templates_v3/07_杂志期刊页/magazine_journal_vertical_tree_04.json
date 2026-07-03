@@ -1,0 +1,345 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "magazine_journal_vertical_tree_04",
+  "variant": 4,
+  "category_id": "magazine_journal",
+  "category_cn": "杂志期刊页",
+  "folder": "07_杂志期刊页",
+  "template_name_cn": "目录栏目页",
+  "layout_family": "contents_column_page",
+  "design_prompt": "目录或栏目索引，多个短条目和页码。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1120,
+    "height": 1500,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 9,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "contents_title",
+      "class": "title",
+      "box": {
+        "x": 70,
+        "y": 80,
+        "w": 54,
+        "h": 1300
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 30
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_1",
+      "kind": "text",
+      "label": "list_item",
+      "role": "contents_item",
+      "class": "small",
+      "box": {
+        "x": 160,
+        "y": 120,
+        "w": 32,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_2",
+      "kind": "text",
+      "label": "list_item",
+      "role": "contents_item",
+      "class": "small",
+      "box": {
+        "x": 218,
+        "y": 120,
+        "w": 32,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_3",
+      "kind": "text",
+      "label": "list_item",
+      "role": "contents_item",
+      "class": "small",
+      "box": {
+        "x": 276,
+        "y": 120,
+        "w": 32,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_4",
+      "kind": "text",
+      "label": "list_item",
+      "role": "contents_item",
+      "class": "small",
+      "box": {
+        "x": 334,
+        "y": 120,
+        "w": 32,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_5",
+      "kind": "text",
+      "label": "list_item",
+      "role": "contents_item",
+      "class": "small",
+      "box": {
+        "x": 392,
+        "y": 120,
+        "w": 32,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_6",
+      "kind": "text",
+      "label": "list_item",
+      "role": "contents_item",
+      "class": "small",
+      "box": {
+        "x": 450,
+        "y": 120,
+        "w": 32,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_7",
+      "kind": "text",
+      "label": "list_item",
+      "role": "contents_item",
+      "class": "small",
+      "box": {
+        "x": 508,
+        "y": 120,
+        "w": 32,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_8",
+      "kind": "text",
+      "label": "list_item",
+      "role": "contents_item",
+      "class": "small",
+      "box": {
+        "x": 566,
+        "y": 120,
+        "w": 32,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_9",
+      "kind": "text",
+      "label": "list_item",
+      "role": "contents_item",
+      "class": "small",
+      "box": {
+        "x": 624,
+        "y": 120,
+        "w": 32,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_10",
+      "kind": "text",
+      "label": "list_item",
+      "role": "contents_item",
+      "class": "small",
+      "box": {
+        "x": 682,
+        "y": 120,
+        "w": 32,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_11",
+      "kind": "text",
+      "label": "list_item",
+      "role": "contents_item",
+      "class": "small",
+      "box": {
+        "x": 740,
+        "y": 120,
+        "w": 32,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_12",
+      "kind": "text",
+      "label": "list_item",
+      "role": "contents_item",
+      "class": "small",
+      "box": {
+        "x": 798,
+        "y": 120,
+        "w": 32,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_13",
+      "kind": "text",
+      "label": "list_item",
+      "role": "contents_item",
+      "class": "small",
+      "box": {
+        "x": 856,
+        "y": 120,
+        "w": 32,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_14",
+      "kind": "text",
+      "label": "list_item",
+      "role": "contents_item",
+      "class": "small",
+      "box": {
+        "x": 914,
+        "y": 120,
+        "w": 32,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_15",
+      "kind": "text",
+      "label": "list_item",
+      "role": "contents_item",
+      "class": "small",
+      "box": {
+        "x": 972,
+        "y": 120,
+        "w": 32,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 44
+      },
+      "visual": {}
+    }
+  ]
+}

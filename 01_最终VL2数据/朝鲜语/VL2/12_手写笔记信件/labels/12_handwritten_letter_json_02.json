@@ -1,0 +1,860 @@
+{
+  "image_id": "915fe8f0-915f-e8f0-915f-915fe8f0915f",
+  "file_name": "12_handwritten_letter_json_02.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "remaining_pages_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "ko",
+    "language_name": "朝鲜语",
+    "script_note": "谚文 Hangul，横排从左到右",
+    "template_type": "handwritten_letter",
+    "category": "handwritten_letter",
+    "variant": 2,
+    "layout_name": "handwritten_letter_v02",
+    "document_id": "12_handwritten_letter_json_02",
+    "title": "Saunghawj Gijsei",
+    "doc_no": "ZA-V1-12-02",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.14,
+    "chinese_topic": "handwritten_letter",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 26,
+      "page_width": 1074,
+      "page_height": 1152,
+      "body_scroll_width": 1074,
+      "body_scroll_height": 1152,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 94,
+        "y": 70,
+        "width": 1052,
+        "height": 1138,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1650,
+        "content_bbox": {
+          "x_min": 125,
+          "y_min": 101,
+          "x_max": 1115,
+          "y_max": 1176.7
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.6519,
+        "bottom_blank_ratio_before_crop": 0.2868
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 16827027173204074482,
+        "family": "soft_copy",
+        "geometry": {
+          "source_size": {
+            "width": 1052,
+            "height": 1138
+          },
+          "scale": {
+            "scale": 0.98666,
+            "width": 1038,
+            "height": 1123
+          },
+          "rotation": {
+            "angle_degrees": 2.0336,
+            "width": 1078,
+            "height": 1160
+          },
+          "translation": {
+            "dx": 2,
+            "dy": 7,
+            "width": 1078,
+            "height": 1160
+          },
+          "edge_crop": {
+            "left": 3,
+            "top": 5,
+            "right": 1,
+            "bottom": 3,
+            "width": 1074,
+            "height": 1152
+          },
+          "output_size_before_visual": {
+            "width": 1074,
+            "height": 1152
+          }
+        },
+        "output_size": {
+          "width": 1074,
+          "height": 1152
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "12_handwritten_letter_json_02_b0001",
+      "coordinates": {
+        "x_min": 67.11,
+        "y_min": 33.66,
+        "x_max": 1044.51,
+        "y_max": 102.83
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "전문 분야와 관련 있는",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "27px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0002",
+      "coordinates": {
+        "x_min": 65.46,
+        "y_min": 85.91,
+        "x_max": 1042.65,
+        "y_max": 149.37
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "인 감독들의 첫 번째 또는 두 번째 장편 영화들의 경쟁 부문이다. 그리고 '한국 영。请代我问候家里人",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0003",
+      "coordinates": {
+        "x_min": 64.05,
+        "y_min": 125.55,
+        "x_max": 1041.25,
+        "y_max": 189.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "되었습니다. 그렇지만 사람들이 제 이야기를 들어주고 박수도 쳐줘서 기분이 좋았습니다. 이。收到后请回个消息",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0004",
+      "coordinates": {
+        "x_min": 61.62,
+        "y_min": 165.19,
+        "x_max": 1039.84,
+        "y_max": 257.44
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "과거는 시간을 통과하면서 매번 다른 모습이 된다. 기억들은 계속 변화한다. 하지만 내 이야기에는 바뀌지 않는 단 하나의 사건이 있고, 나는 그것을 빈。朋友们都很惦记你",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0005",
+      "coordinates": {
+        "x_min": 60.22,
+        "y_min": 233.62,
+        "x_max": 1037.41,
+        "y_max": 296.97
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "먹다가 새콤달콤한 거 먹으면 신맛밖에 안 나잖아. 그렇지만 인생은 모르는 거다。路上见到的景色很好",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0006",
+      "coordinates": {
+        "x_min": 58.81,
+        "y_min": 273.17,
+        "x_max": 1036.01,
+        "y_max": 336.62
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "생긴다. 저렴하다는 이유로 대용량 제품을 구매하는 것도 주의해야 한다. 필요 이상。有空请再写信给我",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0007",
+      "coordinates": {
+        "x_min": 57.4,
+        "y_min": 312.8,
+        "x_max": 1034.6,
+        "y_max": 376.25
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "형식에 얽매이지 말고 자유롭게 서술하라 하셨으니 그리하겠습니다. 비단보로 감싼 은수저。请代我问候家里人",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0008",
+      "coordinates": {
+        "x_min": 55.99,
+        "y_min": 352.44,
+        "x_max": 1033.19,
+        "y_max": 415.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "그 가운데 하나는 강증산 , 1871~1909 의 종교운동에서 나타났다.20세기。请代我问候家里人",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0009",
+      "coordinates": {
+        "x_min": 54.59,
+        "y_min": 392.08,
+        "x_max": 1031.78,
+        "y_max": 455.53
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "17 개 광역자치단체는 모두 도입했습니다. 기초지자체까지 포함한다면 전국 243 곳。近来一切都还顺利",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0010",
+      "coordinates": {
+        "x_min": 53.18,
+        "y_min": 431.72,
+        "x_max": 1030.38,
+        "y_max": 495.17
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "②우리 형은 내가 어려운 일이 있을때마다 가장 먼저나타나서 나를 도와주는 세상에서。近来一切都还顺利",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0011",
+      "coordinates": {
+        "x_min": 51.77,
+        "y_min": 471.36,
+        "x_max": 1028.97,
+        "y_max": 534.81
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "는 그만 울음이 나와버렸다. 물론 를 걱정해준 주변 지인들도 많았다. 동료도 친구。朋友们都很惦记你",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0012",
+      "coordinates": {
+        "x_min": 50.36,
+        "y_min": 511.0,
+        "x_max": 1027.56,
+        "y_max": 574.45
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "지자체가 생활임금 도입 시 공공계약 가산점을 주는 등의 방식으로 도입을 유도하고 있지。朋友们都很惦记你",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0013",
+      "coordinates": {
+        "x_min": 48.96,
+        "y_min": 550.63,
+        "x_max": 1026.15,
+        "y_max": 613.99
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "용맹하지 않지만, 늘 함께해 왔다. 강해서 함께하는 게 아니었다. 약하고 부족하。希望你保持身体健康",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0014",
+      "coordinates": {
+        "x_min": 46.53,
+        "y_min": 590.18,
+        "x_max": 1024.75,
+        "y_max": 682.42
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "바쁜 일상 속에서도 나만의 시간을 가져보는 것은 어떨까요? 따뜻한 커피 한잔이 내려지는 그 순간, 마음이 차분해지고 하루의 이야기가 시。有空请再写信给我",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0015",
+      "coordinates": {
+        "x_min": 45.12,
+        "y_min": 658.6,
+        "x_max": 1022.32,
+        "y_max": 722.06
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "한국에 온 지 얼마 안 되어서 한국어로 말하는 것이 어려웠습니다. 그리고 연습도 많이 하。愿你学习工作顺利",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0016",
+      "coordinates": {
+        "x_min": 43.71,
+        "y_min": 698.25,
+        "x_max": 1020.91,
+        "y_max": 761.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "있는 교재《한국어》 1—4 ③를 선정하여 한자어어휘가 매 교과서의 전체 한국어어휘중。路上见到的景色很好",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0017",
+      "coordinates": {
+        "x_min": 42.31,
+        "y_min": 737.88,
+        "x_max": 1019.5,
+        "y_max": 801.34
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "⑤단순 관점과 달리,독해에 영향을 주는 여러 요소를고려하여 독해 능력을 복잡한 과정으로。有空请再写信给我",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0018",
+      "coordinates": {
+        "x_min": 39.88,
+        "y_min": 777.53,
+        "x_max": 1018.1,
+        "y_max": 869.77
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "에 ① 내 취미는 소설책 읽기이다. 요즘에는 책을 읽는 사람들이 점점 줄어들고 있지만 독서처럼 마음의여유를 찾을수 있는 좋。天气转凉记得添衣",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0019",
+      "coordinates": {
+        "x_min": 38.47,
+        "y_min": 845.95,
+        "x_max": 1015.67,
+        "y_max": 909.31
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "4 이윤진 샘 논문 2014 을 살펴보면 외국인 대학생이랑 대학원생들 위한 논문 쓰기 교육。有空请再写信给我",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0020",
+      "coordinates": {
+        "x_min": 36.29,
+        "y_min": 905.22,
+        "x_max": 1013.56,
+        "y_max": 970.74
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": ". .",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0021",
+      "coordinates": {
+        "x_min": 35.46,
+        "y_min": 936.08,
+        "x_max": 1012.47,
+        "y_max": 994.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "형편에 맞는 제품을 구매하고 유행을 따르기보다는 실용성을 위주로 소비하는",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0022",
+      "coordinates": {
+        "x_min": 34.63,
+        "y_min": 959.44,
+        "x_max": 1011.64,
+        "y_max": 1017.58
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "감정보다는 판단이 앞서고, 공감보다는 결론을 찾고, 누군가의 이야기를",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0023",
+      "coordinates": {
+        "x_min": 33.8,
+        "y_min": 982.92,
+        "x_max": 1010.8,
+        "y_max": 1040.95
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "= 무능 = 가난이라는 등식으로 자동 연산되어서 가난의 이유를 노력이",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0024",
+      "coordinates": {
+        "x_min": 32.97,
+        "y_min": 1006.28,
+        "x_max": 1009.97,
+        "y_max": 1064.41
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "인생, 너그러운 인생을 사는 사람들이어서 고마웠다. 부디 나 없는",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0025",
+      "coordinates": {
+        "x_min": 31.44,
+        "y_min": 1051.44,
+        "x_max": 1008.37,
+        "y_max": 1107.5
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "벌어도 씀씀이가 크다면",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0026",
+      "coordinates": {
+        "x_min": 30.67,
+        "y_min": 1072.84,
+        "x_max": 1007.61,
+        "y_max": 1129.0
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026-07",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:03:40.235Z",
+  "updated_at": "2026-07-03T12:04:29"
+}

@@ -1,0 +1,114 @@
+{
+  "category": {
+    "category_id": "textbook_page",
+    "category_cn": "教科书页",
+    "title": "སློབ་དེབ་ཤོག་ངོས",
+    "templates": [
+      {
+        "template_id": "textbook_page_v01",
+        "variant": 1,
+        "layout_family": "lesson_explanation",
+        "content_density": "dense",
+        "page": {
+          "width": 1240,
+          "height": 1754
+        },
+        "preserve_full_page": true,
+        "structure": [
+          "lesson_number",
+          "lesson_title",
+          "knowledge_points",
+          "example_box",
+          "key_point_sidebar"
+        ]
+      },
+      {
+        "template_id": "textbook_page_v02",
+        "variant": 2,
+        "layout_family": "practice_exercise_page",
+        "content_density": "dense",
+        "page": {
+          "width": 1240,
+          "height": 1754
+        },
+        "preserve_full_page": true,
+        "structure": [
+          "exercise_header",
+          "numbered_questions",
+          "answer_lines",
+          "hint_footer"
+        ]
+      },
+      {
+        "template_id": "textbook_page_v03",
+        "variant": 3,
+        "layout_family": "diagram_explanation",
+        "content_density": "medium",
+        "page": {
+          "width": 1240,
+          "height": 1600
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "large_diagram",
+          "numbered_callouts",
+          "concept_summary",
+          "caption"
+        ]
+      },
+      {
+        "template_id": "textbook_page_v04",
+        "variant": 4,
+        "layout_family": "vocabulary_terms",
+        "content_density": "dense",
+        "page": {
+          "width": 1240,
+          "height": 1754
+        },
+        "preserve_full_page": true,
+        "structure": [
+          "term_entries",
+          "definitions",
+          "examples",
+          "side_index"
+        ]
+      },
+      {
+        "template_id": "textbook_page_v05",
+        "variant": 5,
+        "layout_family": "class_activity",
+        "content_density": "medium_high",
+        "page": {
+          "width": 1240,
+          "height": 1650
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "activity_title",
+          "task_description",
+          "step_list",
+          "materials",
+          "observation_area"
+        ]
+      },
+      {
+        "template_id": "textbook_page_v06",
+        "variant": 6,
+        "layout_family": "unit_review",
+        "content_density": "medium_high",
+        "page": {
+          "width": 1240,
+          "height": 1700
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "unit_title",
+          "review_blocks",
+          "mini_exercises",
+          "self_check"
+        ]
+      }
+    ]
+  },
+  "source_schema": "category_layout_templates.v1"
+}

@@ -1,0 +1,1556 @@
+{
+  "image_id": "12290d46-1229-0d46-1229-12290d461229",
+  "file_name": "06_textbook_page_json_06.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "reading_pages_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "ug",
+    "language_name": "维吾尔语",
+    "script_note": "改良阿拉伯字母，横排从右到左",
+    "template_type": "textbook_page",
+    "category": "textbook_page",
+    "variant": 6,
+    "layout_name": "textbook_page_v06",
+    "document_id": "06_textbook_page_json_06",
+    "title": "Sawyoz Yieb",
+    "doc_no": "ZA-V1-06-06",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.16,
+    "chinese_topic": "textbook_page",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 51,
+      "page_width": 1191,
+      "page_height": 1018,
+      "body_scroll_width": 1191,
+      "body_scroll_height": 1018,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 31,
+        "y": 23,
+        "width": 1178,
+        "height": 1000,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1700,
+        "content_bbox": {
+          "x_min": 62,
+          "y_min": 54,
+          "x_max": 1178,
+          "y_max": 991.3
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.5514,
+        "bottom_blank_ratio_before_crop": 0.4169
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 13646495654565825806,
+        "family": "shadow_photo",
+        "geometry": {
+          "source_size": {
+            "width": 1178,
+            "height": 1000
+          },
+          "scale": {
+            "scale": 0.99438,
+            "width": 1171,
+            "height": 994
+          },
+          "rotation": {
+            "angle_degrees": -1.3989,
+            "width": 1195,
+            "height": 1023
+          },
+          "translation": {
+            "dx": -5,
+            "dy": 2,
+            "width": 1195,
+            "height": 1023
+          },
+          "edge_crop": {
+            "left": 2,
+            "top": 3,
+            "right": 2,
+            "bottom": 2,
+            "width": 1191,
+            "height": 1018
+          },
+          "output_size_before_visual": {
+            "width": 1191,
+            "height": 1018
+          }
+        },
+        "output_size": {
+          "width": 1191,
+          "height": 1018
+        }
+      }
+    },
+    "reading_order_policy": "rtl_visual_top_to_bottom_right_to_left_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "06_textbook_page_json_06_b0049",
+      "coordinates": {
+        "x_min": 24.57,
+        "y_min": 30.56,
+        "x_max": 1135.71,
+        "y_max": 128.62
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ئۇيغۇرچە ھۆججەت",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "43px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0001",
+      "coordinates": {
+        "x_min": 738.72,
+        "y_min": 128.59,
+        "x_max": 1128.0,
+        "y_max": 162.25
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "– ئەدەبىياتى",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0002",
+      "coordinates": {
+        "x_min": 739.31,
+        "y_min": 152.76,
+        "x_max": 1128.41,
+        "y_max": 178.74
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "11-03 ئاتام كۈتۈرگەن غەملەرن。复习时注意书写规范",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0003",
+      "coordinates": {
+        "x_min": 324.19,
+        "y_min": 138.72,
+        "x_max": 713.47,
+        "y_max": 172.37
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "كۆپچىلىكنىڭ مىنىڭ",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0004",
+      "coordinates": {
+        "x_min": 324.78,
+        "y_min": 162.88,
+        "x_max": 713.87,
+        "y_max": 188.87
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "توغرىسىدا ئوقۇش پۈتتۈرۈش ماق。知识拓展部分联系生活",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0005",
+      "coordinates": {
+        "x_min": 741.49,
+        "y_min": 241.92,
+        "x_max": 1130.77,
+        "y_max": 275.57
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "گاھى زىيان ئىش",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0006",
+      "coordinates": {
+        "x_min": 742.08,
+        "y_min": 266.08,
+        "x_max": 1131.17,
+        "y_max": 292.07
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ئۇرغانلىرى راست، ئۇرماس ئىدى。复习时注意书写规范",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0007",
+      "coordinates": {
+        "x_min": 326.96,
+        "y_min": 252.04,
+        "x_max": 716.23,
+        "y_max": 285.7
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "نومۇرلارنى ئىلەش",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0008",
+      "coordinates": {
+        "x_min": 327.55,
+        "y_min": 276.2,
+        "x_max": 716.64,
+        "y_max": 302.19
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ئىنسان تەبىئىتىنىڭ ئاجىزلىقى» دى。学习评价关注理解能力",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0009",
+      "coordinates": {
+        "x_min": 744.25,
+        "y_min": 355.25,
+        "x_max": 1133.54,
+        "y_max": 388.9
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "يارىم دەپ يولۇڭغا",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0010",
+      "coordinates": {
+        "x_min": 744.84,
+        "y_min": 379.41,
+        "x_max": 1133.94,
+        "y_max": 405.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "چىقىرىپ، پارچىلانغان ئاغ。课堂导入可使用图片材料",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0011",
+      "coordinates": {
+        "x_min": 329.73,
+        "y_min": 365.37,
+        "x_max": 719.0,
+        "y_max": 399.02
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ئا ۋە ب ئىككى",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0012",
+      "coordinates": {
+        "x_min": 330.32,
+        "y_min": 389.53,
+        "x_max": 719.4,
+        "y_max": 415.52
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "چىرايىنىڭ ئاقلىقىدىن كۆڭۈلنى。课堂导入可使用图片材料",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0013",
+      "coordinates": {
+        "x_min": 747.02,
+        "y_min": 468.57,
+        "x_max": 1136.31,
+        "y_max": 502.23
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "بىرىلىدۇ ھەربىر",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0014",
+      "coordinates": {
+        "x_min": 747.61,
+        "y_min": 492.73,
+        "x_max": 1136.71,
+        "y_max": 518.72
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "قانۇن ئىدارە قىلىش ئىماملىرىنى بىلە。请朗读课文并标出重点",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0015",
+      "coordinates": {
+        "x_min": 332.5,
+        "y_min": 478.69,
+        "x_max": 721.77,
+        "y_max": 512.35
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ياردەم پۇل؛ ئەلا",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0016",
+      "coordinates": {
+        "x_min": 333.09,
+        "y_min": 502.86,
+        "x_max": 722.17,
+        "y_max": 528.84
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "بەي ،ئۇنچە يەردە كەينىدە س。请朗读课文并标出重点",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0017",
+      "coordinates": {
+        "x_min": 749.79,
+        "y_min": 581.9,
+        "x_max": 1139.07,
+        "y_max": 615.55
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "جۇڭخۇا مىللىتى",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0018",
+      "coordinates": {
+        "x_min": 750.38,
+        "y_min": 606.06,
+        "x_max": 1139.48,
+        "y_max": 632.05
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "يىلى مېھرىكۈل خېلىلنىڭ « نىڭ تىل ئال。学习目标包括词语理解",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0019",
+      "coordinates": {
+        "x_min": 335.26,
+        "y_min": 592.02,
+        "x_max": 724.54,
+        "y_max": 625.68
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "تۈزۈمى تېخىمۇ",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0020",
+      "coordinates": {
+        "x_min": 335.85,
+        "y_min": 616.18,
+        "x_max": 724.94,
+        "y_max": 642.17
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "مۇكەررەم مەتروزى مۇقاۋىنى لايىھەلىگۈچى: ئابدۇقەييۇ。教师可引导学生讨论",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0021",
+      "coordinates": {
+        "x_min": 752.56,
+        "y_min": 695.22,
+        "x_max": 1141.84,
+        "y_max": 728.87
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "مما شو قى شاربينى",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 39,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0022",
+      "coordinates": {
+        "x_min": 753.15,
+        "y_min": 719.38,
+        "x_max": 1142.24,
+        "y_max": 745.37
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "مىللىتىگە ئازار بېرىدىغان مەزم。请根据提示补充句子",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 41,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0023",
+      "coordinates": {
+        "x_min": 338.03,
+        "y_min": 705.35,
+        "x_max": 727.3,
+        "y_max": 738.99
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "باب ئادەتتىكى",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 40,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0024",
+      "coordinates": {
+        "x_min": 338.62,
+        "y_min": 729.5,
+        "x_max": 727.71,
+        "y_max": 755.5
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "باب ئىمارەت ۋە نەرسە زىيىنى جاۋا。小组交流后完成记录",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 42,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0025",
+      "coordinates": {
+        "x_min": 755.32,
+        "y_min": 808.55,
+        "x_max": 1144.61,
+        "y_max": 842.2
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "بېرىدىغاندەك",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 43,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0026",
+      "coordinates": {
+        "x_min": 755.91,
+        "y_min": 832.7,
+        "x_max": 1145.01,
+        "y_max": 858.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "باقمىچىلىق ياردەم پۇلى. ئاپتونوم ر。课堂活动建议分组完成",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 45,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0027",
+      "coordinates": {
+        "x_min": 340.8,
+        "y_min": 818.67,
+        "x_max": 730.07,
+        "y_max": 852.32
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "تۈمەن بەگلىرىدىن",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 44,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0028",
+      "coordinates": {
+        "x_min": 341.39,
+        "y_min": 842.83,
+        "x_max": 730.88,
+        "y_max": 885.33
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ۋاڭ زۇ/ زەمىرە مىجىت تەرجىمىسى 045 ھاياتلىق ھەممىدىن ئۈستۈن ئە。请根据提示补充句子",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 46,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0029",
+      "coordinates": {
+        "x_min": 758.09,
+        "y_min": 921.88,
+        "x_max": 1147.38,
+        "y_max": 955.52
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "نامىدىن كەلگەن",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 47,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0030",
+      "coordinates": {
+        "x_min": 758.68,
+        "y_min": 946.03,
+        "x_max": 1147.78,
+        "y_max": 972.03
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "قاراقاش ناهىيه كاۋاك يېزا بىرېغىز مەكتەپتىن: مىرابد。知识拓展部分联系生活",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 49,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0031",
+      "coordinates": {
+        "x_min": 343.56,
+        "y_min": 932.0,
+        "x_max": 732.84,
+        "y_max": 965.64
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "زاتىدىنلا ئەركىن،",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 48,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0032",
+      "coordinates": {
+        "x_min": 344.15,
+        "y_min": 956.15,
+        "x_max": 733.24,
+        "y_max": 982.15
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "يۈزلۈردۈم ئەمما. آلن من ساقلىماي。学习目标包括词语理解",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 50,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0050",
+      "coordinates": {
+        "x_min": 46.91,
+        "y_min": 152.19,
+        "x_max": 284.37,
+        "y_max": 193.36
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ئۇيغۇرچە ھۆججەت",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0033",
+      "coordinates": {
+        "x_min": 47.77,
+        "y_min": 187.58,
+        "x_max": 285.01,
+        "y_max": 219.3
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "مەزمۇن ۋە رەسىملى。学习评价关注理解能力",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0034",
+      "coordinates": {
+        "x_min": 48.41,
+        "y_min": 213.52,
+        "x_max": 285.64,
+        "y_max": 245.24
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "چاغىنىڭلارنى قىزغىن تە。请根据提示补充句子",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0035",
+      "coordinates": {
+        "x_min": 49.04,
+        "y_min": 239.47,
+        "x_max": 286.66,
+        "y_max": 287.2
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ئادەمنى ئۈنسىز يىغلاشقا ئا。本课包含阅读与表达训练",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0036",
+      "coordinates": {
+        "x_min": 50.06,
+        "y_min": 281.42,
+        "x_max": 287.3,
+        "y_max": 313.14
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "دىنىي ئەمەل نامىدىن كەلگەن",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0037",
+      "coordinates": {
+        "x_min": 50.7,
+        "y_min": 307.37,
+        "x_max": 287.93,
+        "y_max": 339.19
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "بولارمۇ؟ مەن بىر قانچە",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0038",
+      "coordinates": {
+        "x_min": 51.33,
+        "y_min": 333.41,
+        "x_max": 288.57,
+        "y_max": 365.14
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ئوخشاشلا تەتبىقلىنىدۇ .",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0039",
+      "coordinates": {
+        "x_min": 51.97,
+        "y_min": 359.36,
+        "x_max": 289.2,
+        "y_max": 391.08
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "تاپقاندا يۈگۈردۇم ئەمما،",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0040",
+      "coordinates": {
+        "x_min": 52.6,
+        "y_min": 385.3,
+        "x_max": 289.83,
+        "y_max": 417.02
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "بولساق، پاسسىپ كەيپىياتنىڭ",
+      "is_text": true,
+      "order": "41",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0041",
+      "coordinates": {
+        "x_min": 53.23,
+        "y_min": 411.24,
+        "x_max": 290.47,
+        "y_max": 442.97
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "قاتارلىق تەلەپلىرىگىزنى",
+      "is_text": true,
+      "order": "42",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0042",
+      "coordinates": {
+        "x_min": 53.87,
+        "y_min": 437.2,
+        "x_max": 291.1,
+        "y_max": 468.92
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "بەرگۈچى ئۇستاز، خوجا بۇ،",
+      "is_text": true,
+      "order": "43",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0043",
+      "coordinates": {
+        "x_min": 54.5,
+        "y_min": 463.14,
+        "x_max": 292.13,
+        "y_max": 510.86
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "سەن بىلەن باشلاندى سەن بىلەن。本课包含阅读与表达训练",
+      "is_text": true,
+      "order": "44",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0044",
+      "coordinates": {
+        "x_min": 55.53,
+        "y_min": 505.09,
+        "x_max": 292.76,
+        "y_max": 536.82
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "قېرىلا ئەمەس. پۇلۇڭغا ئىشەنمە",
+      "is_text": true,
+      "order": "45",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0045",
+      "coordinates": {
+        "x_min": 56.16,
+        "y_min": 531.04,
+        "x_max": 293.39,
+        "y_max": 562.76
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "شالغۇتلاشتۇرۇشنى قانات",
+      "is_text": true,
+      "order": "46",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0046",
+      "coordinates": {
+        "x_min": 56.79,
+        "y_min": 556.98,
+        "x_max": 294.03,
+        "y_max": 588.8
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ھوقۇقتا بابباراۋەر بولۇپ",
+      "is_text": true,
+      "order": "47",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0047",
+      "coordinates": {
+        "x_min": 57.43,
+        "y_min": 583.02,
+        "x_max": 295.05,
+        "y_max": 630.75
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "گۆش هەم قېنىمىز بىلەن مەھكەم ئىستى。学习目标包括词语理解",
+      "is_text": true,
+      "order": "48",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_06_b0048",
+      "coordinates": {
+        "x_min": 58.45,
+        "y_min": 624.97,
+        "x_max": 296.08,
+        "y_max": 672.71
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "باقمىچىلىق مەيدانى ئائىلە ۋە پىششىقلاش。本单元强调综合运用",
+      "is_text": true,
+      "order": "49",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 38,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    }
+  ],
+  "created_at": "2026-07-03T04:09:41.562Z",
+  "updated_at": "2026-07-03T12:10:45"
+}

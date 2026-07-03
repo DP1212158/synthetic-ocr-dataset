@@ -1,0 +1,2281 @@
+{
+  "image_id": "ce006580-ce00-6580-ce00-ce006580ce00",
+  "file_name": "03_exam_paper_json_05.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "batch1_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "bai",
+    "language_name": "白语",
+    "script_note": "白文拉丁字母方案，横排从左到右",
+    "template_type": "exam_paper",
+    "category": "exam_paper",
+    "variant": 5,
+    "layout_name": "exam_paper_v05",
+    "document_id": "03_exam_paper_json_05",
+    "title": "Gijman Siujgauj",
+    "doc_no": "ZA-V1-03-05",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "exam_paper",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 75,
+      "page_width": 1170,
+      "page_height": 1045,
+      "body_scroll_width": 1170,
+      "body_scroll_height": 1045,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 20,
+        "y": 20,
+        "width": 1120,
+        "height": 980,
+        "enabled": true,
+        "original_width": 1160,
+        "original_height": 1560,
+        "content_bbox": {
+          "x_min": 50,
+          "y_min": 50,
+          "x_max": 1110,
+          "y_max": 969.7
+        },
+        "padding": 30,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.5896,
+        "bottom_blank_ratio_before_crop": 0.3784
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 7903808726079778129,
+        "family": "printed_noise",
+        "geometry": {
+          "source_size": {
+            "width": 1120,
+            "height": 980
+          },
+          "scale": {
+            "scale": 1.00573,
+            "width": 1126,
+            "height": 986
+          },
+          "rotation": {
+            "angle_degrees": 3.4116,
+            "width": 1183,
+            "height": 1052
+          },
+          "translation": {
+            "dx": 6,
+            "dy": -3,
+            "width": 1183,
+            "height": 1052
+          },
+          "edge_crop": {
+            "left": 7,
+            "top": 0,
+            "right": 6,
+            "bottom": 7,
+            "width": 1170,
+            "height": 1045
+          },
+          "output_size_before_visual": {
+            "width": 1170,
+            "height": 1045
+          }
+        },
+        "output_size": {
+          "width": 1170,
+          "height": 1045
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "03_exam_paper_json_05_b0001",
+      "coordinates": {
+        "x_min": 82.2,
+        "y_min": 28.91,
+        "x_max": 434.97,
+        "y_max": 113.47
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "Gijman Siujgauj",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "46px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0002",
+      "coordinates": {
+        "x_min": 1041.07,
+        "y_min": 127.24,
+        "x_max": 1147.73,
+        "y_max": 156.11
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "Score Review",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0007",
+      "coordinates": {
+        "x_min": 78.4,
+        "y_min": 130.81,
+        "x_max": 760.6,
+        "y_max": 196.89
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "1. Dilxialsuit yeit yout qieipzaol, bufsil zatqit jioulsil luof",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0003",
+      "coordinates": {
+        "x_min": 77.38,
+        "y_min": 156.32,
+        "x_max": 416.23,
+        "y_max": 193.52
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "A nerl ngaot dad",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0004",
+      "coordinates": {
+        "x_min": 420.24,
+        "y_min": 176.75,
+        "x_max": 759.08,
+        "y_max": 213.96
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "B zoux heil, vvx",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0005",
+      "coordinates": {
+        "x_min": 76.07,
+        "y_min": 178.41,
+        "x_max": 414.91,
+        "y_max": 215.61
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "C xiotxiot nox",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0006",
+      "coordinates": {
+        "x_min": 418.92,
+        "y_min": 198.85,
+        "x_max": 757.77,
+        "y_max": 236.04
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "D qi daox heiljit",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0012",
+      "coordinates": {
+        "x_min": 73.22,
+        "y_min": 217.56,
+        "x_max": 755.43,
+        "y_max": 283.74
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "2. xiaf ， diou liou ， mufdafzi sexpeil-gouyad",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0008",
+      "coordinates": {
+        "x_min": 72.21,
+        "y_min": 243.16,
+        "x_max": 411.05,
+        "y_max": 280.36
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "A pel xiaof, pel",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0009",
+      "coordinates": {
+        "x_min": 415.06,
+        "y_min": 263.6,
+        "x_max": 753.91,
+        "y_max": 300.8
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "B out dappielhuot,",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0010",
+      "coordinates": {
+        "x_min": 70.89,
+        "y_min": 265.24,
+        "x_max": 409.74,
+        "y_max": 302.45
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "C ngal haotdvf",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0011",
+      "coordinates": {
+        "x_min": 413.74,
+        "y_min": 285.68,
+        "x_max": 752.59,
+        "y_max": 322.89
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "D ZONXHUAP",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0017",
+      "coordinates": {
+        "x_min": 68.05,
+        "y_min": 304.39,
+        "x_max": 750.26,
+        "y_max": 370.48
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "3. gertgerfzi, jiapbapzi, gou'zei, gou'jitxif,",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0013",
+      "coordinates": {
+        "x_min": 67.04,
+        "y_min": 329.9,
+        "x_max": 405.88,
+        "y_max": 367.11
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "A Deitsalzipxi",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0014",
+      "coordinates": {
+        "x_min": 409.89,
+        "y_min": 350.34,
+        "x_max": 748.74,
+        "y_max": 387.55
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "B geif zoupngerd",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0015",
+      "coordinates": {
+        "x_min": 65.72,
+        "y_min": 351.99,
+        "x_max": 404.57,
+        "y_max": 389.19
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "C zenlfvt xuixyap",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0016",
+      "coordinates": {
+        "x_min": 408.57,
+        "y_min": 372.43,
+        "x_max": 747.42,
+        "y_max": 409.63
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "D enx mot nox xuix",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0022",
+      "coordinates": {
+        "x_min": 62.88,
+        "y_min": 391.14,
+        "x_max": 745.08,
+        "y_max": 457.32
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "4. sent、zilzilquix、zifxiafsib ssenpmiepzenbft",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0018",
+      "coordinates": {
+        "x_min": 61.86,
+        "y_min": 416.74,
+        "x_max": 400.71,
+        "y_max": 453.94
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "A gao'di, youtsip",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0019",
+      "coordinates": {
+        "x_min": 404.71,
+        "y_min": 437.18,
+        "x_max": 743.56,
+        "y_max": 474.38
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "B yenldanb gol",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0020",
+      "coordinates": {
+        "x_min": 60.3,
+        "y_min": 438.82,
+        "x_max": 399.39,
+        "y_max": 480.05
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "C xizaipfv tiol",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0021",
+      "coordinates": {
+        "x_min": 403.15,
+        "y_min": 459.26,
+        "x_max": 742.24,
+        "y_max": 500.48
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "D huovvx ， daotcal",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 38,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0027",
+      "coordinates": {
+        "x_min": 57.47,
+        "y_min": 482.0,
+        "x_max": 739.67,
+        "y_max": 548.07
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "5. ， meif zerfwa ， meifdef ， sit ssit huix neid ， huixzuit ， xi",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0023",
+      "coordinates": {
+        "x_min": 56.45,
+        "y_min": 507.49,
+        "x_max": 395.3,
+        "y_max": 544.7
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "A cul de huof bad",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 42,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0024",
+      "coordinates": {
+        "x_min": 399.3,
+        "y_min": 527.93,
+        "x_max": 738.15,
+        "y_max": 565.14
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "B koux nid atwa",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 44,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0025",
+      "coordinates": {
+        "x_min": 55.13,
+        "y_min": 529.58,
+        "x_max": 393.98,
+        "y_max": 566.79
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "C zaodsei didmel",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 43,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0026",
+      "coordinates": {
+        "x_min": 397.98,
+        "y_min": 550.02,
+        "x_max": 736.83,
+        "y_max": 587.23
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "D fanlweip het",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 46,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0032",
+      "coordinates": {
+        "x_min": 50.77,
+        "y_min": 568.73,
+        "x_max": 734.5,
+        "y_max": 660.42
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "6. Dit Ngvx Zanx Enx Nox Xuix Hhefcvt Gol Meljiap Taifsux Xuixyap Mel Baothub",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0028",
+      "coordinates": {
+        "x_min": 49.75,
+        "y_min": 619.84,
+        "x_max": 388.6,
+        "y_max": 657.04
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "A het kel guoz,",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 50,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0029",
+      "coordinates": {
+        "x_min": 392.6,
+        "y_min": 640.28,
+        "x_max": 731.45,
+        "y_max": 677.48
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "B nid zex hatnid?",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 54,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0030",
+      "coordinates": {
+        "x_min": 48.43,
+        "y_min": 641.92,
+        "x_max": 387.28,
+        "y_max": 679.13
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "C de gerf, zex",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 53,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0031",
+      "coordinates": {
+        "x_min": 391.29,
+        "y_min": 662.36,
+        "x_max": 730.13,
+        "y_max": 699.57
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "D Dit Sanl Jif",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 55,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0037",
+      "coordinates": {
+        "x_min": 45.59,
+        "y_min": 681.08,
+        "x_max": 727.8,
+        "y_max": 747.26
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "7. fvfwut geizngerx mux, der kul hel no",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0033",
+      "coordinates": {
+        "x_min": 44.34,
+        "y_min": 706.68,
+        "x_max": 383.42,
+        "y_max": 747.9
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "A Zuf nial",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 58,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0034",
+      "coordinates": {
+        "x_min": 387.19,
+        "y_min": 727.12,
+        "x_max": 726.27,
+        "y_max": 768.34
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "B ， ceplif sefyi",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 61,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0035",
+      "coordinates": {
+        "x_min": 43.02,
+        "y_min": 732.78,
+        "x_max": 381.87,
+        "y_max": 769.99
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "C zuxcerxke, ded",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 60,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0036",
+      "coordinates": {
+        "x_min": 385.87,
+        "y_min": 753.22,
+        "x_max": 724.72,
+        "y_max": 790.43
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "D tiol Ainlhaint",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 62,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0042",
+      "coordinates": {
+        "x_min": 40.18,
+        "y_min": 771.93,
+        "x_max": 722.38,
+        "y_max": 838.02
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "8. Huxnid-huxgerf beiga-saljit, nidherl-ni'xier le'le guoz feif.",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0038",
+      "coordinates": {
+        "x_min": 39.16,
+        "y_min": 797.44,
+        "x_max": 378.01,
+        "y_max": 834.65
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "A geid duix mer",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 66,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0039",
+      "coordinates": {
+        "x_min": 382.02,
+        "y_min": 817.88,
+        "x_max": 720.86,
+        "y_max": 855.09
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "B zaop Jieipcuil",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 68,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0040",
+      "coordinates": {
+        "x_min": 37.85,
+        "y_min": 819.53,
+        "x_max": 376.69,
+        "y_max": 856.73
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "C dei nerl meid",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 67,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0041",
+      "coordinates": {
+        "x_min": 380.7,
+        "y_min": 839.97,
+        "x_max": 719.55,
+        "y_max": 877.17
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "D nidnidzi bei",
+      "is_text": true,
+      "order": "41",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 69,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0043",
+      "coordinates": {
+        "x_min": 780.85,
+        "y_min": 173.24,
+        "x_max": 903.33,
+        "y_max": 219.26
+      },
+      "points": null,
+      "block_label": "table_header",
+      "block_content": "No",
+      "is_text": true,
+      "order": "42",
+      "attributes": {
+        "tag": "th",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "table",
+      "reading_role": "table_header",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0044",
+      "coordinates": {
+        "x_min": 901.01,
+        "y_min": 180.41,
+        "x_max": 1023.41,
+        "y_max": 226.42
+      },
+      "points": null,
+      "block_label": "table_header",
+      "block_content": "Gijman",
+      "is_text": true,
+      "order": "43",
+      "attributes": {
+        "tag": "th",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "table",
+      "reading_role": "table_header",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0045",
+      "coordinates": {
+        "x_min": 1021.09,
+        "y_min": 187.57,
+        "x_max": 1143.57,
+        "y_max": 233.58
+      },
+      "points": null,
+      "block_label": "table_header",
+      "block_content": "Score",
+      "is_text": true,
+      "order": "44",
+      "attributes": {
+        "tag": "th",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "table",
+      "reading_role": "table_header",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0046",
+      "coordinates": {
+        "x_min": 775.92,
+        "y_min": 212.1,
+        "x_max": 901.01,
+        "y_max": 301.88
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "1",
+      "is_text": true,
+      "order": "45",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0047",
+      "coordinates": {
+        "x_min": 896.09,
+        "y_min": 219.26,
+        "x_max": 1021.09,
+        "y_max": 309.04
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "sex, ， meilzilzix zix sat",
+      "is_text": true,
+      "order": "46",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0048",
+      "coordinates": {
+        "x_min": 1016.16,
+        "y_min": 226.42,
+        "x_max": 1141.26,
+        "y_max": 316.2
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "Baip ngvp zix",
+      "is_text": true,
+      "order": "47",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0049",
+      "coordinates": {
+        "x_min": 771.0,
+        "y_min": 294.72,
+        "x_max": 896.09,
+        "y_max": 384.41
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "2",
+      "is_text": true,
+      "order": "48",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0050",
+      "coordinates": {
+        "x_min": 891.17,
+        "y_min": 301.88,
+        "x_max": 1016.16,
+        "y_max": 391.56
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "zezhuo-zezvvx tel yiffvf,",
+      "is_text": true,
+      "order": "49",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0051",
+      "coordinates": {
+        "x_min": 1011.25,
+        "y_min": 309.04,
+        "x_max": 1136.33,
+        "y_max": 398.73
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "Baip ngvp zix",
+      "is_text": true,
+      "order": "50",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0052",
+      "coordinates": {
+        "x_min": 766.08,
+        "y_min": 377.24,
+        "x_max": 891.17,
+        "y_max": 467.03
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "3",
+      "is_text": true,
+      "order": "51",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0053",
+      "coordinates": {
+        "x_min": 886.24,
+        "y_min": 384.41,
+        "x_max": 1011.25,
+        "y_max": 474.19
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "ho kvxsua mixzait-zulzait,",
+      "is_text": true,
+      "order": "52",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0054",
+      "coordinates": {
+        "x_min": 1006.32,
+        "y_min": 391.56,
+        "x_max": 1131.41,
+        "y_max": 481.35
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "Baip ngvp zix",
+      "is_text": true,
+      "order": "53",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0055",
+      "coordinates": {
+        "x_min": 762.46,
+        "y_min": 459.87,
+        "x_max": 886.24,
+        "y_max": 527.77
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "4",
+      "is_text": true,
+      "order": "54",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 39,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0056",
+      "coordinates": {
+        "x_min": 882.62,
+        "y_min": 467.03,
+        "x_max": 1006.32,
+        "y_max": 534.93
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "laoz, seit zidjia zvz de",
+      "is_text": true,
+      "order": "55",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 40,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0057",
+      "coordinates": {
+        "x_min": 1002.7,
+        "y_min": 474.19,
+        "x_max": 1126.49,
+        "y_max": 542.09
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "Baip ngvp zix",
+      "is_text": true,
+      "order": "56",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 41,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0058",
+      "coordinates": {
+        "x_min": 758.83,
+        "y_min": 520.61,
+        "x_max": 882.62,
+        "y_max": 588.51
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "5",
+      "is_text": true,
+      "order": "57",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 45,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0059",
+      "coordinates": {
+        "x_min": 879.0,
+        "y_min": 527.77,
+        "x_max": 1002.7,
+        "y_max": 595.67
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "hei, cer leil kel pip, bei",
+      "is_text": true,
+      "order": "58",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 47,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0060",
+      "coordinates": {
+        "x_min": 999.08,
+        "y_min": 534.93,
+        "x_max": 1122.87,
+        "y_max": 602.84
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "Baip ngvp zix",
+      "is_text": true,
+      "order": "59",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 48,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0061",
+      "coordinates": {
+        "x_min": 753.91,
+        "y_min": 581.35,
+        "x_max": 879.0,
+        "y_max": 671.04
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "6",
+      "is_text": true,
+      "order": "60",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 49,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0062",
+      "coordinates": {
+        "x_min": 874.08,
+        "y_min": 588.51,
+        "x_max": 999.08,
+        "y_max": 678.2
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "laozsi zilnidxit, dazil saofdaod",
+      "is_text": true,
+      "order": "61",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 51,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0063",
+      "coordinates": {
+        "x_min": 994.16,
+        "y_min": 595.67,
+        "x_max": 1119.24,
+        "y_max": 685.36
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "Baip ngvp zix",
+      "is_text": true,
+      "order": "62",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 52,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0064",
+      "coordinates": {
+        "x_min": 748.99,
+        "y_min": 663.87,
+        "x_max": 874.08,
+        "y_max": 753.66
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "7",
+      "is_text": true,
+      "order": "63",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 56,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0065",
+      "coordinates": {
+        "x_min": 869.16,
+        "y_min": 671.04,
+        "x_max": 994.16,
+        "y_max": 760.82
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "hhep pia xiaozxiaof, zu'xiaof,",
+      "is_text": true,
+      "order": "64",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 57,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0066",
+      "coordinates": {
+        "x_min": 989.23,
+        "y_min": 678.2,
+        "x_max": 1114.32,
+        "y_max": 767.98
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "Baip ngvp zix",
+      "is_text": true,
+      "order": "65",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 59,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0067",
+      "coordinates": {
+        "x_min": 744.07,
+        "y_min": 746.5,
+        "x_max": 869.16,
+        "y_max": 836.18
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "8",
+      "is_text": true,
+      "order": "66",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 63,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0068",
+      "coordinates": {
+        "x_min": 864.24,
+        "y_min": 753.66,
+        "x_max": 989.23,
+        "y_max": 843.34
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "yin ket guaifjia x nox guaifmiep",
+      "is_text": true,
+      "order": "67",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 64,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0069",
+      "coordinates": {
+        "x_min": 984.31,
+        "y_min": 760.82,
+        "x_max": 1109.4,
+        "y_max": 850.51
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "Baip ngvp zix",
+      "is_text": true,
+      "order": "68",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 65,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0070",
+      "coordinates": {
+        "x_min": 739.14,
+        "y_min": 829.02,
+        "x_max": 864.24,
+        "y_max": 918.81
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "9",
+      "is_text": true,
+      "order": "69",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 70,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0071",
+      "coordinates": {
+        "x_min": 859.31,
+        "y_min": 836.18,
+        "x_max": 984.31,
+        "y_max": 925.97
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "zenbfvt yon ga pia mel baid",
+      "is_text": true,
+      "order": "70",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 71,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0072",
+      "coordinates": {
+        "x_min": 979.39,
+        "y_min": 843.34,
+        "x_max": 1104.48,
+        "y_max": 933.13
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "Baip ngvp zix",
+      "is_text": true,
+      "order": "71",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 72,
+      "reading_group": "footer",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0073",
+      "coordinates": {
+        "x_min": 734.22,
+        "y_min": 911.64,
+        "x_max": 859.31,
+        "y_max": 1001.33
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "10",
+      "is_text": true,
+      "order": "72",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 73,
+      "reading_group": "footer",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0074",
+      "coordinates": {
+        "x_min": 854.39,
+        "y_min": 918.81,
+        "x_max": 979.39,
+        "y_max": 1008.49
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "bei pia seifgaif het, fvfjid",
+      "is_text": true,
+      "order": "73",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 74,
+      "reading_group": "footer",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_05_b0075",
+      "coordinates": {
+        "x_min": 974.47,
+        "y_min": 925.97,
+        "x_max": 1099.55,
+        "y_max": 1015.65
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "Baip ngvp zix",
+      "is_text": true,
+      "order": "74",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 75,
+      "reading_group": "footer",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:02:42.142Z",
+  "updated_at": "2026-07-03T12:03:54"
+}

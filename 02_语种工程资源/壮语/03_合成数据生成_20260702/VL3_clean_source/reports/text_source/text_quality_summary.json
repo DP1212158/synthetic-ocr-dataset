@@ -1,0 +1,43 @@
+{
+  "text_jsonl": "/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/壮语/01_文本数据获取_20260702/data/vl3_long_text_sources/records.jsonl",
+  "language_code": "za",
+  "language_name": "壮语",
+  "total_records": 745,
+  "usable_records": 744,
+  "bad_title_records": 0,
+  "hard_issue_records": 1,
+  "bad_title_ratio": 0.0,
+  "hard_issue_ratio": 0.0013,
+  "avg_text_length": 218.36,
+  "avg_script_ratio": 0.802,
+  "avg_digit_ratio": 0.0104,
+  "avg_pua_ratio": 0.0,
+  "avg_unsupported_char_ratio": 0.0,
+  "samples_with_issues": [
+    {
+      "record_id": "fallback_records_000001",
+      "title": "fallback records",
+      "text_length": 47,
+      "script_ratio": 0.4894,
+      "digit_ratio": 0.1915,
+      "latin_ratio": 0.4894,
+      "cjk_ratio": 0.0,
+      "cyrillic_ratio": 0.0,
+      "tibetan_ratio": 0.0,
+      "arabic_ratio": 0.0,
+      "mongolian_ratio": 0.0,
+      "hangul_ratio": 0.0,
+      "pua_ratio": 0.0,
+      "unsupported_char_ratio": 0.0,
+      "issues": [
+        "high_digit_ratio"
+      ],
+      "usable": false,
+      "line_no": 501
+    }
+  ],
+  "samples_bad_titles": [],
+  "title_quality_enforced": false,
+  "title_fallback_required": false,
+  "pass": true
+}

@@ -1,0 +1,802 @@
+{
+  "image_id": "92ab4749-92ab-4749-92ab-92ab474992ab",
+  "file_name": "07_magazine_journal_json_02.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "reading_pages_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "ko",
+    "language_name": "朝鲜语",
+    "script_note": "谚文 Hangul，横排从左到右",
+    "template_type": "magazine_journal",
+    "category": "magazine_journal",
+    "variant": 2,
+    "layout_name": "magazine_journal_v02",
+    "document_id": "07_magazine_journal_json_02",
+    "title": "Cazci Gijbon",
+    "doc_no": "ZA-V1-07-02",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.14,
+    "chinese_topic": "magazine_journal",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 24,
+      "page_width": 1121,
+      "page_height": 1208,
+      "body_scroll_width": 1121,
+      "body_scroll_height": 1208,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 81,
+        "y": 73,
+        "width": 1078,
+        "height": 1164,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1600,
+        "content_bbox": {
+          "x_min": 112,
+          "y_min": 104,
+          "x_max": 1128,
+          "y_max": 1205.9
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.6887,
+        "bottom_blank_ratio_before_crop": 0.2463
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 13233011895939989407,
+        "family": "shadow_photo",
+        "geometry": {
+          "source_size": {
+            "width": 1078,
+            "height": 1164
+          },
+          "scale": {
+            "scale": 1.01274,
+            "width": 1092,
+            "height": 1179
+          },
+          "rotation": {
+            "angle_degrees": -1.7523,
+            "width": 1128,
+            "height": 1212
+          },
+          "translation": {
+            "dx": -1,
+            "dy": 0,
+            "width": 1128,
+            "height": 1212
+          },
+          "edge_crop": {
+            "left": 2,
+            "top": 2,
+            "right": 5,
+            "bottom": 2,
+            "width": 1121,
+            "height": 1208
+          },
+          "output_size_before_visual": {
+            "width": 1121,
+            "height": 1208
+          }
+        },
+        "output_size": {
+          "width": 1121,
+          "height": 1208
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "07_magazine_journal_json_02_b0021",
+      "coordinates": {
+        "x_min": 29.34,
+        "y_min": 30.34,
+        "x_max": 1058.64,
+        "y_max": 89.14
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026 / 07",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0022",
+      "coordinates": {
+        "x_min": 30.17,
+        "y_min": 57.68,
+        "x_max": 1060.41,
+        "y_max": 146.84
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "조선어 문서",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "48px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0023",
+      "coordinates": {
+        "x_min": 32.49,
+        "y_min": 133.6,
+        "x_max": 1071.18,
+        "y_max": 499.11
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": false,
+        "asset_id": "COCO_val2014_000000097899",
+        "asset_source": "random120-coco2014",
+        "asset_crop": "object-fit-cover"
+      },
+      "reading_order": 17,
+      "reading_group": "image",
+      "reading_role": "image",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0024",
+      "coordinates": {
+        "x_min": 43.27,
+        "y_min": 485.87,
+        "x_max": 1073.65,
+        "y_max": 579.68
+      },
+      "points": null,
+      "block_label": "document_subtitle",
+      "block_content": "스트레스란 힘들고 어려운",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "46px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "subtitle",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0001",
+      "coordinates": {
+        "x_min": 45.18,
+        "y_min": 548.22,
+        "x_max": 1074.78,
+        "y_max": 616.64
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "용맹하지 않지만, 늘 함께해",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0002",
+      "coordinates": {
+        "x_min": 46.31,
+        "y_min": 585.17,
+        "x_max": 1075.91,
+        "y_max": 653.48
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "삶을 유지할 수 있도록",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0003",
+      "coordinates": {
+        "x_min": 47.44,
+        "y_min": 622.02,
+        "x_max": 1077.03,
+        "y_max": 690.32
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "유지할 수 있도록 하기",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0004",
+      "coordinates": {
+        "x_min": 48.56,
+        "y_min": 658.86,
+        "x_max": 1078.16,
+        "y_max": 727.28
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "초강력 실전 대비로 논문",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0005",
+      "coordinates": {
+        "x_min": 49.69,
+        "y_min": 695.81,
+        "x_max": 1079.29,
+        "y_max": 764.12
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "결부하여 한자。编辑部整理读者来稿",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0006",
+      "coordinates": {
+        "x_min": 50.82,
+        "y_min": 732.65,
+        "x_max": 1080.42,
+        "y_max": 801.07
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "운동이다, 혼자 할 수",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0007",
+      "coordinates": {
+        "x_min": 51.95,
+        "y_min": 769.61,
+        "x_max": 1081.55,
+        "y_max": 837.91
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "화이트 초콜릿 몰달록 모양의",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0008",
+      "coordinates": {
+        "x_min": 53.08,
+        "y_min": 806.45,
+        "x_max": 1082.67,
+        "y_max": 874.76
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "변해버린 거라 생각했는데",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0009",
+      "coordinates": {
+        "x_min": 54.21,
+        "y_min": 843.29,
+        "x_max": 1083.8,
+        "y_max": 911.71
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "사람이 외로운 것은 단지",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0010",
+      "coordinates": {
+        "x_min": 55.34,
+        "y_min": 880.25,
+        "x_max": 1084.93,
+        "y_max": 948.55
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "그래서일까. 우리가 과거를",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0011",
+      "coordinates": {
+        "x_min": 56.46,
+        "y_min": 917.09,
+        "x_max": 1086.06,
+        "y_max": 985.41
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "있음을 고려하지 않아 독해를",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0012",
+      "coordinates": {
+        "x_min": 57.59,
+        "y_min": 953.94,
+        "x_max": 1087.19,
+        "y_max": 1022.35
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "글자 소리에 대한 학습을",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0013",
+      "coordinates": {
+        "x_min": 70.75,
+        "y_min": 1036.47,
+        "x_max": 558.51,
+        "y_max": 1079.2
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "끔찍한 일이 벌어졌는지",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0014",
+      "coordinates": {
+        "x_min": 71.61,
+        "y_min": 1064.3,
+        "x_max": 559.08,
+        "y_max": 1097.93
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "생활 안정과 노동력의 질적 향。文化随笔保持轻松风格",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0015",
+      "coordinates": {
+        "x_min": 590.05,
+        "y_min": 1020.58,
+        "x_max": 1077.8,
+        "y_max": 1063.31
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "가진 것이라고 생각하던",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0016",
+      "coordinates": {
+        "x_min": 590.9,
+        "y_min": 1048.42,
+        "x_max": 1078.38,
+        "y_max": 1082.04
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "그 안에서 누군가를 그냥 안아주는 말, 마음을 풀어주는。栏目导语说明选题背景",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0017",
+      "coordinates": {
+        "x_min": 73.17,
+        "y_min": 1115.42,
+        "x_max": 560.92,
+        "y_max": 1158.16
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "얼마 뒤 두 사람은 아파트",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0018",
+      "coordinates": {
+        "x_min": 74.02,
+        "y_min": 1143.27,
+        "x_max": 561.5,
+        "y_max": 1176.88
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "어떻게 변화하고 있고, 앞으로 기。本期推荐三篇长文",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0019",
+      "coordinates": {
+        "x_min": 592.47,
+        "y_min": 1099.53,
+        "x_max": 1080.22,
+        "y_max": 1142.28
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "씀씀이 푼돈 티끌 태산",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0020",
+      "coordinates": {
+        "x_min": 593.32,
+        "y_min": 1127.38,
+        "x_max": 1080.79,
+        "y_max": 1161.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "새로운 경향이 나타나기 시작。人物访谈记录生活细节",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:03:05.798Z",
+  "updated_at": "2026-07-03T12:04:10"
+}

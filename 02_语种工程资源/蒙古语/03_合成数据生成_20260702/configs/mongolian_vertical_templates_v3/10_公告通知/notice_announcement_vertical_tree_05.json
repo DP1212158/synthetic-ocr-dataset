@@ -1,0 +1,187 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "notice_announcement_vertical_tree_05",
+  "variant": 5,
+  "category_id": "notice_announcement",
+  "category_cn": "公告通知",
+  "folder": "10_公告通知",
+  "template_name_cn": "紧急提示",
+  "layout_family": "urgent_notice",
+  "design_prompt": "醒目提示条、重点说明和联系人信息。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 960,
+    "height": 1360,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 5,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box urgent-fill",
+      "box": {
+        "x": 70,
+        "y": 70,
+        "w": 820,
+        "h": 1220
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "urgent_title",
+      "class": "title",
+      "box": {
+        "x": 160,
+        "y": 120,
+        "w": 78,
+        "h": 1020
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 28
+      },
+      "visual": {}
+    },
+    {
+      "id": "important",
+      "kind": "text",
+      "label": "section_title",
+      "role": "important",
+      "class": "subtitle",
+      "box": {
+        "x": 310,
+        "y": 150,
+        "w": 52,
+        "h": 920
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 6,
+        "max_chars": 32
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 430,
+        "y": 150,
+        "w": 38,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 22,
+        "max_chars": 74
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 502,
+        "y": 150,
+        "w": 38,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 22,
+        "max_chars": 74
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 574,
+        "y": 150,
+        "w": 38,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 22,
+        "max_chars": 74
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 646,
+        "y": 150,
+        "w": 38,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 22,
+        "max_chars": 74
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 718,
+        "y": 150,
+        "w": 38,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 22,
+        "max_chars": 74
+      },
+      "visual": {}
+    }
+  ]
+}

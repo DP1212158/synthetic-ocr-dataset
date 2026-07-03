@@ -1,0 +1,88 @@
+{
+  "category": {
+    "category_id": "exam_paper",
+    "category_cn": "考试卷",
+    "title": "Gijman Siujgauj",
+    "templates": [
+      {
+        "template_id": "exam_paper_v01",
+        "variant": 1,
+        "template_name_cn": "标准试卷首页",
+        "layout_family": "standard_exam_frontpage",
+        "page": {
+          "width": 1160,
+          "height": 1560
+        },
+        "content_density": "high",
+        "preserve_full_page": true,
+        "tight_crop": false
+      },
+      {
+        "template_id": "exam_paper_v02",
+        "variant": 2,
+        "template_name_cn": "阅读理解试卷",
+        "layout_family": "reading_comprehension_exam",
+        "page": {
+          "width": 1160,
+          "height": 1560
+        },
+        "content_density": "high",
+        "preserve_full_page": true,
+        "tight_crop": false
+      },
+      {
+        "template_id": "exam_paper_v03",
+        "variant": 3,
+        "template_name_cn": "答题卡页面",
+        "layout_family": "answer_sheet",
+        "page": {
+          "width": 1160,
+          "height": 1560
+        },
+        "content_density": "medium",
+        "preserve_full_page": true,
+        "tight_crop": false
+      },
+      {
+        "template_id": "exam_paper_v04",
+        "variant": 4,
+        "template_name_cn": "作文论述题页",
+        "layout_family": "essay_answer_page",
+        "page": {
+          "width": 1160,
+          "height": 1560
+        },
+        "content_density": "medium",
+        "preserve_full_page": true,
+        "tight_crop": false
+      },
+      {
+        "template_id": "exam_paper_v05",
+        "variant": 5,
+        "template_name_cn": "分区评分试卷",
+        "layout_family": "scored_sections_exam",
+        "page": {
+          "width": 1160,
+          "height": 1560
+        },
+        "content_density": "medium_high",
+        "preserve_full_page": true,
+        "tight_crop": false
+      },
+      {
+        "template_id": "exam_paper_v06",
+        "variant": 6,
+        "template_name_cn": "短答题试卷页",
+        "layout_family": "standard_short_answer_exam",
+        "page": {
+          "width": 1160,
+          "height": 1460
+        },
+        "content_density": "medium_high",
+        "preserve_full_page": false,
+        "tight_crop": true
+      }
+    ]
+  },
+  "source_schema": "category_layout_templates.v1"
+}

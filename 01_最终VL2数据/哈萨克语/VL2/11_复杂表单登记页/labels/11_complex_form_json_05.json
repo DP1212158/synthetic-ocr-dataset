@@ -1,0 +1,1150 @@
+{
+  "image_id": "a2532184-a253-2184-a253-a2532184a253",
+  "file_name": "11_complex_form_json_05.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "remaining_pages_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "kk-arab",
+    "language_name": "哈萨克语",
+    "script_note": "改良阿拉伯字母，横排从右到左",
+    "template_type": "complex_form",
+    "category": "complex_form",
+    "variant": 5,
+    "layout_name": "complex_form_v05",
+    "document_id": "11_complex_form_json_05",
+    "title": "Cingzdan Danghgi",
+    "doc_no": "ZA-V1-11-05",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "complex_form",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 36,
+      "page_width": 1398,
+      "page_height": 1039,
+      "body_scroll_width": 1398,
+      "body_scroll_height": 1039,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 62,
+        "y": 54,
+        "width": 1376,
+        "height": 988,
+        "enabled": true,
+        "original_width": 1500,
+        "original_height": 1085,
+        "content_bbox": {
+          "x_min": 89,
+          "y_min": 81,
+          "x_max": 1411,
+          "y_max": 1014.5
+        },
+        "padding": 27,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.8604,
+        "bottom_blank_ratio_before_crop": 0.065
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 4155160316355874149,
+        "family": "printed_noise",
+        "geometry": {
+          "source_size": {
+            "width": 1376,
+            "height": 988
+          },
+          "scale": {
+            "scale": 0.99127,
+            "width": 1364,
+            "height": 979
+          },
+          "rotation": {
+            "angle_degrees": -2.7615,
+            "width": 1410,
+            "height": 1044
+          },
+          "translation": {
+            "dx": 7,
+            "dy": -5,
+            "width": 1410,
+            "height": 1044
+          },
+          "edge_crop": {
+            "left": 6,
+            "top": 1,
+            "right": 6,
+            "bottom": 4,
+            "width": 1398,
+            "height": 1039
+          },
+          "output_size_before_visual": {
+            "width": 1398,
+            "height": 1039
+          }
+        },
+        "output_size": {
+          "width": 1398,
+          "height": 1039
+        }
+      }
+    },
+    "reading_order_policy": "rtl_visual_top_to_bottom_right_to_left_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "11_complex_form_json_05_b0029",
+      "coordinates": {
+        "x_min": 1080.53,
+        "y_min": 22.02,
+        "x_max": 1339.0,
+        "y_max": 56.02
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026-07",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0030",
+      "coordinates": {
+        "x_min": 1081.57,
+        "y_min": 43.6,
+        "x_max": 1351.41,
+        "y_max": 313.45
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": false,
+        "asset_id": "COCO_val2014_000000035146",
+        "asset_source": "random120-coco2014",
+        "asset_crop": "object-fit-cover"
+      },
+      "reading_order": 32,
+      "reading_group": "image",
+      "reading_role": "image",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0031",
+      "coordinates": {
+        "x_min": 29.02,
+        "y_min": 35.3,
+        "x_max": 1065.82,
+        "y_max": 149.62
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "44px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0001",
+      "coordinates": {
+        "x_min": 562.27,
+        "y_min": 109.1,
+        "x_max": 1059.25,
+        "y_max": 172.58
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0002",
+      "coordinates": {
+        "x_min": 564.18,
+        "y_min": 148.7,
+        "x_max": 1061.16,
+        "y_max": 212.19
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "جوعارى مەن تومەن",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0003",
+      "coordinates": {
+        "x_min": 41.48,
+        "y_min": 134.22,
+        "x_max": 538.44,
+        "y_max": 197.7
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0004",
+      "coordinates": {
+        "x_min": 43.39,
+        "y_min": 173.83,
+        "x_max": 540.35,
+        "y_max": 237.31
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ەتەتىن، ۇكىمەت قولدايتىن،",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0005",
+      "coordinates": {
+        "x_min": 567.33,
+        "y_min": 214.05,
+        "x_max": 1064.31,
+        "y_max": 277.53
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0006",
+      "coordinates": {
+        "x_min": 569.24,
+        "y_min": 253.65,
+        "x_max": 1066.22,
+        "y_max": 317.14
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "جاريالادى. فيليپپيننىڭ",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0007",
+      "coordinates": {
+        "x_min": 46.54,
+        "y_min": 239.17,
+        "x_max": 543.5,
+        "y_max": 302.65
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0008",
+      "coordinates": {
+        "x_min": 48.45,
+        "y_min": 278.77,
+        "x_max": 545.41,
+        "y_max": 342.26
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "”قالا قۇرىلىسى، اينالىمى،",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0009",
+      "coordinates": {
+        "x_min": 572.4,
+        "y_min": 319.01,
+        "x_max": 1069.37,
+        "y_max": 382.49
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0010",
+      "coordinates": {
+        "x_min": 574.31,
+        "y_min": 358.61,
+        "x_max": 1071.28,
+        "y_max": 422.09
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "جەڭىلدەتۋ جونىندەگى",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0011",
+      "coordinates": {
+        "x_min": 51.6,
+        "y_min": 344.13,
+        "x_max": 548.57,
+        "y_max": 407.61
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0012",
+      "coordinates": {
+        "x_min": 53.51,
+        "y_min": 383.73,
+        "x_max": 550.48,
+        "y_max": 447.21
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "| ەل ءىشى | شينجياڭ",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0013",
+      "coordinates": {
+        "x_min": 577.46,
+        "y_min": 423.95,
+        "x_max": 1074.43,
+        "y_max": 487.44
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0014",
+      "coordinates": {
+        "x_min": 579.37,
+        "y_min": 463.56,
+        "x_max": 1076.34,
+        "y_max": 527.04
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "اقىلعا سيىمسىز باسەكەلەسۋ",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0015",
+      "coordinates": {
+        "x_min": 56.66,
+        "y_min": 449.08,
+        "x_max": 553.63,
+        "y_max": 512.56
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0016",
+      "coordinates": {
+        "x_min": 58.57,
+        "y_min": 488.68,
+        "x_max": 555.54,
+        "y_max": 552.16
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ـ تۇزەتۋدى ويداعىداي",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0017",
+      "coordinates": {
+        "x_min": 582.52,
+        "y_min": 528.91,
+        "x_max": 1079.5,
+        "y_max": 592.4
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0018",
+      "coordinates": {
+        "x_min": 584.43,
+        "y_min": 568.52,
+        "x_max": 1081.41,
+        "y_max": 632.0
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "| دەنە تاربيە | «حالىق",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0019",
+      "coordinates": {
+        "x_min": 61.73,
+        "y_min": 554.03,
+        "x_max": 558.69,
+        "y_max": 617.52
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0020",
+      "coordinates": {
+        "x_min": 63.64,
+        "y_min": 593.64,
+        "x_max": 560.6,
+        "y_max": 657.12
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ءجۇز ميلليونداعان",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0021",
+      "coordinates": {
+        "x_min": 587.58,
+        "y_min": 633.86,
+        "x_max": 1084.56,
+        "y_max": 697.34
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0022",
+      "coordinates": {
+        "x_min": 589.49,
+        "y_min": 673.46,
+        "x_max": 1086.47,
+        "y_max": 736.95
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "تاپسىرماسىن ەستە",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0023",
+      "coordinates": {
+        "x_min": 66.79,
+        "y_min": 658.98,
+        "x_max": 563.75,
+        "y_max": 722.46
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0024",
+      "coordinates": {
+        "x_min": 68.7,
+        "y_min": 698.59,
+        "x_max": 565.66,
+        "y_max": 762.07
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "جۇك ـ پوشتا قابىلداۋ",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0025",
+      "coordinates": {
+        "x_min": 592.65,
+        "y_min": 738.82,
+        "x_max": 1089.62,
+        "y_max": 802.3
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0026",
+      "coordinates": {
+        "x_min": 594.56,
+        "y_min": 778.42,
+        "x_max": 1091.53,
+        "y_max": 841.91
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "قاتارلىلار شەكارادان",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0027",
+      "coordinates": {
+        "x_min": 71.85,
+        "y_min": 763.94,
+        "x_max": 568.82,
+        "y_max": 827.42
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0028",
+      "coordinates": {
+        "x_min": 73.76,
+        "y_min": 803.54,
+        "x_max": 570.73,
+        "y_max": 867.03
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ەكونوميكا | مادەنيەت",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0032",
+      "coordinates": {
+        "x_min": 67.18,
+        "y_min": 826.51,
+        "x_max": 1102.18,
+        "y_max": 903.49
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ـ رەتكە، جۇك ـ پوشتا قابىلداۋ ـ جونەلتۋ مولشەرى 600 تونناعا جەتىپ، جەرگىلىكتى ورىننىڭ",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0033",
+      "coordinates": {
+        "x_min": 730.19,
+        "y_min": 867.09,
+        "x_max": 1380.63,
+        "y_max": 937.97
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "footer",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0034",
+      "coordinates": {
+        "x_min": 732.1,
+        "y_min": 906.69,
+        "x_max": 1382.54,
+        "y_max": 977.58
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "footer",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0035",
+      "coordinates": {
+        "x_min": 69.78,
+        "y_min": 898.94,
+        "x_max": 720.23,
+        "y_max": 969.83
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "footer",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_05_b0036",
+      "coordinates": {
+        "x_min": 71.69,
+        "y_min": 938.55,
+        "x_max": 722.14,
+        "y_max": 1009.43
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "2026",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "footer",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:18:39.700Z",
+  "updated_at": "2026-07-03T12:19:25"
+}

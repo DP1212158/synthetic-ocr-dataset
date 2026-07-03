@@ -1,0 +1,302 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "handwritten_letter_vertical_tree_06",
+  "variant": 6,
+  "category_id": "handwritten_letter",
+  "category_cn": "手写笔记信件",
+  "folder": "12_手写笔记信件",
+  "template_name_cn": "批注信纸",
+  "layout_family": "annotated_letter",
+  "design_prompt": "信纸上有正文、批注和补充说明。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1040,
+    "height": 1480,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 10,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "paper",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box",
+      "box": {
+        "x": 70,
+        "y": 70,
+        "w": 900,
+        "h": 1340
+      },
+      "visual": {}
+    },
+    {
+      "id": "main_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body hand",
+      "box": {
+        "x": 130,
+        "y": 120,
+        "w": 34,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "main_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body hand",
+      "box": {
+        "x": 188,
+        "y": 120,
+        "w": 34,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "main_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body hand",
+      "box": {
+        "x": 246,
+        "y": 120,
+        "w": 34,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "main_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body hand",
+      "box": {
+        "x": 304,
+        "y": 120,
+        "w": 34,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "main_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body hand",
+      "box": {
+        "x": 362,
+        "y": 120,
+        "w": 34,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "main_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body hand",
+      "box": {
+        "x": 420,
+        "y": 120,
+        "w": 34,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "main_07",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body hand",
+      "box": {
+        "x": 478,
+        "y": 120,
+        "w": 34,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "main_08",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body hand",
+      "box": {
+        "x": 536,
+        "y": 120,
+        "w": 34,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "annot_01",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 760,
+        "y": 160,
+        "w": 26,
+        "h": 980
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "annot_02",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 816,
+        "y": 160,
+        "w": 26,
+        "h": 980
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "annot_03",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 872,
+        "y": 160,
+        "w": 26,
+        "h": 980
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "annot_04",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 928,
+        "y": 160,
+        "w": 26,
+        "h": 980
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "date",
+      "kind": "text",
+      "label": "metadata",
+      "role": "date",
+      "class": "small",
+      "box": {
+        "x": 900,
+        "y": 160,
+        "w": 32,
+        "h": 980
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 24,
+        "max_chars": 96,
+        "value": "20260702"
+      },
+      "visual": {}
+    }
+  ]
+}

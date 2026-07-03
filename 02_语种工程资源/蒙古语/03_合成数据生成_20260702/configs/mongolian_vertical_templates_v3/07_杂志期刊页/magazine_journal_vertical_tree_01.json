@@ -1,0 +1,209 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "magazine_journal_vertical_tree_01",
+  "variant": 1,
+  "category_id": "magazine_journal",
+  "category_cn": "杂志期刊页",
+  "folder": "07_杂志期刊页",
+  "template_name_cn": "封面式杂志页",
+  "layout_family": "magazine_cover_like",
+  "design_prompt": "大标题、大图和少量导语，具有杂志封面感。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1120,
+    "height": 1500,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 9,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "name",
+      "kind": "text",
+      "label": "document_title",
+      "role": "magazine_name",
+      "class": "title",
+      "box": {
+        "x": 64,
+        "y": 64,
+        "w": 70,
+        "h": 1360
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 30
+      },
+      "visual": {}
+    },
+    {
+      "id": "cover",
+      "kind": "image",
+      "label": "image",
+      "role": "cover_image",
+      "class": "image-fill",
+      "box": {
+        "x": 180,
+        "y": 100,
+        "w": 420,
+        "h": 760
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "feature",
+      "kind": "text",
+      "label": "section_title",
+      "role": "cover_feature",
+      "class": "title",
+      "box": {
+        "x": 650,
+        "y": 100,
+        "w": 68,
+        "h": 1100
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 8,
+        "max_chars": 46
+      },
+      "visual": {}
+    },
+    {
+      "id": "cover_line_01",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 720,
+        "y": 130,
+        "w": 30,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "cover_line_02",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 792,
+        "y": 130,
+        "w": 30,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "cover_line_03",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 864,
+        "y": 130,
+        "w": 30,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "cover_line_04",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 936,
+        "y": 130,
+        "w": 30,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "cover_line_05",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 1008,
+        "y": 130,
+        "w": 30,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "cover_line_06",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 1080,
+        "y": 130,
+        "w": 30,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    }
+  ]
+}

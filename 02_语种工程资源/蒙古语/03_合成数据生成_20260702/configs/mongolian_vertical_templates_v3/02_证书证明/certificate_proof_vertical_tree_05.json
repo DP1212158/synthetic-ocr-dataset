@@ -1,0 +1,226 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "certificate_proof_vertical_tree_05",
+  "variant": 5,
+  "category_id": "certificate_proof",
+  "category_cn": "证书证明",
+  "folder": "02_证书证明",
+  "template_name_cn": "横向荣誉证书",
+  "layout_family": "landscape_honor_certificate",
+  "design_prompt": "横向证书版式，竖排文本列沿横向展开，边框和印章明显。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1360,
+    "height": 920,
+    "orientation": "landscape",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 6,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "outer",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box ornate",
+      "box": {
+        "x": 50,
+        "y": 50,
+        "w": 1260,
+        "h": 820
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "certificate_title",
+      "class": "title",
+      "box": {
+        "x": 130,
+        "y": 100,
+        "w": 74,
+        "h": 700
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 30
+      },
+      "visual": {}
+    },
+    {
+      "id": "subtitle",
+      "kind": "text",
+      "label": "document_subtitle",
+      "role": "certificate_subtitle",
+      "class": "subtitle",
+      "box": {
+        "x": 260,
+        "y": 120,
+        "w": 46,
+        "h": 660
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 8,
+        "max_chars": 40
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 380,
+        "y": 130,
+        "w": 34,
+        "h": 640
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 80
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 462,
+        "y": 130,
+        "w": 34,
+        "h": 640
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 80
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 544,
+        "y": 130,
+        "w": 34,
+        "h": 640
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 80
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 626,
+        "y": 130,
+        "w": 34,
+        "h": 640
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 80
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 708,
+        "y": 130,
+        "w": 34,
+        "h": 640
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 80
+      },
+      "visual": {}
+    },
+    {
+      "id": "seal",
+      "kind": "text",
+      "label": "seal",
+      "role": "seal",
+      "class": "subtitle stamp",
+      "box": {
+        "x": 1050,
+        "y": 240,
+        "w": 120,
+        "h": 120
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "date",
+      "kind": "text",
+      "label": "metadata",
+      "role": "date",
+      "class": "small",
+      "box": {
+        "x": 1190,
+        "y": 120,
+        "w": 34,
+        "h": 660
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 24,
+        "max_chars": 96,
+        "value": "20260702"
+      },
+      "visual": {}
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "image_id": "41ad9ba7-41ad-9ba7-41ad-41ad9ba741ad",
+  "file_name": "02_certificate_proof_json_03.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "batch1_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "ug",
+    "language_name": "维吾尔语",
+    "script_note": "改良阿拉伯字母，横排从右到左",
+    "template_type": "certificate_proof",
+    "category": "certificate_proof",
+    "variant": 3,
+    "layout_name": "certificate_proof_v03",
+    "document_id": "02_certificate_proof_json_03",
+    "title": "Sawcingq Cingmingz",
+    "doc_no": "ZA-V1-02-03",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "certificate_proof",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 6,
+      "page_width": 1255,
+      "page_height": 603,
+      "body_scroll_width": 1255,
+      "body_scroll_height": 603,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 133,
+        "y": 226,
+        "width": 1234,
+        "height": 548,
+        "enabled": true,
+        "original_width": 1500,
+        "original_height": 1000,
+        "content_bbox": {
+          "x_min": 158,
+          "y_min": 251.3,
+          "x_max": 1342,
+          "y_max": 748.7
+        },
+        "padding": 25,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.4974,
+        "bottom_blank_ratio_before_crop": 0.2513
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 3677537667375843325,
+        "family": "warm_paper",
+        "geometry": {
+          "source_size": {
+            "width": 1234,
+            "height": 548
+          },
+          "scale": {
+            "scale": 1.0,
+            "width": 1234,
+            "height": 548
+          },
+          "rotation": {
+            "angle_degrees": 2.9072,
+            "width": 1261,
+            "height": 610
+          },
+          "translation": {
+            "dx": 0,
+            "dy": 0,
+            "width": 1261,
+            "height": 610
+          },
+          "edge_crop": {
+            "left": 3,
+            "top": 3,
+            "right": 3,
+            "bottom": 4,
+            "width": 1255,
+            "height": 603
+          },
+          "output_size_before_visual": {
+            "width": 1255,
+            "height": 603
+          }
+        },
+        "output_size": {
+          "width": 1255,
+          "height": 603
+        }
+      }
+    },
+    "reading_order_policy": "rtl_visual_top_to_bottom_right_to_left_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "02_certificate_proof_json_03_b0001",
+      "coordinates": {
+        "x_min": 47.21,
+        "y_min": 23.54,
+        "x_max": 1230.95,
+        "y_max": 108.65
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "-9103",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_03_b0002",
+      "coordinates": {
+        "x_min": 43.85,
+        "y_min": 48.6,
+        "x_max": 1229.68,
+        "y_max": 174.77
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ئۇيغۇرچە ھۆججەت",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "48px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_03_b0003",
+      "coordinates": {
+        "x_min": 437.38,
+        "y_min": 163.04,
+        "x_max": 824.02,
+        "y_max": 299.22
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ياقتۇرغانلىرىمنىمۇ",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "42px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_03_b0004",
+      "coordinates": {
+        "x_min": 33.29,
+        "y_min": 287.5,
+        "x_max": 1217.55,
+        "y_max": 382.6
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ئاتتىن يېقىنلى قالدى بويولدا ياياق، بۇ تۇمۇرگە قايتا ئات سالغان كىشىنى كۆرىمىدۇق. كمىكى ساز ئالسا قولغا",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_03_b0005",
+      "coordinates": {
+        "x_min": 620.58,
+        "y_min": 400.82,
+        "x_max": 778.0,
+        "y_max": 558.24
+      },
+      "points": null,
+      "block_label": "seal",
+      "block_content": "ئۇيغۇرچە ھۆججەت",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "seal",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_03_b0006",
+      "coordinates": {
+        "x_min": 26.42,
+        "y_min": 432.81,
+        "x_max": 129.76,
+        "y_max": 463.06
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026-07-01",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    }
+  ],
+  "created_at": "2026-07-03T04:09:14.823Z",
+  "updated_at": "2026-07-03T12:10:29"
+}

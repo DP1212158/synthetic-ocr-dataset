@@ -1,0 +1,802 @@
+{
+  "image_id": "92ab4749-92ab-4749-92ab-92ab474992ab",
+  "file_name": "07_magazine_journal_json_02.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "reading_pages_json_renderer_bo_v1_v4_split_mix_assets",
+    "language_code": "bo",
+    "language_name": "藏语",
+    "script_note": "藏文横排文本，第一阶段用于公开文本源验证与模板填充",
+    "template_type": "magazine_journal",
+    "category": "magazine_journal",
+    "variant": 2,
+    "layout_name": "magazine_journal_v02",
+    "document_id": "07_magazine_journal_json_02",
+    "title": "དུས་དེབ་ཤོག་ངོས",
+    "doc_no": "V12-07-02",
+    "date": "2026-07-01",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.14,
+    "chinese_topic": "magazine_journal",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 24,
+      "page_width": 1124,
+      "page_height": 1300,
+      "body_scroll_width": 1124,
+      "body_scroll_height": 1300,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 81,
+        "y": 73,
+        "width": 1078,
+        "height": 1255,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1600,
+        "content_bbox": {
+          "x_min": 112,
+          "y_min": 104,
+          "x_max": 1128,
+          "y_max": 1296.4
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.7453,
+        "bottom_blank_ratio_before_crop": 0.1897
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 13233011895939989407,
+        "family": "shadow_photo",
+        "geometry": {
+          "source_size": {
+            "width": 1078,
+            "height": 1255
+          },
+          "scale": {
+            "scale": 1.01274,
+            "width": 1092,
+            "height": 1271
+          },
+          "rotation": {
+            "angle_degrees": -1.7523,
+            "width": 1131,
+            "height": 1304
+          },
+          "translation": {
+            "dx": -1,
+            "dy": 0,
+            "width": 1131,
+            "height": 1304
+          },
+          "edge_crop": {
+            "left": 2,
+            "top": 2,
+            "right": 5,
+            "bottom": 2,
+            "width": 1124,
+            "height": 1300
+          },
+          "output_size_before_visual": {
+            "width": 1124,
+            "height": 1300
+          }
+        },
+        "output_size": {
+          "width": 1124,
+          "height": 1300
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "07_magazine_journal_json_02_b0021",
+      "coordinates": {
+        "x_min": 29.34,
+        "y_min": 30.34,
+        "x_max": 1059.72,
+        "y_max": 124.57
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026 / 07",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0022",
+      "coordinates": {
+        "x_min": 31.26,
+        "y_min": 93.1,
+        "x_max": 1063.9,
+        "y_max": 261.22
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "དུས་དེབ་ཤོག་ངོས",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "48px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0023",
+      "coordinates": {
+        "x_min": 35.99,
+        "y_min": 247.98,
+        "x_max": 1074.68,
+        "y_max": 613.5
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": false,
+        "asset_id": "COCO_val2014_000000000359",
+        "asset_source": "random120-coco2014",
+        "asset_crop": "object-fit-cover"
+      },
+      "reading_order": 16,
+      "reading_group": "image",
+      "reading_role": "image",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0024",
+      "coordinates": {
+        "x_min": 46.77,
+        "y_min": 600.26,
+        "x_max": 1077.15,
+        "y_max": 694.07
+      },
+      "points": null,
+      "block_label": "document_subtitle",
+      "block_content": "༡ (གྲངས་ཀ )",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "46px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "subtitle",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0001",
+      "coordinates": {
+        "x_min": 48.68,
+        "y_min": 662.61,
+        "x_max": 1078.28,
+        "y_max": 731.02
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ཀེ་རི་སི",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0002",
+      "coordinates": {
+        "x_min": 49.81,
+        "y_min": 699.56,
+        "x_max": 1079.4,
+        "y_max": 767.87
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ཀ་ན",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0003",
+      "coordinates": {
+        "x_min": 50.94,
+        "y_min": 736.4,
+        "x_max": 1080.53,
+        "y_max": 804.71
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ཀེ་རི་སི",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0004",
+      "coordinates": {
+        "x_min": 52.06,
+        "y_min": 773.25,
+        "x_max": 1081.66,
+        "y_max": 841.66
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ཀེ་རི་སི",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0005",
+      "coordinates": {
+        "x_min": 53.19,
+        "y_min": 810.2,
+        "x_max": 1082.79,
+        "y_max": 878.51
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "༡༩༨༩",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0006",
+      "coordinates": {
+        "x_min": 54.32,
+        "y_min": 847.04,
+        "x_max": 1083.92,
+        "y_max": 915.46
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ནུབ་ཕྱོགས་。摄影作品记录日常瞬间",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0007",
+      "coordinates": {
+        "x_min": 55.45,
+        "y_min": 883.99,
+        "x_max": 1085.05,
+        "y_max": 952.3
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ནུབ་ཕྱོགས་སུ་བསྐྱོད་",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0008",
+      "coordinates": {
+        "x_min": 56.58,
+        "y_min": 920.84,
+        "x_max": 1086.17,
+        "y_max": 989.14
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ཀན་ལྷོ་བོད་རིགས་རང་",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0009",
+      "coordinates": {
+        "x_min": 57.71,
+        "y_min": 957.68,
+        "x_max": 1087.3,
+        "y_max": 1026.1
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ཀེ་རི་སི",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0010",
+      "coordinates": {
+        "x_min": 58.84,
+        "y_min": 994.63,
+        "x_max": 1087.74,
+        "y_max": 1040.27
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0011",
+      "coordinates": {
+        "x_min": 59.27,
+        "y_min": 1008.81,
+        "x_max": 1088.87,
+        "y_max": 1077.11
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ཀརྨ་བཀའ་བརྒྱུད་",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0012",
+      "coordinates": {
+        "x_min": 60.4,
+        "y_min": 1045.65,
+        "x_max": 1089.99,
+        "y_max": 1113.96
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ཀེ་རི་སི",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0013",
+      "coordinates": {
+        "x_min": 73.56,
+        "y_min": 1128.07,
+        "x_max": 561.31,
+        "y_max": 1170.92
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ཀེ་རི་སི",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0014",
+      "coordinates": {
+        "x_min": 74.41,
+        "y_min": 1156.02,
+        "x_max": 561.88,
+        "y_max": 1189.54
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ལོ་རྒྱུས་སྙན་རྩོམ་ནི་。摄影作品记录日常瞬间",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0015",
+      "coordinates": {
+        "x_min": 592.85,
+        "y_min": 1112.19,
+        "x_max": 1080.61,
+        "y_max": 1155.03
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ནུབ་ཕྱོགས་སུ་",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0016",
+      "coordinates": {
+        "x_min": 593.71,
+        "y_min": 1140.14,
+        "x_max": 1081.18,
+        "y_max": 1173.65
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "རེ་སྒུག་ཅེས་པ་འགྲེམ。封面故事延伸到内页",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0017",
+      "coordinates": {
+        "x_min": 75.97,
+        "y_min": 1207.04,
+        "x_max": 563.73,
+        "y_max": 1249.87
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ཀ་ཐོག་དགོན",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0018",
+      "coordinates": {
+        "x_min": 76.83,
+        "y_min": 1234.97,
+        "x_max": 564.3,
+        "y_max": 1268.49
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "པའམ ཡང་ན ངག་གི་དབང་ཕྱ。评论文章讨论公共议题",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0019",
+      "coordinates": {
+        "x_min": 595.27,
+        "y_min": 1191.15,
+        "x_max": 1083.03,
+        "y_max": 1233.98
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "༡༨ (གྲངས་ཀ )",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_02_b0020",
+      "coordinates": {
+        "x_min": 596.12,
+        "y_min": 1219.09,
+        "x_max": 1083.6,
+        "y_max": 1252.61
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "བསྟན་འཛིན་རྒྱ་མཚོར་ནོ。编辑部整理读者来稿",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T05:36:47.351Z",
+  "updated_at": "2026-07-03T13:37:48"
+}

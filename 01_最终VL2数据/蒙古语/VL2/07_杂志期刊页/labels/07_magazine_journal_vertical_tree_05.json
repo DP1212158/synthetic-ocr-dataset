@@ -1,0 +1,396 @@
+{
+  "image_id": "bfcc320f-bfcc-320f-bfcc-bfcc320fbfcc",
+  "file_name": "07_magazine_journal_vertical_tree_05.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "mongolian_vertical_json_tree_v3_v4_split_mix_assets",
+    "language_code": "mn-trad",
+    "language_name": "传统蒙古文",
+    "script_note": "传统蒙古文，竖排从上到下，列从左到右",
+    "template_type": "magazine_journal",
+    "category": "magazine_journal",
+    "variant": 5,
+    "layout_name": "magazine_journal_vertical_tree_05",
+    "document_id": "07_magazine_journal_vertical_tree_05",
+    "title": "杂志期刊页",
+    "doc_no": "MN-V3-07-05",
+    "date": "2026-07-02",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "magazine_journal",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 10,
+      "page_width": 1160,
+      "page_height": 1449,
+      "body_scroll_width": 1160,
+      "body_scroll_height": 1449,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 32,
+        "y": 52,
+        "width": 1066,
+        "height": 1376,
+        "enabled": true,
+        "original_width": 1120,
+        "original_height": 1500,
+        "content_bbox": {
+          "x_min": 60,
+          "y_min": 80,
+          "x_max": 1070,
+          "y_max": 1400
+        },
+        "padding": 28,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.88,
+        "bottom_blank_ratio_before_crop": 0.0667
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 2905417891348050480,
+        "family": "printed_noise",
+        "geometry": {
+          "source_size": {
+            "width": 1066,
+            "height": 1376
+          },
+          "scale": {
+            "scale": 0.99879,
+            "width": 1065,
+            "height": 1374
+          },
+          "rotation": {
+            "angle_degrees": -4.432,
+            "width": 1168,
+            "height": 1453
+          },
+          "translation": {
+            "dx": 1,
+            "dy": -1,
+            "width": 1168,
+            "height": 1453
+          },
+          "edge_crop": {
+            "left": 4,
+            "top": 0,
+            "right": 4,
+            "bottom": 4,
+            "width": 1160,
+            "height": 1449
+          },
+          "output_size_before_visual": {
+            "width": 1160,
+            "height": 1449
+          }
+        },
+        "output_size": {
+          "width": 1160,
+          "height": 1449
+        }
+      }
+    },
+    "reading_order_policy": "vertical_lr_columns_top_to_bottom_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "07_magazine_journal_vertical_tree_05_b0001",
+      "coordinates": {
+        "x_min": 27.05,
+        "y_min": 103.01,
+        "x_max": 180.7,
+        "y_max": 1421.47
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠵᠣᠯ ᠵᠢᠷᠭᠠᠯ᠂ ᠠᠮᠤᠷ",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "34px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "body",
+      "reading_role": "title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_05_b0002",
+      "coordinates": {
+        "x_min": 127.39,
+        "y_min": 91.5,
+        "x_max": 386.53,
+        "y_max": 497.62
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": false,
+        "asset_id": "COCO_val2014_000000190140",
+        "asset_source": "random120-coco2014",
+        "asset_crop": "object-fit-cover"
+      },
+      "reading_order": 9,
+      "reading_group": "image",
+      "reading_role": "image",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_05_b0003",
+      "coordinates": {
+        "x_min": 376.34,
+        "y_min": 87.8,
+        "x_max": 434.33,
+        "y_max": 478.33
+      },
+      "points": null,
+      "block_label": "caption",
+      "block_content": "ᠰᠤᠷᠤᠭᠰᠠᠨ ᠬᠦᠦ",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "caption",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_05_b0004",
+      "coordinates": {
+        "x_min": 472.14,
+        "y_min": 144.93,
+        "x_max": 731.27,
+        "y_max": 551.04
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": false,
+        "asset_id": "COCO_val2014_000000126340",
+        "asset_source": "random120-coco2014",
+        "asset_crop": "object-fit-cover"
+      },
+      "reading_order": 10,
+      "reading_group": "image",
+      "reading_role": "image",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_05_b0005",
+      "coordinates": {
+        "x_min": 721.09,
+        "y_min": 141.23,
+        "x_max": 779.07,
+        "y_max": 531.74
+      },
+      "points": null,
+      "block_label": "caption",
+      "block_content": "ᠤ ᠬᠠᠷᠢᠴᠠᠭ᠎ᠠ᠄",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "caption",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_05_b0006",
+      "coordinates": {
+        "x_min": 794.58,
+        "y_min": 55.07,
+        "x_max": 917.52,
+        "y_max": 1232.59
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "4. ᠬᠤᠳᠠᠯᠳᠤᠭᠠᠴᠢᠯᠠᠯᠲᠠ ᠶᠢᠨ ᠢᠵᠢᠯᠰᠢᠯ ᠳᠠᠯᠳᠠ ᠠᠭᠤᠯᠤᠭᠳᠠᠵᠤ᠂ ᠠᠭᠤᠯᠭ᠎ᠠ ᠨᠢ ᠮᠥᠴᠢᠳ᠂ ᠭᠦᠨᠴᠡ ᠪᠡᠷ ᠳᠤᠲᠠᠮᠠᠭ ᠳᠤᠲᠠᠭᠤᠳᠠᠯ ᠣᠷᠣᠰᠢᠵᠤ᠂ ᠦᠵᠡᠯ ᠰᠠᠨᠠᠭᠠᠨ ᠤ ᠦᠨ᠎ᠡ ᠥᠷᠲᠡᠭ ᠦᠨ ᠡᠭᠦᠳᠦᠨ ᠪᠦᠲᠦᠭᠡᠬᠦ ᠬᠤᠷᠠᠮᠳᠤᠭᠤᠯᠤᠯ ᠢᠶᠠᠷ ᠳᠤᠲᠠᠮᠠᠭ ᠪᠠᠢᠨ᠎ᠠ᠃",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_05_b0007",
+      "coordinates": {
+        "x_min": 846.36,
+        "y_min": 51.06,
+        "x_max": 969.3,
+        "y_max": 1228.58
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠲᠡᠭᠷᠢ ᠭᠠᠵᠠᠷ ᠬᠦᠮᠦᠨ ᠭᠤᠷᠪᠠ ᠶᠢᠨ ᠨᠢᠭᠡᠳᠦᠯ ᠳᠡᠯᠭᠡᠷ ᠤᠷᠢᠯᠠᠩ ᠤᠨ ᠰᠤᠷᠠᠭ ᠲᠤᠬᠢᠶᠠᠨ ᠤ ᠨᠡᠪᠲᠡᠷᠡᠯ ᠡᠷᠡᠭᠦᠯ ᠡᠩᠬᠡ ᠬᠦᠵᠢᠯ ᠪᠠᠳᠠᠷᠠᠯ ᠤᠨ ᠬᠦᠰᠡᠯᠡᠩ ᠡᠷᠬᠢᠮ ᠴᠢᠬᠤᠯᠠ ᠨᠢ ᠦᠵᠢᠨ ᠠᠬᠤᠢ ᠶᠢᠨ ᠬᠠᠮᠠᠭᠠᠯᠠᠯ",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_05_b0008",
+      "coordinates": {
+        "x_min": 898.15,
+        "y_min": 47.05,
+        "x_max": 1021.09,
+        "y_max": 1224.56
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠪᠠᠢᠯᠭᠦᠢ ᠦᠭᠡᠳᠡ ᠎ᠪᠡᠨ ᠵᠠᠶᠠᠭᠠᠲᠠᠢ ᠣᠳᠣᠮᠳᠣ ᠮᠣᠩᠭᠣᠯ ᠤᠳᠠᠷᠠᠵᠤ ᠪᠤᠯᠤᠰᠢ ᠦᠭᠡᠢ ᠮᠦᠩᠬᠡ ᠶᠢᠨ ᠮᠤᠩᠭᠤᠯ ᠠᠬᠢ ᠬᠠᠯᠢᠭᠤᠷᠠᠭᠰᠠᠨ ᠰᠢᠯᠢ ᠶᠢᠨ ᠠᠯᠠᠭ ᠴᠡᠴᠡᠭ ᠨᠢ",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_05_b0009",
+      "coordinates": {
+        "x_min": 949.92,
+        "y_min": 43.03,
+        "x_max": 1072.86,
+        "y_max": 1220.55
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠥᠷᠢ ᠰᠢᠷᠢ ᠦᠭᠡᠢ᠂ ᠡᠪᠡᠳᠴᠢᠨ ᠳᠠᠳᠬᠤᠯ᠎ᠠ ᠦᠭᠡᠢ ᠠᠮᠢᠳᠤᠷᠠᠯ ᠪᠣᠯ ᠵᠢᠷᠭᠠᠯ ᠭᠡᠬᠦ ᠤᠳᠬ᠎ᠠ ᠲᠠᠢ᠃ ᠳᠠᠷᠤᠢ ᠤᠳᠤᠬᠤᠢ ᠠᠮᠤᠷ ᠲᠠᠢᠪᠤᠩ ᠳᠤ ᠪᠠᠨ ᠰᠡᠳᠭᠢᠯ ᠬ᠍ᠩᠬᠤ ᠨᠢ ᠵᠦᠢ ᠭᠡᠵᠤ ᠦᠵᠡᠭ᠍ᠰᠡᠨ ᠦᠶ᠎ᠡ ᠳᠦ ᠬᠡᠷᠡᠭ᠍ᠯᠡᠨ᠎ᠡ᠃",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_05_b0010",
+      "coordinates": {
+        "x_min": 1001.71,
+        "y_min": 39.02,
+        "x_max": 1124.65,
+        "y_max": 1216.54
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠦᠭᠦᠯᠡᠪᠦᠷᠢ ᠲᠠᠢ ᠦᠭᠦᠯᠡᠪᠦᠷᠢ ᠨᠢ᠄ 1 ᠮᠣᠷᠢ ᠎ᠪᠠᠷ ᠢᠷᠡᠭᠰᠡᠨ ᠨᠢ ᠳᠣᠷᠵᠢ ᠪᠠᠢᠵᠠᠢ ᠃ 2 ᠪᠤᠷᠤᠭᠤ ᠬᠡᠷᠡᠭ ᠬᠢᠬᠦ ᠦᠭᠡᠢ ᠶᠤᠮ ᠴᠢᠨᠢ ᠪᠢ ᠶᠠᠭᠤᠨ ᠡᠴᠡ ᠠᠶᠤᠬᠤ",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    }
+  ],
+  "created_at": "2026-07-03T06:38:35.337Z",
+  "updated_at": "2026-07-03T14:39:32"
+}

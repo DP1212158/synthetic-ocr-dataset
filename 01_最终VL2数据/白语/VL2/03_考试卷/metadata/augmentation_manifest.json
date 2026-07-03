@@ -1,0 +1,560 @@
+[
+  {
+    "document_id": "03_exam_paper_json_01",
+    "category": "exam_paper",
+    "variant": 1,
+    "source_image": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2_clean_source/03_考试卷/images/03_exam_paper_json_01.png",
+    "source_label": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2_clean_source/03_考试卷/labels/03_exam_paper_json_01.json",
+    "output_image": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2/03_考试卷/images/03_exam_paper_json_01.png",
+    "output_label": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2/03_考试卷/labels/03_exam_paper_json_01.json",
+    "seed": 11372851776512553311,
+    "recipe": {
+      "family": "clean_scan",
+      "brightness": 1.02323,
+      "contrast": 0.97828,
+      "saturation": 0.93959,
+      "gamma": 0.98927,
+      "temperature": -0.02967,
+      "paper_tint": [
+        244,
+        251,
+        245
+      ],
+      "paper_tint_alpha": 0.03052,
+      "texture_strength": 0.00825,
+      "noise_std": 1.4229,
+      "speckle_amount": 0.0004,
+      "blur_radius": 0.11847,
+      "jpeg_quality": 86,
+      "shadow_strength": 0.00618,
+      "vignette_strength": 0.00682,
+      "profile": "delivery_all_light",
+      "angle_degrees": 0.10811,
+      "scale": 1.00084,
+      "max_shift_px": 8,
+      "max_edge_crop_px": 9,
+      "directional_light": {
+        "enabled": true,
+        "direction": "diagonal_up",
+        "shape": "soft_beam",
+        "strength": 0.184817093634712,
+        "warmth": 0.053099285234202,
+        "softness": 0.31791208724041814
+      }
+    },
+    "geometry": {
+      "source_size": {
+        "width": 1120,
+        "height": 966
+      },
+      "scale": {
+        "scale": 1.0,
+        "width": 1120,
+        "height": 966
+      },
+      "rotation": {
+        "angle_degrees": 0.1081,
+        "width": 1122,
+        "height": 969
+      },
+      "translation": {
+        "dx": -2,
+        "dy": 6,
+        "width": 1122,
+        "height": 969
+      },
+      "edge_crop": {
+        "left": 9,
+        "top": 1,
+        "right": 0,
+        "bottom": 6,
+        "width": 1113,
+        "height": 962
+      },
+      "output_size_before_visual": {
+        "width": 1113,
+        "height": 962
+      }
+    },
+    "source_size": {
+      "width": 1120,
+      "height": 966
+    },
+    "output_size": {
+      "width": 1113,
+      "height": 962
+    },
+    "box_area_growth_ratio": 1.02995,
+    "quality": {
+      "mean_luma": 239.451,
+      "contrast_std": 39.539,
+      "edge_sharpness": 15.219
+    },
+    "removed_unsupported_placeholder_blocks": 0
+  },
+  {
+    "document_id": "03_exam_paper_json_02",
+    "category": "exam_paper",
+    "variant": 2,
+    "source_image": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2_clean_source/03_考试卷/images/03_exam_paper_json_02.png",
+    "source_label": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2_clean_source/03_考试卷/labels/03_exam_paper_json_02.json",
+    "output_image": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2/03_考试卷/images/03_exam_paper_json_02.png",
+    "output_label": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2/03_考试卷/labels/03_exam_paper_json_02.json",
+    "seed": 14270727550165804615,
+    "recipe": {
+      "family": "soft_copy",
+      "brightness": 1.05462,
+      "contrast": 0.99307,
+      "saturation": 0.90688,
+      "gamma": 1.05823,
+      "temperature": 0.00093,
+      "paper_tint": [
+        254,
+        242,
+        229
+      ],
+      "paper_tint_alpha": 0.05031,
+      "texture_strength": 0.03232,
+      "noise_std": 2.31405,
+      "speckle_amount": 0.00076,
+      "blur_radius": 0.43481,
+      "jpeg_quality": 90,
+      "shadow_strength": 0.03875,
+      "vignette_strength": 0.00399,
+      "profile": "delivery_all_light",
+      "angle_degrees": -2.95799,
+      "scale": 1.00714,
+      "max_shift_px": 8,
+      "max_edge_crop_px": 11,
+      "directional_light": {
+        "enabled": true,
+        "direction": "left",
+        "shape": "elliptical_highlight",
+        "strength": 0.19835205166035863,
+        "warmth": 0.03580909344899725,
+        "softness": 0.28784095781993624
+      }
+    },
+    "geometry": {
+      "source_size": {
+        "width": 1104,
+        "height": 1181
+      },
+      "scale": {
+        "scale": 1.00714,
+        "width": 1112,
+        "height": 1189
+      },
+      "rotation": {
+        "angle_degrees": -2.958,
+        "width": 1172,
+        "height": 1245
+      },
+      "translation": {
+        "dx": -2,
+        "dy": -7,
+        "width": 1172,
+        "height": 1245
+      },
+      "edge_crop": {
+        "left": 9,
+        "top": 8,
+        "right": 11,
+        "bottom": 1,
+        "width": 1152,
+        "height": 1236
+      },
+      "output_size_before_visual": {
+        "width": 1152,
+        "height": 1236
+      }
+    },
+    "source_size": {
+      "width": 1104,
+      "height": 1181
+    },
+    "output_size": {
+      "width": 1152,
+      "height": 1236
+    },
+    "box_area_growth_ratio": 2.59563,
+    "quality": {
+      "mean_luma": 239.633,
+      "contrast_std": 31.581,
+      "edge_sharpness": 10.196
+    },
+    "removed_unsupported_placeholder_blocks": 0
+  },
+  {
+    "document_id": "03_exam_paper_json_03",
+    "category": "exam_paper",
+    "variant": 3,
+    "source_image": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2_clean_source/03_考试卷/images/03_exam_paper_json_03.png",
+    "source_label": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2_clean_source/03_考试卷/labels/03_exam_paper_json_03.json",
+    "output_image": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2/03_考试卷/images/03_exam_paper_json_03.png",
+    "output_label": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2/03_考试卷/labels/03_exam_paper_json_03.json",
+    "seed": 13190947518179757712,
+    "recipe": {
+      "family": "warm_paper",
+      "brightness": 1.02766,
+      "contrast": 0.98708,
+      "saturation": 0.99965,
+      "gamma": 1.0686,
+      "temperature": 0.04601,
+      "paper_tint": [
+        248,
+        240,
+        216
+      ],
+      "paper_tint_alpha": 0.09093,
+      "texture_strength": 0.04659,
+      "noise_std": 4.58584,
+      "speckle_amount": 0.00131,
+      "blur_radius": 0.29137,
+      "jpeg_quality": 85,
+      "shadow_strength": 0.07171,
+      "vignette_strength": 0.03799,
+      "profile": "delivery_all_light",
+      "angle_degrees": -2.72919,
+      "scale": 1.01357,
+      "max_shift_px": 4,
+      "max_edge_crop_px": 13,
+      "directional_light": {
+        "enabled": true,
+        "direction": "diagonal_up",
+        "shape": "edge_shadow",
+        "strength": 0.16578449719658034,
+        "warmth": 0.02243855793097351,
+        "softness": 0.35917275059879195
+      }
+    },
+    "geometry": {
+      "source_size": {
+        "width": 1120,
+        "height": 881
+      },
+      "scale": {
+        "scale": 1.01357,
+        "width": 1135,
+        "height": 893
+      },
+      "rotation": {
+        "angle_degrees": -2.7292,
+        "width": 1177,
+        "height": 947
+      },
+      "translation": {
+        "dx": -3,
+        "dy": -1,
+        "width": 1177,
+        "height": 947
+      },
+      "edge_crop": {
+        "left": 0,
+        "top": 5,
+        "right": 13,
+        "bottom": 13,
+        "width": 1164,
+        "height": 929
+      },
+      "output_size_before_visual": {
+        "width": 1164,
+        "height": 929
+      }
+    },
+    "source_size": {
+      "width": 1120,
+      "height": 881
+    },
+    "output_size": {
+      "width": 1164,
+      "height": 929
+    },
+    "box_area_growth_ratio": 2.17651,
+    "quality": {
+      "mean_luma": 229.135,
+      "contrast_std": 26.258,
+      "edge_sharpness": 9.1
+    },
+    "removed_unsupported_placeholder_blocks": 0
+  },
+  {
+    "document_id": "03_exam_paper_json_04",
+    "category": "exam_paper",
+    "variant": 4,
+    "source_image": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2_clean_source/03_考试卷/images/03_exam_paper_json_04.png",
+    "source_label": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2_clean_source/03_考试卷/labels/03_exam_paper_json_04.json",
+    "output_image": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2/03_考试卷/images/03_exam_paper_json_04.png",
+    "output_label": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2/03_考试卷/labels/03_exam_paper_json_04.json",
+    "seed": 11138230248814721801,
+    "recipe": {
+      "family": "compressed_scan",
+      "brightness": 1.00642,
+      "contrast": 0.98685,
+      "saturation": 0.97815,
+      "gamma": 1.00656,
+      "temperature": -0.02377,
+      "paper_tint": [
+        243,
+        252,
+        246
+      ],
+      "paper_tint_alpha": 0.0333,
+      "texture_strength": 0.02007,
+      "noise_std": 4.14793,
+      "speckle_amount": 0.00085,
+      "blur_radius": 0.08602,
+      "jpeg_quality": 77,
+      "shadow_strength": 0.03914,
+      "vignette_strength": 0.01536,
+      "profile": "delivery_all_light",
+      "angle_degrees": -3.80604,
+      "scale": 0.99563,
+      "max_shift_px": 5,
+      "max_edge_crop_px": 5,
+      "directional_light": {
+        "enabled": true,
+        "direction": "top_right",
+        "shape": "edge_shadow",
+        "strength": 0.15710021120930018,
+        "warmth": 0.03819181571340041,
+        "softness": 0.21596428846576246
+      }
+    },
+    "geometry": {
+      "source_size": {
+        "width": 1120,
+        "height": 1540
+      },
+      "scale": {
+        "scale": 0.99563,
+        "width": 1115,
+        "height": 1533
+      },
+      "rotation": {
+        "angle_degrees": -3.806,
+        "width": 1215,
+        "height": 1604
+      },
+      "translation": {
+        "dx": 3,
+        "dy": 5,
+        "width": 1215,
+        "height": 1604
+      },
+      "edge_crop": {
+        "left": 3,
+        "top": 5,
+        "right": 3,
+        "bottom": 2,
+        "width": 1209,
+        "height": 1597
+      },
+      "output_size_before_visual": {
+        "width": 1209,
+        "height": 1597
+      }
+    },
+    "source_size": {
+      "width": 1120,
+      "height": 1540
+    },
+    "output_size": {
+      "width": 1209,
+      "height": 1597
+    },
+    "box_area_growth_ratio": 1.53696,
+    "quality": {
+      "mean_luma": 234.914,
+      "contrast_std": 25.562,
+      "edge_sharpness": 6.571
+    },
+    "removed_unsupported_placeholder_blocks": 0
+  },
+  {
+    "document_id": "03_exam_paper_json_05",
+    "category": "exam_paper",
+    "variant": 5,
+    "source_image": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2_clean_source/03_考试卷/images/03_exam_paper_json_05.png",
+    "source_label": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2_clean_source/03_考试卷/labels/03_exam_paper_json_05.json",
+    "output_image": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2/03_考试卷/images/03_exam_paper_json_05.png",
+    "output_label": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2/03_考试卷/labels/03_exam_paper_json_05.json",
+    "seed": 7903808726079778129,
+    "recipe": {
+      "family": "printed_noise",
+      "brightness": 0.95202,
+      "contrast": 0.94038,
+      "saturation": 1.0326,
+      "gamma": 1.04314,
+      "temperature": -0.02212,
+      "paper_tint": [
+        255,
+        238,
+        227
+      ],
+      "paper_tint_alpha": 0.03532,
+      "texture_strength": 0.04241,
+      "noise_std": 5.84453,
+      "speckle_amount": 0.00238,
+      "blur_radius": 0.09345,
+      "jpeg_quality": 73,
+      "shadow_strength": 0.06349,
+      "vignette_strength": 0.01386,
+      "profile": "delivery_all_light",
+      "angle_degrees": 3.41159,
+      "scale": 1.00573,
+      "max_shift_px": 6,
+      "max_edge_crop_px": 11,
+      "directional_light": {
+        "enabled": true,
+        "direction": "left",
+        "shape": "window_band",
+        "strength": 0.11500880018355468,
+        "warmth": 0.02916261297109314,
+        "softness": 0.3495144019124578
+      }
+    },
+    "geometry": {
+      "source_size": {
+        "width": 1120,
+        "height": 980
+      },
+      "scale": {
+        "scale": 1.00573,
+        "width": 1126,
+        "height": 986
+      },
+      "rotation": {
+        "angle_degrees": 3.4116,
+        "width": 1183,
+        "height": 1052
+      },
+      "translation": {
+        "dx": 6,
+        "dy": -3,
+        "width": 1183,
+        "height": 1052
+      },
+      "edge_crop": {
+        "left": 7,
+        "top": 0,
+        "right": 6,
+        "bottom": 7,
+        "width": 1170,
+        "height": 1045
+      },
+      "output_size_before_visual": {
+        "width": 1170,
+        "height": 1045
+      }
+    },
+    "source_size": {
+      "width": 1120,
+      "height": 980
+    },
+    "output_size": {
+      "width": 1170,
+      "height": 1045
+    },
+    "box_area_growth_ratio": 1.74845,
+    "quality": {
+      "mean_luma": 229.304,
+      "contrast_std": 35.659,
+      "edge_sharpness": 16.374
+    },
+    "removed_unsupported_placeholder_blocks": 0
+  },
+  {
+    "document_id": "03_exam_paper_json_06",
+    "category": "exam_paper",
+    "variant": 6,
+    "source_image": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2_clean_source/03_考试卷/images/03_exam_paper_json_06.png",
+    "source_label": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2_clean_source/03_考试卷/labels/03_exam_paper_json_06.json",
+    "output_image": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2/03_考试卷/images/03_exam_paper_json_06.png",
+    "output_label": "/Users/dp/Downloads/中央民族大学合作项目/白语/03_合成数据生成_20260702/VL2/03_考试卷/labels/03_exam_paper_json_06.json",
+    "seed": 7766659095552468598,
+    "recipe": {
+      "family": "shadow_photo",
+      "brightness": 0.98171,
+      "contrast": 0.96569,
+      "saturation": 0.93647,
+      "gamma": 1.02073,
+      "temperature": 0.00215,
+      "paper_tint": [
+        243,
+        249,
+        240
+      ],
+      "paper_tint_alpha": 0.02851,
+      "texture_strength": 0.01689,
+      "noise_std": 3.16321,
+      "speckle_amount": 0.00044,
+      "blur_radius": 0.29709,
+      "jpeg_quality": 84,
+      "shadow_strength": 0.08205,
+      "vignette_strength": 0.06917,
+      "profile": "delivery_all_light",
+      "angle_degrees": -3.17141,
+      "scale": 1.00227,
+      "max_shift_px": 4,
+      "max_edge_crop_px": 8,
+      "directional_light": {
+        "enabled": true,
+        "direction": "top_left",
+        "shape": "soft_beam",
+        "strength": 0.20832939928131755,
+        "warmth": 0.019643278594038818,
+        "softness": 0.25890283687692806
+      }
+    },
+    "geometry": {
+      "source_size": {
+        "width": 1120,
+        "height": 666
+      },
+      "scale": {
+        "scale": 1.00227,
+        "width": 1123,
+        "height": 668
+      },
+      "rotation": {
+        "angle_degrees": -3.1714,
+        "width": 1159,
+        "height": 730
+      },
+      "translation": {
+        "dx": 1,
+        "dy": -2,
+        "width": 1159,
+        "height": 730
+      },
+      "edge_crop": {
+        "left": 1,
+        "top": 1,
+        "right": 8,
+        "bottom": 8,
+        "width": 1150,
+        "height": 721
+      },
+      "output_size_before_visual": {
+        "width": 1150,
+        "height": 721
+      }
+    },
+    "source_size": {
+      "width": 1120,
+      "height": 666
+    },
+    "output_size": {
+      "width": 1150,
+      "height": 721
+    },
+    "box_area_growth_ratio": 1.56902,
+    "quality": {
+      "mean_luma": 225.129,
+      "contrast_std": 37.337,
+      "edge_sharpness": 10.419
+    },
+    "removed_unsupported_placeholder_blocks": 0
+  }
+]

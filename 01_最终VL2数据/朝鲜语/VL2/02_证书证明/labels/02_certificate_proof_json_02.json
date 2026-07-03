@@ -1,0 +1,860 @@
+{
+  "image_id": "40ad9a14-40ad-9a14-40ad-40ad9a1440ad",
+  "file_name": "02_certificate_proof_json_02.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "batch1_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "ko",
+    "language_name": "朝鲜语",
+    "script_note": "谚文 Hangul，横排从左到右",
+    "template_type": "certificate_proof",
+    "category": "certificate_proof",
+    "variant": 2,
+    "layout_name": "certificate_proof_v02",
+    "document_id": "02_certificate_proof_json_02",
+    "title": "Sawcingq Cingmingz",
+    "doc_no": "ZA-V1-02-02",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.14,
+    "chinese_topic": "certificate_proof",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 26,
+      "page_width": 980,
+      "page_height": 934,
+      "body_scroll_width": 980,
+      "body_scroll_height": 934,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 96,
+        "y": 66,
+        "width": 949,
+        "height": 902,
+        "enabled": true,
+        "original_width": 1120,
+        "original_height": 1380,
+        "content_bbox": {
+          "x_min": 124,
+          "y_min": 94,
+          "x_max": 1016.2,
+          "y_max": 939.2
+        },
+        "padding": 28,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.6125,
+        "bottom_blank_ratio_before_crop": 0.3194
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 1284532617159029750,
+        "family": "soft_copy",
+        "geometry": {
+          "source_size": {
+            "width": 949,
+            "height": 902
+          },
+          "scale": {
+            "scale": 0.9954,
+            "width": 945,
+            "height": 898
+          },
+          "rotation": {
+            "angle_degrees": 2.922,
+            "width": 990,
+            "height": 946
+          },
+          "translation": {
+            "dx": -4,
+            "dy": -4,
+            "width": 990,
+            "height": 946
+          },
+          "edge_crop": {
+            "left": 10,
+            "top": 3,
+            "right": 0,
+            "bottom": 9,
+            "width": 980,
+            "height": 934
+          },
+          "output_size_before_visual": {
+            "width": 980,
+            "height": 934
+          }
+        },
+        "output_size": {
+          "width": 980,
+          "height": 934
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "02_certificate_proof_json_02_b0021",
+      "coordinates": {
+        "x_min": 56.92,
+        "y_min": 22.25,
+        "x_max": 942.95,
+        "y_max": 92.37
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "7202",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0022",
+      "coordinates": {
+        "x_min": 53.56,
+        "y_min": 47.21,
+        "x_max": 941.67,
+        "y_max": 158.18
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "조선어 문서",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "48px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0023",
+      "coordinates": {
+        "x_min": 42.68,
+        "y_min": 160.73,
+        "x_max": 935.88,
+        "y_max": 371.22
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "인연이 이어졌다. 비상학생총회에서 시국토론을 할 때, 자원 발언이 끊길 경우, 분위기가 식지 않도록 나설 발언자를 몇 명 확보해 둘 필요가 있었다. 토론을 마무리할 마지막 발언자는 여학생이 좋겠다고 생각했다. 총회 개최 시간을 기다리며 여학생 발언자를 확보。相关印章由经办机构确认",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "27px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0001",
+      "coordinates": {
+        "x_min": 52.59,
+        "y_min": 363.5,
+        "x_max": 463.31,
+        "y_max": 406.77
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "조선어 문서",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0002",
+      "coordinates": {
+        "x_min": 51.02,
+        "y_min": 385.86,
+        "x_max": 462.16,
+        "y_max": 437.39
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "말로 우리나라의 위치를",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0003",
+      "coordinates": {
+        "x_min": 501.92,
+        "y_min": 386.44,
+        "x_max": 912.64,
+        "y_max": 429.7
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "조선어 문서",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0004",
+      "coordinates": {
+        "x_min": 500.36,
+        "y_min": 408.8,
+        "x_max": 911.5,
+        "y_max": 460.32
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "시작했다. 과 / 身份信息已按流程",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0005",
+      "coordinates": {
+        "x_min": 47.85,
+        "y_min": 456.25,
+        "x_max": 458.57,
+        "y_max": 499.52
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "조선어 문서",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0006",
+      "coordinates": {
+        "x_min": 46.29,
+        "y_min": 478.61,
+        "x_max": 457.43,
+        "y_max": 530.24
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "먼저 개장한 올레 1코스는",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0007",
+      "coordinates": {
+        "x_min": 497.19,
+        "y_min": 479.19,
+        "x_max": 907.91,
+        "y_max": 522.45
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "조선어 문서",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0008",
+      "coordinates": {
+        "x_min": 495.62,
+        "y_min": 501.55,
+        "x_max": 906.77,
+        "y_max": 553.17
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "벽돌 한 장, 기왓장 한",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0009",
+      "coordinates": {
+        "x_min": 26.95,
+        "y_min": 570.31,
+        "x_max": 71.97,
+        "y_max": 636.36
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "01",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0010",
+      "coordinates": {
+        "x_min": 76.66,
+        "y_min": 572.85,
+        "x_max": 463.65,
+        "y_max": 656.35
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "공기와 물과 햇빛과 바람에게 미안한 마음을 가져야 할 거야. 그러기에 나。经审核材料真实有效",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0011",
+      "coordinates": {
+        "x_min": 478.29,
+        "y_min": 593.35,
+        "x_max": 523.29,
+        "y_max": 659.4
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "02",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0012",
+      "coordinates": {
+        "x_min": 527.99,
+        "y_min": 595.89,
+        "x_max": 914.97,
+        "y_max": 679.39
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "에 ① 내 취미는 소설책 읽기이다. 요즘에는 책을 읽는 사람들이 점점 줄어들고 있지만 독서처럼 마음의여유를 찾을수 있。证明内容不得擅自涂改",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0013",
+      "coordinates": {
+        "x_min": 23.67,
+        "y_min": 656.1,
+        "x_max": 67.59,
+        "y_max": 700.78
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "03",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0014",
+      "coordinates": {
+        "x_min": 73.37,
+        "y_min": 658.64,
+        "x_max": 459.27,
+        "y_max": 720.77
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "그리고 마음 맞는 사람과의 관계가 나빠져서 더 이상 좋은 관계를 맺을 수가 없을 때。身份信息已按流程复核",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0015",
+      "coordinates": {
+        "x_min": 475.0,
+        "y_min": 679.14,
+        "x_max": 518.91,
+        "y_max": 723.81
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "04",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0016",
+      "coordinates": {
+        "x_min": 524.7,
+        "y_min": 681.67,
+        "x_max": 910.59,
+        "y_max": 743.81
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "울음이 나와버렸다. 물론 를 걱정해준 주변 지인들도 많았다. 동료도 친구도 가。经办人已完成签收",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0017",
+      "coordinates": {
+        "x_min": 20.37,
+        "y_min": 720.52,
+        "x_max": 64.3,
+        "y_max": 765.3
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "05",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0018",
+      "coordinates": {
+        "x_min": 70.08,
+        "y_min": 723.05,
+        "x_max": 455.98,
+        "y_max": 785.29
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "매일 소리 내어 읽기로 했다. 매일 다짐처럼 내게 말해주고자 그 종이를 가장。本页用于档案归集",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0019",
+      "coordinates": {
+        "x_min": 471.7,
+        "y_min": 743.55,
+        "x_max": 515.63,
+        "y_max": 788.34
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "06",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0020",
+      "coordinates": {
+        "x_min": 521.41,
+        "y_min": 746.09,
+        "x_max": 907.31,
+        "y_max": 808.33
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "오빠가 한 명 있어요. 아버지는 회사에 다니세요. 아주 재미있으시고 항상 옷으。经审核材料真实有效",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0024",
+      "coordinates": {
+        "x_min": 574.3,
+        "y_min": 848.31,
+        "x_max": 672.01,
+        "y_max": 878.09
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026-07-01",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0025",
+      "coordinates": {
+        "x_min": 704.53,
+        "y_min": 854.96,
+        "x_max": 753.72,
+        "y_max": 882.26
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "-7202",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_02_b0026",
+      "coordinates": {
+        "x_min": 783.05,
+        "y_min": 841.23,
+        "x_max": 905.33,
+        "y_max": 907.75
+      },
+      "points": null,
+      "block_label": "seal",
+      "block_content": "조선어 문서",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "footer",
+      "reading_role": "seal",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:02:34.859Z",
+  "updated_at": "2026-07-03T12:03:52"
+}

@@ -1,0 +1,3470 @@
+{
+  "image_id": "3606d9d9-3606-d9d9-3606-3606d9d93606",
+  "file_name": "08_academic_paper_json_03.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "remaining_pages_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "bai",
+    "language_name": "白语",
+    "script_note": "白文拉丁字母方案，横排从左到右",
+    "template_type": "academic_paper",
+    "category": "academic_paper",
+    "variant": 3,
+    "layout_name": "academic_paper_v03",
+    "document_id": "08_academic_paper_json_03",
+    "title": "Vwnzyen Gijbon",
+    "doc_no": "ZA-V1-08-03",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "academic_paper",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 116,
+      "page_width": 1252,
+      "page_height": 1630,
+      "body_scroll_width": 1252,
+      "body_scroll_height": 1630,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 31,
+        "y": 23,
+        "width": 1178,
+        "height": 1572,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1754,
+        "content_bbox": {
+          "x_min": 62,
+          "y_min": 54,
+          "x_max": 1178,
+          "y_max": 1563.3
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.8605,
+        "bottom_blank_ratio_before_crop": 0.1087
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 12812410322744456254,
+        "family": "compressed_scan",
+        "geometry": {
+          "source_size": {
+            "width": 1178,
+            "height": 1572
+          },
+          "scale": {
+            "scale": 1.00108,
+            "width": 1179,
+            "height": 1574
+          },
+          "rotation": {
+            "angle_degrees": -2.9862,
+            "width": 1260,
+            "height": 1634
+          },
+          "translation": {
+            "dx": 4,
+            "dy": 2,
+            "width": 1260,
+            "height": 1634
+          },
+          "edge_crop": {
+            "left": 5,
+            "top": 4,
+            "right": 3,
+            "bottom": 0,
+            "width": 1252,
+            "height": 1630
+          },
+          "output_size_before_visual": {
+            "width": 1252,
+            "height": 1630
+          }
+        },
+        "output_size": {
+          "width": 1252,
+          "height": 1630
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "08_academic_paper_json_03_b0043",
+      "coordinates": {
+        "x_min": 31.6,
+        "y_min": 30.59,
+        "x_max": 1150.69,
+        "y_max": 153.87
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "Swhngim Bouxcuengh",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "44px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0044",
+      "coordinates": {
+        "x_min": 35.73,
+        "y_min": 126.47,
+        "x_max": 830.51,
+        "y_max": 187.07
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Ngaot did tiou geif merx dedbaod no nerl ngaot dad nil",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0045",
+      "coordinates": {
+        "x_min": 36.99,
+        "y_min": 150.65,
+        "x_max": 831.77,
+        "y_max": 211.27
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "A: Bel gao nid zil hatleid? B: Bel gao nid zil ngvjiouz.",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0046",
+      "coordinates": {
+        "x_min": 38.25,
+        "y_min": 174.85,
+        "x_max": 833.04,
+        "y_max": 235.45
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Qialmaix kelsaof si nguabaod, Da zaop yid xil zil ye beix,",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0047",
+      "coordinates": {
+        "x_min": 39.52,
+        "y_min": 199.05,
+        "x_max": 834.3,
+        "y_max": 259.65
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "xiaoftal het hhepsif mux, nerl baot feix xithuaf halsif.",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0048",
+      "coordinates": {
+        "x_min": 40.78,
+        "y_min": 223.23,
+        "x_max": 835.55,
+        "y_max": 283.74
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "A: Gerlni, merlni, atzipni zal sal ni zi ngaot zex kuol, atwa'ni zil xiexqi'ni, nial bettal zei bei.",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0049",
+      "coordinates": {
+        "x_min": 42.03,
+        "y_min": 247.33,
+        "x_max": 836.82,
+        "y_max": 307.93
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Yapwa guoz hel zerfwa pia, weifweif-ni'ni nial guoz jia.",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0050",
+      "coordinates": {
+        "x_min": 43.3,
+        "y_min": 271.53,
+        "x_max": 838.08,
+        "y_max": 332.13
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "zont lianb konb zib zitbiaox, yop guf wup yuinp huainp",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0051",
+      "coordinates": {
+        "x_min": 44.56,
+        "y_min": 295.72,
+        "x_max": 839.34,
+        "y_max": 356.32
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "canp zib,fenx jif fenx duainb nox zutzif lietdaot bent",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0052",
+      "coordinates": {
+        "x_min": 45.82,
+        "y_min": 319.91,
+        "x_max": 840.6,
+        "y_max": 380.52
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "nil keil merx, tiou geif merx mixduf no nerl ngaot dad",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0053",
+      "coordinates": {
+        "x_min": 47.08,
+        "y_min": 344.1,
+        "x_max": 841.86,
+        "y_max": 404.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "fanx'an，yonx hual yin ket guaifjia x nox guaifmiep jienxjil",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0054",
+      "coordinates": {
+        "x_min": 48.35,
+        "y_min": 368.3,
+        "x_max": 843.13,
+        "y_max": 428.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "zaop wei alsert doufsaot ， ouhuit wapheil-zoujit ， ferx ， letle ， ngaf ket ， zerf coul",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0055",
+      "coordinates": {
+        "x_min": 49.61,
+        "y_min": 392.49,
+        "x_max": 844.39,
+        "y_max": 453.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "pel gaf jix he, hal bifsif ngerdyeid, bifsif mux bettal",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0056",
+      "coordinates": {
+        "x_min": 50.87,
+        "y_min": 416.68,
+        "x_max": 845.65,
+        "y_max": 477.18
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "der zoupkuil niou ssvt diefcuil. Sux jitwerf niou ssvt",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0057",
+      "coordinates": {
+        "x_min": 52.13,
+        "y_min": 440.78,
+        "x_max": 846.91,
+        "y_max": 501.38
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "A: Bier nil cerl, ngel daotgerzxif leid sit de dierl, det leid niou zeilmel daod?",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0058",
+      "coordinates": {
+        "x_min": 53.39,
+        "y_min": 464.97,
+        "x_max": 848.17,
+        "y_max": 525.58
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "nox biaoxxuint、dathot nox jiainxcef、dat hot nox fanpzib",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0059",
+      "coordinates": {
+        "x_min": 54.65,
+        "y_min": 489.16,
+        "x_max": 849.43,
+        "y_max": 549.77
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "zex lao zi'nivx huox bei haol, diou tel gux doufmaox. ，",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0060",
+      "coordinates": {
+        "x_min": 55.91,
+        "y_min": 513.36,
+        "x_max": 850.69,
+        "y_max": 573.96
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "B:Zaox laoz! Nel doufmaox zex haotdvf nil mux?Ngaot xiat bei zid nal haotdvf ga xiaf.",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0061",
+      "coordinates": {
+        "x_min": 57.17,
+        "y_min": 537.55,
+        "x_max": 851.96,
+        "y_max": 598.15
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "gazgex nil qiel zef weix mel, at cua neif sex mel. ， ，",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0062",
+      "coordinates": {
+        "x_min": 58.44,
+        "y_min": 561.74,
+        "x_max": 853.22,
+        "y_max": 622.35
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Dit xizaipqi tiol Gufjiax duil yonpxuix sifxienp zontlianl",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0063",
+      "coordinates": {
+        "x_min": 59.7,
+        "y_min": 585.93,
+        "x_max": 854.48,
+        "y_max": 646.54
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Heilmaid vvx'hhaop qibia ngua, Nidgaif maixyap mia wot",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0064",
+      "coordinates": {
+        "x_min": 61.49,
+        "y_min": 641.67,
+        "x_max": 261.49,
+        "y_max": 685.7
+      },
+      "points": null,
+      "block_label": "table_header",
+      "block_content": "H1",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "th",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 57,
+      "reading_group": "table",
+      "reading_role": "table_header",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0065",
+      "coordinates": {
+        "x_min": 259.74,
+        "y_min": 631.33,
+        "x_max": 459.63,
+        "y_max": 675.36
+      },
+      "points": null,
+      "block_label": "table_header",
+      "block_content": "H2",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "th",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 55,
+      "reading_group": "table",
+      "reading_role": "table_header",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0066",
+      "coordinates": {
+        "x_min": 457.88,
+        "y_min": 620.99,
+        "x_max": 657.89,
+        "y_max": 665.03
+      },
+      "points": null,
+      "block_label": "table_header",
+      "block_content": "H3",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "th",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 56,
+      "reading_group": "table",
+      "reading_role": "table_header",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0067",
+      "coordinates": {
+        "x_min": 656.13,
+        "y_min": 610.65,
+        "x_max": 856.03,
+        "y_max": 654.68
+      },
+      "points": null,
+      "block_label": "table_header",
+      "block_content": "H4",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "th",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 54,
+      "reading_group": "table",
+      "reading_role": "table_header",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0068",
+      "coordinates": {
+        "x_min": 63.24,
+        "y_min": 675.36,
+        "x_max": 264.23,
+        "y_max": 738.18
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "sul werz nid gvz",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 61,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0069",
+      "coordinates": {
+        "x_min": 261.49,
+        "y_min": 665.03,
+        "x_max": 462.37,
+        "y_max": 727.84
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "zop yon zi yindgail",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 59,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0070",
+      "coordinates": {
+        "x_min": 459.63,
+        "y_min": 654.68,
+        "x_max": 660.62,
+        "y_max": 717.5
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "neid zex《Luopmat",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 60,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0071",
+      "coordinates": {
+        "x_min": 657.89,
+        "y_min": 644.35,
+        "x_max": 858.76,
+        "y_max": 707.16
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "jiasi ， mebad me'zi qieixbif",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 58,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0072",
+      "coordinates": {
+        "x_min": 65.98,
+        "y_min": 727.84,
+        "x_max": 265.99,
+        "y_max": 771.98
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "zaodsei didmel meldid",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 64,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0073",
+      "coordinates": {
+        "x_min": 264.23,
+        "y_min": 717.5,
+        "x_max": 464.14,
+        "y_max": 761.64
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "gert no xiaf, dex",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 65,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0074",
+      "coordinates": {
+        "x_min": 462.37,
+        "y_min": 707.16,
+        "x_max": 662.39,
+        "y_max": 751.3
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "sait'vx, gol guf",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 62,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0075",
+      "coordinates": {
+        "x_min": 660.62,
+        "y_min": 696.83,
+        "x_max": 860.53,
+        "y_max": 740.96
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "zex gaosuf-gu'lul,",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 63,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0076",
+      "coordinates": {
+        "x_min": 67.74,
+        "y_min": 761.64,
+        "x_max": 268.73,
+        "y_max": 824.47
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "zerfzi zux ； qit",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 68,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0077",
+      "coordinates": {
+        "x_min": 265.99,
+        "y_min": 751.3,
+        "x_max": 466.87,
+        "y_max": 814.12
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "A: Nihet kaol cerl, yaozhet feix kaol",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 69,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0078",
+      "coordinates": {
+        "x_min": 464.14,
+        "y_min": 740.96,
+        "x_max": 665.12,
+        "y_max": 803.79
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "Zuf nial zudguerf faipssoup-caxsel,",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 66,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0079",
+      "coordinates": {
+        "x_min": 662.39,
+        "y_min": 730.62,
+        "x_max": 863.26,
+        "y_max": 793.45
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "yaof, serx de xieixhaof",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 67,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0080",
+      "coordinates": {
+        "x_min": 70.48,
+        "y_min": 814.12,
+        "x_max": 270.49,
+        "y_max": 858.15
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "Canp'vb Weityuainphuib",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 73,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0081",
+      "coordinates": {
+        "x_min": 268.73,
+        "y_min": 803.79,
+        "x_max": 468.63,
+        "y_max": 847.81
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "doud niou sua nidgert",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 72,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0082",
+      "coordinates": {
+        "x_min": 466.87,
+        "y_min": 793.45,
+        "x_max": 666.88,
+        "y_max": 837.47
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": ", dedzeizgvf ye daotcal,",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 70,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0083",
+      "coordinates": {
+        "x_min": 665.12,
+        "y_min": 783.11,
+        "x_max": 865.02,
+        "y_max": 827.13
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "nox guixdienb sefzif",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 71,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0084",
+      "coordinates": {
+        "x_min": 72.24,
+        "y_min": 847.81,
+        "x_max": 272.25,
+        "y_max": 891.94
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "gainlyindgainl, yifqienp",
+      "is_text": true,
+      "order": "41",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 76,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0085",
+      "coordinates": {
+        "x_min": 270.49,
+        "y_min": 837.47,
+        "x_max": 470.39,
+        "y_max": 881.6
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "detssex ga baixkaol",
+      "is_text": true,
+      "order": "42",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 77,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0086",
+      "coordinates": {
+        "x_min": 468.63,
+        "y_min": 827.13,
+        "x_max": 668.64,
+        "y_max": 871.27
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "huif pia waherl zip,",
+      "is_text": true,
+      "order": "43",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 74,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0087",
+      "coordinates": {
+        "x_min": 666.88,
+        "y_min": 816.79,
+        "x_max": 866.78,
+        "y_max": 860.92
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "nil bap goux dil,",
+      "is_text": true,
+      "order": "44",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 75,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0088",
+      "coordinates": {
+        "x_min": 74.0,
+        "y_min": 881.6,
+        "x_max": 274.01,
+        "y_max": 925.64
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "bei pia Yellerlfex",
+      "is_text": true,
+      "order": "45",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 81,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0089",
+      "coordinates": {
+        "x_min": 272.25,
+        "y_min": 871.27,
+        "x_max": 472.15,
+        "y_max": 915.3
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "yuid neid huof duox",
+      "is_text": true,
+      "order": "46",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 79,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0090",
+      "coordinates": {
+        "x_min": 470.39,
+        "y_min": 860.92,
+        "x_max": 670.4,
+        "y_max": 904.96
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "Guxdoud sua, vvd",
+      "is_text": true,
+      "order": "47",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 80,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0091",
+      "coordinates": {
+        "x_min": 668.64,
+        "y_min": 850.59,
+        "x_max": 868.54,
+        "y_max": 894.62
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "lao ni'xiai jiap",
+      "is_text": true,
+      "order": "48",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 78,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0092",
+      "coordinates": {
+        "x_min": 75.76,
+        "y_min": 915.3,
+        "x_max": 275.77,
+        "y_max": 959.42
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "leid sit de dierl,",
+      "is_text": true,
+      "order": "49",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 85,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0093",
+      "coordinates": {
+        "x_min": 274.01,
+        "y_min": 904.96,
+        "x_max": 473.91,
+        "y_max": 949.08
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "diou tel zi'nivx",
+      "is_text": true,
+      "order": "50",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 83,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0094",
+      "coordinates": {
+        "x_min": 472.15,
+        "y_min": 894.62,
+        "x_max": 672.16,
+        "y_max": 938.74
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "zef xiouf gaf, nidgerd",
+      "is_text": true,
+      "order": "51",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 84,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0095",
+      "coordinates": {
+        "x_min": 670.4,
+        "y_min": 884.28,
+        "x_max": 870.3,
+        "y_max": 928.4
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "yif qit bei Zuf laozsi",
+      "is_text": true,
+      "order": "52",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 82,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0096",
+      "coordinates": {
+        "x_min": 77.52,
+        "y_min": 949.08,
+        "x_max": 277.53,
+        "y_max": 993.12
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "at ni bit ni jif.",
+      "is_text": true,
+      "order": "53",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 88,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0097",
+      "coordinates": {
+        "x_min": 275.77,
+        "y_min": 938.74,
+        "x_max": 475.67,
+        "y_max": 982.77
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "Suatbad zil ngal",
+      "is_text": true,
+      "order": "54",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 89,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0098",
+      "coordinates": {
+        "x_min": 473.91,
+        "y_min": 928.4,
+        "x_max": 673.92,
+        "y_max": 972.44
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "zei bit at sua qioul,",
+      "is_text": true,
+      "order": "55",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 86,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0099",
+      "coordinates": {
+        "x_min": 672.16,
+        "y_min": 918.07,
+        "x_max": 872.06,
+        "y_max": 962.1
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "salxuid wapmerx-der'biaf,",
+      "is_text": true,
+      "order": "56",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 87,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0100",
+      "coordinates": {
+        "x_min": 79.28,
+        "y_min": 982.77,
+        "x_max": 279.29,
+        "y_max": 1026.91
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "zib,fenx jif fenx",
+      "is_text": true,
+      "order": "57",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 92,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0101",
+      "coordinates": {
+        "x_min": 277.53,
+        "y_min": 972.44,
+        "x_max": 477.43,
+        "y_max": 1016.57
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "tit zix fvnl seinx",
+      "is_text": true,
+      "order": "58",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 93,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0102",
+      "coordinates": {
+        "x_min": 475.67,
+        "y_min": 962.1,
+        "x_max": 675.68,
+        "y_max": 1006.23
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "zaop weip juif zef",
+      "is_text": true,
+      "order": "59",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 90,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0103",
+      "coordinates": {
+        "x_min": 673.92,
+        "y_min": 951.76,
+        "x_max": 873.83,
+        "y_max": 995.89
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "juix nil zeip pit.",
+      "is_text": true,
+      "order": "60",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 91,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0104",
+      "coordinates": {
+        "x_min": 81.04,
+        "y_min": 1016.57,
+        "x_max": 281.05,
+        "y_max": 1060.59
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "zipnei zvp. Wu zex:",
+      "is_text": true,
+      "order": "61",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 97,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0105",
+      "coordinates": {
+        "x_min": 279.29,
+        "y_min": 1006.23,
+        "x_max": 479.19,
+        "y_max": 1050.25
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "de hua yif yaod,",
+      "is_text": true,
+      "order": "62",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 95,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0106",
+      "coordinates": {
+        "x_min": 477.43,
+        "y_min": 995.89,
+        "x_max": 677.44,
+        "y_max": 1039.92
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "no sex keil sex,",
+      "is_text": true,
+      "order": "63",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 96,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0107",
+      "coordinates": {
+        "x_min": 675.68,
+        "y_min": 985.55,
+        "x_max": 875.58,
+        "y_max": 1029.57
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "cenpxuil jienxgul",
+      "is_text": true,
+      "order": "64",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 94,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0001",
+      "coordinates": {
+        "x_min": 866.87,
+        "y_min": 116.67,
+        "x_max": 1152.73,
+        "y_max": 149.53
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "M1",
+      "is_text": true,
+      "order": "65",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0002",
+      "coordinates": {
+        "x_min": 867.8,
+        "y_min": 134.67,
+        "x_max": 1153.84,
+        "y_max": 170.92
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "cerl sua zaop, tei ged haot leil",
+      "is_text": true,
+      "order": "66",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0003",
+      "coordinates": {
+        "x_min": 869.65,
+        "y_min": 170.05,
+        "x_max": 1155.51,
+        "y_max": 202.91
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "M2",
+      "is_text": true,
+      "order": "67",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0004",
+      "coordinates": {
+        "x_min": 870.59,
+        "y_min": 188.05,
+        "x_max": 1156.63,
+        "y_max": 224.41
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "jiax nid, bel mierf hhef Yuilnivx,",
+      "is_text": true,
+      "order": "68",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0005",
+      "coordinates": {
+        "x_min": 872.44,
+        "y_min": 223.54,
+        "x_max": 1158.3,
+        "y_max": 256.4
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "M3",
+      "is_text": true,
+      "order": "69",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0006",
+      "coordinates": {
+        "x_min": 873.38,
+        "y_min": 241.53,
+        "x_max": 1159.42,
+        "y_max": 277.79
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "B: Zaox, Erxguerf zex laozsi cvmierf le.",
+      "is_text": true,
+      "order": "70",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0007",
+      "coordinates": {
+        "x_min": 875.23,
+        "y_min": 276.93,
+        "x_max": 1161.09,
+        "y_max": 309.78
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "M4",
+      "is_text": true,
+      "order": "71",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0008",
+      "coordinates": {
+        "x_min": 876.16,
+        "y_min": 294.92,
+        "x_max": 1163.32,
+        "y_max": 352.68
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "yotguainx nox dibfanx ssenpmiep zenlfvt bifxuix zoyilmal.",
+      "is_text": true,
+      "order": "72",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0009",
+      "coordinates": {
+        "x_min": 879.13,
+        "y_min": 351.8,
+        "x_max": 1164.99,
+        "y_max": 384.66
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "M5",
+      "is_text": true,
+      "order": "73",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0010",
+      "coordinates": {
+        "x_min": 880.07,
+        "y_min": 369.8,
+        "x_max": 1166.11,
+        "y_max": 406.05
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "xifgel-ger'ded nil bap goux dil,",
+      "is_text": true,
+      "order": "74",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0011",
+      "coordinates": {
+        "x_min": 881.92,
+        "y_min": 405.19,
+        "x_max": 1167.78,
+        "y_max": 438.05
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "M6",
+      "is_text": true,
+      "order": "75",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0012",
+      "coordinates": {
+        "x_min": 882.86,
+        "y_min": 423.19,
+        "x_max": 1168.9,
+        "y_max": 459.54
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Tieix buf xialyuit suit bieil",
+      "is_text": true,
+      "order": "76",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0013",
+      "coordinates": {
+        "x_min": 884.71,
+        "y_min": 458.68,
+        "x_max": 1170.57,
+        "y_max": 491.54
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "M7",
+      "is_text": true,
+      "order": "77",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0014",
+      "coordinates": {
+        "x_min": 885.65,
+        "y_min": 476.67,
+        "x_max": 1172.8,
+        "y_max": 534.32
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "B: Zaox, nial atwa'ni zuxcerxhe baf ditzu bei.",
+      "is_text": true,
+      "order": "78",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0015",
+      "coordinates": {
+        "x_min": 888.61,
+        "y_min": 533.46,
+        "x_max": 1174.47,
+        "y_max": 566.32
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "M8",
+      "is_text": true,
+      "order": "79",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0016",
+      "coordinates": {
+        "x_min": 889.55,
+        "y_min": 551.45,
+        "x_max": 1175.59,
+        "y_max": 587.81
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "tiol Hatzix ssenpmiep zenlfvt",
+      "is_text": true,
+      "order": "80",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0017",
+      "coordinates": {
+        "x_min": 891.4,
+        "y_min": 586.93,
+        "x_max": 1177.26,
+        "y_max": 619.79
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "M9",
+      "is_text": true,
+      "order": "81",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 38,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0018",
+      "coordinates": {
+        "x_min": 892.34,
+        "y_min": 604.93,
+        "x_max": 1179.5,
+        "y_max": 662.68
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "B:Qioul le,bettal nial zei salyaof daphuox ye beix.",
+      "is_text": true,
+      "order": "82",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 39,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0108",
+      "coordinates": {
+        "x_min": 82.33,
+        "y_min": 1002.92,
+        "x_max": 1199.65,
+        "y_max": 1092.32
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "Gienzronz",
+      "is_text": true,
+      "order": "83",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 40,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0109",
+      "coordinates": {
+        "x_min": 83.95,
+        "y_min": 1034.12,
+        "x_max": 1201.08,
+        "y_max": 1119.71
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Suit weil youtsip bieil gao'di, youtsip fahua maol qilpaol",
+      "is_text": true,
+      "order": "84",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 41,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0110",
+      "coordinates": {
+        "x_min": 85.85,
+        "y_min": 1070.51,
+        "x_max": 1202.98,
+        "y_max": 1156.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "gaibdanl zoyilxuixyap mel gonxqiop xinbzuanl、guaifmiep",
+      "is_text": true,
+      "order": "85",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 42,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0111",
+      "coordinates": {
+        "x_min": 87.75,
+        "y_min": 1106.9,
+        "x_max": 1204.87,
+        "y_max": 1192.39
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "duiz guafyef seif, Jieifcix duiz Deitleix. Bal zaop",
+      "is_text": true,
+      "order": "86",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 43,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0112",
+      "coordinates": {
+        "x_min": 89.64,
+        "y_min": 1143.18,
+        "x_max": 1206.77,
+        "y_max": 1228.77
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "erp huafnilxif, at sua daot ferwa. Sualzi-sualnivx keil sex mel, waherlnei bei berzzerfwa",
+      "is_text": true,
+      "order": "87",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 44,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0113",
+      "coordinates": {
+        "x_min": 91.54,
+        "y_min": 1179.57,
+        "x_max": 1208.66,
+        "y_max": 1265.06
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "qienpjief qiainl nox, cut wux xiai mel donx zaip xiai mel hhaix nox juix liop.\"",
+      "is_text": true,
+      "order": "88",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 45,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0114",
+      "coordinates": {
+        "x_min": 93.44,
+        "y_min": 1215.86,
+        "x_max": 1210.56,
+        "y_max": 1301.45
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "kaotsil mipzit saofkux ， qilyouz-berse xiaozxiaof caotzix ， zu&#x27",
+      "is_text": true,
+      "order": "89",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 46,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0115",
+      "coordinates": {
+        "x_min": 95.33,
+        "y_min": 1252.25,
+        "x_max": 1212.46,
+        "y_max": 1337.84
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "youlfet, me’pit badbaf , memizherl. Sul ssitkuil,",
+      "is_text": true,
+      "order": "90",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 47,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0116",
+      "coordinates": {
+        "x_min": 97.23,
+        "y_min": 1288.64,
+        "x_max": 1214.35,
+        "y_max": 1374.13
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "yui guerfqiel, qi'zipngvx sua zeilsip max. Gufhou",
+      "is_text": true,
+      "order": "91",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 48,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0019",
+      "coordinates": {
+        "x_min": 100.22,
+        "y_min": 1401.72,
+        "x_max": 147.33,
+        "y_max": 1425.62
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "A01",
+      "is_text": true,
+      "order": "92",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 53,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0020",
+      "coordinates": {
+        "x_min": 154.21,
+        "y_min": 1375.49,
+        "x_max": 650.2,
+        "y_max": 1422.81
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "xuix wux ssaint paip fanp wuf sif six zont",
+      "is_text": true,
+      "order": "93",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 51,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0021",
+      "coordinates": {
+        "x_min": 667.07,
+        "y_min": 1372.15,
+        "x_max": 714.18,
+        "y_max": 1396.05
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "A02",
+      "is_text": true,
+      "order": "94",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 49,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0022",
+      "coordinates": {
+        "x_min": 721.05,
+        "y_min": 1345.92,
+        "x_max": 1217.04,
+        "y_max": 1393.24
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "youtdi tax huil bieil yeipserf, youtdi bieil veildaol. ，",
+      "is_text": true,
+      "order": "95",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 50,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0023",
+      "coordinates": {
+        "x_min": 102.02,
+        "y_min": 1436.22,
+        "x_max": 149.12,
+        "y_max": 1460.01
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "A03",
+      "is_text": true,
+      "order": "96",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 101,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0024",
+      "coordinates": {
+        "x_min": 156.01,
+        "y_min": 1409.98,
+        "x_max": 651.99,
+        "y_max": 1457.19
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Geif ded kuax ded bei guoz, at tux zi jierp bifjieixhuof zv'sei",
+      "is_text": true,
+      "order": "97",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 99,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0025",
+      "coordinates": {
+        "x_min": 668.87,
+        "y_min": 1406.65,
+        "x_max": 715.97,
+        "y_max": 1430.44
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "A04",
+      "is_text": true,
+      "order": "98",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 98,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0026",
+      "coordinates": {
+        "x_min": 722.85,
+        "y_min": 1380.41,
+        "x_max": 1218.83,
+        "y_max": 1427.62
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "lil tit zix gaf sei zi neit,yainxil mot",
+      "is_text": true,
+      "order": "99",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 52,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0027",
+      "coordinates": {
+        "x_min": 103.81,
+        "y_min": 1470.61,
+        "x_max": 150.92,
+        "y_max": 1494.4
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "A05",
+      "is_text": true,
+      "order": "100",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 103,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0028",
+      "coordinates": {
+        "x_min": 157.8,
+        "y_min": 1444.38,
+        "x_max": 653.78,
+        "y_max": 1491.58
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "yinxxierx. Zuf zutguaif dapfer-dapwanx,",
+      "is_text": true,
+      "order": "101",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 104,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0029",
+      "coordinates": {
+        "x_min": 670.66,
+        "y_min": 1441.04,
+        "x_max": 717.77,
+        "y_max": 1464.83
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "A06",
+      "is_text": true,
+      "order": "102",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 102,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0030",
+      "coordinates": {
+        "x_min": 724.64,
+        "y_min": 1414.81,
+        "x_max": 1220.62,
+        "y_max": 1462.01
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "zv gouxnid daphuot bei, zei duix leil gerf",
+      "is_text": true,
+      "order": "103",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 100,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0031",
+      "coordinates": {
+        "x_min": 105.61,
+        "y_min": 1505.0,
+        "x_max": 152.72,
+        "y_max": 1528.89
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "A07",
+      "is_text": true,
+      "order": "104",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 108,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0032",
+      "coordinates": {
+        "x_min": 159.59,
+        "y_min": 1478.77,
+        "x_max": 655.58,
+        "y_max": 1526.08
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "A: Ngaot yid A'pep bel gao. Nil dad ngel baod gvf bel mel cerl.",
+      "is_text": true,
+      "order": "105",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 106,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0033",
+      "coordinates": {
+        "x_min": 672.46,
+        "y_min": 1475.43,
+        "x_max": 719.57,
+        "y_max": 1499.32
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "A08",
+      "is_text": true,
+      "order": "106",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 107,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0034",
+      "coordinates": {
+        "x_min": 726.43,
+        "y_min": 1449.2,
+        "x_max": 1222.42,
+        "y_max": 1496.51
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "guoz ni yui guerfqiel, qi'zipngvx sua zeilsip",
+      "is_text": true,
+      "order": "107",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 105,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0035",
+      "coordinates": {
+        "x_min": 107.41,
+        "y_min": 1539.49,
+        "x_max": 154.51,
+        "y_max": 1563.29
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "A09",
+      "is_text": true,
+      "order": "108",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 113,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0036",
+      "coordinates": {
+        "x_min": 161.39,
+        "y_min": 1513.25,
+        "x_max": 657.38,
+        "y_max": 1560.47
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "tei ged haot leil guf svlzv'nivx bei xiaoftal",
+      "is_text": true,
+      "order": "109",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 111,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0037",
+      "coordinates": {
+        "x_min": 674.26,
+        "y_min": 1509.92,
+        "x_max": 721.36,
+        "y_max": 1533.72
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "A10",
+      "is_text": true,
+      "order": "110",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 109,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0038",
+      "coordinates": {
+        "x_min": 728.23,
+        "y_min": 1483.68,
+        "x_max": 1224.22,
+        "y_max": 1530.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "zi qiepkuil Lifsufzi pap ， Miepjia zuafjiaf Natmat ， maf",
+      "is_text": true,
+      "order": "111",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 110,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0039",
+      "coordinates": {
+        "x_min": 109.2,
+        "y_min": 1573.88,
+        "x_max": 156.3,
+        "y_max": 1597.67
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "A11",
+      "is_text": true,
+      "order": "112",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 116,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0040",
+      "coordinates": {
+        "x_min": 163.19,
+        "y_min": 1547.65,
+        "x_max": 659.17,
+        "y_max": 1594.85
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "qial jip mip, Heilhe bei qi heilhe ya,",
+      "is_text": true,
+      "order": "113",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 115,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0041",
+      "coordinates": {
+        "x_min": 676.05,
+        "y_min": 1544.31,
+        "x_max": 723.15,
+        "y_max": 1568.1
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "A12",
+      "is_text": true,
+      "order": "114",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 114,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_03_b0042",
+      "coordinates": {
+        "x_min": 730.03,
+        "y_min": 1518.08,
+        "x_max": 1226.01,
+        "y_max": 1565.28
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "sua, gux zil ngerd duox bei duox leil,",
+      "is_text": true,
+      "order": "115",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 112,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:03:11.885Z",
+  "updated_at": "2026-07-03T12:04:11"
+}

@@ -1,0 +1,545 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "newspaper_page_vertical_tree_05",
+  "variant": 5,
+  "category_id": "newspaper_page",
+  "category_cn": "报纸页",
+  "folder": "01_报纸页",
+  "template_name_cn": "地方周报综合版",
+  "layout_family": "weekly_mixed_news",
+  "design_prompt": "地方周报风格，左侧刊名和专题，主体为图文混排和底部信息条。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1180,
+    "height": 1760,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 18,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "weekly_name",
+      "kind": "text",
+      "label": "document_title",
+      "role": "weekly_name",
+      "class": "title",
+      "box": {
+        "x": 50,
+        "y": 50,
+        "w": 58,
+        "h": 1620
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 30
+      },
+      "visual": {}
+    },
+    {
+      "id": "feature",
+      "kind": "text",
+      "label": "section_title",
+      "role": "feature_title",
+      "class": "title",
+      "box": {
+        "x": 138,
+        "y": 62,
+        "w": 46,
+        "h": 760
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 8,
+        "max_chars": 46
+      },
+      "visual": {}
+    },
+    {
+      "id": "feature_body_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 210,
+        "y": 62,
+        "w": 32,
+        "h": 760
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 120
+      },
+      "visual": {}
+    },
+    {
+      "id": "feature_body_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 262,
+        "y": 62,
+        "w": 32,
+        "h": 760
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 120
+      },
+      "visual": {}
+    },
+    {
+      "id": "feature_body_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 314,
+        "y": 62,
+        "w": 32,
+        "h": 760
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 120
+      },
+      "visual": {}
+    },
+    {
+      "id": "feature_body_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 366,
+        "y": 62,
+        "w": 32,
+        "h": 760
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 120
+      },
+      "visual": {}
+    },
+    {
+      "id": "feature_body_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 418,
+        "y": 62,
+        "w": 32,
+        "h": 760
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 44,
+        "max_chars": 120
+      },
+      "visual": {}
+    },
+    {
+      "id": "center_image",
+      "kind": "image",
+      "label": "image",
+      "role": "feature_image",
+      "class": "image-fill",
+      "box": {
+        "x": 510,
+        "y": 110,
+        "w": 260,
+        "h": 520
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "image_caption",
+      "kind": "text",
+      "label": "caption",
+      "role": "image_caption",
+      "class": "small",
+      "box": {
+        "x": 790,
+        "y": 110,
+        "w": 28,
+        "h": 520
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 14,
+        "max_chars": 40
+      },
+      "visual": {}
+    },
+    {
+      "id": "ad_box",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box soft-fill",
+      "box": {
+        "x": 840,
+        "y": 110,
+        "w": 210,
+        "h": 520
+      },
+      "visual": {}
+    },
+    {
+      "id": "ad_text_01",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 870,
+        "y": 140,
+        "w": 28,
+        "h": 460
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "ad_text_02",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 924,
+        "y": 140,
+        "w": 28,
+        "h": 460
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "ad_text_03",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 978,
+        "y": 140,
+        "w": 28,
+        "h": 460
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "ad_text_04",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 1032,
+        "y": 140,
+        "w": 28,
+        "h": 460
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_news_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 140,
+        "y": 890,
+        "w": 30,
+        "h": 650
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_news_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 188,
+        "y": 890,
+        "w": 30,
+        "h": 650
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_news_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 236,
+        "y": 890,
+        "w": 30,
+        "h": 650
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_news_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 284,
+        "y": 890,
+        "w": 30,
+        "h": 650
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_news_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 332,
+        "y": 890,
+        "w": 30,
+        "h": 650
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_news_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 380,
+        "y": 890,
+        "w": 30,
+        "h": 650
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_news_07",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 428,
+        "y": 890,
+        "w": 30,
+        "h": 650
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_news_08",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 476,
+        "y": 890,
+        "w": 30,
+        "h": 650
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_news_09",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 524,
+        "y": 890,
+        "w": 30,
+        "h": 650
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_news_10",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 572,
+        "y": 890,
+        "w": 30,
+        "h": 650
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_news_11",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 620,
+        "y": 890,
+        "w": 30,
+        "h": 650
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_news_12",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 668,
+        "y": 890,
+        "w": 30,
+        "h": 650
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_news_13",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 716,
+        "y": 890,
+        "w": 30,
+        "h": 650
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 90
+      },
+      "visual": {}
+    }
+  ]
+}

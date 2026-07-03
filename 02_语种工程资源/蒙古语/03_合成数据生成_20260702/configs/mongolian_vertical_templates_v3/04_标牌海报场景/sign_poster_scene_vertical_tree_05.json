@@ -1,0 +1,184 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "sign_poster_scene_vertical_tree_05",
+  "variant": 5,
+  "category_id": "sign_poster_scene",
+  "category_cn": "标牌海报场景",
+  "folder": "04_标牌海报场景",
+  "template_name_cn": "墙面宣传牌",
+  "layout_family": "wall_notice_board",
+  "design_prompt": "宣传栏/墙面牌，有大色块、图片占位和多列文字。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 920,
+    "height": 1180,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 4,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "board",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box note-fill",
+      "box": {
+        "x": 60,
+        "y": 60,
+        "w": 800,
+        "h": 1060
+      },
+      "visual": {}
+    },
+    {
+      "id": "image",
+      "kind": "image",
+      "label": "image",
+      "role": "notice_image",
+      "class": "image-fill",
+      "box": {
+        "x": 120,
+        "y": 100,
+        "w": 260,
+        "h": 360
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "board_title",
+      "class": "title",
+      "box": {
+        "x": 420,
+        "y": 100,
+        "w": 64,
+        "h": 920
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 28
+      },
+      "visual": {}
+    },
+    {
+      "id": "board_item_01",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 530,
+        "y": 120,
+        "w": 34,
+        "h": 820
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "board_item_02",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 608,
+        "y": 120,
+        "w": 34,
+        "h": 820
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "board_item_03",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 686,
+        "y": 120,
+        "w": 34,
+        "h": 820
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "board_item_04",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 764,
+        "y": 120,
+        "w": 34,
+        "h": 820
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "board_item_05",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 842,
+        "y": 120,
+        "w": 34,
+        "h": 820
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    }
+  ]
+}

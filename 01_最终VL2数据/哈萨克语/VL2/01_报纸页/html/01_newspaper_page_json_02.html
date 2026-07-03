@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="kk-Arab" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>Vahcuengh Yienghneix</title>
+<style>
+    @font-face { font-family: 'Local Arial'; src: url('file:///System/Library/Fonts/Supplemental/Arial.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: block; }
+    @font-face { font-family: 'Local Arial'; src: url('file:///System/Library/Fonts/Supplemental/Arial%20Bold.ttf') format('truetype'); font-weight: 700 900; font-style: normal; font-display: block; }
+    @font-face { font-family: 'Local Arial Unicode'; src: url('file:///System/Library/Fonts/Supplemental/Arial%20Unicode.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: block; }
+    
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: #d9dde2; }
+    body { font-family: "SF Arabic", "Noto Nastaliq Urdu", "Arial Unicode", serif; color: #202020; direction: rtl; writing-mode: horizontal-tb; text-align: right; unicode-bidi: plaintext; }
+    .page {
+      width: 1240px;
+      min-height: 1754px;
+      margin: 0 auto;
+      padding: 48px 54px 42px;
+      background: #fffdf5;
+      position: relative;
+      overflow: hidden;
+    }
+    [data-block-id] { overflow: visible; }
+    .masthead { border-top: 5px solid #303030; border-bottom: 2px solid #303030; padding: 12px 0 14px; margin-bottom: 18px; }
+    .masthead-split, .masthead-minimal { display: grid; grid-template-columns: 1fr 320px; gap: 20px; align-items: end; border-bottom: 4px double #303030; padding-bottom: 13px; margin-bottom: 18px; }
+    .masthead-compact { display: grid; grid-template-columns: 210px 1fr 260px; gap: 14px; align-items: end; border-bottom: 3px solid #303030; padding-bottom: 10px; margin-bottom: 15px; }
+    .masthead-banner { border-left: 14px solid #2f4e5f; border-bottom: 2px solid #303030; padding: 12px 0 13px 18px; margin-bottom: 18px; }
+    .special-masthead { display: grid; grid-template-columns: 170px 1fr 270px; gap: 18px; align-items: end; border-top: 6px solid #2f4e5f; border-bottom: 2px solid #303030; padding: 12px 0; margin-bottom: 20px; }
+    .newspaper-name { font-size: 62px; font-weight: 900; line-height: 1.34; text-align: center; }
+    .newspaper-name.left { text-align: left; }
+    .kicker, .meta { font-size: 17px; line-height: 1.28; color: #666666; }
+    .issue-bar { display: flex; justify-content: space-between; gap: 12px; border-top:0; margin-top: 8px; padding-top: 6px; }
+    .grid { display: grid; gap: 18px; align-items: start; }
+    .story { break-inside: avoid;  padding-bottom: 10px; margin-bottom: 12px; }
+    .lead-story .headline { font-size: 33px; }
+    .headline { font-size: 24px; font-weight: 900; line-height: 1.42; margin-bottom: 7px; }
+    .headline.xl { font-size: 35px; line-height: 1.38; }
+    .headline.xxl { font-size: 40px; line-height: 1.36; }
+    .news-para { font-size: 19px; line-height: 1.36; margin: 0 0 7px; }
+    .small-para { font-size: 17px; line-height: 1.34; margin: 0 0 7px; }
+    .columns-2 { columns: 2; column-gap: 18px; }
+    .columns-3 { columns: 3; column-gap: 17px; }
+    .columns-4 { columns: 4; column-gap: 15px; }
+    .sidebar { border-left: 3px solid #2f4e5f; padding-left: 13px; }
+    .side-title { font-size: 22px; font-weight: 900; color: #2f4e5f; margin-bottom: 8px; }
+    .brief-line { font-size: 17px; line-height: 1.29; border-bottom:0; padding: 6px 0; }
+    .image-box { min-height: 250px; background: repeating-linear-gradient(135deg, #e4e0d6, #e4e0d6 12px, #f4f0e7 12px, #f4f0e7 24px); border: 1.5px solid #303030; margin: 10px 0 7px; }
+    .caption { font-size: 15px; color: #666666; line-height: 1.28; margin-bottom: 10px; }
+    .brief-strip, .related-strip, .metric-strip { display: grid; gap: 10px; margin-top: 14px; border-top: 2px solid #303030; padding-top: 10px; }
+    .brief-strip { grid-template-columns: repeat(5, 1fr); }
+    .related-strip { grid-template-columns: repeat(4, 1fr); }
+    .metric-strip { grid-template-columns: repeat(4, 1fr); }
+    .strip-item { font-size: 16px; line-height: 1.25; background: rgba(0,0,0,.035); padding: 8px; min-height: 74px; }
+    .community-box, .fact-box, .calendar-box, .contact-box, .small-ad-box, .digest-card { border: 1.4px solid #303030; background: rgba(255,255,255,.58); padding: 12px; margin-bottom: 12px; break-inside: avoid; }
+    .community-box .headline, .fact-box .headline, .digest-card .headline { font-size: 21px; }
+    .timeline-item { display: grid; grid-template-columns: 58px 1fr; gap: 9px; border-bottom:0; padding: 7px 0; }
+    .timeline-no { font-size: 23px; font-weight: 900; color: #2f4e5f; }
+    .micro-ad { border: 2px solid #2f4e5f; padding: 10px; margin: 8px 0 12px; font-weight: 700; }
+    .footer { position: absolute; left: 54px; right: 54px; bottom: 18px; border-top:0; padding-top: 6px; font-size: 14px; color: #666666; text-align: right; }
+    
+    </style>
+</head>
+<body><main class="page newspaper-json-page" data-template-id="newspaper_page_v02"><header class="masthead-split">
+          <div class="newspaper-name left" data-block-id="01_newspaper_page_json_02_b0001" data-label="document_title" >جوسپارلاپ اتقارىپ،</div>
+          <div><div class="meta" data-block-id="01_newspaper_page_json_02_b0002" data-label="metadata" >· ·</div><div class="issue-bar"><div class="meta" data-block-id="01_newspaper_page_json_02_b0003" data-label="metadata" >182</div><div class="meta" data-block-id="01_newspaper_page_json_02_b0004" data-label="metadata" >2026-07-02</div><div class="meta" data-block-id="01_newspaper_page_json_02_b0005" data-label="metadata" >2026</div></div></div>
+        </header><section class="grid" style="grid-template-columns:1.55fr .8fr;margin-bottom:16px"><article class="story lead-story"><div class="headline xxl" data-block-id="01_newspaper_page_json_02_b0006" data-label="section_title" >مەرزىمى 5 قىزمەت</div><div class="image-box" data-block-id="01_newspaper_page_json_02_b0007" data-label="image"  data-is-text="false" data-asset-id="COCO_val2014_000000183104" data-asset-source="random120-coco2014" data-asset-crop="object-fit-cover"><img src="../../assets/random120-coco2014/COCO_val2014_000000183104.jpg" style="width:100%;height:100%;object-fit:cover;display:block;" alt="" data-asset-img="true" /></div><div class="caption" data-block-id="01_newspaper_page_json_02_b0008" data-label="caption" >تەرەڭ بايىمدادى. پارتيانى باسقارۋدىڭ،</div><div class="news-para" data-block-id="01_newspaper_page_json_02_b0009" data-label="paragraph" >- ايدىڭ 31 - كۇنىنە جەكسەنبى دەيىن، جالپى 5 كۇن بولادى. دەمالى。便民热线记录群众诉求</div><div class="news-para" data-block-id="01_newspaper_page_json_02_b0010" data-label="paragraph" >تۇرپان قالاسىنىڭ، قۇمىل قالاسىنىڭ ءىشىنارا جەرلەرىنىڭ تەمپەراتۋ。基层治理经验正在整理</div></article><section><article class="story"><div class="headline" data-block-id="01_newspaper_page_json_02_b0011" data-label="section_title" >ستراتەگيالىق</div><div class="news-para" data-block-id="01_newspaper_page_json_02_b0012" data-label="paragraph" >وقۋ-اعارتۋ | زاڭ-ءتۇزىم | عىلىم-تەحنيكا。水利设施检修计划公布</div></article><article class="story"><div class="headline" data-block-id="01_newspaper_page_json_02_b0013" data-label="section_title" >باس بەت | شي</div><div class="news-para" data-block-id="01_newspaper_page_json_02_b0014" data-label="paragraph" >ءىشى | شينجياڭ | حالىقارا | قوعام | ەكونوم。基层治理经验正在整理</div></article><article class="story"><div class="headline" data-block-id="01_newspaper_page_json_02_b0015" data-label="section_title" >تۇرمىس | دەنە</div><div class="news-para" data-block-id="01_newspaper_page_json_02_b0016" data-label="paragraph" >وڭىرلەرى، قۇمىل قالاسىنىڭ سولتۇستىك بولەگىندەگى。传统节庆活动有序筹备</div></article></section></section><section class="columns-3"><article class="story"><div class="headline" data-block-id="01_newspaper_page_json_02_b0017" data-label="section_title" >- جىلى 43 تريلليون</div><div class="news-para" data-block-id="01_newspaper_page_json_02_b0018" data-label="paragraph" >بۇنداعى سۇيەنگەنىمىز ءوز ءىسىمىزدى ويداعىداي ى。校园社团展示学习成果</div></article><article class="story"><div class="headline" data-block-id="01_newspaper_page_json_02_b0019" data-label="section_title" >العاشقى كەزەڭدەگى</div><div class="news-para" data-block-id="01_newspaper_page_json_02_b0020" data-label="paragraph" >شولۋ-نازاريا | ەل ءىشى | شينجياڭ | حالىقارا | قوع。本地学校组织文化展示</div></article><article class="story"><div class="headline" data-block-id="01_newspaper_page_json_02_b0021" data-label="section_title" >جاعىندا قىزمەت</div><div class="news-para" data-block-id="01_newspaper_page_json_02_b0022" data-label="paragraph" >ۇيلەسىمدى، ءادىل باسەكەلى بازار ءتارتىبىن بىرگە ق。基层治理经验正在整理</div></article><article class="story"><div class="headline" data-block-id="01_newspaper_page_json_02_b0023" data-label="section_title" >مەزگىلىندە قالىپتاسقان</div><div class="news-para" data-block-id="01_newspaper_page_json_02_b0024" data-label="paragraph" >زاڭدىلىعى جونىندەگى تانىمىنىڭ تىڭ ورەگە جەتكەندىگ。本地学校组织文化展示</div></article><article class="story"><div class="headline" data-block-id="01_newspaper_page_json_02_b0025" data-label="section_title" >7 ازاماتتى قامتىعان</div><div class="news-para" data-block-id="01_newspaper_page_json_02_b0026" data-label="paragraph" >3 - ايدىڭ 28 - كۇنى جىيۋان قۇلتەمىرى 10 مىڭ دانا ء。传统节庆活动有序筹备</div></article><article class="story"><div class="headline" data-block-id="01_newspaper_page_json_02_b0027" data-label="section_title" >10 - ايدا باس</div><div class="news-para" data-block-id="01_newspaper_page_json_02_b0028" data-label="paragraph" >كوپ ءبولىمى جانە تيانشاننىڭ سولتۇستىك بوكتەرىن。市场监管人员完成例行检查</div></article></section><section class="brief-strip"><div class="strip-item" data-block-id="01_newspaper_page_json_02_b0029" data-label="list_item" >ءبىر جاقتى ەتۋدى ءبىر ت。市场监管人员完成例行检查</div><div class="strip-item" data-block-id="01_newspaper_page_json_02_b0030" data-label="list_item" >ءىشى | شينجياڭ | حالىقارا | قوعام</div><div class="strip-item" data-block-id="01_newspaper_page_json_02_b0031" data-label="list_item" >كۇشتى، كاسىپتەندىرۋ سيىمدىلىعى</div><div class="strip-item" data-block-id="01_newspaper_page_json_02_b0032" data-label="list_item" >كەزىندە ”جۇڭگو ۇلگىسىندەگى وسىزام。本地学校组织文化展示</div><div class="strip-item" data-block-id="01_newspaper_page_json_02_b0033" data-label="list_item" >بەسجىلدىق“ كەزىن。农产品展销活动吸引居民</div><div class="strip-item" data-block-id="01_newspaper_page_json_02_b0034" data-label="list_item" >پارتيا مۇشەلەرى، ساقا پارتيا</div></section></main></body>
+</html>

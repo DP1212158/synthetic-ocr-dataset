@@ -1,0 +1,1295 @@
+{
+  "image_id": "e0a307aa-e0a3-07aa-e0a3-e0a307aae0a3",
+  "file_name": "05_book_page_json_02.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "reading_pages_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "za",
+    "language_name": "壮语",
+    "script_note": "现代标准壮文 Vahcuengh，拉丁字母拼写",
+    "template_type": "book_page",
+    "category": "book_page",
+    "variant": 2,
+    "layout_name": "book_page_v02",
+    "document_id": "05_book_page_json_02",
+    "title": "Sawbon Yieb",
+    "doc_no": "ZA-V2-05-02",
+    "date": "2026-07-02",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.14,
+    "chinese_topic": "book_page",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 42,
+      "page_width": 1226,
+      "page_height": 1215,
+      "body_scroll_width": 1226,
+      "body_scroll_height": 1215,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 31,
+        "y": 23,
+        "width": 1178,
+        "height": 1168,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1620,
+        "content_bbox": {
+          "x_min": 62,
+          "y_min": 54,
+          "x_max": 1178,
+          "y_max": 1159.5
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.6824,
+        "bottom_blank_ratio_before_crop": 0.2843
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 2114767267106107484,
+        "family": "clean_scan",
+        "geometry": {
+          "source_size": {
+            "width": 1178,
+            "height": 1168
+          },
+          "scale": {
+            "scale": 0.99086,
+            "width": 1167,
+            "height": 1157
+          },
+          "rotation": {
+            "angle_degrees": -3.0788,
+            "width": 1228,
+            "height": 1219
+          },
+          "translation": {
+            "dx": -1,
+            "dy": 1,
+            "width": 1228,
+            "height": 1219
+          },
+          "edge_crop": {
+            "left": 0,
+            "top": 0,
+            "right": 2,
+            "bottom": 4,
+            "width": 1226,
+            "height": 1215
+          },
+          "output_size_before_visual": {
+            "width": 1226,
+            "height": 1215
+          }
+        },
+        "output_size": {
+          "width": 1226,
+          "height": 1215
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "05_book_page_json_02_b0025",
+      "coordinates": {
+        "x_min": 47.32,
+        "y_min": 348.29,
+        "x_max": 826.71,
+        "y_max": 421.79
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "Chapter 02",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "28px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0026",
+      "coordinates": {
+        "x_min": 49.03,
+        "y_min": 379.96,
+        "x_max": 830.56,
+        "y_max": 493.32
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "caen cik, baengz",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "54px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0027",
+      "coordinates": {
+        "x_min": 53.51,
+        "y_min": 463.37,
+        "x_max": 832.72,
+        "y_max": 533.49
+      },
+      "points": null,
+      "block_label": "document_subtitle",
+      "block_content": "gaeq-ndokndaem youq ndoenglaeg neix, yienznaeuz dieg bienhik,",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "21px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "subtitle",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0001",
+      "coordinates": {
+        "x_min": 838.7,
+        "y_min": 33.31,
+        "x_max": 1138.33,
+        "y_max": 101.51
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "2-De sij saw ndei gvaq mwngz. ： . 3-Aen mak neix diemz gvaq / 故事发生在一个普",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0002",
+      "coordinates": {
+        "x_min": 841.93,
+        "y_min": 93.47,
+        "x_max": 1141.56,
+        "y_max": 161.68
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ngoenz raeuz minz miz ngaenz nyungz mwngz vunz vaiz / 文中描写了劳动场",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0003",
+      "coordinates": {
+        "x_min": 845.17,
+        "y_min": 153.62,
+        "x_max": 1143.71,
+        "y_max": 201.65
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "for the Training Class of Singers",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0004",
+      "coordinates": {
+        "x_min": 847.32,
+        "y_min": 193.6,
+        "x_max": 1146.94,
+        "y_max": 261.7
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "Suenggyangq cung, san mbung coux h / 材料选自课堂延伸",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0005",
+      "coordinates": {
+        "x_min": 850.55,
+        "y_min": 253.65,
+        "x_max": 1150.18,
+        "y_max": 321.86
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "dwk-ndei ciengz ciengq / 作者采用平实叙述",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0006",
+      "coordinates": {
+        "x_min": 853.79,
+        "y_min": 313.81,
+        "x_max": 1153.42,
+        "y_max": 382.02
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "Gij saeh neix caeuq daeuz gangj ci / 这一节强调语言与",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0007",
+      "coordinates": {
+        "x_min": 857.02,
+        "y_min": 373.97,
+        "x_max": 1155.57,
+        "y_max": 421.99
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "Aen Haj Bi Caeuq Gij Vehsuenq Gyae",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0008",
+      "coordinates": {
+        "x_min": 859.17,
+        "y_min": 413.94,
+        "x_max": 1158.8,
+        "y_max": 482.15
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "Byaraiz 、Gwnzranz 、Ywd / 请留意关键词的重",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0028",
+      "coordinates": {
+        "x_min": 57.22,
+        "y_min": 545.11,
+        "x_max": 597.99,
+        "y_max": 621.15
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "11 GYAGIENGZ MINZCUZ DOXGIET, COICAENH GAK MINZCUZ BAEDAUQ GYAUL。本章介绍地方社会生活",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0029",
+      "coordinates": {
+        "x_min": 60.17,
+        "y_min": 600.12,
+        "x_max": 602.22,
+        "y_max": 699.72
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Caiczawj naeuz: “ Aeu duż meuz raiz daeuj boiz?. Hw! Gangj ndaej baenz heih, mwngz cam saeyez y。文中描写了劳动场景；章节末尾附有思考问题",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0030",
+      "coordinates": {
+        "x_min": 64.4,
+        "y_min": 678.68,
+        "x_max": 605.17,
+        "y_max": 754.63
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "dahdaengz yiengh sujhingz aen guekgya cungdaengj fatdad, neix i。这一节强调语言与文化",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0031",
+      "coordinates": {
+        "x_min": 67.35,
+        "y_min": 733.6,
+        "x_max": 608.13,
+        "y_max": 809.64
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Tragic Story of An Immortal Fox folk story …… Lai Cwngliengz Ci。材料选自课堂延伸阅读",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0032",
+      "coordinates": {
+        "x_min": 70.31,
+        "y_min": 788.61,
+        "x_max": 611.09,
+        "y_max": 864.65
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "YOUQ CUNGHYANGH GUVWN VEIJYENZVEI DAIH'IT BAEZ DAENGXCUNGQ VEIYI GWNZDE GANGJ。叙述中保留了地方风俗",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0033",
+      "coordinates": {
+        "x_min": 73.27,
+        "y_min": 843.62,
+        "x_max": 614.05,
+        "y_max": 919.67
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "5 go em neix or \"haenx\" classifier noun demonstrative pronoun this or tha。请结合上下文理解含义",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0034",
+      "coordinates": {
+        "x_min": 76.23,
+        "y_min": 898.63,
+        "x_max": 617.01,
+        "y_max": 974.68
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "gwnz ceij raiz miz geij aen goj, heuh gou gug senj aen goj nd。叙述中保留了地方风俗",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0035",
+      "coordinates": {
+        "x_min": 623.17,
+        "y_min": 514.67,
+        "x_max": 1163.94,
+        "y_max": 590.71
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "cijndaej cuengq aen goj neix youq ndawsim, gag naemj: Daengz。段落之间存在承接关系",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0036",
+      "coordinates": {
+        "x_min": 626.13,
+        "y_min": 569.68,
+        "x_max": 1166.9,
+        "y_max": 645.73
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "cix mbouj nuk, hoeng heuj vaemx lo. Gij caencik mwngz ne l。人物关系在本节逐步展开",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0037",
+      "coordinates": {
+        "x_min": 629.09,
+        "y_min": 624.69,
+        "x_max": 1169.86,
+        "y_max": 700.74
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "comzlaeb cinwngzcunghdonh caeuq gihgiyin dwngj gouj daih gungh。本页内容用于课外阅读",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0038",
+      "coordinates": {
+        "x_min": 632.04,
+        "y_min": 679.7,
+        "x_max": 1172.81,
+        "y_max": 755.65
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Ginh Yizcwngz bae Swconh fangjvwn seiz youq gyangroen gan。以下段落可作为阅读材料",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0039",
+      "coordinates": {
+        "x_min": 635.0,
+        "y_min": 734.62,
+        "x_max": 1175.77,
+        "y_max": 810.66
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "si, yienh caeuq swciyen gungh miz caet cib haj aen. Nanzning。作者采用平实叙述方式",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0040",
+      "coordinates": {
+        "x_min": 637.96,
+        "y_min": 789.63,
+        "x_max": 1178.73,
+        "y_max": 865.67
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "aen fuengmienh haenzroix doinyoengx cauhmoq, canjnieh, ngaenz。以下段落可作为阅读材料",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0041",
+      "coordinates": {
+        "x_min": 640.92,
+        "y_min": 844.64,
+        "x_max": 1181.69,
+        "y_max": 920.69
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Mboy tomgol deenx zeyh mboy tom golmoys daizgeyx Gangtoj daihndouj ndeu, yeuh haet。读者需要注意时间线索",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0009",
+      "coordinates": {
+        "x_min": 80.41,
+        "y_min": 1003.11,
+        "x_max": 124.97,
+        "y_max": 1061.25
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "01",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0010",
+      "coordinates": {
+        "x_min": 129.88,
+        "y_min": 976.07,
+        "x_max": 627.6,
+        "y_max": 1058.59
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "gak aen lingyiz doicaenh gihwngz d / 文中描写了劳动场",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0011",
+      "coordinates": {
+        "x_min": 640.42,
+        "y_min": 972.99,
+        "x_max": 684.99,
+        "y_max": 1031.13
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "02",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0012",
+      "coordinates": {
+        "x_min": 689.9,
+        "y_min": 945.95,
+        "x_max": 1187.61,
+        "y_max": 1028.47
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "Moz Haijyinz Cincaiz! Daiq giuh va hwnjdaeuj, cinjbe / 本章介绍地方社会",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0013",
+      "coordinates": {
+        "x_min": 84.17,
+        "y_min": 1072.87,
+        "x_max": 127.22,
+        "y_max": 1103.0
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "03",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0014",
+      "coordinates": {
+        "x_min": 133.63,
+        "y_min": 1045.83,
+        "x_max": 629.85,
+        "y_max": 1100.34
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "uep up -t at aet et iet it ot oet uet",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0015",
+      "coordinates": {
+        "x_min": 644.18,
+        "y_min": 1042.75,
+        "x_max": 687.24,
+        "y_max": 1072.88
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "04",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0016",
+      "coordinates": {
+        "x_min": 693.65,
+        "y_min": 1015.71,
+        "x_max": 1189.86,
+        "y_max": 1070.22
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "rungh gwn fiengz, vunz liuh biengz",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0017",
+      "coordinates": {
+        "x_min": 86.41,
+        "y_min": 1114.62,
+        "x_max": 129.46,
+        "y_max": 1144.76
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "05",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0018",
+      "coordinates": {
+        "x_min": 135.88,
+        "y_min": 1087.58,
+        "x_max": 632.1,
+        "y_max": 1142.1
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "rieng sou, cih he dwg mbwn, cih he",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0019",
+      "coordinates": {
+        "x_min": 646.42,
+        "y_min": 1084.5,
+        "x_max": 689.48,
+        "y_max": 1114.64
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "06",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0020",
+      "coordinates": {
+        "x_min": 695.9,
+        "y_min": 1057.46,
+        "x_max": 1192.11,
+        "y_max": 1111.98
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "Gvaq ndaej geij bi, Dahgyax / 请留意关键词的重",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0021",
+      "coordinates": {
+        "x_min": 88.66,
+        "y_min": 1156.38,
+        "x_max": 131.71,
+        "y_max": 1186.51
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "07",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 41,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0022",
+      "coordinates": {
+        "x_min": 138.13,
+        "y_min": 1129.34,
+        "x_max": 634.34,
+        "y_max": 1183.85
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "Mingzsinh 29 Baengh Fuk Sawcu / 人物关系在本节逐",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 40,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0023",
+      "coordinates": {
+        "x_min": 648.67,
+        "y_min": 1126.26,
+        "x_max": 691.73,
+        "y_max": 1156.39
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "08",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 39,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_02_b0024",
+      "coordinates": {
+        "x_min": 698.15,
+        "y_min": 1099.22,
+        "x_max": 1194.35,
+        "y_max": 1153.73
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "miz vunz\". Gou youh youq ndaw sim gag",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 38,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T05:14:52.732Z",
+  "updated_at": "2026-07-03T13:16:04"
+}

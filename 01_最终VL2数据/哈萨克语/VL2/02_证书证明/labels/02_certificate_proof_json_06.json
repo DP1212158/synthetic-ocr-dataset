@@ -1,0 +1,541 @@
+{
+  "image_id": "3cad93c8-3cad-93c8-3cad-3cad93c83cad",
+  "file_name": "02_certificate_proof_json_06.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "batch1_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "kk-arab",
+    "language_name": "哈萨克语",
+    "script_note": "改良阿拉伯字母，横排从右到左",
+    "template_type": "certificate_proof",
+    "category": "certificate_proof",
+    "variant": 6,
+    "layout_name": "certificate_proof_v06",
+    "document_id": "02_certificate_proof_json_06",
+    "title": "Sawcingq Cingmingz",
+    "doc_no": "ZA-V1-02-06",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.16,
+    "chinese_topic": "certificate_proof",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 15,
+      "page_width": 1160,
+      "page_height": 660,
+      "body_scroll_width": 1160,
+      "body_scroll_height": 660,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 63,
+        "y": 63,
+        "width": 1154,
+        "height": 620,
+        "enabled": true,
+        "original_width": 1280,
+        "original_height": 920,
+        "content_bbox": {
+          "x_min": 87,
+          "y_min": 87,
+          "x_max": 1193,
+          "y_max": 658.7
+        },
+        "padding": 24,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.6214,
+        "bottom_blank_ratio_before_crop": 0.284
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 3677687031610531233,
+        "family": "clean_scan",
+        "geometry": {
+          "source_size": {
+            "width": 1154,
+            "height": 620
+          },
+          "scale": {
+            "scale": 0.9917,
+            "width": 1144,
+            "height": 615
+          },
+          "rotation": {
+            "angle_degrees": -2.5237,
+            "width": 1170,
+            "height": 665
+          },
+          "translation": {
+            "dx": -7,
+            "dy": 5,
+            "width": 1170,
+            "height": 665
+          },
+          "edge_crop": {
+            "left": 3,
+            "top": 1,
+            "right": 7,
+            "bottom": 4,
+            "width": 1160,
+            "height": 660
+          },
+          "output_size_before_visual": {
+            "width": 1160,
+            "height": 660
+          }
+        },
+        "output_size": {
+          "width": 1160,
+          "height": 660
+        }
+      }
+    },
+    "reading_order_policy": "rtl_visual_top_to_bottom_right_to_left_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "02_certificate_proof_json_06_b0013",
+      "coordinates": {
+        "x_min": 850.61,
+        "y_min": 28.81,
+        "x_max": 1113.48,
+        "y_max": 105.85
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "48px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0014",
+      "coordinates": {
+        "x_min": 16.62,
+        "y_min": 116.08,
+        "x_max": 59.43,
+        "y_max": 142.69
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0001",
+      "coordinates": {
+        "x_min": 587.9,
+        "y_min": 151.44,
+        "x_max": 1104.07,
+        "y_max": 196.43
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "| شولۋ-نازاريا",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0002",
+      "coordinates": {
+        "x_min": 588.89,
+        "y_min": 173.72,
+        "x_max": 1105.41,
+        "y_max": 226.95
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "قىزمەت / 经办人已完成签收",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0003",
+      "coordinates": {
+        "x_min": 33.08,
+        "y_min": 175.89,
+        "x_max": 549.25,
+        "y_max": 220.89
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "ورتاعا قويۋ،",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0004",
+      "coordinates": {
+        "x_min": 34.06,
+        "y_min": 198.18,
+        "x_max": 550.6,
+        "y_max": 251.41
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "دارىندى / 相关印章由经办机",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0005",
+      "coordinates": {
+        "x_min": 591.98,
+        "y_min": 243.88,
+        "x_max": 1108.14,
+        "y_max": 288.87
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "پيونەرلەردىڭ",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0006",
+      "coordinates": {
+        "x_min": 592.96,
+        "y_min": 266.16,
+        "x_max": 1109.49,
+        "y_max": 319.48
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ءجۇزى بويىنشا",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0007",
+      "coordinates": {
+        "x_min": 37.16,
+        "y_min": 268.33,
+        "x_max": 553.33,
+        "y_max": 313.33
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "جانە قاتىستى",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0008",
+      "coordinates": {
+        "x_min": 38.14,
+        "y_min": 290.62,
+        "x_max": 554.68,
+        "y_max": 343.94
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "يۋەشيۋ رايونى",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0009",
+      "coordinates": {
+        "x_min": 596.06,
+        "y_min": 336.41,
+        "x_max": 1112.22,
+        "y_max": 381.4
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "- تۇزىمدەردەگى",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0010",
+      "coordinates": {
+        "x_min": 597.04,
+        "y_min": 358.69,
+        "x_max": 1113.56,
+        "y_max": 411.92
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "يگەرۋگ / 复印件需与原件同",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0011",
+      "coordinates": {
+        "x_min": 41.24,
+        "y_min": 360.86,
+        "x_max": 557.41,
+        "y_max": 405.86
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "| زاڭ-ءتۇزىم",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0012",
+      "coordinates": {
+        "x_min": 42.22,
+        "y_min": 383.15,
+        "x_max": 558.75,
+        "y_max": 436.38
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "عىلىم / 持有人信息与档案",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0015",
+      "coordinates": {
+        "x_min": 534.84,
+        "y_min": 513.21,
+        "x_max": 635.92,
+        "y_max": 621.49
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "42px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:17:45.091Z",
+  "updated_at": "2026-07-03T12:18:55"
+}

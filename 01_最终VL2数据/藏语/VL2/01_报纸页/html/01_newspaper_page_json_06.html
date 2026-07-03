@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="bo">
+<head>
+<meta charset="utf-8">
+<title>གསར་འགྱུར་ཤོག་ངོས</title>
+<style>
+    @font-face { font-family: 'Local Noto Serif Tibetan'; src: url('file:///Users/dp/Downloads/%E4%B8%AD%E5%A4%AE%E6%B0%91%E6%97%8F%E5%A4%A7%E5%AD%A6%E5%90%88%E4%BD%9C%E9%A1%B9%E7%9B%AE/%E8%97%8F%E8%AF%AD/03_%E5%90%88%E6%88%90%E6%95%B0%E6%8D%AE%E7%94%9F%E6%88%90_20260630/assets/fonts/tibetan/NotoSerifTibetan-Regular.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: block; }
+    @font-face { font-family: 'Local Noto Serif Tibetan'; src: url('file:///Users/dp/Downloads/%E4%B8%AD%E5%A4%AE%E6%B0%91%E6%97%8F%E5%A4%A7%E5%AD%A6%E5%90%88%E4%BD%9C%E9%A1%B9%E7%9B%AE/%E8%97%8F%E8%AF%AD/03_%E5%90%88%E6%88%90%E6%95%B0%E6%8D%AE%E7%94%9F%E6%88%90_20260630/assets/fonts/tibetan/NotoSerifTibetan-Bold.ttf') format('truetype'); font-weight: 700; font-style: normal; font-display: block; }
+    @font-face { font-family: 'Local Noto Serif Tibetan'; src: url('file:///Users/dp/Downloads/%E4%B8%AD%E5%A4%AE%E6%B0%91%E6%97%8F%E5%A4%A7%E5%AD%A6%E5%90%88%E4%BD%9C%E9%A1%B9%E7%9B%AE/%E8%97%8F%E8%AF%AD/03_%E5%90%88%E6%88%90%E6%95%B0%E6%8D%AE%E7%94%9F%E6%88%90_20260630/assets/fonts/tibetan/NotoSerifTibetan-Black.ttf') format('truetype'); font-weight: 900; font-style: normal; font-display: block; }
+    
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: #d9dde2; }
+    body { font-family: 'Noto Serif Tibetan', 'Kohinoor Tibetan', 'Songti SC', serif; color: #202326; }
+    .page {
+      width: 1240px;
+      min-height: 1754px;
+      margin: 0 auto;
+      padding: 48px 54px 42px;
+      background: #fffefa;
+      position: relative;
+      overflow: hidden;
+    }
+    [data-block-id] { overflow: visible; }
+    .masthead { border-top: 5px solid #b8bec6; border-bottom: 2px solid #b8bec6; padding: 12px 0 14px; margin-bottom: 18px; }
+    .masthead-split, .masthead-minimal { display: grid; grid-template-columns: 1fr 320px; gap: 20px; align-items: end; border-bottom: 4px double #b8bec6; padding-bottom: 13px; margin-bottom: 18px; }
+    .masthead-compact { display: grid; grid-template-columns: 210px 1fr 260px; gap: 14px; align-items: end; border-bottom: 3px solid #b8bec6; padding-bottom: 10px; margin-bottom: 15px; }
+    .masthead-banner { border-left: 14px solid #2d6276; border-bottom: 2px solid #b8bec6; padding: 12px 0 13px 18px; margin-bottom: 18px; }
+    .special-masthead { display: grid; grid-template-columns: 170px 1fr 270px; gap: 18px; align-items: end; border-top: 6px solid #2d6276; border-bottom: 2px solid #b8bec6; padding: 12px 0; margin-bottom: 20px; }
+    .newspaper-name { font-size: 62px; font-weight: 900; line-height: 1.34; text-align: center; }
+    .newspaper-name.left { text-align: left; }
+    .kicker, .meta { font-size: 17px; line-height: 1.28; color: #626a71; }
+    .issue-bar { display: flex; justify-content: space-between; gap: 12px; border-top:0; margin-top: 8px; padding-top: 6px; }
+    .grid { display: grid; gap: 18px; align-items: start; }
+    .story { break-inside: avoid;  padding-bottom: 10px; margin-bottom: 12px; }
+    .lead-story .headline { font-size: 33px; }
+    .headline { font-size: 24px; font-weight: 900; line-height: 1.42; margin-bottom: 7px; }
+    .headline.xl { font-size: 35px; line-height: 1.38; }
+    .headline.xxl { font-size: 40px; line-height: 1.36; }
+    .news-para { font-size: 19px; line-height: 1.36; margin: 0 0 7px; }
+    .small-para { font-size: 17px; line-height: 1.34; margin: 0 0 7px; }
+    .columns-2 { columns: 2; column-gap: 18px; }
+    .columns-3 { columns: 3; column-gap: 17px; }
+    .columns-4 { columns: 4; column-gap: 15px; }
+    .sidebar { border-left: 3px solid #2d6276; padding-left: 13px; }
+    .side-title { font-size: 22px; font-weight: 900; color: #2d6276; margin-bottom: 8px; }
+    .brief-line { font-size: 17px; line-height: 1.29; border-bottom:0; padding: 6px 0; }
+    .image-box { min-height: 250px; background: repeating-linear-gradient(135deg, #e4e0d6, #e4e0d6 12px, #f4f0e7 12px, #f4f0e7 24px); border: 1.5px solid #b8bec6; margin: 10px 0 7px; }
+    .caption { font-size: 15px; color: #626a71; line-height: 1.28; margin-bottom: 10px; }
+    .brief-strip, .related-strip, .metric-strip { display: grid; gap: 10px; margin-top: 14px; border-top: 2px solid #b8bec6; padding-top: 10px; }
+    .brief-strip { grid-template-columns: repeat(5, 1fr); }
+    .related-strip { grid-template-columns: repeat(4, 1fr); }
+    .metric-strip { grid-template-columns: repeat(4, 1fr); }
+    .strip-item { font-size: 16px; line-height: 1.25; background: rgba(0,0,0,.035); padding: 8px; min-height: 74px; }
+    .community-box, .fact-box, .calendar-box, .contact-box, .small-ad-box, .digest-card { border: 1.4px solid #b8bec6; background: rgba(255,255,255,.58); padding: 12px; margin-bottom: 12px; break-inside: avoid; }
+    .community-box .headline, .fact-box .headline, .digest-card .headline { font-size: 21px; }
+    .timeline-item { display: grid; grid-template-columns: 58px 1fr; gap: 9px; border-bottom:0; padding: 7px 0; }
+    .timeline-no { font-size: 23px; font-weight: 900; color: #2d6276; }
+    .micro-ad { border: 2px solid #2d6276; padding: 10px; margin: 8px 0 12px; font-weight: 700; }
+    .footer { position: absolute; left: 54px; right: 54px; bottom: 18px; border-top:0; padding-top: 6px; font-size: 14px; color: #626a71; text-align: right; }
+    </style>
+</head>
+<body><main class="page newspaper-json-page" data-template-id="newspaper_page_v06"><header class="masthead-minimal">
+          <div class="newspaper-name left" data-block-id="01_newspaper_page_json_06_b0001" data-label="document_title" >གསར་འགྱུར་ཤོག་ངོས</div>
+          <div><div class="issue-bar"><div class="meta" data-block-id="01_newspaper_page_json_06_b0002" data-label="metadata" >186</div><div class="meta" data-block-id="01_newspaper_page_json_06_b0003" data-label="metadata" >2026-07-06</div><div class="meta" data-block-id="01_newspaper_page_json_06_b0004" data-label="metadata" >ཤོག་ངོས 03</div></div></div>
+        </header><main class="grid" style="grid-template-columns:1.25fr 1fr .72fr"><article class="story lead-story"><div class="headline xl" data-block-id="01_newspaper_page_json_06_b0005" data-label="section_title" >ཀེ་རི་སི</div><div class="image-box" data-block-id="01_newspaper_page_json_06_b0006" data-label="image"  data-is-text="false" data-asset-id="COCO_val2014_000000005105" data-asset-source="random120-coco2014" data-asset-crop="object-fit-cover"><img src="../../assets/random120-coco2014/COCO_val2014_000000005105.jpg" style="width:100%;height:100%;object-fit:cover;display:block;" alt="" data-asset-img="true" /></div><div class="caption" data-block-id="01_newspaper_page_json_06_b0007" data-label="caption" >སི་དང་པལ་ཊིམ་ཀྱི་སྐད་ཡིག་དུས་</div><div class="news-para" data-block-id="01_newspaper_page_json_06_b0008" data-label="paragraph" >ཁེ་རྒྱལ་ཁབ་དང་འདབ་འབྲེལ་དུ་གནས ཤར་ནས་ནུབ་བར་རིམ་བཞིན་ཨེ་ལྗི。青年志愿者参与社区巡查</div><div class="news-para" data-block-id="01_newspaper_page_json_06_b0009" data-label="paragraph" >མི་སྤུན་ཟླ་དག་གཙོ་བྱས་རྒྱལ་ནང་དུ་སྐད་གྲགས་ཆེན་པོ་ཐོན་པ་རེ。传统节庆活动有序筹备</div></article><section><div class="digest-card"><article class="story"><div class="headline" data-block-id="01_newspaper_page_json_06_b0010" data-label="section_title" >ཀེ་རི་སི</div><div class="news-para" data-block-id="01_newspaper_page_json_06_b0011" data-label="paragraph" >རྒྱལ་ཁབ་དང་འདབ་འབྲེལ་དུ་གནས ཤར་ནས་ནུབ་。本地学校组织文化展示</div></article></div><div class="digest-card"><article class="story"><div class="headline" data-block-id="01_newspaper_page_json_06_b0012" data-label="section_title" >ཀུན་དགའ</div><div class="news-para" data-block-id="01_newspaper_page_json_06_b0013" data-label="paragraph" >རྗེས་ཟི་ཁྲོན་རོལ་མོ་སློབ་གླིང་དུ་སོང。基层治理经验正在整理</div></article></div><div class="digest-card"><article class="story"><div class="headline" data-block-id="01_newspaper_page_json_06_b0014" data-label="section_title" >ཀེ་རི་སི</div><div class="news-para" data-block-id="01_newspaper_page_json_06_b0015" data-label="paragraph" >ནས་ཆེད་ལས་དང་ལས་ཞོར་གང་རུང་གི་རོལ་མོ。本地学校组织文化展示</div></article></div><div class="digest-card"><article class="story"><div class="headline" data-block-id="01_newspaper_page_json_06_b0016" data-label="section_title" >ཀན་ལྷོ་བོད་རིགས་རང་སྐྱོང་ཁུལ</div><div class="news-para" data-block-id="01_newspaper_page_json_06_b0017" data-label="paragraph" >༡༧༨༣ལོ་ནི་ཀེ་ལུའོ་ཀེ་ལི་ཡའི་ལོ་ཐོའི་ནང་བཀོལ་སྤྱོད་བྱས་པའ。校园社团展示学习成果</div></article></div><div class="digest-card"><article class="story"><div class="headline" data-block-id="01_newspaper_page_json_06_b0018" data-label="section_title" >ཀ་ཐོག་དགོན</div><div class="news-para" data-block-id="01_newspaper_page_json_06_b0019" data-label="paragraph" >དང་བརྟན་ཞིང་བརླིང་བའི་དཔུང་བ ཕྲ་ཞིང་མ。卫生服务点延长开放时间</div></article></div><div class="digest-card"><article class="story"><div class="headline" data-block-id="01_newspaper_page_json_06_b0020" data-label="section_title" >ཀེ་རི་སི</div><div class="news-para" data-block-id="01_newspaper_page_json_06_b0021" data-label="paragraph" >ལུང་ནང་དུ་མཚུར་ཕུའི་དགོན་པ་བཏབ་སྟེ་ག。专题报道关注民生变化</div></article></div></section><aside class="sidebar"><div class="side-title" data-block-id="01_newspaper_page_json_06_b0022" data-label="section_title" >མྱུར་འཕྲིན</div><div class="brief-line" data-block-id="01_newspaper_page_json_06_b0023" data-label="list_item" >སྙན་ངག་གི་དཔེར་བརྗོད་དང་</div><div class="brief-line" data-block-id="01_newspaper_page_json_06_b0024" data-label="list_item" >༡༨ནི་རང་བྱུང་གི་གྲངས་ཞིག་སྟེ་༡༧པའི་རྗེས་མ་དང་༡༩པའི་。校园社团展示学习成果</div><div class="brief-line" data-block-id="01_newspaper_page_json_06_b0025" data-label="list_item" >རྩལ་འགྲན་ཚོགས。农产品展销活动吸引居民</div><div class="brief-line" data-block-id="01_newspaper_page_json_06_b0026" data-label="list_item" >འཛིན་པའི་དགོན。读者反馈栏目收到新来信</div><div class="brief-line" data-block-id="01_newspaper_page_json_06_b0027" data-label="list_item" >འཛིན་རྒྱ་མཚོར་ནོའོ་བྷེལ་</div><div class="brief-line" data-block-id="01_newspaper_page_json_06_b0028" data-label="list_item" >བསྲིང་གི་ཁོར་ཡུག་མཆོག་ཏུ་</div><div class="brief-line" data-block-id="01_newspaper_page_json_06_b0029" data-label="list_item" >ན་གཞོན་གཞས་པ་ཀུན་དགའ་ཆུང་</div><div class="brief-line" data-block-id="01_newspaper_page_json_06_b0030" data-label="list_item" >ཤར་མའི་ནང་པའི་བཙུན་པ་ཧུན་</div><div class="brief-line" data-block-id="01_newspaper_page_json_06_b0031" data-label="list_item" >གྲགས་ལ ཆེས་ཐོག་。公共交通班次临时调整</div><div class="brief-line" data-block-id="01_newspaper_page_json_06_b0032" data-label="list_item" >གར་གཙོ་བོར་འགྱུར་བའི་དེང་</div></aside></main><section class="metric-strip"><div class="strip-item" data-block-id="01_newspaper_page_json_06_b0033" data-label="list_item" >ཐང་ སྟོབས་ཤུགས。市场监管人员完成例行检查</div><div class="strip-item" data-block-id="01_newspaper_page_json_06_b0034" data-label="list_item" >འདུལ་དང་ཀློང་གསལ་。专题报道关注民生变化</div><div class="strip-item" data-block-id="01_newspaper_page_json_06_b0035" data-label="list_item" >ཀླུ་ཁང་དུ་ཀོ་གྲུར་。专题报道关注民生变化</div><div class="strip-item" data-block-id="01_newspaper_page_json_06_b0036" data-label="list_item" >༡༨༨༢ལོ་ནི་ཀེ་ལུའོ་ཀེ་ལི་ཡའི་ལོ་ཐོའི་ནང་བཀོལ་སྤྱོད་བྱས་པའ。读者反馈栏目收到新来信</div></section></main></body>
+</html>

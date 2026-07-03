@@ -1,0 +1,358 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "handwritten_letter_vertical_tree_03",
+  "variant": 3,
+  "category_id": "handwritten_letter",
+  "category_cn": "手写笔记信件",
+  "folder": "12_手写笔记信件",
+  "template_name_cn": "会议记录",
+  "layout_family": "meeting_note",
+  "design_prompt": "会议记录式手写笔记，事项和结论分区。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1040,
+    "height": 1480,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 10,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "paper",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box",
+      "box": {
+        "x": 70,
+        "y": 70,
+        "w": 900,
+        "h": 1340
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "meeting_title",
+      "class": "subtitle hand",
+      "box": {
+        "x": 120,
+        "y": 110,
+        "w": 42,
+        "h": 1200
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_1",
+      "kind": "text",
+      "label": "list_item",
+      "role": "meeting_item",
+      "class": "body hand",
+      "box": {
+        "x": 220,
+        "y": 130,
+        "w": 32,
+        "h": 520
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_2",
+      "kind": "text",
+      "label": "list_item",
+      "role": "meeting_item",
+      "class": "body hand",
+      "box": {
+        "x": 310,
+        "y": 130,
+        "w": 32,
+        "h": 520
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_3",
+      "kind": "text",
+      "label": "list_item",
+      "role": "meeting_item",
+      "class": "body hand",
+      "box": {
+        "x": 400,
+        "y": 130,
+        "w": 32,
+        "h": 520
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_4",
+      "kind": "text",
+      "label": "list_item",
+      "role": "meeting_item",
+      "class": "body hand",
+      "box": {
+        "x": 490,
+        "y": 130,
+        "w": 32,
+        "h": 520
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_5",
+      "kind": "text",
+      "label": "list_item",
+      "role": "meeting_item",
+      "class": "body hand",
+      "box": {
+        "x": 580,
+        "y": 130,
+        "w": 32,
+        "h": 520
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_6",
+      "kind": "text",
+      "label": "list_item",
+      "role": "meeting_item",
+      "class": "body hand",
+      "box": {
+        "x": 670,
+        "y": 130,
+        "w": 32,
+        "h": 520
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_7",
+      "kind": "text",
+      "label": "list_item",
+      "role": "meeting_item",
+      "class": "body hand",
+      "box": {
+        "x": 760,
+        "y": 130,
+        "w": 32,
+        "h": 520
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_8",
+      "kind": "text",
+      "label": "list_item",
+      "role": "meeting_item",
+      "class": "body hand",
+      "box": {
+        "x": 850,
+        "y": 130,
+        "w": 32,
+        "h": 520
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "conclusion_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body hand",
+      "box": {
+        "x": 220,
+        "y": 760,
+        "w": 32,
+        "h": 480
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "conclusion_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body hand",
+      "box": {
+        "x": 276,
+        "y": 760,
+        "w": 32,
+        "h": 480
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "conclusion_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body hand",
+      "box": {
+        "x": 332,
+        "y": 760,
+        "w": 32,
+        "h": 480
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "conclusion_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body hand",
+      "box": {
+        "x": 388,
+        "y": 760,
+        "w": 32,
+        "h": 480
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "conclusion_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body hand",
+      "box": {
+        "x": 444,
+        "y": 760,
+        "w": 32,
+        "h": 480
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "conclusion_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body hand",
+      "box": {
+        "x": 500,
+        "y": 760,
+        "w": 32,
+        "h": 480
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "conclusion_07",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body hand",
+      "box": {
+        "x": 556,
+        "y": 760,
+        "w": 32,
+        "h": 480
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    }
+  ]
+}

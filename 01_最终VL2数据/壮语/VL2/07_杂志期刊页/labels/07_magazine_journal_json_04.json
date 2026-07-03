@@ -1,0 +1,1730 @@
+{
+  "image_id": "94ab4a6f-94ab-4a6f-94ab-94ab4a6f94ab",
+  "file_name": "07_magazine_journal_json_04.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "reading_pages_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "za",
+    "language_name": "壮语",
+    "script_note": "现代标准壮文 Vahcuengh，拉丁字母拼写",
+    "template_type": "magazine_journal",
+    "category": "magazine_journal",
+    "variant": 4,
+    "layout_name": "magazine_journal_v04",
+    "document_id": "07_magazine_journal_json_04",
+    "title": "Cazci Gijbon",
+    "doc_no": "ZA-V2-07-04",
+    "date": "2026-07-02",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.18,
+    "chinese_topic": "magazine_journal",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 56,
+      "page_width": 1204,
+      "page_height": 891,
+      "body_scroll_width": 1204,
+      "body_scroll_height": 891,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 31,
+        "y": 23,
+        "width": 1178,
+        "height": 832,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1350,
+        "content_bbox": {
+          "x_min": 62,
+          "y_min": 54,
+          "x_max": 1178,
+          "y_max": 823.9
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.5703,
+        "bottom_blank_ratio_before_crop": 0.3897
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 4981243833482853422,
+        "family": "warm_paper",
+        "geometry": {
+          "source_size": {
+            "width": 1178,
+            "height": 832
+          },
+          "scale": {
+            "scale": 0.99839,
+            "width": 1176,
+            "height": 831
+          },
+          "rotation": {
+            "angle_degrees": -3.4158,
+            "width": 1224,
+            "height": 900
+          },
+          "translation": {
+            "dx": 3,
+            "dy": -3,
+            "width": 1224,
+            "height": 900
+          },
+          "edge_crop": {
+            "left": 10,
+            "top": 3,
+            "right": 10,
+            "bottom": 6,
+            "width": 1204,
+            "height": 891
+          },
+          "output_size_before_visual": {
+            "width": 1204,
+            "height": 891
+          }
+        },
+        "output_size": {
+          "width": 1204,
+          "height": 891
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "07_magazine_journal_json_04_b0055",
+      "coordinates": {
+        "x_min": 25.74,
+        "y_min": 26.73,
+        "x_max": 1142.72,
+        "y_max": 172.85
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "Muluq",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "52px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0056",
+      "coordinates": {
+        "x_min": 30.5,
+        "y_min": 106.46,
+        "x_max": 1144.34,
+        "y_max": 199.96
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "Vol. 07",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0001",
+      "coordinates": {
+        "x_min": 33.19,
+        "y_min": 214.68,
+        "x_max": 90.18,
+        "y_max": 271.11
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "10",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0002",
+      "coordinates": {
+        "x_min": 94.98,
+        "y_min": 185.42,
+        "x_max": 578.97,
+        "y_max": 241.61
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "maz cungj fungsou\"",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0003",
+      "coordinates": {
+        "x_min": 97.09,
+        "y_min": 220.79,
+        "x_max": 580.51,
+        "y_max": 267.42
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Gij ciengzsaeq neiyungz samsamceiq cwnggenz。文化随笔保持轻松风格",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0004",
+      "coordinates": {
+        "x_min": 601.26,
+        "y_min": 180.78,
+        "x_max": 658.26,
+        "y_max": 237.21
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "13",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0005",
+      "coordinates": {
+        "x_min": 663.05,
+        "y_min": 151.51,
+        "x_max": 1147.04,
+        "y_max": 207.7
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ginghci sevei f 本期推荐三篇长文",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0006",
+      "coordinates": {
+        "x_min": 665.16,
+        "y_min": 186.89,
+        "x_max": 1148.58,
+        "y_max": 233.52
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ciubing doxgap, guh gij。封面故事延伸到内页",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0007",
+      "coordinates": {
+        "x_min": 37.32,
+        "y_min": 283.85,
+        "x_max": 94.31,
+        "y_max": 340.38
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "16",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0008",
+      "coordinates": {
+        "x_min": 99.11,
+        "y_min": 254.58,
+        "x_max": 583.11,
+        "y_max": 310.88
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "dwg siucaiz roxnaeuz",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0009",
+      "coordinates": {
+        "x_min": 101.22,
+        "y_min": 290.06,
+        "x_max": 584.65,
+        "y_max": 336.69
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "hawj guekgya ancienz。专题图片来自活动现场",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0010",
+      "coordinates": {
+        "x_min": 605.38,
+        "y_min": 249.94,
+        "x_max": 662.39,
+        "y_max": 306.47
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "19",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0011",
+      "coordinates": {
+        "x_min": 667.17,
+        "y_min": 220.68,
+        "x_max": 1151.18,
+        "y_max": 276.97
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "diemj ngeihcib faen",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0012",
+      "coordinates": {
+        "x_min": 669.29,
+        "y_min": 256.15,
+        "x_max": 1152.72,
+        "y_max": 302.78
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "mbouj doengz aen bi'nd。专题策划围绕传统技艺",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0013",
+      "coordinates": {
+        "x_min": 41.45,
+        "y_min": 353.11,
+        "x_max": 98.44,
+        "y_max": 409.55
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "22",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0014",
+      "coordinates": {
+        "x_min": 103.24,
+        "y_min": 323.84,
+        "x_max": 587.24,
+        "y_max": 380.04
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "Gou hix dwg vunz",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0015",
+      "coordinates": {
+        "x_min": 105.35,
+        "y_min": 359.23,
+        "x_max": 588.78,
+        "y_max": 405.86
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "laehdae mhouj cuengqs。栏目导语说明选题背景",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0016",
+      "coordinates": {
+        "x_min": 609.52,
+        "y_min": 319.2,
+        "x_max": 666.52,
+        "y_max": 375.64
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "25",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0017",
+      "coordinates": {
+        "x_min": 671.31,
+        "y_min": 289.93,
+        "x_max": 1155.31,
+        "y_max": 346.14
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "gensez couh ndaej",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0018",
+      "coordinates": {
+        "x_min": 673.42,
+        "y_min": 325.32,
+        "x_max": 1156.85,
+        "y_max": 371.95
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "gij moeghiu ginghci sevei fazc。本期推荐三篇长文",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0019",
+      "coordinates": {
+        "x_min": 45.58,
+        "y_min": 422.28,
+        "x_max": 102.57,
+        "y_max": 478.71
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "28",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0020",
+      "coordinates": {
+        "x_min": 107.37,
+        "y_min": 393.01,
+        "x_max": 591.37,
+        "y_max": 449.21
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "FAZCANJ YIENFWN 专题图片来自活动",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0021",
+      "coordinates": {
+        "x_min": 109.48,
+        "y_min": 428.4,
+        "x_max": 592.91,
+        "y_max": 475.02
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Veiz: Gou 1988 nienz 10 nyied 18 ha。编辑部整理读者来稿",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0022",
+      "coordinates": {
+        "x_min": 613.65,
+        "y_min": 388.37,
+        "x_max": 670.65,
+        "y_max": 444.81
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "31",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0023",
+      "coordinates": {
+        "x_min": 675.44,
+        "y_min": 359.1,
+        "x_max": 1159.43,
+        "y_max": 415.3
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "bienq ciennieh caeuq",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0024",
+      "coordinates": {
+        "x_min": 677.55,
+        "y_min": 394.49,
+        "x_max": 1160.97,
+        "y_max": 441.12
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Banj bi 2008 S . Namzning。编辑部整理读者来稿",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0025",
+      "coordinates": {
+        "x_min": 49.71,
+        "y_min": 491.44,
+        "x_max": 106.7,
+        "y_max": 547.98
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "34",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0026",
+      "coordinates": {
+        "x_min": 111.5,
+        "y_min": 462.18,
+        "x_max": 595.5,
+        "y_max": 518.48
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "fwen lajneix, caiq",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0027",
+      "coordinates": {
+        "x_min": 113.61,
+        "y_min": 497.65,
+        "x_max": 597.04,
+        "y_max": 544.29
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "anj. Namzningz, mwngz lij miz caenc。本期专题关注地方文化",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0028",
+      "coordinates": {
+        "x_min": 617.77,
+        "y_min": 457.54,
+        "x_max": 674.78,
+        "y_max": 514.07
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "37",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0029",
+      "coordinates": {
+        "x_min": 679.56,
+        "y_min": 428.27,
+        "x_max": 1163.57,
+        "y_max": 484.57
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "geij nanz, diuhnyaemh",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0030",
+      "coordinates": {
+        "x_min": 681.68,
+        "y_min": 463.75,
+        "x_max": 1165.11,
+        "y_max": 510.38
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Veiz: Ngoenzneix geij hauh, sin。评论文章讨论公共议题",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0031",
+      "coordinates": {
+        "x_min": 53.84,
+        "y_min": 560.71,
+        "x_max": 111.9,
+        "y_max": 634.97
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "40",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0032",
+      "coordinates": {
+        "x_min": 115.63,
+        "y_min": 531.44,
+        "x_max": 600.16,
+        "y_max": 596.61
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "mwnq qyouq Mwnq",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0033",
+      "coordinates": {
+        "x_min": 118.28,
+        "y_min": 575.79,
+        "x_max": 602.23,
+        "y_max": 631.29
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Music Teaching for the Tr。编辑部整理读者来稿",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 38,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0034",
+      "coordinates": {
+        "x_min": 621.91,
+        "y_min": 526.8,
+        "x_max": 679.97,
+        "y_max": 601.07
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "43",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0035",
+      "coordinates": {
+        "x_min": 683.7,
+        "y_min": 497.54,
+        "x_max": 1167.7,
+        "y_max": 553.73
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "haeuj laeg bae,",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0036",
+      "coordinates": {
+        "x_min": 685.81,
+        "y_min": 532.91,
+        "x_max": 1170.3,
+        "y_max": 597.38
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Aen Mbanj Neix Gyoengq Vunz Neix …… Vangz Siubiz。评论文章讨论公共议题",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0037",
+      "coordinates": {
+        "x_min": 59.03,
+        "y_min": 647.71,
+        "x_max": 117.09,
+        "y_max": 722.08
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "46",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 43,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0038",
+      "coordinates": {
+        "x_min": 120.82,
+        "y_min": 618.45,
+        "x_max": 605.36,
+        "y_max": 683.61
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "neix cungi aeu",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 40,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0039",
+      "coordinates": {
+        "x_min": 123.47,
+        "y_min": 662.8,
+        "x_max": 607.43,
+        "y_max": 718.39
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "lij miz bouxcuengh dou miz yieng fungs。地方观察呈现新面貌",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 44,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0040",
+      "coordinates": {
+        "x_min": 627.1,
+        "y_min": 613.81,
+        "x_max": 685.17,
+        "y_max": 688.17
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "49",
+      "is_text": true,
+      "order": "41",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 41,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0041",
+      "coordinates": {
+        "x_min": 688.89,
+        "y_min": 584.54,
+        "x_max": 1172.9,
+        "y_max": 640.83
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "geiq coi bi'",
+      "is_text": true,
+      "order": "42",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 39,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0042",
+      "coordinates": {
+        "x_min": 691.01,
+        "y_min": 620.02,
+        "x_max": 1175.5,
+        "y_max": 684.48
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "daihngeh, dwg aenvih doenghbaez mbouj doiq vunzlai guh minz。本期推荐三篇长文",
+      "is_text": true,
+      "order": "43",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 42,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0043",
+      "coordinates": {
+        "x_min": 64.23,
+        "y_min": 734.82,
+        "x_max": 121.22,
+        "y_max": 791.25
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "52",
+      "is_text": true,
+      "order": "44",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 49,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0044",
+      "coordinates": {
+        "x_min": 126.02,
+        "y_min": 705.55,
+        "x_max": 610.02,
+        "y_max": 761.74
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "guek raeuz baihnamz.",
+      "is_text": true,
+      "order": "45",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 48,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0045",
+      "coordinates": {
+        "x_min": 128.13,
+        "y_min": 740.93,
+        "x_max": 611.56,
+        "y_max": 787.56
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "gyauyuz gohgi vunzcaiz hwngf。专题图片来自活动现场",
+      "is_text": true,
+      "order": "46",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 50,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0046",
+      "coordinates": {
+        "x_min": 632.3,
+        "y_min": 700.91,
+        "x_max": 689.3,
+        "y_max": 757.34
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "55",
+      "is_text": true,
+      "order": "47",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 46,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0047",
+      "coordinates": {
+        "x_min": 694.09,
+        "y_min": 671.65,
+        "x_max": 1178.09,
+        "y_max": 727.84
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "Seizgan lumj raemx",
+      "is_text": true,
+      "order": "48",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 45,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0048",
+      "coordinates": {
+        "x_min": 696.2,
+        "y_min": 707.02,
+        "x_max": 1179.63,
+        "y_max": 753.65
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "vwndiz goj-nwngz fatseng ha。封面故事延伸到内页",
+      "is_text": true,
+      "order": "49",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 47,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0049",
+      "coordinates": {
+        "x_min": 68.36,
+        "y_min": 803.99,
+        "x_max": 125.35,
+        "y_max": 860.41
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "58",
+      "is_text": true,
+      "order": "50",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 55,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0050",
+      "coordinates": {
+        "x_min": 130.15,
+        "y_min": 774.72,
+        "x_max": 614.15,
+        "y_max": 830.91
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "vunzlai nyi, hawj",
+      "is_text": true,
+      "order": "51",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 52,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0051",
+      "coordinates": {
+        "x_min": 132.26,
+        "y_min": 810.1,
+        "x_max": 615.69,
+        "y_max": 856.73
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "miuzraangz deng non。评论文章讨论公共议题",
+      "is_text": true,
+      "order": "52",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 56,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0052",
+      "coordinates": {
+        "x_min": 636.43,
+        "y_min": 770.08,
+        "x_max": 693.43,
+        "y_max": 826.51
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "61",
+      "is_text": true,
+      "order": "53",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 53,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0053",
+      "coordinates": {
+        "x_min": 698.22,
+        "y_min": 740.81,
+        "x_max": 1182.22,
+        "y_max": 797.0
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ndeu, gou daenj",
+      "is_text": true,
+      "order": "54",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 51,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_04_b0054",
+      "coordinates": {
+        "x_min": 700.33,
+        "y_min": 776.19,
+        "x_max": 1183.76,
+        "y_max": 822.82
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "langh ndaw dah, Fwj ndaem hai v。栏目导语说明选题背景",
+      "is_text": true,
+      "order": "55",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 54,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T05:15:08.839Z",
+  "updated_at": "2026-07-03T13:16:13"
+}

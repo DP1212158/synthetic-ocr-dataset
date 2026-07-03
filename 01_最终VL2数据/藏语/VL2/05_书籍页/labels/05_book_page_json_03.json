@@ -1,0 +1,1527 @@
+{
+  "image_id": "e1a3093d-e1a3-093d-e1a3-e1a3093de1a3",
+  "file_name": "05_book_page_json_03.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "reading_pages_json_renderer_bo_v1_v4_split_mix_assets",
+    "language_code": "bo",
+    "language_name": "藏语",
+    "script_note": "藏文横排文本，第一阶段用于公开文本源验证与模板填充",
+    "template_type": "book_page",
+    "category": "book_page",
+    "variant": 3,
+    "layout_name": "book_page_v03",
+    "document_id": "05_book_page_json_03",
+    "title": "དེབ་ཀྱི་ཤོག་ངོས",
+    "doc_no": "V12-05-03",
+    "date": "2026-07-01",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "book_page",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 50,
+      "page_width": 1222,
+      "page_height": 1146,
+      "body_scroll_width": 1222,
+      "body_scroll_height": 1146,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 31,
+        "y": 23,
+        "width": 1178,
+        "height": 1098,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1754,
+        "content_bbox": {
+          "x_min": 62,
+          "y_min": 54,
+          "x_max": 1178,
+          "y_max": 1089.5
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.5904,
+        "bottom_blank_ratio_before_crop": 0.3788
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 11755523339066931044,
+        "family": "soft_copy",
+        "geometry": {
+          "source_size": {
+            "width": 1178,
+            "height": 1098
+          },
+          "scale": {
+            "scale": 1.0,
+            "width": 1178,
+            "height": 1098
+          },
+          "rotation": {
+            "angle_degrees": 2.6318,
+            "width": 1228,
+            "height": 1151
+          },
+          "translation": {
+            "dx": 3,
+            "dy": 4,
+            "width": 1228,
+            "height": 1151
+          },
+          "edge_crop": {
+            "left": 0,
+            "top": 3,
+            "right": 6,
+            "bottom": 2,
+            "width": 1222,
+            "height": 1146
+          },
+          "output_size_before_visual": {
+            "width": 1222,
+            "height": 1146
+          }
+        },
+        "output_size": {
+          "width": 1222,
+          "height": 1146
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "05_book_page_json_03_b0027",
+      "coordinates": {
+        "x_min": 81.71,
+        "y_min": 33.39,
+        "x_max": 178.46,
+        "y_max": 64.95
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "རི་མོ་དང་འགྲེལ་བ",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0028",
+      "coordinates": {
+        "x_min": 1169.76,
+        "y_min": 83.4,
+        "x_max": 1197.78,
+        "y_max": 111.81
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "031",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0029",
+      "coordinates": {
+        "x_min": 78.47,
+        "y_min": 95.53,
+        "x_max": 432.73,
+        "y_max": 147.3
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "༡༨༨༢ལོ",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0030",
+      "coordinates": {
+        "x_min": 76.11,
+        "y_min": 131.09,
+        "x_max": 431.1,
+        "y_max": 198.74
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "སོགས་ལ་ལྷ་སྒྲུང་གི་ཤུགས་རྐྱེན་ཐེབས་ནའང་ཟུར་ངོས་གང་རུང་ནས་སྐབས་དེའི་སྤྱི་ཚོགས་ཀྱི་རྣམ་",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0031",
+      "coordinates": {
+        "x_min": 73.37,
+        "y_min": 190.52,
+        "x_max": 428.37,
+        "y_max": 258.18
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཚོགས་ཏེ་མིང་བསྡུས་ན་ཨོ་རྩལ་འགྲན་ཚོགས་ཞེས་བྱ་བ་ནི རྒྱལ་སྤྱིའི་ཨོ་ལིན་ཕིག་ཨུ་ཡོན་ལྷན་",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0032",
+      "coordinates": {
+        "x_min": 70.65,
+        "y_min": 249.96,
+        "x_max": 425.63,
+        "y_max": 317.52
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "དེས་ཁོང་དགུང་ལོ་༣༨ ལ་སོན་པའི་ས་ཡོས་ ༡༡༥༩ ལོར་ཕྱག་བཏབ ཁོང་ནི་འགྲོ་མགོན་ཕག་མོ་གྲུ་པའི་",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0033",
+      "coordinates": {
+        "x_min": 67.91,
+        "y_min": 309.3,
+        "x_max": 422.91,
+        "y_max": 376.95
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "མའི་རྣམ་པ་སླར་གསོ་བྱེད་པར་བརྩོན་མོད ངལ་བ་འབྲས་མེད་དུ་གྱུར དཔུང་བ་གཉིས་ལ་ཆག་སྐྱོན་བྱུང་",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0034",
+      "coordinates": {
+        "x_min": 65.18,
+        "y_min": 368.74,
+        "x_max": 420.17,
+        "y_max": 436.39
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "མང་ཚོགས་སྟོང་ཕྲག་མང་པོས་རྒན་སྐྱོར་བྱིས་འཁྲིད་ཀྱིས་གླིང་སྐོར་དང་ རྩེ་སྐོར་དུ་འགྲོ་",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0035",
+      "coordinates": {
+        "x_min": 62.45,
+        "y_min": 428.17,
+        "x_max": 417.44,
+        "y_max": 495.73
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "སྐད་ཡིག་དུས་གཅིག་ཐོག་ནས་ཟུར་ཟའི་མུ་འབྲེལ་རི་མོ་པར་བསྐྲུན་མཁན་ཞིག་དང་ཟུར་ཟའི་རི་མོའི་",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0036",
+      "coordinates": {
+        "x_min": 59.72,
+        "y_min": 487.51,
+        "x_max": 414.71,
+        "y_max": 555.17
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "རྒྱལ་པོའི་ཕ་ཡུལ་དུ་འབོད་པའི་ཁམས་སྡེ་དགེ་ནས་སྐྱེས་པའི་ན་གཞོན་གཞས་པ་ཀུན་དགའ་ཆུང་དུས་",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0037",
+      "coordinates": {
+        "x_min": 56.99,
+        "y_min": 546.95,
+        "x_max": 411.98,
+        "y_max": 614.6
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "སྐུ་གངས་ཀྱི་རི་བོ་བཞིན དྲི་ཟའི་གླིང་བུ་སྟོང་ལྟར་སྙན་པའི་གསུང མཐའ་མེད་མཁྱེན་པ་ལྷ་ཡི་",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0038",
+      "coordinates": {
+        "x_min": 54.26,
+        "y_min": 606.39,
+        "x_max": 409.25,
+        "y_max": 673.94
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "རྩལ་པས་དམག་འཁྲུག་ཁྲོད་ཀྱི་དཔའ་བའི་མཛད་རྗེས་དང་རྒྱལ་ཁའི་བསྟོད་བསྔགས་གླུ་རུ་བཀུག་ནས་",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0039",
+      "coordinates": {
+        "x_min": 452.35,
+        "y_min": 112.74,
+        "x_max": 807.34,
+        "y_max": 180.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ནག་ཅན་བཙོན་པ་གློད་འགྲོལ ངན་སློང་ལ་སྦྱིན་གཏོང་ ལྷག་པར་ཚེས་བཅོ་ལྔ་ཉིན་སྲིན་བུས་ཀྱང་ཤ་",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0040",
+      "coordinates": {
+        "x_min": 448.43,
+        "y_min": 172.18,
+        "x_max": 804.61,
+        "y_max": 265.51
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ནུབ་ཕྱོགས་སུ་བསྐྱོད་པའི་རྣམ་ཐར་(རྒྱ་སྐད:)ནི་ཀྲུང་གོའི་རིག་གནས་ཀྱི་དེབ་གཙོ་གྲས་ཆེན་པོ་བཞིའི་ནང་གི་གཅིག་རེད",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0041",
+      "coordinates": {
+        "x_min": 445.71,
+        "y_min": 257.29,
+        "x_max": 800.69,
+        "y_max": 324.85
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཀྲུང་གོའི་ཀན་སུའུ་ཞིང་ཆེན་གྱི་ལྷོ་རྒྱུད་དུ་ཆགས་པའི་ རང་སྐྱོང་ཁུལ་ཞིག་སྟེ བསང་ཆུ་རྫོང་",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0042",
+      "coordinates": {
+        "x_min": 442.97,
+        "y_min": 316.63,
+        "x_max": 797.97,
+        "y_max": 384.28
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ལ 《ཡེ་ལི་ཡ་ཐི 》ལས་གཙོ་བོ་ཞིབ་བརྗོད་ཀྱི་ཐབས་ལམ་གཉིས་སྤྱད་ཡོད་དེ དང་པོ་ནི་རྩོམ་པ་པོས་",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0043",
+      "coordinates": {
+        "x_min": 440.24,
+        "y_min": 376.07,
+        "x_max": 795.23,
+        "y_max": 443.72
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "སྙན་རྩོམ་རིང་མོ་འདིར་རྗོད་བྱེད་ཀྱི་ཚིག་སྙན་ཞིང་འཇེབས་ལ བརྗོད་དོན་གསོན་ཉམས་ལྡན་པ་དང་",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0044",
+      "coordinates": {
+        "x_min": 437.51,
+        "y_min": 435.5,
+        "x_max": 792.5,
+        "y_max": 503.06
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "པ་འདི་ནས་ཀཿཐོག་བླ་རབས་བཅུ་གསུམ་ཞུ་བའི་སྐྱེས་ཆེན་དམ་པ་མང་པོ་ཡང་བྱོན་མྱོང་ ཀཿཐོག་རིག་",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0045",
+      "coordinates": {
+        "x_min": 434.78,
+        "y_min": 494.84,
+        "x_max": 789.77,
+        "y_max": 562.5
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "གཅིག་ཐོག་ནས་ཟུར་ཟའི་མུ་འབྲེལ་རི་མོ་པར་བསྐྲུན་མཁན་ཞིག་དང་ཟུར་ཟའི་རི་མོའི་དེབ་དང་ཕྲུ་",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0046",
+      "coordinates": {
+        "x_min": 430.87,
+        "y_min": 554.28,
+        "x_max": 787.04,
+        "y_max": 647.61
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཀཿཐོག་ནི་བོད་བརྒྱུད་ནང་བསྟན་སྔ་འགྱུར་རྙིང་མ་པའི་ལུགས་འཛིན་པའི་དགོན་པ་ཞིག་རེད དེ་ཡང་ཕྱིས་སུ་ཀཿཐོག་ཏུ་བདུད་འདུལ་དང་ཀློང་གསལ་སྙིང་པོ་ཞེས་པའི་གཏེར་སྟོན་",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0047",
+      "coordinates": {
+        "x_min": 428.14,
+        "y_min": 639.39,
+        "x_max": 783.13,
+        "y_max": 707.04
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ལྟ་བ་བཏོན དེ་མིན་རང་བྱུང་ཚན་རིག་གི་གཞུང་ལུགས་ཞིབ་འཇུག་དང་ལག་ལེན་གྱི་ཐད་ནས་ཀྱང་རྨད་",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0048",
+      "coordinates": {
+        "x_min": 819.7,
+        "y_min": 130.24,
+        "x_max": 1194.93,
+        "y_max": 486.41
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": false,
+        "asset_id": "COCO_val2014_000000190081",
+        "asset_source": "random120-coco2014",
+        "asset_crop": "object-fit-cover"
+      },
+      "reading_order": 41,
+      "reading_group": "image",
+      "reading_role": "image",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0049",
+      "coordinates": {
+        "x_min": 818.33,
+        "y_min": 477.87,
+        "x_max": 1178.95,
+        "y_max": 516.08
+      },
+      "points": null,
+      "block_label": "caption",
+      "block_content": "ལེའེ: -- - --)ནི་",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "caption",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0001",
+      "coordinates": {
+        "x_min": 816.35,
+        "y_min": 515.53,
+        "x_max": 1177.22,
+        "y_max": 559.23
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "01",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0002",
+      "coordinates": {
+        "x_min": 815.05,
+        "y_min": 542.7,
+        "x_max": 1175.97,
+        "y_max": 587.4
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "མཇུག་རྫོགས་རྗེས་གྷི་རི་སིའི་གནའ་",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0003",
+      "coordinates": {
+        "x_min": 813.07,
+        "y_min": 586.86,
+        "x_max": 1173.94,
+        "y_max": 630.56
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "02",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0004",
+      "coordinates": {
+        "x_min": 811.77,
+        "y_min": 614.03,
+        "x_max": 1172.69,
+        "y_max": 658.83
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ཀ་ན་ནི་ཨ་ཧྥེ་རི་ཁའི་རྒྱལ་ཁབ་ཞིག་རེད",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0005",
+      "coordinates": {
+        "x_min": 809.79,
+        "y_min": 658.28,
+        "x_max": 1170.66,
+        "y_max": 701.88
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "03",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0006",
+      "coordinates": {
+        "x_min": 808.49,
+        "y_min": 685.35,
+        "x_max": 1169.41,
+        "y_max": 730.15
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ནུབ་ཕྱོགས་སུ་བསྐྱོད་པའི་རྣམ་ཐར་(རྒྱ་སྐད",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0007",
+      "coordinates": {
+        "x_min": 806.51,
+        "y_min": 729.61,
+        "x_max": 1167.38,
+        "y_max": 773.21
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "04",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0008",
+      "coordinates": {
+        "x_min": 805.21,
+        "y_min": 756.68,
+        "x_max": 1166.13,
+        "y_max": 801.48
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "མིའི་ཁེ་དབང་དང་རིན་ཐང་ སྟོབས་ཤུགས་",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0009",
+      "coordinates": {
+        "x_min": 803.23,
+        "y_min": 800.93,
+        "x_max": 1164.1,
+        "y_max": 844.63
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "05",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0010",
+      "coordinates": {
+        "x_min": 801.94,
+        "y_min": 828.1,
+        "x_max": 1162.85,
+        "y_max": 872.8
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ལོ་གསུམ་གྱི་རིང་ལ་རོལ་མོའི་ཤེས་བྱར་",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0011",
+      "coordinates": {
+        "x_min": 54.51,
+        "y_min": 866.02,
+        "x_max": 304.94,
+        "y_max": 903.35
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ཀེ་རི་སི",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0012",
+      "coordinates": {
+        "x_min": 52.99,
+        "y_min": 891.89,
+        "x_max": 303.75,
+        "y_max": 936.51
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "༡༧༨༣ལོ་ནི་ཀེ་ལུའོ་ཀེ་ལི་ཡའི་ལོ་ཐོའི་ནང་བཀོལ་སྤྱོད་བྱས་པའི་ལོ་ཞིག་ཡིན",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0013",
+      "coordinates": {
+        "x_min": 335.71,
+        "y_min": 878.94,
+        "x_max": 586.14,
+        "y_max": 916.27
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ཀེ་རི་སི",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0014",
+      "coordinates": {
+        "x_min": 334.95,
+        "y_min": 904.82,
+        "x_max": 584.95,
+        "y_max": 932.85
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "མེད་ཀྱི་བསྡུས་བརྗོད་ནི བྲིད་དང་གང་བའི་རྣམ་འགྱུར་",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0015",
+      "coordinates": {
+        "x_min": 616.92,
+        "y_min": 891.87,
+        "x_max": 867.34,
+        "y_max": 929.2
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ཀའོ་ཆིའུ",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0016",
+      "coordinates": {
+        "x_min": 615.39,
+        "y_min": 917.74,
+        "x_max": 866.15,
+        "y_max": 962.36
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཡོངས་གྲགས་ཀྱི་བཤད་རྒྱུན་ལྟར་ན་དཔུང་བཅད་ཝེ་ན་སིའི་རྡོ་བརྐོས་ནི",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 39,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0017",
+      "coordinates": {
+        "x_min": 898.12,
+        "y_min": 904.79,
+        "x_max": 1148.55,
+        "y_max": 942.12
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ཀན་ལྷོ་བོད་རིགས་",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 38,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0018",
+      "coordinates": {
+        "x_min": 896.6,
+        "y_min": 930.67,
+        "x_max": 1147.36,
+        "y_max": 975.29
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཟླ་བ་བཅུ་པའི་ཚེས་༥ཉིན་: རྒྱལ་དབང་བསྟན་འཛིན་རྒྱ་མཚོར་ནོའོ་བྷེལ་ཞི་བདེའི་བྱ་དགའརག་གནང་བ་རེད",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 40,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0019",
+      "coordinates": {
+        "x_min": 47.16,
+        "y_min": 1025.85,
+        "x_max": 297.59,
+        "y_max": 1063.18
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "༣ (གྲངས་ཀ )",
+      "is_text": true,
+      "order": "41",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 42,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0020",
+      "coordinates": {
+        "x_min": 46.4,
+        "y_min": 1051.72,
+        "x_max": 296.4,
+        "y_max": 1079.76
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "མཚན་ཉིད་རིག་པ་དང་ཨོ་རྩལ་འགྲན་ཚོགས ནུབ་གླིང་རྩོམ་",
+      "is_text": true,
+      "order": "42",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 44,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0021",
+      "coordinates": {
+        "x_min": 328.37,
+        "y_min": 1038.77,
+        "x_max": 578.79,
+        "y_max": 1076.1
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "༣ (གྲངས་ཀ )",
+      "is_text": true,
+      "order": "43",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 43,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0022",
+      "coordinates": {
+        "x_min": 327.61,
+        "y_min": 1064.65,
+        "x_max": 577.6,
+        "y_max": 1092.69
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཐབས་སྤྱད་ཡོད་དེ བརྗོད་དོན་ཁྲོད་ཀྱི་དམག་འཁྲུག་དང་",
+      "is_text": true,
+      "order": "44",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 46,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0023",
+      "coordinates": {
+        "x_min": 609.57,
+        "y_min": 1051.7,
+        "x_max": 860.0,
+        "y_max": 1089.03
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "༡༧༨༣ལོ",
+      "is_text": true,
+      "order": "45",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 45,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0024",
+      "coordinates": {
+        "x_min": 608.81,
+        "y_min": 1077.57,
+        "x_max": 858.81,
+        "y_max": 1105.61
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "བརྗོད་པའི་ངོས་ནས་གཏམ་རྒྱུད་ཀྱི་བྱུང་རིམ་ཞིབ་ཏུ་བརྗོད་",
+      "is_text": true,
+      "order": "46",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 48,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0025",
+      "coordinates": {
+        "x_min": 890.77,
+        "y_min": 1064.63,
+        "x_max": 1141.2,
+        "y_max": 1101.96
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ཀེ་རི་སི",
+      "is_text": true,
+      "order": "47",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 47,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0026",
+      "coordinates": {
+        "x_min": 890.01,
+        "y_min": 1090.5,
+        "x_max": 1140.01,
+        "y_max": 1118.54
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ལྡན་པ་དང་བྱུང་རིམ་ཚགས་དམ་པའི་ཁྱད་ཆོས་ལྡན 《ཡེ་ལི་",
+      "is_text": true,
+      "order": "48",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 49,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T05:36:34.487Z",
+  "updated_at": "2026-07-03T13:37:41"
+}

@@ -1,0 +1,2513 @@
+{
+  "image_id": "900d2475-900d-2475-900d-900d2475900d",
+  "file_name": "01_newspaper_page_json_03.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "newspaper_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "ko",
+    "language_name": "朝鲜语",
+    "script_note": "谚文 Hangul，横排从左到右",
+    "template_type": "newspaper_page",
+    "category": "newspaper_page",
+    "variant": 3,
+    "layout_name": "newspaper_page_v03",
+    "document_id": "01_newspaper_page_json_03",
+    "title": "Vahcuengh Yienghneix",
+    "doc_no": "ZA-V1-01-03",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "newspaper_page",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 83,
+      "page_width": 1280,
+      "page_height": 1783,
+      "body_scroll_width": 1280,
+      "body_scroll_height": 1783,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 23,
+        "y": 17,
+        "width": 1194,
+        "height": 1719,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1754,
+        "content_bbox": {
+          "x_min": 54,
+          "y_min": 48,
+          "x_max": 1186,
+          "y_max": 1704.1
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.9442,
+        "bottom_blank_ratio_before_crop": 0.0284
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 12485946911052809332,
+        "family": "compressed_scan",
+        "geometry": {
+          "source_size": {
+            "width": 1194,
+            "height": 1719
+          },
+          "scale": {
+            "scale": 1.00533,
+            "width": 1200,
+            "height": 1728
+          },
+          "rotation": {
+            "angle_degrees": -3.1001,
+            "width": 1292,
+            "height": 1791
+          },
+          "translation": {
+            "dx": 3,
+            "dy": 3,
+            "width": 1292,
+            "height": 1791
+          },
+          "edge_crop": {
+            "left": 8,
+            "top": 4,
+            "right": 4,
+            "bottom": 4,
+            "width": 1280,
+            "height": 1783
+          },
+          "output_size_before_visual": {
+            "width": 1280,
+            "height": 1783
+          }
+        },
+        "output_size": {
+          "width": 1280,
+          "height": 1783
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "01_newspaper_page_json_03_b0001",
+      "coordinates": {
+        "x_min": 31.14,
+        "y_min": 143.35,
+        "x_max": 242.98,
+        "y_max": 174.04
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0002",
+      "coordinates": {
+        "x_min": 252.67,
+        "y_min": 46.69,
+        "x_max": 893.48,
+        "y_max": 161.86
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "조선어 문서",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "60px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0003",
+      "coordinates": {
+        "x_min": 906.49,
+        "y_min": 106.16,
+        "x_max": 929.63,
+        "y_max": 126.63
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "183",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0004",
+      "coordinates": {
+        "x_min": 999.75,
+        "y_min": 98.0,
+        "x_max": 1080.2,
+        "y_max": 121.58
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026-07-03",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0005",
+      "coordinates": {
+        "x_min": 1150.23,
+        "y_min": 93.22,
+        "x_max": 1168.54,
+        "y_max": 113.43
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "03",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0006",
+      "coordinates": {
+        "x_min": 33.7,
+        "y_min": 187.37,
+        "x_max": 308.24,
+        "y_max": 233.47
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "협력 단체가 있어. 이름이",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0007",
+      "coordinates": {
+        "x_min": 35.78,
+        "y_min": 225.72,
+        "x_max": 314.91,
+        "y_max": 356.54
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "과거는 시간을 통과하면서 매번 다른 모습이 된다. 기억들은 계속 변화한다. 하지만 내 이야기에는 바뀌지 않는 단 하나의 사건이 있고, 나는 그것을 빈틈없이 헤아리고 싶다.",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0008",
+      "coordinates": {
+        "x_min": 43.64,
+        "y_min": 370.88,
+        "x_max": 318.18,
+        "y_max": 416.97
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "의도, 심리 등을 파악할",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0009",
+      "coordinates": {
+        "x_min": 45.72,
+        "y_min": 409.22,
+        "x_max": 322.33,
+        "y_max": 493.57
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "수 없었다. 변명하려는 게 아니다. 다른 상황이, 다른 결과가 가능했을지도 모른다고 상상하는 것조차 사치스러워서 그날의",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0010",
+      "coordinates": {
+        "x_min": 51.06,
+        "y_min": 507.9,
+        "x_max": 325.61,
+        "y_max": 554.1
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "못하지만 말로 들은 활동",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0011",
+      "coordinates": {
+        "x_min": 53.15,
+        "y_min": 546.35,
+        "x_max": 332.27,
+        "y_max": 677.07
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "생활임금은 주거비와 교육비, 문화비 등을 고려해 근로자가 최소한의 인간다운 삶을 유지할 수 있도록 하기 위한 제도입니다. 따라서 최저임금 수준 보다 약간 높게 설정되는 경우가 많습니다.",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0012",
+      "coordinates": {
+        "x_min": 61.0,
+        "y_min": 691.41,
+        "x_max": 335.54,
+        "y_max": 737.6
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "공간도 생기고 덤으로 돈도",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0013",
+      "coordinates": {
+        "x_min": 63.08,
+        "y_min": 729.85,
+        "x_max": 340.95,
+        "y_max": 837.39
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "참고문헌의 중요성 …… 72 참고문헌이 없으면 논문이 아닌가요? 13 참고문헌의 자료 유형 …… 75 어떤 자료가 참고문헌에",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0014",
+      "coordinates": {
+        "x_min": 69.68,
+        "y_min": 851.73,
+        "x_max": 344.22,
+        "y_max": 897.82
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "크게 놀라운 것은 없었다.",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 42,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0015",
+      "coordinates": {
+        "x_min": 71.76,
+        "y_min": 890.07,
+        "x_max": 348.37,
+        "y_max": 974.51
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "것 - 누군가의 말에 흔들리지 않을 것 - 모욕하는 삶을 살지 않을 것 - 스스로에게 변명하지 않을 것 - 누구의 삶도",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 45,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0016",
+      "coordinates": {
+        "x_min": 77.11,
+        "y_min": 988.84,
+        "x_max": 351.65,
+        "y_max": 1034.95
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "다크 초콜릿 화이트 초콜릿",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 49,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0017",
+      "coordinates": {
+        "x_min": 79.19,
+        "y_min": 1027.2,
+        "x_max": 357.05,
+        "y_max": 1134.73
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "냄비에 돼지고기를 넣고 볶아요. 그리고 돼지고기가 익으면 김치를 넣어요. 3분 정도 고기와 김치를 함께 볶아요. 마지막으로,",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 53,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0018",
+      "coordinates": {
+        "x_min": 98.48,
+        "y_min": 1161.76,
+        "x_max": 348.94,
+        "y_max": 1206.66
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "조선어 문서",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 59,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0019",
+      "coordinates": {
+        "x_min": 100.57,
+        "y_min": 1200.21,
+        "x_max": 351.5,
+        "y_max": 1253.94
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "것을 고르십시오. ① 드론 활용 및 악용 방지 기술에 대한 투자가 병행되고",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 61,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0020",
+      "coordinates": {
+        "x_min": 92.39,
+        "y_min": 1270.93,
+        "x_max": 366.93,
+        "y_max": 1317.13
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "가운데 내 귀에 들어온",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 64,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0021",
+      "coordinates": {
+        "x_min": 94.47,
+        "y_min": 1309.38,
+        "x_max": 372.34,
+        "y_max": 1416.92
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "바쁜 일상 속에서도 나만의 시간을 가져보는 것은 어떨까요? 따뜻한 커피 한잔이 내려지는 그 순간, 마음이 차분해지고 하루의 이야기가 시작되는 것만 같습니다.",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 68,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0022",
+      "coordinates": {
+        "x_min": 101.07,
+        "y_min": 1431.25,
+        "x_max": 375.61,
+        "y_max": 1477.45
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "베이징을 내려다 본다면",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 73,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0023",
+      "coordinates": {
+        "x_min": 103.15,
+        "y_min": 1469.7,
+        "x_max": 379.76,
+        "y_max": 1554.03
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "나물은 조상과 후손의 연결이라는 상징적 의미를 담고 있다. 뿌리는 조상, 줄기는 부모, 잎은 자손을 뜻하기 때문이다.",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 75,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0024",
+      "coordinates": {
+        "x_min": 321.6,
+        "y_min": 171.78,
+        "x_max": 596.05,
+        "y_max": 217.88
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "이는어릴 때부터 소비 습관의",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0025",
+      "coordinates": {
+        "x_min": 323.68,
+        "y_min": 210.14,
+        "x_max": 601.46,
+        "y_max": 317.76
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "영어 선생님이세요. 어머니는 따뜻하고 친절 하세요. 그래서 어머니의 학생들은 어머니를 아주 좋아해요. 오빠는 대학생이에요.공부는",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0026",
+      "coordinates": {
+        "x_min": 330.28,
+        "y_min": 332.1,
+        "x_max": 604.73,
+        "y_max": 378.19
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "비교해서 나타내는 것을",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0027",
+      "coordinates": {
+        "x_min": 332.36,
+        "y_min": 370.45,
+        "x_max": 608.88,
+        "y_max": 454.79
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "역사적 흐름에 동일하게 적용되지는 않는다. ‘새 시대’나 ‘근대’라는 용어를 도입하여 사용하더라도, 각 지역에서 그",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0028",
+      "coordinates": {
+        "x_min": 337.71,
+        "y_min": 469.13,
+        "x_max": 612.16,
+        "y_max": 515.32
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "안아주는 말, 마음을 풀어주는",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0029",
+      "coordinates": {
+        "x_min": 339.79,
+        "y_min": 507.57,
+        "x_max": 620.07,
+        "y_max": 661.48
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "은은하게 퍼지는 커피의 향기, 컵에서 전해오는 따스함. 이 모든 것들이 작은 위로가 되어줍니다. 친구와 수다를 떨며, 혹은 혼자만의 생각에 잠기며 즐기는 커피는 단순한 음료가 아닌, 소중한 휴식의 순간입니다.",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0030",
+      "coordinates": {
+        "x_min": 348.9,
+        "y_min": 675.82,
+        "x_max": 623.35,
+        "y_max": 722.01
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "관점에 따르면 독해 능력이",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0031",
+      "coordinates": {
+        "x_min": 350.98,
+        "y_min": 714.27,
+        "x_max": 628.76,
+        "y_max": 821.79
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "우리나라의 위치를 말할 때 '극동'에 위치한 한반도라고 표현할 때가 있어. 극동이란 가장 동쪽이라는 뜻이 짧아. 이게 맞는 말일까?",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0032",
+      "coordinates": {
+        "x_min": 357.58,
+        "y_min": 836.14,
+        "x_max": 632.03,
+        "y_max": 882.22
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "이유 없이도 서로를 챙기던",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 40,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0033",
+      "coordinates": {
+        "x_min": 359.66,
+        "y_min": 874.48,
+        "x_max": 637.44,
+        "y_max": 982.11
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "가수들이 뛰어난 가창력을 가진 것이라고 생각하던 나는 제법 큰 충격을 받았다. 상록수 에서 들리는 김민기의 낮은 목소리는 좀 서글펐지만, 좋았다.",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 46,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0034",
+      "coordinates": {
+        "x_min": 366.27,
+        "y_min": 996.45,
+        "x_max": 640.71,
+        "y_max": 1042.54
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "번째 또는 두 번째 장편",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 50,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0035",
+      "coordinates": {
+        "x_min": 368.34,
+        "y_min": 1034.8,
+        "x_max": 644.86,
+        "y_max": 1119.14
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "해독은 개별 단어를 인식하는 능력으로, 단어를 빠르고 정확히 소리 내어 읽기, 단어를 한눈에 식별하기 등을 포함한다.",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 54,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0036",
+      "coordinates": {
+        "x_min": 373.69,
+        "y_min": 1133.47,
+        "x_max": 648.14,
+        "y_max": 1179.67
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "1.선로 가까이 가면 열차와",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 58,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0037",
+      "coordinates": {
+        "x_min": 375.77,
+        "y_min": 1171.93,
+        "x_max": 652.29,
+        "y_max": 1256.27
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "제주의 고유한 문화와 경치를 자연스럽게 보여주며 제주의 여러 해안과 산길을 이어놓은 걷는 길 코스이다. 2007년부터",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 62,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0038",
+      "coordinates": {
+        "x_min": 381.11,
+        "y_min": 1270.6,
+        "x_max": 655.56,
+        "y_max": 1316.7
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "실생활과의 통합 활동 올바른",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 65,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0039",
+      "coordinates": {
+        "x_min": 383.19,
+        "y_min": 1308.95,
+        "x_max": 659.71,
+        "y_max": 1393.28
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "뜨거웠던 6월, 어느 날이었던 같다. 그해 대학에 입학한 막내 누나는 학교에서 영향받았을 것이 틀림없는 노래 테이프들을",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 69,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0040",
+      "coordinates": {
+        "x_min": 388.53,
+        "y_min": 1407.63,
+        "x_max": 662.99,
+        "y_max": 1453.83
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "이는 중국인의 이상적인",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 72,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0041",
+      "coordinates": {
+        "x_min": 390.62,
+        "y_min": 1446.07,
+        "x_max": 667.14,
+        "y_max": 1530.41
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "송편은 보름달이 아닌 반달 모 양이다. 이는 반달이 현재보다 더 나은 미래를 의미하기 때문이다. 즉 보름달은 밝고 완전한",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 74,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0042",
+      "coordinates": {
+        "x_min": 609.41,
+        "y_min": 156.19,
+        "x_max": 883.96,
+        "y_max": 202.29
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "집중시키는 힘인지 모르겠다고.",
+      "is_text": true,
+      "order": "41",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0043",
+      "coordinates": {
+        "x_min": 611.49,
+        "y_min": 194.54,
+        "x_max": 891.88,
+        "y_max": 348.55
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "앤드루 카네기는 미국의 사업가입니다. '카네기 철강 회사'를 세운 그는 철강왕으로 유명하며 미국 최고의 부자였습니다. 자신이 번 돈 중 3억 달러가 넘는 많은 돈을 사회에 기부하여 교육 사업과 문화 사업을 펼쳤습니다.",
+      "is_text": true,
+      "order": "42",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0044",
+      "coordinates": {
+        "x_min": 620.6,
+        "y_min": 362.89,
+        "x_max": 895.15,
+        "y_max": 408.99
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "복잡하죠?”라며 ‘찾아오느라",
+      "is_text": true,
+      "order": "43",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0045",
+      "coordinates": {
+        "x_min": 622.68,
+        "y_min": 401.23,
+        "x_max": 899.3,
+        "y_max": 485.57
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "먼저, 냄비에 돼지고기를 넣고 볶아요. 그리고 돼지고기가 익으면 김치를 넣어요. 3분 정도 고기와 김치를 함께 볶아요.",
+      "is_text": true,
+      "order": "44",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0046",
+      "coordinates": {
+        "x_min": 628.03,
+        "y_min": 499.91,
+        "x_max": 902.58,
+        "y_max": 546.11
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "남치 할 경우 변색의 후적가",
+      "is_text": true,
+      "order": "45",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0047",
+      "coordinates": {
+        "x_min": 630.11,
+        "y_min": 538.36,
+        "x_max": 907.98,
+        "y_max": 645.89
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "하지만 아이러니하게도 나는 지금 속히 말하는 비효율적인 말들로 에세이를 쓰고 있다. 그저 \"괜찮아.\" \"언젠가는 좋은 날이 올 거야.\"",
+      "is_text": true,
+      "order": "46",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0048",
+      "coordinates": {
+        "x_min": 636.71,
+        "y_min": 660.23,
+        "x_max": 912.96,
+        "y_max": 737.75
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "샘 논문 2014 을 살펴보면 외국인 대학생이랑",
+      "is_text": true,
+      "order": "47",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0049",
+      "coordinates": {
+        "x_min": 640.49,
+        "y_min": 730.0,
+        "x_max": 918.36,
+        "y_max": 837.53
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "수 있게 그림으로 나타낸 표이다. 문제 해결식 논설문에서는 문제 현황을 분석하거나 자신의 주장을 뒷받침하기 위해 도표를",
+      "is_text": true,
+      "order": "48",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 38,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0050",
+      "coordinates": {
+        "x_min": 647.09,
+        "y_min": 851.86,
+        "x_max": 921.64,
+        "y_max": 898.06
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "발달을 모두 고려하여 독자",
+      "is_text": true,
+      "order": "49",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 43,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0051",
+      "coordinates": {
+        "x_min": 649.17,
+        "y_min": 890.31,
+        "x_max": 925.79,
+        "y_max": 974.66
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "이르는 양이다. 또 각국의 수돗물 가격을 분석한 도표를 보면 한국은 수돗물 1톤당 276원으로 수돗물 값이 가장 비싼",
+      "is_text": true,
+      "order": "50",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 47,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0052",
+      "coordinates": {
+        "x_min": 654.51,
+        "y_min": 988.99,
+        "x_max": 929.06,
+        "y_max": 1035.09
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "⑤단순 관점과 달리,독해에",
+      "is_text": true,
+      "order": "51",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 51,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0053",
+      "coordinates": {
+        "x_min": 656.59,
+        "y_min": 1027.33,
+        "x_max": 933.21,
+        "y_max": 1111.68
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "먹어요. 김치찌개에는 김치와 돼지고기가 들어가요. 먼저, 냄비에 돼지고기를 넣고 볶아요. 그리고 돼지고기가 익으면 김치를",
+      "is_text": true,
+      "order": "52",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 55,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0054",
+      "coordinates": {
+        "x_min": 661.94,
+        "y_min": 1126.02,
+        "x_max": 936.49,
+        "y_max": 1172.21
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "코스가 개발되었고 앞으로도",
+      "is_text": true,
+      "order": "53",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 57,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0055",
+      "coordinates": {
+        "x_min": 664.02,
+        "y_min": 1164.46,
+        "x_max": 941.89,
+        "y_max": 1271.99
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "하고 차분히 반색했다. 이연은 오대표의 느긋하고 위엄 있는 목소리가 단정한 외모와 묘하게 어긋난다 느꼈다. 어쩌면 그런",
+      "is_text": true,
+      "order": "54",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 63,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0056",
+      "coordinates": {
+        "x_min": 670.62,
+        "y_min": 1286.33,
+        "x_max": 945.17,
+        "y_max": 1332.53
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "찾아오는 손님들에게 조의금은",
+      "is_text": true,
+      "order": "55",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 67,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0057",
+      "coordinates": {
+        "x_min": 672.7,
+        "y_min": 1324.78,
+        "x_max": 949.32,
+        "y_max": 1409.12
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "삶의 순간순간이 고맙고 놀랍고 신기하고 새로울 뿐이란다. 그러하니 죽음의 날에도 나는 그저 모든 것에 감사하고 모든",
+      "is_text": true,
+      "order": "56",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 71,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0058",
+      "coordinates": {
+        "x_min": 897.32,
+        "y_min": 140.6,
+        "x_max": 1171.75,
+        "y_max": 186.7
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "향유고래의 배 속에서는",
+      "is_text": true,
+      "order": "57",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0059",
+      "coordinates": {
+        "x_min": 899.39,
+        "y_min": 178.95,
+        "x_max": 1175.91,
+        "y_max": 263.39
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "논문마다 참고문헌 작성 형식이 같은가요? 15 참고문헌의 배열 순서 …… 84 자료 배열 순서가 따로 있어요? 16",
+      "is_text": true,
+      "order": "58",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0060",
+      "coordinates": {
+        "x_min": 904.74,
+        "y_min": 277.73,
+        "x_max": 1179.18,
+        "y_max": 323.83
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "마음이 들게 쓰는 것이",
+      "is_text": true,
+      "order": "59",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0061",
+      "coordinates": {
+        "x_min": 906.82,
+        "y_min": 316.07,
+        "x_max": 1183.33,
+        "y_max": 400.41
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "한자어, 외래어 등 세개 부분으로 구성되었다. 김광해 1989년 에서는 한국어의 어휘별 구성에서 한자어가 차지하는 비중이",
+      "is_text": true,
+      "order": "60",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0062",
+      "coordinates": {
+        "x_min": 912.17,
+        "y_min": 414.76,
+        "x_max": 1186.61,
+        "y_max": 460.94
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "충격을 받았다. 상록수",
+      "is_text": true,
+      "order": "61",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0063",
+      "coordinates": {
+        "x_min": 914.25,
+        "y_min": 453.2,
+        "x_max": 1190.76,
+        "y_max": 537.54
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "있는 한나를 죽도록 폈다. 손바닥으로 한나의 뺨을 수차례 때리고, 어깨와 가슴을 두 주먹으로 광황 내려졌다. 어른들이",
+      "is_text": true,
+      "order": "62",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0064",
+      "coordinates": {
+        "x_min": 919.59,
+        "y_min": 551.88,
+        "x_max": 1194.03,
+        "y_max": 597.97
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "하세요. 그래서 어머니의",
+      "is_text": true,
+      "order": "63",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0065",
+      "coordinates": {
+        "x_min": 921.67,
+        "y_min": 590.23,
+        "x_max": 1198.18,
+        "y_max": 674.57
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "모 양이다. 이는 반달이 현재보다 더 나은 미래를 의미하기 때문이다. 즉 보름달은 밝고 완전한 모양이지만 시간이 지나면서",
+      "is_text": true,
+      "order": "64",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0066",
+      "coordinates": {
+        "x_min": 927.01,
+        "y_min": 688.91,
+        "x_max": 1201.46,
+        "y_max": 735.1
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "훗날〈개그콘서트〉속 인기",
+      "is_text": true,
+      "order": "65",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0067",
+      "coordinates": {
+        "x_min": 929.1,
+        "y_min": 727.36,
+        "x_max": 1205.6,
+        "y_max": 811.69
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "떠나고 싶다. 원망이며 아쉬움 같은 것은 남기지 말아야 하겠지. 오히려 고마운 마음, 감사한 마음, 미안한 마음을 가져야",
+      "is_text": true,
+      "order": "66",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 39,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0068",
+      "coordinates": {
+        "x_min": 934.44,
+        "y_min": 826.04,
+        "x_max": 1208.88,
+        "y_max": 872.13
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "개발되었고 앞으로도 계속",
+      "is_text": true,
+      "order": "67",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 41,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0069",
+      "coordinates": {
+        "x_min": 936.52,
+        "y_min": 864.38,
+        "x_max": 1213.03,
+        "y_max": 948.82
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "단정한 외모와 묘하게 어긋난다 느꼈다. 어쩌면 그런 어긋남이 상대를 집중시키는 힘인지 모르겠다고. 오대표가 가슴에 꽂을",
+      "is_text": true,
+      "order": "68",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 44,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0070",
+      "coordinates": {
+        "x_min": 941.87,
+        "y_min": 963.17,
+        "x_max": 1216.3,
+        "y_max": 1009.25
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "못 번다면 씀씀이를 줄여보자.",
+      "is_text": true,
+      "order": "69",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 48,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0071",
+      "coordinates": {
+        "x_min": 943.94,
+        "y_min": 1001.51,
+        "x_max": 1220.45,
+        "y_max": 1085.85
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "모든 것을 가볍게 내려놓고 떠나고 싶다. 원망이며 아쉬움 같은 것은 남기지 말아야 하겠지. 오히려 고마운 마음, 감사한",
+      "is_text": true,
+      "order": "70",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 52,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0072",
+      "coordinates": {
+        "x_min": 949.29,
+        "y_min": 1100.18,
+        "x_max": 1223.73,
+        "y_max": 1146.38
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "효과를 보이지만 아직 한계가",
+      "is_text": true,
+      "order": "71",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 56,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0073",
+      "coordinates": {
+        "x_min": 951.37,
+        "y_min": 1138.64,
+        "x_max": 1229.14,
+        "y_max": 1246.16
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "기회로 하늘에서 베이징을 내려다 본다면 어려분은 2환 도로의 불규칙한 사각형 윤곽 속에 푸른 벽돌과 회색 기와로 둘러싸인",
+      "is_text": true,
+      "order": "72",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 60,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0074",
+      "coordinates": {
+        "x_min": 957.97,
+        "y_min": 1260.5,
+        "x_max": 1232.41,
+        "y_max": 1306.6
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "그 아날로그의 온기가 유난히",
+      "is_text": true,
+      "order": "73",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 66,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0075",
+      "coordinates": {
+        "x_min": 960.05,
+        "y_min": 1298.85,
+        "x_max": 1237.82,
+        "y_max": 1406.48
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "너의 손을 잡고 걸을 때에도 떠올랐었어 그 사람이 정말 듣고 싶었던 말이야 물론 그년 전 일이지만 기뻐야하는 게 당연한데",
+      "is_text": true,
+      "order": "74",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 70,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0076",
+      "coordinates": {
+        "x_min": 109.26,
+        "y_min": 1585.33,
+        "x_max": 332.52,
+        "y_max": 1671.49
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "지역이 있을 거라고? 둥근 지구를 평평한 면에서 보는",
+      "is_text": true,
+      "order": "75",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 80,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0077",
+      "coordinates": {
+        "x_min": 338.53,
+        "y_min": 1572.91,
+        "x_max": 561.8,
+        "y_max": 1659.08
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "있습니다. 몸속으로 들어가 내장 벽을 뚫거나 패혈증을",
+      "is_text": true,
+      "order": "76",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 78,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0078",
+      "coordinates": {
+        "x_min": 567.82,
+        "y_min": 1560.49,
+        "x_max": 791.08,
+        "y_max": 1646.66
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "기반으로 효과적인 한자어어휘 교육방안을 모색하고 저",
+      "is_text": true,
+      "order": "77",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 79,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0079",
+      "coordinates": {
+        "x_min": 797.09,
+        "y_min": 1548.07,
+        "x_max": 1020.36,
+        "y_max": 1634.24
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "2.열차안에서 배웅하는 것은 매우 위험하오니, 밀찰차에 승차하지 마시기 바랍니다.",
+      "is_text": true,
+      "order": "78",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 77,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0080",
+      "coordinates": {
+        "x_min": 1026.38,
+        "y_min": 1535.66,
+        "x_max": 1249.64,
+        "y_max": 1621.82
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "세워진 주거 건축물을 다른 말로 민가라고 부른다. 독특한",
+      "is_text": true,
+      "order": "79",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 76,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0081",
+      "coordinates": {
+        "x_min": 113.83,
+        "y_min": 1669.65,
+        "x_max": 337.09,
+        "y_max": 1755.82
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "의 글이 들어가기에 가장 알맞은 것을 고르십시오. 이런",
+      "is_text": true,
+      "order": "80",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 83,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0082",
+      "coordinates": {
+        "x_min": 343.1,
+        "y_min": 1657.24,
+        "x_max": 566.36,
+        "y_max": 1743.4
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "극동이란 가장 동쪽이라는 뜻이 짧아. 이게 맞는 말일까?",
+      "is_text": true,
+      "order": "81",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 81,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_03_b0083",
+      "coordinates": {
+        "x_min": 572.38,
+        "y_min": 1644.82,
+        "x_max": 795.65,
+        "y_max": 1730.98
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "근대 한국의 자연관 변화 -변화와 치유를 강조한 강증산의 자연관을 중심으로-",
+      "is_text": true,
+      "order": "82",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "14px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 82,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:02:29.105Z",
+  "updated_at": "2026-07-03T12:03:49"
+}

@@ -1,0 +1,228 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "textbook_page_vertical_tree_06",
+  "variant": 6,
+  "category_id": "textbook_page",
+  "category_cn": "教科书页",
+  "folder": "06_教科书页",
+  "template_name_cn": "图表说明页",
+  "layout_family": "diagram_textbook_page",
+  "design_prompt": "图表/示意图占位配合竖排说明和练习。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1040,
+    "height": 1500,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 10,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "chapter_title",
+      "role": "diagram_title",
+      "class": "title",
+      "box": {
+        "x": 80,
+        "y": 70,
+        "w": 52,
+        "h": 1320
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 8,
+        "max_chars": 42
+      },
+      "visual": {}
+    },
+    {
+      "id": "diagram",
+      "kind": "image",
+      "label": "image",
+      "role": "diagram",
+      "class": "image-fill",
+      "box": {
+        "x": 190,
+        "y": 100,
+        "w": 300,
+        "h": 520
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "caption",
+      "kind": "text",
+      "label": "caption",
+      "role": "diagram_caption",
+      "class": "small",
+      "box": {
+        "x": 520,
+        "y": 100,
+        "w": 30,
+        "h": 520
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 14,
+        "max_chars": 36
+      },
+      "visual": {}
+    },
+    {
+      "id": "key_note",
+      "kind": "text",
+      "label": "note",
+      "role": "diagram_key_note",
+      "class": "small",
+      "box": {
+        "x": 190,
+        "y": 690,
+        "w": 34,
+        "h": 640
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 600,
+        "y": 100,
+        "w": 32,
+        "h": 1180
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 96
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 656,
+        "y": 100,
+        "w": 32,
+        "h": 1180
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 96
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 712,
+        "y": 100,
+        "w": 32,
+        "h": 1180
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 96
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 768,
+        "y": 100,
+        "w": 32,
+        "h": 1180
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 96
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 824,
+        "y": 100,
+        "w": 32,
+        "h": 1180
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 96
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 880,
+        "y": 100,
+        "w": 32,
+        "h": 1180
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 30,
+        "max_chars": 96
+      },
+      "visual": {}
+    }
+  ]
+}

@@ -1,0 +1,2252 @@
+{
+  "image_id": "a3532317-a353-2317-a353-a3532317a353",
+  "file_name": "11_complex_form_json_04.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "remaining_pages_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "ko",
+    "language_name": "朝鲜语",
+    "script_note": "谚文 Hangul，横排从左到右",
+    "template_type": "complex_form",
+    "category": "complex_form",
+    "variant": 4,
+    "layout_name": "complex_form_v04",
+    "document_id": "11_complex_form_json_04",
+    "title": "Cingzdan Danghgi",
+    "doc_no": "ZA-V1-11-04",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.18,
+    "chinese_topic": "complex_form",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 74,
+      "page_width": 1210,
+      "page_height": 1051,
+      "body_scroll_width": 1210,
+      "body_scroll_height": 1051,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 31,
+        "y": 23,
+        "width": 1178,
+        "height": 1002,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1754,
+        "content_bbox": {
+          "x_min": 62,
+          "y_min": 54,
+          "x_max": 1178,
+          "y_max": 994
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.5359,
+        "bottom_blank_ratio_before_crop": 0.4333
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 4335699137679506245,
+        "family": "warm_paper",
+        "geometry": {
+          "source_size": {
+            "width": 1178,
+            "height": 1002
+          },
+          "scale": {
+            "scale": 1.00324,
+            "width": 1182,
+            "height": 1005
+          },
+          "rotation": {
+            "angle_degrees": -2.447,
+            "width": 1224,
+            "height": 1055
+          },
+          "translation": {
+            "dx": -7,
+            "dy": 5,
+            "width": 1224,
+            "height": 1055
+          },
+          "edge_crop": {
+            "left": 7,
+            "top": 1,
+            "right": 7,
+            "bottom": 3,
+            "width": 1210,
+            "height": 1051
+          },
+          "output_size_before_visual": {
+            "width": 1210,
+            "height": 1051
+          }
+        },
+        "output_size": {
+          "width": 1210,
+          "height": 1051
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "11_complex_form_json_04_b0073",
+      "coordinates": {
+        "x_min": 18.4,
+        "y_min": 36.41,
+        "x_max": 1139.79,
+        "y_max": 149.46
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "조선어 문서",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "44px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0074",
+      "coordinates": {
+        "x_min": 21.19,
+        "y_min": 101.66,
+        "x_max": 1142.07,
+        "y_max": 202.98
+      },
+      "points": null,
+      "block_label": "document_subtitle",
+      "block_content": "아름다운지, 그리고 그걸음걸음이 때로는 얼마나 치열한지 말입니다.비록 이번 여정은 잠시 이곳에서 갈라지게 되었으나, 후보자님께서",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "subtitle",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0001",
+      "coordinates": {
+        "x_min": 24.25,
+        "y_min": 197.51,
+        "x_max": 575.33,
+        "y_max": 239.77
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "1. 등을 줄임으로써 건강을 지킬 수 있는。提交材料请逐项核对",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0002",
+      "coordinates": {
+        "x_min": 25.13,
+        "y_min": 237.33,
+        "x_max": 129.96,
+        "y_max": 257.81
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "초콜릿 : 초콜릿 다크",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0003",
+      "coordinates": {
+        "x_min": 141.31,
+        "y_min": 231.7,
+        "x_max": 261.56,
+        "y_max": 252.85
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "있어도 외롭다고 느껴질",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0004",
+      "coordinates": {
+        "x_min": 25.86,
+        "y_min": 235.31,
+        "x_max": 577.25,
+        "y_max": 284.88
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0005",
+      "coordinates": {
+        "x_min": 592.57,
+        "y_min": 173.22,
+        "x_max": 1144.45,
+        "y_max": 234.32
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "2. 무엇보다도 시인이 된 것이 좋았다. 모질고 삐딱한 성격이었지만 시를 만났기 때문에 모진 마。附件清单随表提交",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0006",
+      "coordinates": {
+        "x_min": 594.26,
+        "y_min": 231.22,
+        "x_max": 714.53,
+        "y_max": 252.37
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "속에서도 나만의 시간을",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0007",
+      "coordinates": {
+        "x_min": 725.86,
+        "y_min": 225.93,
+        "x_max": 838.31,
+        "y_max": 246.74
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "신고 나간적이 있다 내",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0008",
+      "coordinates": {
+        "x_min": 594.99,
+        "y_min": 229.86,
+        "x_max": 1146.38,
+        "y_max": 279.43
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0009",
+      "coordinates": {
+        "x_min": 28.51,
+        "y_min": 297.25,
+        "x_max": 579.59,
+        "y_max": 339.51
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "3. 거닐면 옛 정취가 물씬 풍기는 민가 건축。本人承诺材料真实",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0010",
+      "coordinates": {
+        "x_min": 29.31,
+        "y_min": 331.91,
+        "x_max": 207.9,
+        "y_max": 357.54
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "퇴근하던 길이 / 家庭住址请填写完",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0011",
+      "coordinates": {
+        "x_min": 219.23,
+        "y_min": 328.81,
+        "x_max": 327.17,
+        "y_max": 349.43
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "그럼에도 노력 = 능력",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0012",
+      "coordinates": {
+        "x_min": 30.12,
+        "y_min": 335.03,
+        "x_max": 581.51,
+        "y_max": 384.61
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0013",
+      "coordinates": {
+        "x_min": 596.83,
+        "y_min": 272.96,
+        "x_max": 1147.91,
+        "y_max": 315.22
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "4. 버스 운행중 자리이동을 삼가해 주시기 바라며 차량이。证件号码仅用于核验",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0014",
+      "coordinates": {
+        "x_min": 597.72,
+        "y_min": 312.44,
+        "x_max": 710.16,
+        "y_max": 333.25
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "않는 단 하나의 사건이",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0015",
+      "coordinates": {
+        "x_min": 721.42,
+        "y_min": 303.5,
+        "x_max": 872.54,
+        "y_max": 327.96
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "\"괜찮아.\" / 单位意见需加盖公",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0016",
+      "coordinates": {
+        "x_min": 598.44,
+        "y_min": 310.75,
+        "x_max": 1149.84,
+        "y_max": 360.32
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0017",
+      "coordinates": {
+        "x_min": 31.97,
+        "y_min": 378.13,
+        "x_max": 583.85,
+        "y_max": 439.24
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "5. 하나는 강증산 , 1871~1909 의 종교운동에서 나타났다.20세기 초반。审核意见由经办人填写",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0018",
+      "coordinates": {
+        "x_min": 33.66,
+        "y_min": 437.73,
+        "x_max": 116.64,
+        "y_max": 457.28
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "생활임금은 지난",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0019",
+      "coordinates": {
+        "x_min": 127.98,
+        "y_min": 432.44,
+        "x_max": 240.42,
+        "y_max": 453.25
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "이웃은 거의 가족 같은",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0020",
+      "coordinates": {
+        "x_min": 34.39,
+        "y_min": 434.76,
+        "x_max": 585.78,
+        "y_max": 484.35
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0021",
+      "coordinates": {
+        "x_min": 600.29,
+        "y_min": 353.85,
+        "x_max": 1151.37,
+        "y_max": 396.21
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "6. 걸어가고 습관적으로 마시는 커피를 줄이。基本信息用于档案登记",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0022",
+      "coordinates": {
+        "x_min": 601.18,
+        "y_min": 394.06,
+        "x_max": 698.88,
+        "y_max": 414.25
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "우리 어머니는 영어",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0023",
+      "coordinates": {
+        "x_min": 710.23,
+        "y_min": 388.43,
+        "x_max": 830.49,
+        "y_max": 409.59
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "조직 위원회가 주최하는",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0024",
+      "coordinates": {
+        "x_min": 601.91,
+        "y_min": 391.73,
+        "x_max": 1153.3,
+        "y_max": 441.31
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0025",
+      "coordinates": {
+        "x_min": 36.23,
+        "y_min": 477.86,
+        "x_max": 587.31,
+        "y_max": 520.22
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "7. 1.반드시 단독으로 손세탁 하시기 비란 니다. 소재의 특성상 올바짐이。签名栏不得代签",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0026",
+      "coordinates": {
+        "x_min": 37.12,
+        "y_min": 517.48,
+        "x_max": 149.06,
+        "y_max": 538.27
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "때문이요. 그건 우리네",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 38,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0027",
+      "coordinates": {
+        "x_min": 160.41,
+        "y_min": 512.52,
+        "x_max": 264.94,
+        "y_max": 533.0
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "년에 한 번 쓸까 말까",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 39,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0028",
+      "coordinates": {
+        "x_min": 37.85,
+        "y_min": 515.75,
+        "x_max": 589.24,
+        "y_max": 565.33
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 41,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0029",
+      "coordinates": {
+        "x_min": 604.55,
+        "y_min": 453.58,
+        "x_max": 1156.43,
+        "y_max": 514.68
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "8. 1.선로 가까이 가면 열차와 접촉 우려가 있으니, 안전선 안쪽에서 배웅。证件号码仅用于核验",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0030",
+      "coordinates": {
+        "x_min": 606.24,
+        "y_min": 511.58,
+        "x_max": 726.51,
+        "y_max": 532.72
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "위도는 적도를 기준으로",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 40,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0031",
+      "coordinates": {
+        "x_min": 737.84,
+        "y_min": 505.95,
+        "x_max": 858.11,
+        "y_max": 527.1
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "앞으로도 계속 아름다운",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0032",
+      "coordinates": {
+        "x_min": 606.97,
+        "y_min": 510.2,
+        "x_max": 1158.36,
+        "y_max": 559.79
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 42,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0033",
+      "coordinates": {
+        "x_min": 40.49,
+        "y_min": 577.59,
+        "x_max": 591.57,
+        "y_max": 619.95
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "9. 겨야. 경도는 북극과 남극을 잇는 세。提交材料请逐项核对",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0034",
+      "coordinates": {
+        "x_min": 41.38,
+        "y_min": 617.18,
+        "x_max": 153.82,
+        "y_max": 638.0
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "감정을 받아줄 만큼 내",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 46,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0035",
+      "coordinates": {
+        "x_min": 165.17,
+        "y_min": 611.9,
+        "x_max": 277.51,
+        "y_max": 632.71
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "다만 한 가지 구체적인",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 47,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0036",
+      "coordinates": {
+        "x_min": 42.11,
+        "y_min": 615.49,
+        "x_max": 593.5,
+        "y_max": 665.06
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 48,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0037",
+      "coordinates": {
+        "x_min": 608.81,
+        "y_min": 553.31,
+        "x_max": 1159.89,
+        "y_max": 595.66
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "10. 동물처럼 개체 생존을 위해 먹고, 배설。证件号码仅用于核验",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0038",
+      "coordinates": {
+        "x_min": 609.7,
+        "y_min": 593.72,
+        "x_max": 702.8,
+        "y_max": 613.71
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "문화의 요소: 언어,",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 43,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0039",
+      "coordinates": {
+        "x_min": 714.15,
+        "y_min": 588.41,
+        "x_max": 827.09,
+        "y_max": 609.24
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "안내·성적표 진위 확인",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 44,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0040",
+      "coordinates": {
+        "x_min": 610.43,
+        "y_min": 591.2,
+        "x_max": 1161.82,
+        "y_max": 640.77
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "41",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 45,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0041",
+      "coordinates": {
+        "x_min": 43.95,
+        "y_min": 658.58,
+        "x_max": 595.03,
+        "y_max": 700.85
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "11. 근대 한국의 자연관 변화 -변화와 치유를 강조한 강증。表格涂改处需要确认",
+      "is_text": true,
+      "order": "42",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0042",
+      "coordinates": {
+        "x_min": 44.84,
+        "y_min": 698.26,
+        "x_max": 152.77,
+        "y_max": 718.88
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "있고, 4대가 함께하는",
+      "is_text": true,
+      "order": "43",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 52,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0043",
+      "coordinates": {
+        "x_min": 164.12,
+        "y_min": 692.64,
+        "x_max": 284.37,
+        "y_max": 713.78
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "이 이야기는 회고록이자",
+      "is_text": true,
+      "order": "44",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 49,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0044",
+      "coordinates": {
+        "x_min": 45.57,
+        "y_min": 696.37,
+        "x_max": 596.96,
+        "y_max": 745.95
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "45",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 54,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0045",
+      "coordinates": {
+        "x_min": 612.27,
+        "y_min": 634.29,
+        "x_max": 1164.16,
+        "y_max": 695.4
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "12. 다만 한 가지 구체적인 부탁이 있다면 상가에 찾아오는 손님들에게 조의금은 받지 말아달라。本人承诺材料真实",
+      "is_text": true,
+      "order": "46",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0046",
+      "coordinates": {
+        "x_min": 613.96,
+        "y_min": 692.65,
+        "x_max": 725.91,
+        "y_max": 713.44
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "못하기 때문이요. 그건",
+      "is_text": true,
+      "order": "47",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 50,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0047",
+      "coordinates": {
+        "x_min": 737.25,
+        "y_min": 687.02,
+        "x_max": 857.51,
+        "y_max": 708.17
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "시원스럽다 아쉽다 관문",
+      "is_text": true,
+      "order": "48",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 51,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0048",
+      "coordinates": {
+        "x_min": 614.69,
+        "y_min": 690.93,
+        "x_max": 1166.08,
+        "y_max": 740.5
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "49",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 53,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0049",
+      "coordinates": {
+        "x_min": 48.21,
+        "y_min": 758.32,
+        "x_max": 599.29,
+        "y_max": 800.58
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "13. 팔 민 , 푸젠 성의 다른 이름 에 들。受理编号由系统生成",
+      "is_text": true,
+      "order": "50",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0050",
+      "coordinates": {
+        "x_min": 49.1,
+        "y_min": 797.46,
+        "x_max": 169.37,
+        "y_max": 818.62
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "그리고 일출봉 주차장을",
+      "is_text": true,
+      "order": "51",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 59,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0051",
+      "coordinates": {
+        "x_min": 180.71,
+        "y_min": 792.17,
+        "x_max": 293.15,
+        "y_max": 813.0
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "밝혀 독해 능력 연구의",
+      "is_text": true,
+      "order": "52",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 57,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0052",
+      "coordinates": {
+        "x_min": 49.83,
+        "y_min": 796.1,
+        "x_max": 601.22,
+        "y_max": 845.68
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "53",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 60,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0053",
+      "coordinates": {
+        "x_min": 616.53,
+        "y_min": 734.03,
+        "x_max": 1167.61,
+        "y_max": 776.29
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "14. 운동회 날 솜사탕 아줌마와 풍선 아줌마 음료수 아。家庭住址请填写完整",
+      "is_text": true,
+      "order": "54",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0054",
+      "coordinates": {
+        "x_min": 617.42,
+        "y_min": 773.51,
+        "x_max": 729.86,
+        "y_max": 794.33
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "세 가지 나물은 조상과",
+      "is_text": true,
+      "order": "55",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 56,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0055",
+      "coordinates": {
+        "x_min": 741.21,
+        "y_min": 769.0,
+        "x_max": 835.51,
+        "y_max": 789.04
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "어딘가 서글프지만",
+      "is_text": true,
+      "order": "56",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 55,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0056",
+      "coordinates": {
+        "x_min": 618.15,
+        "y_min": 771.82,
+        "x_max": 1169.54,
+        "y_max": 821.39
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "57",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 58,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0057",
+      "coordinates": {
+        "x_min": 51.67,
+        "y_min": 839.2,
+        "x_max": 602.75,
+        "y_max": 881.56
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "15. 괜찮아 잘 될 거야 너에겐 눈부신 미래가 있。家庭住址请填写完整",
+      "is_text": true,
+      "order": "58",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0058",
+      "coordinates": {
+        "x_min": 52.56,
+        "y_min": 878.46,
+        "x_max": 172.83,
+        "y_max": 899.61
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "향유고래의 배 속에서는",
+      "is_text": true,
+      "order": "59",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 63,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0059",
+      "coordinates": {
+        "x_min": 184.17,
+        "y_min": 873.19,
+        "x_max": 296.11,
+        "y_max": 893.98
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "우려가 있으니, 안전선",
+      "is_text": true,
+      "order": "60",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 64,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0060",
+      "coordinates": {
+        "x_min": 53.29,
+        "y_min": 877.09,
+        "x_max": 604.68,
+        "y_max": 926.67
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "61",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 66,
+      "reading_group": "footer",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0061",
+      "coordinates": {
+        "x_min": 619.99,
+        "y_min": 814.92,
+        "x_max": 1171.87,
+        "y_max": 876.02
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "16. 적당량의 내용물을 취하여 입술에 발라 줍니다. 사용 후 반드시 용기 캡을 꼽음하면。审核意见由经办人填写",
+      "is_text": true,
+      "order": "62",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0062",
+      "coordinates": {
+        "x_min": 621.6,
+        "y_min": 868.5,
+        "x_max": 798.38,
+        "y_max": 894.06
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "잠자기 뒤에서 / 提交材料请逐项核",
+      "is_text": true,
+      "order": "63",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 61,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0063",
+      "coordinates": {
+        "x_min": 809.64,
+        "y_min": 860.59,
+        "x_max": 983.41,
+        "y_max": 886.03
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "산이다. 따라 / 申请事项请如实填",
+      "is_text": true,
+      "order": "64",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 62,
+      "reading_group": "form",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0064",
+      "coordinates": {
+        "x_min": 622.41,
+        "y_min": 871.54,
+        "x_max": 1173.8,
+        "y_max": 921.13
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "65",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 65,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0065",
+      "coordinates": {
+        "x_min": 55.93,
+        "y_min": 938.93,
+        "x_max": 607.01,
+        "y_max": 981.29
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "17. 정신없이 보내던 시기였지만, 난 잠시。附件清单随表提交",
+      "is_text": true,
+      "order": "66",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 68,
+      "reading_group": "footer",
+      "reading_role": "question",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0066",
+      "coordinates": {
+        "x_min": 56.82,
+        "y_min": 978.19,
+        "x_max": 177.09,
+        "y_max": 999.34
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "요구되는 시점에 우리가",
+      "is_text": true,
+      "order": "67",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 72,
+      "reading_group": "footer",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0067",
+      "coordinates": {
+        "x_min": 188.43,
+        "y_min": 972.9,
+        "x_max": 300.88,
+        "y_max": 993.71
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "분이 아무런 대가 없이",
+      "is_text": true,
+      "order": "68",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 73,
+      "reading_group": "footer",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0068",
+      "coordinates": {
+        "x_min": 57.55,
+        "y_min": 976.82,
+        "x_max": 608.94,
+        "y_max": 1026.4
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "69",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 74,
+      "reading_group": "footer",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0069",
+      "coordinates": {
+        "x_min": 624.25,
+        "y_min": 914.65,
+        "x_max": 1175.34,
+        "y_max": 957.0
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "18. 많았다. 동료도 친구도 가족도 를 위해。办理结果将短信通知",
+      "is_text": true,
+      "order": "70",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 67,
+      "reading_group": "footer",
+      "reading_role": "question",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0070",
+      "coordinates": {
+        "x_min": 625.14,
+        "y_min": 954.26,
+        "x_max": 737.09,
+        "y_max": 975.05
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "소비하는 것이다. 많은",
+      "is_text": true,
+      "order": "71",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 69,
+      "reading_group": "footer",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0071",
+      "coordinates": {
+        "x_min": 748.43,
+        "y_min": 948.97,
+        "x_max": 860.87,
+        "y_max": 969.78
+      },
+      "points": null,
+      "block_label": "option",
+      "block_content": "삶의 위로를 찾기 위해",
+      "is_text": true,
+      "order": "72",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 70,
+      "reading_group": "footer",
+      "reading_role": "option",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "11_complex_form_json_04_b0072",
+      "coordinates": {
+        "x_min": 625.87,
+        "y_min": 952.53,
+        "x_max": 1177.26,
+        "y_max": 1002.11
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "73",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 71,
+      "reading_group": "footer",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:03:35.092Z",
+  "updated_at": "2026-07-03T12:04:27"
+}

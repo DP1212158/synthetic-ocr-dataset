@@ -1,0 +1,396 @@
+{
+  "image_id": "91ab45b6-91ab-45b6-91ab-91ab45b691ab",
+  "file_name": "07_magazine_journal_json_03.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "reading_pages_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "ko",
+    "language_name": "朝鲜语",
+    "script_note": "谚文 Hangul，横排从左到右",
+    "template_type": "magazine_journal",
+    "category": "magazine_journal",
+    "variant": 3,
+    "layout_name": "magazine_journal_v03",
+    "document_id": "07_magazine_journal_json_03",
+    "title": "Cazci Gijbon",
+    "doc_no": "ZA-V1-07-03",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "magazine_journal",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 10,
+      "page_width": 1445,
+      "page_height": 716,
+      "body_scroll_width": 1445,
+      "body_scroll_height": 716,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 30,
+        "y": 109,
+        "width": 1440,
+        "height": 698,
+        "enabled": true,
+        "original_width": 1500,
+        "original_height": 920,
+        "content_bbox": {
+          "x_min": 54,
+          "y_min": 133.1,
+          "x_max": 1446,
+          "y_max": 782.9
+        },
+        "padding": 24,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.7063,
+        "bottom_blank_ratio_before_crop": 0.149
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 460001037306932106,
+        "family": "compressed_scan",
+        "geometry": {
+          "source_size": {
+            "width": 1440,
+            "height": 698
+          },
+          "scale": {
+            "scale": 1.00154,
+            "width": 1442,
+            "height": 699
+          },
+          "rotation": {
+            "angle_degrees": -1.5001,
+            "width": 1460,
+            "height": 737
+          },
+          "translation": {
+            "dx": -1,
+            "dy": 2,
+            "width": 1460,
+            "height": 737
+          },
+          "edge_crop": {
+            "left": 5,
+            "top": 11,
+            "right": 10,
+            "bottom": 10,
+            "width": 1445,
+            "height": 716
+          },
+          "output_size_before_visual": {
+            "width": 1445,
+            "height": 716
+          }
+        },
+        "output_size": {
+          "width": 1445,
+          "height": 716
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "07_magazine_journal_json_03_b0001",
+      "coordinates": {
+        "x_min": 18.66,
+        "y_min": 35.21,
+        "x_max": 685.7,
+        "y_max": 672.99
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": false,
+        "asset_id": "COCO_val2014_000000035146",
+        "asset_source": "random120-coco2014",
+        "asset_crop": "object-fit-cover"
+      },
+      "reading_order": 9,
+      "reading_group": "image",
+      "reading_role": "image",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_03_b0002",
+      "coordinates": {
+        "x_min": 35.13,
+        "y_min": 663.95,
+        "x_max": 686.48,
+        "y_max": 702.83
+      },
+      "points": null,
+      "block_label": "caption",
+      "block_content": "고령다. 사람이 외로운 것은 단지 '사랑'이 없어서가 아니다. 오직 '사랑'이 없어서이다.",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "footer",
+      "reading_role": "caption",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "07_magazine_journal_json_03_b0003",
+      "coordinates": {
+        "x_min": 705.03,
+        "y_min": 151.52,
+        "x_max": 1416.37,
+        "y_max": 189.15
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_03_b0004",
+      "coordinates": {
+        "x_min": 705.84,
+        "y_min": 182.55,
+        "x_max": 1418.52,
+        "y_max": 271.45
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "본교 중국인학습자들을 대상으로",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "52px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_03_b0005",
+      "coordinates": {
+        "x_min": 708.15,
+        "y_min": 280.45,
+        "x_max": 1054.51,
+        "y_max": 363.96
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "3 세계의 3대 영화제에 대해 조사해 봅시다. 그리고 그 영화제가 지역의 발전에 어떠한 기여를 했는지 발표해 봅시다.",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_03_b0006",
+      "coordinates": {
+        "x_min": 710.42,
+        "y_min": 366.95,
+        "x_max": 1056.78,
+        "y_max": 450.57
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "다짐처럼 내게 말해주고자 그 종이를 가장 많은 시간을 보내는 곳의 왼쪽 벽면에 붙였다. 고개를 살짝만 돌려도 '산뜻하고,",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_03_b0007",
+      "coordinates": {
+        "x_min": 712.68,
+        "y_min": 453.56,
+        "x_max": 1059.05,
+        "y_max": 537.17
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "초등학교에서 출발해 광치기 해안에서 끝나는 15 의 길이다. 운동장에 파란 잔디밭이 그림처럼 펼쳐진 시흥 초등학교를",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_03_b0008",
+      "coordinates": {
+        "x_min": 1074.59,
+        "y_min": 270.86,
+        "x_max": 1420.95,
+        "y_max": 354.36
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "하나의 길이 아니다. 올레길의 상징인 화살표와 리본은 방향을 알려 주는 지침일 뿐 길 자체는 아니다. 올레길 위에는",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_03_b0009",
+      "coordinates": {
+        "x_min": 1076.86,
+        "y_min": 357.36,
+        "x_max": 1423.22,
+        "y_max": 440.97
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "그리고 마음 맞는 사람과의 관계가 나빠져서 더 이상 좋은 관계를 맺을 수가 없을 때 그때는 어떻게 해야 하나요?",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_json_03_b0010",
+      "coordinates": {
+        "x_min": 1079.13,
+        "y_min": 443.96,
+        "x_max": 1425.48,
+        "y_max": 527.57
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "승강기에서 내려 오대표 집 앞에 섰다.성민이 주소를 한번 더 꼼꼼히 확인한 뒤 한 손으로 초인종을 꼭 눌렀다.잠시",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Apple SD Gothic Neo\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    }
+  ],
+  "created_at": "2026-07-03T04:03:06.656Z",
+  "updated_at": "2026-07-03T12:04:11"
+}

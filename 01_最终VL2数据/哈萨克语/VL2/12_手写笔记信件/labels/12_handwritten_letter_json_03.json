@@ -1,0 +1,3151 @@
+{
+  "image_id": "925fea83-925f-ea83-925f-925fea83925f",
+  "file_name": "12_handwritten_letter_json_03.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "remaining_pages_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "kk-arab",
+    "language_name": "哈萨克语",
+    "script_note": "改良阿拉伯字母，横排从右到左",
+    "template_type": "handwritten_letter",
+    "category": "handwritten_letter",
+    "variant": 3,
+    "layout_name": "handwritten_letter_v03",
+    "document_id": "12_handwritten_letter_json_03",
+    "title": "Saunghawj Gijsei",
+    "doc_no": "ZA-V1-12-03",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "handwritten_letter",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 105,
+      "page_width": 1215,
+      "page_height": 1729,
+      "body_scroll_width": 1215,
+      "body_scroll_height": 1729,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 31,
+        "y": 23,
+        "width": 1178,
+        "height": 1704,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1754,
+        "content_bbox": {
+          "x_min": 62,
+          "y_min": 54,
+          "x_max": 1178,
+          "y_max": 1696
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.9361,
+        "bottom_blank_ratio_before_crop": 0.0331
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 15244231135641268279,
+        "family": "aged_archive",
+        "geometry": {
+          "source_size": {
+            "width": 1178,
+            "height": 1704
+          },
+          "scale": {
+            "scale": 1.0,
+            "width": 1178,
+            "height": 1704
+          },
+          "rotation": {
+            "angle_degrees": 1.6407,
+            "width": 1227,
+            "height": 1738
+          },
+          "translation": {
+            "dx": 1,
+            "dy": -5,
+            "width": 1227,
+            "height": 1738
+          },
+          "edge_crop": {
+            "left": 5,
+            "top": 7,
+            "right": 7,
+            "bottom": 2,
+            "width": 1215,
+            "height": 1729
+          },
+          "output_size_before_visual": {
+            "width": 1215,
+            "height": 1729
+          }
+        },
+        "output_size": {
+          "width": 1215,
+          "height": 1729
+        }
+      }
+    },
+    "reading_order_policy": "rtl_visual_top_to_bottom_right_to_left_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "12_handwritten_letter_json_03_b0105",
+      "coordinates": {
+        "x_min": 73.02,
+        "y_min": 19.87,
+        "x_max": 1190.43,
+        "y_max": 116.9
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "قازاقشا قۇجات",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "44px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0001",
+      "coordinates": {
+        "x_min": 1145.41,
+        "y_min": 136.69,
+        "x_max": 1187.97,
+        "y_max": 157.88
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "01",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0002",
+      "coordinates": {
+        "x_min": 642.62,
+        "y_min": 122.29,
+        "x_max": 1137.99,
+        "y_max": 156.45
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ماڭىزدى حابارلار | شولۋ-نازاريا | ەل",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0003",
+      "coordinates": {
+        "x_min": 574.64,
+        "y_min": 120.34,
+        "x_max": 617.2,
+        "y_max": 141.54
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "02",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0004",
+      "coordinates": {
+        "x_min": 71.85,
+        "y_min": 105.94,
+        "x_max": 567.22,
+        "y_max": 140.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "نىشاندىق، جەتەكشىلىك سيپاتقا يە جاڭا",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0005",
+      "coordinates": {
+        "x_min": 1144.41,
+        "y_min": 171.68,
+        "x_max": 1186.96,
+        "y_max": 192.87
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "03",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0006",
+      "coordinates": {
+        "x_min": 641.61,
+        "y_min": 157.27,
+        "x_max": 1136.98,
+        "y_max": 191.44
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "باس بەت | شي جينپيڭ حابارلارى | ماڭىزدى",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0007",
+      "coordinates": {
+        "x_min": 573.64,
+        "y_min": 155.33,
+        "x_max": 616.2,
+        "y_max": 176.52
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "04",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0008",
+      "coordinates": {
+        "x_min": 70.85,
+        "y_min": 140.93,
+        "x_max": 566.22,
+        "y_max": 175.09
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "اسەرىن“ ساۋلەلەندىرىپ، ساياساتتىڭ دالدىگى",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0009",
+      "coordinates": {
+        "x_min": 1143.41,
+        "y_min": 206.66,
+        "x_max": 1185.96,
+        "y_max": 227.86
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "05",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0010",
+      "coordinates": {
+        "x_min": 640.61,
+        "y_min": 192.26,
+        "x_max": 1135.98,
+        "y_max": 226.42
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "427 ميلليون يۋان اجىراتىپ، ”1 – تامىز“",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0011",
+      "coordinates": {
+        "x_min": 572.64,
+        "y_min": 190.31,
+        "x_max": 615.2,
+        "y_max": 211.51
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "06",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0012",
+      "coordinates": {
+        "x_min": 69.85,
+        "y_min": 175.91,
+        "x_max": 565.22,
+        "y_max": 210.08
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ەكونوميكالىق قىزمەت ماجىلىسىندە العا",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0013",
+      "coordinates": {
+        "x_min": 1142.4,
+        "y_min": 241.65,
+        "x_max": 1184.96,
+        "y_max": 262.84
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "07",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0014",
+      "coordinates": {
+        "x_min": 639.61,
+        "y_min": 227.25,
+        "x_max": 1134.98,
+        "y_max": 261.41
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "الاتىن، حالىققا شىنايى باقىت جاراتاتىن،",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0015",
+      "coordinates": {
+        "x_min": 571.64,
+        "y_min": 225.3,
+        "x_max": 614.19,
+        "y_max": 246.49
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "08",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0016",
+      "coordinates": {
+        "x_min": 68.84,
+        "y_min": 210.9,
+        "x_max": 564.21,
+        "y_max": 245.06
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "مەن باقىلاۋ - تەكسەرۋىن قابىلداۋدا.",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0017",
+      "coordinates": {
+        "x_min": 1141.4,
+        "y_min": 276.63,
+        "x_max": 1183.96,
+        "y_max": 297.83
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "09",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0018",
+      "coordinates": {
+        "x_min": 638.61,
+        "y_min": 262.23,
+        "x_max": 1133.98,
+        "y_max": 296.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "بەدەلى مەن ورتالىقتانعان ءبىر تۇتاس",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0019",
+      "coordinates": {
+        "x_min": 570.64,
+        "y_min": 260.28,
+        "x_max": 613.19,
+        "y_max": 281.48
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "10",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0020",
+      "coordinates": {
+        "x_min": 67.84,
+        "y_min": 245.88,
+        "x_max": 563.21,
+        "y_max": 280.05
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "| عىلىم-تەحنيكا | تۇرمىس | دەنە تاربيە",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0021",
+      "coordinates": {
+        "x_min": 1140.4,
+        "y_min": 311.62,
+        "x_max": 1182.96,
+        "y_max": 332.81
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "11",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0022",
+      "coordinates": {
+        "x_min": 637.61,
+        "y_min": 297.22,
+        "x_max": 1132.98,
+        "y_max": 331.38
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ءۇمىت ەتەمىز. كەلۋ قاينارى: حالىق تورابى",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0023",
+      "coordinates": {
+        "x_min": 569.63,
+        "y_min": 295.27,
+        "x_max": 612.19,
+        "y_max": 316.46
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "12",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0024",
+      "coordinates": {
+        "x_min": 66.84,
+        "y_min": 280.87,
+        "x_max": 562.21,
+        "y_max": 315.03
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "قاينارى : حالىق تورابى شينحۋا اگەنتتىگىنىڭ",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0025",
+      "coordinates": {
+        "x_min": 1139.4,
+        "y_min": 346.6,
+        "x_max": 1181.95,
+        "y_max": 367.8
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "13",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0026",
+      "coordinates": {
+        "x_min": 636.6,
+        "y_min": 332.2,
+        "x_max": 1131.97,
+        "y_max": 366.37
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ەرەكشە دامۋ ساپارىندا، ءبىز پارتيا",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0027",
+      "coordinates": {
+        "x_min": 568.63,
+        "y_min": 330.26,
+        "x_max": 611.19,
+        "y_max": 351.45
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "14",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0028",
+      "coordinates": {
+        "x_min": 65.84,
+        "y_min": 315.85,
+        "x_max": 561.21,
+        "y_max": 350.02
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "بۇقارانىڭ كورنەكتى ۋاكىلى. ولار قاراپايىم",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0029",
+      "coordinates": {
+        "x_min": 1138.4,
+        "y_min": 381.59,
+        "x_max": 1180.95,
+        "y_max": 402.78
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "15",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0030",
+      "coordinates": {
+        "x_min": 635.6,
+        "y_min": 367.19,
+        "x_max": 1130.97,
+        "y_max": 401.35
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "تارتىپ، اس كەسەسىنىڭ ورنىقتى بولۋىنا",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0031",
+      "coordinates": {
+        "x_min": 567.63,
+        "y_min": 365.24,
+        "x_max": 610.19,
+        "y_max": 386.44
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "16",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0032",
+      "coordinates": {
+        "x_min": 64.84,
+        "y_min": 350.84,
+        "x_max": 560.21,
+        "y_max": 385.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "جانە رەفورما كوميتەتىنىڭ مەڭگەرۋشىسى",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0033",
+      "coordinates": {
+        "x_min": 1137.39,
+        "y_min": 416.58,
+        "x_max": 1179.95,
+        "y_max": 437.77
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "17",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0034",
+      "coordinates": {
+        "x_min": 634.6,
+        "y_min": 402.17,
+        "x_max": 1129.97,
+        "y_max": 436.34
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ۇلگىسىندەگى سوتسياليزم يدەياسىنان زاڭدىلىقتى",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0035",
+      "coordinates": {
+        "x_min": 566.63,
+        "y_min": 400.23,
+        "x_max": 609.18,
+        "y_max": 421.42
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "18",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0036",
+      "coordinates": {
+        "x_min": 63.83,
+        "y_min": 385.82,
+        "x_max": 559.2,
+        "y_max": 419.99
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "قىزمەتىنە ايرىقشا ءمان بەردى. 2015",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0037",
+      "coordinates": {
+        "x_min": 1136.39,
+        "y_min": 451.56,
+        "x_max": 1178.95,
+        "y_max": 472.76
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "19",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 41,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0038",
+      "coordinates": {
+        "x_min": 633.6,
+        "y_min": 437.16,
+        "x_max": 1128.97,
+        "y_max": 471.32
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ەل ءىشى | شينجياڭ | حالىقارا | قوعام",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 38,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0039",
+      "coordinates": {
+        "x_min": 565.63,
+        "y_min": 435.21,
+        "x_max": 608.18,
+        "y_max": 456.41
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "20",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 39,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0040",
+      "coordinates": {
+        "x_min": 62.83,
+        "y_min": 420.81,
+        "x_max": 558.2,
+        "y_max": 454.98
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "بۇل − پارتيانىڭ 20 - قۇرىلتايىندا جاڭا",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 40,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0041",
+      "coordinates": {
+        "x_min": 1135.39,
+        "y_min": 486.55,
+        "x_max": 1177.94,
+        "y_max": 507.74
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "21",
+      "is_text": true,
+      "order": "41",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 43,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0042",
+      "coordinates": {
+        "x_min": 632.6,
+        "y_min": 472.15,
+        "x_max": 1127.97,
+        "y_max": 506.31
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ـ كۇنى بەيجيڭنەن بەرگەن حابارى. شاڭحاي",
+      "is_text": true,
+      "order": "42",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 44,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0043",
+      "coordinates": {
+        "x_min": 564.62,
+        "y_min": 470.2,
+        "x_max": 607.18,
+        "y_max": 491.39
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "22",
+      "is_text": true,
+      "order": "43",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 45,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0044",
+      "coordinates": {
+        "x_min": 61.83,
+        "y_min": 455.8,
+        "x_max": 557.2,
+        "y_max": 489.96
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "سيلاۋ جينالىسىندا باس شۋجي شي جينپيڭ",
+      "is_text": true,
+      "order": "44",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 42,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0045",
+      "coordinates": {
+        "x_min": 1134.39,
+        "y_min": 521.53,
+        "x_max": 1176.94,
+        "y_max": 542.73
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "23",
+      "is_text": true,
+      "order": "45",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 48,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0046",
+      "coordinates": {
+        "x_min": 631.59,
+        "y_min": 507.13,
+        "x_max": 1126.96,
+        "y_max": 541.3
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ۇيلەسىمدى، ءادىل باسەكەلى بازار ءتارتىبىن",
+      "is_text": true,
+      "order": "46",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 49,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0047",
+      "coordinates": {
+        "x_min": 563.62,
+        "y_min": 505.18,
+        "x_max": 606.18,
+        "y_max": 526.38
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "24",
+      "is_text": true,
+      "order": "47",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 46,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0048",
+      "coordinates": {
+        "x_min": 60.83,
+        "y_min": 490.78,
+        "x_max": 556.2,
+        "y_max": 524.95
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "جارا العا باسۋىنا دەم بەرەدى. كەلۋ",
+      "is_text": true,
+      "order": "48",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 47,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0049",
+      "coordinates": {
+        "x_min": 1133.39,
+        "y_min": 556.52,
+        "x_max": 1175.94,
+        "y_max": 577.71
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "25",
+      "is_text": true,
+      "order": "49",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 53,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0050",
+      "coordinates": {
+        "x_min": 630.59,
+        "y_min": 542.12,
+        "x_max": 1125.96,
+        "y_max": 576.28
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "قۇرىلىسىنىڭ جالپى جاعدايى تۇرعىسىنان",
+      "is_text": true,
+      "order": "50",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 51,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0051",
+      "coordinates": {
+        "x_min": 562.62,
+        "y_min": 540.17,
+        "x_max": 605.17,
+        "y_max": 561.36
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "26",
+      "is_text": true,
+      "order": "51",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 52,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0052",
+      "coordinates": {
+        "x_min": 59.83,
+        "y_min": 525.77,
+        "x_max": 555.2,
+        "y_max": 559.93
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "| شينجياڭ | حالىقارا | قوعام | ەكونوميكا",
+      "is_text": true,
+      "order": "52",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 50,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0053",
+      "coordinates": {
+        "x_min": 1132.38,
+        "y_min": 591.5,
+        "x_max": 1174.94,
+        "y_max": 612.7
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "27",
+      "is_text": true,
+      "order": "53",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 55,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0054",
+      "coordinates": {
+        "x_min": 629.59,
+        "y_min": 577.1,
+        "x_max": 1124.96,
+        "y_max": 611.27
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ىرىس - قۇتىنا سايادى، باس شۋجي شي جينپيڭ",
+      "is_text": true,
+      "order": "54",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 56,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0055",
+      "coordinates": {
+        "x_min": 561.62,
+        "y_min": 575.15,
+        "x_max": 604.17,
+        "y_max": 596.35
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "28",
+      "is_text": true,
+      "order": "55",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 57,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0056",
+      "coordinates": {
+        "x_min": 58.82,
+        "y_min": 560.75,
+        "x_max": 554.19,
+        "y_max": 594.92
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "جينپيڭ حابارلارى | ماڭىزدى حابارلار",
+      "is_text": true,
+      "order": "56",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 54,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0057",
+      "coordinates": {
+        "x_min": 1131.38,
+        "y_min": 626.49,
+        "x_max": 1173.94,
+        "y_max": 647.68
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "29",
+      "is_text": true,
+      "order": "57",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 60,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0058",
+      "coordinates": {
+        "x_min": 628.59,
+        "y_min": 612.09,
+        "x_max": 1123.96,
+        "y_max": 646.25
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "تىنىشتىعىن قالپىنا كەلتىرۋگە قاجەتتى",
+      "is_text": true,
+      "order": "58",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 61,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0059",
+      "coordinates": {
+        "x_min": 560.61,
+        "y_min": 610.14,
+        "x_max": 603.17,
+        "y_max": 631.33
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "30",
+      "is_text": true,
+      "order": "59",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 58,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0060",
+      "coordinates": {
+        "x_min": 57.82,
+        "y_min": 595.74,
+        "x_max": 553.19,
+        "y_max": 629.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "”جاڭالىق اشۋ ارقىلى دامۋعا دەم بەرۋ",
+      "is_text": true,
+      "order": "60",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 59,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0061",
+      "coordinates": {
+        "x_min": 1130.38,
+        "y_min": 661.48,
+        "x_max": 1172.93,
+        "y_max": 682.67
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "31",
+      "is_text": true,
+      "order": "61",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 65,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0062",
+      "coordinates": {
+        "x_min": 627.58,
+        "y_min": 647.07,
+        "x_max": 1122.95,
+        "y_max": 681.24
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "باسقارۋ باس مەڭگەرمەسى قاتارلى تاراۋلار",
+      "is_text": true,
+      "order": "62",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 63,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0063",
+      "coordinates": {
+        "x_min": 559.61,
+        "y_min": 645.13,
+        "x_max": 602.17,
+        "y_max": 666.32
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "32",
+      "is_text": true,
+      "order": "63",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 64,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0064",
+      "coordinates": {
+        "x_min": 56.82,
+        "y_min": 630.72,
+        "x_max": 552.19,
+        "y_max": 664.89
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "بولادى. سەرىكتەستىكتىڭ قۇرۋشىسى لو",
+      "is_text": true,
+      "order": "64",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 62,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0065",
+      "coordinates": {
+        "x_min": 1129.38,
+        "y_min": 696.46,
+        "x_max": 1171.93,
+        "y_max": 717.66
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "33",
+      "is_text": true,
+      "order": "65",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 68,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0066",
+      "coordinates": {
+        "x_min": 626.58,
+        "y_min": 682.06,
+        "x_max": 1121.95,
+        "y_max": 716.22
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ينفورماتسيالاندىرۋ كەڭسەسىمەن، مەملەكەتتىك",
+      "is_text": true,
+      "order": "66",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 69,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0067",
+      "coordinates": {
+        "x_min": 558.61,
+        "y_min": 680.11,
+        "x_max": 601.17,
+        "y_max": 701.31
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "34",
+      "is_text": true,
+      "order": "67",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 66,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0068",
+      "coordinates": {
+        "x_min": 55.82,
+        "y_min": 665.71,
+        "x_max": 551.19,
+        "y_max": 699.87
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ماسەلەلەردى كۇش سالا رەتتەپ - وڭاۋعا",
+      "is_text": true,
+      "order": "68",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 67,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0069",
+      "coordinates": {
+        "x_min": 1128.37,
+        "y_min": 731.45,
+        "x_max": 1170.93,
+        "y_max": 752.64
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "35",
+      "is_text": true,
+      "order": "69",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 73,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0070",
+      "coordinates": {
+        "x_min": 625.58,
+        "y_min": 717.04,
+        "x_max": 1120.95,
+        "y_max": 751.21
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "14:25 كەلۋ قاينارى : حالىق تورابى بايىنعولىن",
+      "is_text": true,
+      "order": "70",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 70,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0071",
+      "coordinates": {
+        "x_min": 557.61,
+        "y_min": 715.1,
+        "x_max": 600.16,
+        "y_max": 736.29
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "36",
+      "is_text": true,
+      "order": "71",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 71,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0072",
+      "coordinates": {
+        "x_min": 54.81,
+        "y_min": 700.7,
+        "x_max": 550.18,
+        "y_max": 734.86
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "كۇشىن ۇزدىكسىز تاسقىنداتۋ كەرەك. پارتيانىڭ",
+      "is_text": true,
+      "order": "72",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 72,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0073",
+      "coordinates": {
+        "x_min": 1127.37,
+        "y_min": 766.43,
+        "x_max": 1169.93,
+        "y_max": 787.63
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "37",
+      "is_text": true,
+      "order": "73",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 75,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0074",
+      "coordinates": {
+        "x_min": 624.58,
+        "y_min": 752.03,
+        "x_max": 1119.95,
+        "y_max": 786.19
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ءىس جۇزىندە باعىپ - قاعاتىن ادامى جوق",
+      "is_text": true,
+      "order": "74",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 76,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0075",
+      "coordinates": {
+        "x_min": 556.61,
+        "y_min": 750.08,
+        "x_max": 599.16,
+        "y_max": 771.28
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "38",
+      "is_text": true,
+      "order": "75",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 77,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0076",
+      "coordinates": {
+        "x_min": 53.81,
+        "y_min": 735.68,
+        "x_max": 549.18,
+        "y_max": 769.85
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ۇلى ءىسى ءۇشىن ۇزدىكسىز كۇرەس جۇرگىزۋگە",
+      "is_text": true,
+      "order": "76",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 74,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0077",
+      "coordinates": {
+        "x_min": 1126.37,
+        "y_min": 801.42,
+        "x_max": 1168.93,
+        "y_max": 822.61
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "39",
+      "is_text": true,
+      "order": "77",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 80,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0078",
+      "coordinates": {
+        "x_min": 623.58,
+        "y_min": 787.02,
+        "x_max": 1118.95,
+        "y_max": 821.18
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "وقۋ-اعارتۋ | زاڭ-ءتۇزىم | عىلىم-تەحنيكا",
+      "is_text": true,
+      "order": "78",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 81,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0079",
+      "coordinates": {
+        "x_min": 555.6,
+        "y_min": 785.07,
+        "x_max": 598.16,
+        "y_max": 806.26
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "40",
+      "is_text": true,
+      "order": "79",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 78,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0080",
+      "coordinates": {
+        "x_min": 52.81,
+        "y_min": 770.67,
+        "x_max": 548.18,
+        "y_max": 804.83
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ومىرشەڭدىك كۇشىن ۇزدىكسىز تاسقىنداتۋ",
+      "is_text": true,
+      "order": "80",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 79,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0081",
+      "coordinates": {
+        "x_min": 1125.37,
+        "y_min": 836.4,
+        "x_max": 1167.92,
+        "y_max": 857.6
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "41",
+      "is_text": true,
+      "order": "81",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 85,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0082",
+      "coordinates": {
+        "x_min": 622.57,
+        "y_min": 822.0,
+        "x_max": 1117.94,
+        "y_max": 856.17
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "قۋزاۋشىلىق ەتۋدە نازاردى ۇيرەنۋدى تەرەڭدەتۋگە،",
+      "is_text": true,
+      "order": "82",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 82,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0083",
+      "coordinates": {
+        "x_min": 554.6,
+        "y_min": 820.05,
+        "x_max": 597.16,
+        "y_max": 841.25
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "42",
+      "is_text": true,
+      "order": "83",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 83,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0084",
+      "coordinates": {
+        "x_min": 51.81,
+        "y_min": 805.65,
+        "x_max": 547.18,
+        "y_max": 839.82
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "شەكارادان جاسىرىن وتۋگە ۇيىمداستىرعان",
+      "is_text": true,
+      "order": "84",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 84,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0085",
+      "coordinates": {
+        "x_min": 1124.37,
+        "y_min": 871.39,
+        "x_max": 1166.92,
+        "y_max": 892.58
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "43",
+      "is_text": true,
+      "order": "85",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 87,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0086",
+      "coordinates": {
+        "x_min": 621.57,
+        "y_min": 856.99,
+        "x_max": 1116.94,
+        "y_max": 891.15
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "بولۋ، پارتيانىڭ جاڭالىق اشۋ نازارياسىمەن",
+      "is_text": true,
+      "order": "86",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 88,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0087",
+      "coordinates": {
+        "x_min": 553.6,
+        "y_min": 855.04,
+        "x_max": 596.16,
+        "y_max": 876.23
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "44",
+      "is_text": true,
+      "order": "87",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 89,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0088",
+      "coordinates": {
+        "x_min": 50.81,
+        "y_min": 840.64,
+        "x_max": 546.18,
+        "y_max": 874.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "- جاقتى دامۋىنا دەم بەردى. ”مەن جەتەكشىنىڭ",
+      "is_text": true,
+      "order": "88",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 86,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0089",
+      "coordinates": {
+        "x_min": 1111.58,
+        "y_min": 1597.22,
+        "x_max": 1146.14,
+        "y_max": 1618.19
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "*1",
+      "is_text": true,
+      "order": "89",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 91,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0090",
+      "coordinates": {
+        "x_min": 596.79,
+        "y_min": 1582.48,
+        "x_max": 1105.15,
+        "y_max": 1617.01
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "وڭىرلەرىنىڭ ەڭ جوعارى تەمپەراتۋراسى",
+      "is_text": true,
+      "order": "90",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 92,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0091",
+      "coordinates": {
+        "x_min": 544.81,
+        "y_min": 1580.99,
+        "x_max": 579.37,
+        "y_max": 1601.95
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "*2",
+      "is_text": true,
+      "order": "91",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 93,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0092",
+      "coordinates": {
+        "x_min": 30.02,
+        "y_min": 1566.24,
+        "x_max": 538.39,
+        "y_max": 1600.78
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ەسەپ داپتەرىنە ەنگىزىپ، شىنايى",
+      "is_text": true,
+      "order": "92",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 90,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0093",
+      "coordinates": {
+        "x_min": 1110.86,
+        "y_min": 1622.21,
+        "x_max": 1145.42,
+        "y_max": 1643.18
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "*3",
+      "is_text": true,
+      "order": "93",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 97,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0094",
+      "coordinates": {
+        "x_min": 596.07,
+        "y_min": 1607.46,
+        "x_max": 1104.44,
+        "y_max": 1642.0
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "حالىق تورابى شينحۋا اگەنتتىگىنىڭ",
+      "is_text": true,
+      "order": "94",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 94,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0095",
+      "coordinates": {
+        "x_min": 544.1,
+        "y_min": 1605.98,
+        "x_max": 578.65,
+        "y_max": 1626.94
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "*4",
+      "is_text": true,
+      "order": "95",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 95,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0096",
+      "coordinates": {
+        "x_min": 29.31,
+        "y_min": 1591.23,
+        "x_max": 537.67,
+        "y_max": 1625.77
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "بەرۋ يدەياسى، وتكەلدەن ءوتۋ",
+      "is_text": true,
+      "order": "96",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 96,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0097",
+      "coordinates": {
+        "x_min": 1110.15,
+        "y_min": 1647.2,
+        "x_max": 1144.71,
+        "y_max": 1668.17
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "*5",
+      "is_text": true,
+      "order": "97",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 101,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0098",
+      "coordinates": {
+        "x_min": 595.36,
+        "y_min": 1632.45,
+        "x_max": 1103.72,
+        "y_max": 1666.99
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ماڭىزدى حابارلار | شولۋ-نازاريا",
+      "is_text": true,
+      "order": "98",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 98,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0099",
+      "coordinates": {
+        "x_min": 543.38,
+        "y_min": 1630.97,
+        "x_max": 577.94,
+        "y_max": 1651.93
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "*6",
+      "is_text": true,
+      "order": "99",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 99,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0100",
+      "coordinates": {
+        "x_min": 28.59,
+        "y_min": 1616.22,
+        "x_max": 536.96,
+        "y_max": 1650.76
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "باسشىلىق ءتۇزىمى جۇيەسىن",
+      "is_text": true,
+      "order": "100",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 100,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0101",
+      "coordinates": {
+        "x_min": 1109.43,
+        "y_min": 1672.19,
+        "x_max": 1143.99,
+        "y_max": 1693.16
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "*7",
+      "is_text": true,
+      "order": "101",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 104,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0102",
+      "coordinates": {
+        "x_min": 594.64,
+        "y_min": 1657.44,
+        "x_max": 1103.01,
+        "y_max": 1691.98
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "سۋدى تاسىپ جەتكىزە الماساق،",
+      "is_text": true,
+      "order": "102",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 105,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0103",
+      "coordinates": {
+        "x_min": 542.66,
+        "y_min": 1655.96,
+        "x_max": 577.22,
+        "y_max": 1676.92
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "*8",
+      "is_text": true,
+      "order": "103",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 102,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_03_b0104",
+      "coordinates": {
+        "x_min": 27.87,
+        "y_min": 1641.21,
+        "x_max": 536.24,
+        "y_max": 1675.75
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "شىرعالاڭعا ساياتىن حاۋىپ",
+      "is_text": true,
+      "order": "104",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 103,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:18:44.222Z",
+  "updated_at": "2026-07-03T12:19:27"
+}

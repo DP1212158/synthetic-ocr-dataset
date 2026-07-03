@@ -1,0 +1,560 @@
+[
+  {
+    "document_id": "01_newspaper_page_json_01",
+    "category": "newspaper_page",
+    "variant": 1,
+    "source_image": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2_clean_source/01_报纸页/images/01_newspaper_page_json_01.png",
+    "source_label": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2_clean_source/01_报纸页/labels/01_newspaper_page_json_01.json",
+    "output_image": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2/01_报纸页/images/01_newspaper_page_json_01.png",
+    "output_label": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2/01_报纸页/labels/01_newspaper_page_json_01.json",
+    "seed": 11398817905796354700,
+    "recipe": {
+      "family": "printed_noise",
+      "brightness": 1.06155,
+      "contrast": 0.9621,
+      "saturation": 1.01489,
+      "gamma": 1.04141,
+      "temperature": 0.02256,
+      "paper_tint": [
+        241,
+        249,
+        239
+      ],
+      "paper_tint_alpha": 0.06756,
+      "texture_strength": 0.04308,
+      "noise_std": 4.44927,
+      "speckle_amount": 0.00289,
+      "blur_radius": 0.04585,
+      "jpeg_quality": 81,
+      "shadow_strength": 0.02545,
+      "vignette_strength": 0.04353,
+      "profile": "delivery_all_light",
+      "angle_degrees": 0.33381,
+      "scale": 1.00687,
+      "max_shift_px": 4,
+      "max_edge_crop_px": 12,
+      "directional_light": {
+        "enabled": true,
+        "direction": "diagonal_down",
+        "shape": "window_band",
+        "strength": 0.12927241975726977,
+        "warmth": 0.024184956281354496,
+        "softness": 0.2060264520394984
+      }
+    },
+    "geometry": {
+      "source_size": {
+        "width": 1194,
+        "height": 1912
+      },
+      "scale": {
+        "scale": 1.00687,
+        "width": 1202,
+        "height": 1925
+      },
+      "rotation": {
+        "angle_degrees": 0.3338,
+        "width": 1214,
+        "height": 1932
+      },
+      "translation": {
+        "dx": 0,
+        "dy": -4,
+        "width": 1214,
+        "height": 1932
+      },
+      "edge_crop": {
+        "left": 11,
+        "top": 3,
+        "right": 12,
+        "bottom": 1,
+        "width": 1191,
+        "height": 1928
+      },
+      "output_size_before_visual": {
+        "width": 1191,
+        "height": 1928
+      }
+    },
+    "source_size": {
+      "width": 1194,
+      "height": 1912
+    },
+    "output_size": {
+      "width": 1191,
+      "height": 1928
+    },
+    "box_area_growth_ratio": 1.05266,
+    "quality": {
+      "mean_luma": 228.734,
+      "contrast_std": 50.262,
+      "edge_sharpness": 21.515
+    },
+    "removed_unsupported_placeholder_blocks": 0
+  },
+  {
+    "document_id": "01_newspaper_page_json_02",
+    "category": "newspaper_page",
+    "variant": 2,
+    "source_image": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2_clean_source/01_报纸页/images/01_newspaper_page_json_02.png",
+    "source_label": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2_clean_source/01_报纸页/labels/01_newspaper_page_json_02.json",
+    "output_image": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2/01_报纸页/images/01_newspaper_page_json_02.png",
+    "output_label": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2/01_报纸页/labels/01_newspaper_page_json_02.json",
+    "seed": 3186793199474583564,
+    "recipe": {
+      "family": "warm_paper",
+      "brightness": 1.00606,
+      "contrast": 0.88161,
+      "saturation": 1.02751,
+      "gamma": 0.96014,
+      "temperature": 0.06326,
+      "paper_tint": [
+        254,
+        239,
+        225
+      ],
+      "paper_tint_alpha": 0.06469,
+      "texture_strength": 0.03894,
+      "noise_std": 4.82787,
+      "speckle_amount": 0.00256,
+      "blur_radius": 0.14642,
+      "jpeg_quality": 86,
+      "shadow_strength": 0.07025,
+      "vignette_strength": 0.03092,
+      "profile": "delivery_all_light",
+      "angle_degrees": 3.71688,
+      "scale": 1.01162,
+      "max_shift_px": 4,
+      "max_edge_crop_px": 12,
+      "directional_light": {
+        "enabled": true,
+        "direction": "top_left",
+        "shape": "edge_shadow",
+        "strength": 0.15583758784459956,
+        "warmth": 0.016112087113537704,
+        "softness": 0.29082396207326466
+      }
+    },
+    "geometry": {
+      "source_size": {
+        "width": 1194,
+        "height": 1525
+      },
+      "scale": {
+        "scale": 1.01162,
+        "width": 1208,
+        "height": 1543
+      },
+      "rotation": {
+        "angle_degrees": 3.7169,
+        "width": 1306,
+        "height": 1619
+      },
+      "translation": {
+        "dx": 0,
+        "dy": 3,
+        "width": 1306,
+        "height": 1619
+      },
+      "edge_crop": {
+        "left": 9,
+        "top": 8,
+        "right": 2,
+        "bottom": 0,
+        "width": 1295,
+        "height": 1611
+      },
+      "output_size_before_visual": {
+        "width": 1295,
+        "height": 1611
+      }
+    },
+    "source_size": {
+      "width": 1194,
+      "height": 1525
+    },
+    "output_size": {
+      "width": 1295,
+      "height": 1611
+    },
+    "box_area_growth_ratio": 1.41754,
+    "quality": {
+      "mean_luma": 195.307,
+      "contrast_std": 65.655,
+      "edge_sharpness": 14.727
+    },
+    "removed_unsupported_placeholder_blocks": 0
+  },
+  {
+    "document_id": "01_newspaper_page_json_03",
+    "category": "newspaper_page",
+    "variant": 3,
+    "source_image": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2_clean_source/01_报纸页/images/01_newspaper_page_json_03.png",
+    "source_label": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2_clean_source/01_报纸页/labels/01_newspaper_page_json_03.json",
+    "output_image": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2/01_报纸页/images/01_newspaper_page_json_03.png",
+    "output_label": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2/01_报纸页/labels/01_newspaper_page_json_03.json",
+    "seed": 12485946911052809332,
+    "recipe": {
+      "family": "compressed_scan",
+      "brightness": 1.05911,
+      "contrast": 0.92945,
+      "saturation": 0.95445,
+      "gamma": 1.06461,
+      "temperature": 0.00019,
+      "paper_tint": [
+        252,
+        246,
+        244
+      ],
+      "paper_tint_alpha": 0.05873,
+      "texture_strength": 0.02862,
+      "noise_std": 3.21196,
+      "speckle_amount": 0.00205,
+      "blur_radius": 0.29812,
+      "jpeg_quality": 63,
+      "shadow_strength": 0.05402,
+      "vignette_strength": 0.04448,
+      "profile": "delivery_all_light",
+      "angle_degrees": -3.10011,
+      "scale": 1.00533,
+      "max_shift_px": 9,
+      "max_edge_crop_px": 9,
+      "directional_light": {
+        "enabled": true,
+        "direction": "top_right",
+        "shape": "elliptical_highlight",
+        "strength": 0.13108832984370772,
+        "warmth": 0.028703390468857795,
+        "softness": 0.2387149949231267
+      }
+    },
+    "geometry": {
+      "source_size": {
+        "width": 1194,
+        "height": 1800
+      },
+      "scale": {
+        "scale": 1.00533,
+        "width": 1200,
+        "height": 1810
+      },
+      "rotation": {
+        "angle_degrees": -3.1001,
+        "width": 1297,
+        "height": 1873
+      },
+      "translation": {
+        "dx": 3,
+        "dy": 3,
+        "width": 1297,
+        "height": 1873
+      },
+      "edge_crop": {
+        "left": 8,
+        "top": 4,
+        "right": 4,
+        "bottom": 4,
+        "width": 1285,
+        "height": 1865
+      },
+      "output_size_before_visual": {
+        "width": 1285,
+        "height": 1865
+      }
+    },
+    "source_size": {
+      "width": 1194,
+      "height": 1800
+    },
+    "output_size": {
+      "width": 1285,
+      "height": 1865
+    },
+    "box_area_growth_ratio": 1.27677,
+    "quality": {
+      "mean_luma": 226.37,
+      "contrast_std": 43.153,
+      "edge_sharpness": 17.59
+    },
+    "removed_unsupported_placeholder_blocks": 0
+  },
+  {
+    "document_id": "01_newspaper_page_json_04",
+    "category": "newspaper_page",
+    "variant": 4,
+    "source_image": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2_clean_source/01_报纸页/images/01_newspaper_page_json_04.png",
+    "source_label": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2_clean_source/01_报纸页/labels/01_newspaper_page_json_04.json",
+    "output_image": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2/01_报纸页/images/01_newspaper_page_json_04.png",
+    "output_label": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2/01_报纸页/labels/01_newspaper_page_json_04.json",
+    "seed": 9926413409185981899,
+    "recipe": {
+      "family": "shadow_photo",
+      "brightness": 1.01696,
+      "contrast": 0.91986,
+      "saturation": 0.93258,
+      "gamma": 0.94273,
+      "temperature": -0.03168,
+      "paper_tint": [
+        255,
+        237,
+        236
+      ],
+      "paper_tint_alpha": 0.07993,
+      "texture_strength": 0.02133,
+      "noise_std": 4.31907,
+      "speckle_amount": 0.00174,
+      "blur_radius": 0.1032,
+      "jpeg_quality": 89,
+      "shadow_strength": 0.16573,
+      "vignette_strength": 0.05144,
+      "profile": "delivery_all_light",
+      "angle_degrees": 2.1946,
+      "scale": 0.98547,
+      "max_shift_px": 9,
+      "max_edge_crop_px": 7,
+      "directional_light": {
+        "enabled": true,
+        "direction": "right",
+        "shape": "window_band",
+        "strength": 0.23118384803137826,
+        "warmth": 0.05476959557715639,
+        "softness": 0.2081586215807811
+      }
+    },
+    "geometry": {
+      "source_size": {
+        "width": 1194,
+        "height": 1046
+      },
+      "scale": {
+        "scale": 0.98547,
+        "width": 1177,
+        "height": 1031
+      },
+      "rotation": {
+        "angle_degrees": 2.1946,
+        "width": 1216,
+        "height": 1076
+      },
+      "translation": {
+        "dx": -9,
+        "dy": -4,
+        "width": 1216,
+        "height": 1076
+      },
+      "edge_crop": {
+        "left": 3,
+        "top": 6,
+        "right": 3,
+        "bottom": 0,
+        "width": 1210,
+        "height": 1070
+      },
+      "output_size_before_visual": {
+        "width": 1210,
+        "height": 1070
+      }
+    },
+    "source_size": {
+      "width": 1194,
+      "height": 1046
+    },
+    "output_size": {
+      "width": 1210,
+      "height": 1070
+    },
+    "box_area_growth_ratio": 1.38902,
+    "quality": {
+      "mean_luma": 226.33,
+      "contrast_std": 38.058,
+      "edge_sharpness": 14.123
+    },
+    "removed_unsupported_placeholder_blocks": 0
+  },
+  {
+    "document_id": "01_newspaper_page_json_05",
+    "category": "newspaper_page",
+    "variant": 5,
+    "source_image": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2_clean_source/01_报纸页/images/01_newspaper_page_json_05.png",
+    "source_label": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2_clean_source/01_报纸页/labels/01_newspaper_page_json_05.json",
+    "output_image": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2/01_报纸页/images/01_newspaper_page_json_05.png",
+    "output_label": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2/01_报纸页/labels/01_newspaper_page_json_05.json",
+    "seed": 2526949722296064588,
+    "recipe": {
+      "family": "clean_scan",
+      "brightness": 1.01422,
+      "contrast": 0.86164,
+      "saturation": 0.91637,
+      "gamma": 1.01135,
+      "temperature": -0.01804,
+      "paper_tint": [
+        247,
+        250,
+        239
+      ],
+      "paper_tint_alpha": 0.0285,
+      "texture_strength": 0.00915,
+      "noise_std": 4.5782,
+      "speckle_amount": 0.00191,
+      "blur_radius": 0.15175,
+      "jpeg_quality": 88,
+      "shadow_strength": 0.00797,
+      "vignette_strength": 0.01156,
+      "profile": "delivery_all_light",
+      "angle_degrees": -4.30749,
+      "scale": 1.01443,
+      "max_shift_px": 6,
+      "max_edge_crop_px": 14,
+      "directional_light": {
+        "enabled": true,
+        "direction": "diagonal_up",
+        "shape": "edge_shadow",
+        "strength": 0.1371370819952588,
+        "warmth": 0.036710828428437266,
+        "softness": 0.23751149693310478
+      }
+    },
+    "geometry": {
+      "source_size": {
+        "width": 1194,
+        "height": 1754
+      },
+      "scale": {
+        "scale": 1.01443,
+        "width": 1211,
+        "height": 1779
+      },
+      "rotation": {
+        "angle_degrees": -4.3075,
+        "width": 1342,
+        "height": 1865
+      },
+      "translation": {
+        "dx": 3,
+        "dy": 4,
+        "width": 1342,
+        "height": 1865
+      },
+      "edge_crop": {
+        "left": 12,
+        "top": 9,
+        "right": 9,
+        "bottom": 2,
+        "width": 1321,
+        "height": 1854
+      },
+      "output_size_before_visual": {
+        "width": 1321,
+        "height": 1854
+      }
+    },
+    "source_size": {
+      "width": 1194,
+      "height": 1754
+    },
+    "output_size": {
+      "width": 1321,
+      "height": 1854
+    },
+    "box_area_growth_ratio": 1.7527,
+    "quality": {
+      "mean_luma": 229.632,
+      "contrast_std": 38.999,
+      "edge_sharpness": 16.115
+    },
+    "removed_unsupported_placeholder_blocks": 0
+  },
+  {
+    "document_id": "01_newspaper_page_json_06",
+    "category": "newspaper_page",
+    "variant": 6,
+    "source_image": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2_clean_source/01_报纸页/images/01_newspaper_page_json_06.png",
+    "source_label": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2_clean_source/01_报纸页/labels/01_newspaper_page_json_06.json",
+    "output_image": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2/01_报纸页/images/01_newspaper_page_json_06.png",
+    "output_label": "/Users/dp/Downloads/中央民族大学合作项目/壮语/03_合成数据生成_20260701/VL2/01_报纸页/labels/01_newspaper_page_json_06.json",
+    "seed": 10878453408035534171,
+    "recipe": {
+      "family": "aged_archive",
+      "brightness": 0.95939,
+      "contrast": 0.86301,
+      "saturation": 0.91862,
+      "gamma": 1.04999,
+      "temperature": 0.05535,
+      "paper_tint": [
+        236,
+        230,
+        185
+      ],
+      "paper_tint_alpha": 0.15461,
+      "texture_strength": 0.05817,
+      "noise_std": 4.99318,
+      "speckle_amount": 0.00241,
+      "blur_radius": 0.37159,
+      "jpeg_quality": 85,
+      "shadow_strength": 0.05761,
+      "vignette_strength": 0.06306,
+      "profile": "delivery_all_light",
+      "angle_degrees": -1.85992,
+      "scale": 0.9882,
+      "max_shift_px": 4,
+      "max_edge_crop_px": 7,
+      "directional_light": {
+        "enabled": true,
+        "direction": "top_left",
+        "shape": "elliptical_highlight",
+        "strength": 0.13745428747179517,
+        "warmth": 0.03476257277349033,
+        "softness": 0.321529390597614
+      }
+    },
+    "geometry": {
+      "source_size": {
+        "width": 1194,
+        "height": 1265
+      },
+      "scale": {
+        "scale": 0.9882,
+        "width": 1180,
+        "height": 1250
+      },
+      "rotation": {
+        "angle_degrees": -1.8599,
+        "width": 1220,
+        "height": 1288
+      },
+      "translation": {
+        "dx": 1,
+        "dy": 0,
+        "width": 1220,
+        "height": 1288
+      },
+      "edge_crop": {
+        "left": 4,
+        "top": 5,
+        "right": 0,
+        "bottom": 4,
+        "width": 1216,
+        "height": 1279
+      },
+      "output_size_before_visual": {
+        "width": 1216,
+        "height": 1279
+      }
+    },
+    "source_size": {
+      "width": 1194,
+      "height": 1265
+    },
+    "output_size": {
+      "width": 1216,
+      "height": 1279
+    },
+    "box_area_growth_ratio": 1.17062,
+    "quality": {
+      "mean_luma": 210.285,
+      "contrast_std": 40.972,
+      "edge_sharpness": 12.679
+    },
+    "removed_unsupported_placeholder_blocks": 0
+  }
+]

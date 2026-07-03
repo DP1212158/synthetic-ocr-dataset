@@ -1,0 +1,1092 @@
+{
+  "image_id": "8f0d22e2-8f0d-22e2-8f0d-8f0d22e28f0d",
+  "file_name": "01_newspaper_page_json_02.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "v12_category_json_renderer_bo_v1_v4_split_mix_assets",
+    "language_code": "bo",
+    "language_name": "藏语",
+    "script_note": "藏文横排文本，第一阶段用于公开文本源验证与模板填充",
+    "template_type": "newspaper_page",
+    "category": "newspaper_page",
+    "variant": 2,
+    "layout_name": "newspaper_page_v02",
+    "document_id": "01_newspaper_page_json_02",
+    "title": "གསར་འགྱུར་ཤོག་ངོས",
+    "doc_no": "NP-J-02",
+    "date": "2026-07-01",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.14,
+    "chinese_topic": "newspaper_page",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 34,
+      "page_width": 1283,
+      "page_height": 1431,
+      "body_scroll_width": 1283,
+      "body_scroll_height": 1431,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 23,
+        "y": 17,
+        "width": 1194,
+        "height": 1347,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1754,
+        "content_bbox": {
+          "x_min": 54,
+          "y_min": 48,
+          "x_max": 1186,
+          "y_max": 1332.4
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.7323,
+        "bottom_blank_ratio_before_crop": 0.2404
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 3186793199474583564,
+        "family": "warm_paper",
+        "geometry": {
+          "source_size": {
+            "width": 1194,
+            "height": 1347
+          },
+          "scale": {
+            "scale": 1.01162,
+            "width": 1208,
+            "height": 1363
+          },
+          "rotation": {
+            "angle_degrees": 3.7169,
+            "width": 1294,
+            "height": 1439
+          },
+          "translation": {
+            "dx": 0,
+            "dy": 3,
+            "width": 1294,
+            "height": 1439
+          },
+          "edge_crop": {
+            "left": 9,
+            "top": 8,
+            "right": 2,
+            "bottom": 0,
+            "width": 1283,
+            "height": 1431
+          },
+          "output_size_before_visual": {
+            "width": 1283,
+            "height": 1431
+          }
+        },
+        "output_size": {
+          "width": 1283,
+          "height": 1431
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "01_newspaper_page_json_02_b0001",
+      "coordinates": {
+        "x_min": 103.17,
+        "y_min": 28.33,
+        "x_max": 908.13,
+        "y_max": 164.16
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "གསར་འགྱུར་ཤོག་ངོས ཀུན་དགའ",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "62px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0002",
+      "coordinates": {
+        "x_min": 925.22,
+        "y_min": 107.42,
+        "x_max": 1249.68,
+        "y_max": 150.31
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "རིག་གནས · སློབ་གསོ · སྤྱི་ཚོགས",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0003",
+      "coordinates": {
+        "x_min": 922.87,
+        "y_min": 143.46,
+        "x_max": 948.43,
+        "y_max": 167.04
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "182",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0004",
+      "coordinates": {
+        "x_min": 1018.68,
+        "y_min": 149.68,
+        "x_max": 1095.31,
+        "y_max": 176.58
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026-07-02",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0005",
+      "coordinates": {
+        "x_min": 1165.56,
+        "y_min": 159.22,
+        "x_max": 1247.34,
+        "y_max": 186.46
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "ཤོག་ངོས 03",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0006",
+      "coordinates": {
+        "x_min": 97.31,
+        "y_min": 147.55,
+        "x_max": 842.65,
+        "y_max": 250.65
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ཀརྨ་བཀའ་བརྒྱུད་",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "40px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0007",
+      "coordinates": {
+        "x_min": 64.33,
+        "y_min": 212.56,
+        "x_max": 838.43,
+        "y_max": 758.33
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": false,
+        "asset_id": "COCO_val2014_000000001064",
+        "asset_source": "random120-coco2014",
+        "asset_crop": "object-fit-cover"
+      },
+      "reading_order": 29,
+      "reading_group": "image",
+      "reading_role": "image",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0008",
+      "coordinates": {
+        "x_min": 62.61,
+        "y_min": 717.2,
+        "x_max": 805.64,
+        "y_max": 784.77
+      },
+      "points": null,
+      "block_label": "caption",
+      "block_content": "མཚོའི་གླིང་ཕྲན་3000ལྷག་གིས་",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "caption",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0009",
+      "coordinates": {
+        "x_min": 60.26,
+        "y_min": 746.68,
+        "x_max": 803.73,
+        "y_max": 820.92
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "བོད་སྐད་དུ་ཨེ་ཤེ་ཡ་རང་དབང་རླུང་འཕྲིན་ཁང་ རླུང་。校园社团展示学习成果",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0010",
+      "coordinates": {
+        "x_min": 58.1,
+        "y_min": 779.79,
+        "x_max": 801.58,
+        "y_max": 854.13
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "རྒྱུན་ལ་གཞིགས་ཏེ་མི་མང་ཆེ་བས་ཉིན་དེར་ཤ་རིགས་ཟ་ཡི་མེད་པ་རེད་ལ。传统节庆活动有序筹备",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0011",
+      "coordinates": {
+        "x_min": 858.59,
+        "y_min": 196.91,
+        "x_max": 1243.62,
+        "y_max": 256.21
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ཀའོ་ཆིའུ",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0012",
+      "coordinates": {
+        "x_min": 853.05,
+        "y_min": 238.41,
+        "x_max": 1240.92,
+        "y_max": 341.41
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ནུབ་ཕྱོགས་སུ་བསྐྱོད་པའི་རྣམ་ཐར་(རྒྱ་སྐད:)ནི་ཀྲུང་གོའི་རིག་གནས་ཀྱི་དེབ་གཙོ་གྲས་ཆེན。青年志愿者参与社区巡查；校园社团展示学习成果",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0013",
+      "coordinates": {
+        "x_min": 848.91,
+        "y_min": 345.82,
+        "x_max": 1233.94,
+        "y_max": 405.11
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ཀུན་དགའ",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0014",
+      "coordinates": {
+        "x_min": 845.06,
+        "y_min": 387.3,
+        "x_max": 1231.25,
+        "y_max": 464.36
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "རབ་བྱུང་གསུམ་པའི་ས་བྱ་(༡༡༨༩)ལོར་སྟོད་ལུང་ནང་ད。校园社团展示学习成果",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0015",
+      "coordinates": {
+        "x_min": 840.93,
+        "y_min": 468.77,
+        "x_max": 1225.96,
+        "y_max": 528.07
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ཀུན་དགའ",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0016",
+      "coordinates": {
+        "x_min": 837.08,
+        "y_min": 510.26,
+        "x_max": 1223.26,
+        "y_max": 587.22
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "མ་པའི་ལུགས་འཛིན་པའི་དགོན་པ་ཞིག་རེད དེ་ཡང་ཕྱིས་。社区医生开展健康咨询",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0017",
+      "coordinates": {
+        "x_min": 52.92,
+        "y_min": 851.36,
+        "x_max": 424.62,
+        "y_max": 909.69
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ཀེ་རི་སི",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0018",
+      "coordinates": {
+        "x_min": 49.07,
+        "y_min": 892.75,
+        "x_max": 421.93,
+        "y_max": 968.95
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "འཇབ་རྒོལ་བྱས་པའི་གོ་རིམ་ཁྲོད་བྱུང་བའི་དམག་འཁྲུག。传统节庆活动有序筹备",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0019",
+      "coordinates": {
+        "x_min": 44.94,
+        "y_min": 974.22,
+        "x_max": 416.64,
+        "y_max": 1032.64
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ཀེ་རི་སི",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0020",
+      "coordinates": {
+        "x_min": 41.09,
+        "y_min": 1015.71,
+        "x_max": 413.95,
+        "y_max": 1091.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "༡༨༨༢ལོ་ནི་ཀེ་ལུའོ་ཀེ་ལི་ཡའི་ལོ་ཐོའི་ནང་བཀོལ་སྤྱོད་བྱས་。乡村广播提醒群众注意安全",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0021",
+      "coordinates": {
+        "x_min": 439.56,
+        "y_min": 876.48,
+        "x_max": 811.26,
+        "y_max": 934.81
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ཀེ་རི་སི",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0022",
+      "coordinates": {
+        "x_min": 435.71,
+        "y_min": 917.87,
+        "x_max": 808.57,
+        "y_max": 994.06
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ནུབ་ཕྱོགས་འཕགས་ཡུལ་དུ་བསྐ。农业技术人员开展现场指导",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0023",
+      "coordinates": {
+        "x_min": 431.57,
+        "y_min": 999.34,
+        "x_max": 803.28,
+        "y_max": 1057.76
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "༡༧༨༣ལོ",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0024",
+      "coordinates": {
+        "x_min": 427.73,
+        "y_min": 1040.82,
+        "x_max": 800.58,
+        "y_max": 1116.91
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "༡༨༨༢ལོ་ནི་ཀེ་ལུའོ་ཀེ་ལི་ཡའི་ལོ་ཐོའི་ནང་བཀོལ་སྤྱོད་བྱས་པ。读者反馈栏目收到新来信",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0025",
+      "coordinates": {
+        "x_min": 826.19,
+        "y_min": 901.6,
+        "x_max": 1197.89,
+        "y_max": 959.93
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ཀེ་རི་སི",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0026",
+      "coordinates": {
+        "x_min": 818.96,
+        "y_min": 942.99,
+        "x_max": 1195.2,
+        "y_max": 1071.27
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ལོ་རྒྱུས ནུབ་ཕྱོགས་སུ་བསྐྱོད་པའི་རྣམ་ཐར་ཞེས་པ་དེ་ནི་སྤྱི་ལོའི་དུས་རབས་བདུན་པའི་ནང་ཅིང་ཤར་མའི་ནང。校园社团展示学习成果；专题报道关注民生变化",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0027",
+      "coordinates": {
+        "x_min": 814.82,
+        "y_min": 1076.55,
+        "x_max": 1186.53,
+        "y_max": 1134.97
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ཀེ་རི་སི",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0028",
+      "coordinates": {
+        "x_min": 810.97,
+        "y_min": 1118.03,
+        "x_max": 1183.83,
+        "y_max": 1194.22
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "མང་པོ་ཞིག་གིས་ཁོའི་ཆེད་སྒྲིག་བརྙན་འཁོར་བཞི་པ་ལེགས。图书阅览室新增借阅服务",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0029",
+      "coordinates": {
+        "x_min": 29.9,
+        "y_min": 1163.39,
+        "x_max": 255.36,
+        "y_max": 1254.45
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ཟླ་བ་དགུ་པ་༡༨ཉིན་: ཧྥ་རན་སི་སྲོག་ཆད་ཀྱི་ཉེས་པ་མེད་པ。基层治理经验正在整理",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0030",
+      "coordinates": {
+        "x_min": 260.46,
+        "y_min": 1178.37,
+        "x_max": 485.92,
+        "y_max": 1269.42
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "བེ་རི་འཇིགས་མེད་ཀྱིས་བཏུས。校园社团展示学习成果",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0031",
+      "coordinates": {
+        "x_min": 491.04,
+        "y_min": 1193.35,
+        "x_max": 716.49,
+        "y_max": 1284.4
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "གྱུར་བས་ལོ་ངོ་1500ཙམ་ལ་འགྲན་",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0032",
+      "coordinates": {
+        "x_min": 721.6,
+        "y_min": 1208.33,
+        "x_max": 947.06,
+        "y_max": 1299.38
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "༡༩ནི་རང་བྱུང་གི་གྲངས་ཞིག་སྟེ་༡༨པའི་རྗེས་མ་དང་༢༠པའ。农业技术人员开展现场指导",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0033",
+      "coordinates": {
+        "x_min": 952.16,
+        "y_min": 1223.31,
+        "x_max": 1177.62,
+        "y_max": 1314.36
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ལོ་རྒྱུས་དེ་གནའ་བོའི་གྷི་རིའི་",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0034",
+      "coordinates": {
+        "x_min": 24.39,
+        "y_min": 1250.21,
+        "x_max": 249.72,
+        "y_max": 1339.24
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "མིང་ལ་གྷི་རི་སི་ཞེས་འབོད་པ་ནི་",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T05:36:07.136Z",
+  "updated_at": "2026-07-03T13:37:29"
+}

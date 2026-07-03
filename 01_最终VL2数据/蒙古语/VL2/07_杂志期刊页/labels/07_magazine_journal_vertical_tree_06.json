@@ -1,0 +1,425 @@
+{
+  "image_id": "c0cc33a2-c0cc-33a2-c0cc-c0cc33a2c0cc",
+  "file_name": "07_magazine_journal_vertical_tree_06.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "mongolian_vertical_json_tree_v3_v4_split_mix_assets",
+    "language_code": "mn-trad",
+    "language_name": "传统蒙古文",
+    "script_note": "传统蒙古文，竖排从上到下，列从左到右",
+    "template_type": "magazine_journal",
+    "category": "magazine_journal",
+    "variant": 6,
+    "layout_name": "magazine_journal_vertical_tree_06",
+    "document_id": "07_magazine_journal_vertical_tree_06",
+    "title": "杂志期刊页",
+    "doc_no": "MN-V3-07-06",
+    "date": "2026-07-02",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.16,
+    "chinese_topic": "magazine_journal",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 11,
+      "page_width": 912,
+      "page_height": 1427,
+      "body_scroll_width": 912,
+      "body_scroll_height": 1427,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 42,
+        "y": 52,
+        "width": 850,
+        "height": 1376,
+        "enabled": true,
+        "original_width": 1120,
+        "original_height": 1500,
+        "content_bbox": {
+          "x_min": 70,
+          "y_min": 80,
+          "x_max": 864,
+          "y_max": 1400
+        },
+        "padding": 28,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.88,
+        "bottom_blank_ratio_before_crop": 0.0667
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 8363493269491642870,
+        "family": "soft_copy",
+        "geometry": {
+          "source_size": {
+            "width": 850,
+            "height": 1376
+          },
+          "scale": {
+            "scale": 1.0144,
+            "width": 862,
+            "height": 1396
+          },
+          "rotation": {
+            "angle_degrees": 2.2516,
+            "width": 917,
+            "height": 1429
+          },
+          "translation": {
+            "dx": 3,
+            "dy": 2,
+            "width": 917,
+            "height": 1429
+          },
+          "edge_crop": {
+            "left": 1,
+            "top": 2,
+            "right": 4,
+            "bottom": 0,
+            "width": 912,
+            "height": 1427
+          },
+          "output_size_before_visual": {
+            "width": 912,
+            "height": 1427
+          }
+        },
+        "output_size": {
+          "width": 912,
+          "height": 1427
+        }
+      }
+    },
+    "reading_order_policy": "vertical_lr_columns_top_to_bottom_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "07_magazine_journal_vertical_tree_06_b0001",
+      "coordinates": {
+        "x_min": 31.5,
+        "y_min": 29.49,
+        "x_max": 138.85,
+        "y_max": 1369.62
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠲᠦᠯᠦᠭᠡ ᠴᠣᠬᠢᠯᠠᠬᠤ 评论",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "34px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "body",
+      "reading_role": "title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_06_b0003",
+      "coordinates": {
+        "x_min": 196.93,
+        "y_min": 106.03,
+        "x_max": 259.72,
+        "y_max": 776.45
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "6. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠬᠣᠯᠪᠣᠬᠤ ᠦᠭᠡ ᠵᠢᠨ ᠣᠨᠴᠠᠯᠢᠭ ᠰᠢᠨᠵᠢ᠂ ᠲᠥᠷᠥᠯ ᠵᠦᠢᠯ ᠢ ᠵᠢᠱᠢᠶ。本期推荐三篇长文",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_06_b0004",
+      "coordinates": {
+        "x_min": 368.38,
+        "y_min": 62.92,
+        "x_max": 450.24,
+        "y_max": 1321.07
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠭᠤᠷᠪᠠᠳᠤᠭᠠᠷ ᠰᠡᠳᠦᠪ᠂ ᠥᠭᠭᠦᠭᠳᠡᠭᠰᠡᠨ ᠮᠠᠲ᠋ᠧᠷᠢᠶᠠᠯ3 ᠶᠢ ᠦᠨᠳᠦᠰᠦᠯᠡᠵᠦ᠂ ᠰᠢᠨ᠎ᠡ ᠤᠯᠠᠨ ᠲᠦᠮᠡᠨᠴᠢ ᠤᠳᠬ᠎ᠠ ᠤᠷᠠᠯᠢᠭ ᠤᠨ ᠰᠢᠨ᠎ᠡ ᠨᠢ ᠬᠠᠮᠢᠭ᠎ᠠ ᠪᠠ。摄影作品记录日常瞬间；本期推荐三篇长文",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_06_b0005",
+      "coordinates": {
+        "x_min": 423.12,
+        "y_min": 65.07,
+        "x_max": 504.97,
+        "y_max": 1323.23
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "2025 ᠣᠨ ᠤ ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠠᠯᠪᠠᠲᠠᠨ ᠡᠯᠰᠡᠬᠦ ᠰᠢᠯᠭᠠᠯᠲᠠ ᠶᠢᠨ ᠯᠠᠪᠯᠠᠬᠤ ᠬᠠᠷᠢᠭᠤᠯᠲᠠ 《 ᠵᠠᠰᠠᠭ ᠵᠠᠬᠢᠷᠭᠠᠨ ᠎ᠤ ᠠᠵᠢᠯ ᠮᠡᠷᠭᠡᠵᠢᠯ ᠎ᠦᠨ ᠴᠢᠳᠠᠪᠤᠷ。本期专题关注地方文化；栏目导语说明选题背景",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_06_b0006",
+      "coordinates": {
+        "x_min": 477.86,
+        "y_min": 67.22,
+        "x_max": 559.71,
+        "y_max": 1325.38
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠬᠠᠷᠢᠭᠤᠯᠲᠠ᠄ ᠵᠠᠳᠠᠯᠤᠯᠲᠠ ᠲᠤᠰ ᠰᠡᠳᠦᠪ ᠨᠢ ᠤᠯᠤᠰ ᠲᠥᠷᠥ ᠶᠢᠨ ᠣᠨᠣᠯ ᠢ ᠰᠢᠯᠭᠠᠵᠤ ᠪᠠᠶᠢᠨ᠎ᠠ ᠃ ᠥᠭᠡᠷᠡᠴᠢᠯᠡᠯᠲᠡ ᠶᠢ ᠤᠯᠠᠮ ᠨᠢᠭᠡ ᠠᠯᠬᠤᠮ ᠪᠦᠬᠦ ᠲᠠᠯ᠎ᠠ ᠪᠠᠷ ᠭᠦᠨᠵᠡᠭ。编辑手记记录采访过程；人物访谈记录生活细节",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_06_b0007",
+      "coordinates": {
+        "x_min": 532.6,
+        "y_min": 69.38,
+        "x_max": 614.45,
+        "y_max": 1327.53
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "94. ᠴᠢᠨᠠᠷ ᠲᠤᠳᠤᠳᠬᠠᠯ ᠪᠦᠬᠦᠢ ᠦᠭᠦᠯᠡᠪᠦᠷᠢ ᠨᠢ ᠄ 1 ᠲᠡᠷᠡ ᠬᠢᠯᠭᠡᠬᠦ ᠬᠡᠷᠡᠭ ᠲᠠᠢ ᠪᠣᠯᠵᠠᠢ᠃ 2 ᠬᠠᠮᠤᠭ ᠰᠠᠢᠨ ᠨᠢ ᠴᠡᠭᠡᠵᠢ ᠪᠡᠷ ᠃ 3 ᠦᠯᠵᠡᠢ ᠎ᠪᠠᠨ ᠦᠯᠢᠭᠡᠷ ᠳᠣᠮᠣᠭ ᠎ᠲᠤ ᠶᠡᠬᠡ ᠳᠣᠷᠠᠲᠠᠢ ᠃ 4 ᠴᠢ ᠦᠨ。评论文章讨论公共议题；摄影作品记录日常瞬间",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_06_b0008",
+      "coordinates": {
+        "x_min": 587.33,
+        "y_min": 71.53,
+        "x_max": 669.18,
+        "y_max": 1329.68
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠵᠦᠯᠭᠡᠨ ᠳᠡᠭᠡᠷ᠎ᠡ ᠭᠡᠷ ᠵᠢᠡᠨ ᠪᠠᠷᠢᠭᠠᠳ ᠵᠦᠭᠡᠷ ᠯᠡ ᠨᠢᠭᠡ ᠠᠮᠢᠳᠤᠷᠠᠬᠤ ᠶᠤᠮᠰᠠᠨ ᠵᠡᠭᠦᠦ ᠤᠲᠠᠰᠤ ᠨᠡᠢᠯᠡᠭᠦᠯᠦᠨ ᠬᠦᠦ ᠳᠡᠬᠡᠨ ᠳᠡᠪᠡᠯ ᠣᠶᠣᠵᠤ ᠠᠮᠠᠷᠠᠭ ᠵᠢᠡᠨ ᠬᠦᠯᠢᠶᠡᠵᠦ ᠠᠮᠠᠷᠠᠭ ᠮᠢᠨᠢ ᠠᠳᠤᠭᠤᠨ ᠡᠴᠡ ᠪᠠᠨ ᠢᠷᠡᠵᠦ ᠵᠦᠭᠡᠷ ᠯ。评论文章讨论公共议题；本期推荐三篇长文",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_06_b0009",
+      "coordinates": {
+        "x_min": 642.06,
+        "y_min": 73.68,
+        "x_max": 723.92,
+        "y_max": 1331.83
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠵᠣᠷᠢᠭᠵᠢᠭᠤᠯᠵᠤ᠂ ᠬᠦᠷᠰᠢ ᠵᠡᠷᠭᠡᠯᠡᠳᠡᠭᠡ ᠤᠷᠤᠨ ᠬᠡᠪᠴᠢᠶ᠎ᠡ ᠴᠢᠨᠠᠭᠰᠢᠯᠠᠨ ᠪᠦᠬᠦ ᠤᠯᠤᠰ ᠤᠨ ᠪᠤᠰᠤᠳ ᠭᠠᠵᠠᠷ ᠤᠷᠤᠨ ᠤ ᠠᠵᠤ ᠦᠢᠯᠡᠳᠪᠦᠷ。摄影作品记录日常瞬间；编辑部整理读者来稿",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_06_b0010",
+      "coordinates": {
+        "x_min": 696.8,
+        "y_min": 75.83,
+        "x_max": 778.65,
+        "y_max": 1333.99
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠦᠵᠡᠭᠳᠡᠯ ᠢ ᠡᠭᠡᠰᠢᠭ ᠦᠨ ᠰᠡᠯᠭᠦᠴᠡᠯ ᠵᠢᠡᠷ ᠦᠭᠡ ᠪᠦᠲᠦᠬᠦ ᠪᠠ ᠭᠡᠶᠢᠭᠦᠯᠦᠭᠴᠢ ᠵᠢᠨ ᠰᠡᠯᠭᠦᠴᠡᠯ ᠢᠶᠡᠷ ᠦᠭᠡ ᠪᠦᠲᠦᠬᠦ ᠭᠡᠵᠦ ᠬᠣᠶᠠᠷ ᠬᠤ。地方观察呈现新面貌；本期推荐三篇长文",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_06_b0011",
+      "coordinates": {
+        "x_min": 751.54,
+        "y_min": 77.98,
+        "x_max": 833.39,
+        "y_max": 1336.14
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "4. ᠬᠤᠳᠠᠯᠳᠤᠭᠠᠴᠢᠯᠠᠯᠲᠠ ᠶᠢᠨ ᠢᠵᠢᠯᠰᠢᠯ ᠳᠠᠯᠳᠠ ᠠᠭᠤᠯᠤᠭᠳᠠᠵᠤ᠂ ᠠᠭᠤᠯᠭ᠎ᠠ ᠨᠢ ᠮᠥᠴᠢᠳ᠂ ᠭᠦᠨᠴᠡ ᠪᠡᠷ ᠳᠤᠲᠠᠮᠠᠭ ᠳᠤᠲᠠᠭᠤᠳᠠᠯ ᠣᠷᠣᠰᠢᠵᠤ᠂ ᠦᠵᠡᠯ ᠰᠠᠨᠠᠭᠠᠨ ᠤ ᠦᠨ᠎ᠡ ᠥᠷᠲᠡᠭ ᠦᠨ ᠡᠭᠦᠳᠦᠨ ᠪᠦᠲᠦᠭᠡᠬᠦ ᠬᠤᠷᠠᠮᠳᠤᠭ。人物访谈记录生活细节；编辑部整理读者来稿",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "07_magazine_journal_vertical_tree_06_b0012",
+      "coordinates": {
+        "x_min": 806.27,
+        "y_min": 80.14,
+        "x_max": 888.12,
+        "y_max": 1338.29
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠪᠠᠨ ᠤᠩᠭᠤᠯᠠᠭᠰᠠᠨ ᠠᠮᠢ ᠠᠮᠢᠳᠤᠷᠠᠯ ᠤᠨ ᠭᠡᠭᠡᠨ ᠦᠯᠦᠭᠡᠢ- ᠠᠯᠲᠠᠨ ᠪᠦᠮᠪᠦᠷᠴᠡᠭ ᠢᠶᠡᠨ ᠠᠯᠠᠭᠠᠨ ᠳᠡᠭᠡᠷ᠎ᠡ ᠪᠡᠨ ᠲᠠᠯᠪᠢᠭᠰᠠᠨ ᠰᠢᠭ᠋。地方观察呈现新面貌；读者互动页面摘录留言",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    }
+  ],
+  "created_at": "2026-07-03T06:38:36.120Z",
+  "updated_at": "2026-07-03T14:39:33"
+}

@@ -1,0 +1,206 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "notice_announcement_vertical_tree_02",
+  "variant": 2,
+  "category_id": "notice_announcement",
+  "category_cn": "公告通知",
+  "folder": "10_公告通知",
+  "template_name_cn": "栏板通知",
+  "layout_family": "bulletin_board_notice",
+  "design_prompt": "公告栏样式，多个通知条目分区排列。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 960,
+    "height": 1360,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 5,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box note-fill",
+      "box": {
+        "x": 70,
+        "y": 70,
+        "w": 820,
+        "h": 1220
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "notice_title",
+      "class": "title",
+      "box": {
+        "x": 150,
+        "y": 118,
+        "w": 62,
+        "h": 1080
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 28
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_1",
+      "kind": "text",
+      "label": "list_item",
+      "role": "bulletin_item",
+      "class": "body",
+      "box": {
+        "x": 280,
+        "y": 140,
+        "w": 34,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 66
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_2",
+      "kind": "text",
+      "label": "list_item",
+      "role": "bulletin_item",
+      "class": "body",
+      "box": {
+        "x": 358,
+        "y": 140,
+        "w": 34,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 66
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_3",
+      "kind": "text",
+      "label": "list_item",
+      "role": "bulletin_item",
+      "class": "body",
+      "box": {
+        "x": 436,
+        "y": 140,
+        "w": 34,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 66
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_4",
+      "kind": "text",
+      "label": "list_item",
+      "role": "bulletin_item",
+      "class": "body",
+      "box": {
+        "x": 514,
+        "y": 140,
+        "w": 34,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 66
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_5",
+      "kind": "text",
+      "label": "list_item",
+      "role": "bulletin_item",
+      "class": "body",
+      "box": {
+        "x": 592,
+        "y": 140,
+        "w": 34,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 66
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_6",
+      "kind": "text",
+      "label": "list_item",
+      "role": "bulletin_item",
+      "class": "body",
+      "box": {
+        "x": 670,
+        "y": 140,
+        "w": 34,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 66
+      },
+      "visual": {}
+    },
+    {
+      "id": "item_7",
+      "kind": "text",
+      "label": "list_item",
+      "role": "bulletin_item",
+      "class": "body",
+      "box": {
+        "x": 748,
+        "y": 140,
+        "w": 34,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 66
+      },
+      "visual": {}
+    }
+  ]
+}

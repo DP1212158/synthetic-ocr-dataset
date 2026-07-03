@@ -1,0 +1,541 @@
+{
+  "image_id": "3cad93c8-3cad-93c8-3cad-3cad93c83cad",
+  "file_name": "02_certificate_proof_json_06.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "batch1_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "bai",
+    "language_name": "白语",
+    "script_note": "白文拉丁字母方案，横排从左到右",
+    "template_type": "certificate_proof",
+    "category": "certificate_proof",
+    "variant": 6,
+    "layout_name": "certificate_proof_v06",
+    "document_id": "02_certificate_proof_json_06",
+    "title": "Sawcingq Cingmingz",
+    "doc_no": "ZA-V1-02-06",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.16,
+    "chinese_topic": "certificate_proof",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 15,
+      "page_width": 1159,
+      "page_height": 632,
+      "body_scroll_width": 1159,
+      "body_scroll_height": 632,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 63,
+        "y": 63,
+        "width": 1154,
+        "height": 592,
+        "enabled": true,
+        "original_width": 1280,
+        "original_height": 920,
+        "content_bbox": {
+          "x_min": 87,
+          "y_min": 87,
+          "x_max": 1193,
+          "y_max": 630.2
+        },
+        "padding": 24,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.5904,
+        "bottom_blank_ratio_before_crop": 0.315
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 3677687031610531233,
+        "family": "clean_scan",
+        "geometry": {
+          "source_size": {
+            "width": 1154,
+            "height": 592
+          },
+          "scale": {
+            "scale": 0.9917,
+            "width": 1144,
+            "height": 587
+          },
+          "rotation": {
+            "angle_degrees": -2.5237,
+            "width": 1169,
+            "height": 637
+          },
+          "translation": {
+            "dx": -7,
+            "dy": 5,
+            "width": 1169,
+            "height": 637
+          },
+          "edge_crop": {
+            "left": 3,
+            "top": 1,
+            "right": 7,
+            "bottom": 4,
+            "width": 1159,
+            "height": 632
+          },
+          "output_size_before_visual": {
+            "width": 1159,
+            "height": 632
+          }
+        },
+        "output_size": {
+          "width": 1159,
+          "height": 632
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "02_certificate_proof_json_06_b0013",
+      "coordinates": {
+        "x_min": 14.82,
+        "y_min": 56.02,
+        "x_max": 495.95,
+        "y_max": 142.69
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "Sawcingq Cingmingz",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "48px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0014",
+      "coordinates": {
+        "x_min": 969.13,
+        "y_min": 69.63,
+        "x_max": 1113.48,
+        "y_max": 100.71
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "DIGITAL PROOF",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0001",
+      "coordinates": {
+        "x_min": 33.08,
+        "y_min": 175.89,
+        "x_max": 549.25,
+        "y_max": 220.89
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "Qielhuol",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0002",
+      "coordinates": {
+        "x_min": 34.06,
+        "y_min": 198.18,
+        "x_max": 550.6,
+        "y_max": 251.41
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "qierl z / 复印件需与原件同",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0003",
+      "coordinates": {
+        "x_min": 587.9,
+        "y_min": 151.44,
+        "x_max": 1104.07,
+        "y_max": 196.43
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "Fvlguod salyui",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0004",
+      "coordinates": {
+        "x_min": 588.89,
+        "y_min": 173.72,
+        "x_max": 1105.41,
+        "y_max": 226.95
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "guaintl / 申请事项已经完成",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0005",
+      "coordinates": {
+        "x_min": 37.16,
+        "y_min": 268.33,
+        "x_max": 553.33,
+        "y_max": 313.33
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "Hel ngerdjiet",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0006",
+      "coordinates": {
+        "x_min": 38.14,
+        "y_min": 290.62,
+        "x_max": 554.68,
+        "y_max": 343.94
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ngel baod kel",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0007",
+      "coordinates": {
+        "x_min": 591.98,
+        "y_min": 243.88,
+        "x_max": 1108.14,
+        "y_max": 288.87
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "xienpweip，sit",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0008",
+      "coordinates": {
+        "x_min": 592.96,
+        "y_min": 266.16,
+        "x_max": 1109.49,
+        "y_max": 319.48
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "yef fvfq / 本证明仅用于资格",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0009",
+      "coordinates": {
+        "x_min": 41.24,
+        "y_min": 360.86,
+        "x_max": 557.41,
+        "y_max": 405.86
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "soulsui het,",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0010",
+      "coordinates": {
+        "x_min": 42.22,
+        "y_min": 383.15,
+        "x_max": 558.75,
+        "y_max": 436.38
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "at ni bit ni",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0011",
+      "coordinates": {
+        "x_min": 596.06,
+        "y_min": 336.41,
+        "x_max": 1112.22,
+        "y_max": 381.4
+      },
+      "points": null,
+      "block_label": "field_label",
+      "block_content": "bal jia weip,",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "form",
+      "reading_role": "field_label",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0012",
+      "coordinates": {
+        "x_min": 597.04,
+        "y_min": 358.69,
+        "x_max": 1113.56,
+        "y_max": 411.92
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "zex ded / 发证单位留存备案",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_06_b0015",
+      "coordinates": {
+        "x_min": 553.13,
+        "y_min": 542.19,
+        "x_max": 617.63,
+        "y_max": 592.51
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "QR",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "42px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:02:36.952Z",
+  "updated_at": "2026-07-03T12:03:51"
+}

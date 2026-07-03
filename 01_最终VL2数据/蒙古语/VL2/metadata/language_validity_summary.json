@@ -1,0 +1,122 @@
+{
+  "version_dir": "/Users/dp/Downloads/中央民族大学合作项目/蒙古语/03_合成数据生成_20260702/VL2",
+  "language_code": "mn-trad",
+  "language_name": "传统蒙古文",
+  "target_script": "mongolian",
+  "allow_mixed_cjk": true,
+  "documents": 72,
+  "passed_documents": 72,
+  "failed_documents": [],
+  "text_blocks": 986,
+  "bad_char_blocks": 0,
+  "other_script_blocks": 0,
+  "avg_target_ratio": 0.766,
+  "avg_cjk_ratio": 0.0663,
+  "by_category": {
+    "academic_paper": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.772,
+      "avg_cjk_ratio": 0.0639
+    },
+    "book_page": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.771,
+      "avg_cjk_ratio": 0.0646
+    },
+    "certificate_proof": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.7782,
+      "avg_cjk_ratio": 0.0622
+    },
+    "complex_form": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.7927,
+      "avg_cjk_ratio": 0.0651
+    },
+    "exam_paper": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.6612,
+      "avg_cjk_ratio": 0.0795
+    },
+    "handwritten_letter": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.7725,
+      "avg_cjk_ratio": 0.0648
+    },
+    "historical_classic": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.776,
+      "avg_cjk_ratio": 0.0619
+    },
+    "magazine_journal": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.7813,
+      "avg_cjk_ratio": 0.0603
+    },
+    "newspaper_page": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.7718,
+      "avg_cjk_ratio": 0.0703
+    },
+    "notice_announcement": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.7833,
+      "avg_cjk_ratio": 0.0613
+    },
+    "sign_poster_scene": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.7641,
+      "avg_cjk_ratio": 0.0804
+    },
+    "textbook_page": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.7677,
+      "avg_cjk_ratio": 0.0616
+    }
+  },
+  "failure_count": 0,
+  "warning_count": 0,
+  "failure_samples": [],
+  "warning_samples": [],
+  "pass": true,
+  "limitations": [
+    "Regex QA can detect wrong script contamination and bad characters, but cannot prove grammar quality.",
+    "Latin-script languages such as Zhuang and Bai require trusted source text to distinguish language from generic Latin text."
+  ]
+}

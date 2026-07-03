@@ -1,0 +1,321 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "notice_announcement_vertical_tree_03",
+  "variant": 3,
+  "category_id": "notice_announcement",
+  "category_cn": "公告通知",
+  "folder": "10_公告通知",
+  "template_name_cn": "会议通知",
+  "layout_family": "meeting_notice",
+  "design_prompt": "会议通知，有时间、地点、事项和落款。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 960,
+    "height": 1360,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 5,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box note-fill",
+      "box": {
+        "x": 70,
+        "y": 70,
+        "w": 820,
+        "h": 1220
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "notice_title",
+      "class": "title",
+      "box": {
+        "x": 150,
+        "y": 118,
+        "w": 62,
+        "h": 1080
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 28
+      },
+      "visual": {}
+    },
+    {
+      "id": "meeting_label_01",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "small",
+      "box": {
+        "x": 280,
+        "y": 150,
+        "w": 30,
+        "h": 210
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 12
+      },
+      "visual": {}
+    },
+    {
+      "id": "meeting_value_01",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "body boxed",
+      "box": {
+        "x": 314,
+        "y": 150,
+        "w": 42,
+        "h": 250
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 8,
+        "max_chars": 32
+      },
+      "visual": {}
+    },
+    {
+      "id": "meeting_label_02",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "small",
+      "box": {
+        "x": 396,
+        "y": 150,
+        "w": 30,
+        "h": 210
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 12
+      },
+      "visual": {}
+    },
+    {
+      "id": "meeting_value_02",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "body boxed",
+      "box": {
+        "x": 430,
+        "y": 150,
+        "w": 42,
+        "h": 250
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 8,
+        "max_chars": 32
+      },
+      "visual": {}
+    },
+    {
+      "id": "meeting_label_03",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "small",
+      "box": {
+        "x": 512,
+        "y": 150,
+        "w": 30,
+        "h": 210
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 12
+      },
+      "visual": {}
+    },
+    {
+      "id": "meeting_value_03",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "body boxed",
+      "box": {
+        "x": 546,
+        "y": 150,
+        "w": 42,
+        "h": 250
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 8,
+        "max_chars": 32
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 290,
+        "y": 560,
+        "w": 34,
+        "h": 620
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 354,
+        "y": 560,
+        "w": 34,
+        "h": 620
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 418,
+        "y": 560,
+        "w": 34,
+        "h": 620
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 482,
+        "y": 560,
+        "w": 34,
+        "h": 620
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 546,
+        "y": 560,
+        "w": 34,
+        "h": 620
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 610,
+        "y": 560,
+        "w": 34,
+        "h": 620
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "date",
+      "kind": "text",
+      "label": "metadata",
+      "role": "date",
+      "class": "small",
+      "box": {
+        "x": 790,
+        "y": 150,
+        "w": 34,
+        "h": 980
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 24,
+        "max_chars": 96,
+        "value": "20260702"
+      },
+      "visual": {}
+    }
+  ]
+}

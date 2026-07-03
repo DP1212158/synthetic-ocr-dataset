@@ -1,0 +1,114 @@
+{
+  "category": {
+    "category_id": "book_page",
+    "category_cn": "书籍页",
+    "title": "དེབ་ཀྱི་ཤོག་ངོས",
+    "templates": [
+      {
+        "template_id": "book_page_v01",
+        "variant": 1,
+        "layout_family": "traditional_chapter_body",
+        "content_density": "dense",
+        "page": {
+          "width": 1240,
+          "height": 1754
+        },
+        "preserve_full_page": true,
+        "structure": [
+          "running_header",
+          "chapter_title",
+          "two_column_body",
+          "folio"
+        ]
+      },
+      {
+        "template_id": "book_page_v02",
+        "variant": 2,
+        "layout_family": "chapter_opener",
+        "content_density": "medium",
+        "page": {
+          "width": 1240,
+          "height": 1620
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "chapter_number",
+          "large_title",
+          "epigraph",
+          "opening_paragraphs",
+          "margin_notes"
+        ]
+      },
+      {
+        "template_id": "book_page_v03",
+        "variant": 3,
+        "layout_family": "illustrated_annotation_page",
+        "content_density": "medium_high",
+        "page": {
+          "width": 1240,
+          "height": 1754
+        },
+        "preserve_full_page": true,
+        "structure": [
+          "section_title",
+          "body_text",
+          "image_figure",
+          "caption",
+          "continuation_text"
+        ]
+      },
+      {
+        "template_id": "book_page_v04",
+        "variant": 4,
+        "layout_family": "marginalia_reading_page",
+        "content_density": "dense",
+        "page": {
+          "width": 1240,
+          "height": 1754
+        },
+        "preserve_full_page": true,
+        "structure": [
+          "main_text_column",
+          "outer_margin_notes",
+          "keyword_index",
+          "folio"
+        ]
+      },
+      {
+        "template_id": "book_page_v05",
+        "variant": 5,
+        "layout_family": "book_contents_page",
+        "content_density": "medium_high",
+        "page": {
+          "width": 1240,
+          "height": 1500
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "contents_title",
+          "chapter_entries",
+          "leaders",
+          "page_numbers"
+        ]
+      },
+      {
+        "template_id": "book_page_v06",
+        "variant": 6,
+        "layout_family": "selected_readings_extract",
+        "content_density": "medium",
+        "page": {
+          "width": 1240,
+          "height": 1600
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "extract_blocks",
+          "source_notes",
+          "separator_rules",
+          "folio"
+        ]
+      }
+    ]
+  },
+  "source_schema": "category_layout_templates.v1"
+}

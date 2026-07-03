@@ -1,0 +1,860 @@
+{
+  "image_id": "915fe8f0-915f-e8f0-915f-915fe8f0915f",
+  "file_name": "12_handwritten_letter_json_02.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "remaining_pages_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "kk-arab",
+    "language_name": "哈萨克语",
+    "script_note": "改良阿拉伯字母，横排从右到左",
+    "template_type": "handwritten_letter",
+    "category": "handwritten_letter",
+    "variant": 2,
+    "layout_name": "handwritten_letter_v02",
+    "document_id": "12_handwritten_letter_json_02",
+    "title": "Saunghawj Gijsei",
+    "doc_no": "ZA-V1-12-02",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.14,
+    "chinese_topic": "handwritten_letter",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 26,
+      "page_width": 1071,
+      "page_height": 1066,
+      "body_scroll_width": 1071,
+      "body_scroll_height": 1066,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 94,
+        "y": 70,
+        "width": 1052,
+        "height": 1051,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1650,
+        "content_bbox": {
+          "x_min": 125,
+          "y_min": 101,
+          "x_max": 1115,
+          "y_max": 1089.1
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.5988,
+        "bottom_blank_ratio_before_crop": 0.3399
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 16827027173204074482,
+        "family": "soft_copy",
+        "geometry": {
+          "source_size": {
+            "width": 1052,
+            "height": 1051
+          },
+          "scale": {
+            "scale": 0.98666,
+            "width": 1038,
+            "height": 1037
+          },
+          "rotation": {
+            "angle_degrees": 2.0336,
+            "width": 1075,
+            "height": 1074
+          },
+          "translation": {
+            "dx": 2,
+            "dy": 7,
+            "width": 1075,
+            "height": 1074
+          },
+          "edge_crop": {
+            "left": 3,
+            "top": 5,
+            "right": 1,
+            "bottom": 3,
+            "width": 1071,
+            "height": 1066
+          },
+          "output_size_before_visual": {
+            "width": 1071,
+            "height": 1066
+          }
+        },
+        "output_size": {
+          "width": 1071,
+          "height": 1066
+        }
+      }
+    },
+    "reading_order_policy": "rtl_visual_top_to_bottom_right_to_left_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "12_handwritten_letter_json_02_b0001",
+      "coordinates": {
+        "x_min": 64.06,
+        "y_min": 33.66,
+        "x_max": 1041.46,
+        "y_max": 102.83
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "ارقىلى عىلمي",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "27px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0002",
+      "coordinates": {
+        "x_min": 62.41,
+        "y_min": 85.91,
+        "x_max": 1039.6,
+        "y_max": 149.37
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "سەزىمىن اڭعارامىز: 2 ميلليون 240 مىڭ ەرەكشە قينشىلىعى。这封短信写得匆忙",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0003",
+      "coordinates": {
+        "x_min": 61.0,
+        "y_min": 125.55,
+        "x_max": 1038.2,
+        "y_max": 189.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "جوعارى ساپالى دامۋدى جۇزەگە اسىرۋدا عىلىم - تەحنيك。有空请再写信给我",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0004",
+      "coordinates": {
+        "x_min": 59.59,
+        "y_min": 165.19,
+        "x_max": 1036.79,
+        "y_max": 228.65
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "قىستاق جايلى ايتقان اڭگىمەلەرىن تىڭدايدى، اعاش كو。这封短信写得匆忙",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0005",
+      "coordinates": {
+        "x_min": 58.18,
+        "y_min": 204.83,
+        "x_max": 1035.38,
+        "y_max": 268.28
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "بەرگەندە، قىزمەت ىستەگەن ورنىنىڭ تەكسەرۋ، جاريال。这封短信写得匆忙",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0006",
+      "coordinates": {
+        "x_min": 56.78,
+        "y_min": 244.47,
+        "x_max": 1033.97,
+        "y_max": 307.83
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "قاينارى : حالىق تورابى دۋان - ۋ مەرەكەسىنىڭ دەمال。愿你学习工作顺利",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0007",
+      "coordinates": {
+        "x_min": 55.37,
+        "y_min": 284.01,
+        "x_max": 1032.57,
+        "y_max": 347.46
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "كەلۋ قاينارى : حالىق تورابى شينحۋا اگەنتتىگىنى。朋友们都很惦记你",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0008",
+      "coordinates": {
+        "x_min": 53.96,
+        "y_min": 323.64,
+        "x_max": 1031.16,
+        "y_max": 387.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ساپاسىنىڭ ءونىمدى جوعارىلاۋى مەن مولشەرىنىڭ ۇيلەس。请代我问候家里人",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0009",
+      "coordinates": {
+        "x_min": 52.56,
+        "y_min": 363.29,
+        "x_max": 1029.75,
+        "y_max": 426.74
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "رەال ماسەلەلەرگە ەگجەي - تەگجەيلى عىلمي كۇش سال。愿你学习工作顺利",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0010",
+      "coordinates": {
+        "x_min": 51.15,
+        "y_min": 402.92,
+        "x_max": 1028.35,
+        "y_max": 466.38
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ۇيرەنۋدى تەرەڭدەتۋگە، ماسەلەلەردى ءداپ باسىپ تابۋ。收到后请回个消息",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0011",
+      "coordinates": {
+        "x_min": 49.74,
+        "y_min": 442.57,
+        "x_max": 1026.94,
+        "y_max": 506.02
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "جەبەۋدەگى ماقسات ەل ىشىندەگى ءىرى اينالىمنىڭ。这些事情以后慢慢细说",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0012",
+      "coordinates": {
+        "x_min": 48.33,
+        "y_min": 482.2,
+        "x_max": 1025.53,
+        "y_max": 545.66
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "دەنە تاربيە | 2026.06.12 15:38 كەلۋ قاينارى : حالىق تورابى جۇ。近来一切都还顺利",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0013",
+      "coordinates": {
+        "x_min": 46.93,
+        "y_min": 521.84,
+        "x_max": 1024.12,
+        "y_max": 585.29
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "قازىرگى ەسىك اشۋىمىز ’باستاماشىنىڭ قاتارىنا ءوتتى‘، بۇل。愿你学习工作顺利",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0014",
+      "coordinates": {
+        "x_min": 45.52,
+        "y_min": 561.48,
+        "x_max": 1022.72,
+        "y_max": 624.84
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "قاجەتتى شارالار قولدانىپ، جۇڭگو كاسىپورىندارىنىڭ ور。朋友们都很惦记你",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0015",
+      "coordinates": {
+        "x_min": 44.12,
+        "y_min": 601.02,
+        "x_max": 1021.31,
+        "y_max": 664.47
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ەل ءىشى | شينجياڭ | حالىقارا | قوعام | ەكونوميك。愿你学习工作顺利",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0016",
+      "coordinates": {
+        "x_min": 42.71,
+        "y_min": 640.66,
+        "x_max": 1019.9,
+        "y_max": 704.12
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "جەتكىزۋدەن ستراتەگيالىق جوعارى تەحنيكا سالاسىندا。这些事情以后慢慢细说",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0017",
+      "coordinates": {
+        "x_min": 41.3,
+        "y_min": 680.3,
+        "x_max": 1018.5,
+        "y_max": 743.75
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "جەدەلدەتتى. ”بۇرىن ءبىزدىڭ ەسىك اشۋىمىز ’ىلەسىپ جۇگىر。近来一切都还顺利",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0018",
+      "coordinates": {
+        "x_min": 39.89,
+        "y_min": 719.93,
+        "x_max": 1017.09,
+        "y_max": 783.39
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "جۇزەگە اسىرىپ، وزىندىك قۇنى زور دارەجەدە تومەندە。收到后请回个消息",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0019",
+      "coordinates": {
+        "x_min": 38.49,
+        "y_min": 759.58,
+        "x_max": 1015.68,
+        "y_max": 823.03
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ءىشى | شينجياڭ | حالىقارا | قوعام | ەكونوميك。希望你保持身体健康",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0020",
+      "coordinates": {
+        "x_min": 36.31,
+        "y_min": 818.94,
+        "x_max": 1013.57,
+        "y_max": 884.36
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": ". .",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0021",
+      "coordinates": {
+        "x_min": 35.47,
+        "y_min": 849.7,
+        "x_max": 1012.48,
+        "y_max": 907.83
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "شوعىرلاندىرىپ ءوز ىستەرىن ويداع。朋友们都很惦记你",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0022",
+      "coordinates": {
+        "x_min": 34.64,
+        "y_min": 873.17,
+        "x_max": 1011.65,
+        "y_max": 931.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "شىقتى. 2024 - جىلى 22 ەركىن ساۋدا سىناق",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0023",
+      "coordinates": {
+        "x_min": 33.81,
+        "y_min": 896.54,
+        "x_max": 1010.82,
+        "y_max": 954.67
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "اتتاعان زاڭسىز قىلمىستارعا سوققى بەرۋ",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0024",
+      "coordinates": {
+        "x_min": 32.98,
+        "y_min": 920.01,
+        "x_max": 1009.99,
+        "y_max": 978.03
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ءۇمىت ەتەمىز. كەلۋ قاينارى: حالىق تورابى",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0025",
+      "coordinates": {
+        "x_min": 31.45,
+        "y_min": 965.07,
+        "x_max": 1008.39,
+        "y_max": 1021.23
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "جونىندە ۇكىم",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0026",
+      "coordinates": {
+        "x_min": 30.69,
+        "y_min": 986.57,
+        "x_max": 1007.62,
+        "y_max": 1042.62
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026-07",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:18:43.364Z",
+  "updated_at": "2026-07-03T12:19:27"
+}

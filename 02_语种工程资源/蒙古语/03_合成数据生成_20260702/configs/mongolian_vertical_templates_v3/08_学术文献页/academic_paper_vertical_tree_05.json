@@ -1,0 +1,457 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "academic_paper_vertical_tree_05",
+  "variant": 5,
+  "category_id": "academic_paper",
+  "category_cn": "学术文献页",
+  "folder": "08_学术文献页",
+  "template_name_cn": "图表论文页",
+  "layout_family": "figure_table_paper",
+  "design_prompt": "图表占比更高，配多段说明文字。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1120,
+    "height": 1580,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 12,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "meta",
+      "kind": "text",
+      "label": "metadata",
+      "role": "paper_meta",
+      "class": "small",
+      "box": {
+        "x": 54,
+        "y": 58,
+        "w": 42,
+        "h": 1460
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 24,
+        "max_chars": 96,
+        "value": "2026"
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "paper_title",
+      "class": "title",
+      "box": {
+        "x": 128,
+        "y": 58,
+        "w": 56,
+        "h": 1460
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 8,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "figure",
+      "kind": "image",
+      "label": "image",
+      "role": "figure",
+      "class": "image-fill",
+      "box": {
+        "x": 230,
+        "y": 100,
+        "w": 360,
+        "h": 500
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "caption",
+      "kind": "text",
+      "label": "caption",
+      "role": "figure_caption",
+      "class": "small",
+      "box": {
+        "x": 620,
+        "y": 100,
+        "w": 30,
+        "h": 500
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 34
+      },
+      "visual": {}
+    },
+    {
+      "id": "explain_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 700,
+        "y": 100,
+        "w": 32,
+        "h": 500
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 22,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "explain_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 754,
+        "y": 100,
+        "w": 32,
+        "h": 500
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 22,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "explain_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 808,
+        "y": 100,
+        "w": 32,
+        "h": 500
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 22,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "explain_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 862,
+        "y": 100,
+        "w": 32,
+        "h": 500
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 22,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "explain_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 916,
+        "y": 100,
+        "w": 32,
+        "h": 500
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 22,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "explain_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 970,
+        "y": 100,
+        "w": 32,
+        "h": 500
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 22,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 230,
+        "y": 720,
+        "w": 30,
+        "h": 680
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 26,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 278,
+        "y": 720,
+        "w": 30,
+        "h": 680
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 26,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 326,
+        "y": 720,
+        "w": 30,
+        "h": 680
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 26,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 374,
+        "y": 720,
+        "w": 30,
+        "h": 680
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 26,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 422,
+        "y": 720,
+        "w": 30,
+        "h": 680
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 26,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 470,
+        "y": 720,
+        "w": 30,
+        "h": 680
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 26,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_07",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 518,
+        "y": 720,
+        "w": 30,
+        "h": 680
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 26,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_08",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 566,
+        "y": 720,
+        "w": 30,
+        "h": 680
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 26,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_09",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 614,
+        "y": 720,
+        "w": 30,
+        "h": 680
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 26,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_10",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 662,
+        "y": 720,
+        "w": 30,
+        "h": 680
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 26,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_11",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 710,
+        "y": 720,
+        "w": 30,
+        "h": 680
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 26,
+        "max_chars": 88
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_12",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 758,
+        "y": 720,
+        "w": 30,
+        "h": 680
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 26,
+        "max_chars": 88
+      },
+      "visual": {}
+    }
+  ]
+}

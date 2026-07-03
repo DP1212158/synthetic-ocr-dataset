@@ -1,0 +1,222 @@
+{
+  "image_id": "d121c7d9-d121-c7d9-d121-d121c7d9d121",
+  "file_name": "04_sign_poster_scene_vertical_tree_06.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "mongolian_vertical_json_tree_v3_v4_split_mix_assets",
+    "language_code": "mn-trad",
+    "language_name": "传统蒙古文",
+    "script_note": "传统蒙古文，竖排从上到下，列从左到右",
+    "template_type": "sign_poster_scene",
+    "category": "sign_poster_scene",
+    "variant": 6,
+    "layout_name": "sign_poster_scene_vertical_tree_06",
+    "document_id": "04_sign_poster_scene_vertical_tree_06",
+    "title": "标牌海报场景",
+    "doc_no": "MN-V3-04-06",
+    "date": "2026-07-02",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.16,
+    "chinese_topic": "sign_poster_scene",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 4,
+      "page_width": 585,
+      "page_height": 892,
+      "body_scroll_width": 585,
+      "body_scroll_height": 892,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 166,
+        "y": 106,
+        "width": 540,
+        "height": 868,
+        "enabled": true,
+        "original_width": 920,
+        "original_height": 1180,
+        "content_bbox": {
+          "x_min": 190,
+          "y_min": 130,
+          "x_max": 682,
+          "y_max": 950
+        },
+        "padding": 24,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.6949,
+        "bottom_blank_ratio_before_crop": 0.1949
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 12901264777527907841,
+        "family": "shadow_photo",
+        "geometry": {
+          "source_size": {
+            "width": 540,
+            "height": 868
+          },
+          "scale": {
+            "scale": 1.00665,
+            "width": 544,
+            "height": 874
+          },
+          "rotation": {
+            "angle_degrees": -3.0608,
+            "width": 590,
+            "height": 902
+          },
+          "translation": {
+            "dx": 3,
+            "dy": -5,
+            "width": 590,
+            "height": 902
+          },
+          "edge_crop": {
+            "left": 1,
+            "top": 7,
+            "right": 4,
+            "bottom": 3,
+            "width": 585,
+            "height": 892
+          },
+          "output_size_before_visual": {
+            "width": 585,
+            "height": 892
+          }
+        },
+        "output_size": {
+          "width": 585,
+          "height": 892
+        }
+      }
+    },
+    "reading_order_policy": "vertical_lr_columns_top_to_bottom_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "04_sign_poster_scene_vertical_tree_06_b0002",
+      "coordinates": {
+        "x_min": 27.42,
+        "y_min": 35.26,
+        "x_max": 157.94,
+        "y_max": 864.15
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢ 服务",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "34px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "body",
+      "reading_role": "title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_vertical_tree_06_b0003",
+      "coordinates": {
+        "x_min": 219.48,
+        "y_min": 46.76,
+        "x_max": 317.69,
+        "y_max": 833.84
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠪᠤᠭᠤᠷᠤᠯ ᠨᠠᠮᠤᠷ ᠠᠢᠯᠠᠭᠠᠨ ᠎ᠳᠤ ᠰᠠᠭᠠᠲᠠᠵᠤ ᠪᠤᠳᠤᠬᠤ ᠰᠢᠨ᠎ᠡ ᠵᠢᠯ ᠪᠤᠯᠴᠢᠬᠠᠯ ᠪᠤᠴᠠ。文明参与共同维护秩序。参观人员请保持队形；预约人员优先办理",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_vertical_tree_06_b0004",
+      "coordinates": {
+        "x_min": 361.28,
+        "y_min": 60.53,
+        "x_max": 434.16,
+        "y_max": 786.1
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ᠠᠩᠭᠢᠯᠤᠮ᠎ᠠ ᠴᠡᠴᠡᠭ ᠦᠨ ᠦᠨᠦᠷ ᠰᠢᠩᠭᠡᠭ᠍ᠰᠡᠨ ᠠᠯᠢᠶ᠎ᠠ ᠬᠥᠭᠡᠷᠦᠬ / 报名信息",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_vertical_tree_06_b0005",
+      "coordinates": {
+        "x_min": 480.83,
+        "y_min": 33.54,
+        "x_max": 564.98,
+        "y_max": 819.87
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    }
+  ],
+  "created_at": "2026-07-03T06:38:17.688Z",
+  "updated_at": "2026-07-03T14:39:24"
+}

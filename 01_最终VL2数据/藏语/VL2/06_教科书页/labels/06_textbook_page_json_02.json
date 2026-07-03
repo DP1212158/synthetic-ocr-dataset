@@ -1,0 +1,1846 @@
+{
+  "image_id": "16291392-1629-1392-1629-162913921629",
+  "file_name": "06_textbook_page_json_02.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "reading_pages_json_renderer_bo_v1_v4_split_mix_assets",
+    "language_code": "bo",
+    "language_name": "藏语",
+    "script_note": "藏文横排文本，第一阶段用于公开文本源验证与模板填充",
+    "template_type": "textbook_page",
+    "category": "textbook_page",
+    "variant": 2,
+    "layout_name": "textbook_page_v02",
+    "document_id": "06_textbook_page_json_02",
+    "title": "སློབ་དེབ་ཤོག་ངོས",
+    "doc_no": "V12-06-02",
+    "date": "2026-07-01",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.14,
+    "chinese_topic": "textbook_page",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 60,
+      "page_width": 1286,
+      "page_height": 1773,
+      "body_scroll_width": 1286,
+      "body_scroll_height": 1773,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 31,
+        "y": 23,
+        "width": 1178,
+        "height": 1708,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1754,
+        "content_bbox": {
+          "x_min": 62,
+          "y_min": 54,
+          "x_max": 1178,
+          "y_max": 1700
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.9384,
+        "bottom_blank_ratio_before_crop": 0.0308
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 13750316919084054424,
+        "family": "warm_paper",
+        "geometry": {
+          "source_size": {
+            "width": 1178,
+            "height": 1708
+          },
+          "scale": {
+            "scale": 1.0,
+            "width": 1178,
+            "height": 1708
+          },
+          "rotation": {
+            "angle_degrees": 3.9598,
+            "width": 1294,
+            "height": 1786
+          },
+          "translation": {
+            "dx": 6,
+            "dy": -4,
+            "width": 1294,
+            "height": 1786
+          },
+          "edge_crop": {
+            "left": 1,
+            "top": 10,
+            "right": 7,
+            "bottom": 3,
+            "width": 1286,
+            "height": 1773
+          },
+          "output_size_before_visual": {
+            "width": 1286,
+            "height": 1773
+          }
+        },
+        "output_size": {
+          "width": 1286,
+          "height": 1773
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "06_textbook_page_json_02_b0057",
+      "coordinates": {
+        "x_min": 146.8,
+        "y_min": 19.07,
+        "x_max": 286.01,
+        "y_max": 99.59
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "སྦྱོང་ཚན",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "43px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0058",
+      "coordinates": {
+        "x_min": 1104.61,
+        "y_min": 129.46,
+        "x_max": 1262.02,
+        "y_max": 167.36
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "ལན་འབྲི་ས་སྟོང་པ་བཞག་ཡོད",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0001",
+      "coordinates": {
+        "x_min": 143.2,
+        "y_min": 123.22,
+        "x_max": 687.23,
+        "y_max": 179.94
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "1. བྱུང་ཞིང་ སྤེལ་ཡུལ་ཨོ་ལིན་ཕིག་ཡིན་པས་",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0002",
+      "coordinates": {
+        "x_min": 141.26,
+        "y_min": 142.37,
+        "x_max": 685.9,
+        "y_max": 207.87
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0003",
+      "coordinates": {
+        "x_min": 139.52,
+        "y_min": 176.29,
+        "x_max": 683.55,
+        "y_max": 233.01
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "2. ༣ནི་རང་བྱུང་གི་གྲངས་ཞིག་སྟེ་༢པའི་རྗེས་མ་དང་༤པའི་。练习题按难度逐步增加",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0004",
+      "coordinates": {
+        "x_min": 137.59,
+        "y_min": 195.44,
+        "x_max": 682.23,
+        "y_max": 260.94
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0005",
+      "coordinates": {
+        "x_min": 135.86,
+        "y_min": 229.36,
+        "x_max": 679.88,
+        "y_max": 285.98
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "3. འབྲེལ་ཞིང་བྱང་ཤར་གྱི་མཚམས་ཏ。请比较两段材料差异",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0006",
+      "coordinates": {
+        "x_min": 133.92,
+        "y_min": 248.42,
+        "x_max": 678.56,
+        "y_max": 313.92
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0007",
+      "coordinates": {
+        "x_min": 132.18,
+        "y_min": 282.34,
+        "x_max": 676.21,
+        "y_max": 339.06
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "4. ཀ་ན་ནི་ཨ་ཧྥེ་རི་ཁའི་རྒྱལ་ཁབ་ཞིག་རེད དེའི་རྒྱལ་ས་ན。课后练习用于巩固知识",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0008",
+      "coordinates": {
+        "x_min": 130.25,
+        "y_min": 301.49,
+        "x_max": 674.88,
+        "y_max": 366.99
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0009",
+      "coordinates": {
+        "x_min": 128.51,
+        "y_min": 335.41,
+        "x_max": 672.54,
+        "y_max": 392.13
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "5. དར མཆོད་འབུལ སྨྱུང་གནས་སྲུང་བ སློང་མོ་",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0010",
+      "coordinates": {
+        "x_min": 126.58,
+        "y_min": 354.56,
+        "x_max": 671.21,
+        "y_max": 420.06
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 38,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0011",
+      "coordinates": {
+        "x_min": 124.84,
+        "y_min": 388.48,
+        "x_max": 668.86,
+        "y_max": 445.2
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "6. ༡༨༨༢ལོ་ནི་ཀེ་ལུའོ་ཀེ་ལི་ཡའི་ལོ་ཐོའི་ནང་བཀོལ་སྤྱོད་བྱས་པའི་。请比较两段材料差异",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0012",
+      "coordinates": {
+        "x_min": 122.9,
+        "y_min": 407.64,
+        "x_max": 667.54,
+        "y_max": 473.14
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 41,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0013",
+      "coordinates": {
+        "x_min": 121.16,
+        "y_min": 441.56,
+        "x_max": 665.19,
+        "y_max": 498.28
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "7. རིམ་ཚགས་དམ་པའི་ཁྱད་ཆོས་ལྡན 《ཡེ་ལི་ཡ་",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0014",
+      "coordinates": {
+        "x_min": 119.23,
+        "y_min": 460.71,
+        "x_max": 663.86,
+        "y_max": 526.21
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 43,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0015",
+      "coordinates": {
+        "x_min": 117.49,
+        "y_min": 494.63,
+        "x_max": 661.52,
+        "y_max": 551.35
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "8. གནས་ཀྱི་དེབ་གཙོ་གྲས་ཆེན་པོ་བཞིའི་ནང་",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0016",
+      "coordinates": {
+        "x_min": 115.55,
+        "y_min": 513.78,
+        "x_max": 660.19,
+        "y_max": 579.28
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 45,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0017",
+      "coordinates": {
+        "x_min": 113.81,
+        "y_min": 547.7,
+        "x_max": 657.84,
+        "y_max": 604.42
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "9. པའི་སྐེད་པ་ལས་དར་ལ་བབས་པའི་བ。请根据提示补充句子",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0018",
+      "coordinates": {
+        "x_min": 111.88,
+        "y_min": 566.86,
+        "x_max": 656.52,
+        "y_max": 632.36
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 47,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0019",
+      "coordinates": {
+        "x_min": 110.14,
+        "y_min": 600.77,
+        "x_max": 654.17,
+        "y_max": 657.5
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "10. ༡༨ནི་རང་བྱུང་གི་གྲངས་ཞིག་སྟེ་༡༧པའི་རྗེས་མ་དང་༡༩པའི་ས。小组交流后完成记录",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0020",
+      "coordinates": {
+        "x_min": 108.21,
+        "y_min": 619.93,
+        "x_max": 652.84,
+        "y_max": 685.43
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 49,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0021",
+      "coordinates": {
+        "x_min": 106.47,
+        "y_min": 653.85,
+        "x_max": 650.49,
+        "y_max": 710.47
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "11. ལྟ་བུ་ཞིག་ཡིན་པ་རྒྱས་པར་འགྲ。例句展示常用表达方式",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0022",
+      "coordinates": {
+        "x_min": 104.54,
+        "y_min": 672.9,
+        "x_max": 649.18,
+        "y_max": 738.4
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 51,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0023",
+      "coordinates": {
+        "x_min": 102.8,
+        "y_min": 706.82,
+        "x_max": 646.83,
+        "y_max": 763.54
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "12. ཡིན་པས་ཟླ་བ་འདིར་དམིགས་བ。例句展示常用表达方式",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0024",
+      "coordinates": {
+        "x_min": 100.87,
+        "y_min": 725.98,
+        "x_max": 645.5,
+        "y_max": 791.47
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 53,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0025",
+      "coordinates": {
+        "x_min": 99.13,
+        "y_min": 759.89,
+        "x_max": 643.15,
+        "y_max": 816.61
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "13. ཀ་ཐོག་ནི་བོད་ཀྱི་གྲུབ་མཐའ་རྙིང་མ་པའི་དགོན་སྡ。本单元强调综合运用",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0026",
+      "coordinates": {
+        "x_min": 97.19,
+        "y_min": 779.05,
+        "x_max": 641.83,
+        "y_max": 844.55
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 55,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0027",
+      "coordinates": {
+        "x_min": 95.45,
+        "y_min": 812.97,
+        "x_max": 639.48,
+        "y_max": 869.69
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "14. ༡༨ནི་རང་བྱུང་གི་གྲངས་ཞིག་སྟེ་༡༧པའི་རྗེས་མ་དང་༡༩པའི。本课包含阅读与表达训练",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0028",
+      "coordinates": {
+        "x_min": 93.52,
+        "y_min": 832.12,
+        "x_max": 638.15,
+        "y_max": 897.62
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 57,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0029",
+      "coordinates": {
+        "x_min": 713.83,
+        "y_min": 162.72,
+        "x_max": 1257.86,
+        "y_max": 219.44
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "15. ཐར་(རྒྱ་སྐད:)ནི་ཀྲུང་གོའི་ར。请根据提示补充句子",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0030",
+      "coordinates": {
+        "x_min": 711.9,
+        "y_min": 181.87,
+        "x_max": 1256.53,
+        "y_max": 247.37
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0031",
+      "coordinates": {
+        "x_min": 710.16,
+        "y_min": 215.79,
+        "x_max": 1254.19,
+        "y_max": 272.51
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "16. ཐོགས་ནས་མགོ་བོར་བསྲིངས་པ ར。知识拓展部分联系生活",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0032",
+      "coordinates": {
+        "x_min": 708.23,
+        "y_min": 234.94,
+        "x_max": 1252.86,
+        "y_max": 300.44
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0033",
+      "coordinates": {
+        "x_min": 706.49,
+        "y_min": 268.86,
+        "x_max": 1250.51,
+        "y_max": 325.48
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "17. བར་མ་ཟད ཁོ་ལ་ལྷན་སྐྱེས་ཀྱི。知识拓展部分联系生活",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0034",
+      "coordinates": {
+        "x_min": 704.56,
+        "y_min": 287.92,
+        "x_max": 1249.19,
+        "y_max": 353.42
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0035",
+      "coordinates": {
+        "x_min": 702.82,
+        "y_min": 321.84,
+        "x_max": 1246.85,
+        "y_max": 378.56
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "18. ཐོག་ནས་ཟུར་ཟའི་མུ་འབྲེལ་རི་。课堂导入可使用图片材料",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0036",
+      "coordinates": {
+        "x_min": 700.88,
+        "y_min": 340.99,
+        "x_max": 1245.52,
+        "y_max": 406.49
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 39,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0037",
+      "coordinates": {
+        "x_min": 699.14,
+        "y_min": 374.91,
+        "x_max": 1243.17,
+        "y_max": 431.63
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "19. ༡༨༨༢ལོ་ནི་ཀེ་ལུའོ་ཀེ་ལི་ཡའི་ལོ་ཐོའི་ནང་བཀོལ་སྤྱོད་བྱས་པའི་。复习时注意书写规范",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0038",
+      "coordinates": {
+        "x_min": 697.21,
+        "y_min": 394.06,
+        "x_max": 1241.85,
+        "y_max": 459.56
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 40,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0039",
+      "coordinates": {
+        "x_min": 695.47,
+        "y_min": 427.98,
+        "x_max": 1239.5,
+        "y_max": 484.7
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "20. ཀྱི་རྣམ་པ་མཚོན་པར་བྱས་ཡོད ག。学习评价关注理解能力",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0040",
+      "coordinates": {
+        "x_min": 693.54,
+        "y_min": 447.14,
+        "x_max": 1238.17,
+        "y_max": 512.64
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "41",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 42,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0041",
+      "coordinates": {
+        "x_min": 691.8,
+        "y_min": 481.06,
+        "x_max": 1235.82,
+        "y_max": 537.78
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "21. ཀའོ་ཆིའུ་(རྒྱ་སྐད:)ནི་ ཆུ་ངོགས་གཏམ་རྒྱུད་ ནང་གི་མི་ས。复习时注意书写规范",
+      "is_text": true,
+      "order": "42",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0042",
+      "coordinates": {
+        "x_min": 689.86,
+        "y_min": 500.21,
+        "x_max": 1234.5,
+        "y_max": 565.71
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "43",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 44,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0043",
+      "coordinates": {
+        "x_min": 688.12,
+        "y_min": 534.13,
+        "x_max": 1232.15,
+        "y_max": 590.85
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "22. ༣ནི་རང་བྱུང་གི་གྲངས་ཞིག་སྟེ་༢པའི་རྗེས་མ་དང་༤པའི་。课堂活动建议分组完成",
+      "is_text": true,
+      "order": "44",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0044",
+      "coordinates": {
+        "x_min": 686.19,
+        "y_min": 553.28,
+        "x_max": 1230.82,
+        "y_max": 618.78
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "45",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 46,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0045",
+      "coordinates": {
+        "x_min": 684.45,
+        "y_min": 587.2,
+        "x_max": 1228.48,
+        "y_max": 643.92
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "23. ཧུ་མཱའི་ལོ་རྒྱུས་སྙན་རྩོམ་གྱ。知识拓展部分联系生活",
+      "is_text": true,
+      "order": "46",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0046",
+      "coordinates": {
+        "x_min": 682.52,
+        "y_min": 606.36,
+        "x_max": 1227.15,
+        "y_max": 671.86
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "47",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 48,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0047",
+      "coordinates": {
+        "x_min": 680.78,
+        "y_min": 640.27,
+        "x_max": 1224.8,
+        "y_max": 697.0
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "24. ཀ་ཐོག་ནི་བོད་ཀྱི་གྲུབ་མཐའ་རྙིང་མ་པའི་དགོན་སྡ。本单元强调综合运用",
+      "is_text": true,
+      "order": "48",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0048",
+      "coordinates": {
+        "x_min": 678.84,
+        "y_min": 659.43,
+        "x_max": 1223.48,
+        "y_max": 724.93
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "49",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 50,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0049",
+      "coordinates": {
+        "x_min": 677.11,
+        "y_min": 693.35,
+        "x_max": 1221.13,
+        "y_max": 749.97
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "25. ཀའོ་ཆིའུ་(རྒྱ་སྐད:)ནི་ ཆུ་ངོགས་གཏམ་རྒྱུད་ ནང་གི་མི་ས。本单元强调综合运用",
+      "is_text": true,
+      "order": "50",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0050",
+      "coordinates": {
+        "x_min": 675.17,
+        "y_min": 712.4,
+        "x_max": 1219.81,
+        "y_max": 777.9
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "51",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 52,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0051",
+      "coordinates": {
+        "x_min": 673.43,
+        "y_min": 746.32,
+        "x_max": 1217.46,
+        "y_max": 803.04
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "26. རིག་ལག་རྩལ་གྱི་ཐད་ནས་ཀྱང་འཛམ་གླིང་ལ་",
+      "is_text": true,
+      "order": "52",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0052",
+      "coordinates": {
+        "x_min": 671.5,
+        "y_min": 765.48,
+        "x_max": 1216.14,
+        "y_max": 830.98
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "53",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 54,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0053",
+      "coordinates": {
+        "x_min": 669.76,
+        "y_min": 799.39,
+        "x_max": 1213.79,
+        "y_max": 856.11
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "27. གསུམ་ཞུ་བའི་སྐྱེས་ཆེན་དམ་པ་མང་པོ་ཡང་",
+      "is_text": true,
+      "order": "54",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0054",
+      "coordinates": {
+        "x_min": 667.83,
+        "y_min": 818.55,
+        "x_max": 1212.46,
+        "y_max": 884.05
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "55",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 56,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0055",
+      "coordinates": {
+        "x_min": 666.09,
+        "y_min": 852.47,
+        "x_max": 1210.11,
+        "y_max": 909.19
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "28. པར་བརྟེན་ནས་ངག་ནས་ངག་བརྒྱ。请朗读课文并标出重点",
+      "is_text": true,
+      "order": "56",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0056",
+      "coordinates": {
+        "x_min": 664.15,
+        "y_min": 871.62,
+        "x_max": 1208.79,
+        "y_max": 937.12
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "57",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 58,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0059",
+      "coordinates": {
+        "x_min": 38.07,
+        "y_min": 1599.29,
+        "x_max": 1155.68,
+        "y_max": 1738.2
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "༡༨༨༢ལོ་ནི་ཀེ་ལུའོ་ཀེ་ལི་ཡའི་ལོ་ཐོའི་ནང་བཀོལ་སྤྱོད་བྱས་པའི་ལོ་ཞིག་ཡིན",
+      "is_text": true,
+      "order": "58",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 59,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "06_textbook_page_json_02_b0060",
+      "coordinates": {
+        "x_min": 35.93,
+        "y_min": 1663.93,
+        "x_max": 1151.21,
+        "y_max": 1769.13
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "18",
+      "is_text": true,
+      "order": "59",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 60,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T05:36:40.263Z",
+  "updated_at": "2026-07-03T13:37:44"
+}

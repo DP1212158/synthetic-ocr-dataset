@@ -1,0 +1,309 @@
+{
+  "image_id": "03d69147-03d6-9147-03d6-03d6914703d6",
+  "file_name": "01_certificate_proof_json_04.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "v12_category_json_renderer_bo_v1_v4_split_mix_assets",
+    "language_code": "bo",
+    "language_name": "藏语",
+    "script_note": "藏文横排文本，第一阶段用于公开文本源验证与模板填充",
+    "template_type": "certificate_proof",
+    "category": "certificate_proof",
+    "variant": 4,
+    "layout_name": "certificate_proof_v04",
+    "document_id": "01_certificate_proof_json_04",
+    "title": "ལག་ཁྱེར་དང་དཔང་ཡིག",
+    "doc_no": "B1-01-04",
+    "date": "2026-07-01",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.18,
+    "chinese_topic": "certificate_proof",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 9,
+      "page_width": 1365,
+      "page_height": 762,
+      "body_scroll_width": 1365,
+      "body_scroll_height": 762,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 76,
+        "y": 128,
+        "width": 1348,
+        "height": 716,
+        "enabled": true,
+        "original_width": 1500,
+        "original_height": 980,
+        "content_bbox": {
+          "x_min": 100,
+          "y_min": 152,
+          "x_max": 1400,
+          "y_max": 820
+        },
+        "padding": 24,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.6816,
+        "bottom_blank_ratio_before_crop": 0.1633
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 8817862932224885539,
+        "family": "compressed_scan",
+        "geometry": {
+          "source_size": {
+            "width": 1348,
+            "height": 716
+          },
+          "scale": {
+            "scale": 1.0,
+            "width": 1348,
+            "height": 716
+          },
+          "rotation": {
+            "angle_degrees": 2.1741,
+            "width": 1375,
+            "height": 767
+          },
+          "translation": {
+            "dx": 5,
+            "dy": -4,
+            "width": 1375,
+            "height": 767
+          },
+          "edge_crop": {
+            "left": 4,
+            "top": 0,
+            "right": 6,
+            "bottom": 5,
+            "width": 1365,
+            "height": 762
+          },
+          "output_size_before_visual": {
+            "width": 1365,
+            "height": 762
+          }
+        },
+        "output_size": {
+          "width": 1365,
+          "height": 762
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "01_certificate_proof_json_04_b0001",
+      "coordinates": {
+        "x_min": 67.55,
+        "y_min": 198.68,
+        "x_max": 280.35,
+        "y_max": 231.8
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "9004",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_certificate_proof_json_04_b0002",
+      "coordinates": {
+        "x_min": 91.62,
+        "y_min": 256.91,
+        "x_max": 247.21,
+        "y_max": 412.49
+      },
+      "points": null,
+      "block_label": "seal",
+      "block_content": "ཐམ་ག",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "seal",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_certificate_proof_json_04_b0003",
+      "coordinates": {
+        "x_min": 384.48,
+        "y_min": 33.64,
+        "x_max": 1298.34,
+        "y_max": 134.39
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ལག་ཁྱེར་དང་དཔང་ཡིག 复印",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "48px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_certificate_proof_json_04_b0004",
+      "coordinates": {
+        "x_min": 381.18,
+        "y_min": 123.78,
+        "x_max": 1294.91,
+        "y_max": 221.33
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "ཀེ་རི་ / 有效",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "36px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_certificate_proof_json_04_b0005",
+      "coordinates": {
+        "x_min": 377.61,
+        "y_min": 210.71,
+        "x_max": 1291.61,
+        "y_max": 315.36
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "མི་རིགས་གཞན་དང་འདྲ་བར་གནའ་བོའི་གྷི་རི་སིའི་ཡབ་མེས་རྣམས་ཀྱིས་ཀྱང་ལོ་རབས་གོང་མའི་ལོ་རྒྱུས་ཀྱི་དྲན་པ་གཏམ་རྒྱུད་ཀྱི。申请事项已经完成审查；相关印章由经办机构确认",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_certificate_proof_json_04_b0007",
+      "coordinates": {
+        "x_min": 25.89,
+        "y_min": 657.63,
+        "x_max": 667.6,
+        "y_max": 712.73
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "2026-2028",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "footer",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_certificate_proof_json_04_b0009",
+      "coordinates": {
+        "x_min": 684.42,
+        "y_min": 682.63,
+        "x_max": 1326.13,
+        "y_max": 737.73
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "6204",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Noto Serif Tibetan\", \"Kohinoor Tibetan\", \"Songti SC\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "footer",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T05:36:15.794Z",
+  "updated_at": "2026-07-03T13:37:34"
+}

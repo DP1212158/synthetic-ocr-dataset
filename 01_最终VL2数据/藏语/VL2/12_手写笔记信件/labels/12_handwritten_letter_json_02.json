@@ -1,0 +1,831 @@
+{
+  "image_id": "915fe8f0-915f-e8f0-915f-915fe8f0915f",
+  "file_name": "12_handwritten_letter_json_02.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "remaining_pages_json_renderer_bo_v1_v4_split_mix_assets",
+    "language_code": "bo",
+    "language_name": "藏语",
+    "script_note": "藏文横排文本，第一阶段用于公开文本源验证与模板填充",
+    "template_type": "handwritten_letter",
+    "category": "handwritten_letter",
+    "variant": 2,
+    "layout_name": "handwritten_letter_v02",
+    "document_id": "12_handwritten_letter_json_02",
+    "title": "ལག་བྲིས་ཟིན་ཐོ",
+    "doc_no": "V12-12-02",
+    "date": "2026-07-01",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.14,
+    "chinese_topic": "handwritten_letter",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 26,
+      "page_width": 1070,
+      "page_height": 1042,
+      "body_scroll_width": 1070,
+      "body_scroll_height": 1042,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 94,
+        "y": 70,
+        "width": 1052,
+        "height": 1027,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1650,
+        "content_bbox": {
+          "x_min": 125,
+          "y_min": 101,
+          "x_max": 1115,
+          "y_max": 1065.9
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.5848,
+        "bottom_blank_ratio_before_crop": 0.354
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 16827027173204074482,
+        "family": "soft_copy",
+        "geometry": {
+          "source_size": {
+            "width": 1052,
+            "height": 1027
+          },
+          "scale": {
+            "scale": 0.98666,
+            "width": 1038,
+            "height": 1013
+          },
+          "rotation": {
+            "angle_degrees": 2.0336,
+            "width": 1074,
+            "height": 1050
+          },
+          "translation": {
+            "dx": 2,
+            "dy": 7,
+            "width": 1074,
+            "height": 1050
+          },
+          "edge_crop": {
+            "left": 3,
+            "top": 5,
+            "right": 1,
+            "bottom": 3,
+            "width": 1070,
+            "height": 1042
+          },
+          "output_size_before_visual": {
+            "width": 1070,
+            "height": 1042
+          }
+        },
+        "output_size": {
+          "width": 1070,
+          "height": 1042
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "12_handwritten_letter_json_02_b0001",
+      "coordinates": {
+        "x_min": 62.93,
+        "y_min": 33.66,
+        "x_max": 1040.61,
+        "y_max": 110.71
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "ས་ག་ཟླ་བ",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "27px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0002",
+      "coordinates": {
+        "x_min": 61.27,
+        "y_min": 93.8,
+        "x_max": 1038.47,
+        "y_max": 157.25
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཨོ་རྩལ་འགྲན་ཚོགས་དེ་ཐོག་མར་ལོ་སྟོང་གཉིས་གསུམ་ཙམ་གྱི་དུས་ལ་གནའ་བོའི་གྷ。路上见到的景色很好；收到后请回个消息",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0003",
+      "coordinates": {
+        "x_min": 59.87,
+        "y_min": 133.44,
+        "x_max": 1037.06,
+        "y_max": 196.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཀན་ལྷོ་བོད་རིགས་རང་སྐྱོང་ཁུལ་(སྟབས་བདེའི་རྒྱ་ཡིག; རྒྱའི་སྒྲ་སྦ。下次见面再详细谈；这封短信写得匆忙",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0004",
+      "coordinates": {
+        "x_min": 58.46,
+        "y_min": 173.08,
+        "x_max": 1035.66,
+        "y_max": 236.53
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ལ་ཡོད་པའི་དགོན་པ་ཁག་ལ་མཆོད་མཇལ་ལ་འགྲོ་གི་ཡོད་པ་。路上见到的景色很好",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0005",
+      "coordinates": {
+        "x_min": 57.05,
+        "y_min": 212.71,
+        "x_max": 1034.25,
+        "y_max": 276.18
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "མཁར་འདི་ནི་སྤྱི་ལོ་སྔོན་གྱི་ལོ་580ལོར་བསྐྲུན་འགོ。下次见面再详细谈",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0006",
+      "coordinates": {
+        "x_min": 55.65,
+        "y_min": 252.36,
+        "x_max": 1032.84,
+        "y_max": 315.71
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "༡༧༨༣ལོ་ནི་ཀེ་ལུའོ་ཀེ་ལི་ཡའི་ལོ་ཐོའི་ནང་བཀོལ་སྤྱོད་བྱས་པའི་。天气转凉记得添衣",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0007",
+      "coordinates": {
+        "x_min": 54.24,
+        "y_min": 291.89,
+        "x_max": 1031.44,
+        "y_max": 355.35
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "༡༨ནི་རང་བྱུང་གི་གྲངས་ཞིག་སྟེ་༡༧པའི་རྗེས་མ་དང་༡༩པའི་ས。下次见面再详细谈",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0008",
+      "coordinates": {
+        "x_min": 52.83,
+        "y_min": 331.54,
+        "x_max": 1030.03,
+        "y_max": 394.99
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "བྱུང་རིམ་ཚགས་དམ་པའི་ཁྱད་ཆོས་ལྡན 《ཡེ་ལི་ཡ་ཐི 》ལས་ག。希望你保持身体健康",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0009",
+      "coordinates": {
+        "x_min": 51.43,
+        "y_min": 371.17,
+        "x_max": 1028.62,
+        "y_max": 434.63
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "༡༧༨༣ལོ་ནི་ཀེ་ལུའོ་ཀེ་ལི་ཡའི་ལོ་ཐོའི་ནང་བཀོལ་སྤྱོད་བྱས་པའི་。愿你学习工作顺利",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0010",
+      "coordinates": {
+        "x_min": 50.02,
+        "y_min": 410.82,
+        "x_max": 1027.21,
+        "y_max": 474.27
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "བཀོད་ཅིང་ རྗེས་ནས་རིམ་བཞིན་ལོ་རྒྱུས་སྙན་རྩོམ་གྱི་ར。这些事情以后慢慢细说",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0011",
+      "coordinates": {
+        "x_min": 48.61,
+        "y_min": 450.45,
+        "x_max": 1025.81,
+        "y_max": 513.91
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "འབྲི་ཆུའི་འགྲམ་ནས་འཁྲུངས་ཤིང་ ༡༡༩༢་ལོར་འདས་པའི་ཀ。收到后请回个消息",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0012",
+      "coordinates": {
+        "x_min": 47.2,
+        "y_min": 490.09,
+        "x_max": 1024.4,
+        "y_max": 553.54
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ལ་ངོས་འཛིན་བྱེད་དེ་རྣམ་དཀར་དགེ་སྦྱོར་རྒྱ་ཆེན་པོ་ཞ。工作虽然忙但还安稳",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0013",
+      "coordinates": {
+        "x_min": 45.8,
+        "y_min": 529.73,
+        "x_max": 1022.99,
+        "y_max": 593.19
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཀ་ན་ནི་ཨ་ཧྥེ་རི་ཁའི་རྒྱལ་ཁབ་ཞིག་རེད དེའི་རྒྱལ་ས་ནི。近来一切都还顺利",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0014",
+      "coordinates": {
+        "x_min": 44.39,
+        "y_min": 569.37,
+        "x_max": 1021.58,
+        "y_max": 632.72
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ནུབ་ཕྱོགས་སུ་བསྐྱོད་པའི་རྣམ་ཐར་(རྒྱ་སྐད:)ནི་ཀྲུང་གོའི་རིག་གནས་ཀྱི་དེབ་གཙོ་གྲས་ཆེན་པོ་བ。收到后请回个消息；我把近况简单写下",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0015",
+      "coordinates": {
+        "x_min": 42.98,
+        "y_min": 608.91,
+        "x_max": 1020.18,
+        "y_max": 672.37
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཆོས་ལུགས་ལ་ཀརྨ་བཀའ་བརྒྱུད་ཟེར མིང་གཞན་མཚུར་ཕུ་བཀའ་བ。朋友们都很惦记你",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0016",
+      "coordinates": {
+        "x_min": 41.58,
+        "y_min": 648.55,
+        "x_max": 1018.77,
+        "y_max": 712.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "དབྱེ་ལ དེང་རབས་ཨོ་རྩལ་འགྲན་ཚོགས་ནི་འཛམ་གླིང་ན་སྙ。收到来信后很高兴",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0017",
+      "coordinates": {
+        "x_min": 40.17,
+        "y_min": 688.18,
+        "x_max": 1017.37,
+        "y_max": 751.64
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "༡༨༨༢ལོ་ནི་ཀེ་ལུའོ་ཀེ་ལི་ཡའི་ལོ་ཐོའི་ནང་བཀོལ་སྤྱོད་བྱས་པའི་。近来一切都还顺利",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0018",
+      "coordinates": {
+        "x_min": 38.76,
+        "y_min": 727.83,
+        "x_max": 1015.96,
+        "y_max": 791.28
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཁྲིམས་བསྡམས་ཏེ་དགེ་སྡིག་ཇི་བྱས་འབུམ་འགྱུར་རེད་ཅེ。近来一切都还顺利",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0019",
+      "coordinates": {
+        "x_min": 37.35,
+        "y_min": 767.46,
+        "x_max": 1014.55,
+        "y_max": 830.92
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "གྷི་རི་སིའི་བུད་མེད་ཀྱི་སྐྱེས་དབྱིབས་ཀྱི་ཁྱད་ཆོ。工作虽然忙但还安稳",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0021",
+      "coordinates": {
+        "x_min": 35.44,
+        "y_min": 826.83,
+        "x_max": 1012.44,
+        "y_max": 884.85
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "སྲིད་འཛིན་ལྟེ་གནས་ནི་མདོ་སྨད་གཙོད་གྲོང་",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0022",
+      "coordinates": {
+        "x_min": 34.61,
+        "y_min": 850.19,
+        "x_max": 1011.61,
+        "y_max": 908.32
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "༡༨ནི་རང་བྱུང་གི་གྲངས་ཞིག་སྟེ་༡༧པའི་རྗེས་མ་དང་༡༩པའི。这些事情以后慢慢细说",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0023",
+      "coordinates": {
+        "x_min": 33.78,
+        "y_min": 873.66,
+        "x_max": 1010.78,
+        "y_max": 931.69
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "འདི་དོན་ལ་ཡོད་པའི་སྒྲུབ་བྱེད་ཏག་ཏག་མ。愿你学习工作顺利",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0024",
+      "coordinates": {
+        "x_min": 32.94,
+        "y_min": 897.03,
+        "x_max": 1009.95,
+        "y_max": 955.16
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཡིན ཡོངས་གྲགས་ལྟར་ན་སྲུང་མཁར་འདི་ནི་",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0025",
+      "coordinates": {
+        "x_min": 31.41,
+        "y_min": 942.19,
+        "x_max": 1008.35,
+        "y_max": 998.25
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "ནུབ་ཕྱོགས་",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0026",
+      "coordinates": {
+        "x_min": 30.65,
+        "y_min": 963.59,
+        "x_max": 1007.59,
+        "y_max": 1019.75
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026-07",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Jomolhari\", \"Local Noto Serif Tibetan\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T05:37:21.697Z",
+  "updated_at": "2026-07-03T13:38:11"
+}

@@ -1,0 +1,745 @@
+{
+  "image_id": "955fef3c-955f-ef3c-955f-955fef3c955f",
+  "file_name": "12_handwritten_letter_json_06.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "remaining_pages_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "za",
+    "language_name": "壮语",
+    "script_note": "现代标准壮文 Vahcuengh，拉丁字母拼写",
+    "template_type": "handwritten_letter",
+    "category": "handwritten_letter",
+    "variant": 6,
+    "layout_name": "handwritten_letter_v06",
+    "document_id": "12_handwritten_letter_json_06",
+    "title": "Saunghawj Gijsei",
+    "doc_no": "ZA-V2-12-06",
+    "date": "2026-07-01",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.16,
+    "chinese_topic": "handwritten_letter",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 42,
+      "page_width": 1079,
+      "page_height": 1282,
+      "body_scroll_width": 1079,
+      "body_scroll_height": 1282,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 71,
+        "y": 63,
+        "width": 1038,
+        "height": 1246,
+        "enabled": true,
+        "original_width": 1180,
+        "original_height": 1450,
+        "content_bbox": {
+          "x_min": 101,
+          "y_min": 93,
+          "x_max": 1079,
+          "y_max": 1278.7
+        },
+        "padding": 30,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.8177,
+        "bottom_blank_ratio_before_crop": 0.1181
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 14759094826352025136,
+        "family": "compressed_scan",
+        "geometry": {
+          "source_size": {
+            "width": 1038,
+            "height": 1246
+          },
+          "scale": {
+            "scale": 1.00348,
+            "width": 1042,
+            "height": 1250
+          },
+          "rotation": {
+            "angle_degrees": -2.0884,
+            "width": 1087,
+            "height": 1288
+          },
+          "translation": {
+            "dx": 3,
+            "dy": -7,
+            "width": 1087,
+            "height": 1288
+          },
+          "edge_crop": {
+            "left": 1,
+            "top": 0,
+            "right": 7,
+            "bottom": 6,
+            "width": 1079,
+            "height": 1282
+          },
+          "output_size_before_visual": {
+            "width": 1079,
+            "height": 1282
+          }
+        },
+        "output_size": {
+          "width": 1079,
+          "height": 1282
+        }
+      },
+      "removed_unsupported_placeholder_blocks": 20
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "12_handwritten_letter_json_06_b0041",
+      "coordinates": {
+        "x_min": 33.18,
+        "y_min": 24.19,
+        "x_max": 1016.99,
+        "y_max": 144.1
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "MEMO",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "54px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0002",
+      "coordinates": {
+        "x_min": 90.73,
+        "y_min": 117.36,
+        "x_max": 1018.64,
+        "y_max": 187.24
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "rogyungh habliengh, cienq raemx sw。这封短信写得匆忙",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0004",
+      "coordinates": {
+        "x_min": 92.7,
+        "y_min": 171.51,
+        "x_max": 1020.61,
+        "y_max": 241.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "：“The Grammatical Structure of Zhu。近来一切都还顺利",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0006",
+      "coordinates": {
+        "x_min": 94.68,
+        "y_min": 225.66,
+        "x_max": 1022.59,
+        "y_max": 295.55
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "32 1942 nienz 12 nyied 15 hauh DAIHGAIQ CUNGJGE。家中事情都已安排",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0008",
+      "coordinates": {
+        "x_min": 96.65,
+        "y_min": 279.81,
+        "x_max": 1024.56,
+        "y_max": 349.71
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "hung youh sang, baenz gofaex",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0010",
+      "coordinates": {
+        "x_min": 98.63,
+        "y_min": 333.97,
+        "x_max": 1026.54,
+        "y_max": 403.85
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "lai gwn heiq Dai ce boh ce beix",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0012",
+      "coordinates": {
+        "x_min": 100.6,
+        "y_min": 388.12,
+        "x_max": 1028.51,
+        "y_max": 458.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Siujmuenx raemx dumh, reih rungh。希望你保持身体健康",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0014",
+      "coordinates": {
+        "x_min": 102.58,
+        "y_min": 442.26,
+        "x_max": 1030.49,
+        "y_max": 512.16
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "gaenh gangj yiengh s。希望你保持身体健康",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0016",
+      "coordinates": {
+        "x_min": 104.55,
+        "y_min": 496.42,
+        "x_max": 1032.46,
+        "y_max": 566.31
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "vunzdig doxhoenx, vunzdig yied",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0018",
+      "coordinates": {
+        "x_min": 106.53,
+        "y_min": 550.57,
+        "x_max": 1034.44,
+        "y_max": 620.46
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Swnh sij Byafeizmba。有空请再写信给我",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0020",
+      "coordinates": {
+        "x_min": 108.5,
+        "y_min": 604.73,
+        "x_max": 1036.41,
+        "y_max": 674.61
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "beiig gim lij bengz hawj gvoengq",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0022",
+      "coordinates": {
+        "x_min": 110.48,
+        "y_min": 658.87,
+        "x_max": 1038.39,
+        "y_max": 728.77
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Muengh ra gyawz miz mbanj, laj gamj nyi g。有空请再写信给我",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0024",
+      "coordinates": {
+        "x_min": 112.45,
+        "y_min": 713.02,
+        "x_max": 1040.36,
+        "y_max": 782.92
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "word for indicating cla。希望你保持身体健康",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0026",
+      "coordinates": {
+        "x_min": 114.42,
+        "y_min": 767.18,
+        "x_max": 1042.34,
+        "y_max": 837.07
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Veiz: Haetcog yungh mbouj yungh vunz daeuj he。愿你学习工作顺利",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0028",
+      "coordinates": {
+        "x_min": 116.4,
+        "y_min": 821.33,
+        "x_max": 1044.31,
+        "y_max": 891.22
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Mbiengj baihdoeng bing。希望你保持身体健康",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0030",
+      "coordinates": {
+        "x_min": 118.37,
+        "y_min": 875.49,
+        "x_max": 1046.28,
+        "y_max": 945.37
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "va rang yinx rwi daeu。家中事情都已安排",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0032",
+      "coordinates": {
+        "x_min": 120.35,
+        "y_min": 929.63,
+        "x_max": 1048.26,
+        "y_max": 999.53
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Yunghfap Yunghliengh Cienq raemx gw。下次见面再详细谈",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0034",
+      "coordinates": {
+        "x_min": 122.32,
+        "y_min": 983.78,
+        "x_max": 1050.23,
+        "y_max": 1053.68
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "go golwgluengh doenghg。愿你学习工作顺利",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0036",
+      "coordinates": {
+        "x_min": 124.3,
+        "y_min": 1037.94,
+        "x_max": 1052.21,
+        "y_max": 1107.82
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "dah p、t、k daep dap b、d、g daeb",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0038",
+      "coordinates": {
+        "x_min": 126.27,
+        "y_min": 1092.09,
+        "x_max": 1054.18,
+        "y_max": 1161.98
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "daeuj! Cingj gaej yungh youq",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0040",
+      "coordinates": {
+        "x_min": 128.25,
+        "y_min": 1146.24,
+        "x_max": 1056.16,
+        "y_max": 1216.13
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Gaiq Haj Cung Cienzhoih Youq",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_06_b0042",
+      "coordinates": {
+        "x_min": 75.74,
+        "y_min": 1191.37,
+        "x_max": 1057.28,
+        "y_max": 1249.0
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "signature / 2026",
+      "is_text": true,
+      "order": "41",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T05:15:46.075Z",
+  "updated_at": "2026-07-03T13:16:37"
+}

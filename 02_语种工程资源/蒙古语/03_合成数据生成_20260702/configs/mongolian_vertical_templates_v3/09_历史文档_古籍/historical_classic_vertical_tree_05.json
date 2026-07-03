@@ -1,0 +1,301 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "historical_classic_vertical_tree_05",
+  "variant": 5,
+  "category_id": "historical_classic",
+  "category_cn": "历史文档_古籍",
+  "folder": "09_历史文档_古籍",
+  "template_name_cn": "批注古籍页",
+  "layout_family": "annotated_classic",
+  "design_prompt": "古籍正文配边注和小批注。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 960,
+    "height": 1600,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 10,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "outer",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box",
+      "box": {
+        "x": 44,
+        "y": 44,
+        "w": 872,
+        "h": 1512
+      },
+      "visual": {}
+    },
+    {
+      "id": "meta",
+      "kind": "text",
+      "label": "metadata",
+      "role": "archive_meta",
+      "class": "small",
+      "box": {
+        "x": 92,
+        "y": 86,
+        "w": 42,
+        "h": 1400
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 20
+      },
+      "visual": {}
+    },
+    {
+      "id": "main_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 170,
+        "y": 100,
+        "w": 34,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 34,
+        "max_chars": 96
+      },
+      "visual": {}
+    },
+    {
+      "id": "main_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 228,
+        "y": 100,
+        "w": 34,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 34,
+        "max_chars": 96
+      },
+      "visual": {}
+    },
+    {
+      "id": "main_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 286,
+        "y": 100,
+        "w": 34,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 34,
+        "max_chars": 96
+      },
+      "visual": {}
+    },
+    {
+      "id": "main_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 344,
+        "y": 100,
+        "w": 34,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 34,
+        "max_chars": 96
+      },
+      "visual": {}
+    },
+    {
+      "id": "main_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 402,
+        "y": 100,
+        "w": 34,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 34,
+        "max_chars": 96
+      },
+      "visual": {}
+    },
+    {
+      "id": "main_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 460,
+        "y": 100,
+        "w": 34,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 34,
+        "max_chars": 96
+      },
+      "visual": {}
+    },
+    {
+      "id": "main_07",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 518,
+        "y": 100,
+        "w": 34,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 34,
+        "max_chars": 96
+      },
+      "visual": {}
+    },
+    {
+      "id": "main_08",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 576,
+        "y": 100,
+        "w": 34,
+        "h": 1320
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 34,
+        "max_chars": 96
+      },
+      "visual": {}
+    },
+    {
+      "id": "note_01",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 690,
+        "y": 130,
+        "w": 24,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "note_02",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 742,
+        "y": 130,
+        "w": 24,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "note_03",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 794,
+        "y": 130,
+        "w": 24,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    },
+    {
+      "id": "note_04",
+      "kind": "text",
+      "label": "list_item",
+      "role": "brief_item",
+      "class": "small",
+      "box": {
+        "x": 846,
+        "y": 130,
+        "w": 24,
+        "h": 1120
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 14,
+        "max_chars": 52
+      },
+      "visual": {}
+    }
+  ]
+}

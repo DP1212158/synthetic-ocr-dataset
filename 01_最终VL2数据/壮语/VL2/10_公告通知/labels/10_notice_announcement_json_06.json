@@ -1,0 +1,1092 @@
+{
+  "image_id": "d7138173-d713-8173-d713-d7138173d713",
+  "file_name": "10_notice_announcement_json_06.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "remaining_pages_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "za",
+    "language_name": "壮语",
+    "script_note": "现代标准壮文 Vahcuengh，拉丁字母拼写",
+    "template_type": "notice_announcement",
+    "category": "notice_announcement",
+    "variant": 6,
+    "layout_name": "notice_announcement_v06",
+    "document_id": "10_notice_announcement_json_06",
+    "title": "Gvangj Gau",
+    "doc_no": "ZA-V2-10-06",
+    "date": "2026-07-01",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.16,
+    "chinese_topic": "notice_announcement",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 34,
+      "page_width": 1191,
+      "page_height": 821,
+      "body_scroll_width": 1191,
+      "body_scroll_height": 821,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 31,
+        "y": 23,
+        "width": 1178,
+        "height": 797,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1650,
+        "content_bbox": {
+          "x_min": 62,
+          "y_min": 54,
+          "x_max": 1178,
+          "y_max": 788.5
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.4452,
+        "bottom_blank_ratio_before_crop": 0.5221
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 15765198559397488543,
+        "family": "printed_noise",
+        "geometry": {
+          "source_size": {
+            "width": 1178,
+            "height": 797
+          },
+          "scale": {
+            "scale": 0.9929,
+            "width": 1170,
+            "height": 791
+          },
+          "rotation": {
+            "angle_degrees": 2.3328,
+            "width": 1202,
+            "height": 838
+          },
+          "translation": {
+            "dx": -4,
+            "dy": 8,
+            "width": 1202,
+            "height": 838
+          },
+          "edge_crop": {
+            "left": 5,
+            "top": 10,
+            "right": 6,
+            "bottom": 7,
+            "width": 1191,
+            "height": 821
+          },
+          "output_size_before_visual": {
+            "width": 1191,
+            "height": 821
+          }
+        },
+        "output_size": {
+          "width": 1191,
+          "height": 821
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "10_notice_announcement_json_06_b0025",
+      "coordinates": {
+        "x_min": 50.07,
+        "y_min": 30.01,
+        "x_max": 1159.85,
+        "y_max": 139.7
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "Seizgan Gvangj",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "44px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0001",
+      "coordinates": {
+        "x_min": 158.77,
+        "y_min": 136.82,
+        "x_max": 278.69,
+        "y_max": 162.9
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "07-01",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0002",
+      "coordinates": {
+        "x_min": 293.7,
+        "y_min": 142.32,
+        "x_max": 1155.68,
+        "y_max": 198.63
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "daengzcog, damqra gij gisuz lohsien。请相关人员按时办理",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0003",
+      "coordinates": {
+        "x_min": 157.1,
+        "y_min": 177.88,
+        "x_max": 277.02,
+        "y_max": 204.07
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "07-02",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0004",
+      "coordinates": {
+        "x_min": 292.03,
+        "y_min": 183.38,
+        "x_max": 1154.01,
+        "y_max": 239.79
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "gyoengq hungzginh, gyoengq youzgizd。公告事项自发布之日起执行",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0005",
+      "coordinates": {
+        "x_min": 155.42,
+        "y_min": 219.06,
+        "x_max": 275.34,
+        "y_max": 245.14
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "07-03",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0006",
+      "coordinates": {
+        "x_min": 290.35,
+        "y_min": 224.56,
+        "x_max": 1152.33,
+        "y_max": 280.87
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "2. ：De mbouj lauxsaed, c a g cug de hwnjdaeuj. ，",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0007",
+      "coordinates": {
+        "x_min": 153.75,
+        "y_min": 260.13,
+        "x_max": 273.67,
+        "y_max": 286.31
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "07-04",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0008",
+      "coordinates": {
+        "x_min": 288.67,
+        "y_min": 265.62,
+        "x_max": 1150.66,
+        "y_max": 322.03
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "yiengh vaigyauh guekhung miz gij daegsaek Cungguek cienz。材料提交截止日期另行通知",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0009",
+      "coordinates": {
+        "x_min": 152.07,
+        "y_min": 301.3,
+        "x_max": 271.99,
+        "y_max": 327.38
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "07-05",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0010",
+      "coordinates": {
+        "x_min": 287.0,
+        "y_min": 306.8,
+        "x_max": 1148.98,
+        "y_max": 363.11
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Gyaiej gag nyungq gag giengh Dai lu。具体安排以电话确认为准",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0011",
+      "coordinates": {
+        "x_min": 150.4,
+        "y_min": 342.38,
+        "x_max": 270.32,
+        "y_max": 368.45
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "07-06",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0012",
+      "coordinates": {
+        "x_min": 285.33,
+        "y_min": 347.87,
+        "x_max": 1147.31,
+        "y_max": 404.18
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "geij bi, Dahgyax gaenq ndaej cib b。报名名单将在公告栏更新",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0013",
+      "coordinates": {
+        "x_min": 148.72,
+        "y_min": 383.44,
+        "x_max": 268.64,
+        "y_max": 409.63
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "07-07",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0014",
+      "coordinates": {
+        "x_min": 283.65,
+        "y_min": 388.94,
+        "x_max": 1145.64,
+        "y_max": 445.35
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "a notional word for indicating cl。本通知适用于本次活动",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0015",
+      "coordinates": {
+        "x_min": 147.05,
+        "y_min": 424.62,
+        "x_max": 266.97,
+        "y_max": 450.7
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "07-08",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0016",
+      "coordinates": {
+        "x_min": 281.98,
+        "y_min": 430.12,
+        "x_max": 1143.96,
+        "y_max": 486.43
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "sevei fazcanj moengq \"Cibhaj Haj\", iugo。现场审核需要携带证件",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0017",
+      "coordinates": {
+        "x_min": 145.38,
+        "y_min": 465.69,
+        "x_max": 265.29,
+        "y_max": 491.77
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "07-09",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0018",
+      "coordinates": {
+        "x_min": 280.31,
+        "y_min": 471.18,
+        "x_max": 1142.29,
+        "y_max": 527.49
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "cauhnieh, laehhwnj aen gihci ha。报名名单将在公告栏更新",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0019",
+      "coordinates": {
+        "x_min": 143.7,
+        "y_min": 506.76,
+        "x_max": 263.62,
+        "y_max": 532.94
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "07-10",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0020",
+      "coordinates": {
+        "x_min": 278.63,
+        "y_min": 512.26,
+        "x_max": 1140.61,
+        "y_max": 568.67
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "baihbaek guh goekdaej, aeu yaem vah-cu。咨询时间为工作日上午",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0021",
+      "coordinates": {
+        "x_min": 142.03,
+        "y_min": 547.93,
+        "x_max": 261.94,
+        "y_max": 574.01
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "07-11",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0022",
+      "coordinates": {
+        "x_min": 276.95,
+        "y_min": 553.42,
+        "x_max": 1138.94,
+        "y_max": 609.74
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Cawqsawq haeux fanz doh, begloh hae。请各单位及时转发",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0023",
+      "coordinates": {
+        "x_min": 140.35,
+        "y_min": 589.0,
+        "x_max": 260.27,
+        "y_max": 615.19
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "07-12",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0024",
+      "coordinates": {
+        "x_min": 275.28,
+        "y_min": 594.5,
+        "x_max": 1137.26,
+        "y_max": 650.91
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "bi, Miz angq miz danqheiq, Guekcoj miz。申请材料需保持完整",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0026",
+      "coordinates": {
+        "x_min": 42.95,
+        "y_min": 653.12,
+        "x_max": 571.99,
+        "y_max": 705.57
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "Sawmaj",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0027",
+      "coordinates": {
+        "x_min": 42.08,
+        "y_min": 684.07,
+        "x_max": 570.73,
+        "y_max": 726.81
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Aennyenz 、Byaraiz 、Gwnzranz 、Y。现场审核需要携带证件",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0028",
+      "coordinates": {
+        "x_min": 41.21,
+        "y_min": 705.3,
+        "x_max": 569.86,
+        "y_max": 748.14
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "kern ma pou, chaun lieu lang taun nok mi",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0029",
+      "coordinates": {
+        "x_min": 40.35,
+        "y_min": 726.64,
+        "x_max": 569.0,
+        "y_max": 769.37
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Daxmeh cungj soengq haeuxfaengx hawj。公告事项自发布之日起执行",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0030",
+      "coordinates": {
+        "x_min": 588.98,
+        "y_min": 675.35,
+        "x_max": 1117.63,
+        "y_max": 718.08
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ganghdez, gihgai sam aen daemxcingj canjnieb",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0031",
+      "coordinates": {
+        "x_min": 588.12,
+        "y_min": 696.58,
+        "x_max": 1116.76,
+        "y_max": 739.31
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "lij miz bouxcuengh dou miz yieng fung。现场审核需要携带证件",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0032",
+      "coordinates": {
+        "x_min": 587.25,
+        "y_min": 717.81,
+        "x_max": 1115.9,
+        "y_max": 760.64
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "gvangq 64 mij, laeg 137 mij, Ngiengx gyaeuj",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0033",
+      "coordinates": {
+        "x_min": 586.38,
+        "y_min": 739.14,
+        "x_max": 1115.03,
+        "y_max": 781.88
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "cingzcik maqhuz daih, cenzsen ginhdui itbuen",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "10_notice_announcement_json_06_b0034",
+      "coordinates": {
+        "x_min": 585.52,
+        "y_min": 760.38,
+        "x_max": 1114.16,
+        "y_max": 803.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "na dang hai, naum ha lern susu , , , ,",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T05:15:32.353Z",
+  "updated_at": "2026-07-03T13:16:28"
+}

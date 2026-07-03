@@ -1,0 +1,1005 @@
+{
+  "image_id": "d28d92f7-d28d-92f7-d28d-d28d92f7d28d",
+  "file_name": "05_book_page_vertical_tree_06.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "mongolian_vertical_json_tree_v3_v4_split_mix_assets",
+    "language_code": "mn-trad",
+    "language_name": "传统蒙古文",
+    "script_note": "传统蒙古文，竖排从上到下，列从左到右",
+    "template_type": "book_page",
+    "category": "book_page",
+    "variant": 6,
+    "layout_name": "book_page_vertical_tree_06",
+    "document_id": "05_book_page_vertical_tree_06",
+    "title": "书籍页",
+    "doc_no": "MN-V3-05-06",
+    "date": "2026-07-02",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.16,
+    "chinese_topic": "book_page",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 31,
+      "page_width": 869,
+      "page_height": 1332,
+      "body_scroll_width": 869,
+      "body_scroll_height": 1332,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 72,
+        "y": 56,
+        "width": 844,
+        "height": 1328,
+        "enabled": true,
+        "original_width": 980,
+        "original_height": 1500,
+        "content_bbox": {
+          "x_min": 96,
+          "y_min": 80,
+          "x_max": 892,
+          "y_max": 1360
+        },
+        "padding": 24,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.8533,
+        "bottom_blank_ratio_before_crop": 0.0933
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 3645818752748398059,
+        "family": "shadow_photo",
+        "geometry": {
+          "source_size": {
+            "width": 844,
+            "height": 1328
+          },
+          "scale": {
+            "scale": 1.00608,
+            "width": 849,
+            "height": 1336
+          },
+          "rotation": {
+            "angle_degrees": -1.2822,
+            "width": 879,
+            "height": 1355
+          },
+          "translation": {
+            "dx": -2,
+            "dy": -5,
+            "width": 879,
+            "height": 1355
+          },
+          "edge_crop": {
+            "left": 3,
+            "top": 11,
+            "right": 7,
+            "bottom": 12,
+            "width": 869,
+            "height": 1332
+          },
+          "output_size_before_visual": {
+            "width": 869,
+            "height": 1332
+          }
+        },
+        "output_size": {
+          "width": 869,
+          "height": 1332
+        }
+      }
+    },
+    "reading_order_policy": "vertical_lr_columns_top_to_bottom_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0001",
+      "coordinates": {
+        "x_min": 19.68,
+        "y_min": 25.52,
+        "x_max": 96.78,
+        "y_max": 1314.06
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢ 本章",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "34px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "body",
+      "reading_role": "title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0002",
+      "coordinates": {
+        "x_min": 115.13,
+        "y_min": 64.04,
+        "x_max": 169.17,
+        "y_max": 1130.9
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠪᠠᠰᠠ ᠴᠤ ᠬᠡᠯᠡᠭᠰᠡᠨ ᠦᠭᠡᠨ ᠳᠦ ᠨᠢ ᠪᠡᠷᠲᠡᠭᠡ ᠦᠭᠡᠢ᠂ ᠲᠣᠭᠣᠭ᠎ᠠ ᠴᠤ ᠦᠭᠡᠢ ᠬᠥᠮᠦᠨ ᠪᠣᠯᠬᠤ。章节末尾附有思考问题",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0003",
+      "coordinates": {
+        "x_min": 163.41,
+        "y_min": 62.96,
+        "x_max": 217.44,
+        "y_max": 1129.82
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠡᠵᠡᠨ ᠪᠢ ᠳᠡᠭᠡᠷ᠎ᠡ ᠪᠡᠨ ᠨᠠᠷᠠ ᠲᠠᠢ ᠲᠡᠭ᠍ᠷᠢ ᠵᠢᠨ ᠡᠵᠡᠨ ᠪᠢ ᠳᠡᠭᠡᠳᠦᠰ ᠡᠴᠡ ᠵᠠᠷᠯᠢᠭ。本章介绍地方社会生活",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0004",
+      "coordinates": {
+        "x_min": 211.69,
+        "y_min": 61.88,
+        "x_max": 265.72,
+        "y_max": 1128.74
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠬᠡᠷᠡᠮ ᠪᠣᠯᠣᠳ ᠬᠠᠨ᠎ᠠ ᠮᠦᠨ᠃ 2 ᠪᠢᠳᠡ ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠵᠦᠢ ᠪᠡᠨ ᠰᠠᠢᠳᠣᠷ ᠰᠣᠷᠣᠶ᠎ᠠ᠃ 3 ᠮᠣ。请留意关键词的重复出现",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0005",
+      "coordinates": {
+        "x_min": 259.96,
+        "y_min": 60.8,
+        "x_max": 314.01,
+        "y_max": 1127.66
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "17. 1 2 3 4 5 6 7 8 9 10 11 12. ᠨᠡᠷ᠎ᠡ ᠦᠭᠡ → ᠨᠡᠷ᠎ᠡ ᠦᠭᠡ ᠄. ᠨᠡᠷ᠎ᠡ ᠦᠭᠡ → ᠦᠢᠯᠡ ᠦᠭᠡ᠄ ②. ᠦᠢ。本章介绍地方社会生活",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0006",
+      "coordinates": {
+        "x_min": 308.25,
+        "y_min": 59.72,
+        "x_max": 362.29,
+        "y_max": 1126.58
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠮᠠᠲ᠋ᠧᠷᠢᠶᠠᠯ2 ᠢ ᠦᠨᠳᠦᠰᠦᠯᠡᠨ᠂ ᠬᠤᠲᠠ ᠶᠢᠨ ᠬᠢᠨ ᠠᠩᠬᠠᠷᠤᠭᠳᠠᠭ᠎ᠠ ᠦᠭᠡᠢ ᠡᠬᠢ ᠪᠠᠶᠠᠯᠢᠭ ᠢ ᠬ。文中描写了劳动场景",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0007",
+      "coordinates": {
+        "x_min": 356.53,
+        "y_min": 58.64,
+        "x_max": 410.57,
+        "y_max": 1125.49
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠲᠣᠳᠣ 》 ᠭᠡᠬᠦ᠌ ᠬᠡᠰᠡᠭ ᠨᠢ ᠲᠣᠰ ᠲᠤᠰ ᠲᠤ ᠪᠠᠨ ᠤᠤᠯ ᠦᠭᠡ ᠵᠢᠨ ᠢᠶᠡᠨ ᠦᠨᠳᠦᠰᠦᠨ ᠤᠳᠬ᠎ᠠ。故事发生在一个普通清晨",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0008",
+      "coordinates": {
+        "x_min": 404.81,
+        "y_min": 57.56,
+        "x_max": 458.84,
+        "y_max": 1124.41
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠡᠷᠳᠡᠨᠢ ᠠᠯᠳᠠᠷᠠᠵᠤ ᠪᠠᠢᠨ᠎ᠠ ᠊᠊᠊᠊᠊᠊᠊᠊᠊᠊᠊᠊ ᠢᠴᠢᠵᠦ᠍ ᠡᠮᠢᠶᠡᠬᠦ᠌ ᠎ᠶᠢᠨ ᠲᠤᠢᠯ ᠎ᠳᠤ ᠬᠦᠷᠴᠦ᠍ ᠪᠠᠢᠨ。作者采用平实叙述方式",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0009",
+      "coordinates": {
+        "x_min": 453.09,
+        "y_min": 56.48,
+        "x_max": 507.13,
+        "y_max": 1123.33
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "4. ᠵᠠᠰᠠᠭ ᠤᠨ ᠣᠷᠳᠣᠨ ᠤ ᠲᠥᠰᠦᠪ ᠬᠦᠷᠦᠯᠴᠡᠬᠦ ᠦᠭᠡᠢ᠂ ᠨᠡᠭᠦᠷᠡᠰᠦ ᠶᠢ ᠴᠠᠬᠢᠯᠭᠠᠨ ᠪᠣᠯᠭᠠᠨ ᠥᠭᠡᠷᠡᠴᠢᠯᠡᠬᠦ ᠪᠠᠯᠠ ᠣᠷᠣᠭᠤᠯᠤᠯᠲᠠ ᠥ。这一节强调语言与文化",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0010",
+      "coordinates": {
+        "x_min": 501.36,
+        "y_min": 55.39,
+        "x_max": 555.41,
+        "y_max": 1122.25
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠥᠰᠬᠦ ᠡᠴᠡ ᠰᠣᠷᠣᠭᠰᠠᠨ ᠦᠨᠳᠦᠰᠦᠨ ᠬᠡᠯᠡ ᠮᠠᠷᠲᠠᠵᠤ ᠪᠣᠯᠣᠰᠢ ᠦᠭᠡᠢ ᠰᠣᠶᠣᠯ ᠦᠬᠦᠲᠡᠯ᠎ᠡ ᠣᠷᠣᠰᠢᠬᠤ ᠲᠥᠷᠥᠯᠬᠢ ᠨᠤᠲᠤᠭ ᠰᠠᠯᠵᠤ ᠪᠣᠯ。读者需要注意时间线索",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0011",
+      "coordinates": {
+        "x_min": 549.65,
+        "y_min": 54.31,
+        "x_max": 603.69,
+        "y_max": 1121.17
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠪᠣᠯᠣᠨ᠎ᠠ᠃ ᠲᠣᠰ ᠪᠦᠯᠦᠭ ᠲᠤ ᠪᠢᠲᠡ ᠮᠠᠨ ᠤ ᠤᠯᠤᠰ ᠤᠨ ᠪᠠᠷᠠᠭᠤᠨ ᠬᠣᠢᠲᠤ ᠣᠷᠣᠨ ᠤ ᠮᠠᠩᠬᠠᠵᠢᠯᠲ。请留意关键词的重复出现",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0012",
+      "coordinates": {
+        "x_min": 597.93,
+        "y_min": 53.23,
+        "x_max": 651.97,
+        "y_max": 1120.09
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠤ ᠨᠣᠮ᠂ ᠪᠢᠴᠢᠭ ᠰᠤᠳᠤᠷ ᠵᠡᠷᠭᠡ ᠨᠢ ᠪᠦᠷ ᠲᠤᠢᠯ ᠤᠨ ᠬᠤᠪᠤᠷ ᠨᠠᠨᠳᠢᠨ ᠶᠤᠮ᠃ ᠮᠦᠸᠧ ᠭᠤᠤ。请结合上下文理解含义",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0013",
+      "coordinates": {
+        "x_min": 646.21,
+        "y_min": 52.15,
+        "x_max": 700.24,
+        "y_max": 1119.01
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠳᠦ ᠬᠡᠪᠯᠡᠭᠰᠡᠨ ᠪᠠ18 ᠳ᠋ᠤᠭᠠᠷ ᠵᠠᠭᠤᠨ ᠤ ᠦᠶ᠎ᠡ ᠶᠢᠨ ᠴᠠᠬᠠᠷ ᠤᠨ ᠴᠠᠭᠠᠨ ᠠᠭᠤᠯᠠᠨ ᠤ ᠰᠦᠮ。文中描写了劳动场景",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0014",
+      "coordinates": {
+        "x_min": 694.49,
+        "y_min": 51.07,
+        "x_max": 748.53,
+        "y_max": 1117.93
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠢᠶᠠᠷ ᠲᠠᠨᠢᠭᠰᠠᠨ ᠨᠤᠲᠤᠭ ᠴᠢᠨᠢ ᠮᠤᠩᠭᠤᠯ ᠪᠤᠯᠬᠤᠷ ᠲᠡᠦᠬᠡ ᠶᠢᠨ ᠦᠷᠭᠡᠨ ᠳᠦ ᠠᠷᠢᠭᠤᠯᠤᠭᠰᠠ。作者在这里说明背景",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0015",
+      "coordinates": {
+        "x_min": 742.77,
+        "y_min": 49.99,
+        "x_max": 796.81,
+        "y_max": 1116.85
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠵᠠᠩ ᠨᠢ ᠂ ᠵᠠᠮᠢ ᠤᠯᠤᠰ ᠎ᠤᠨ ᠴᠡᠷᠢᠭ ᠎ᠢᠶᠡᠨ ᠳᠤᠮᠳᠠᠳᠤ ᠳ᠋ᠤᠷ ᠬᠠᠭᠠᠭ᠍ᠰᠠᠨ ᠬᠤᠨᠢᠨ᠎ᠠ᠂ ᠰ。段落之间存在承接关系",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0016",
+      "coordinates": {
+        "x_min": 791.05,
+        "y_min": 48.91,
+        "x_max": 845.09,
+        "y_max": 1115.77
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠡᠨᠧᠷᠭᠢ ᠪᠣᠯ ᠵᠥᠪ ᠢᠶᠡᠷ ᠰᠡᠳᠭᠢᠬᠦ ᠤᠬᠠᠭᠠᠨ᠃ ᠪᠥᠬᠥ ᠵᠦᠢᠯ ᠴᠢᠮᠡᠲᠤ ᠵᠥᠪ ᠴᠠᠭ ᠲᠠᠭᠠᠨ ᠢᠷᠡᠨ᠎ᠡ᠂。本页内容用于课外阅读",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0017",
+      "coordinates": {
+        "x_min": 143.29,
+        "y_min": 63.68,
+        "x_max": 185.26,
+        "y_max": 1130.27
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "11",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0018",
+      "coordinates": {
+        "x_min": 191.57,
+        "y_min": 62.6,
+        "x_max": 233.54,
+        "y_max": 1129.19
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "12",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0019",
+      "coordinates": {
+        "x_min": 239.85,
+        "y_min": 61.52,
+        "x_max": 281.82,
+        "y_max": 1128.11
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "13",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0020",
+      "coordinates": {
+        "x_min": 288.13,
+        "y_min": 60.44,
+        "x_max": 330.1,
+        "y_max": 1127.03
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "14",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0021",
+      "coordinates": {
+        "x_min": 336.42,
+        "y_min": 59.36,
+        "x_max": 378.38,
+        "y_max": 1125.94
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "15",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0022",
+      "coordinates": {
+        "x_min": 384.69,
+        "y_min": 58.28,
+        "x_max": 426.66,
+        "y_max": 1124.86
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "16",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0023",
+      "coordinates": {
+        "x_min": 432.97,
+        "y_min": 57.2,
+        "x_max": 474.94,
+        "y_max": 1123.78
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "17",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0024",
+      "coordinates": {
+        "x_min": 481.25,
+        "y_min": 56.12,
+        "x_max": 523.22,
+        "y_max": 1122.7
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "18",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0025",
+      "coordinates": {
+        "x_min": 529.54,
+        "y_min": 55.03,
+        "x_max": 571.5,
+        "y_max": 1121.62
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "19",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0026",
+      "coordinates": {
+        "x_min": 577.82,
+        "y_min": 53.95,
+        "x_max": 619.78,
+        "y_max": 1120.54
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "20",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0027",
+      "coordinates": {
+        "x_min": 626.09,
+        "y_min": 52.87,
+        "x_max": 668.06,
+        "y_max": 1119.46
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "21",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0028",
+      "coordinates": {
+        "x_min": 674.37,
+        "y_min": 51.79,
+        "x_max": 716.34,
+        "y_max": 1118.38
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "22",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0029",
+      "coordinates": {
+        "x_min": 722.65,
+        "y_min": 50.71,
+        "x_max": 764.62,
+        "y_max": 1117.3
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "23",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0030",
+      "coordinates": {
+        "x_min": 770.94,
+        "y_min": 49.63,
+        "x_max": 812.9,
+        "y_max": 1116.22
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "24",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_06_b0031",
+      "coordinates": {
+        "x_min": 819.21,
+        "y_min": 48.55,
+        "x_max": 861.18,
+        "y_max": 1115.14
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "25",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T06:38:23.644Z",
+  "updated_at": "2026-07-03T14:39:26"
+}

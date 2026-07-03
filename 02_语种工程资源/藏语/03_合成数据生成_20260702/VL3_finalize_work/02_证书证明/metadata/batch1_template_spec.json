@@ -1,0 +1,88 @@
+{
+  "category": {
+    "category_id": "certificate_proof",
+    "category_cn": "证书证明",
+    "title": "Sawcingq Cingmingz",
+    "templates": [
+      {
+        "template_id": "certificate_proof_v01",
+        "variant": 1,
+        "template_name_cn": "横向荣誉证书",
+        "layout_family": "landscape_award_certificate",
+        "page": {
+          "width": 1500,
+          "height": 980
+        },
+        "content_density": "low",
+        "preserve_full_page": false,
+        "tight_crop": true
+      },
+      {
+        "template_id": "certificate_proof_v02",
+        "variant": 2,
+        "template_name_cn": "竖向正式证明书",
+        "layout_family": "formal_vertical_proof",
+        "page": {
+          "width": 1120,
+          "height": 1320
+        },
+        "content_density": "medium",
+        "preserve_full_page": false,
+        "tight_crop": true
+      },
+      {
+        "template_id": "certificate_proof_v03",
+        "variant": 3,
+        "template_name_cn": "边框奖状",
+        "layout_family": "ornamental_award",
+        "page": {
+          "width": 1500,
+          "height": 980
+        },
+        "content_density": "low",
+        "preserve_full_page": false,
+        "tight_crop": true
+      },
+      {
+        "template_id": "certificate_proof_v04",
+        "variant": 4,
+        "template_name_cn": "编号资质证明卡",
+        "layout_family": "numbered_credential_card",
+        "page": {
+          "width": 1500,
+          "height": 980
+        },
+        "content_density": "medium",
+        "preserve_full_page": false,
+        "tight_crop": true
+      },
+      {
+        "template_id": "certificate_proof_v05",
+        "variant": 5,
+        "template_name_cn": "机构证明事项页",
+        "layout_family": "institutional_proof_sheet",
+        "page": {
+          "width": 1120,
+          "height": 1320
+        },
+        "content_density": "medium_high",
+        "preserve_full_page": false,
+        "tight_crop": true
+      },
+      {
+        "template_id": "certificate_proof_v06",
+        "variant": 6,
+        "template_name_cn": "简洁电子证书",
+        "layout_family": "minimal_digital_certificate",
+        "page": {
+          "width": 1280,
+          "height": 880
+        },
+        "content_density": "medium",
+        "preserve_full_page": false,
+        "tight_crop": true
+      }
+    ]
+  },
+  "source_schema": "category_layout_templates.v1"
+}

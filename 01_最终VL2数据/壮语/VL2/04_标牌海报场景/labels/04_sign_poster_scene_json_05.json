@@ -1,0 +1,454 @@
+{
+  "image_id": "bef13471-bef1-3471-bef1-bef13471bef1",
+  "file_name": "04_sign_poster_scene_json_05.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "batch1_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "za",
+    "language_name": "壮语",
+    "script_note": "现代标准壮文 Vahcuengh，拉丁字母拼写",
+    "template_type": "sign_poster_scene",
+    "category": "sign_poster_scene",
+    "variant": 5,
+    "layout_name": "sign_poster_scene_v05",
+    "document_id": "04_sign_poster_scene_json_05",
+    "title": "Byaij Cazdoj",
+    "doc_no": "ZA-V2-04-05",
+    "date": "2026-07-02",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "sign_poster_scene",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 12,
+      "page_width": 938,
+      "page_height": 889,
+      "body_scroll_width": 938,
+      "body_scroll_height": 889,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 78,
+        "y": 248,
+        "width": 864,
+        "height": 794,
+        "enabled": true,
+        "original_width": 1020,
+        "original_height": 1380,
+        "content_bbox": {
+          "x_min": 104,
+          "y_min": 274,
+          "x_max": 916,
+          "y_max": 1016
+        },
+        "padding": 26,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.5377,
+        "bottom_blank_ratio_before_crop": 0.2638
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 5391046329496303149,
+        "family": "printed_noise",
+        "geometry": {
+          "source_size": {
+            "width": 864,
+            "height": 794
+          },
+          "scale": {
+            "scale": 0.99448,
+            "width": 859,
+            "height": 790
+          },
+          "rotation": {
+            "angle_degrees": -7.584,
+            "width": 956,
+            "height": 897
+          },
+          "translation": {
+            "dx": 6,
+            "dy": 0,
+            "width": 956,
+            "height": 897
+          },
+          "edge_crop": {
+            "left": 8,
+            "top": 8,
+            "right": 10,
+            "bottom": 0,
+            "width": 938,
+            "height": 889
+          },
+          "output_size_before_visual": {
+            "width": 938,
+            "height": 889
+          }
+        },
+        "output_size": {
+          "width": 938,
+          "height": 889
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0010",
+      "coordinates": {
+        "x_min": 27.05,
+        "y_min": 21.02,
+        "x_max": 831.17,
+        "y_max": 155.19
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "INFO",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0011",
+      "coordinates": {
+        "x_min": 33.61,
+        "y_min": 70.3,
+        "x_max": 845.67,
+        "y_max": 264.12
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "Byaij Cazdoj",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "66px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0012",
+      "coordinates": {
+        "x_min": 48.11,
+        "y_min": 179.23,
+        "x_max": 864.85,
+        "y_max": 408.14
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Gamjlezningz gig gvangqlangh, ndawd sang 43 mij, gvangq 64 mij, laeg 137 mij, Ngiengx gyaeuj yawj, bangxgamj bingzbw seuqsat",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "30px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0001",
+      "coordinates": {
+        "x_min": 64.4,
+        "y_min": 301.56,
+        "x_max": 871.53,
+        "y_max": 458.31
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "bae, daengz de hienqhaenz hausak",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0002",
+      "coordinates": {
+        "x_min": 71.08,
+        "y_min": 351.74,
+        "x_max": 878.19,
+        "y_max": 508.39
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "Inquiry、Studia Linguistica Natural",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0003",
+      "coordinates": {
+        "x_min": 77.75,
+        "y_min": 401.82,
+        "x_max": 884.86,
+        "y_max": 558.47
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "cenzsen bae, gujji gij gvan lwg",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0004",
+      "coordinates": {
+        "x_min": 84.42,
+        "y_min": 451.89,
+        "x_max": 891.53,
+        "y_max": 608.55
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "geij lai Ciuq dangh naeuz gou baenz",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0005",
+      "coordinates": {
+        "x_min": 91.08,
+        "y_min": 501.97,
+        "x_max": 898.2,
+        "y_max": 658.62
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "：rox —gaiqrox 5. Gaiq ， gij ：gaiq saw 6. Raemx ， ，",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0006",
+      "coordinates": {
+        "x_min": 97.75,
+        "y_min": 552.05,
+        "x_max": 904.86,
+        "y_max": 708.7
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "Go riengz hungzginh bae, Sau gyaez",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0007",
+      "coordinates": {
+        "x_min": 104.42,
+        "y_min": 602.13,
+        "x_max": 911.53,
+        "y_max": 758.78
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "Cunghgung Cunghyangh Vwnzyen Benhciz Veijyenzvei 1989 nienz 1 nyied",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0008",
+      "coordinates": {
+        "x_min": 111.09,
+        "y_min": 652.21,
+        "x_max": 918.2,
+        "y_max": 808.86
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "aen gunghcwngz ndeij geiqhauh guh",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0009",
+      "coordinates": {
+        "x_min": 117.75,
+        "y_min": 702.28,
+        "x_max": 924.88,
+        "y_max": 859.04
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "Language Level Examination special",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T05:14:48.531Z",
+  "updated_at": "2026-07-03T13:16:03"
+}

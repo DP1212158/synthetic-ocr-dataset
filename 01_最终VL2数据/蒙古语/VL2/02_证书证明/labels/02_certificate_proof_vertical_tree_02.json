@@ -1,0 +1,396 @@
+{
+  "image_id": "bb2fe775-bb2f-e775-bb2f-bb2fe775bb2f",
+  "file_name": "02_certificate_proof_vertical_tree_02.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "mongolian_vertical_json_tree_v3_v4_split_mix_assets",
+    "language_code": "mn-trad",
+    "language_name": "传统蒙古文",
+    "script_note": "传统蒙古文，竖排从上到下，列从左到右",
+    "template_type": "certificate_proof",
+    "category": "certificate_proof",
+    "variant": 2,
+    "layout_name": "certificate_proof_vertical_tree_02",
+    "document_id": "02_certificate_proof_vertical_tree_02",
+    "title": "证书证明",
+    "doc_no": "MN-V3-02-02",
+    "date": "2026-07-02",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.14,
+    "chinese_topic": "certificate_proof",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 10,
+      "page_width": 868,
+      "page_height": 1239,
+      "body_scroll_width": 868,
+      "body_scroll_height": 1239,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 82,
+        "y": 84,
+        "width": 834,
+        "height": 1232,
+        "enabled": true,
+        "original_width": 1040,
+        "original_height": 1420,
+        "content_bbox": {
+          "x_min": 108,
+          "y_min": 110,
+          "x_max": 890,
+          "y_max": 1290
+        },
+        "padding": 26,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.831,
+        "bottom_blank_ratio_before_crop": 0.0915
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 11264168543668629247,
+        "family": "soft_copy",
+        "geometry": {
+          "source_size": {
+            "width": 834,
+            "height": 1232
+          },
+          "scale": {
+            "scale": 1.0,
+            "width": 834,
+            "height": 1232
+          },
+          "rotation": {
+            "angle_degrees": 1.9164,
+            "width": 875,
+            "height": 1260
+          },
+          "translation": {
+            "dx": -5,
+            "dy": 4,
+            "width": 875,
+            "height": 1260
+          },
+          "edge_crop": {
+            "left": 2,
+            "top": 13,
+            "right": 5,
+            "bottom": 8,
+            "width": 868,
+            "height": 1239
+          },
+          "output_size_before_visual": {
+            "width": 868,
+            "height": 1239
+          }
+        },
+        "output_size": {
+          "width": 868,
+          "height": 1239
+        }
+      }
+    },
+    "reading_order_policy": "vertical_lr_columns_top_to_bottom_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "02_certificate_proof_vertical_tree_02_b0002",
+      "coordinates": {
+        "x_min": 19.85,
+        "y_min": 17.85,
+        "x_max": 101.29,
+        "y_max": 1198.6
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "20260702",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_vertical_tree_02_b0003",
+      "coordinates": {
+        "x_min": 110.21,
+        "y_min": 28.86,
+        "x_max": 210.96,
+        "y_max": 1190.28
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢ 发证",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "34px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_vertical_tree_02_b0004",
+      "coordinates": {
+        "x_min": 224.08,
+        "y_min": 74.58,
+        "x_max": 303.51,
+        "y_max": 1135.46
+      },
+      "points": null,
+      "block_label": "document_subtitle",
+      "block_content": "ᠭᠡᠰᠢᠭᠦᠨ ᠲᠠᠢ ᠡ 登记",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "subtitle",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_vertical_tree_02_b0005",
+      "coordinates": {
+        "x_min": 329.71,
+        "y_min": 87.92,
+        "x_max": 393.12,
+        "y_max": 968.57
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "2025 ᠣᠨ ᠤ ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠠᠯᠪᠠᠲᠠᠨ ᠡᠯᠰᠡᠬᠦ ᠰᠢᠯᠭᠠᠯᠲᠠ ᠶᠢᠨ ᠯᠠᠪᠯᠠᠬᠤ ᠬᠠᠷᠢᠭᠤᠯᠲᠠ 《 ᠵᠠᠰ。业务窗口保留查验记录",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_vertical_tree_02_b0006",
+      "coordinates": {
+        "x_min": 397.67,
+        "y_min": 90.19,
+        "x_max": 461.08,
+        "y_max": 970.84
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠠᠭᠢ ᠵᠢᠨ ᠴᠡᠩᠭᠡᠷ ᠤᠲᠤᠭ᠎ᠠ ᠰᠢᠭ᠋ ᠠᠭᠤᠯᠠ ᠲᠠᠯ᠎ᠠ ᠦᠭᠡᠢ ᠤᠨᠢᠶᠠᠷ ᠲᠠᠢ ᠠᠯᠠᠭᠠᠨ ᠤ ᠲᠠᠨᠢᠯ ᠬᠡ ᠰᠢᠭ ᠤᠬᠠᠭᠠᠨ ᠰᠠᠨᠠᠭ。登记日期以签发记录为准",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_vertical_tree_02_b0007",
+      "coordinates": {
+        "x_min": 465.64,
+        "y_min": 92.47,
+        "x_max": 529.05,
+        "y_max": 973.11
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠨᠢᠭᠡᠳᠦᠭᠡᠷ ᠬᠡᠰᠡᠭ ᠮᠠᠩᠬᠠᠵᠢᠯᠲᠠ ᠶᠢ ᠰᠡᠷᠭᠡᠢᠯᠡᠨ ᠵᠠᠰᠠᠬᠤ ᠮᠠᠨ ᠤ ᠤᠯᠤᠰ ᠤᠨ ᠪᠠᠷᠠᠭᠤᠨ ᠬᠣᠢᠲᠤ ᠣᠷᠣᠨ ᠢᠶᠠ。有效期限以系统记录为准",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_vertical_tree_02_b0008",
+      "coordinates": {
+        "x_min": 533.6,
+        "y_min": 94.74,
+        "x_max": 597.01,
+        "y_max": 975.39
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠭᠠᠵᠠᠷ ᠤᠨ ᠵᠠᠯᠠᠭᠤ ᠬᠥᠮᠥᠨ ᠲᠡᠭᠦᠨ ᠦ ᠵᠠᠮ ᠢ ᠬᠥᠨᠳᠡᠯᠢᠳᠦᠨ ᠰᠠᠭᠠᠲᠤᠭᠤᠯᠵᠤ ᠬᠡᠳᠦᠨ ᠦᠭᠡ ᠠᠰᠠᠭᠤᠨ。经审核材料真实有效",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_vertical_tree_02_b0009",
+      "coordinates": {
+        "x_min": 601.56,
+        "y_min": 97.02,
+        "x_max": 664.97,
+        "y_max": 977.66
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠪᠣᠯᠭᠠᠬᠤ ᠠᠷᠭ᠎ᠠ ᠶᠢ ᠦᠭᠡ ᠶᠢᠨ ᠤᠳᠬ᠎ᠠ ᠰᠢᠯᠵᠢᠭᠦᠯᠬᠦ ᠠᠷᠭ᠎ᠠ ᠭᠡᠨ᠎ᠡ᠃ ᠵᠢᠱᠢᠶᠡᠯᠡᠪᠡᠯ᠄ ᠱ᠂ ᠨᠠᠴᠤᠭ。业务窗口保留查验记录",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_vertical_tree_02_b0010",
+      "coordinates": {
+        "x_min": 703.59,
+        "y_min": 149.6,
+        "x_max": 817.21,
+        "y_max": 263.21
+      },
+      "points": null,
+      "block_label": "seal",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "seal",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_vertical_tree_02_b0011",
+      "coordinates": {
+        "x_min": 705.52,
+        "y_min": 689.96,
+        "x_max": 819.14,
+        "y_max": 803.58
+      },
+      "points": null,
+      "block_label": "seal",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "seal",
+      "reading_order_confidence": "medium"
+    }
+  ],
+  "created_at": "2026-07-03T06:38:02.369Z",
+  "updated_at": "2026-07-03T14:39:16"
+}

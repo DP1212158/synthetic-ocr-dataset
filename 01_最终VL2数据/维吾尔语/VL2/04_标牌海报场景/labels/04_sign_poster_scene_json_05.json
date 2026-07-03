@@ -1,0 +1,454 @@
+{
+  "image_id": "bef13471-bef1-3471-bef1-bef13471bef1",
+  "file_name": "04_sign_poster_scene_json_05.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "batch1_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "ug",
+    "language_name": "维吾尔语",
+    "script_note": "改良阿拉伯字母，横排从右到左",
+    "template_type": "sign_poster_scene",
+    "category": "sign_poster_scene",
+    "variant": 5,
+    "layout_name": "sign_poster_scene_v05",
+    "document_id": "04_sign_poster_scene_json_05",
+    "title": "Byaij Cazdoj",
+    "doc_no": "ZA-V1-04-05",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "sign_poster_scene",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 12,
+      "page_width": 937,
+      "page_height": 881,
+      "body_scroll_width": 937,
+      "body_scroll_height": 881,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 78,
+        "y": 252,
+        "width": 864,
+        "height": 786,
+        "enabled": true,
+        "original_width": 1020,
+        "original_height": 1380,
+        "content_bbox": {
+          "x_min": 104,
+          "y_min": 278.7,
+          "x_max": 916,
+          "y_max": 1011.3
+        },
+        "padding": 26,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.5309,
+        "bottom_blank_ratio_before_crop": 0.2672
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 5391046329496303149,
+        "family": "printed_noise",
+        "geometry": {
+          "source_size": {
+            "width": 864,
+            "height": 786
+          },
+          "scale": {
+            "scale": 0.99448,
+            "width": 859,
+            "height": 782
+          },
+          "rotation": {
+            "angle_degrees": -7.584,
+            "width": 955,
+            "height": 889
+          },
+          "translation": {
+            "dx": 6,
+            "dy": 0,
+            "width": 955,
+            "height": 889
+          },
+          "edge_crop": {
+            "left": 8,
+            "top": 8,
+            "right": 10,
+            "bottom": 0,
+            "width": 937,
+            "height": 881
+          },
+          "output_size_before_visual": {
+            "width": 937,
+            "height": 881
+          }
+        },
+        "output_size": {
+          "width": 937,
+          "height": 881
+        }
+      }
+    },
+    "reading_order_policy": "rtl_visual_top_to_bottom_right_to_left_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0010",
+      "coordinates": {
+        "x_min": 27.14,
+        "y_min": 21.7,
+        "x_max": 835.46,
+        "y_max": 187.42
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0011",
+      "coordinates": {
+        "x_min": 37.9,
+        "y_min": 102.54,
+        "x_max": 849.96,
+        "y_max": 296.35
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ئۇيغۇرچە ھۆججەت",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "66px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0012",
+      "coordinates": {
+        "x_min": 52.4,
+        "y_min": 211.47,
+        "x_max": 863.72,
+        "y_max": 399.66
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "\"تاللاپ تاللاپ تازغا ئۇچراپ قالما يەنە\"دەپ تەنە قىلسىمۇ تاللا. چۈنكى، خاتا تاللاش سەۋەبلىك ئائىلەڭگە بالايى ئاپەت ياغدۇرىسەن.",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "30px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0001",
+      "coordinates": {
+        "x_min": 63.27,
+        "y_min": 293.09,
+        "x_max": 870.39,
+        "y_max": 449.74
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "مۇكەررەم مەتروزى مۇقاۋىنى لايىھەلىگۈچى: ئابدۇقەييۇم ئابدۇجېلىل",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0002",
+      "coordinates": {
+        "x_min": 69.94,
+        "y_min": 343.16,
+        "x_max": 877.05,
+        "y_max": 499.82
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ساغلىقلارنىڭ ھەر بىرىگە 40 يۈزىن",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0003",
+      "coordinates": {
+        "x_min": 76.61,
+        "y_min": 393.24,
+        "x_max": 883.72,
+        "y_max": 549.89
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "قانات يايدۈرغان قوزىلايدىغان ساغلىقلارنىڭ",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0004",
+      "coordinates": {
+        "x_min": 83.27,
+        "y_min": 443.32,
+        "x_max": 890.39,
+        "y_max": 599.97
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ئۆمۈرلۈك مۇناسىۋەتتە ئادىمىيلىككە قاراش كېرەك.",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0005",
+      "coordinates": {
+        "x_min": 89.94,
+        "y_min": 493.4,
+        "x_max": 897.06,
+        "y_max": 650.05
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ئەدەبىيات – سەنئەتچىلەر بىرلەشمىسى",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0006",
+      "coordinates": {
+        "x_min": 96.61,
+        "y_min": 543.48,
+        "x_max": 903.72,
+        "y_max": 700.13
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ئېرىڭىزنىڭ كەينىگە كىرىپ ئاتا-ئانىڭىز",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0007",
+      "coordinates": {
+        "x_min": 103.28,
+        "y_min": 593.55,
+        "x_max": 910.39,
+        "y_max": 750.21
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "چىراينىڭ سەتلىكىگە ئەينەك گۇناھکار ئەمەس",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0008",
+      "coordinates": {
+        "x_min": 109.94,
+        "y_min": 643.63,
+        "x_max": 917.07,
+        "y_max": 800.38
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "قاراقاش ناهىيه كاۋاك يېزا بىرېغىز مەكتەپتىن: مىرابدۇللا رۇزمەمەت",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "04_sign_poster_scene_json_05_b0009",
+      "coordinates": {
+        "x_min": 116.63,
+        "y_min": 693.81,
+        "x_max": 923.74,
+        "y_max": 850.46
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "داۋاملاشما قەرز كەسپلىرىمۇ ئوخشاشلا",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "23px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:09:28.617Z",
+  "updated_at": "2026-07-03T12:10:37"
+}

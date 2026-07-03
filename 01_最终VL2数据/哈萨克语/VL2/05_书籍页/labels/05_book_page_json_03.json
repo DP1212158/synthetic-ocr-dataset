@@ -1,0 +1,1527 @@
+{
+  "image_id": "e1a3093d-e1a3-093d-e1a3-e1a3093de1a3",
+  "file_name": "05_book_page_json_03.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "reading_pages_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "kk-arab",
+    "language_name": "哈萨克语",
+    "script_note": "改良阿拉伯字母，横排从右到左",
+    "template_type": "book_page",
+    "category": "book_page",
+    "variant": 3,
+    "layout_name": "book_page_v03",
+    "document_id": "05_book_page_json_03",
+    "title": "Sawbon Yieb",
+    "doc_no": "ZA-V1-05-03",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "book_page",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 50,
+      "page_width": 1222,
+      "page_height": 1163,
+      "body_scroll_width": 1222,
+      "body_scroll_height": 1163,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 31,
+        "y": 23,
+        "width": 1178,
+        "height": 1115,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1754,
+        "content_bbox": {
+          "x_min": 62,
+          "y_min": 54,
+          "x_max": 1178,
+          "y_max": 1106.1
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.5998,
+        "bottom_blank_ratio_before_crop": 0.3694
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 11755523339066931044,
+        "family": "soft_copy",
+        "geometry": {
+          "source_size": {
+            "width": 1178,
+            "height": 1115
+          },
+          "scale": {
+            "scale": 1.0,
+            "width": 1178,
+            "height": 1115
+          },
+          "rotation": {
+            "angle_degrees": 2.6318,
+            "width": 1228,
+            "height": 1168
+          },
+          "translation": {
+            "dx": 3,
+            "dy": 4,
+            "width": 1228,
+            "height": 1168
+          },
+          "edge_crop": {
+            "left": 0,
+            "top": 3,
+            "right": 6,
+            "bottom": 2,
+            "width": 1222,
+            "height": 1163
+          },
+          "output_size_before_visual": {
+            "width": 1222,
+            "height": 1163
+          }
+        },
+        "output_size": {
+          "width": 1222,
+          "height": 1163
+        }
+      }
+    },
+    "reading_order_policy": "rtl_visual_top_to_bottom_right_to_left_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "05_book_page_json_03_b0027",
+      "coordinates": {
+        "x_min": 1161.85,
+        "y_min": 83.0,
+        "x_max": 1198.56,
+        "y_max": 111.81
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0028",
+      "coordinates": {
+        "x_min": 82.49,
+        "y_min": 33.39,
+        "x_max": 110.31,
+        "y_max": 61.78
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "031",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0029",
+      "coordinates": {
+        "x_min": 841.45,
+        "y_min": 130.56,
+        "x_max": 1195.71,
+        "y_max": 182.33
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "حاۋىپسىزدىگىنە",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0030",
+      "coordinates": {
+        "x_min": 839.08,
+        "y_min": 166.12,
+        "x_max": 1194.07,
+        "y_max": 233.78
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "تايعاق كەشۋلەردەن ءوتىپ، قيىندىقتاردى جەڭۋىن قاجەت ەتەدى. جاستار − قوعامداعى ەڭ جالىندى،",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0031",
+      "coordinates": {
+        "x_min": 836.35,
+        "y_min": 225.56,
+        "x_max": 1191.34,
+        "y_max": 293.21
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "قۇربان ايت دەمالىسىنىڭ ۋاقىتى 5 - ايدىڭ 27 - كۇنىنەن سارسەنبى 5 - ايدىڭ 31 - كۇنىنە",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0032",
+      "coordinates": {
+        "x_min": 833.62,
+        "y_min": 285.0,
+        "x_max": 1188.61,
+        "y_max": 352.55
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "جۇڭگو ىشكى ولكەلەرىنە جانە شياڭگاڭ، اۋمىنعا كىرۋىنە تيىم سالۋدى، جۇڭگو شەكاراسى ىشىندەگى",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0033",
+      "coordinates": {
+        "x_min": 830.89,
+        "y_min": 344.33,
+        "x_max": 1185.88,
+        "y_max": 411.99
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ايقىن بەلگىلەندى. جۇڭگو ۇلگىسىندەگى وسىزامانداندىرۋ ارقىلى مەملەكەتتى قۇدىرەتتەندىرۋ",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0034",
+      "coordinates": {
+        "x_min": 828.16,
+        "y_min": 403.77,
+        "x_max": 1183.15,
+        "y_max": 471.43
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ەسىگىن بىتەيدى، باسقالاردىڭ جولىن توسا المايدى. 30 مەملەكەتپەن جانە رايونمەن 23 ەركىن",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0035",
+      "coordinates": {
+        "x_min": 825.43,
+        "y_min": 463.21,
+        "x_max": 1180.42,
+        "y_max": 530.76
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "جارنا سەرىكتەستىگى پارتكومىنىڭ بۇرىنعى مۇشەسى، ورىنباسار باس جوراسى يۇي شياۋپيڭ تارتىپكە،",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0036",
+      "coordinates": {
+        "x_min": 822.7,
+        "y_min": 522.55,
+        "x_max": 1177.69,
+        "y_max": 590.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ەتۋ ءتۇزىلىس، مەحانيزمىن كۇشەيتىپ، ءبىر تۇتاس سالالار بويىنشا باسشىلىق ەتۋ جانە سايكەستى",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0037",
+      "coordinates": {
+        "x_min": 819.97,
+        "y_min": 581.98,
+        "x_max": 1174.96,
+        "y_max": 649.64
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "دانەكەر ەتىپ، ورەندەر مەن بالالاردىڭ ءمورال، اقىل - وي، دەنە، ەستەتيكا، ەڭبەك جاقتارىنان",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0038",
+      "coordinates": {
+        "x_min": 817.24,
+        "y_min": 641.42,
+        "x_max": 1172.23,
+        "y_max": 708.98
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "اسىنىپ، رۇڭچىڭ اۋدانى لياڭماتاي قالاشىعىنداعى شيۇڭ - ان جەر بەتى پۋنكتىنە بارىپ، توراپتىڭ",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0039",
+      "coordinates": {
+        "x_min": 466.11,
+        "y_min": 113.34,
+        "x_max": 821.1,
+        "y_max": 181.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "كەڭەستىك تارتىپتەرىن تابىسپەن ورىنداپ، 3 - ايدىڭ 11 - كۇنى بەيجيڭدە جەڭىسپەن جابىلدى.",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0040",
+      "coordinates": {
+        "x_min": 463.38,
+        "y_min": 172.78,
+        "x_max": 818.37,
+        "y_max": 240.33
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "| قوعام | ەكونوميكا | مادەنيەت | وقۋ-اعارتۋ | زاڭ-ءتۇزىم | عىلىم-تەحنيكا | تۇرمىس |",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0041",
+      "coordinates": {
+        "x_min": 460.65,
+        "y_min": 232.12,
+        "x_max": 815.64,
+        "y_max": 299.77
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "100 جىلدىعى قارساڭىندا باس شۋجي شي جينپيڭ پارتيا ىشىندەگى ەڭ جوعارى داڭق ”1 - شىلدە",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0042",
+      "coordinates": {
+        "x_min": 457.92,
+        "y_min": 291.55,
+        "x_max": 812.91,
+        "y_max": 359.21
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "يامەي. نەگىزگى ساتى − بۇقاراعا قىزمەت وتەۋدىڭ ءبىرىنشى شەبى، ونىڭ قۇنى ناقتى ىستەۋدە.",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0043",
+      "coordinates": {
+        "x_min": 455.19,
+        "y_min": 350.99,
+        "x_max": 810.18,
+        "y_max": 418.54
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "حابارلارى | ماڭىزدى حابارلار | شولۋ-نازاريا | ەل ءىشى | شينجياڭ | حالىقارا | قوعام",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0044",
+      "coordinates": {
+        "x_min": 452.46,
+        "y_min": 410.33,
+        "x_max": 807.45,
+        "y_max": 477.98
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "قايتالاي جاسالعان ونىمدەردى يمپورت ەتۋدى تۇيىندە سىناق ەتتى؛ 2025 - جىلى ياڭشان پورتىنداعى",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0045",
+      "coordinates": {
+        "x_min": 449.73,
+        "y_min": 469.76,
+        "x_max": 804.72,
+        "y_max": 537.42
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "كەپىلدەندىرىپ جانە ساپالاندىرىپ، ادامداردىڭ جالپى بەتتىك دامۋىن ىلگەرىلەتىپ، جالپى",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0046",
+      "coordinates": {
+        "x_min": 447.0,
+        "y_min": 529.2,
+        "x_max": 801.99,
+        "y_max": 596.76
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "نازارياسىمەن زەيىن - زەردەنى، رۋحتى سومداۋعا تاباندى بولۋ، بەرىك پارتيالىلىقتى شىڭداۋعا",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0047",
+      "coordinates": {
+        "x_min": 444.27,
+        "y_min": 588.54,
+        "x_max": 799.26,
+        "y_max": 656.19
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "كۇشى بايلىعى جانە قوعامدىق قامتاماسىزداندىرۋ مينيسترلىگىنىڭ ۋيشين تەكشەسىنىڭ حابارى:",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0048",
+      "coordinates": {
+        "x_min": 65.27,
+        "y_min": 95.53,
+        "x_max": 440.51,
+        "y_max": 451.7
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": false,
+        "asset_id": "COCO_val2014_000000008188",
+        "asset_source": "random120-coco2014",
+        "asset_crop": "object-fit-cover"
+      },
+      "reading_order": 41,
+      "reading_group": "image",
+      "reading_role": "image",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0049",
+      "coordinates": {
+        "x_min": 63.91,
+        "y_min": 443.16,
+        "x_max": 424.53,
+        "y_max": 481.37
+      },
+      "points": null,
+      "block_label": "caption",
+      "block_content": "- تۇردەگى 6 جاڭا ەمدەۋ جابدىعى بەكىتىلىپ",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "caption",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0001",
+      "coordinates": {
+        "x_min": 61.93,
+        "y_min": 480.82,
+        "x_max": 422.8,
+        "y_max": 524.52
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "01",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0002",
+      "coordinates": {
+        "x_min": 60.63,
+        "y_min": 507.99,
+        "x_max": 421.55,
+        "y_max": 552.69
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "- تەكسەرۋىن قابىلداۋدا. كەلۋ قاينارى:",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0003",
+      "coordinates": {
+        "x_min": 58.65,
+        "y_min": 552.14,
+        "x_max": 419.52,
+        "y_max": 595.84
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "02",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0004",
+      "coordinates": {
+        "x_min": 57.35,
+        "y_min": 579.31,
+        "x_max": 418.27,
+        "y_max": 624.11
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "جۇزىندىك جاعدايمەن ۇشتاستىرىپ، جەرگىلىكتى",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0005",
+      "coordinates": {
+        "x_min": 55.37,
+        "y_min": 623.57,
+        "x_max": 416.23,
+        "y_max": 667.17
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "03",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0006",
+      "coordinates": {
+        "x_min": 54.07,
+        "y_min": 650.64,
+        "x_max": 414.99,
+        "y_max": 695.44
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "مەڭگەرمەسىنىڭ 6 - ايدىڭ 15 - كۇنى",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0007",
+      "coordinates": {
+        "x_min": 52.09,
+        "y_min": 694.89,
+        "x_max": 412.96,
+        "y_max": 738.49
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "04",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0008",
+      "coordinates": {
+        "x_min": 50.79,
+        "y_min": 721.96,
+        "x_max": 411.71,
+        "y_max": 766.76
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ولكەسى شۇيجوۋ قالالىق قوعام حاۋىپسىزدىگى",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0009",
+      "coordinates": {
+        "x_min": 48.81,
+        "y_min": 766.22,
+        "x_max": 409.68,
+        "y_max": 809.92
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "05",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0010",
+      "coordinates": {
+        "x_min": 47.51,
+        "y_min": 793.39,
+        "x_max": 408.43,
+        "y_max": 838.09
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ىلگەرىلەۋ كۇش - قۋاتىن ارقالاپ وتىر.",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0011",
+      "coordinates": {
+        "x_min": 898.9,
+        "y_min": 904.79,
+        "x_max": 1149.33,
+        "y_max": 942.12
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "تاڭدالدى. كەلۋ",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0012",
+      "coordinates": {
+        "x_min": 898.14,
+        "y_min": 930.67,
+        "x_max": 1148.14,
+        "y_max": 958.71
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "| حالىقارا | قوعام | ەكونوميكا | مادەنيەت | وقۋ-اعارتۋ",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 40,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0013",
+      "coordinates": {
+        "x_min": 617.7,
+        "y_min": 891.87,
+        "x_max": 868.12,
+        "y_max": 929.2
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "جاۋاپتىسى بىلاي",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0014",
+      "coordinates": {
+        "x_min": 616.17,
+        "y_min": 917.74,
+        "x_max": 866.93,
+        "y_max": 962.36
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "دەڭگەيىن، اۋىل - قىستاقتى جونگە سالۋ دەڭگەيىن جوعارىلاتۋىمىز",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 39,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0015",
+      "coordinates": {
+        "x_min": 336.49,
+        "y_min": 878.94,
+        "x_max": 586.92,
+        "y_max": 916.27
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "| تۇرمىس | دەنە",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0016",
+      "coordinates": {
+        "x_min": 335.73,
+        "y_min": 904.82,
+        "x_max": 585.73,
+        "y_max": 932.85
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "كۇنى بەيجيڭنەن بەرگەن حابارى. شاڭحاي قالالىق ۇكىمەت",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 38,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0017",
+      "coordinates": {
+        "x_min": 55.29,
+        "y_min": 866.02,
+        "x_max": 305.72,
+        "y_max": 903.35
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "بۇل بىزدەن ەل",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0018",
+      "coordinates": {
+        "x_min": 54.53,
+        "y_min": 891.89,
+        "x_max": 304.53,
+        "y_max": 919.93
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "قايشىلىق جاسادى دەگەن كۇمانمەن قازىر شينجياڭ ٴوندىرىس",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0019",
+      "coordinates": {
+        "x_min": 891.55,
+        "y_min": 1064.63,
+        "x_max": 1141.98,
+        "y_max": 1101.96
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "پاكتىك حاۋىپ",
+      "is_text": true,
+      "order": "41",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 47,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0020",
+      "coordinates": {
+        "x_min": 890.79,
+        "y_min": 1090.5,
+        "x_max": 1140.79,
+        "y_max": 1118.54
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ماڭگى جالعاستىراتىن قايسارلىق جانە تاباندىلىق ارقىلى",
+      "is_text": true,
+      "order": "42",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 49,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0021",
+      "coordinates": {
+        "x_min": 610.35,
+        "y_min": 1051.7,
+        "x_max": 860.78,
+        "y_max": 1089.03
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "مىقتاپ يگەرىپ،",
+      "is_text": true,
+      "order": "43",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 44,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0022",
+      "coordinates": {
+        "x_min": 609.59,
+        "y_min": 1077.57,
+        "x_max": 859.59,
+        "y_max": 1105.61
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "قاينارى : حالىق تورابى شينجياڭ ۇيعۇر اۆتونوميالى",
+      "is_text": true,
+      "order": "44",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 48,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0023",
+      "coordinates": {
+        "x_min": 329.15,
+        "y_min": 1038.77,
+        "x_max": 579.57,
+        "y_max": 1076.1
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ۋاقىتتا تەلەفون",
+      "is_text": true,
+      "order": "45",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 43,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0024",
+      "coordinates": {
+        "x_min": 328.39,
+        "y_min": 1064.65,
+        "x_max": 578.38,
+        "y_max": 1092.69
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "رەتىندە، مەن مىندەتىمدى، جاۋاپكەرشىلىگىمدى ادا ەتە",
+      "is_text": true,
+      "order": "46",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 45,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0025",
+      "coordinates": {
+        "x_min": 47.94,
+        "y_min": 1025.85,
+        "x_max": 298.37,
+        "y_max": 1063.18
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "تولىق ايگىلەدى.",
+      "is_text": true,
+      "order": "47",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 42,
+      "reading_group": "footer",
+      "reading_role": "section_title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "05_book_page_json_03_b0026",
+      "coordinates": {
+        "x_min": 46.42,
+        "y_min": 1051.72,
+        "x_max": 297.18,
+        "y_max": 1096.34
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "كەرەك؟ 2025 - جىلى جاڭادان وزگەرىس ەنگىزىلگەن «پارتيا،",
+      "is_text": true,
+      "order": "48",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 46,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:18:00.690Z",
+  "updated_at": "2026-07-03T12:19:02"
+}

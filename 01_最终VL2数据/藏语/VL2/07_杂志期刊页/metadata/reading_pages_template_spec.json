@@ -1,0 +1,116 @@
+{
+  "category": {
+    "category_id": "magazine_journal",
+    "category_cn": "杂志期刊页",
+    "title": "དུས་དེབ་ཤོག་ངོས",
+    "templates": [
+      {
+        "template_id": "magazine_journal_v01",
+        "variant": 1,
+        "layout_family": "feature_opening_spread",
+        "content_density": "medium",
+        "page": {
+          "width": 1240,
+          "height": 1650
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "hero_image",
+          "department_name",
+          "feature_title",
+          "deck",
+          "short_blocks"
+        ]
+      },
+      {
+        "template_id": "magazine_journal_v02",
+        "variant": 2,
+        "layout_family": "cover_like_journal_page",
+        "content_density": "medium",
+        "page": {
+          "width": 1240,
+          "height": 1600
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "journal_name",
+          "issue_info",
+          "central_visual",
+          "cover_lines",
+          "date"
+        ]
+      },
+      {
+        "template_id": "magazine_journal_v03",
+        "variant": 3,
+        "layout_family": "landscape_photo_essay",
+        "content_density": "medium",
+        "page": {
+          "width": 1500,
+          "height": 980
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "landscape_image",
+          "caption",
+          "article_columns",
+          "department_label"
+        ]
+      },
+      {
+        "template_id": "magazine_journal_v04",
+        "variant": 4,
+        "layout_family": "journal_contents_guide",
+        "content_density": "medium_high",
+        "page": {
+          "width": 1240,
+          "height": 1550
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "contents_header",
+          "section_labels",
+          "article_entries",
+          "abstracts",
+          "page_numbers"
+        ]
+      },
+      {
+        "template_id": "magazine_journal_v05",
+        "variant": 5,
+        "layout_family": "column_article",
+        "content_density": "dense",
+        "page": {
+          "width": 1240,
+          "height": 1754
+        },
+        "preserve_full_page": true,
+        "structure": [
+          "column_name",
+          "article_title",
+          "author_info",
+          "three_column_text",
+          "pull_quote"
+        ]
+      },
+      {
+        "template_id": "magazine_journal_v06",
+        "variant": 6,
+        "layout_family": "modular_information_page",
+        "content_density": "medium_high",
+        "page": {
+          "width": 1240,
+          "height": 1580
+        },
+        "preserve_full_page": false,
+        "structure": [
+          "feature_card",
+          "small_modules",
+          "visual_block",
+          "metadata_chips"
+        ]
+      }
+    ]
+  },
+  "source_schema": "category_layout_templates.v1"
+}

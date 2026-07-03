@@ -1,0 +1,686 @@
+{
+  "image_id": "cf006713-cf00-6713-cf00-cf006713cf00",
+  "file_name": "03_exam_paper_json_04.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "batch1_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "ug",
+    "language_name": "维吾尔语",
+    "script_note": "改良阿拉伯字母，横排从右到左",
+    "template_type": "exam_paper",
+    "category": "exam_paper",
+    "variant": 4,
+    "layout_name": "exam_paper_v04",
+    "document_id": "03_exam_paper_json_04",
+    "title": "Gijman Siujgauj",
+    "doc_no": "ZA-V1-03-04",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.18,
+    "chinese_topic": "exam_paper",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 20,
+      "page_width": 1209,
+      "page_height": 1597,
+      "body_scroll_width": 1209,
+      "body_scroll_height": 1597,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 20,
+        "y": 20,
+        "width": 1120,
+        "height": 1540,
+        "enabled": true,
+        "original_width": 1160,
+        "original_height": 1560,
+        "content_bbox": {
+          "x_min": 50,
+          "y_min": 50,
+          "x_max": 1110,
+          "y_max": 1532
+        },
+        "padding": 30,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.95,
+        "bottom_blank_ratio_before_crop": 0.0179
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 11138230248814721801,
+        "family": "compressed_scan",
+        "geometry": {
+          "source_size": {
+            "width": 1120,
+            "height": 1540
+          },
+          "scale": {
+            "scale": 0.99563,
+            "width": 1115,
+            "height": 1533
+          },
+          "rotation": {
+            "angle_degrees": -3.806,
+            "width": 1215,
+            "height": 1604
+          },
+          "translation": {
+            "dx": 3,
+            "dy": 5,
+            "width": 1215,
+            "height": 1604
+          },
+          "edge_crop": {
+            "left": 3,
+            "top": 5,
+            "right": 3,
+            "bottom": 2,
+            "width": 1209,
+            "height": 1597
+          },
+          "output_size_before_visual": {
+            "width": 1209,
+            "height": 1597
+          }
+        },
+        "output_size": {
+          "width": 1209,
+          "height": 1597
+        }
+      }
+    },
+    "reading_order_policy": "rtl_visual_top_to_bottom_right_to_left_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "03_exam_paper_json_04_b0017",
+      "coordinates": {
+        "x_min": 31.79,
+        "y_min": 31.78,
+        "x_max": 1089.02,
+        "y_max": 164.91
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ئۇيغۇرچە ھۆججەت",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "46px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0018",
+      "coordinates": {
+        "x_min": 35.98,
+        "y_min": 94.86,
+        "x_max": 1090.5,
+        "y_max": 187.17
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0001",
+      "coordinates": {
+        "x_min": 317.87,
+        "y_min": 150.89,
+        "x_max": 1094.63,
+        "y_max": 230.85
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "1. جاھاننىڭ ئىشلىرىغا ئالدىراپ بىرنىمە دىمەك ئايا。请按题号顺序填写答案",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "21px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0002",
+      "coordinates": {
+        "x_min": 320.42,
+        "y_min": 189.24,
+        "x_max": 1112.81,
+        "y_max": 504.05
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0003",
+      "coordinates": {
+        "x_min": 339.12,
+        "y_min": 470.38,
+        "x_max": 1117.76,
+        "y_max": 578.55
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "2. باب سۈرەت ھوقۇقى ……………………………… 286 5- باب نام-شۆھ。计算过程需要保留",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "21px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0004",
+      "coordinates": {
+        "x_min": 343.55,
+        "y_min": 536.94,
+        "x_max": 1135.94,
+        "y_max": 851.75
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0005",
+      "coordinates": {
+        "x_min": 362.25,
+        "y_min": 818.08,
+        "x_max": 1139.02,
+        "y_max": 898.04
+      },
+      "points": null,
+      "block_label": "question",
+      "block_content": "3. يېڭىدىن ئىلتىماس قىلغان بىر يىللىق ۋە بىر يى。判断题请写明理由",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "21px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "question",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0006",
+      "coordinates": {
+        "x_min": 364.8,
+        "y_min": 856.43,
+        "x_max": 1157.19,
+        "y_max": 1171.23
+      },
+      "points": null,
+      "block_label": "answer_area",
+      "block_content": "",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "form",
+      "reading_role": "answer_area",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0019",
+      "coordinates": {
+        "x_min": 53.48,
+        "y_min": 217.54,
+        "x_max": 288.19,
+        "y_max": 266.78
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ئۇيغۇرچە ھۆججەت",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "25px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0007",
+      "coordinates": {
+        "x_min": 55.73,
+        "y_min": 251.31,
+        "x_max": 290.4,
+        "y_max": 299.96
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ئۇ ئايال سۆزلەپ",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0008",
+      "coordinates": {
+        "x_min": 57.94,
+        "y_min": 284.49,
+        "x_max": 292.61,
+        "y_max": 333.14
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "قويۇلۇش ئۈنۈمى",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0009",
+      "coordinates": {
+        "x_min": 60.14,
+        "y_min": 317.68,
+        "x_max": 294.82,
+        "y_max": 366.32
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "بولىدىغان چىشى",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0010",
+      "coordinates": {
+        "x_min": 62.35,
+        "y_min": 350.85,
+        "x_max": 297.02,
+        "y_max": 399.5
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "باقمىچىلىق",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0011",
+      "coordinates": {
+        "x_min": 64.56,
+        "y_min": 384.03,
+        "x_max": 299.23,
+        "y_max": 432.68
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "دىلدار。不得在密封线外书写",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0012",
+      "coordinates": {
+        "x_min": 66.77,
+        "y_min": 417.22,
+        "x_max": 301.44,
+        "y_max": 465.86
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "تىل توغرىلىق",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0013",
+      "coordinates": {
+        "x_min": 68.97,
+        "y_min": 450.39,
+        "x_max": 303.65,
+        "y_max": 499.15
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ۋاڭ ئۇستامنىڭ",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0014",
+      "coordinates": {
+        "x_min": 71.19,
+        "y_min": 483.68,
+        "x_max": 305.86,
+        "y_max": 532.32
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ئادەمل。请在指定区域内作答",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0015",
+      "coordinates": {
+        "x_min": 73.39,
+        "y_min": 516.86,
+        "x_max": 308.07,
+        "y_max": 565.5
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "،ئانامى。不得在密封线外书写",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0016",
+      "coordinates": {
+        "x_min": 75.6,
+        "y_min": 550.03,
+        "x_max": 310.28,
+        "y_max": 598.69
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ئاخىرى。听力材料播放两遍",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "03_exam_paper_json_04_b0020",
+      "coordinates": {
+        "x_min": 127.72,
+        "y_min": 1473.84,
+        "x_max": 1182.76,
+        "y_max": 1574.1
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": ".",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:09:21.610Z",
+  "updated_at": "2026-07-03T12:10:33"
+}

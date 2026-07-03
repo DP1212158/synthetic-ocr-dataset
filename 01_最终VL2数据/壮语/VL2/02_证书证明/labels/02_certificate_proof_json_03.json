@@ -1,0 +1,280 @@
+{
+  "image_id": "41ad9ba7-41ad-9ba7-41ad-41ad9ba741ad",
+  "file_name": "02_certificate_proof_json_03.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "batch1_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "za",
+    "language_name": "壮语",
+    "script_note": "现代标准壮文 Vahcuengh，拉丁字母拼写",
+    "template_type": "certificate_proof",
+    "category": "certificate_proof",
+    "variant": 3,
+    "layout_name": "certificate_proof_v03",
+    "document_id": "02_certificate_proof_json_03",
+    "title": "Sawcingq Cingmingz",
+    "doc_no": "ZA-V2-02-03",
+    "date": "2026-07-02",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "certificate_proof",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 6,
+      "page_width": 1252,
+      "page_height": 547,
+      "body_scroll_width": 1252,
+      "body_scroll_height": 547,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 133,
+        "y": 254,
+        "width": 1234,
+        "height": 492,
+        "enabled": true,
+        "original_width": 1500,
+        "original_height": 1000,
+        "content_bbox": {
+          "x_min": 158,
+          "y_min": 279.8,
+          "x_max": 1342,
+          "y_max": 720.2
+        },
+        "padding": 25,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.4404,
+        "bottom_blank_ratio_before_crop": 0.2798
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 3677537667375843325,
+        "family": "warm_paper",
+        "geometry": {
+          "source_size": {
+            "width": 1234,
+            "height": 492
+          },
+          "scale": {
+            "scale": 1.0,
+            "width": 1234,
+            "height": 492
+          },
+          "rotation": {
+            "angle_degrees": 2.9072,
+            "width": 1258,
+            "height": 554
+          },
+          "translation": {
+            "dx": 0,
+            "dy": 0,
+            "width": 1258,
+            "height": 554
+          },
+          "edge_crop": {
+            "left": 3,
+            "top": 3,
+            "right": 3,
+            "bottom": 4,
+            "width": 1252,
+            "height": 547
+          },
+          "output_size_before_visual": {
+            "width": 1252,
+            "height": 547
+          }
+        },
+        "output_size": {
+          "width": 1252,
+          "height": 547
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "02_certificate_proof_json_03_b0001",
+      "coordinates": {
+        "x_min": 44.34,
+        "y_min": 24.03,
+        "x_max": 1228.09,
+        "y_max": 109.15
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "No A-9103",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_03_b0002",
+      "coordinates": {
+        "x_min": 40.98,
+        "y_min": 49.1,
+        "x_max": 1226.82,
+        "y_max": 175.27
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "Sawcingq Cingmingz",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "48px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_03_b0003",
+      "coordinates": {
+        "x_min": 398.15,
+        "y_min": 161.55,
+        "x_max": 860.4,
+        "y_max": 244.79
+      },
+      "points": null,
+      "block_label": "field_value",
+      "block_content": "de,min cwz,moz",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "42px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "form",
+      "reading_role": "field_value",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "02_certificate_proof_json_03_b0004",
+      "coordinates": {
+        "x_min": 33.32,
+        "y_min": 231.07,
+        "x_max": 1217.58,
+        "y_max": 326.17
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Seiz Dahgyax , ndaw daeh mbouj raen souj baq, doq doxdauq roen ma ra. Dahgyax daengz buenq roen, boux",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_03_b0005",
+      "coordinates": {
+        "x_min": 461.11,
+        "y_min": 336.3,
+        "x_max": 618.53,
+        "y_max": 493.71
+      },
+      "points": null,
+      "block_label": "seal",
+      "block_content": "Caiq",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "seal",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "02_certificate_proof_json_03_b0006",
+      "coordinates": {
+        "x_min": 1111.85,
+        "y_min": 431.5,
+        "x_max": 1210.2,
+        "y_max": 461.5
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026-07-01",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"Local Arial\", \"Local Arial Unicode\", Arial, Helvetica, sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T05:14:33.311Z",
+  "updated_at": "2026-07-03T13:15:56"
+}

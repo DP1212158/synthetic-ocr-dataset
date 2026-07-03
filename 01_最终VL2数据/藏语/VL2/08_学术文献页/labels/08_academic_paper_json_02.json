@@ -1,0 +1,3006 @@
+{
+  "image_id": "3506d846-3506-d846-3506-3506d8463506",
+  "file_name": "08_academic_paper_json_02.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "remaining_pages_json_renderer_bo_v1_v4_split_mix_assets",
+    "language_code": "bo",
+    "language_name": "藏语",
+    "script_note": "藏文横排文本，第一阶段用于公开文本源验证与模板填充",
+    "template_type": "academic_paper",
+    "category": "academic_paper",
+    "variant": 2,
+    "layout_name": "academic_paper_v02",
+    "document_id": "08_academic_paper_json_02",
+    "title": "ཞིབ་འཇུག་ཡིག་ཆ",
+    "doc_no": "V12-08-02",
+    "date": "2026-07-01",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.14,
+    "chinese_topic": "academic_paper",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 100,
+      "page_width": 1225,
+      "page_height": 1721,
+      "body_scroll_width": 1225,
+      "body_scroll_height": 1721,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 31,
+        "y": 23,
+        "width": 1178,
+        "height": 1694,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1754,
+        "content_bbox": {
+          "x_min": 62,
+          "y_min": 54,
+          "x_max": 1178,
+          "y_max": 1686
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.9304,
+        "bottom_blank_ratio_before_crop": 0.0388
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 16339587196276121645,
+        "family": "soft_copy",
+        "geometry": {
+          "source_size": {
+            "width": 1178,
+            "height": 1694
+          },
+          "scale": {
+            "scale": 0.99356,
+            "width": 1170,
+            "height": 1683
+          },
+          "rotation": {
+            "angle_degrees": -1.94,
+            "width": 1227,
+            "height": 1722
+          },
+          "translation": {
+            "dx": 0,
+            "dy": -4,
+            "width": 1227,
+            "height": 1722
+          },
+          "edge_crop": {
+            "left": 1,
+            "top": 0,
+            "right": 1,
+            "bottom": 1,
+            "width": 1225,
+            "height": 1721
+          },
+          "output_size_before_visual": {
+            "width": 1225,
+            "height": 1721
+          }
+        },
+        "output_size": {
+          "width": 1225,
+          "height": 1721
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "08_academic_paper_json_02_b0021",
+      "coordinates": {
+        "x_min": 30.83,
+        "y_min": 27.81,
+        "x_max": 1140.05,
+        "y_max": 96.33
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ནུབ་ཕྱོགས་སུ་བསྐྱོད་",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0022",
+      "coordinates": {
+        "x_min": 31.87,
+        "y_min": 84.69,
+        "x_max": 376.73,
+        "y_max": 134.16
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "༡༨ནི་རང་བྱུང་གི་གྲངས་ཞིག་སྟེ་༡༧པའི་རྗེས་མ་དང་༡༩པའི。表格列出主要实验设置",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0023",
+      "coordinates": {
+        "x_min": 33.32,
+        "y_min": 127.49,
+        "x_max": 378.18,
+        "y_max": 176.96
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཟླ་བ་བཅུ་པའི་ཚེས་༥ཉིན་: རྒྱལ་དབང་བསྟན་འཛིན་རྒྱ་མཚོར་ནོའོ་བྷེལ་ཞི་བདེའི་བྱ་དགའ。误差分析关注边界样本",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0024",
+      "coordinates": {
+        "x_min": 34.77,
+        "y_min": 170.28,
+        "x_max": 379.63,
+        "y_max": 219.76
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཀཿཐོག་ནི་བོད་བརྒྱུད་ནང་བསྟན་སྔ་འགྱུར་རྙིང་མ་པའི་ལུགས་འཛིན་པའི་དག。数据清洗过程保留日志",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0025",
+      "coordinates": {
+        "x_min": 36.22,
+        "y_min": 213.09,
+        "x_max": 381.08,
+        "y_max": 262.55
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ནས་ངག་བརྒྱུད་དེ་རྒྱུན་འཛིན་བྱས དེ་ལྟ་བུའི་གཏམ་。表格列出主要实验设置",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0026",
+      "coordinates": {
+        "x_min": 37.67,
+        "y_min": 255.88,
+        "x_max": 382.53,
+        "y_max": 305.35
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "བྱས་རྗེས་མདོ་དབུས་ཁམས་གསུམ་གྱི་ཡུལ་མི་སྤུན་ཟླ་དག་。结论部分仍需进一步验证",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0027",
+      "coordinates": {
+        "x_min": 39.12,
+        "y_min": 298.68,
+        "x_max": 383.98,
+        "y_max": 348.16
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཧུན་ཙང་རྒྱ་གར་གཙོ་བོར་འགྱུར་བའི་དེང་སང་གི་པག。评价指标包括准确率和召回率",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0028",
+      "coordinates": {
+        "x_min": 40.57,
+        "y_min": 341.48,
+        "x_max": 385.43,
+        "y_max": 390.95
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཀའོ་ཆིའུ་(རྒྱ་སྐད:)ནི་ ཆུ་ངོགས་གཏམ་རྒྱུད་ ནང་གི་མ。结论部分仍需进一步验证",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0029",
+      "coordinates": {
+        "x_min": 42.02,
+        "y_min": 384.28,
+        "x_max": 386.88,
+        "y_max": 433.75
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "དུ་ཆགས་པའི་ རང་སྐྱོང་ཁུལ་ཞིག་སྟེ བསང་ཆུ་རྫོང་དང。表格列出主要实验设置",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0030",
+      "coordinates": {
+        "x_min": 43.47,
+        "y_min": 427.08,
+        "x_max": 388.33,
+        "y_max": 476.54
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "༡༩ནི་རང་བྱུང་གི་གྲངས་ཞིག་སྟེ་༡༨པའི་རྗེས་མ་དང་༢༠པའ。模型输出经过一致性检查",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0031",
+      "coordinates": {
+        "x_min": 44.92,
+        "y_min": 469.87,
+        "x_max": 389.78,
+        "y_max": 519.34
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "རྩལ་འགྲན་ཚོགས་དང་དགུན་དུས་ཀྱི་ཨོ་རྩལ་འགྲན་ཚོགས。本文使用公开资料作为补充",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0032",
+      "coordinates": {
+        "x_min": 46.37,
+        "y_min": 512.67,
+        "x_max": 391.23,
+        "y_max": 562.14
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "སི་སྲུང་མཁར་ནི་གྷི་རི་སིའི་ཆེས་རྨད་དུ་བྱུང་བའི་ག。样本来源经过人工复核",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0033",
+      "coordinates": {
+        "x_min": 47.82,
+        "y_min": 555.46,
+        "x_max": 393.31,
+        "y_max": 623.81
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ནུབ་ཕྱོགས་སུ་བསྐྱོད་པའི་རྣམ་ཐར་(རྒྱ་སྐད:)ནི་ཀྲུང་གོའི་རིག་གནས་ཀྱི་དེབ་གཙོ་གྲས་ཆེ。结论部分仍需进一步验证；未来工作将扩展语种范围",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0034",
+      "coordinates": {
+        "x_min": 49.91,
+        "y_min": 617.13,
+        "x_max": 394.76,
+        "y_max": 666.6
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "པ་ཅན་ནི མ་བོས་དབུས་གཙང་དག་པའི་ཞིང་དུ་བྱོན མ་བས。本文讨论数据构建流程",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0035",
+      "coordinates": {
+        "x_min": 51.36,
+        "y_min": 659.93,
+        "x_max": 396.21,
+        "y_max": 709.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "༡༩ནི་རང་བྱུང་གི་གྲངས་ཞིག་སྟེ་༡༨པའི་རྗེས་མ་དང་༢༠པའི。样本来源经过人工复核",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0036",
+      "coordinates": {
+        "x_min": 52.81,
+        "y_min": 702.73,
+        "x_max": 397.66,
+        "y_max": 752.19
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "བསྡམས་ཏེ་དགེ་སྡིག་ཇི་བྱས་འབུམ་འགྱུར་རེད་ཅེས་པའི་ཆ。样本来源经过人工复核",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0037",
+      "coordinates": {
+        "x_min": 54.26,
+        "y_min": 745.52,
+        "x_max": 399.11,
+        "y_max": 795.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ལེན་བྱས་པ་རེད ཁྲིན་ཏུའུ་གྲོང་ཁྱེར་དུ་མ་གཞི་ནས。本文使用公开资料作为补充",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0038",
+      "coordinates": {
+        "x_min": 55.71,
+        "y_min": 788.32,
+        "x_max": 399.92,
+        "y_max": 818.83
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ནུབ་ཕྱོགས་འཕགས་ཡུལ་དུ་བསྐྱོ。样本来源经过人工复核",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0039",
+      "coordinates": {
+        "x_min": 56.52,
+        "y_min": 812.16,
+        "x_max": 401.37,
+        "y_max": 861.62
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "སྙན་ངག་གི་དཔེར་བརྗོད་དང་མཚུངས་པ་གསལ་བྱེད་ཀྱི་སྒྲའི་དོ。模型输出经过一致性检查",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 39,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0040",
+      "coordinates": {
+        "x_min": 57.97,
+        "y_min": 854.95,
+        "x_max": 402.18,
+        "y_max": 885.56
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ནུབ་ཕྱོགས་འཕགས་ཡུལ་དུ་བསྐྱོ。研究方法采用文本统计",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 40,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0041",
+      "coordinates": {
+        "x_min": 58.78,
+        "y_min": 878.89,
+        "x_max": 403.63,
+        "y_max": 928.35
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "རྒྱུས་ཀྱི་དྲན་པ་གཏམ་རྒྱུད་ཀྱི་ལམ་ནས་ཟིན་ཐོར。评价指标包括准确率和召回率",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 42,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0042",
+      "coordinates": {
+        "x_min": 60.23,
+        "y_min": 921.68,
+        "x_max": 405.08,
+        "y_max": 971.15
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཀའོ་ཆིའུ་(རྒྱ་སྐད:)ནི་ ཆུ་ངོགས་གཏམ་རྒྱུད་ ནང་གི་མ。未来工作将扩展语种范围",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 44,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0043",
+      "coordinates": {
+        "x_min": 31.87,
+        "y_min": 72.38,
+        "x_max": 769.96,
+        "y_max": 1013.94
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ནུབ་ཕྱོགས་སུ་བསྐྱོད་པའི་རྣམ་ཐར་(རྒྱ་སྐད:)ནི་ཀྲུང་གོའི་རིག་གནས་ཀྱི་དེབ་གཙོ་གྲས་ཆེན。消融实验说明模块贡献；结论部分仍需进一步验证",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0044",
+      "coordinates": {
+        "x_min": 396.12,
+        "y_min": 96.31,
+        "x_max": 740.97,
+        "y_max": 145.78
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཟླ་བ་བཅུ་པའི་ཚེས་༥ཉིན་: རྒྱལ་དབང་བསྟན་འཛིན་རྒྱ་མཚོར་ནོའོ་བྷེལ་ཞི་བདེའི་བྱ་དགའ。本文讨论数据构建流程",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0045",
+      "coordinates": {
+        "x_min": 397.57,
+        "y_min": 139.11,
+        "x_max": 742.42,
+        "y_max": 188.58
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "༤ནི་རང་བྱུང་གི་གྲངས་ཞིག་སྟེ་༣པའི་རྗེས་མ་དང་༥。相关工作主要集中在识别任务",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0046",
+      "coordinates": {
+        "x_min": 399.02,
+        "y_min": 181.91,
+        "x_max": 743.87,
+        "y_max": 231.38
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཟླ་བ་དགུ་པ་༡༨ཉིན་: ཧྥ་རན་སི་སྲོག་ཆད་ཀྱི་ཉེས་པ་མ。相关工作主要集中在识别任务",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0047",
+      "coordinates": {
+        "x_min": 400.47,
+        "y_min": 224.7,
+        "x_max": 745.32,
+        "y_max": 274.18
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཡེ་སཱ་ཁཱཡི་རྒྱལ་པོ་ཨོ་ཐི་ཞུག་སི་ཐི་ལོ་。模型输出经过一致性检查",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0048",
+      "coordinates": {
+        "x_min": 401.92,
+        "y_min": 267.5,
+        "x_max": 746.77,
+        "y_max": 316.98
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "སིའི་དཔུང་བར་ཆག་སྐྱོན་མ་བྱུང་བའི་སྔོན་གྱི་ཐོག་མ。摘要概述研究目的和方法",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0049",
+      "coordinates": {
+        "x_min": 403.37,
+        "y_min": 310.31,
+        "x_max": 748.22,
+        "y_max": 359.67
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "འཁྲུག་དང་མི་སྣ་སོགས་ལ་ལྷ་སྒྲུང་གི་ཤུགས་རྐྱེན་。摘要概述研究目的和方法",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0050",
+      "coordinates": {
+        "x_min": 404.81,
+        "y_min": 353.0,
+        "x_max": 749.44,
+        "y_max": 395.72
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "དཔྱད་ཞིབ",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0051",
+      "coordinates": {
+        "x_min": 405.86,
+        "y_min": 384.08,
+        "x_max": 750.72,
+        "y_max": 433.55
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "གནང་པར་མ་ཟད་གཞས་པ་ཀུན་དགའ་ཁོ་རང་གི་ཆེས་ཐ。表格列出主要实验设置",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0052",
+      "coordinates": {
+        "x_min": 407.31,
+        "y_min": 426.88,
+        "x_max": 752.17,
+        "y_max": 476.34
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཕྲན་3000ལྷག་གིས་གྲུབ གྷི་རི་སི་ནི་ཡོ。模型输出经过一致性检查",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0053",
+      "coordinates": {
+        "x_min": 408.76,
+        "y_min": 469.67,
+        "x_max": 753.62,
+        "y_max": 519.15
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "བོད་སྐད་དུ་ཨེ་ཤེ་ཡ་རང་དབང་རླུང་འཕྲིན་ཁང་ རླ。评价指标包括准确率和召回率",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0054",
+      "coordinates": {
+        "x_min": 410.21,
+        "y_min": 512.47,
+        "x_max": 755.07,
+        "y_max": 561.95
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཟླ་བ་དགུ་པ་༡༨ཉིན་: ཧྥ་རན་སི་སྲོག་ཆད་ཀྱི་ཉེས་པ་མེད་。研究方法采用文本统计",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0055",
+      "coordinates": {
+        "x_min": 411.66,
+        "y_min": 555.28,
+        "x_max": 756.51,
+        "y_max": 604.64
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "དེ དེ་ལས་མིའི་ཁེ་དབང་དང་རིན་ཐང་ སྟོབ。本文讨论数据构建流程",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0056",
+      "coordinates": {
+        "x_min": 413.11,
+        "y_min": 597.97,
+        "x_max": 757.96,
+        "y_max": 647.44
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "འགྱུར་བའི་དེང་སང་གི་པག་ཀི་སི་ཐན་དང་ལ་ས。实验结果显示明显差异",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0057",
+      "coordinates": {
+        "x_min": 414.56,
+        "y_min": 640.77,
+        "x_max": 758.77,
+        "y_max": 671.37
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ནུབ་ཕྱོགས་འཕགས་ཡུལ་དུ་བསྐྱ。模型输出经过一致性检查",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0058",
+      "coordinates": {
+        "x_min": 415.37,
+        "y_min": 664.7,
+        "x_max": 760.22,
+        "y_max": 714.17
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "དང་ཟུར་ཟའི་རི་མོའི་དེབ་དང་ཕྲུ་གུའི་。结论部分仍需进一步验证",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0059",
+      "coordinates": {
+        "x_min": 416.82,
+        "y_min": 707.5,
+        "x_max": 761.67,
+        "y_max": 756.96
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཐོག་མའི་རྣམ་པ་སླར་གསོ་བྱེད་པར་བརྩོ。评价指标包括准确率和召回率",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0060",
+      "coordinates": {
+        "x_min": 418.27,
+        "y_min": 750.29,
+        "x_max": 763.12,
+        "y_max": 799.76
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ནས་ལོ་གསུམ་གྱི་རིང་ལ་རོལ་མོའི་ཤེས་བྱར་ཟབ་སྦ。本文讨论数据构建流程",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0061",
+      "coordinates": {
+        "x_min": 419.72,
+        "y_min": 793.09,
+        "x_max": 764.57,
+        "y_max": 842.56
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཀ་ན་ནི་ཨ་ཧྥེ་རི་ཁའི་རྒྱལ་ཁབ་ཞིག་རེད དེའི་རྒྱལ་ས་。实验结果显示明显差异",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 38,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0062",
+      "coordinates": {
+        "x_min": 421.17,
+        "y_min": 835.88,
+        "x_max": 766.02,
+        "y_max": 885.36
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཕུ་བཀའ་བརྒྱུད་ཅེས་ཀྱང་འབོད་སྲོལ་འད。模型输出经过一致性检查",
+      "is_text": true,
+      "order": "41",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 41,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0063",
+      "coordinates": {
+        "x_min": 422.62,
+        "y_min": 878.69,
+        "x_max": 767.47,
+        "y_max": 928.16
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཀ་ཐོག་ནི་བོད་ཀྱི་གྲུབ་མཐའ་རྙིང་མ་པའི་དགོན。关键词反映核心研究对象",
+      "is_text": true,
+      "order": "42",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 43,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0064",
+      "coordinates": {
+        "x_min": 424.07,
+        "y_min": 921.49,
+        "x_max": 768.92,
+        "y_max": 970.85
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ཟླ་བ་དགུ་པ་༡༨ཉིན་: ཧྥ་རན་སི་སྲོག་ཆད་ཀྱི་ཉེས་པ་མེད་。本文讨论数据构建流程",
+      "is_text": true,
+      "order": "43",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 45,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0065",
+      "coordinates": {
+        "x_min": 762.72,
+        "y_min": 58.79,
+        "x_max": 1154.18,
+        "y_max": 488.63
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "order": "44",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": false,
+        "asset_id": "COCO_val2014_000000126340",
+        "asset_source": "random120-coco2014",
+        "asset_crop": "object-fit-cover"
+      },
+      "reading_order": 87,
+      "reading_group": "image",
+      "reading_role": "image",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0066",
+      "coordinates": {
+        "x_min": 777.25,
+        "y_min": 487.77,
+        "x_max": 1155.27,
+        "y_max": 520.9
+      },
+      "points": null,
+      "block_label": "caption",
+      "block_content": "ཀཿཐོག་ཏུ་བདུད་འདུལ་དང་ཀློང་གསལ་སྙིང་པོ་ཞེས་པའི་གཏེར་སྟོན་",
+      "is_text": true,
+      "order": "45",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "caption",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0067",
+      "coordinates": {
+        "x_min": 778.44,
+        "y_min": 517.13,
+        "x_max": 904.85,
+        "y_max": 550.47
+      },
+      "points": null,
+      "block_label": "table_header",
+      "block_content": "1",
+      "is_text": true,
+      "order": "46",
+      "attributes": {
+        "tag": "th",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 54,
+      "reading_group": "table",
+      "reading_role": "table_header",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0068",
+      "coordinates": {
+        "x_min": 903.86,
+        "y_min": 512.88,
+        "x_max": 1030.36,
+        "y_max": 546.23
+      },
+      "points": null,
+      "block_label": "table_header",
+      "block_content": "2",
+      "is_text": true,
+      "order": "47",
+      "attributes": {
+        "tag": "th",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 55,
+      "reading_group": "table",
+      "reading_role": "table_header",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0069",
+      "coordinates": {
+        "x_min": 1029.38,
+        "y_min": 508.63,
+        "x_max": 1155.77,
+        "y_max": 541.97
+      },
+      "points": null,
+      "block_label": "table_header",
+      "block_content": "3",
+      "is_text": true,
+      "order": "48",
+      "attributes": {
+        "tag": "th",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 56,
+      "reading_group": "table",
+      "reading_role": "table_header",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0070",
+      "coordinates": {
+        "x_min": 779.43,
+        "y_min": 546.23,
+        "x_max": 905.83,
+        "y_max": 579.47
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "གསུམ་ཙམ་གྱི་དུས་",
+      "is_text": true,
+      "order": "49",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 59,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0071",
+      "coordinates": {
+        "x_min": 904.85,
+        "y_min": 541.97,
+        "x_max": 1031.35,
+        "y_max": 575.22
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "ནང་བཀོལ་སྤྱོད་བྱས་",
+      "is_text": true,
+      "order": "50",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 57,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0072",
+      "coordinates": {
+        "x_min": 1030.36,
+        "y_min": 537.73,
+        "x_max": 1156.75,
+        "y_max": 570.97
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "རྩོམ་ཞིག་ཡིན་ཞིང་",
+      "is_text": true,
+      "order": "51",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 58,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0073",
+      "coordinates": {
+        "x_min": 780.41,
+        "y_min": 575.22,
+        "x_max": 906.81,
+        "y_max": 608.56
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "ཆགས་པའི་ རང་སྐྱོང་",
+      "is_text": true,
+      "order": "52",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 60,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0074",
+      "coordinates": {
+        "x_min": 905.83,
+        "y_min": 570.97,
+        "x_max": 1032.33,
+        "y_max": 604.31
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "ཆག་སྐྱོན་མ་བྱུང་",
+      "is_text": true,
+      "order": "53",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 61,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0075",
+      "coordinates": {
+        "x_min": 1031.35,
+        "y_min": 566.72,
+        "x_max": 1157.74,
+        "y_max": 600.06
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "ཀི་སི་ཐན་དང་ལ་སོགས་",
+      "is_text": true,
+      "order": "54",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 62,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0076",
+      "coordinates": {
+        "x_min": 781.39,
+        "y_min": 604.31,
+        "x_max": 907.8,
+        "y_max": 637.56
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "ཆུ་ངོགས་གཏམ་རྒྱུད་",
+      "is_text": true,
+      "order": "55",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 63,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0077",
+      "coordinates": {
+        "x_min": 906.81,
+        "y_min": 600.06,
+        "x_max": 1033.31,
+        "y_max": 633.32
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "གདན་ས་ལོ་རྒྱུས་རིང་",
+      "is_text": true,
+      "order": "56",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 64,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0078",
+      "coordinates": {
+        "x_min": 1032.33,
+        "y_min": 595.81,
+        "x_max": 1158.72,
+        "y_max": 629.06
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "གསལ་བྱེད་ཀྱི་སྒྲའི་",
+      "is_text": true,
+      "order": "57",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 65,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0079",
+      "coordinates": {
+        "x_min": 782.38,
+        "y_min": 633.32,
+        "x_max": 908.78,
+        "y_max": 666.66
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "ནས་ཀརྨ་པ་དུས་གསུམ་",
+      "is_text": true,
+      "order": "58",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 68,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0080",
+      "coordinates": {
+        "x_min": 907.8,
+        "y_min": 629.06,
+        "x_max": 1034.3,
+        "y_max": 662.41
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "དུ་འཕགས་པའི་དུས་",
+      "is_text": true,
+      "order": "59",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 66,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0081",
+      "coordinates": {
+        "x_min": 1033.31,
+        "y_min": 624.82,
+        "x_max": 1159.71,
+        "y_max": 658.16
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "མ་དང་༥པའི་སྔོན་དུ་",
+      "is_text": true,
+      "order": "60",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 67,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0082",
+      "coordinates": {
+        "x_min": 783.36,
+        "y_min": 662.41,
+        "x_max": 909.76,
+        "y_max": 695.65
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "༡༨པའི་རྗེས་མ་དང་",
+      "is_text": true,
+      "order": "61",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 69,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0083",
+      "coordinates": {
+        "x_min": 908.78,
+        "y_min": 658.16,
+        "x_max": 1035.28,
+        "y_max": 691.4
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "པའི་དགོན་པ་ཞིག་རེད དེ་",
+      "is_text": true,
+      "order": "62",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 70,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0084",
+      "coordinates": {
+        "x_min": 1034.3,
+        "y_min": 653.91,
+        "x_max": 1160.69,
+        "y_max": 687.15
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "ཀྱི་གྲུབ་མཐའ་རྙིང་",
+      "is_text": true,
+      "order": "63",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 71,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0085",
+      "coordinates": {
+        "x_min": 784.34,
+        "y_min": 691.4,
+        "x_max": 910.75,
+        "y_max": 724.74
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "མཚོན ལྷག་པར་དུ་ལྷ་",
+      "is_text": true,
+      "order": "64",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 72,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0086",
+      "coordinates": {
+        "x_min": 909.76,
+        "y_min": 687.15,
+        "x_max": 1036.27,
+        "y_max": 720.5
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "མཚོན་ཞིང་ རྡོ་བརྐོས་",
+      "is_text": true,
+      "order": "65",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 73,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0087",
+      "coordinates": {
+        "x_min": 1035.28,
+        "y_min": 682.9,
+        "x_max": 1161.67,
+        "y_max": 716.24
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "ཡུལ་དུ་བསྐྱོད་པའི་",
+      "is_text": true,
+      "order": "66",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 74,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0088",
+      "coordinates": {
+        "x_min": 785.33,
+        "y_min": 720.5,
+        "x_max": 911.73,
+        "y_max": 753.74
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "གཅིག་གི་ངོ་བོ་མཚོན་",
+      "is_text": true,
+      "order": "67",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 76,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0089",
+      "coordinates": {
+        "x_min": 910.75,
+        "y_min": 716.24,
+        "x_max": 1037.25,
+        "y_max": 749.49
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "དེང་སང་གི་པག་ཀི་",
+      "is_text": true,
+      "order": "68",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 77,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0090",
+      "coordinates": {
+        "x_min": 1036.27,
+        "y_min": 712.0,
+        "x_max": 1162.66,
+        "y_max": 745.24
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "ཀེ་ལི་ཡའི་ལོ་ཐོའི་",
+      "is_text": true,
+      "order": "69",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 75,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0091",
+      "coordinates": {
+        "x_min": 786.31,
+        "y_min": 749.49,
+        "x_max": 912.72,
+        "y_max": 782.83
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "ཐན་དང་ལ་སོགས་པའི་",
+      "is_text": true,
+      "order": "70",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 78,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0092",
+      "coordinates": {
+        "x_min": 911.73,
+        "y_min": 745.24,
+        "x_max": 1038.23,
+        "y_max": 778.58
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "བཅུ་གསུམ་ཞུ་བའི་",
+      "is_text": true,
+      "order": "71",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 79,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0093",
+      "coordinates": {
+        "x_min": 1037.25,
+        "y_min": 740.99,
+        "x_max": 1163.64,
+        "y_max": 774.33
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "བྱེད་ཀྱི་སྒྲའི་དོགས་",
+      "is_text": true,
+      "order": "72",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 80,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0094",
+      "coordinates": {
+        "x_min": 787.3,
+        "y_min": 778.58,
+        "x_max": 913.7,
+        "y_max": 811.83
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "ཀྲུང་གོའི་རིག་གནས་",
+      "is_text": true,
+      "order": "73",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 83,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0095",
+      "coordinates": {
+        "x_min": 912.72,
+        "y_min": 774.33,
+        "x_max": 1039.22,
+        "y_max": 807.59
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "པ་༡༨ཉིན་: ཧྥ་རན་",
+      "is_text": true,
+      "order": "74",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 81,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0096",
+      "coordinates": {
+        "x_min": 1038.23,
+        "y_min": 770.08,
+        "x_max": 1164.62,
+        "y_max": 803.33
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "བ་དགུ་པ་༡༨ཉིན་: ཧྥ་",
+      "is_text": true,
+      "order": "75",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 82,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0097",
+      "coordinates": {
+        "x_min": 788.28,
+        "y_min": 807.59,
+        "x_max": 914.68,
+        "y_max": 840.93
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "གོང་མའི་ལོ་རྒྱུས་",
+      "is_text": true,
+      "order": "76",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 84,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0098",
+      "coordinates": {
+        "x_min": 913.7,
+        "y_min": 803.33,
+        "x_max": 1040.2,
+        "y_max": 836.68
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "ཐེབས་པར་སྨྲ་བསམ་",
+      "is_text": true,
+      "order": "77",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 85,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0099",
+      "coordinates": {
+        "x_min": 1039.22,
+        "y_min": 799.09,
+        "x_max": 1165.61,
+        "y_max": 832.43
+      },
+      "points": null,
+      "block_label": "table_cell_text",
+      "block_content": "ནི་འགྲོ་མགོན་ཕག་",
+      "is_text": true,
+      "order": "78",
+      "attributes": {
+        "tag": "td",
+        "row": null,
+        "col": null,
+        "font_size": "13px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 86,
+      "reading_group": "table",
+      "reading_role": "table_cell",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0001",
+      "coordinates": {
+        "x_min": 77.34,
+        "y_min": 1437.37,
+        "x_max": 116.59,
+        "y_max": 1483.33
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "1",
+      "is_text": true,
+      "order": "79",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 48,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0002",
+      "coordinates": {
+        "x_min": 123.02,
+        "y_min": 1420.22,
+        "x_max": 623.01,
+        "y_max": 1481.79
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ལ་གཞུང་དང་ དད་ལྡན་ཁག་ནས་ཞལ་གསེར་",
+      "is_text": true,
+      "order": "80",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 49,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0003",
+      "coordinates": {
+        "x_min": 641.36,
+        "y_min": 1418.27,
+        "x_max": 680.61,
+        "y_max": 1464.23
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2",
+      "is_text": true,
+      "order": "81",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 46,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0004",
+      "coordinates": {
+        "x_min": 687.03,
+        "y_min": 1401.11,
+        "x_max": 1187.03,
+        "y_max": 1462.68
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ཀ་ཐོག་ནི་བོད་ཀྱི་གྲུབ་མཐའ་རྙིང་མ་པའི་དགོན་སྡེ་གཅ / 表格列出主",
+      "is_text": true,
+      "order": "82",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 47,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0005",
+      "coordinates": {
+        "x_min": 79.06,
+        "y_min": 1488.01,
+        "x_max": 118.31,
+        "y_max": 1533.98
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "3",
+      "is_text": true,
+      "order": "83",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 52,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0006",
+      "coordinates": {
+        "x_min": 124.73,
+        "y_min": 1470.86,
+        "x_max": 624.73,
+        "y_max": 1532.43
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ལ་ལྷན་སྐྱེས་ཀྱི་སྐད་ངག་བདེ་མོ་",
+      "is_text": true,
+      "order": "84",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 53,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0007",
+      "coordinates": {
+        "x_min": 643.07,
+        "y_min": 1468.91,
+        "x_max": 682.33,
+        "y_max": 1514.87
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "4",
+      "is_text": true,
+      "order": "85",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 50,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0008",
+      "coordinates": {
+        "x_min": 688.75,
+        "y_min": 1451.75,
+        "x_max": 1188.75,
+        "y_max": 1513.32
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "འབྲེལ་ཞིང་ ནུབ་གླིང་ཤེས་རིག་གི་",
+      "is_text": true,
+      "order": "86",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 51,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0009",
+      "coordinates": {
+        "x_min": 80.77,
+        "y_min": 1538.65,
+        "x_max": 120.02,
+        "y_max": 1584.62
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "5",
+      "is_text": true,
+      "order": "87",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 91,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0010",
+      "coordinates": {
+        "x_min": 126.45,
+        "y_min": 1521.5,
+        "x_max": 626.44,
+        "y_max": 1583.07
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "རྫོང་ ཐེ་བོ་དང་ཅོ་ནེ་སོགས་བོད་",
+      "is_text": true,
+      "order": "88",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 89,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0011",
+      "coordinates": {
+        "x_min": 644.79,
+        "y_min": 1519.55,
+        "x_max": 684.04,
+        "y_max": 1565.51
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "6",
+      "is_text": true,
+      "order": "89",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 90,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0012",
+      "coordinates": {
+        "x_min": 690.46,
+        "y_min": 1502.4,
+        "x_max": 1190.46,
+        "y_max": 1563.96
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "བྱུང་རིམ་ཚགས་དམ་པའི་ཁྱད་ཆོས་ལྡན 《ཡེ་",
+      "is_text": true,
+      "order": "90",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 88,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0013",
+      "coordinates": {
+        "x_min": 82.49,
+        "y_min": 1589.29,
+        "x_max": 121.74,
+        "y_max": 1635.26
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "7",
+      "is_text": true,
+      "order": "91",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 94,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0014",
+      "coordinates": {
+        "x_min": 128.16,
+        "y_min": 1572.14,
+        "x_max": 628.16,
+        "y_max": 1633.71
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "བརྙན་འཁོར་རྒྱུད་དྲུག་པི་ཝང་ཞེས་",
+      "is_text": true,
+      "order": "92",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 95,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0015",
+      "coordinates": {
+        "x_min": 646.5,
+        "y_min": 1570.19,
+        "x_max": 685.76,
+        "y_max": 1616.15
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "8",
+      "is_text": true,
+      "order": "93",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 92,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0016",
+      "coordinates": {
+        "x_min": 692.18,
+        "y_min": 1553.04,
+        "x_max": 1192.18,
+        "y_max": 1614.61
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "མཁར་ནི་གྷི་རི་སིའི་ཆེས་རྨད་དུ་",
+      "is_text": true,
+      "order": "94",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 93,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0017",
+      "coordinates": {
+        "x_min": 84.2,
+        "y_min": 1639.94,
+        "x_max": 123.46,
+        "y_max": 1685.9
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "9",
+      "is_text": true,
+      "order": "95",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 99,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0018",
+      "coordinates": {
+        "x_min": 129.88,
+        "y_min": 1622.78,
+        "x_max": 629.88,
+        "y_max": 1684.35
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "དྲུག་པའི་དཀྱིལ་དུ་ཕིས་ཞི་ཐི་ལ་",
+      "is_text": true,
+      "order": "96",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 97,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0019",
+      "coordinates": {
+        "x_min": 648.22,
+        "y_min": 1620.83,
+        "x_max": 687.47,
+        "y_max": 1666.79
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "10",
+      "is_text": true,
+      "order": "97",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 98,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0020",
+      "coordinates": {
+        "x_min": 693.89,
+        "y_min": 1603.68,
+        "x_max": 1193.89,
+        "y_max": 1665.25
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "པའི་གནས་སུ་འགོད་པའི་ཆེད་མཛད་པ་",
+      "is_text": true,
+      "order": "98",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 96,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "08_academic_paper_json_02_b0100",
+      "coordinates": {
+        "x_min": 85.78,
+        "y_min": 1650.35,
+        "x_max": 1194.93,
+        "y_max": 1716.6
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "2",
+      "is_text": true,
+      "order": "99",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Noto Serif Tibetan\", \"Local Jomolhari\", \"Noto Serif Tibetan\", Kailasa, serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 100,
+      "reading_group": "footer",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T05:36:54.186Z",
+  "updated_at": "2026-07-03T13:37:52"
+}

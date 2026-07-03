@@ -1,0 +1,304 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "magazine_journal_vertical_tree_03",
+  "variant": 3,
+  "category_id": "magazine_journal",
+  "category_cn": "杂志期刊页",
+  "folder": "07_杂志期刊页",
+  "template_name_cn": "人物访谈页",
+  "layout_family": "interview_page",
+  "design_prompt": "访谈式 Q/A 结构，人物图和问答栏目。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1120,
+    "height": 1500,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 9,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "portrait",
+      "kind": "image",
+      "label": "image",
+      "role": "portrait",
+      "class": "image-fill",
+      "box": {
+        "x": 80,
+        "y": 90,
+        "w": 220,
+        "h": 420
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "interview_title",
+      "class": "title",
+      "box": {
+        "x": 340,
+        "y": 90,
+        "w": 56,
+        "h": 1240
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 8,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "q_1",
+      "kind": "text",
+      "label": "section_title",
+      "role": "interview_question",
+      "class": "small",
+      "box": {
+        "x": 430,
+        "y": 120,
+        "w": 30,
+        "h": 520
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 14
+      },
+      "visual": {}
+    },
+    {
+      "id": "q_2",
+      "kind": "text",
+      "label": "section_title",
+      "role": "interview_question",
+      "class": "small",
+      "box": {
+        "x": 520,
+        "y": 120,
+        "w": 30,
+        "h": 520
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 14
+      },
+      "visual": {}
+    },
+    {
+      "id": "q_3",
+      "kind": "text",
+      "label": "section_title",
+      "role": "interview_question",
+      "class": "small",
+      "box": {
+        "x": 610,
+        "y": 120,
+        "w": 30,
+        "h": 520
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 14
+      },
+      "visual": {}
+    },
+    {
+      "id": "q_4",
+      "kind": "text",
+      "label": "section_title",
+      "role": "interview_question",
+      "class": "small",
+      "box": {
+        "x": 700,
+        "y": 120,
+        "w": 30,
+        "h": 520
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 14
+      },
+      "visual": {}
+    },
+    {
+      "id": "q_5",
+      "kind": "text",
+      "label": "section_title",
+      "role": "interview_question",
+      "class": "small",
+      "box": {
+        "x": 790,
+        "y": 120,
+        "w": 30,
+        "h": 520
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 14
+      },
+      "visual": {}
+    },
+    {
+      "id": "q_6",
+      "kind": "text",
+      "label": "section_title",
+      "role": "interview_question",
+      "class": "small",
+      "box": {
+        "x": 880,
+        "y": 120,
+        "w": 30,
+        "h": 520
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 14
+      },
+      "visual": {}
+    },
+    {
+      "id": "a_1",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "interview_answer",
+      "class": "body",
+      "box": {
+        "x": 464,
+        "y": 120,
+        "w": 34,
+        "h": 1040
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "a_2",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "interview_answer",
+      "class": "body",
+      "box": {
+        "x": 554,
+        "y": 120,
+        "w": 34,
+        "h": 1040
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "a_3",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "interview_answer",
+      "class": "body",
+      "box": {
+        "x": 644,
+        "y": 120,
+        "w": 34,
+        "h": 1040
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "a_4",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "interview_answer",
+      "class": "body",
+      "box": {
+        "x": 734,
+        "y": 120,
+        "w": 34,
+        "h": 1040
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "a_5",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "interview_answer",
+      "class": "body",
+      "box": {
+        "x": 824,
+        "y": 120,
+        "w": 34,
+        "h": 1040
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 90
+      },
+      "visual": {}
+    },
+    {
+      "id": "a_6",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "interview_answer",
+      "class": "body",
+      "box": {
+        "x": 914,
+        "y": 120,
+        "w": 34,
+        "h": 1040
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 28,
+        "max_chars": 90
+      },
+      "visual": {}
+    }
+  ]
+}

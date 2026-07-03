@@ -1,0 +1,2397 @@
+{
+  "image_id": "7647cff6-7647-cff6-7647-7647cff67647",
+  "file_name": "09_historical_classic_json_02.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "remaining_pages_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "bai",
+    "language_name": "白语",
+    "script_note": "白文拉丁字母方案，横排从左到右",
+    "template_type": "historical_classic",
+    "category": "historical_classic",
+    "variant": 2,
+    "layout_name": "historical_classic_v02",
+    "document_id": "09_historical_classic_json_02",
+    "title": "Gijbon Lijsi",
+    "doc_no": "ZA-V1-09-02",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.14,
+    "chinese_topic": "historical_classic",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 79,
+      "page_width": 904,
+      "page_height": 1317,
+      "body_scroll_width": 904,
+      "body_scroll_height": 1317,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 94,
+        "y": 64,
+        "width": 862,
+        "height": 1290,
+        "enabled": true,
+        "original_width": 1050,
+        "original_height": 1754,
+        "content_bbox": {
+          "x_min": 121,
+          "y_min": 91,
+          "x_max": 929,
+          "y_max": 1326.3
+        },
+        "padding": 27,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.7043,
+        "bottom_blank_ratio_before_crop": 0.2438
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 5601816365522362864,
+        "family": "warm_paper",
+        "geometry": {
+          "source_size": {
+            "width": 862,
+            "height": 1290
+          },
+          "scale": {
+            "scale": 1.00728,
+            "width": 868,
+            "height": 1299
+          },
+          "rotation": {
+            "angle_degrees": 2.1463,
+            "width": 917,
+            "height": 1331
+          },
+          "translation": {
+            "dx": 2,
+            "dy": -3,
+            "width": 917,
+            "height": 1331
+          },
+          "edge_crop": {
+            "left": 3,
+            "top": 11,
+            "right": 10,
+            "bottom": 3,
+            "width": 904,
+            "height": 1317
+          },
+          "output_size_before_visual": {
+            "width": 904,
+            "height": 1317
+          }
+        },
+        "output_size": {
+          "width": 904,
+          "height": 1317
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "09_historical_classic_json_02_b0037",
+      "coordinates": {
+        "x_min": 71.58,
+        "y_min": 14.2,
+        "x_max": 887.12,
+        "y_max": 104.27
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "Guj Sawbon",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "40px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0038",
+      "coordinates": {
+        "x_min": 70.11,
+        "y_min": 73.79,
+        "x_max": 465.14,
+        "y_max": 127.79
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ssex baipzi-baipnivx huox. Duil ni'xiai。抄本边缘存在轻微残损",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0039",
+      "coordinates": {
+        "x_min": 68.44,
+        "y_min": 118.08,
+        "x_max": 463.48,
+        "y_max": 172.18
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "dantkex nox jiainlzvfvf，lapzil Bufzuint zul。释文仅供研究参考",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0040",
+      "coordinates": {
+        "x_min": 66.78,
+        "y_min": 162.47,
+        "x_max": 461.82,
+        "y_max": 216.47
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "jientjif zaidgai nox suitlianl dialdul yu。馆藏编号用于档案检索",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0041",
+      "coordinates": {
+        "x_min": 65.12,
+        "y_min": 206.75,
+        "x_max": 460.16,
+        "y_max": 260.76
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "zuozsex zidjia ye xi ngvx duiz le. Zuxmerdber。释文仅供研究参考",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0042",
+      "coordinates": {
+        "x_min": 63.46,
+        "y_min": 251.04,
+        "x_max": 458.5,
+        "y_max": 305.05
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "huixxil mioup, bifsif sa ga pel sa haol。缺字位置已在备注中说明",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0043",
+      "coordinates": {
+        "x_min": 61.8,
+        "y_min": 295.33,
+        "x_max": 456.84,
+        "y_max": 349.43
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "B: Bert zil dettal xioux naf meid. Nil ga mix, beldedmef no lei。校勘说明附在页末",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0044",
+      "coordinates": {
+        "x_min": 60.14,
+        "y_min": 339.72,
+        "x_max": 455.18,
+        "y_max": 393.72
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "daotgvf-daotkaot atgerd, niou geidsvz-mer'ngerx, zei dvt。本页依据影印件重新排版",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0045",
+      "coordinates": {
+        "x_min": 59.22,
+        "y_min": 384.01,
+        "x_max": 453.52,
+        "y_max": 418.39
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "zil soux get baot naf. Nerl baot zei qiat zid nivxnazzi",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0046",
+      "coordinates": {
+        "x_min": 57.55,
+        "y_min": 408.67,
+        "x_max": 452.59,
+        "y_max": 462.78
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Weityuainphuib Guainxyuip Xioxgait 〈Zonx。纸面折痕不影响主体文字",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0047",
+      "coordinates": {
+        "x_min": 55.89,
+        "y_min": 453.06,
+        "x_max": 450.93,
+        "y_max": 507.06
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Xitxit-huanlhuanl bei sanljit, saiga huanlyinlxinl. qinlqin。校勘说明附在页末",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0048",
+      "coordinates": {
+        "x_min": 54.23,
+        "y_min": 497.35,
+        "x_max": 449.27,
+        "y_max": 551.35
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "hal.\" Daf ni yef zex bel sex leid no zex mad atger。古籍页码与现代编号不同",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0049",
+      "coordinates": {
+        "x_min": 52.57,
+        "y_min": 541.64,
+        "x_max": 447.61,
+        "y_max": 595.64
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Kvxsua bei yef fvfqil ssaol, zuf zalgerdzi xif no sua jiailjiail-kaxkax, sui。本页依据影印件重新排版",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0050",
+      "coordinates": {
+        "x_min": 50.91,
+        "y_min": 585.93,
+        "x_max": 445.95,
+        "y_max": 640.03
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "B: Guxdoud sua: be'bif jia nadbif, salxier-salya。档案来源见目录登记",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0051",
+      "coordinates": {
+        "x_min": 49.99,
+        "y_min": 630.32,
+        "x_max": 444.28,
+        "y_max": 664.69
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "laoz.Bet tal ngal xiat merz sif nerl qieil mux.Det tal",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0052",
+      "coordinates": {
+        "x_min": 48.33,
+        "y_min": 654.98,
+        "x_max": 443.36,
+        "y_max": 708.98
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "zvdzi-mounivx ngerd zilhuit, gou det zei zvz gua. Salwa zetded gulgux merd, da。缺字位置已在备注中说明",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0053",
+      "coordinates": {
+        "x_min": 46.66,
+        "y_min": 699.27,
+        "x_max": 441.7,
+        "y_max": 753.37
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "jid zaop “al lil yal sal seit”, nial guoz beipjitjia. Derlaof-dergux co。缺字位置已在备注中说明",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0054",
+      "coordinates": {
+        "x_min": 45.0,
+        "y_min": 743.66,
+        "x_max": 440.04,
+        "y_max": 797.66
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "daot youplatyeid zil gerz leil gerzdaot, gvz l。校注人员保留原文次序",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0055",
+      "coordinates": {
+        "x_min": 43.34,
+        "y_min": 787.95,
+        "x_max": 438.38,
+        "y_max": 841.95
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "yin' xiai het ga danxkexnox nei cel, hhafmo。旧纸颜色影响辨识效果",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 36,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0056",
+      "coordinates": {
+        "x_min": 41.68,
+        "y_min": 832.24,
+        "x_max": 436.72,
+        "y_max": 886.35
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "cuax zoupkuil zaopkuil yifdaf zix dief。古籍页码与现代编号不同",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 38,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0057",
+      "coordinates": {
+        "x_min": 40.02,
+        "y_min": 876.62,
+        "x_max": 435.05,
+        "y_max": 930.64
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "jix he, hal bifsif ngerdyeid, bifsif mux b。缺字位置已在备注中说明",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 40,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0058",
+      "coordinates": {
+        "x_min": 38.36,
+        "y_min": 920.91,
+        "x_max": 433.39,
+        "y_max": 974.93
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "nial zalgerdzi at sua zei bit at sua qioul, xit。校注人员保留原文次序",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 42,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0059",
+      "coordinates": {
+        "x_min": 489.84,
+        "y_min": 89.52,
+        "x_max": 884.89,
+        "y_max": 143.52
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "hux jitfvf, xifmel xithuaf xia, baot gue。缺字位置已在备注中说明",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0060",
+      "coordinates": {
+        "x_min": 488.18,
+        "y_min": 133.81,
+        "x_max": 883.23,
+        "y_max": 187.91
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Maix'af duip heil dazaid kvt, Saolsui zi。抄本边缘存在轻微残损",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0061",
+      "coordinates": {
+        "x_min": 486.52,
+        "y_min": 178.2,
+        "x_max": 881.56,
+        "y_max": 232.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Dit Ngvx Zanx Enx Nox Xuix Hhefcvt Gol Meljiap Taifsux Xuixy。旧纸颜色影响辨识效果",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0062",
+      "coordinates": {
+        "x_min": 484.86,
+        "y_min": 222.49,
+        "x_max": 879.9,
+        "y_max": 276.49
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "mal senxhuf gol senxcaint, baothub yipmien。古籍页码与现代编号不同",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0063",
+      "coordinates": {
+        "x_min": 483.94,
+        "y_min": 266.77,
+        "x_max": 878.24,
+        "y_max": 301.15
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "zei ye yaozfyf Nal cal ye hatya jif Calbeix zil ngal ye",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0064",
+      "coordinates": {
+        "x_min": 482.27,
+        "y_min": 291.44,
+        "x_max": 877.32,
+        "y_max": 345.54
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "sux merx six, ngaot did tiou geif nil merx。缺字位置已在备注中说明",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0065",
+      "coordinates": {
+        "x_min": 480.61,
+        "y_min": 335.83,
+        "x_max": 875.66,
+        "y_max": 389.83
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "daot youplatyeid laoz. Yeid at sul zex zez de g。整理说明记录版本来源",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0066",
+      "coordinates": {
+        "x_min": 478.95,
+        "y_min": 380.11,
+        "x_max": 874.0,
+        "y_max": 434.12
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "yuinb huainpjienb baothub zutguaint bubme。旧纸颜色影响辨识效果",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0067",
+      "coordinates": {
+        "x_min": 477.29,
+        "y_min": 424.4,
+        "x_max": 872.34,
+        "y_max": 478.51
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "hox, hhaf yixfaf zulqi xienpzenb zuitket hha。校注人员保留原文次序",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0068",
+      "coordinates": {
+        "x_min": 475.63,
+        "y_min": 468.79,
+        "x_max": 870.67,
+        "y_max": 522.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "no lil ssex baot. Kel no jiexxil ssex baot。残页内容按上下文补录",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0069",
+      "coordinates": {
+        "x_min": 473.97,
+        "y_min": 513.08,
+        "x_max": 869.01,
+        "y_max": 567.08
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Guerfjia qioul mel ber'xierz qioul, ， nial quix huixzuit。旧纸颜色影响辨识效果",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0070",
+      "coordinates": {
+        "x_min": 472.31,
+        "y_min": 557.37,
+        "x_max": 867.35,
+        "y_max": 611.37
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "no ji miou, Gei paot xuixgud miert, leil g。残页内容按上下文补录",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0071",
+      "coordinates": {
+        "x_min": 470.65,
+        "y_min": 601.66,
+        "x_max": 865.69,
+        "y_max": 655.76
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Baipngvzzi sif hel zil, ngal ssvt bot saot ma。校勘说明附在页末",
+      "is_text": true,
+      "order": "34",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0072",
+      "coordinates": {
+        "x_min": 468.99,
+        "y_min": 646.05,
+        "x_max": 864.03,
+        "y_max": 700.06
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "het zaldier'zi zex daot youplatyeid laoz。缺字位置已在备注中说明",
+      "is_text": true,
+      "order": "35",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0073",
+      "coordinates": {
+        "x_min": 468.06,
+        "y_min": 690.34,
+        "x_max": 862.37,
+        "y_max": 724.71
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Zex bal dafnidzi mud zid haol aip: let tal zei mud pia",
+      "is_text": true,
+      "order": "36",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0074",
+      "coordinates": {
+        "x_min": 466.4,
+        "y_min": 715.0,
+        "x_max": 861.45,
+        "y_max": 769.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "nox gvnlgod、bexbex gol kualsent、zilzilquix、zi。档案来源见目录登记",
+      "is_text": true,
+      "order": "37",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0075",
+      "coordinates": {
+        "x_min": 464.74,
+        "y_min": 759.39,
+        "x_max": 859.78,
+        "y_max": 813.39
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "heilgaf, qi'biawa vvxxi jif. Guxdoud sua zaop。缺字位置已在备注中说明",
+      "is_text": true,
+      "order": "38",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 35,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0076",
+      "coordinates": {
+        "x_min": 463.08,
+        "y_min": 803.68,
+        "x_max": 858.12,
+        "y_max": 857.68
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Beldedmef, Dallit guerf nixier, berp huox。档案来源见目录登记",
+      "is_text": true,
+      "order": "39",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 37,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0077",
+      "coordinates": {
+        "x_min": 461.41,
+        "y_min": 847.97,
+        "x_max": 856.46,
+        "y_max": 902.08
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "suitlil, suitvenp jiainxcaif gol caifniap lap。校勘说明附在页末",
+      "is_text": true,
+      "order": "40",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 39,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0078",
+      "coordinates": {
+        "x_min": 459.75,
+        "y_min": 892.36,
+        "x_max": 854.8,
+        "y_max": 946.37
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "xiotxiotnox zulsait' vx nox, fai sit hhaf fux。校注人员保留原文次序",
+      "is_text": true,
+      "order": "41",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 41,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0079",
+      "coordinates": {
+        "x_min": 458.83,
+        "y_min": 936.64,
+        "x_max": 853.14,
+        "y_max": 971.02
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "sal xi kuit at nid. Dettal no daot youplatyeid zil gerz",
+      "is_text": true,
+      "order": "42",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 43,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0001",
+      "coordinates": {
+        "x_min": 36.67,
+        "y_min": 983.32,
+        "x_max": 301.92,
+        "y_max": 1015.17
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "01",
+      "is_text": true,
+      "order": "43",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 44,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0002",
+      "coordinates": {
+        "x_min": 36.12,
+        "y_min": 1005.26,
+        "x_max": 301.09,
+        "y_max": 1029.77
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "geid duix mer Jieifcix 、",
+      "is_text": true,
+      "order": "44",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 45,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0003",
+      "coordinates": {
+        "x_min": 311.16,
+        "y_min": 993.61,
+        "x_max": 576.3,
+        "y_max": 1025.46
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "02",
+      "is_text": true,
+      "order": "45",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 46,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0004",
+      "coordinates": {
+        "x_min": 310.61,
+        "y_min": 1015.55,
+        "x_max": 575.48,
+        "y_max": 1040.06
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "zerdserx ni gerlni merlni",
+      "is_text": true,
+      "order": "46",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 48,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0005",
+      "coordinates": {
+        "x_min": 585.55,
+        "y_min": 1003.89,
+        "x_max": 850.8,
+        "y_max": 1035.75
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "03",
+      "is_text": true,
+      "order": "47",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 47,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0006",
+      "coordinates": {
+        "x_min": 585.01,
+        "y_min": 1025.84,
+        "x_max": 849.98,
+        "y_max": 1050.34
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "huxni-huxxier hux heiljit, ， guerfteil youl",
+      "is_text": true,
+      "order": "48",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 49,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0007",
+      "coordinates": {
+        "x_min": 34.89,
+        "y_min": 1030.94,
+        "x_max": 300.13,
+        "y_max": 1062.69
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "04",
+      "is_text": true,
+      "order": "49",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 50,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0008",
+      "coordinates": {
+        "x_min": 34.34,
+        "y_min": 1052.78,
+        "x_max": 299.31,
+        "y_max": 1077.28
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "nid zil de gieil, xiaf nid",
+      "is_text": true,
+      "order": "50",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 51,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0009",
+      "coordinates": {
+        "x_min": 309.38,
+        "y_min": 1041.22,
+        "x_max": 574.52,
+        "y_max": 1072.97
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "05",
+      "is_text": true,
+      "order": "51",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 52,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0010",
+      "coordinates": {
+        "x_min": 308.83,
+        "y_min": 1063.07,
+        "x_max": 573.7,
+        "y_max": 1087.56
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "xiaoftal het hhep sif.Gerlni",
+      "is_text": true,
+      "order": "52",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 54,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0011",
+      "coordinates": {
+        "x_min": 583.77,
+        "y_min": 1051.51,
+        "x_max": 849.02,
+        "y_max": 1083.26
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "06",
+      "is_text": true,
+      "order": "53",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 53,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0012",
+      "coordinates": {
+        "x_min": 583.23,
+        "y_min": 1073.35,
+        "x_max": 848.2,
+        "y_max": 1097.85
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "dettal, berpcuf nidgerf nil",
+      "is_text": true,
+      "order": "54",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 55,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0013",
+      "coordinates": {
+        "x_min": 33.1,
+        "y_min": 1078.44,
+        "x_max": 298.35,
+        "y_max": 1110.3
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "07",
+      "is_text": true,
+      "order": "55",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 56,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0014",
+      "coordinates": {
+        "x_min": 32.56,
+        "y_min": 1100.39,
+        "x_max": 297.53,
+        "y_max": 1124.9
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "sua le'le ferwa, zuf nial",
+      "is_text": true,
+      "order": "56",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 57,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0015",
+      "coordinates": {
+        "x_min": 307.59,
+        "y_min": 1088.73,
+        "x_max": 572.74,
+        "y_max": 1120.58
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "08",
+      "is_text": true,
+      "order": "57",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 58,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0016",
+      "coordinates": {
+        "x_min": 307.04,
+        "y_min": 1110.67,
+        "x_max": 571.92,
+        "y_max": 1135.18
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "miz gvp xuix,baodbaod-bifbfif",
+      "is_text": true,
+      "order": "58",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 60,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0017",
+      "coordinates": {
+        "x_min": 581.99,
+        "y_min": 1099.01,
+        "x_max": 847.24,
+        "y_max": 1130.87
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "09",
+      "is_text": true,
+      "order": "59",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 59,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0018",
+      "coordinates": {
+        "x_min": 581.44,
+        "y_min": 1120.96,
+        "x_max": 846.41,
+        "y_max": 1145.47
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "hhep sif daix le, zalgerdzi",
+      "is_text": true,
+      "order": "60",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 61,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0019",
+      "coordinates": {
+        "x_min": 31.32,
+        "y_min": 1126.06,
+        "x_max": 296.57,
+        "y_max": 1157.8
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "10",
+      "is_text": true,
+      "order": "61",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 62,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0020",
+      "coordinates": {
+        "x_min": 30.78,
+        "y_min": 1147.89,
+        "x_max": 295.75,
+        "y_max": 1172.4
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "Zaox laoz, ga ngaot qierl",
+      "is_text": true,
+      "order": "62",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 64,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0021",
+      "coordinates": {
+        "x_min": 305.81,
+        "y_min": 1136.35,
+        "x_max": 570.95,
+        "y_max": 1168.09
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "11",
+      "is_text": true,
+      "order": "63",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 63,
+      "reading_group": "body",
+      "reading_role": "metadata",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0022",
+      "coordinates": {
+        "x_min": 305.26,
+        "y_min": 1158.18,
+        "x_max": 570.14,
+        "y_max": 1182.69
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "leil xiat bei zid Baifjie",
+      "is_text": true,
+      "order": "64",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 66,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0023",
+      "coordinates": {
+        "x_min": 580.21,
+        "y_min": 1146.63,
+        "x_max": 845.45,
+        "y_max": 1178.38
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "12",
+      "is_text": true,
+      "order": "65",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 65,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0024",
+      "coordinates": {
+        "x_min": 579.66,
+        "y_min": 1168.46,
+        "x_max": 844.63,
+        "y_max": 1192.97
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "qi'zipngvx sua sexssif kuil'laof,",
+      "is_text": true,
+      "order": "66",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 67,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0025",
+      "coordinates": {
+        "x_min": 29.54,
+        "y_min": 1173.57,
+        "x_max": 294.79,
+        "y_max": 1205.42
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "13",
+      "is_text": true,
+      "order": "67",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 68,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0026",
+      "coordinates": {
+        "x_min": 28.99,
+        "y_min": 1195.51,
+        "x_max": 293.96,
+        "y_max": 1220.01
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "dant kex nox vnxdap gol zvnp",
+      "is_text": true,
+      "order": "68",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 70,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0027",
+      "coordinates": {
+        "x_min": 304.03,
+        "y_min": 1183.85,
+        "x_max": 569.17,
+        "y_max": 1215.7
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "14",
+      "is_text": true,
+      "order": "69",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 69,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0028",
+      "coordinates": {
+        "x_min": 303.48,
+        "y_min": 1205.8,
+        "x_max": 568.35,
+        "y_max": 1230.29
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "Gonbhupguf Zutxiflienb Dit",
+      "is_text": true,
+      "order": "70",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 72,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0029",
+      "coordinates": {
+        "x_min": 578.42,
+        "y_min": 1194.14,
+        "x_max": 843.67,
+        "y_max": 1225.99
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "15",
+      "is_text": true,
+      "order": "71",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 71,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0030",
+      "coordinates": {
+        "x_min": 577.88,
+        "y_min": 1216.08,
+        "x_max": 842.85,
+        "y_max": 1240.58
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "Zaox laoz. Zei zex sexbatzi,",
+      "is_text": true,
+      "order": "72",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 73,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0031",
+      "coordinates": {
+        "x_min": 27.76,
+        "y_min": 1221.17,
+        "x_max": 293.0,
+        "y_max": 1252.93
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "16",
+      "is_text": true,
+      "order": "73",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 74,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0032",
+      "coordinates": {
+        "x_min": 27.21,
+        "y_min": 1243.02,
+        "x_max": 292.18,
+        "y_max": 1267.53
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "B:Qioul le,bettal nial zei salyaof daphuox ye",
+      "is_text": true,
+      "order": "74",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 76,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0033",
+      "coordinates": {
+        "x_min": 302.25,
+        "y_min": 1231.46,
+        "x_max": 567.39,
+        "y_max": 1263.21
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "17",
+      "is_text": true,
+      "order": "75",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 75,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0034",
+      "coordinates": {
+        "x_min": 301.7,
+        "y_min": 1253.3,
+        "x_max": 566.57,
+        "y_max": 1277.81
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "；… ； zifyoud berpzoupni ，",
+      "is_text": true,
+      "order": "76",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 77,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0035",
+      "coordinates": {
+        "x_min": 576.64,
+        "y_min": 1241.74,
+        "x_max": 841.89,
+        "y_max": 1273.5
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "18",
+      "is_text": true,
+      "order": "77",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 78,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "09_historical_classic_json_02_b0036",
+      "coordinates": {
+        "x_min": 576.1,
+        "y_min": 1263.59,
+        "x_max": 841.07,
+        "y_max": 1288.1
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "seit zidjia bettal weifwod",
+      "is_text": true,
+      "order": "78",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "12.5px",
+        "font_family": "Arial, \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 79,
+      "reading_group": "footer",
+      "reading_role": "note",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:03:17.816Z",
+  "updated_at": "2026-07-03T12:04:13"
+}

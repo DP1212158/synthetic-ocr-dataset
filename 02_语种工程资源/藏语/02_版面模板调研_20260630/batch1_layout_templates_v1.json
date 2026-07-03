@@ -1,0 +1,57 @@
+{
+  "schema_version": "category_layout_templates.v1",
+  "batch_id": "batch1_certificate_exam_sign",
+  "renderer": "batch1_json_renderer_v1",
+  "purpose": "第一批 3 类 JSON 结构树模板：证书证明、考试卷、标牌海报场景。每类 6 套模板。",
+  "shared_constraints": {
+    "language": "bo",
+    "templates_per_category": 6,
+    "qa": {
+      "overflow_blocks": 0,
+      "out_of_bounds_blocks": 0,
+      "allow_cyrillic": false,
+      "allow_tibetan_small_marks": false
+    }
+  },
+  "categories": [
+    {
+      "category_id": "certificate_proof",
+      "category_cn": "证书证明",
+      "title": "ལག་ཁྱེར་དང་དཔང་ཡིག",
+      "templates": [
+        {"template_id": "certificate_proof_v01", "variant": 1, "template_name_cn": "横向荣誉证书", "layout_family": "landscape_award_certificate", "page": {"width": 1500, "height": 1060}, "content_density": "low", "preserve_full_page": true},
+        {"template_id": "certificate_proof_v02", "variant": 2, "template_name_cn": "竖向正式证明书", "layout_family": "formal_vertical_proof", "page": {"width": 1120, "height": 1420}, "content_density": "medium", "preserve_full_page": true},
+        {"template_id": "certificate_proof_v03", "variant": 3, "template_name_cn": "边框奖状", "layout_family": "ornamental_award", "page": {"width": 1500, "height": 1060}, "content_density": "low", "preserve_full_page": true},
+        {"template_id": "certificate_proof_v04", "variant": 4, "template_name_cn": "编号资质证明卡", "layout_family": "numbered_credential_card", "page": {"width": 1500, "height": 980}, "content_density": "medium", "preserve_full_page": false},
+        {"template_id": "certificate_proof_v05", "variant": 5, "template_name_cn": "机构证明事项页", "layout_family": "institutional_proof_sheet", "page": {"width": 1120, "height": 1420}, "content_density": "medium_high", "preserve_full_page": true},
+        {"template_id": "certificate_proof_v06", "variant": 6, "template_name_cn": "简洁电子证书", "layout_family": "minimal_digital_certificate", "page": {"width": 1280, "height": 960}, "content_density": "medium", "preserve_full_page": false}
+      ]
+    },
+    {
+      "category_id": "exam_paper",
+      "category_cn": "考试卷",
+      "title": "རྒྱུགས་ཤོག",
+      "templates": [
+        {"template_id": "exam_paper_v01", "variant": 1, "template_name_cn": "标准试卷首页", "layout_family": "standard_exam_frontpage", "page": {"width": 1160, "height": 1560}, "content_density": "high", "preserve_full_page": true},
+        {"template_id": "exam_paper_v02", "variant": 2, "template_name_cn": "阅读理解试卷", "layout_family": "reading_comprehension_exam", "page": {"width": 1160, "height": 1560}, "content_density": "high", "preserve_full_page": true},
+        {"template_id": "exam_paper_v03", "variant": 3, "template_name_cn": "答题卡页面", "layout_family": "answer_sheet", "page": {"width": 1160, "height": 1560}, "content_density": "medium", "preserve_full_page": true},
+        {"template_id": "exam_paper_v04", "variant": 4, "template_name_cn": "作文论述题页", "layout_family": "essay_answer_page", "page": {"width": 1160, "height": 1560}, "content_density": "medium", "preserve_full_page": true},
+        {"template_id": "exam_paper_v05", "variant": 5, "template_name_cn": "分区评分试卷", "layout_family": "scored_sections_exam", "page": {"width": 1160, "height": 1560}, "content_density": "medium_high", "preserve_full_page": true},
+        {"template_id": "exam_paper_v06", "variant": 6, "template_name_cn": "口语听力记录页", "layout_family": "oral_listening_record", "page": {"width": 1220, "height": 1180}, "content_density": "medium", "preserve_full_page": false}
+      ]
+    },
+    {
+      "category_id": "sign_poster_scene",
+      "category_cn": "标牌海报场景",
+      "title": "བྱང་བུ་དང་འགྲེམས་བསྒྲགས",
+      "templates": [
+        {"template_id": "sign_poster_scene_v01", "variant": 1, "template_name_cn": "街道路牌标识", "layout_family": "street_direction_sign", "page": {"width": 1320, "height": 900}, "content_density": "low", "preserve_full_page": false},
+        {"template_id": "sign_poster_scene_v02", "variant": 2, "template_name_cn": "活动宣传海报", "layout_family": "event_poster", "page": {"width": 980, "height": 1450}, "content_density": "medium", "preserve_full_page": true},
+        {"template_id": "sign_poster_scene_v03", "variant": 3, "template_name_cn": "墙面公告牌", "layout_family": "wall_notice_board", "page": {"width": 1180, "height": 920}, "content_density": "medium", "preserve_full_page": false},
+        {"template_id": "sign_poster_scene_v04", "variant": 4, "template_name_cn": "店铺机构招牌", "layout_family": "shopfront_signage", "page": {"width": 1380, "height": 860}, "content_density": "medium", "preserve_full_page": false},
+        {"template_id": "sign_poster_scene_v05", "variant": 5, "template_name_cn": "信息传单单页", "layout_family": "dense_information_flyer", "page": {"width": 1020, "height": 1380}, "content_density": "medium_high", "preserve_full_page": true},
+        {"template_id": "sign_poster_scene_v06", "variant": 6, "template_name_cn": "包装标签场景", "layout_family": "package_label_scene", "page": {"width": 1260, "height": 980}, "content_density": "medium", "preserve_full_page": false}
+      ]
+    }
+  ]
+}

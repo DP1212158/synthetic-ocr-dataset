@@ -1,0 +1,1092 @@
+{
+  "image_id": "8f0d22e2-8f0d-22e2-8f0d-8f0d22e28f0d",
+  "file_name": "01_newspaper_page_json_02.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "newspaper_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "ug",
+    "language_name": "维吾尔语",
+    "script_note": "改良阿拉伯字母，横排从右到左",
+    "template_type": "newspaper_page",
+    "category": "newspaper_page",
+    "variant": 2,
+    "layout_name": "newspaper_page_v02",
+    "document_id": "01_newspaper_page_json_02",
+    "title": "Vahcuengh Yienghneix",
+    "doc_no": "ZA-V1-01-02",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.14,
+    "chinese_topic": "newspaper_page",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 34,
+      "page_width": 1285,
+      "page_height": 1462,
+      "body_scroll_width": 1285,
+      "body_scroll_height": 1462,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 23,
+        "y": 17,
+        "width": 1194,
+        "height": 1378,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1754,
+        "content_bbox": {
+          "x_min": 54,
+          "y_min": 48,
+          "x_max": 1186,
+          "y_max": 1363.2
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.7498,
+        "bottom_blank_ratio_before_crop": 0.2228
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 3186793199474583564,
+        "family": "warm_paper",
+        "geometry": {
+          "source_size": {
+            "width": 1194,
+            "height": 1378
+          },
+          "scale": {
+            "scale": 1.01162,
+            "width": 1208,
+            "height": 1394
+          },
+          "rotation": {
+            "angle_degrees": 3.7169,
+            "width": 1296,
+            "height": 1470
+          },
+          "translation": {
+            "dx": 0,
+            "dy": 3,
+            "width": 1296,
+            "height": 1470
+          },
+          "edge_crop": {
+            "left": 9,
+            "top": 8,
+            "right": 2,
+            "bottom": 0,
+            "width": 1285,
+            "height": 1462
+          },
+          "output_size_before_visual": {
+            "width": 1285,
+            "height": 1462
+          }
+        },
+        "output_size": {
+          "width": 1285,
+          "height": 1462
+        }
+      }
+    },
+    "reading_order_policy": "rtl_visual_top_to_bottom_right_to_left_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "01_newspaper_page_json_02_b0001",
+      "coordinates": {
+        "x_min": 448.41,
+        "y_min": 50.62,
+        "x_max": 1253.37,
+        "y_max": 186.46
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ئالغىلى بولغاي",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "62px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "header",
+      "reading_role": "title",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0002",
+      "coordinates": {
+        "x_min": 107.53,
+        "y_min": 54.17,
+        "x_max": 431.99,
+        "y_max": 97.06
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0003",
+      "coordinates": {
+        "x_min": 399.65,
+        "y_min": 109.34,
+        "x_max": 429.65,
+        "y_max": 133.21
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "182",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0004",
+      "coordinates": {
+        "x_min": 225.31,
+        "y_min": 98.01,
+        "x_max": 319.0,
+        "y_max": 126.02
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026-07-02",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0005",
+      "coordinates": {
+        "x_min": 105.18,
+        "y_min": 90.21,
+        "x_max": 144.67,
+        "y_max": 114.69
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "17px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0006",
+      "coordinates": {
+        "x_min": 500.28,
+        "y_min": 173.59,
+        "x_max": 1245.63,
+        "y_max": 276.7
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "شېرىن سۆزۈڭگە",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "40px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0007",
+      "coordinates": {
+        "x_min": 463.46,
+        "y_min": 238.61,
+        "x_max": 1241.4,
+        "y_max": 843.53
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": false,
+        "asset_id": "COCO_val2014_000000024386",
+        "asset_source": "random120-coco2014",
+        "asset_crop": "object-fit-cover"
+      },
+      "reading_order": 28,
+      "reading_group": "image",
+      "reading_role": "image",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0008",
+      "coordinates": {
+        "x_min": 461.74,
+        "y_min": 802.41,
+        "x_max": 1204.78,
+        "y_max": 869.98
+      },
+      "points": null,
+      "block_label": "caption",
+      "block_content": "ئا لىمجا ن تۇغۇلغان كۆنىڭىزگە مۇبارەك بولسۇن",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "caption",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0009",
+      "coordinates": {
+        "x_min": 459.39,
+        "y_min": 831.89,
+        "x_max": 1202.86,
+        "y_max": 906.12
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ئەسكىلەرگە ئارلاشتىڭ دەپ ئۇرغانلىرى راست، ئۇرماس ئىدى مەن ئۇلاردىن تا。水利设施检修计划公布",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0010",
+      "coordinates": {
+        "x_min": 457.23,
+        "y_min": 865.0,
+        "x_max": 1200.71,
+        "y_max": 939.33
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "كېتىۋېتىپ ئالتۇن ئۇچراپ قالغۇدەك تەلىيىممۇ يوق. شۇنى بىلى。村镇道路维护安排已经确认",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0011",
+      "coordinates": {
+        "x_min": 100.65,
+        "y_min": 147.55,
+        "x_max": 485.69,
+        "y_max": 206.84
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "دىلدىكى ھەسىرەت-ئازابقا",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0012",
+      "coordinates": {
+        "x_min": 96.8,
+        "y_min": 189.04,
+        "x_max": 482.99,
+        "y_max": 266.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "مەن بەك ئاستا ماڭىمەن، لېكىن مەن ئەزەلدىن كەينىمگە يانما。社区服务中心发布便民消息",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0013",
+      "coordinates": {
+        "x_min": 92.67,
+        "y_min": 270.41,
+        "x_max": 477.71,
+        "y_max": 329.69
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ئاخىرىدا ئاددىي",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0014",
+      "coordinates": {
+        "x_min": 87.13,
+        "y_min": 311.89,
+        "x_max": 475.01,
+        "y_max": 414.99
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "خىزمىتی بىلەن شۇغۇللىنىشقا ئورۇنلاشتۇردى. نورمال ئەھۋالدا ب تەرەپ ۋەزىپسىنى تاماملىش。便民热线记录群众诉求；公共交通班次临时调整",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0015",
+      "coordinates": {
+        "x_min": 82.99,
+        "y_min": 419.4,
+        "x_max": 468.03,
+        "y_max": 478.7
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "كۆڭلىڭىزگە تەسەللى",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0016",
+      "coordinates": {
+        "x_min": 79.14,
+        "y_min": 460.9,
+        "x_max": 465.33,
+        "y_max": 537.85
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ئاتىلەر قەيسەر دۇر جەڭلەردە پالۋان ئاتىنىڭ ئار。农产品展销活动吸引居民",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0017",
+      "coordinates": {
+        "x_min": 824.35,
+        "y_min": 960.75,
+        "x_max": 1196.06,
+        "y_max": 1019.18
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "قالدۇرغۇچى: ئەر",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0018",
+      "coordinates": {
+        "x_min": 818.82,
+        "y_min": 1002.24,
+        "x_max": 1193.37,
+        "y_max": 1104.38
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "شاماللار ئويناتسا سۇمبۇل ساچىمنى، كەلدىغۇ يارىم دەپ يولۇڭغا قارايمەن. كۆڭۈلنىڭ رىشتىسى سە。本地学校组织文化展示",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0019",
+      "coordinates": {
+        "x_min": 814.68,
+        "y_min": 1109.66,
+        "x_max": 1186.39,
+        "y_max": 1168.08
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "جاۋابكارلىقىنىڭ",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0020",
+      "coordinates": {
+        "x_min": 810.83,
+        "y_min": 1151.14,
+        "x_max": 1183.69,
+        "y_max": 1227.34
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "دادام تۇيۇقسىز ئالەمدىن ئۆتكەن، خىزمەتداشلىرىم، ئۇرۇق。校园社团展示学习成果",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0021",
+      "coordinates": {
+        "x_min": 437.72,
+        "y_min": 935.63,
+        "x_max": 809.43,
+        "y_max": 994.06
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "سىنايدۇ، كۈن",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0022",
+      "coordinates": {
+        "x_min": 433.87,
+        "y_min": 977.13,
+        "x_max": 806.73,
+        "y_max": 1053.22
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ياخشى ئادەم بىلەن ئائىلە قۇرۇش مىليونلاپ پۇل ت。社区服务中心发布便民消息",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0023",
+      "coordinates": {
+        "x_min": 429.74,
+        "y_min": 1058.5,
+        "x_max": 801.44,
+        "y_max": 1116.91
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "دالاننى سۈتتەك",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0024",
+      "coordinates": {
+        "x_min": 425.89,
+        "y_min": 1099.98,
+        "x_max": 798.75,
+        "y_max": 1176.07
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "بۇ كىتاپنى ئاستىدىكى سىرىق ھارۋىغا ئىسىپ قو يدۈم。本地学校组织文化展示",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0025",
+      "coordinates": {
+        "x_min": 51.08,
+        "y_min": 910.52,
+        "x_max": 422.79,
+        "y_max": 968.95
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "8- باب يۇقىرى خەۋپ-خەتەر",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0026",
+      "coordinates": {
+        "x_min": 47.24,
+        "y_min": 952.01,
+        "x_max": 420.09,
+        "y_max": 1028.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ئىشلارنى قىلىپ باقتىم، تاپقىنىم ئۆينىڭ چىقىمىدىن ئ。本地学校组织文化展示",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0027",
+      "coordinates": {
+        "x_min": 43.1,
+        "y_min": 1033.38,
+        "x_max": 414.81,
+        "y_max": 1091.8
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "شىنجاڭ ئۇيغۇر ئاپتونوم رايونى",
+      "is_text": true,
+      "order": "26",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "24px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0028",
+      "coordinates": {
+        "x_min": 39.26,
+        "y_min": 1074.86,
+        "x_max": 412.11,
+        "y_max": 1150.95
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "جىنايى ئىشلار جاۋابكارلىقىنىڭ ئەڭ تۆۋەن ياش چېكى 12 ياش。社区服务中心发布便民消息",
+      "is_text": true,
+      "order": "27",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "19px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0029",
+      "coordinates": {
+        "x_min": 952.15,
+        "y_min": 1256.42,
+        "x_max": 1177.48,
+        "y_max": 1345.44
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "خەلق ھۆكۈمىتىنىڭ تارماقلىرى ۋە",
+      "is_text": true,
+      "order": "28",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 33,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0030",
+      "coordinates": {
+        "x_min": 721.59,
+        "y_min": 1241.44,
+        "x_max": 946.92,
+        "y_max": 1330.46
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "كۆش كالىسى كۆپىيەلەيدىغان چىشى",
+      "is_text": true,
+      "order": "29",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 32,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0031",
+      "coordinates": {
+        "x_min": 491.03,
+        "y_min": 1226.46,
+        "x_max": 716.34,
+        "y_max": 1315.49
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "1. ئېرىڭىزنىڭ كەينى。图书阅览室新增借阅服务",
+      "is_text": true,
+      "order": "30",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 31,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0032",
+      "coordinates": {
+        "x_min": 260.45,
+        "y_min": 1211.48,
+        "x_max": 485.78,
+        "y_max": 1300.51
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "بۈگۈنكى ئاتىلار بايرىمىڭلارغا",
+      "is_text": true,
+      "order": "31",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 30,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0033",
+      "coordinates": {
+        "x_min": 29.89,
+        "y_min": 1196.5,
+        "x_max": 255.22,
+        "y_max": 1285.53
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "مەھەللەپارتىيە كومىت。校园社团展示学习成果",
+      "is_text": true,
+      "order": "32",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 29,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "01_newspaper_page_json_02_b0034",
+      "coordinates": {
+        "x_min": 946.64,
+        "y_min": 1341.22,
+        "x_max": 1171.97,
+        "y_max": 1430.24
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ۋە سۈتچىلىك كەسپى با。便民热线记录群众诉求",
+      "is_text": true,
+      "order": "33",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "16px",
+        "font_family": "\"SF Arabic\", \"Noto Nastaliq Urdu\", \"Arial Unicode\", serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 34,
+      "reading_group": "footer",
+      "reading_role": "list_item",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:09:07.685Z",
+  "updated_at": "2026-07-03T12:10:25"
+}

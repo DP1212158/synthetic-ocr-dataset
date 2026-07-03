@@ -1,0 +1,169 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "sign_poster_scene_vertical_tree_02",
+  "variant": 2,
+  "category_id": "sign_poster_scene",
+  "category_cn": "标牌海报场景",
+  "folder": "04_标牌海报场景",
+  "template_name_cn": "竖向公告牌",
+  "layout_family": "portrait_public_sign",
+  "design_prompt": "竖向标牌公告，标题醒目，正文短而集中。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 920,
+    "height": 1180,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 4,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box",
+      "box": {
+        "x": 54,
+        "y": 54,
+        "w": 812,
+        "h": 1072
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "public_sign_title",
+      "class": "title",
+      "box": {
+        "x": 130,
+        "y": 90,
+        "w": 72,
+        "h": 940
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 28
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 250,
+        "y": 120,
+        "w": 42,
+        "h": 860
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 18,
+        "max_chars": 56
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 342,
+        "y": 120,
+        "w": 42,
+        "h": 860
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 18,
+        "max_chars": 56
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 434,
+        "y": 120,
+        "w": 42,
+        "h": 860
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 18,
+        "max_chars": 56
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 526,
+        "y": 120,
+        "w": 42,
+        "h": 860
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 18,
+        "max_chars": 56
+      },
+      "visual": {}
+    },
+    {
+      "id": "meta",
+      "kind": "text",
+      "label": "metadata",
+      "role": "meta",
+      "class": "small",
+      "box": {
+        "x": 760,
+        "y": 120,
+        "w": 40,
+        "h": 860
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 24,
+        "max_chars": 96,
+        "value": "20260702"
+      },
+      "visual": {}
+    }
+  ]
+}

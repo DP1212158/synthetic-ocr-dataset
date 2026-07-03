@@ -1,0 +1,228 @@
+{
+  "run": {
+    "started_at": "2026-06-30T08:44:40+00:00",
+    "ended_at": "2026-06-30T08:45:14+00:00",
+    "endpoint": "https://bo.wikipedia.org/w/api.php",
+    "mode": "random",
+    "language_code": "bo",
+    "language_name": "藏语",
+    "script_note": "bo.wikipedia.org 公开藏文文本，主要用于第一阶段文本源验证与模板填充",
+    "max_pages": 240,
+    "batch_size": 20,
+    "min_paragraph_chars": 20,
+    "sleep_seconds": 0.5,
+    "timeout": 20,
+    "retries": 2,
+    "source_name": "bo_wikipedia_api",
+    "script_regex": "[\\u0f00-\\u0fff]",
+    "min_script_ratio": 0.35
+  },
+  "siteinfo": {
+    "statistics": {
+      "pages": 22722,
+      "articles": 8071,
+      "edits": 161713,
+      "images": 0,
+      "users": 35412,
+      "activeusers": 39,
+      "admins": 3,
+      "jobs": 0,
+      "cirrussearch-article-words": 13642693,
+      "queued-massmessages": 0
+    },
+    "general": {
+      "mainpage": "གཙོ་ངོས།",
+      "base": "https://bo.wikipedia.org/wiki/%E0%BD%82%E0%BD%99%E0%BD%BC%E0%BC%8B%E0%BD%84%E0%BD%BC%E0%BD%A6%E0%BC%8D",
+      "sitename": "Wikipedia",
+      "mainpageisdomainroot": false,
+      "logo": "//bo.wikipedia.org/static/images/project-logos/bowiki.png",
+      "generator": "MediaWiki 1.47.0-wmf.8",
+      "phpversion": "8.3.31",
+      "phpsapi": "fpm-fcgi",
+      "dbtype": "mysql",
+      "dbversion": "10.11.16-MariaDB-log",
+      "imagewhitelistenabled": false,
+      "langconversion": true,
+      "linkconversion": true,
+      "titleconversion": true,
+      "linkprefixcharset": "",
+      "linkprefix": "",
+      "linktrail": "/^([a-z]+)(.*)$/sD",
+      "legaltitlechars": " %!\"$&'()*,\\-.\\/0-9:;=?@A-Z\\\\^_`a-z~\\x80-\\xFF+",
+      "invalidusernamechars": "@:>=",
+      "allunicodefixes": false,
+      "git-hash": "25e62d72e7e5f21bfe88d296e688865b3b5e5310",
+      "git-branch": "wmf/1.47.0-wmf.8",
+      "case": "first-letter",
+      "lang": "bo",
+      "fallback": [
+        {
+          "code": "en"
+        }
+      ],
+      "rtl": false,
+      "fallback8bitEncoding": "windows-1252",
+      "readonly": false,
+      "writeapi": true,
+      "maxarticlesize": 2097152,
+      "timezone": "UTC",
+      "timeoffset": 0,
+      "articlepath": "/wiki/$1",
+      "scriptpath": "/w",
+      "script": "/w/index.php",
+      "variantarticlepath": false,
+      "server": "//bo.wikipedia.org",
+      "servername": "bo.wikipedia.org",
+      "wikiid": "bowiki",
+      "time": "2026-06-30T08:44:41Z",
+      "misermode": true,
+      "uploadsenabled": true,
+      "maxuploadsize": 5368709120,
+      "minuploadchunksize": 1024,
+      "galleryoptions": {
+        "imagesPerRow": 0,
+        "imageWidth": 120,
+        "imageHeight": 120,
+        "captionLength": true,
+        "showBytes": true,
+        "mode": "traditional",
+        "showDimensions": true
+      },
+      "thumblimits": {
+        "0": 180,
+        "1": 250,
+        "2": 400
+      },
+      "imagelimits": {
+        "0": {
+          "width": 320,
+          "height": 240
+        },
+        "1": {
+          "width": 640,
+          "height": 480
+        },
+        "2": {
+          "width": 800,
+          "height": 600
+        },
+        "3": {
+          "width": 1024,
+          "height": 768
+        },
+        "4": {
+          "width": 1280,
+          "height": 1024
+        },
+        "5": {
+          "width": 2560,
+          "height": 2048
+        }
+      },
+      "favicon": "https://bo.wikipedia.org/static/favicon/wikipedia.ico",
+      "centralidlookupprovider": "CentralAuth",
+      "allcentralidlookupproviders": [
+        "CentralAuth",
+        "local"
+      ],
+      "interwikimagic": true,
+      "magiclinks": {
+        "ISBN": true,
+        "PMID": true,
+        "RFC": true
+      },
+      "categorycollation": "uppercase",
+      "nofollowlinks": true,
+      "nofollownsexceptions": [],
+      "nofollowdomainexceptions": [
+        "mediawiki.org",
+        "wikibooks.org",
+        "wikimedia.com",
+        "wikimedia.org",
+        "wikinews.org",
+        "wikipedia.org",
+        "wikiquote.org",
+        "wikisource.org",
+        "wikiversity.org",
+        "wiktionary.org",
+        "wikivoyage.org",
+        "wikidata.org",
+        "wikifunctions.org",
+        "tools.wmflabs.org",
+        "toolforge.org",
+        "etherpad.wmflabs.org"
+      ],
+      "externallinktarget": false,
+      "wmf-config": {
+        "wmfMasterDatacenter": "eqiad",
+        "wmfEtcdLastModifiedIndex": 6397793
+      },
+      "citeresponsivereferences": false,
+      "max-page-id": 28131,
+      "linter": {
+        "high": [
+          "deletable-table-tag",
+          "duplicate-ids",
+          "html5-misnesting",
+          "misc-tidy-replacement-issues",
+          "multiline-html-table-in-list",
+          "multiple-unclosed-formatting-tags",
+          "pwrap-bug-workaround",
+          "self-closed-tag",
+          "template-arg-in-extension-tag",
+          "tidy-font-bug",
+          "tidy-whitespace-bug",
+          "unclosed-quotes-in-heading"
+        ],
+        "medium": [
+          "bogus-image-options",
+          "fostered",
+          "misnested-tag",
+          "multi-colon-escape",
+          "wikilink-in-extlink"
+        ],
+        "low": [
+          "empty-heading",
+          "missing-end-tag",
+          "missing-end-tag-in-heading",
+          "night-mode-unaware-background-color",
+          "obsolete-tag",
+          "stripped-tag"
+        ]
+      },
+      "mobileserver": "https://bo.wikipedia.org",
+      "pageviewservice-supported-metrics": {
+        "pageviews": {
+          "pageviews": true,
+          "uniques": false
+        },
+        "siteviews": {
+          "pageviews": true,
+          "uniques": true
+        },
+        "mostviewed": {
+          "pageviews": true,
+          "uniques": false
+        }
+      },
+      "readinglists-config": {
+        "maxListsPerUser": 100,
+        "maxEntriesPerList": 5000,
+        "deletedRetentionDays": 30
+      }
+    }
+  },
+  "collection": {
+    "pages_seen": 240,
+    "pages_with_text": 10,
+    "paragraph_records": 26,
+    "errors": 0,
+    "total_chars": 14567,
+    "avg_chars_per_record": 560.3,
+    "median_chars_per_record": 205.5,
+    "avg_cyrillic_ratio": 0.0,
+    "avg_vertical_mongolian_ratio": 0.0,
+    "avg_tibetan_ratio": 0.9609,
+    "avg_latin_ratio": 0.0061
+  }
+}

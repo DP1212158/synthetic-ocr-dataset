@@ -1,0 +1,226 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "sign_poster_scene_vertical_tree_01",
+  "variant": 1,
+  "category_id": "sign_poster_scene",
+  "category_cn": "标牌海报场景",
+  "folder": "04_标牌海报场景",
+  "template_name_cn": "横向门头标牌",
+  "layout_family": "landscape_shop_sign",
+  "design_prompt": "横向标牌，粗标题、短说明和边框，适合作为招牌类 OCR。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1380,
+    "height": 820,
+    "orientation": "landscape",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 4,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box note-fill",
+      "box": {
+        "x": 50,
+        "y": 50,
+        "w": 1280,
+        "h": 720
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "sign_title",
+      "class": "title",
+      "box": {
+        "x": 120,
+        "y": 100,
+        "w": 78,
+        "h": 620
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 28
+      },
+      "visual": {}
+    },
+    {
+      "id": "sub",
+      "kind": "text",
+      "label": "section_title",
+      "role": "sign_subtitle",
+      "class": "subtitle",
+      "box": {
+        "x": 260,
+        "y": 120,
+        "w": 52,
+        "h": 580
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 6,
+        "max_chars": 32
+      },
+      "visual": {}
+    },
+    {
+      "id": "sign_body_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 380,
+        "y": 130,
+        "w": 40,
+        "h": 560
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "sign_body_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 474,
+        "y": 130,
+        "w": 40,
+        "h": 560
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "sign_body_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 568,
+        "y": 130,
+        "w": 40,
+        "h": 560
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "sign_body_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 662,
+        "y": 130,
+        "w": 40,
+        "h": 560
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "sign_body_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 756,
+        "y": 130,
+        "w": 40,
+        "h": 560
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "sign_body_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 850,
+        "y": 130,
+        "w": 40,
+        "h": 560
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 64
+      },
+      "visual": {}
+    },
+    {
+      "id": "meta",
+      "kind": "text",
+      "label": "metadata",
+      "role": "sign_meta",
+      "class": "small",
+      "box": {
+        "x": 1230,
+        "y": 130,
+        "w": 42,
+        "h": 560
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 24,
+        "max_chars": 96,
+        "value": "2026"
+      },
+      "visual": {}
+    }
+  ]
+}

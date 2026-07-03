@@ -1,0 +1,185 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v3",
+  "template_id": "sign_poster_scene_vertical_tree_03",
+  "variant": 3,
+  "category_id": "sign_poster_scene",
+  "category_cn": "标牌海报场景",
+  "folder": "04_标牌海报场景",
+  "template_name_cn": "活动海报",
+  "layout_family": "event_poster",
+  "design_prompt": "活动海报风格，有大标题、时间地点、正文和装饰色块。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 920,
+    "height": 1180,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical"
+  },
+  "qa_expectations": {
+    "min_blocks": 4,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "bg",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box soft-fill",
+      "box": {
+        "x": 60,
+        "y": 60,
+        "w": 800,
+        "h": 1060
+      },
+      "visual": {}
+    },
+    {
+      "id": "poster_image",
+      "kind": "image",
+      "label": "image",
+      "role": "poster_image",
+      "class": "image-fill",
+      "box": {
+        "x": 120,
+        "y": 90,
+        "w": 230,
+        "h": 420
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "event_title",
+      "class": "title",
+      "box": {
+        "x": 400,
+        "y": 90,
+        "w": 72,
+        "h": 900
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 28
+      },
+      "visual": {}
+    },
+    {
+      "id": "event_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 520,
+        "y": 120,
+        "w": 38,
+        "h": 820
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 18,
+        "max_chars": 58
+      },
+      "visual": {}
+    },
+    {
+      "id": "event_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 604,
+        "y": 120,
+        "w": 38,
+        "h": 820
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 18,
+        "max_chars": 58
+      },
+      "visual": {}
+    },
+    {
+      "id": "event_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 688,
+        "y": 120,
+        "w": 38,
+        "h": 820
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 18,
+        "max_chars": 58
+      },
+      "visual": {}
+    },
+    {
+      "id": "event_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 772,
+        "y": 120,
+        "w": 38,
+        "h": 820
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 18,
+        "max_chars": 58
+      },
+      "visual": {}
+    },
+    {
+      "id": "time",
+      "kind": "text",
+      "label": "metadata",
+      "role": "event_time",
+      "class": "small",
+      "box": {
+        "x": 780,
+        "y": 120,
+        "w": 36,
+        "h": 820
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 24,
+        "max_chars": 96,
+        "value": "20260702"
+      },
+      "visual": {}
+    }
+  ]
+}

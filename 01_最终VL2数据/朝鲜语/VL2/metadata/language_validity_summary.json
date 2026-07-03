@@ -1,0 +1,141 @@
+{
+  "version_dir": "/Users/dp/Downloads/中央民族大学合作项目/朝鲜语/03_合成数据生成_20260702/VL2",
+  "language_code": "ko",
+  "language_name": "朝鲜语",
+  "target_script": "hangul",
+  "allow_mixed_cjk": true,
+  "documents": 72,
+  "passed_documents": 72,
+  "failed_documents": [],
+  "text_blocks": 3324,
+  "bad_char_blocks": 0,
+  "other_script_blocks": 0,
+  "avg_target_ratio": 0.6395,
+  "avg_cjk_ratio": 0.0689,
+  "by_category": {
+    "academic_paper": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.654,
+      "avg_cjk_ratio": 0.0657
+    },
+    "book_page": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.6535,
+      "avg_cjk_ratio": 0.0639
+    },
+    "certificate_proof": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.6143,
+      "avg_cjk_ratio": 0.075
+    },
+    "complex_form": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.6715,
+      "avg_cjk_ratio": 0.066
+    },
+    "exam_paper": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.578,
+      "avg_cjk_ratio": 0.0701
+    },
+    "handwritten_letter": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.6378,
+      "avg_cjk_ratio": 0.0692
+    },
+    "historical_classic": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.6514,
+      "avg_cjk_ratio": 0.0664
+    },
+    "magazine_journal": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.6507,
+      "avg_cjk_ratio": 0.0694
+    },
+    "newspaper_page": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.6568,
+      "avg_cjk_ratio": 0.0674
+    },
+    "notice_announcement": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.6398,
+      "avg_cjk_ratio": 0.0663
+    },
+    "sign_poster_scene": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.6157,
+      "avg_cjk_ratio": 0.0804
+    },
+    "textbook_page": {
+      "documents": 6,
+      "passed": 6,
+      "pure": 3,
+      "mixed": 3,
+      "avg_target_ratio": 0.6503,
+      "avg_cjk_ratio": 0.0666
+    }
+  },
+  "failure_count": 0,
+  "warning_count": 3,
+  "failure_samples": [],
+  "warning_samples": [
+    {
+      "document_id": "03_exam_paper_json_03",
+      "issue": "low_target_script_ratio",
+      "target_script": "hangul",
+      "target_ratio": 0.25,
+      "min_script_ratio": 0.3,
+      "hard_floor": 0.2
+    },
+    {
+      "document_id": "03_exam_paper_json_03",
+      "issue": "high_digit_ratio",
+      "digit_ratio": 0.7
+    },
+    {
+      "document_id": "04_sign_poster_scene_json_01",
+      "issue": "high_digit_ratio",
+      "digit_ratio": 0.1895
+    }
+  ],
+  "pass": true,
+  "limitations": [
+    "Regex QA can detect wrong script contamination and bad characters, but cannot prove grammar quality.",
+    "Latin-script languages such as Zhuang and Bai require trusted source text to distinguish language from generic Latin text."
+  ]
+}

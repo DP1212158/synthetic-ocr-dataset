@@ -1,0 +1,860 @@
+{
+  "image_id": "915fe8f0-915f-e8f0-915f-915fe8f0915f",
+  "file_name": "12_handwritten_letter_json_02.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "remaining_pages_json_renderer_za_v1_v4_split_mix_assets",
+    "language_code": "bai",
+    "language_name": "白语",
+    "script_note": "白文拉丁字母方案，横排从左到右",
+    "template_type": "handwritten_letter",
+    "category": "handwritten_letter",
+    "variant": 2,
+    "layout_name": "handwritten_letter_v02",
+    "document_id": "12_handwritten_letter_json_02",
+    "title": "Saunghawj Gijsei",
+    "doc_no": "ZA-V1-12-02",
+    "date": "2026-07-03",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.14,
+    "chinese_topic": "handwritten_letter",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 26,
+      "page_width": 1073,
+      "page_height": 1122,
+      "body_scroll_width": 1073,
+      "body_scroll_height": 1122,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 94,
+        "y": 70,
+        "width": 1052,
+        "height": 1108,
+        "enabled": true,
+        "original_width": 1240,
+        "original_height": 1650,
+        "content_bbox": {
+          "x_min": 125,
+          "y_min": 101,
+          "x_max": 1115,
+          "y_max": 1146.5
+        },
+        "padding": 31,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.6336,
+        "bottom_blank_ratio_before_crop": 0.3052
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL2_clean_source",
+        "output_version": "VL2",
+        "seed": 16827027173204074482,
+        "family": "soft_copy",
+        "geometry": {
+          "source_size": {
+            "width": 1052,
+            "height": 1108
+          },
+          "scale": {
+            "scale": 0.98666,
+            "width": 1038,
+            "height": 1093
+          },
+          "rotation": {
+            "angle_degrees": 2.0336,
+            "width": 1077,
+            "height": 1130
+          },
+          "translation": {
+            "dx": 2,
+            "dy": 7,
+            "width": 1077,
+            "height": 1130
+          },
+          "edge_crop": {
+            "left": 3,
+            "top": 5,
+            "right": 1,
+            "bottom": 3,
+            "width": 1073,
+            "height": 1122
+          },
+          "output_size_before_visual": {
+            "width": 1073,
+            "height": 1122
+          }
+        },
+        "output_size": {
+          "width": 1073,
+          "height": 1122
+        }
+      }
+    },
+    "reading_order_policy": "ltr_visual_top_to_bottom_left_to_right_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "12_handwritten_letter_json_02_b0001",
+      "coordinates": {
+        "x_min": 66.08,
+        "y_min": 33.66,
+        "x_max": 1043.45,
+        "y_max": 101.84
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "de hua'luof,",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "27px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "header",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0002",
+      "coordinates": {
+        "x_min": 64.43,
+        "y_min": 84.92,
+        "x_max": 1041.63,
+        "y_max": 148.38
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "hep'anl gol danxkex hepdaob nox saitvx, sainx X。愿你学习工作顺利",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0003",
+      "coordinates": {
+        "x_min": 63.02,
+        "y_min": 124.57,
+        "x_max": 1040.22,
+        "y_max": 188.02
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "hot, duib mal zifjif fvbzef nox zutguaint ssenp。这些事情以后慢慢细说",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0004",
+      "coordinates": {
+        "x_min": 61.61,
+        "y_min": 164.2,
+        "x_max": 1038.81,
+        "y_max": 227.66
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "nitnei tiol Kual liopyuif nox dio xuix, gaibdan。这封短信写得匆忙",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0005",
+      "coordinates": {
+        "x_min": 60.21,
+        "y_min": 203.84,
+        "x_max": 1037.4,
+        "y_max": 267.3
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Kvxsua pia zil fvdqil pia, gaofgaof-xinxxinx hh。下次见面再详细谈",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0006",
+      "coordinates": {
+        "x_min": 57.78,
+        "y_min": 243.48,
+        "x_max": 1036.0,
+        "y_max": 335.63
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "A: Dettal qilyouz-berse no jiasi det gerd zil, zil zuozsex nil guoz ni'xier。有空请再写信给我；路上见到的景色很好",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0007",
+      "coordinates": {
+        "x_min": 55.35,
+        "y_min": 311.81,
+        "x_max": 1033.57,
+        "y_max": 404.07
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Dit xizaipqi tiol Gufjiax duil yonpxuix sifxienp zontlianl konlzil gol dienl'ef guain。收到后请回个消息；路上见到的景色很好",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0008",
+      "coordinates": {
+        "x_min": 53.94,
+        "y_min": 380.25,
+        "x_max": 1031.14,
+        "y_max": 443.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "A: Zaox laoz, pia sal kuol zidjia laoz, nial bei jiaol。下次见面再详细谈",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0009",
+      "coordinates": {
+        "x_min": 52.53,
+        "y_min": 419.88,
+        "x_max": 1029.73,
+        "y_max": 483.34
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "dez sui， Erxgaod xuix qierl. Zvpnvdsua zalgerdzi ssvtxi。这封短信写得匆忙",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0010",
+      "coordinates": {
+        "x_min": 51.13,
+        "y_min": 459.53,
+        "x_max": 1028.32,
+        "y_max": 522.98
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "B:Zaox laoz! Nel doufmaox zex haotdvf nil mux?Ngaot xiat bei zid nal haot。下次见面再详细谈",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0011",
+      "coordinates": {
+        "x_min": 49.72,
+        "y_min": 499.16,
+        "x_max": 1026.92,
+        "y_max": 562.62
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "laoz.” “Yix pul leid erx zex zeilmel cut fvf d。收到来信后很高兴",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0012",
+      "coordinates": {
+        "x_min": 48.32,
+        "y_min": 538.8,
+        "x_max": 1025.51,
+        "y_max": 602.16
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "A: Ngaot seit zidjia yap gaoddvf bei gaodseif n。家中事情都已安排",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0013",
+      "coordinates": {
+        "x_min": 46.91,
+        "y_min": 578.34,
+        "x_max": 1024.11,
+        "y_max": 641.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "maixyap mia wot qiail, Taox nao nad bei waip wa。天气转凉记得添衣",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0014",
+      "coordinates": {
+        "x_min": 45.5,
+        "y_min": 617.98,
+        "x_max": 1022.7,
+        "y_max": 681.43
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "qienpkuanl jifhef kex zibdienb, gai'lophhex jienx。收到后请回个消息",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0015",
+      "coordinates": {
+        "x_min": 44.09,
+        "y_min": 657.62,
+        "x_max": 1021.29,
+        "y_max": 721.08
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "laod seiz ， zuozfaf ， yifdafmaox ， zuoz kuol nef guof beid tuil。路上见到的景色很好",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0016",
+      "coordinates": {
+        "x_min": 42.69,
+        "y_min": 697.26,
+        "x_max": 1019.88,
+        "y_max": 760.71
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "nox dio xuix, gaibdanl quainpmif nox guihual gol kuxxuf。路上见到的景色很好",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0017",
+      "coordinates": {
+        "x_min": 41.28,
+        "y_min": 736.89,
+        "x_max": 1018.48,
+        "y_max": 800.36
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Zouyuip Ssexde, Svz gaot wa'baod, Zai zex jiaxyou。收到后请回个消息",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0018",
+      "coordinates": {
+        "x_min": 39.87,
+        "y_min": 776.54,
+        "x_max": 1017.07,
+        "y_max": 839.99
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ni'pit ga ngel weix haot cer, zexqieilzi ded m。有空请再写信给我",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0019",
+      "coordinates": {
+        "x_min": 38.46,
+        "y_min": 816.17,
+        "x_max": 1015.66,
+        "y_max": 879.63
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "maf, not jiant not mix hatdvnl duap, not mix ngel dua。下次见面再详细谈",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "20px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0020",
+      "coordinates": {
+        "x_min": 36.29,
+        "y_min": 875.54,
+        "x_max": 1013.55,
+        "y_max": 940.96
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "P.S.",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "22px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "section_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0021",
+      "coordinates": {
+        "x_min": 35.46,
+        "y_min": 906.3,
+        "x_max": 1012.46,
+        "y_max": 964.33
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "sualzi, zeit sualzi er ye herlgerd, qilzi",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0022",
+      "coordinates": {
+        "x_min": 34.62,
+        "y_min": 929.67,
+        "x_max": 1011.63,
+        "y_max": 987.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "gouzpier ， ， zilsefyihuox ， kaot ， jieipngedmex",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0023",
+      "coordinates": {
+        "x_min": 33.79,
+        "y_min": 953.14,
+        "x_max": 1010.8,
+        "y_max": 1011.16
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Zonxhuap Ssenpmiep Gonbhupguf Zutxiflienb D。路上见到的景色很好",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0024",
+      "coordinates": {
+        "x_min": 32.96,
+        "y_min": 976.5,
+        "x_max": 1009.97,
+        "y_max": 1034.64
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "Gerlni zex nil atber nil goux sua sefsit,",
+      "is_text": true,
+      "order": "23",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "18px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 24,
+      "reading_group": "footer",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0025",
+      "coordinates": {
+        "x_min": 31.43,
+        "y_min": 1021.66,
+        "x_max": 1008.36,
+        "y_max": 1077.72
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "huox cilkoul",
+      "is_text": true,
+      "order": "24",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 25,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    },
+    {
+      "block_id": "12_handwritten_letter_json_02_b0026",
+      "coordinates": {
+        "x_min": 30.67,
+        "y_min": 1043.06,
+        "x_max": 1007.6,
+        "y_max": 1099.22
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "2026-07",
+      "is_text": true,
+      "order": "25",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "font_size": "15px",
+        "font_family": "\"Local Bradley Hand\", \"Bradley Hand\", \"Marker Felt\", \"Comic Sans MS\", \"Local Arial\", cursive",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 26,
+      "reading_group": "footer",
+      "reading_role": "metadata",
+      "reading_order_confidence": "high"
+    }
+  ],
+  "created_at": "2026-07-03T04:03:38.197Z",
+  "updated_at": "2026-07-03T12:04:24"
+}
