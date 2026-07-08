@@ -1,0 +1,514 @@
+{
+  "image_id": "ce8d8cab-ce8d-8cab-ce8d-ce8d8cabce8d",
+  "file_name": "05_book_page_vertical_tree_02.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "mongolian_vertical_json_tree_v3_v4_split_mix_assets",
+    "language_code": "mn-trad",
+    "language_name": "传统蒙古文",
+    "script_note": "传统蒙古文，竖排从上到下，列从左到右",
+    "template_type": "book_page",
+    "category": "book_page",
+    "variant": 2,
+    "layout_name": "book_page_vertical_tree_02",
+    "document_id": "05_book_page_vertical_tree_02",
+    "title": "书籍页",
+    "doc_no": "MN-V3-05-02",
+    "date": "2026-07-02",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.14,
+    "chinese_topic": "book_page",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 13,
+      "page_width": 809,
+      "page_height": 1408,
+      "body_scroll_width": 809,
+      "body_scroll_height": 1408,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 98,
+        "y": 50,
+        "width": 736,
+        "height": 1368,
+        "enabled": true,
+        "original_width": 980,
+        "original_height": 1500,
+        "content_bbox": {
+          "x_min": 122,
+          "y_min": 74,
+          "x_max": 810,
+          "y_max": 1394
+        },
+        "padding": 24,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.88,
+        "bottom_blank_ratio_before_crop": 0.0707
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL4_finalize_work",
+        "output_version": "VL4",
+        "seed": 2414126199634133549,
+        "family": "clean_scan",
+        "geometry": {
+          "source_size": {
+            "width": 736,
+            "height": 1368
+          },
+          "scale": {
+            "scale": 1.00382,
+            "width": 739,
+            "height": 1373
+          },
+          "rotation": {
+            "angle_degrees": 3.3799,
+            "width": 819,
+            "height": 1415
+          },
+          "translation": {
+            "dx": -1,
+            "dy": 0,
+            "width": 819,
+            "height": 1415
+          },
+          "edge_crop": {
+            "left": 3,
+            "top": 4,
+            "right": 7,
+            "bottom": 3,
+            "width": 809,
+            "height": 1408
+          },
+          "output_size_before_visual": {
+            "width": 809,
+            "height": 1408
+          }
+        },
+        "output_size": {
+          "width": 809,
+          "height": 1408
+        }
+      }
+    },
+    "reading_order_policy": "vertical_lr_columns_top_to_bottom_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "05_book_page_vertical_tree_02_b0002",
+      "coordinates": {
+        "x_min": 21.46,
+        "y_min": 21.47,
+        "x_max": 147.67,
+        "y_max": 1347.04
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "2. ᠳᠤᠷ᠎ᠠ",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 1,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "34px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "body",
+      "reading_role": "title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_02_b0003",
+      "coordinates": {
+        "x_min": 119.66,
+        "y_min": 27.27,
+        "x_max": 227.84,
+        "y_max": 1351.78
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠭᠠᠵᠠᠷ ᠲᠡᠭᠷᠢ ᠵᠢᠨ ᠬᠣᠷᠮᠣᠢ ᠵᠠᠯᠭᠠᠭᠠᠳ ᠭᠠᠩᠭᠠᠩ ᠬᠤᠨ ᠰᠢᠭ᠋ ᠮᠣᠩᠭᠣᠯ ᠭᠡᠷ ᠦᠳ ᠴᠠᠶᠢᠯᠵᠠᠭᠰᠠᠨ ᠪᠣᠭᠣᠷᠣᠯ ᠬᠠᠰᠠᠭ ᠨᠠᠷᠠᠨ ᠤ ᠳᠣᠣᠷ᠎ᠠ ᠴᠥᠷᠭᠡᠯᠡᠭᠡᠳ ᠪᠤᠶᠠᠨᠲᠤ ᠣᠪᠣᠭ᠎。章节末尾附有思考问题；材料选自课堂延伸阅读",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 2,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_02_b0004",
+      "coordinates": {
+        "x_min": 175.78,
+        "y_min": 30.58,
+        "x_max": 283.95,
+        "y_max": 1355.09
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠪᠦᠵᠢᠭᠯᠡᠭᠴᠢ ᠎ᠶᠢᠨ ᠪᠡᠶ᠎ᠡ ᠨᠢ ᠬᠣᠢ ᠰᠠᠯᠬᠢᠨ ᠮᠡᠲᠦ᠍ ᠬᠦᠩᠭᠡᠨ ᠱᠠᠯᠠᠮᠠᠭᠠᠢ ᠡᠷᠭᠢᠯᠳᠦᠳᠡᠭ ᠃ ᠠᠯᠳᠠᠷᠲᠤ ᠪᠦᠵᠢᠭᠴᠢᠨ ᠬᠦᠩ ᠰᠦᠨ ᠳ᠋ᠠᠨᠢᠶᠠᠩ ᠰᠠᠯ。作者采用平实叙述方式；这一节强调语言与文化",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 3,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_02_b0005",
+      "coordinates": {
+        "x_min": 231.89,
+        "y_min": 33.9,
+        "x_max": 340.08,
+        "y_max": 1358.41
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠨᠠᠳᠠ ᠳᠤ ᠪᠣᠯ ᠲᠡᠷᠭᠡᠨ ᠦ ᠪᠤᠯᠤ ᠶᠢ ᠲᠦᠯᠬᠢᠬᠦ ᠳᠦ ᠪᠡᠨ ᠮᠠᠰᠢᠨ ᠤ ᠵᠢᠯᠤᠭᠤ ᠡᠷᠭᠢᠭᠦᠯᠵᠦ ᠶᠠᠪᠤᠭ᠎ᠠ ᠶᠤᠮ ᠰᠢᠭ᠋ ᠠᠮᠠᠨ ᠳᠤ ᠪᠠᠨ ᠮᠠᠰᠢᠨ ᠤ ᠳ。叙述中保留了地方风俗；本页内容用于课外阅读",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 4,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_02_b0006",
+      "coordinates": {
+        "x_min": 288.01,
+        "y_min": 37.21,
+        "x_max": 396.19,
+        "y_max": 1361.72
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠳᠠᠬᠢᠨ ᠲᠤᠭ᠎ᠠ᠃ ᠰᠠᠭᠤᠷᠢ ᠬᠤᠭᠤᠴᠠᠭᠠᠨ ᠤ ᠳᠠᠬᠢᠨ ᠲᠤᠭᠠᠨ ᠤ ᠲᠤᠮᠢᠶ᠎ᠠ᠄ ᠄ /1 × 1 / 872/1 2.3 × 1-15.3 /126 872/1.023 × 84.7 /126 ᠂ ᠪᠤᠳᠤᠪᠠᠯ ᠬᠠᠷᠢᠭᠤᠯᠲᠠ ᠨᠢ ᠪᠠᠷᠤᠭ5.73 ᠪᠠᠢᠵᠤ᠂5 6 ᠳᠠᠬ。这一节强调语言与文化；故事发生在一个普通清晨",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 5,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_02_b0007",
+      "coordinates": {
+        "x_min": 344.12,
+        "y_min": 40.52,
+        "x_max": 452.3,
+        "y_max": 1365.04
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠭᠠᠬᠠᠢ ᠡᠳᠦᠷ ᠬᠤᠷᠢᠮ ᠬᠢᠵᠦ ᠪᠣᠯᠬᠤ ᠦᠭᠡᠢ ᠦᠬᠦᠵᠦ ᠬᠠᠭᠠᠴᠠᠨ᠎ᠠ ᠭᠡᠳᠡᠭ᠃ 2. ᠲᠤᠭᠤᠭ᠎ᠠ ᠪᠠᠨ ᠬᠡᠯᠲᠡᠭᠡᠢ ᠲᠠᠯᠪᠢᠵᠤ ᠪᠣᠯᠬᠤ ᠦᠭᠡᠢ᠂ ᠬᠡᠰᠢᠭ。文中描写了劳动场景；本页内容用于课外阅读",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 6,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_02_b0008",
+      "coordinates": {
+        "x_min": 400.24,
+        "y_min": 43.84,
+        "x_max": 508.42,
+        "y_max": 1368.35
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠲᠡᠭᠷᠢ ᠶᠢᠨ ᠮᠦᠩᠬᠡ ᠪᠡᠷ ᠮᠦᠩᠬᠡᠷᠡᠭᠰᠡᠨ ᠤᠳᠤᠮ ᠴᠢᠨᠢ ᠮᠤᠩᠭᠤᠯ ᠪᠤᠯᠬᠤᠷ ᠳᠡᠯᠡᠬᠡᠢ ᠶᠢᠨ ᠠᠭᠤᠳᠠᠮ ᠢᠶᠠᠷ ᠲᠠᠨᠢᠭᠰᠠᠨ ᠨᠤᠲᠤᠭ ᠴᠢᠨᠢ ᠮᠤᠩᠭᠤᠯ ᠪᠤᠯᠬᠤᠷ ᠲᠡᠦᠬᠡ ᠶᠢᠨ ᠦᠷᠭᠡᠨ ᠳᠦ ᠠᠷᠢᠭᠤᠯᠤᠭᠰᠠᠨ ᠲᠣᠣᠯᠢ ᠴᠢᠨᠢ ᠮᠣᠩᠭᠣᠯ ᠪᠣᠯ。作者在这里说明背景；读者需要注意时间线索",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 7,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_02_b0009",
+      "coordinates": {
+        "x_min": 456.36,
+        "y_min": 47.15,
+        "x_max": 564.53,
+        "y_max": 1371.66
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠵᠡᠭᠦᠳᠦ ᠪᠣᠯᠣᠭᠰᠠᠨ ᠥᠴᠥᠭᠡᠳᠦᠷ ᠢᠶᠡᠨ ᠮᠠᠷᠲᠠ᠂ ᠵᠥᠪᠬᠡᠨ ᠲᠠ ᠥᠨᠥᠳᠥᠷ ᠢᠶᠡᠨ ᠬᠠᠢᠷᠠᠯᠠ᠃ ᠴᠥᠬᠥᠷᠡᠭᠡᠳ ᠪᠠᠢᠭ᠎ᠠ ᠰᠡᠳᠬᠢᠯ ᠢᠶᠡᠨ ᠵᠠᠰᠠ᠂ ᠴᠥᠬᠡ。读者需要注意时间线索；章节末尾附有思考问题",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 8,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_02_b0010",
+      "coordinates": {
+        "x_min": 512.47,
+        "y_min": 50.47,
+        "x_max": 620.66,
+        "y_max": 1374.98
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠬᠦᠭᠵᠢᠨ ᠮᠠᠨᠳᠤᠭᠰᠠᠨ ᠦᠨᠦᠳᠦᠷ ᠦᠨ ᠠᠯᠢᠪᠠ ᠪᠦᠬᠦᠨ ᠢ ᠬᠦᠳᠡᠯᠮᠦᠷᠢ ᠣᠯᠭᠣᠭᠰᠠᠨ ᠨᠢ ᠦᠨᠡᠨ ᠪᠦᠭᠡᠳ ᠬᠦᠰᠡᠭᠰᠡᠨ ᠳᠤᠷᠠᠯᠠᠭᠰᠠᠨ ᠮᠠᠷᠭᠠᠰᠢ ᠶᠢᠨ ᠰᠠᠢᠬᠠᠨ ᠢ ᠬᠦᠳᠡᠯᠮᠦᠷᠢ ᠡᠭᠦᠳᠬᠦ ᠨᠢ。材料选自课堂延伸阅读；作者采用平实叙述方式",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 9,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_02_b0011",
+      "coordinates": {
+        "x_min": 568.59,
+        "y_min": 53.78,
+        "x_max": 676.77,
+        "y_max": 1378.29
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠪᠢ ᠤᠯᠠᠨ ᠪᠤᠷᠬᠠᠳ ᠢ ᠥᠭᠡᠳᠡ ᠡᠴᠡ ᠨᠢ ᠬᠠᠷᠠᠵᠤ ᠤᠳᠠᠭᠠᠨ ᠰᠠᠭᠤᠭᠰᠠᠨ ᠨᠢᠭᠡ ᠴᠤ ᠨᠠᠳᠠ ᠤᠷᠤᠭᠤ ᠬᠠᠷᠠᠵᠤ ᠢᠨᠢᠶᠡᠬᠦ ᠦᠭᠡᠢ ᠲᠡᠭᠡᠭ᠍ᠰᠡᠨ ᠮᠢᠨᠦ。作者在这里说明背景；请结合上下文理解含义",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 10,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_02_b0012",
+      "coordinates": {
+        "x_min": 624.7,
+        "y_min": 57.1,
+        "x_max": 732.88,
+        "y_max": 1381.61
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠡᠷᠴᠢᠮᠲᠦ ᠨᠠᠴᠢᠨ ᠤ ᠵᠢᠭᠦᠷ ᠪᠣᠯᠣᠭᠰᠠᠨ ᠡᠷᠭᠢᠬᠦ ᠬᠠᠰᠠᠭ ᠲᠡᠷᠭᠡᠨ ᠢ ᠬᠠᠳᠠᠬᠠᠯᠠᠭᠰᠠᠨ ᠡᠷᠡᠬᠡᠢ ᠳ᠋ᠡᠭᠡᠨ ᠶᠡᠬᠡ ᠮᠡᠷᠭᠡᠨ ᠡᠪᠴᠢᠭᠦᠨ ᠳ᠋ᠠᠬᠡᠨ ᠶᠡᠭᠡ ᠵᠢᠷᠦᠬᠡᠲᠦ ᠣᠮᠣᠭ ᠲᠤ ᠲᠥᠷᠥᠭ᠍ᠰᠡᠨ ᠡᠵᠡᠨ ᠦ ᠠᠬᠤᠯᠠ ᠮᠡᠲᠤ ᠴᠠᠬᠠᠨ ᠭᠡᠷ。章节末尾附有思考问题；这一节强调语言与文化",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 11,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "05_book_page_vertical_tree_02_b0013",
+      "coordinates": {
+        "x_min": 680.82,
+        "y_min": 60.41,
+        "x_max": 789.0,
+        "y_max": 1384.92
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠦᠨᠡᠮᠯᠡᠯ ᠰᠣᠷᠣᠭᠴᠢ ᠪᠣᠯ ᠬᠣᠰᠢᠭᠤᠨ ᠤ ᠬᠥᠮᠥᠨ ᠮᠥᠬᠥᠨ᠃ ᠡᠨᠡ ᠵᠢᠯ ᠨᠠᠰᠤᠲᠠᠢ᠃ ᠲᠣᠰ ᠰᠤᠷᠭᠠᠭᠤᠯᠢ ᠶᠢᠨ ᠰᠤᠷᠤᠯᠭ᠎ᠠ ᠶᠢᠨ ᠲᠡᠭᠦᠰᠭᠡᠭᠡᠳ᠂ ᠬᠢᠷᠢ ᠳᠦ ᠲᠡᠩᠴᠢᠭ᠍ᠰᠡᠨ ᠲᠤᠯᠠ ᠦᠨᠡᠮᠯᠡᠯ ᠣᠯᠭᠣᠪ。人物关系在本节逐步展开；读者需要注意时间线索",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 12,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    }
+  ],
+  "created_at": "2026-07-06T03:04:52.443Z",
+  "updated_at": "2026-07-06T11:06:00"
+}

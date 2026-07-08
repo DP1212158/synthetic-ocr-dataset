@@ -1,0 +1,626 @@
+{
+  "image_id": "36ecb6c6518f797b",
+  "file_name": "06_textbook_page_omni_01.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "omnidocbench_vl6_generator_v1",
+    "template_source": "omnidocbench",
+    "omnidocbench_template_id": "omni_00108_216f62ea1884e6b7",
+    "omnidocbench_index": 108,
+    "omnidocbench_image_path": "page-59ff417b-63b3-40a4-a6ac-8fc2cdf71b5f.png",
+    "omnidocbench_data_source": "colorful_textbook",
+    "language_code": "mn-trad",
+    "language_name": "传统蒙古文",
+    "script_note": "传统蒙古文，竖排从上到下，列从左到右",
+    "category": "textbook_page",
+    "category_cn": "教科书页",
+    "document_id": "06_textbook_page_omni_01",
+    "reading_order_policy": "omnidocbench_order_multicolumn_ltr_v1",
+    "filtered_blocks": 5,
+    "equation_blocks_filtered": 0,
+    "structure_blocks_non_ocr": 0,
+    "block_status_counts": {
+      "filtered": 5,
+      "text": 22
+    },
+    "source_records": "/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/蒙古语/01_文本数据获取_20260702/data/vl3_long_text_sources/records.jsonl"
+  },
+  "blocks": [
+    {
+      "block_id": "06_textbook_page_omni_01_b0001",
+      "coordinates": {
+        "x_min": 463.6,
+        "y_min": 338.7,
+        "x_max": 710.8,
+        "y_max": 396.8
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "6. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠬᠣᠯᠪᠣᠬᠤ ᠦᠭᠡ ᠵᠢᠨ ᠣᠨᠴᠠᠯᠢᠭ ᠰᠢᠨᠵᠢ᠂ ᠲᠥᠷᠥᠯ ᠵᠦᠢᠯ ᠢ ᠵᠢᠱᠢᠶ᠎ᠡ ᠲᠠᠢ ᠶᠠᠷᠢ᠃",
+      "is_text": true,
+      "reading_order": 1,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 1,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 4,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": "box_id_1",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0002",
+      "coordinates": {
+        "x_min": 145.5,
+        "y_min": 1165.2,
+        "x_max": 374.0,
+        "y_max": 1209.6
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "2. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠳᠠᠭᠠᠪᠤᠷᠢ ᠦᠭᠡ ᠵᠢᠨ ᠣᠨᠴᠠᠯᠢᠭ ᠰᠢᠨᠵᠢ᠂ ᠲᠥᠷᠥᠯ ᠵᠦᠢᠯ ᠢ ᠵᠢᠱᠢᠶ᠎ᠡ ᠲᠠᠢ ᠶᠠᠷᠢ᠃",
+      "is_text": true,
+      "reading_order": 2,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 2,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 18,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": "box_id_4",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0003",
+      "coordinates": {
+        "x_min": 117.1,
+        "y_min": 492.2,
+        "x_max": 1118.6,
+        "y_max": 587.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "3. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠰᠤᠯᠠ ᠦᠭᠡ ᠵᠢᠨ ᠣᠨᠴᠠᠯᠢᠭ ᠰᠢᠨᠵᠢ᠂ ᠲᠥᠷᠥᠯ ᠵᠦᠢᠯ ᠢ ᠵᠢᠱᠢᠶ᠎ᠡ ᠲᠠᠢ ᠶᠠᠷᠢ᠃",
+      "is_text": true,
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 3,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 5,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box_id_2",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0004",
+      "coordinates": {
+        "x_min": 122.4,
+        "y_min": 753.4,
+        "x_max": 195.1,
+        "y_max": 797.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "1. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ",
+      "is_text": true,
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 4,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 6,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box_id_3",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0005",
+      "coordinates": {
+        "x_min": 218.0,
+        "y_min": 600.7,
+        "x_max": 354.4,
+        "y_max": 641.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "9. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠬᠠᠨᠳᠤᠯᠭ᠎ᠠ ᠦᠭᠡ ᠪᠠ ᠲᠠᠶᠢᠪᠤᠷᠢ",
+      "is_text": true,
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 5,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 7,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box-9g594wnl",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0006",
+      "coordinates": {
+        "x_min": 225.2,
+        "y_min": 675.4,
+        "x_max": 353.0,
+        "y_max": 708.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠲᠡᠮᠦᠷ ᠠᠶᠠᠭ᠎ᠠ᠄ ᠲᠣᠳᠣᠳᠬᠠᠯ",
+      "is_text": true,
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 6,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 8,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box-6hlwmv4u",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0007",
+      "coordinates": {
+        "x_min": 226.6,
+        "y_min": 902.3,
+        "x_max": 345.8,
+        "y_max": 951.5
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠵᠤᠤ ᠢᠤᠢ ᠬᠠᠢ᠂ ᠢᠯᠠᠯᠠᠲᠠ᠂ ᠪᠦᠷᠭᠦᠳ ᠪᠤᠳᠠᠭ᠎ᠠ ᠢᠳᠡᠬᠦ ᠪᠡᠷ",
+      "is_text": true,
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 7,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 9,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box-1u637eh6",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0008",
+      "coordinates": {
+        "x_min": 374.5,
+        "y_min": 727.6,
+        "x_max": 496.6,
+        "y_max": 766.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠨᠢᠭᠡ ᠵᠡᠷᠭᠡᠴᠡᠭ᠍ᠰᠡᠨ ᠬᠠᠷᠢᠴᠠᠭ᠎ᠠ ᠬᠡᠯᠡᠨ ᠦ",
+      "is_text": true,
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 8,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 10,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box-r06iqih2",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0009",
+      "coordinates": {
+        "x_min": 374.5,
+        "y_min": 782.8,
+        "x_max": 561.2,
+        "y_max": 814.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠶᠢᠨ ᠵᠦᠢ ᠶᠢᠨ ᠬᠣᠯᠪᠣᠭᠠᠨ ᠤ ᠬᠠᠷᠢᠴᠠᠭ᠎ᠠ᠄",
+      "is_text": true,
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 9,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 11,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box-rkd81t49",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0010",
+      "coordinates": {
+        "x_min": 367.4,
+        "y_min": 836.6,
+        "x_max": 575.6,
+        "y_max": 879.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠴᠡᠪᠡᠷ ᠠᠰᠠᠭᠤᠬᠤ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠨᠠᠢᠢᠷᠠᠭᠤᠯᠭ᠎ᠠ ᠶᠢᠨ ᠠᠰᠠᠭᠤᠬᠤ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠵᠠᠬᠢᠷᠤᠨ ᠠᠰᠠᠭᠤᠬᠤ",
+      "is_text": true,
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 10,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 12,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box-auu8msov",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0011",
+      "coordinates": {
+        "x_min": 374.5,
+        "y_min": 887.3,
+        "x_max": 602.9,
+        "y_max": 923.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠨᠢᠭᠡ ᠴᠡᠪᠡᠷ ᠠᠰᠠᠭᠤᠬᠤ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠶᠠᠮᠠᠷ ᠨᠢᠭᠡᠨ ᠬᠡᠷᠡᠭ ᠪᠣᠳᠠᠰ ᠤᠨ ᠲᠤᠬᠠᠢ",
+      "is_text": true,
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 11,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 13,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box-abum58cg",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0012",
+      "coordinates": {
+        "x_min": 371.7,
+        "y_min": 942.6,
+        "x_max": 1071.0,
+        "y_max": 972.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠠᠰᠠᠭᠤᠬᠤ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠳᠤ ᠥᠪᠡᠷ ᠢᠶᠡᠨ ᠥᠪᠡᠷ ᠡᠴᠡ ᠪᠡᠨ ᠠᠰᠠᠭᠤᠭᠰᠠᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠪᠠᠰᠠ ᠪᠠᠭᠲᠠᠨ᠎ᠠ᠃",
+      "is_text": true,
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 12,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 14,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box-2fztf85w",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0013",
+      "coordinates": {
+        "x_min": 377.4,
+        "y_min": 987.4,
+        "x_max": 1092.5,
+        "y_max": 1020.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠠᠰᠠᠭᠤᠬᠤ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠶᠢ ᠳᠣᠲᠣᠷ᠎ᠠ ᠨᠢ ᠣᠨᠴᠠᠭᠠᠢᠯᠠᠨ ᠠᠰᠠᠭᠤᠭᠰᠠᠨ᠂ ᠰᠤᠩᠭᠤᠵᠤ ᠠᠰᠠᠭᠤᠭᠰᠠᠨ᠂ ᠲᠤᠲᠤᠷᠬᠠᠢᠯᠠᠵᠤ ᠠᠰᠠᠭᠤᠭᠰᠠᠨ ᠭᠡᠬᠦ ᠮᠡᠲᠦ ᠴᠢᠨᠠᠭᠰᠢᠳᠠ ᠨᠠᠷᠢᠨ ᠠᠩᠭᠢᠯᠠᠵᠤ ᠪᠣᠯᠣᠨ᠎ᠠ᠃ ᠬᠡᠨ᠂ ᠶᠠᠭᠤ᠂ ᠠᠯᠢ᠂ ᠶᠠᠮᠠᠷ᠂ ᠬᠢᠷᠢ᠂ ᠬᠡᠳᠦ᠂ ᠬᠡᠳᠦᠢ᠂",
+      "is_text": true,
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 13,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 15,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box-rlsad8ma",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0014",
+      "coordinates": {
+        "x_min": 380.3,
+        "y_min": 1041.1,
+        "x_max": 440.6,
+        "y_max": 1076.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠠᠴᠢ ᠶᠢ ᠮᠡᠳᠡᠭ᠍ᠰᠡᠨ",
+      "is_text": true,
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 14,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 16,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box-bq8hh68n",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0015",
+      "coordinates": {
+        "x_min": 374.5,
+        "y_min": 1097.8,
+        "x_max": 604.3,
+        "y_max": 1121.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠭᠠᠭᠴᠠ ᠪᠦᠯᠦᠭ᠍ᠲᠦ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠶᠢᠨ ᠥᠭᠦᠯᠡᠬᠦᠨ ᠦ",
+      "is_text": true,
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 15,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 17,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box-jbeztkn9",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0016",
+      "coordinates": {
+        "x_min": 217.6,
+        "y_min": 1276.6,
+        "x_max": 556.6,
+        "y_max": 1343.6
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "4. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠪᠠᠲᠤᠯᠠᠬᠤ ᠰᠤᠯᠠ ᠦᠭᠡ ᠨᠦᠭᠦᠳ ᠨᠢ ᠬᠣᠭᠣᠷᠣᠨᠳᠣ ᠪᠠᠨ ᠶᠠᠮᠠᠷ ᠢᠯᠭᠠᠭ᠎ᠠ ᠲᠠᠢ ᠪᠠᠶᠢᠳᠠᠭ ᠪᠤᠢ",
+      "is_text": true,
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 16,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 20,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box_id_5",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0017",
+      "coordinates": {
+        "x_min": 189.3,
+        "y_min": 1370.9,
+        "x_max": 1081.0,
+        "y_max": 1415.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "5. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠦᠭᠡᠶᠢᠰᠬᠡᠬᠦ ᠰᠤᠯᠠ ᠦᠭᠡ ᠨᠦᠭᠦᠳ ᠨᠢ ᠬᠣᠭᠣᠷᠣᠨᠳᠣ ᠪᠠᠨ ᠶᠠᠮᠠᠷ ᠢᠯᠭᠠᠭ᠎ᠠ ᠲᠠᠢ ᠪᠠᠶᠢᠳᠠᠭ ᠪᠤᠢ",
+      "is_text": true,
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 17,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 21,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box_id_6",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0018",
+      "coordinates": {
+        "x_min": 187.9,
+        "y_min": 1426.2,
+        "x_max": 643.1,
+        "y_max": 1468.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠨᠢᠭᠡ ᠭᠠᠭᠴᠠ ᠪᠦᠯᠦᠭ᠍ᠲᠦ ᠡᠩ ᠦᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠵᠥᠪᠬᠡᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠶᠢᠨ ᠭᠣᠣᠯᠯᠠᠬᠤ ᠦᠭᠡ ᠪᠡᠷ ᠯᠡ ᠥᠭᠦᠯᠡᠬᠦᠨ ᠦ ᠰᠢᠨᠵᠢ ᠶᠢ ᠢᠯᠡᠳᠬᠡᠵᠤ ᠪᠠᠢᠳᠠᠭ᠃ ᠡᠢᠮᠤ ᠡᠩ ᠦᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠶᠢ ᠵᠢᠭᠠᠨ᠎ᠠ᠃ ᠪᠦᠲᠦᠴᠡ ᠪᠡᠷ",
+      "is_text": true,
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 18,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 22,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box-47sgv8wy",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0019",
+      "coordinates": {
+        "x_min": 190.7,
+        "y_min": 1483.1,
+        "x_max": 526.8,
+        "y_max": 1518.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "7. ᠡᠰᠡᠷᠭᠦ ᠲᠠᠯ᠎ᠠ ᠶᠢᠨ ᠳᠦᠷᠢ᠃ ᠵᠢᠩᠭᠠᠷ ᠤᠨ ᠲᠤᠤᠯᠢ ᠳᠡᠬᠢ ᠡᠰᠡᠷᠭᠦ ᠲᠠᠯ᠎ᠠ ᠶᠢᠨ ᠳᠦᠷᠢ ᠶᠢ ᠳᠣᠲᠣᠷ᠎ᠠ ᠨᠢ ᠪᠠᠰᠠ ᠮᠠᠩᠭᠤᠰ ᠤᠨ",
+      "is_text": true,
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 19,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 23,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box-q16cf3zy",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0020",
+      "coordinates": {
+        "x_min": 185.0,
+        "y_min": 1535.3,
+        "x_max": 486.6,
+        "y_max": 1568.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠵᠢᠩᠭᠠᠷ ᠤᠨ ᠲᠤᠤᠯᠢ ᠳᠤ ᠭᠠᠷᠬᠤ ᠡᠰᠡᠷᠭᠦ ᠲᠠᠯ᠎ᠠ ᠶᠢᠨ ᠳᠦᠷᠢ ᠶᠢᠨ ᠣᠯᠠᠩᠬᠢ ᠨᠢ ᠪᠣᠯ ᠪᠤᠮᠪᠠ ᠶᠢᠨ ᠣᠷᠣᠨ ᠤ",
+      "is_text": true,
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 20,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 24,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box-d09a2axz",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0021",
+      "coordinates": {
+        "x_min": 189.3,
+        "y_min": 1577.0,
+        "x_max": 490.9,
+        "y_max": 1620.3
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠵᠢᠩᠭᠠᠷ ᠤᠨ ᠲᠤᠤᠯᠢ ᠳᠠᠬᠢ ᠳᠡᠭᠡᠷᠡᠬᠢ ᠡᠲᠡᠭᠡᠷ ᠣᠯᠠᠨ ᠵᠦᠢᠯ ᠤᠨ ᠤᠷᠠᠨ ᠳᠦᠷᠢ ᠨᠦᠭᠦᠳ ᠢ ᠴᠢᠨᠠᠭᠰᠢᠳᠠ ᠪᠠᠰᠠ ᠤᠯᠠᠷᠢᠯ ᠬᠥᠭᠵᠢᠯ ᠤᠨ ᠬᠢᠨᠢ",
+      "is_text": true,
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 21,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 25,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": "box-2jke6fdn",
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "06_textbook_page_omni_01_b0022",
+      "coordinates": {
+        "x_min": 107.1,
+        "y_min": 1660.9,
+        "x_max": 159.6,
+        "y_max": 1691.6
+      },
+      "points": null,
+      "block_label": "page_number",
+      "block_content": "7. ᠮᠣᠩᠭᠣᠯ",
+      "is_text": true,
+      "reading_order": 22,
+      "reading_group": "page_number",
+      "reading_role": "page_number",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "06_教科书页:omni",
+      "reading_flow_rank": 22,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 26,
+        "omnidocbench_category_type": "page_number",
+        "omnidocbench_anno_id": "box_id_7",
+        "template_source": "omnidocbench"
+      }
+    }
+  ],
+  "created_at": "2026-07-06T20:11:05",
+  "updated_at": "2026-07-06T20:11:05"
+}

@@ -1,0 +1,548 @@
+{
+  "image_id": "5fa04a0e-5fa0-4a0e-5fa0-5fa04a0e5fa0",
+  "file_name": "10_notice_announcement_vertical_tree_04.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "mongolian_vertical_json_tree_v3_v4_split_mix_assets",
+    "language_code": "mn-trad",
+    "language_name": "传统蒙古文",
+    "script_note": "传统蒙古文，竖排从上到下，列从左到右",
+    "template_type": "notice_announcement",
+    "category": "notice_announcement",
+    "variant": 4,
+    "layout_name": "notice_announcement_vertical_tree_04",
+    "document_id": "10_notice_announcement_vertical_tree_04",
+    "title": "公告通知",
+    "doc_no": "MN-V3-10-04",
+    "date": "2026-07-02",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "mixed",
+    "target_cjk_ratio": 0.18,
+    "chinese_topic": "notice_announcement",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 13,
+      "page_width": 775,
+      "page_height": 1179,
+      "body_scroll_width": 775,
+      "body_scroll_height": 1179,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 126,
+        "y": 94,
+        "width": 701,
+        "height": 1128,
+        "enabled": true,
+        "original_width": 960,
+        "original_height": 1360,
+        "content_bbox": {
+          "x_min": 150,
+          "y_min": 118,
+          "x_max": 803,
+          "y_max": 1198
+        },
+        "padding": 24,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.7941,
+        "bottom_blank_ratio_before_crop": 0.1191
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL4_finalize_work",
+        "output_version": "VL4",
+        "seed": 18085916784287480952,
+        "family": "compressed_scan",
+        "geometry": {
+          "source_size": {
+            "width": 701,
+            "height": 1128
+          },
+          "scale": {
+            "scale": 1.0102,
+            "width": 708,
+            "height": 1140
+          },
+          "rotation": {
+            "angle_degrees": -3.7688,
+            "width": 782,
+            "height": 1185
+          },
+          "translation": {
+            "dx": 4,
+            "dy": -3,
+            "width": 782,
+            "height": 1185
+          },
+          "edge_crop": {
+            "left": 5,
+            "top": 5,
+            "right": 2,
+            "bottom": 1,
+            "width": 775,
+            "height": 1179
+          },
+          "output_size_before_visual": {
+            "width": 775,
+            "height": 1179
+          }
+        },
+        "output_size": {
+          "width": 775,
+          "height": 1179
+        }
+      }
+    },
+    "reading_order_policy": "vertical_lr_columns_top_to_bottom_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "10_notice_announcement_vertical_tree_04_b0002",
+      "coordinates": {
+        "x_min": 24.78,
+        "y_min": 57.01,
+        "x_max": 159.0,
+        "y_max": 1149.79
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢ 申请",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 0,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "34px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "body",
+      "reading_role": "title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_vertical_tree_04_b0003",
+      "coordinates": {
+        "x_min": 157.95,
+        "y_min": 82.9,
+        "x_max": 251.25,
+        "y_max": 1072.62
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠤᠳ ᠤᠨᠢ ᠮᠡᠲᠦ ᠵᠦᠭ ᠪᠦᠷᠢ ᠳᠦ ᠵᠤᠷᠠᠢᠪᠠ᠃ ᠷ ᠂ ᠴᠣᠢᠨᠣᠮ ᠎ᠤᠨ ᠮᠣᠷᠢ ᠤᠷᠭᠠᠯᠠᠬᠤ。报名名单将在公告栏更新",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 1,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_vertical_tree_04_b0004",
+      "coordinates": {
+        "x_min": 203.31,
+        "y_min": 79.91,
+        "x_max": 296.62,
+        "y_max": 1069.63
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "1. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠲᠠᠶᠢᠪᠤᠷᠢ ᠦᠭᠡ ᠵᠢᠨ ᠣᠨᠴᠠᠯᠢᠭ ᠰᠢᠨᠵᠢ ᠂ ᠲᠥᠷᠥᠯ ᠵᠦᠶᠯ ᠢ ᠵᠢᠱᠢ。现场审核需要携带证件",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 2,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_vertical_tree_04_b0005",
+      "coordinates": {
+        "x_min": 248.68,
+        "y_min": 76.92,
+        "x_max": 341.98,
+        "y_max": 1066.64
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠴᠢᠨᠢ ᠦᠪᠡᠷ ᠦᠨ ᠢᠶᠡᠨ ᠬᠦᠰᠢᠶ᠎ᠡ ᠶᠢ ᠦᠪᠡᠷ ᠢᠶᠡᠨ ᠡᠨᠡ ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡ ᠪᠡᠷ ᠪᠣᠰ。报名名单将在公告栏更新",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 3,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_vertical_tree_04_b0006",
+      "coordinates": {
+        "x_min": 294.04,
+        "y_min": 73.94,
+        "x_max": 387.33,
+        "y_max": 1063.65
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠰᠦᠩ ᠤᠯᠤᠰ ᠤᠨ ᠬᠦᠮᠦᠰ ᠲᠡᠳᠡ ᠬᠣᠶᠠᠷ ᠤᠨ ᠬᠢᠴᠢᠶᠡᠩᠭᠦᠢ ᠦᠰᠦᠭ ᠢᠶᠡᠷ ᠬᠡᠪᠯᠡᠯ。联系人信息见页面下方",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 4,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_vertical_tree_04_b0007",
+      "coordinates": {
+        "x_min": 339.4,
+        "y_min": 70.95,
+        "x_max": 432.69,
+        "y_max": 1060.67
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠲᠠᠪᠤᠯᠵᠢᠯᠠᠭᠠᠳ ᠬᠠᠷᠠᠭᠳᠠᠬᠤ ᠪᠠᠷ᠎ᠠ ᠨᠢ ᠬᠥ᠋ ᠲᠠᠨᠢᠯᠴᠠᠭᠰᠠᠨ ᠠᠮᠠᠷᠠᠭ ᠤᠨ ᠮᠢᠨ。联系人信息见页面下方",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 5,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_vertical_tree_04_b0008",
+      "coordinates": {
+        "x_min": 384.76,
+        "y_min": 67.96,
+        "x_max": 478.05,
+        "y_max": 1057.68
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠠᠷᠠᠳ ᠤᠨ ᠳᠠᠭᠤᠤ ᠲᠠᠢ ᠮᠣᠩᠭᠣᠯ ᠣᠷᠣᠨ ᠤ ᠮᠢᠨᠢ ᠴᠢᠯᠠᠭᠤ ᠨᠢ ᠠᠮᠢ ᠲᠠᠢ ᠪᠠᠢ。公告事项自发布之日起执行",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 6,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_vertical_tree_04_b0009",
+      "coordinates": {
+        "x_min": 430.12,
+        "y_min": 64.97,
+        "x_max": 523.41,
+        "y_max": 1054.69
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "19. ᠦᠭᠡ ᠬᠤᠪᠢᠯᠭᠠᠬᠤ ᠲᠠᠭᠠᠪᠤᠷᠢ ᠪᠦᠷᠢᠨ ᠵᠦᠪ ᠬᠠᠷᠢᠭᠤᠯᠲᠠ ᠶᠢᠨ ᠳ᠋ᠤᠭᠠᠷ ᠲᠡᠮᠳᠡᠭ ᠳᠤᠤᠷᠠᠬᠢ ᠬᠠᠭᠠᠯᠲᠠ ᠪᠢᠴᠢ᠃ ᠦᠭᠭ。咨询时间为工作日上午",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 7,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_vertical_tree_04_b0010",
+      "coordinates": {
+        "x_min": 475.48,
+        "y_min": 61.98,
+        "x_max": 568.78,
+        "y_max": 1051.7
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠯᠠᠪᠯᠠᠬᠤ ᠬᠠᠷᠢᠭᠤᠯᠲᠠ 《 ᠵᠠᠰᠠᠭ ᠵᠠᠬᠢᠷᠭᠠᠨ ᠎ᠤ ᠠᠵᠢᠯ ᠮᠡᠷᠭᠡᠵᠢᠯ ᠎ᠦᠨ ᠴᠢᠳᠠᠪᠤᠷᠢ。如遇特殊情况另行说明",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 8,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_vertical_tree_04_b0011",
+      "coordinates": {
+        "x_min": 520.84,
+        "y_min": 59.0,
+        "x_max": 614.14,
+        "y_max": 1048.71
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠭᠡᠪᠡᠯ ᠂ ᠬᠣᠪᠳᠣᠭ ᠰᠢᠨᠤᠬᠠᠢ ᠂ ᠬᠡᠷᠴᠡᠭᠡᠢ ᠲᠦᠷᠢᠮᠡᠬᠡᠢ ᠂ ᠪᠠᠯᠠᠮᠠᠳ ᠳᠣᠭᠰᠢᠨ ᠪᠠᠢ。办理地点设在综合服务窗口",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 9,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_vertical_tree_04_b0012",
+      "coordinates": {
+        "x_min": 566.2,
+        "y_min": 56.01,
+        "x_max": 659.5,
+        "y_max": 1045.73
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "①ᠴᠡᠮᠴᠡᠭᠡᠨᠡᠬᠦ ᠊᠊᠊᠊᠊ ᠴᠡᠪᠡᠷᠴᠢᠯᠡᠬᠦ᠌ ᠂ ᠭᠣᠶᠣᠮᠰᠣᠭᠯᠠᠬᠣ ᠃ ②ᠱᠠᠯᠢᠲᠠᠢ ᠊᠊᠊᠊ ᠣᠯᠢᠭᠲ。公示期间接受群众监督",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 10,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_vertical_tree_04_b0013",
+      "coordinates": {
+        "x_min": 611.56,
+        "y_min": 53.02,
+        "x_max": 704.86,
+        "y_max": 1042.74
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠱᠠᠨ ᠡᠷᠬᠢᠯᠡᠭᠴᠢ ᠡᠮᠴᠢ᠂ ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠣᠯᠠᠨ ᠤᠯᠤᠰ ᠤᠨ ᠮᠣᠩᠭᠣᠯ ᠡᠮᠨᠡᠯᠭᠡ。申请材料需保持完整",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 11,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "10_notice_announcement_vertical_tree_04_b0014",
+      "coordinates": {
+        "x_min": 656.92,
+        "y_min": 50.03,
+        "x_max": 750.22,
+        "y_max": 1039.75
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠳ᠋ᠠ》 ᠭᠡᠵᠦ ᠪᠣᠳᠣᠭᠰᠠᠨ ᠪᠣᠯᠪᠠᠴᠤ ᠪᠠᠰᠠ ᠴᠤ ᠬᠡᠯᠡᠭᠰᠡᠨ ᠦᠭᠡᠨ ᠳᠦ ᠨᠢ ᠪᠡᠷᠲᠡᠭ。办理地点设在综合服务窗口",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 12,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "list_item",
+      "reading_order_confidence": "medium"
+    }
+  ],
+  "created_at": "2026-07-06T03:05:26.711Z",
+  "updated_at": "2026-07-06T11:06:19"
+}

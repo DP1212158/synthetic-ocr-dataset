@@ -1,0 +1,648 @@
+{
+  "image_id": "d72ef9cc3be551f8",
+  "file_name": "07_magazine_journal_omni_05.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "omnidocbench_vl6_generator_v1",
+    "template_source": "omnidocbench",
+    "omnidocbench_template_id": "omni_01594_1bd104547004bbb8",
+    "omnidocbench_index": 1594,
+    "omnidocbench_image_path": "magazine_TheEconomist.2024.02.24_page_007.png",
+    "omnidocbench_data_source": "magazine",
+    "language_code": "mn-trad",
+    "language_name": "传统蒙古文",
+    "script_note": "传统蒙古文，竖排从上到下，列从左到右",
+    "category": "magazine_journal",
+    "category_cn": "杂志期刊页",
+    "document_id": "07_magazine_journal_omni_05",
+    "reading_order_policy": "omnidocbench_order_multicolumn_ltr_v1",
+    "filtered_blocks": 2,
+    "equation_blocks_filtered": 0,
+    "structure_blocks_non_ocr": 2,
+    "block_status_counts": {
+      "structure": 2,
+      "text": 21,
+      "filtered": 2
+    },
+    "source_records": "/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/蒙古语/01_文本数据获取_20260702/data/vl3_long_text_sources/records.jsonl"
+  },
+  "blocks": [
+    {
+      "block_id": "07_magazine_journal_omni_05_b0001",
+      "coordinates": {
+        "x_min": 353.9,
+        "y_min": 654.5,
+        "x_max": 469.6,
+        "y_max": 675.6
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠵᠠᠨ ᠽᠢ ᠴᠢᠶᠠᠨ ᠎ᠤ ᠬᠠᠪᠤ",
+      "is_text": true,
+      "reading_order": 1,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 1,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 8,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 9,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0002",
+      "coordinates": {
+        "x_min": 910.3,
+        "y_min": 1211.5,
+        "x_max": 1077.4,
+        "y_max": 1233.3
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠰᠠᠭᠤᠭ᠎ᠠ ᠬᠦᠭᠵᠢᠮᠴᠢᠳ ᠬᠢᠭᠡᠳ ᠵᠤᠭᠰᠤᠭ",
+      "is_text": true,
+      "reading_order": 2,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 2,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 22,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 23,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0003",
+      "coordinates": {
+        "x_min": 74.7,
+        "y_min": 422.7,
+        "x_max": 326.4,
+        "y_max": 955.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "89. ᠨᠡᠢᠯᠡᠮᠡᠯ ᠦᠭᠦᠯᠡᠭᠦᠨ ᠲᠠᠢ ᠦᠭᠦᠯᠡᠪᠦᠷᠢ ᠨᠢ᠄ 1 ᠠᠭᠤᠤ ᠶᠡᠬᠡ ᠮᠤᠩᠭᠤᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠮᠠᠨᠳᠤᠲᠤᠭᠠᠢ᠃ 2 ᠠᠭᠤᠤ ᠶᠡᠬᠡ ᠮᠤᠩᠭᠤᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠮᠠᠨᠳᠤᠬᠤ ᠶᠤᠰᠤᠲᠠᠢ᠃ 3 ᠠᠭᠤᠤ ᠶᠡᠬᠡ ᠮᠤᠩᠭᠤᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠠᠰᠢᠳᠠ ᠮᠠᠨᠳᠤᠲᠤᠭᠠᠢ᠃",
+      "is_text": true,
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 3,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 2,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 3,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0004",
+      "coordinates": {
+        "x_min": 75.1,
+        "y_min": 978.9,
+        "x_max": 328.2,
+        "y_max": 1163.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "93.《 ᠮᠣᠷᠢᠨ ᠲᠡᠷᠭᠡᠨ ᠎ᠳᠦ ᠰᠠᠭᠤᠬᠤ ᠳ᠋ᠠᠭᠠᠨ ᠲᠡᠷᠭᠡᠨ ᠪᠦᠷᠬᠦᠭᠦᠯ ᠪᠣᠰᠭᠠᠭᠤᠯᠳᠠᠭ 》ᠭᠡᠳᠡᠭ ᠦᠭᠦᠯᠡᠪᠦᠷᠢ ᠪᠦᠲᠦᠴᠡ ᠎ᠪᠡᠷ ᠄ 1 ᠨᠡᠢᠯᠡᠮᠡᠯ ᠦᠭᠦᠯᠡᠪᠦᠷᠢ 2 ᠡᠩ ᠦᠭᠦᠯᠡᠪᠦᠷᠢ 3 ᠳᠡᠯᠭᠡᠷᠡᠩᠭᠦᠢ ᠦᠭᠦᠯᠡᠪᠦᠷᠢ 4 ᠭᠠᠭᠴᠠ ᠪᠦᠷᠢᠯᠳᠦᠭᠦᠨᠲᠦ ᠦᠭᠦᠯᠡᠪᠦᠷᠢ",
+      "is_text": true,
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 4,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 3,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 4,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0005",
+      "coordinates": {
+        "x_min": 74.7,
+        "y_min": 1186.9,
+        "x_max": 327.8,
+        "y_max": 1559.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "19. ᠦᠭᠡ ᠬᠤᠪᠢᠯᠭᠠᠬᠤ ᠲᠠᠭᠠᠪᠤᠷᠢ ᠪᠦᠷᠢᠨ ᠵᠦᠪ ᠬᠠᠷᠢᠭᠤᠯᠲᠠ ᠶᠢᠨ ᠳ᠋ᠤᠭᠠᠷ ᠲᠡᠮᠳᠡᠭ ᠳᠤᠤᠷᠠᠬᠢ ᠬᠠᠭᠠᠯᠲᠠ ᠪᠢᠴᠢ᠃ ᠦᠭᠭᠦᠭᠳᠡᠭᠰᠡᠨ ᠨᠢ ᠄",
+      "is_text": true,
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 5,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 4,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 5,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0006",
+      "coordinates": {
+        "x_min": 74.7,
+        "y_min": 1581.1,
+        "x_max": 321.7,
+        "y_max": 1697.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "① ②ᠦᠢᠯᠡ ᠦᠢᠯᠡ ᠦᠢᠯᠡ᠄ ③ᠲᠡᠮᠳᠡᠭ ᠦᠢᠯᠡ ᠦᠢᠯᠡ ᠄ ④ ᠦᠢᠯᠡ ᠦᠢᠯᠡ ⑤ᠦᠢᠯᠡ ᠲᠡᠮᠳᠡᠭ ᠦᠢᠯᠡ ᠨᠡᠷ᠎ᠡ᠄",
+      "is_text": true,
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 6,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 5,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 6,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0007",
+      "coordinates": {
+        "x_min": 352.1,
+        "y_min": 143.6,
+        "x_max": 604.5,
+        "y_max": 283.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "1 ᠣᠷᠣᠨ ᠲᠠᠭᠠᠪᠤᠷᠢ ᠦᠭᠡ᠄ 2 ᠴᠠᠭ ᠤᠨ ᠲᠠᠭᠠᠪᠤᠷᠢ ᠦᠭᠡ ᠄ 3 ᠲᠠᠭᠠᠪᠤᠷᠢ ᠦᠭᠡ᠄ 4 ᠰᠢᠯᠲᠠᠭᠠᠨ ᠲᠠᠭᠠᠪᠤᠷᠢ ᠦᠭᠡ᠄ 5 ᠬᠠᠮᠢᠶᠠᠳᠠᠭᠤᠯᠬᠤ ᠳᠠᠭᠠᠪᠤᠷᠢ ᠦᠭᠡ᠄ 6 ᠬᠤᠷᠢᠶᠠᠬᠤ ᠲᠠᠭᠠᠪᠤᠷᠢ ᠦᠭᠡ ᠄",
+      "is_text": true,
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 7,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 6,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 7,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0008",
+      "coordinates": {
+        "x_min": 351.8,
+        "y_min": 305.6,
+        "x_max": 607.1,
+        "y_max": 606.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "5. ᠣᠷᠣᠨ ᠰᠠᠭᠤᠴᠠ ᠶᠢᠨ ᠲᠠᠯᠠᠪᠠᠢ ᠨᠢ ᠶᠡᠬᠡ ᠂ ᠳᠤᠯᠠᠭᠠᠨ ᠢ ᠬᠠᠳᠠᠭᠠᠯᠠᠬᠤ ᠠᠷᠭ᠎ᠠ ᠬᠡᠮᠵᠢᠶ᠎ᠡ ᠠᠪᠤᠭᠰᠠᠨ ᠦᠭᠡᠢ ᠂ ᠡᠨᠧᠷᠬᠢ ᠵᠠᠷᠤᠴᠠᠭᠤᠯᠬᠤ ᠨᠢ ᠶᠡᠬᠡ ᠃ ᠬᠡᠪᠴᠢᠶᠡᠲᠦ ᠦᠢᠯᠡᠳᠦᠯ ᠢᠶᠡᠷ ᠳᠤᠲᠠᠮᠠᠭ ᠪᠠᠶᠢᠵᠤ᠂ ᠨᠢᠭᠡᠴᠢ ᠥᠪᠡᠷ ᠦᠨ ᠥᠷᠲᠡᠭ ᠨᠢ ᠥᠨᠳᠥᠷ ᠪᠠᠢᠨ᠎ᠠ᠃",
+      "is_text": true,
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 8,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 7,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 8,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0009",
+      "coordinates": {
+        "x_min": 352.5,
+        "y_min": 678.3,
+        "x_max": 606.0,
+        "y_max": 1024.5
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠰᠦᠢ ᠤᠯᠤᠰ ᠤᠨ ᠵᠢᠷᠤᠭᠴᠢᠳ ᠲᠤ ᠵᠠᠨ ᠽᠢ ᠴᠢᠶᠠᠨ ᠬᠠᠮᠤᠭ ᠠᠴᠠ ᠠᠭᠤᠯᠠ ᠠᠯᠳᠠᠷᠲᠠᠢ᠃ ᠲᠡᠷᠡ ᠤᠰᠤ᠂ ᠠᠰᠠᠷ ᠳᠠᠭᠲᠤ᠂ ᠬᠦᠮᠦᠨ ᠳ᠋ᠦ ᠪᠡᠨ ᠵᠢᠷᠤᠬᠤ ᠮᠣᠷᠢ ᠴᠢᠳᠠᠮᠠᠭᠠᠢ ᠶᠤᠮ᠃ ᠲᠦᠯᠦᠭᠡᠯᠡᠭᠴᠢ 《 ᠬᠠᠪᠤᠷ ᠪᠦᠲᠦᠭᠡᠯ ᠪᠣᠯᠬᠤ ᠵᠤᠭᠠᠴᠠᠭᠰᠠᠨ ᠨᠢ ᠵᠢᠷᠤᠭ》 ᠵᠤᠭᠠᠴᠠᠵᠤ ᠬᠦᠮᠦᠰ ᠦᠨ ᠬᠠᠪᠤᠷ ᠪᠠᠢᠭ᠎ᠠ ᠦᠵᠡᠮᠵᠢ ᠪᠠᠢᠳᠠᠯ ᠢ ᠵᠢᠷᠤᠭᠯᠠᠵᠤ᠂ ᠠᠮᠢᠳᠤᠯᠢᠭ ᠤᠯᠤᠰ ᠤᠨ ᠳᠣᠲᠤᠭᠠᠳᠤ ᠳᠤ ᠤᠳᠤ ᠬᠠᠳᠠᠭᠠᠯᠠᠭᠳᠠᠵᠤ ᠪᠠᠢᠭ᠎ᠠ ᠬᠠᠮᠤᠭ ᠠᠭᠤᠯᠠ ᠡᠷᠲᠡᠨ ᠦ ᠤᠵᠤᠭᠤᠷ ᠳᠡᠯᠡᠭ ᠵᠢᠷᠤᠭ ᠤᠰᠤᠨ ᠤ ᠪᠣᠯᠤᠨ᠎ᠠ᠃",
+      "is_text": true,
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 9,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 9,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 10,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0010",
+      "coordinates": {
+        "x_min": 350.0,
+        "y_min": 1328.2,
+        "x_max": 605.3,
+        "y_max": 1696.6
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "①ᠪᠦᠳᠦᠭᠦᠨ ᠵᠢᠷᠤᠯᠭᠠᠲᠤ ᠵᠢᠷᠤᠭ᠂ ᠬᠢᠲᠠᠳ ᠵᠢᠷᠤᠭ ᠤᠨ ᠨᠢᠭᠡ ᠵᠦᠢᠯ ᠦᠨ ᠵᠢᠷᠤᠬᠤ ᠠᠷᠭ᠎ᠠ ᠪᠤᠯᠤᠨ᠎ᠠ᠃ ᠨᠠᠷᠢᠯᠢᠭ ᠵᠢᠷᠤᠬᠤ ᠶᠢ ᠱᠠᠭᠠᠷᠳᠠᠬᠤ ᠦᠭᠡᠢ᠂ ᠣᠪᠤᠷ ᠪᠠᠢᠳᠠᠯ ᠢ ᠴᠢᠬᠤᠯᠠᠴᠢᠯᠠᠳᠠᠭ᠃",
+      "is_text": true,
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 10,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 11,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 12,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0011",
+      "coordinates": {
+        "x_min": 629.9,
+        "y_min": 143.6,
+        "x_max": 878.7,
+        "y_max": 305.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠤᠲᠠᠰᠤ ᠰᠢᠭ᠋᠂ ᠬᠥᠮᠦᠨ ᠦ ᠣᠪᠣᠷ ᠪᠠᠢᠳᠠᠯ ᠳᠦᠷᠢ ᠲᠥᠯᠥᠪ ᠢ ᠭᠦᠢᠴᠡᠳ ᠢᠯᠡᠳᠬᠡᠭᠰᠡᠨ ᠪᠠᠢᠳᠠᠭ ᠳ᠋ᠤᠤ ᠽᠢ ᠶᠢᠨ ᠵᠢᠷᠤᠬᠤ ᠮᠡᠷᠭᠡᠵᠢᠯ ᠨᠢ ᠤᠨᠴᠠ ᠬᠡᠳᠦᠢᠳᠴᠦ᠂ ᠬᠤᠢᠴᠢ ᠦᠶ᠎ᠡ ᠶᠢᠨ ᠬᠢᠨ ᠲᠡᠭᠦᠨ ᠢ ᠵᠢᠷᠤᠭ ᠤᠨ ᠪᠣᠭᠳᠠ ᠭᠡᠵᠡᠢ᠃ ᠲᠡᠭᠦᠨ ᠦ ᠵᠢᠷᠤᠭ ᠨᠢ ᠵᠢᠷᠤᠭᠠᠰᠤᠨ ᠤ ᠬᠤᠪᠢᠷᠠᠯ ᠢ ᠴᠢᠬᠤᠯᠠᠴᠢᠯᠠᠨ᠂ ᠪᠠᠶᠠᠲᠤ ᠲᠦᠷᠦᠭᠳᠡᠯ ᠢᠶᠡᠷ ᠴᠢᠩᠭ᠎ᠠ᠂ ᠤᠷᠭᠢᠯᠤᠮ᠎ᠠ ᠬᠡᠪ ᠨᠠᠮᠪᠠ ᠲᠠᠢ ᠪᠠᠢᠵᠤ᠂ ᠬᠣᠢᠴᠢ ᠦᠶ᠎ᠡ ᠶᠢᠨ ᠪᠦᠳᠦᠭᠦᠨ ᠵᠢᠷᠤᠯᠭᠠᠲᠤ ᠵᠢᠷᠤᠭ ᠤᠨ ᠴᠠᠭ ᠡᠷᠢᠨ ᠢ",
+      "is_text": true,
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 11,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 12,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 13,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0012",
+      "coordinates": {
+        "x_min": 630.3,
+        "y_min": 329.0,
+        "x_max": 879.1,
+        "y_max": 491.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠶᠠᠨ ᠵᠸᠨ ᠴᠢᠩ ᠦᠨ 《 ᠶᠠᠨ ᠣᠪᠣᠭᠲᠣ ᠎ᠶᠢᠨ ᠭᠡᠷ ᠦᠨ ᠰᠦᠮ᠎ᠡ ᠶᠢᠨ ᠬᠦᠰᠢᠶ᠎ᠡ 》",
+      "is_text": true,
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 12,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 13,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 14,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0013",
+      "coordinates": {
+        "x_min": 630.3,
+        "y_min": 514.0,
+        "x_max": 875.8,
+        "y_max": 675.6
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠶᠠᠨ ᠵᠸᠨ ᠴᠢᠩ ᠬᠢᠭᠡᠳ ᠯᠢᠦ ᠭᠦᠩ ᠴᠢᠤᠸᠠᠨ ᠤ ᠬᠢᠴᠢᠶᠡᠩᠭᠦᠢ ᠦᠰᠦᠭ ᠦᠨ ᠪᠦᠲᠦᠴᠡ ᠨᠢ ᠴᠢᠩᠭ᠎ᠠ ᠨᠢᠭᠲᠠ᠂ ᠠᠷᠭ᠎ᠠ ᠪᠠᠷᠢᠯ ᠨᠢ ᠭᠦᠨ ᠨᠠᠷᠢᠨ ᠪᠠᠢᠳᠠᠭ᠃ ᠰᠣᠨᠣᠰᠤᠯᠲᠠ ᠪᠠᠷ ᠰᠦᠩ ᠤᠯᠤᠰ ᠤᠨ ᠬᠦᠮᠦᠰ ᠲᠡᠳᠡ ᠬᠣᠶᠠᠷ ᠤᠨ ᠬᠢᠴᠢᠶᠡᠩᠭᠦᠢ ᠦᠰᠦᠭ ᠢᠶᠡᠷ ᠬᠡᠪᠯᠡᠯ ᠦᠨ ᠦᠰᠦᠭ ᠦᠨ ᠲᠢᠭ ᠪᠣᠯᠭᠠᠵᠤ᠂ ᠰᠦᠩ ᠤᠯᠤᠰ ᠤᠨ ᠲᠢᠭ ᠦᠨ ᠦᠰᠦᠭ ᠭᠡᠵᠡᠢ᠃ ᠮᠠᠨ ᠤ ᠬᠢᠲᠠᠳ ᠰᠤᠷᠬᠤ ᠪᠢᠴᠢᠭ ᠲᠦ ᠶᠡᠬᠡ ᠬᠡᠮᠵᠢᠶᠡᠨ ᠦ ᠰᠦᠩ ᠤᠯᠤᠰ ᠤᠨ ᠲᠢᠭ ᠦᠨ ᠦᠰᠦᠭ ᠪᠤᠢ᠃ ᠴᠢᠨᠦ ᠦᠵᠡᠬᠦ ᠪᠡᠷ",
+      "is_text": true,
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 13,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 14,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 15,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0014",
+      "coordinates": {
+        "x_min": 631.4,
+        "y_min": 699.4,
+        "x_max": 878.0,
+        "y_max": 884.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠶᠠᠨ ᠭᠦᠩ ᠪᠢᠴᠢᠯᠭᠡ ᠶᠢ ᠦᠭᠡᠷᠡᠴᠢᠯᠡᠨ ᠰᠢᠨ᠎ᠡ ᠰᠠᠨᠠᠭ᠎ᠠ ᠶᠢ ᠭᠠᠷᠭᠠᠵᠤᠬᠤᠢ᠂ ᠶᠠᠰᠤᠨ ᠳ᠋ᠤᠷ ᠤᠷᠤᠬᠤ ᠨᠠᠷᠢᠨ ᠰᠢᠷᠪᠤᠰᠤ ᠢᠨᠤ ᠨᠠᠮᠤᠷ ᠤᠨ ᠬᠠᠷᠴᠠᠭᠠᠢ ᠮᠡᠲᠦ᠃",
+      "is_text": true,
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 14,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 15,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 16,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0015",
+      "coordinates": {
+        "x_min": 629.2,
+        "y_min": 905.5,
+        "x_max": 884.5,
+        "y_max": 1206.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠮᠠᠨ ᠤ ᠤᠯᠤᠰ ᠤᠨ ᠤᠷᠠᠨ ᠪᠢᠴᠢᠯᠭᠡ ᠶᠢᠨ ᠲᠡᠦᠬᠡᠨ ᠳᠡᠬᠢ ᠬᠠᠮᠤᠭ ᠤᠨ ᠪᠦᠲᠦᠮᠵᠢᠲᠡᠢ ᠶᠡᠬᠡ ᠤᠷᠠᠨ ᠪᠢᠴᠢᠯᠭᠡᠲᠡᠨ ᠪᠣᠯᠤᠨ᠎ᠠ᠃ ᠯᠢᠦ ᠭᠦᠩ ᠴᠢᠤᠸᠠᠨ ᠤᠯᠠᠨ ᠬᠦᠮᠦᠨ ᠦ ᠳᠠᠪᠠᠭᠤᠯᠢᠭ ᠲᠠᠯ᠎ᠠ ᠶᠢ ᠥᠷᠭᠡᠨ ᠢᠶᠡᠷ ᠰᠤᠷᠤᠯᠴᠠᠨ᠂ ᠤᠨᠳᠤᠤ ᠰᠢᠨ᠎ᠡ ᠰᠠᠨᠠᠭ᠎ᠠ ᠭᠠᠷᠭᠠᠭᠠᠳ《ᠯᠢᠦ ᠶᠢᠨ ᠲᠢᠭ》 ᠢ ᠪᠦᠲᠦᠭᠡᠵᠡᠢ᠃ ᠲᠡᠭᠦᠨ ᠦ ᠦᠰᠦᠭ ᠨᠢ ᠴᠢᠭᠡᠴᠢ ᠭᠠᠩᠭᠠᠩ᠂ ᠶᠠᠰᠤᠯᠢᠭ ᠢᠳᠡᠷᠡᠭᠦᠨ ᠪᠠᠢᠳᠠᠭ᠃",
+      "is_text": true,
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 15,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 16,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 17,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0016",
+      "coordinates": {
+        "x_min": 630.3,
+        "y_min": 1233.7,
+        "x_max": 885.6,
+        "y_max": 1558.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠡᠸᠦ ᠵᠠᠩ ᠰᠢᠶᠦ᠋ᠨ ᠪᠣᠯ ᠰᠦᠢ ᠤᠯᠤᠰ ᠠᠴᠠ ᠳᠠᠩ ᠤᠯᠤᠰ ᠲᠤ ᠰᠢᠯᠵᠢᠬᠦ ᠦᠶ᠎ᠡ ᠶᠢᠨ ᠤᠷᠠᠨ ᠪᠢᠴᠢᠯᠭᠡᠲᠡᠨ ᠪᠤᠯᠤᠨ᠎ᠠ᠃ ᠲᠡᠷᠡ ᠤᠷᠢᠳ ᠢᠶᠠᠷ ᠸᠠᠩ ᠰᠢ ᡁᠢ ᠶᠢᠨ ᠤᠷᠠᠨ ᠪᠢᠴᠢᠯᠭᠡ ᠶᠢ ᠰᠤᠷᠴᠤ᠂ ᠳᠠᠷᠠᠭ᠎ᠠ ᠨᠢ ᠤᠮᠠᠷᠠᠲᠤ ᠲᠦᠷᠦ ᠶᠢᠨ ᠬᠦᠰᠢᠶᠡᠨ ᠦ ᠰᠡᠢᠯᠦᠮᠡᠯ ᠢ ᠰᠤᠷᠤᠭᠠᠳ ᠬᠤᠶᠠᠭᠤᠯᠠ ᠶᠢ ᠨᠡᠢᠯᠡᠭᠦᠯᠦᠨ ᠨᠢᠭᠡᠳᠬᠡᠵᠦ ᠨᠡᠪᠲᠡᠷᠡᠲᠡᠯ᠎ᠡ ᠣᠢᠯᠠᠭᠠᠭᠰᠠᠨ ᠪᠣᠯᠬᠣᠷ ᠪᠢᠴᠢᠬᠦ᠌ ᠠᠷᠭ᠎ᠠ ᠪᠠᠷᠢᠯ ᠨᠢ ᠳᠦᠷᠪᠡᠯᠵᠢᠨ ᠲᠦᠭᠦᠷᠢᠭ ᠢ ᠬᠠᠮᠲᠤ ᠳᠤ ᠨᠢ ᠬᠠᠷᠠᠭᠠᠯᠵᠠᠵᠤ᠂ ᠪᠦᠲᠦᠴᠡ ᠨᠢ ᠴᠢᠩᠭ᠎ᠠ ᠨᠢᠮᠪᠠᠢ ᠵᠢᠭᠳᠡ ᠰᠠᠢᠬᠠᠨ ᠪᠠᠢᠳᠠᠭ ᠶᠤᠮ᠃",
+      "is_text": true,
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 16,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 17,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 18,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0017",
+      "coordinates": {
+        "x_min": 631.0,
+        "y_min": 1581.1,
+        "x_max": 876.5,
+        "y_max": 1697.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠲᠠᠯᠪᠢᠭᠰᠠᠨ ᠪᠠᠢᠨ᠎ᠠ᠃ ᠰᠦᠢ ᠤᠯᠤᠰ ᠲᠠᠩ ᠤᠯᠤᠰ ᠤᠨ ᠤᠷᠠᠨ ᠪᠢᠴᠢᠯᠭᠡ ᠶᠢᠨ ᠨᠡᠷ᠎ᠡ ᠠᠯᠳᠠᠷᠲᠠᠨ ᠵᠠᠯᠭᠠᠭ᠎ᠠ ᠪᠠᠷ ᠴᠣᠯᠭᠣᠷᠠᠨ ᠭᠠᠷᠴᠠᠢ᠃ ᠡᠭᠦᠨ ᠳᠦ ᠬᠠᠮᠤᠭ ᠤᠨ ᠠᠯᠳᠠᠷᠲᠠᠢ ᠨᠢ ᠶᠠᠨ ᠵᠧᠨ ᠴᠢᠩ ᠪᠣᠯᠤᠨ ᠯᠢᠦ ᠭᠦᠩ ᠴᠢᠤᠸᠠᠨ ᠪᠣᠯᠤᠨ᠎ᠠ᠃ ᠶᠠᠨ ᠵᠧᠨ ᠴᠢᠩ ᠰᠦᠷ ᠵᠢᠪᠬᠤᠭ᠎ᠠ ᠲᠠᠢ ᠪᠢᠩᠲᠦ ᠯᠠᠭᠱᠠᠨ ᠰᠢᠨ᠎ᠡ ᠪᠢᠴᠢᠯᠭᠡ ᠶᠢᠨ ᠲᠢᠭ",
+      "is_text": true,
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 17,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 18,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 19,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0018",
+      "coordinates": {
+        "x_min": 908.4,
+        "y_min": 143.6,
+        "x_max": 1155.0,
+        "y_max": 445.3
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠡᠳᠦ ᠶᠠᠩ ᠰᠢᠶᠦ᠋ᠨ ᠦ 《 ᠵᠢᠤ ᠴᠧᠩ ᠬᠦᠩ ᠣᠷᠳᠣᠨ ᠎ᠤ ᠬᠦᠰᠢᠶ᠎ᠡ 》",
+      "is_text": true,
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 18,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 19,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 20,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0019",
+      "coordinates": {
+        "x_min": 908.4,
+        "y_min": 468.4,
+        "x_max": 1158.3,
+        "y_max": 793.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠯᠢᠦ ᠬᠦᠩ ᠴᠢᠤᠸᠠᠨ ᠎ 《 ᠰᠢᠤᠸᠠᠨ ᠮᠢ ᠲᠠ ᠰᠤᠪᠤᠷᠭ᠎ᠠ ᠎ᠶ᠋ᠢᠨ ᠬᠦᠰᠢᠶ᠎ᠡ》",
+      "is_text": true,
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 19,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 20,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 21,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0020",
+      "coordinates": {
+        "x_min": 908.4,
+        "y_min": 813.5,
+        "x_max": 1152.1,
+        "y_max": 1160.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠰᠤᠷᠢ ᠤᠯᠤᠰ ᠲᠠᠩ ᠤᠯᠤᠰ ᠤᠨ ᠦᠶ᠎ᠡ ᠳᠦ ᠮᠠᠨ ᠤ ᠤᠯᠤᠰ ᠤᠨ ᠤᠷᠠᠨ ᠪᠢᠴᠢᠯᠭᠡ ᠶᠢᠨ ᠤᠷᠠᠯᠢᠭ ᠪᠠᠰᠠ ᠨᠢᠭᠡᠨ ᠤᠷᠭᠢᠯ ᠳᠤ ᠠᠬᠢᠭᠰᠠᠨ ᠪᠠᠢᠨ᠎ᠠ᠃ ᠰᠦᠢ ᠤᠯᠤᠰ ᠤᠨ ᠤᠷᠠᠨ ᠪᠢᠴᠢᠯᠭᠡ ᠶᠢ",
+      "is_text": true,
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 20,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 21,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 22,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_b0021",
+      "coordinates": {
+        "x_min": 908.4,
+        "y_min": 1236.1,
+        "x_max": 1152.9,
+        "y_max": 1698.6
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠳᠠᠩ ᠰᠢᠤᠸᠠᠨᠽᠦ᠋ᠩ ᠬᠠᠭᠠᠨ ᠤ ᠦᠶ᠎ᠡ ᠳᠦ ᠳᠡᠯᠭᠡᠷᠡᠭᠰᠡᠨ 《 ᠰᠤᠯᠤᠩᠭᠠᠨ ᠪᠠᠩᠵᠠᠯ ᠥᠳᠥᠨ ᠳᠠᠪᠠᠯᠲᠤ ᠪᠦᠵᠢᠭ》 ᠢ ᠰᠢᠯᠦᠭᠴᠢ ᠪᠡᠢ ᠵᠢᠦᠢ ᠢ ᠄ 《ᠮᠢᠩᠭᠠᠨ ᠳᠠᠭᠤᠤ ᠲᠦᠮᠡᠨ ᠪᠦᠵᠢᠭ ᠢ ᠬᠡᠯᠡᠭᠡᠳ ᠪᠠᠷᠠᠬᠤ ᠦᠭᠡᠢ᠂ ᠰᠤᠯᠤᠩᠭᠠᠨ ᠪᠠᠩᠵᠠᠯᠲᠤ ᠪᠦᠵᠢᠭ ᠢᠨᠤ ᠬᠠᠮᠤᠭ ᠠᠴᠠ ᠰᠤᠨᠢᠷᠬᠠᠯᠲᠠᠢ》 ᠬᠡᠮᠡᠨ ᠮᠠᠭᠲᠠᠵᠠᠢ᠃ ᠪᠠᠷᠠᠭᠤᠨ ᠬᠢᠵᠠᠭᠠᠷ ᠤᠷᠤᠨ ᠠᠴᠠ ᠤᠯᠠᠮᠵᠢᠯᠠᠨ ᠢᠷᠡᠭᠰᠡᠨ 《 ᠬᠤ ᠎ᠶᠢᠨ ᠡᠷᠭᠢᠯᠳᠦᠬᠦ᠌ ᠪᠦᠵᠢᠭ 》᠎ᠲᠦ᠍ ᠪᠦᠵᠢᠭᠯᠡᠭᠴᠢ ᠎ᠶᠢᠨ ᠪᠡᠶ᠎ᠡ ᠨᠢ ᠬᠣᠢ ᠰᠠᠯᠬᠢᠨ ᠮᠡᠲᠦ᠍ ᠬᠦᠩᠭᠡᠨ ᠱᠠᠯᠠᠮᠠᠭᠠᠢ ᠡᠷᠭᠢᠯᠳᠦᠳᠡᠭ ᠃ ᠠᠯᠳᠠᠷᠲᠤ ᠪᠦᠵᠢᠭᠴᠢᠨ ᠬᠦᠩ ᠰᠦᠨ ᠳ᠋ᠠᠨᠢᠶᠠᠩ ᠰᠠᠯᠠᠮ᠎ᠠ ᠶᠢᠨ ᠪᠦᠵᠢᠭ ᠲᠦ ᠴᠢᠳᠠᠮᠠᠭᠠᠢ ᠪᠢᠯᠡ᠃ ᠰᠢᠯᠦᠭᠴᠢ ᠳ᠋ᠦ᠋ ᠹᠦ᠋ ᠪᠠᠭ᠎ᠠ ᠳᠤ ᠪᠠᠨ ᠲᠡᠭᠦᠨ ᠦ ᠲᠣᠭᠯᠠᠯᠲᠠ ᠶᠢ ᠦᠵᠡᠵᠦ ᠥᠩᠭᠡᠷᠡᠭᠡᠳ ᠬᠡᠳᠦᠨ ᠠᠷᠪᠠᠨ ᠵᠢᠯ ᠦᠨ ᠬᠣᠢᠨ᠎ᠠ ᠪᠠᠰᠠ ᠮᠠᠷᠲᠠᠭᠰᠠᠨ ᠦᠭᠡᠢ ᠪᠠᠢᠭᠰᠠᠨ ᠪᠢᠯᠡ᠃",
+      "is_text": true,
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "07_杂志期刊页:omni",
+      "reading_flow_rank": 21,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 23,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 24,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_s0022",
+      "coordinates": {
+        "x_min": 75.4,
+        "y_min": 147.5,
+        "x_max": 332.6,
+        "y_max": 417.6
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "reading_group": "non_ocr",
+      "reading_role": "image",
+      "reading_order_confidence": "none",
+      "reading_region": "non_ocr",
+      "reading_flow_id": "07_杂志期刊页:non_ocr",
+      "reading_flow_rank": 999,
+      "attributes": {
+        "omnidocbench_category_type": "figure",
+        "omnidocbench_anno_id": 2,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "07_magazine_journal_omni_05_s0023",
+      "coordinates": {
+        "x_min": 353.2,
+        "y_min": 1050.3,
+        "x_max": 608.2,
+        "y_max": 1320.0
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "reading_group": "non_ocr",
+      "reading_role": "image",
+      "reading_order_confidence": "none",
+      "reading_region": "non_ocr",
+      "reading_flow_id": "07_杂志期刊页:non_ocr",
+      "reading_flow_rank": 999,
+      "attributes": {
+        "omnidocbench_category_type": "figure",
+        "omnidocbench_anno_id": 11,
+        "template_source": "omnidocbench"
+      }
+    }
+  ],
+  "created_at": "2026-07-06T20:11:05",
+  "updated_at": "2026-07-06T20:11:05"
+}

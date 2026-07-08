@@ -1,0 +1,446 @@
+{
+  "image_id": "e95e7330-e95e-7330-e95e-e95e7330e95e",
+  "file_name": "06_textbook_page_vertical_tree_03.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "mongolian_vertical_json_tree_v3_v4_split_mix_assets",
+    "language_code": "mn-trad",
+    "language_name": "传统蒙古文",
+    "script_note": "传统蒙古文，竖排从上到下，列从左到右",
+    "template_type": "textbook_page",
+    "category": "textbook_page",
+    "variant": 3,
+    "layout_name": "textbook_page_vertical_tree_03",
+    "document_id": "06_textbook_page_vertical_tree_03",
+    "title": "教科书页",
+    "doc_no": "MN-V3-06-03",
+    "date": "2026-07-02",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "version_name": "v4_clean_source",
+    "language_mix_mode": "pure",
+    "target_cjk_ratio": 0,
+    "chinese_topic": "textbook_page",
+    "source_version": "v2",
+    "image_assets_enabled": true,
+    "diagnostics": {
+      "marked_blocks": 10,
+      "page_width": 862,
+      "page_height": 1426,
+      "body_scroll_width": 862,
+      "body_scroll_height": 1426,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 54,
+        "y": 44,
+        "width": 792,
+        "height": 1372,
+        "enabled": true,
+        "original_width": 1040,
+        "original_height": 1500,
+        "content_bbox": {
+          "x_min": 80,
+          "y_min": 70,
+          "x_max": 820,
+          "y_max": 1390
+        },
+        "padding": 26,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.88,
+        "bottom_blank_ratio_before_crop": 0.0733
+      },
+      "augmentation": {
+        "enabled": true,
+        "source_version": "VL4_finalize_work",
+        "output_version": "VL4",
+        "seed": 9157025514181659161,
+        "family": "compressed_scan",
+        "geometry": {
+          "source_size": {
+            "width": 792,
+            "height": 1372
+          },
+          "scale": {
+            "scale": 1.01394,
+            "width": 803,
+            "height": 1391
+          },
+          "rotation": {
+            "angle_degrees": -2.6318,
+            "width": 867,
+            "height": 1427
+          },
+          "translation": {
+            "dx": -3,
+            "dy": -4,
+            "width": 867,
+            "height": 1427
+          },
+          "edge_crop": {
+            "left": 0,
+            "top": 0,
+            "right": 5,
+            "bottom": 1,
+            "width": 862,
+            "height": 1426
+          },
+          "output_size_before_visual": {
+            "width": 862,
+            "height": 1426
+          }
+        },
+        "output_size": {
+          "width": 862,
+          "height": 1426
+        }
+      }
+    },
+    "reading_order_policy": "vertical_lr_columns_top_to_bottom_v1"
+  },
+  "blocks": [
+    {
+      "block_id": "06_textbook_page_vertical_tree_03_b0001",
+      "coordinates": {
+        "x_min": 24.54,
+        "y_min": 55.57,
+        "x_max": 138.67,
+        "y_max": 1394.99
+      },
+      "points": null,
+      "block_label": "chapter_title",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 0,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "34px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 1,
+      "reading_group": "body",
+      "reading_role": "chapter_title",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_vertical_tree_03_b0003",
+      "coordinates": {
+        "x_min": 169.14,
+        "y_min": 110.57,
+        "x_max": 247.51,
+        "y_max": 1023.84
+      },
+      "points": null,
+      "block_label": "note",
+      "block_content": "ᠪᠣᠯᠣᠨ ᠭᠣᠣᠯᠯᠠᠬᠤ ᠦᠭᠡ ᠶᠢᠨ ᠬᠡᠯᠡᠨ ᠦ ᠵᠦᠢ ᠶᠢᠨ ᠬᠡᠯᠪᠡᠷᠢ ᠪᠡᠷ ᠢᠯᠡᠳᠬᠡᠨ᠎ᠡ᠃ ᠤᠯᠠᠮᠵᠢᠯᠠᠯᠲᠤ",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 1,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 2,
+      "reading_group": "body",
+      "reading_role": "note",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_vertical_tree_03_b0004",
+      "coordinates": {
+        "x_min": 360.19,
+        "y_min": 71.53,
+        "x_max": 448.47,
+        "y_max": 1288.46
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠲᠡᠭᠦᠪᠦᠷᠢ ᠵᠡᠭᠦᠯᠲᠡ 》 ᠎ᠳᠦ 《 ᠶᠡᠬᠡ ᠰᠤᠷᠲᠠᠬᠤᠢ ᠪᠢᠴᠢᠭ ᠦᠨ ᠪᠦᠯᠦᠭ ᠪᠠᠳᠠᠭ ᠨᠢᠭᠡ ᠪᠣᠳᠢ᠂ 《ᠬᠡᠪ ᠳᠤᠮᠳᠠᠳᠤ ᠪᠢᠴᠢᠭ ᠎ᠦᠨ ᠪᠦᠯᠦᠭ ᠪᠠᠳᠠᠭ》 ᠨᠢᠭᠡ ᠪᠣᠳᠢ᠂ 《 ᠱᠢᠭᠦᠮᠵᠢᠯᠡᠯ",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 2,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 3,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_vertical_tree_03_b0005",
+      "coordinates": {
+        "x_min": 414.89,
+        "y_min": 69.01,
+        "x_max": 503.16,
+        "y_max": 1285.95
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠬᠥᠮᠥᠰ ᠦᠨ ᠴᠡᠩᠭᠡᠯ ᠨᠢ ᠮᠢᠨᠤ ᠰᠡᠳᠬᠢᠯ ᠢ ᠳᠠᠷᠤᠢ ᠪᠠᠬᠠᠲᠤᠭᠤᠯᠵᠤ᠂ ᠰᠠᠩ ᠪᠠᠢᠰᠠ ᠶᠢᠨ ᠮᠣᠷᠢᠨ ᠤ ᠰᠠᠢᠬᠠᠨ ᠨᠢ ᠮᠢᠨᠤ ᠳᠤᠷ᠎ᠠ ᠶᠢ ᠬᠥᠳᠡᠯᠭᠡᠨ᠎ᠡ᠃ ᠮᠤᠩᠭᠤᠯ ᠭᠠᠵᠠᠷ",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 3,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 4,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_vertical_tree_03_b0006",
+      "coordinates": {
+        "x_min": 469.58,
+        "y_min": 66.5,
+        "x_max": 557.87,
+        "y_max": 1283.44
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠦᠭᠡ ᠮᠠᠯᠲᠠᠵᠤ ᠤᠬᠤᠬᠤ ᠭᠡᠰᠡᠨ ᠪᠤᠢ ᠨᠢ ᠬᠡᠷᠡᠭᠯᠡᠭᠰᠡᠨ ᠪᠢᠰᠢ᠂ ᠬᠠᠷᠢᠨ ᠬᠤᠯᠠᠭᠠᠢᠯᠠᠬᠤ ᠭᠡᠰᠡᠨ ᠤᠳᠬ᠎ᠠ ᠪᠠᠷ ᠬᠡᠷᠡᠭᠯᠡᠵᠡᠢ᠃ ᠵᠢᠱᠢᠶ᠎ᠡ② ᠳᠦ ᠤᠯᠠᠢᠬᠤ ᠭᠡᠰᠡᠨ ᠦᠭᠡ",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 4,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_vertical_tree_03_b0007",
+      "coordinates": {
+        "x_min": 524.27,
+        "y_min": 63.98,
+        "x_max": 612.56,
+        "y_max": 1280.92
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠪᠡᠷ ᠮᠦᠩᠬᠡᠷᠡᠭᠰᠡᠨ ᠤᠳᠤᠮ ᠴᠢᠨᠢ ᠮᠤᠩᠭᠤᠯ ᠪᠤᠯᠬᠤᠷ ᠳᠡᠯᠡᠬᠡᠢ ᠶᠢᠨ ᠠᠭᠤᠳᠠᠮ ᠢᠶᠠᠷ ᠲᠠᠨᠢᠭᠰᠠᠨ ᠨᠤᠲᠤᠭ ᠴᠢᠨᠢ ᠮᠤᠩᠭᠤᠯ ᠪᠤᠯᠬᠤᠷ ᠲᠡᠦᠬᠡ ᠶᠢᠨ ᠦᠷᠭᠡᠨ ᠳᠦ ᠠᠷᠢᠭᠤᠯᠤᠭᠰᠠᠨ",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 5,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_vertical_tree_03_b0008",
+      "coordinates": {
+        "x_min": 578.98,
+        "y_min": 61.47,
+        "x_max": 667.25,
+        "y_max": 1278.41
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "᠎ᠤᠨ ᠱᠢᠯᠭᠠᠯᠲᠠ ᠎ᠶ᠋ᠢᠨ ᠦᠨᠳᠦᠰᠦᠯᠡᠬᠦ᠌ ᠰᠤᠷᠬᠤ ᠪᠢᠴᠢᠭ ᠪᠤᠯᠪᠠ᠃ ᠎ᠳᠦ ᠱᠢ ᠎ᠶ᠋ᠢᠨ ᠡᠷᠳᠡᠮ ᠱᠢᠨᠵᠢᠯᠡᠭᠦᠨ ᠎ᠦ ᠦᠵᠡᠯ ᠰᠢᠯᠭᠡᠭᠡᠨ ᠦᠪᠦᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠬᠡᠪᠯᠡᠯ ᠦᠨ",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 6,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_vertical_tree_03_b0009",
+      "coordinates": {
+        "x_min": 633.67,
+        "y_min": 58.96,
+        "x_max": 721.95,
+        "y_max": 1275.89
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠴᠢᠰᠴᠠᠤ ᠳᠡᠪᠡᠯ ᠢ ᠡᠮᠦᠰᠦᠭ᠍ᠰᠡᠨ᠂ ᠵᠡᠭᠦᠨ ᠬᠠᠨᠴᠤᠢ ᠳᠣᠲᠣᠷ᠎ᠠ ᠠᠴᠠ ᠨᠠᠷᠢᠬᠠᠨ ᠬᠤᠷᠤᠭᠤ ᠶᠢ ᠴᠣᠬᠣᠢᠯᠭᠠᠨ ᠵᠢᠯᠣᠭᠣ ᠴᠤᠯᠪᠤᠭᠤᠷ ᠢ ᠬᠤᠭᠤᠰ ᠪᠠᠷᠢᠨ ᠠᠳᠬᠤᠭᠠᠳ᠂ ᠪᠠᠷᠠᠭᠤᠨ",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 7,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_vertical_tree_03_b0010",
+      "coordinates": {
+        "x_min": 688.36,
+        "y_min": 56.44,
+        "x_max": 776.64,
+        "y_max": 1273.38
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠳᠤᠷᠠᠳᠬᠠᠯ ᠠᠴᠢᠶᠠᠯᠠᠭᠰᠠᠨ ᠪᠤᠭᠤᠷᠤᠯ ᠡᠭᠦᠯᠡᠰ ᠰᠡᠳᠬᠢᠯ ᠢᠲᠡᠭᠡᠯ ᠢᠶᠡᠷ ᠨᠡᠭᠦᠳᠡᠯᠯᠡᠵᠦ᠂ ᠳᠤᠷᠠᠰᠤᠮᠵᠢ ᠤᠶᠠᠷᠠᠬᠤ ᠨᠠᠮᠤᠷ ᠤᠨ ᠳᠠᠭᠤᠤ ᠬᠠᠢᠷ᠎ᠠ ᠶᠢᠨ ᠳᠡᠭ᠍ᠷᠢ ᠳᠡᠭᠡᠨ ᠡᠷᠭᠢᠴᠡᠨ᠎ᠡ᠃",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 8,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    },
+    {
+      "block_id": "06_textbook_page_vertical_tree_03_b0011",
+      "coordinates": {
+        "x_min": 743.06,
+        "y_min": 53.93,
+        "x_max": 831.34,
+        "y_max": 1270.86
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "23. ᠳᠤᠮᠳᠠᠳᠤ ᠶᠢᠨ ᠤᠯᠠᠮᠵᠢᠯᠠᠯᠲᠤ ᠪᠠᠶᠠᠷ ᠤᠨ ᠡᠳᠦᠷ ᠦᠨ ᠰᠣᠶᠣᠯ ᠤᠨ ᠠᠭᠤᠯᠤᠭᠳᠠᠬᠤᠨ ᠳᠤ ᠬᠥᠮᠦᠨ ᠪᠠ ᠪᠠᠶᠢᠭᠠᠯᠢ᠂ ᠬᠥᠮᠦᠨ ᠪᠠ ᠪᠤᠰᠤᠳ ᠬᠥᠮᠦᠨ᠂ ᠬᠥᠮᠦᠨ ᠪᠠ ᠲᠤᠰ ᠪᠡᠶ᠎ᠡ ᠶᠢᠨ ᠬᠠᠮᠲᠤᠷᠠᠯᠴᠠᠬᠤ",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 9,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "20px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      },
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "medium"
+    }
+  ],
+  "created_at": "2026-07-06T03:04:59.568Z",
+  "updated_at": "2026-07-06T11:06:04"
+}

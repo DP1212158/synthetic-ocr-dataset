@@ -1,0 +1,762 @@
+{
+  "image_id": "7f2d9af29b875796",
+  "file_name": "03_exam_paper_omni_04.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "omnidocbench_vl6_generator_v1",
+    "template_source": "omnidocbench",
+    "omnidocbench_template_id": "omni_00745_7f4b94c84ad1ba28",
+    "omnidocbench_index": 745,
+    "omnidocbench_image_path": "jiaocaineedrop_jiaocai_needrop_en_194.jpg",
+    "omnidocbench_data_source": "exam_paper",
+    "language_code": "mn-trad",
+    "language_name": "传统蒙古文",
+    "script_note": "传统蒙古文，竖排从上到下，列从左到右",
+    "category": "exam_paper",
+    "category_cn": "考试卷",
+    "document_id": "03_exam_paper_omni_04",
+    "reading_order_policy": "omnidocbench_order_multicolumn_ltr_v1",
+    "filtered_blocks": 4,
+    "equation_blocks_filtered": 0,
+    "structure_blocks_non_ocr": 9,
+    "block_status_counts": {
+      "text": 19,
+      "structure": 9,
+      "filtered": 4
+    },
+    "source_records": "/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/蒙古语/01_文本数据获取_20260702/data/vl3_long_text_sources/records.jsonl"
+  },
+  "blocks": [
+    {
+      "block_id": "03_exam_paper_omni_04_b0001",
+      "coordinates": {
+        "x_min": 527.6,
+        "y_min": 114.0,
+        "x_max": 877.8,
+        "y_max": 172.4
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠵᠡᠭᠦᠳᠦ ᠪᠣᠯᠣᠭᠰᠠᠨ ᠥᠴᠥᠭᠡᠳᠦᠷ ᠢᠶᠡᠨ ᠮᠠᠷᠲᠠ᠂ ᠵᠥᠪᠬᠡᠨ ᠲᠠ ᠥᠨᠥᠳᠥᠷ ᠢᠶᠡᠨ ᠬᠠᠢᠷᠠᠯᠠ᠃ ᠴᠥᠬᠥᠷᠡᠭᠡᠳ ᠪᠠᠢᠭ᠎ᠠ ᠰᠡᠳᠬᠢᠯ ᠢᠶᠡᠨ ᠵᠠᠰᠠ᠂ ᠴᠥᠬᠡᠨ ᠣᠯᠳᠠᠬᠤ ᠵᠢᠷᠭᠠᠯ ᠢᠶᠠᠨ ᠭᠠᠮᠨᠠ᠃",
+      "is_text": true,
+      "reading_order": 1,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 1,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 1,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 1,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0002",
+      "coordinates": {
+        "x_min": 194.0,
+        "y_min": 410.4,
+        "x_max": 771.7,
+        "y_max": 454.7
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠵᠠᠯᠠᠭᠤ ᠴᠤ ᠶᠠᠪᠤᠭᠰᠠᠨ ᠰᠠᠢᠬᠠᠨ ᠴᠤ ᠶᠠᠪᠤᠭᠰᠠᠨ ᠮᠢᠨᠦ ᠡᠵᠢ ᠵᠣᠨ ᠤᠯᠠᠨ ᠤ ᠪᠠᠨ ᠬᠠᠢᠷ᠎ᠠ ᠶᠢ ᠲᠠᠲᠠᠭᠰᠠᠨ ᠮᠢᠨᠦ ᠡᠵᠢ",
+      "is_text": true,
+      "reading_order": 2,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 2,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 5,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 4,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0003",
+      "coordinates": {
+        "x_min": 190.1,
+        "y_min": 805.0,
+        "x_max": 772.4,
+        "y_max": 849.9
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡ ᠦᠰᠦᠭ ᠰᠤᠷᠤᠭᠰᠠᠨ ᠬᠦᠦ ᠶ᠋ᠢᠨ ᠰᠦᠯᠳᠡ ᠨᠢ ᠳᠠᠩᠳᠠ ᠵᠣᠭᠰᠣᠭ᠎ᠠ ᠪᠠᠶ᠋ᠢᠳᠠᠭ᠂ ᠮᠣᠩᠭᠣᠯ ᠦᠰᠦᠭ ᠶ᠋ᠢᠡᠷ ᠪᠢᠴᠢᠭᠰᠡᠨ ᠬᠡᠦᠬᠡᠨ ᠦ ᠬᠡᠶ᠋ᠢᠮᠦᠷᠢ ᠨᠢ ᠳᠠᠩᠳᠠ ᠪᠣᠰᠤᠭ᠎ᠠ ᠪᠠᠶ᠋ᠢᠳᠠᠭ᠃",
+      "is_text": true,
+      "reading_order": 3,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 3,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 14,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 5,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0004",
+      "coordinates": {
+        "x_min": 185.8,
+        "y_min": 1478.7,
+        "x_max": 542.8,
+        "y_max": 1521.0
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠰᠠᠷ᠎ᠠ ᠰᠢᠭ᠋ ᠲᠡᠷᠭᠡᠯᠬᠡᠨ ᠪᠣᠳᠣᠯ ᠲᠠᠢ ᠬᠥᠮᠥᠰ ᠦᠨ ᠮᠢᠨᠢ ᠲᠡᠷᠡ ᠪᠥᠬᠥᠨ ᠢ ᠨᠢ ᠲᠡᠭ᠍ᠷᠢ ᠢᠪᠡᠭᠡᠬᠦ ᠪᠣᠯᠲᠤᠭᠠᠢ᠃",
+      "is_text": true,
+      "reading_order": 4,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 4,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 27,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 3,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0005",
+      "coordinates": {
+        "x_min": 186.5,
+        "y_min": 203.4,
+        "x_max": 362.1,
+        "y_max": 239.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠠᠩᠭᠢᠷ ᠤᠭᠤᠷᠠᠭ ᠢᠶᠠᠨ ᠰᠢᠮᠡᠭᠦᠯᠦᠨ ᠦᠰᠭᠡᠬᠦ ᠪᠤᠶᠠᠨ ᠲᠠᠢ",
+      "is_text": true,
+      "reading_order": 5,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 5,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 2,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 0,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0006",
+      "coordinates": {
+        "x_min": 1058.0,
+        "y_min": 203.6,
+        "x_max": 1215.4,
+        "y_max": 238.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠠᠯᠲᠠᠨ ᠲᠡᠯᠡᠬᠡᠢ ᠳᠦ ᠦᠷ᠎ᠡ ᠶᠢᠨ ᠪᠦᠪᠡᠢ ᠲᠠᠢ ᠬᠠᠮᠲᠤ",
+      "is_text": true,
+      "reading_order": 6,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 6,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 3,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 11,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0007",
+      "coordinates": {
+        "x_min": 238.8,
+        "y_min": 532.3,
+        "x_max": 280.9,
+        "y_max": 573.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠢᠨᠢᠶᠡᠨ᠎ᠡ ᠭᠡᠳ",
+      "is_text": true,
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 7,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 6,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 29,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0008",
+      "coordinates": {
+        "x_min": 766.3,
+        "y_min": 535.9,
+        "x_max": 800.6,
+        "y_max": 573.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠴᠢᠮ᠎ᠠ ᠶ᠋ᠢ",
+      "is_text": true,
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 8,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 8,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 27,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0009",
+      "coordinates": {
+        "x_min": 242.3,
+        "y_min": 689.5,
+        "x_max": 277.5,
+        "y_max": 723.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠥᠪᠡᠷ ᠦᠨ",
+      "is_text": true,
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 9,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 10,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 28,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0010",
+      "coordinates": {
+        "x_min": 767.1,
+        "y_min": 690.4,
+        "x_max": 800.6,
+        "y_max": 727.5
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠡᠬᠡ ᠬᠡᠯᠡ",
+      "is_text": true,
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 10,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 12,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 31,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0011",
+      "coordinates": {
+        "x_min": 247.0,
+        "y_min": 925.1,
+        "x_max": 386.5,
+        "y_max": 970.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠬᠦᠮᠦᠨ ᠭᠡᠵᠦ ᠶᠠᠷᠢᠬᠤ ᠶ᠋ᠢᠨ ᠲᠤᠯᠠ ᠮᠤᠩᠭᠤᠯ ᠤᠨ ᠲᠦᠯᠦᠭᠡ",
+      "is_text": true,
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 11,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 15,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 34,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0012",
+      "coordinates": {
+        "x_min": 691.3,
+        "y_min": 925.5,
+        "x_max": 1015.9,
+        "y_max": 973.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠥᠷᠢ ᠦᠭᠡᠢ ᠪᠣᠯ ᠪᠠᠶᠠᠨ ᠡᠪᠡᠳᠴᠢᠨ ᠦᠭᠡᠢ ᠪᠣᠯ ᠵᠢᠷᠭᠠᠯ",
+      "is_text": true,
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 12,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 17,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 24,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0013",
+      "coordinates": {
+        "x_min": 246.2,
+        "y_min": 1071.8,
+        "x_max": 388.8,
+        "y_max": 1114.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠥᠷᠢ ᠰᠢᠷᠢ ᠦᠭᠡᠢ᠂ ᠡᠪᠡᠳᠴᠢᠨ ᠳᠠᠳᠬᠤᠯ᠎ᠠ ᠦᠭᠡᠢ ᠠᠮᠢᠳᠤᠷᠠᠯ ᠪᠣᠯ",
+      "is_text": true,
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 13,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 18,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 35,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0014",
+      "coordinates": {
+        "x_min": 687.5,
+        "y_min": 1077.2,
+        "x_max": 1015.9,
+        "y_max": 1127.3
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠰᠡᠳᠬᠢᠯ ᠳᠦ ᠪᠡᠨ ᠦᠨᠡᠨᠴᠢ ᠪᠠᠢ ᠰᠠᠨᠠᠭᠰᠠᠨ ᠪᠥᠬᠥᠨ ᠴᠢᠨᠢ ᠪᠦᠲᠦᠨ᠎ᠡ᠂ ᠪᠡᠶ᠎ᠡ ᠳᠦ ᠪᠡᠨ ᠢᠲᠡᠭᠡᠯ ᠲᠠᠢ ᠪᠠᠢ ᠪᠣᠳᠣᠭᠰᠠᠨ ᠪᠥᠬᠥᠨ ᠴᠢᠨᠢ ᠪᠡᠶᠡᠯᠡᠭ᠍ᠳᠡᠨ᠎ᠡ",
+      "is_text": true,
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 14,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 20,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 20,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0015",
+      "coordinates": {
+        "x_min": 247.8,
+        "y_min": 1211.1,
+        "x_max": 388.1,
+        "y_max": 1253.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠤᠭᠲᠤᠨ ᠠᠪᠬᠤ ᠰᠢᠨ᠎ᠡ ᠣᠨ ᠳ᠋ᠤ ᠤᠷᠮ᠎ᠠ ᠵᠣᠷᠢᠭ᠂ ᠠᠮᠵᠢᠯᠲᠠ",
+      "is_text": true,
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 15,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 21,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 33,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0016",
+      "coordinates": {
+        "x_min": 686.2,
+        "y_min": 1204.5,
+        "x_max": 1012.1,
+        "y_max": 1261.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠵᠣᠪᠠᠵᠤ ᠣᠯᠳᠠᠭ ᠵᠢᠷᠭᠠᠯ ᠪᠦᠳᠦᠷᠢᠵᠦ ᠣᠯᠳᠠᠭ ᠤᠬᠠᠭᠠᠷᠠᠯ ᠰᠣᠷᠣᠭᠠᠳ ᠪᠠᠷᠠᠬᠤ ᠦᠭᠡᠢ ᠮᠡᠳᠡᠯᠭᠡ ᠲᠠᠨᠢᠭᠠᠳ ᠪᠠᠷᠠᠬᠤ ᠦᠭᠡᠢ ᠬᠥᠮᠥᠨ ᠦ ᠴᠢᠨᠠᠷ",
+      "is_text": true,
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 16,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 23,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 25,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0017",
+      "coordinates": {
+        "x_min": 247.8,
+        "y_min": 1362.0,
+        "x_max": 386.5,
+        "y_max": 1405.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠰᠦ ᠰᠢᠭ ᠰᠡᠳᠭᠢᠯ ᠲᠠᠢ ᠬᠥᠮᠥᠰ ᠦᠨ ᠮᠢᠨᠢ ᠰᠠᠨᠠᠭᠰᠠᠨ ᠪᠥᠬᠥᠨ ᠨᠢ",
+      "is_text": true,
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 17,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 24,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 32,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0018",
+      "coordinates": {
+        "x_min": 690.0,
+        "y_min": 1358.7,
+        "x_max": 1020.9,
+        "y_max": 1403.6
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠠᠮᠢᠳᠤᠷᠠᠯ ᠳᠤᠮᠳᠠ ᠰᠡᠳᠭᠢᠯ ᠢᠲᠡᠭᠡᠯ ᠢᠶᠡᠷ ᠲᠤᠰᠠᠯᠠᠵᠤ᠂ ᠳᠠᠮᠵᠢᠵᠤ ᠢᠷᠡᠭ᠍ᠰᠡᠨ ᠪᠦᠬᠦᠢᠯᠡ ᠬᠥᠮᠥᠰ ᠲᠡᠭᠡᠨ ᠪᠠᠶᠠᠷᠯᠠᠯ᠎ᠠ᠃",
+      "is_text": true,
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 18,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 26,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 19,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_b0019",
+      "coordinates": {
+        "x_min": 230.2,
+        "y_min": 1537.3,
+        "x_max": 1022.0,
+        "y_max": 1679.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠵᠢᠷᠭᠠᠬᠤ ᠳᠠᠭᠠᠨ ᠮᠠᠷᠲᠠᠭᠰᠠᠨ ᠢᠶᠠᠨ ᠵᠣᠪᠠᠬᠤ ᠳᠠᠭᠠᠨ ᠰᠠᠨᠠᠳᠠᠭ᠃",
+      "is_text": true,
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "03_考试卷:omni",
+      "reading_flow_rank": 19,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 28,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 30,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_s0020",
+      "coordinates": {
+        "x_min": 188.3,
+        "y_min": 255.7,
+        "x_max": 1214.1,
+        "y_max": 362.2
+      },
+      "points": null,
+      "block_label": "table",
+      "block_content": "",
+      "is_text": false,
+      "reading_group": "non_ocr",
+      "reading_role": "table",
+      "reading_order_confidence": "none",
+      "reading_region": "non_ocr",
+      "reading_flow_id": "03_考试卷:non_ocr",
+      "reading_flow_rank": 999,
+      "attributes": {
+        "omnidocbench_category_type": "table",
+        "omnidocbench_anno_id": 2,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_s0021",
+      "coordinates": {
+        "x_min": 303.8,
+        "y_min": 490.3,
+        "x_max": 402.3,
+        "y_max": 610.7
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "reading_group": "non_ocr",
+      "reading_role": "image",
+      "reading_order_confidence": "none",
+      "reading_region": "non_ocr",
+      "reading_flow_id": "03_考试卷:non_ocr",
+      "reading_flow_rank": 999,
+      "attributes": {
+        "omnidocbench_category_type": "figure",
+        "omnidocbench_anno_id": 6,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_s0022",
+      "coordinates": {
+        "x_min": 827.0,
+        "y_min": 498.4,
+        "x_max": 914.1,
+        "y_max": 604.5
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "reading_group": "non_ocr",
+      "reading_role": "image",
+      "reading_order_confidence": "none",
+      "reading_region": "non_ocr",
+      "reading_flow_id": "03_考试卷:non_ocr",
+      "reading_flow_rank": 999,
+      "attributes": {
+        "omnidocbench_category_type": "figure",
+        "omnidocbench_anno_id": 15,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_s0023",
+      "coordinates": {
+        "x_min": 305.7,
+        "y_min": 645.0,
+        "x_max": 410.8,
+        "y_max": 763.8
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "reading_group": "non_ocr",
+      "reading_role": "image",
+      "reading_order_confidence": "none",
+      "reading_region": "non_ocr",
+      "reading_flow_id": "03_考试卷:non_ocr",
+      "reading_flow_rank": 999,
+      "attributes": {
+        "omnidocbench_category_type": "figure",
+        "omnidocbench_anno_id": 17,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_s0024",
+      "coordinates": {
+        "x_min": 820.3,
+        "y_min": 645.0,
+        "x_max": 908.4,
+        "y_max": 758.2
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "reading_group": "non_ocr",
+      "reading_role": "image",
+      "reading_order_confidence": "none",
+      "reading_region": "non_ocr",
+      "reading_flow_id": "03_考试卷:non_ocr",
+      "reading_flow_rank": 999,
+      "attributes": {
+        "omnidocbench_category_type": "figure",
+        "omnidocbench_anno_id": 16,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_s0025",
+      "coordinates": {
+        "x_min": 385.5,
+        "y_min": 878.5,
+        "x_max": 554.0,
+        "y_max": 1017.7
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "reading_group": "non_ocr",
+      "reading_role": "image",
+      "reading_order_confidence": "none",
+      "reading_region": "non_ocr",
+      "reading_flow_id": "03_考试卷:non_ocr",
+      "reading_flow_rank": 999,
+      "attributes": {
+        "omnidocbench_category_type": "figure",
+        "omnidocbench_anno_id": 7,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_s0026",
+      "coordinates": {
+        "x_min": 394.4,
+        "y_min": 1038.9,
+        "x_max": 515.9,
+        "y_max": 1148.3
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "reading_group": "non_ocr",
+      "reading_role": "image",
+      "reading_order_confidence": "none",
+      "reading_region": "non_ocr",
+      "reading_flow_id": "03_考试卷:non_ocr",
+      "reading_flow_rank": 999,
+      "attributes": {
+        "omnidocbench_category_type": "figure",
+        "omnidocbench_anno_id": 21,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_s0027",
+      "coordinates": {
+        "x_min": 393.5,
+        "y_min": 1174.7,
+        "x_max": 513.4,
+        "y_max": 1288.1
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "reading_group": "non_ocr",
+      "reading_role": "image",
+      "reading_order_confidence": "none",
+      "reading_region": "non_ocr",
+      "reading_flow_id": "03_考试卷:non_ocr",
+      "reading_flow_rank": 999,
+      "attributes": {
+        "omnidocbench_category_type": "figure",
+        "omnidocbench_anno_id": 22,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "03_exam_paper_omni_04_s0028",
+      "coordinates": {
+        "x_min": 391.5,
+        "y_min": 1314.7,
+        "x_max": 489.7,
+        "y_max": 1444.0
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "reading_group": "non_ocr",
+      "reading_role": "image",
+      "reading_order_confidence": "none",
+      "reading_region": "non_ocr",
+      "reading_flow_id": "03_考试卷:non_ocr",
+      "reading_flow_rank": 999,
+      "attributes": {
+        "omnidocbench_category_type": "figure",
+        "omnidocbench_anno_id": 26,
+        "template_source": "omnidocbench"
+      }
+    }
+  ],
+  "created_at": "2026-07-06T20:11:05",
+  "updated_at": "2026-07-06T20:11:05"
+}

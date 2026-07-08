@@ -1,0 +1,2889 @@
+{
+  "image_id": "d220eac8af191ed1",
+  "file_name": "01_newspaper_page_omni_03.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "omnidocbench_vl6_generator_v1",
+    "template_source": "omnidocbench",
+    "omnidocbench_template_id": "omni_01090_b662294d0e23ab40",
+    "omnidocbench_index": 1090,
+    "omnidocbench_image_path": "newspaper_c0794b9574ba55a589418fa1ae160b9a_1.jpg",
+    "omnidocbench_data_source": "newspaper",
+    "language_code": "mn-trad",
+    "language_name": "传统蒙古文",
+    "script_note": "传统蒙古文，竖排从上到下，列从左到右",
+    "category": "newspaper_page",
+    "category_cn": "报纸页",
+    "document_id": "01_newspaper_page_omni_03",
+    "reading_order_policy": "omnidocbench_order_multicolumn_ltr_v1",
+    "filtered_blocks": 3,
+    "equation_blocks_filtered": 0,
+    "structure_blocks_non_ocr": 2,
+    "block_status_counts": {
+      "text": 104,
+      "structure": 2,
+      "filtered": 3
+    },
+    "source_records": "/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/蒙古语/01_文本数据获取_20260702/data/vl3_long_text_sources/records.jsonl"
+  },
+  "blocks": [
+    {
+      "block_id": "01_newspaper_page_omni_03_b0001",
+      "coordinates": {
+        "x_min": 306.2,
+        "y_min": 121.2,
+        "x_max": 1136.3,
+        "y_max": 177.8
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠠᠭᠤᠯᠠ ᠲᠠᠢ ᠭᠠᠵᠠᠷ ᠳᠠᠭᠤᠯᠠᠬᠤ ᠳ᠋ᠤ ᠴᠤᠤᠷᠢᠶ᠎ᠠ ᠨᠢ ᠬᠦᠷᠲᠡᠯ᠎ᠡ ᠡᠭᠡᠰᠢᠭ ᠤᠬᠠᠭᠠᠨ ᠲᠠᠢ ᠬᠥᠮᠥᠨ ᠲᠠᠢ ᠬᠠᠨᠢᠯᠠᠬᠤ ᠳ᠋ᠤ ᠦᠭᠡ ᠨᠢ ᠬᠦᠷᠲᠡᠯ᠎ᠡ ᠡᠷᠳᠡᠨᠢ",
+      "is_text": true,
+      "reading_order": 1,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 1,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 1,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 3,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0002",
+      "coordinates": {
+        "x_min": 342.8,
+        "y_min": 231.7,
+        "x_max": 603.0,
+        "y_max": 260.2
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠰᠡᠳᠬᠢᠯ ᠳ᠋ᠤ ᠪᠡᠨ ᠦᠨᠡᠨᠴᠢ ᠪᠠᠢ ᠰᠠᠨᠠᠭᠰᠠᠨ ᠪᠥᠬᠥᠨ ᠴᠢᠨᠢ ᠪᠦᠲᠦᠨ᠎ᠡ᠂ ᠪᠡᠶ᠎ᠡ ",
+      "is_text": true,
+      "reading_order": 2,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 2,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 2,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 16,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0003",
+      "coordinates": {
+        "x_min": 422.3,
+        "y_min": 271.8,
+        "x_max": 524.4,
+        "y_max": 289.1
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠠᠭᠢ ᠵᠢᠨ",
+      "is_text": true,
+      "reading_order": 3,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 3,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 3,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 12,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0004",
+      "coordinates": {
+        "x_min": 340.4,
+        "y_min": 471.2,
+        "x_max": 424.9,
+        "y_max": 489.0
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠠᠭᠤᠯᠠᠨ ᠤ",
+      "is_text": true,
+      "reading_order": 4,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 4,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 7,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 19,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0005",
+      "coordinates": {
+        "x_min": 484.8,
+        "y_min": 585.3,
+        "x_max": 646.0,
+        "y_max": 622.0
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠮᠤᠩᠭᠤᠯ ᠦᠰᠦᠭ ᠦᠨ ᠴᠠᠭᠠᠨ ᠲᠣᠯᠣᠭᠠᠢ ᠵᠢᠨ ᠵᠢᠷᠤᠯᠭ᠎ᠠ ᠵᠢᠨ ᠨᠡᠷ",
+      "is_text": true,
+      "reading_order": 5,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 5,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 17,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 14,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0006",
+      "coordinates": {
+        "x_min": 851.0,
+        "y_min": 397.7,
+        "x_max": 1011.6,
+        "y_max": 435.3
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "6. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠬᠣᠯᠪᠣᠬᠤ ᠦᠭᠡ ᠵᠢᠨ ᠣᠨᠴᠠᠯᠢᠭ ᠰᠢᠨᠵᠢ᠂ ᠲ",
+      "is_text": true,
+      "reading_order": 6,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 6,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 43,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 57,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0007",
+      "coordinates": {
+        "x_min": 1073.1,
+        "y_min": 942.8,
+        "x_max": 1155.4,
+        "y_max": 961.7
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠴᠢᠮᠡᠭ ᠪᠣᠢ",
+      "is_text": true,
+      "reading_order": 7,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 7,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 66,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 58,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0008",
+      "coordinates": {
+        "x_min": 24.1,
+        "y_min": 85.8,
+        "x_max": 211.0,
+        "y_max": 128.7
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠰᠢᠭᠦᠨ ᠥᠭᠦᠯᠡᠬᠦᠢ ᠶᠢᠨ ᠵᠣᠬᠢᠶᠠᠯ ᠤᠨ ᠵᠣᠬᠢᠶᠠᠨ ᠪᠢᠴᠢᠬᠦ ᠵᠦᠢ",
+      "is_text": true,
+      "reading_order": 8,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 8,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 69,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 36,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0009",
+      "coordinates": {
+        "x_min": 21.2,
+        "y_min": 404.9,
+        "x_max": 154.9,
+        "y_max": 447.8
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠦᠨᠳᠦᠷ ᠡᠪᠦᠭᠡᠳ 1 ᠵᠠᠬᠢᠶᠠ ᠮᠤᠨᠭᠭᠤᠯ ᠬᠡᠯᠡ ᠥᠨᠥᠳᠦᠷ 1 ᠪᠢᠳ",
+      "is_text": true,
+      "reading_order": 9,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 9,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 72,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 54,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0010",
+      "coordinates": {
+        "x_min": 20.6,
+        "y_min": 789.8,
+        "x_max": 172.8,
+        "y_max": 831.9
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠥᠪᠥᠷ ᠮᠤᠩᠭᠤᠯ ᠤᠨ ᠠᠨᠠᠭᠠᠬᠤ ᠤᠬᠠᠭᠠᠨ ᠤ ᠶᠡᠬᠡ ᠰᠤᠷᠭᠠᠭᠤᠯᠢ",
+      "is_text": true,
+      "reading_order": 10,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 10,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 77,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 98,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0011",
+      "coordinates": {
+        "x_min": 23.9,
+        "y_min": 1166.6,
+        "x_max": 192.2,
+        "y_max": 1208.9
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠲᠤᠯᠤᠭᠠᠢ ᠰᠢᠭᠡᠷ᠎ᠡ ᠲᠠᠢ ᠪᠠᠨ ᠨᠡᠶ᠋ᠢᠯᠡᠭᠡᠳ ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡ ᠪᠢᠴᠢᠭ ᠤᠨ ᠳᠤᠷ",
+      "is_text": true,
+      "reading_order": 11,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 11,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 81,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 104,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0012",
+      "coordinates": {
+        "x_min": 25.0,
+        "y_min": 1508.2,
+        "x_max": 505.4,
+        "y_max": 1549.6
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠬᠠᠮᠤᠭ ᠤᠨ ᠬᠦᠴᠦᠲᠠᠢ ᠡᠨᠧᠷᠭᠢ ᠪᠣᠯ ᠵᠥᠪ ᠢᠶᠡᠷ ᠰᠡᠳᠭᠢᠬᠦ ᠤᠬᠠᠭᠠᠨ᠃ ᠪᠥᠬᠥ ᠵᠦᠢᠯ ᠴᠢᠮᠡᠲᠤ ᠵᠥᠪ ᠴᠠᠭ ᠲᠠᠭᠠᠨ ᠢᠷᠡᠨ᠎ᠡ᠂ ᠬᠦᠯᠢᠶᠡᠴᠡᠲᠠᠢ ᠪᠠᠢ᠃ ᠨᠠᠰᠤᠨᠳᠡᠯᠭᠡᠷ ᠰᠡᠢᠷᠡᠭᠦᠯᠪᠡᠢ",
+      "is_text": true,
+      "reading_order": 12,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 12,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 86,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 83,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0013",
+      "coordinates": {
+        "x_min": 857.4,
+        "y_min": 1113.2,
+        "x_max": 1196.5,
+        "y_max": 1200.6
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠵᠡᠭᠦᠯᠲᠡ 1 2 3 4 5 7 ， 《 》 , ”2020. 03 . 6 8 9 10 11 12 ᠶᠦᠲ᠋ᠣᠭ ᠂ ᠶᠤᠨᠳᠠᠨᠭᠤᠮᠪᠤ ᠵᠣᠬᠢᠶᠠᠵᠤ ᠂ ᠲ ᠂ ᠲᠡᠮᠦᠷ᠎ᠡ ᠬᠠᠷᠭᠤᠭᠤᠯᠪᠠ ᠄ 《ᠠᠨᠠᠭᠠᠬᠤ ᠤᠬᠠᠭᠠᠨ ᠤ ᠳᠥᠷᠪᠡᠨ ᠦᠨᠳᠦᠰᠦ》᠂ ᠥᠪᠥᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠰᠢᠨᠵᠢᠯᠡᠬᠦ ᠤᠬᠠᠭᠠᠨ ᠲᠧᠭᠨᠢᠭ ᠮᠡᠷᠭᠡᠵᠢᠯ ᠦᠨ ᠬᠡᠪᠯᠡᠯ ᠦᠨ ᠬᠣᠷᠢᠶ᠎ᠠ ᠂ 2009 ᠣᠨ ᠂ 189 ᠨᠢᠭᠤᠷ᠃",
+      "is_text": true,
+      "reading_order": 13,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 13,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 95,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 93,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0014",
+      "coordinates": {
+        "x_min": 334.3,
+        "y_min": 303.5,
+        "x_max": 614.7,
+        "y_max": 375.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠡᠩᠭᠦᠷᠡᠢ ᠮᠤᠩᠭᠤᠯ ᠣᠷᠣᠨ ᠮᠢᠨᠢ ᠴᠢᠮ᠎ᠠ ᠳ᠋ᠤ ᠪᠡᠨ ᠪᠢ ᠬᠠᠢᠷᠠᠲᠠᠢ ᠡᠨᠡᠬᠡᠨ ᠶᠠᠪᠤᠭ᠎ᠠ ᠨᠠᠰᠤᠨ ᠳ᠋ᠤ ᠪᠡᠨ ᠰᠡᠳᠬᠢᠯ ᠵᠢᠷᠦᠭᠡ ᠪᠡᠷ ᠵᠢᠡᠨ ᠴᠢᠨᠤᠬᠢ",
+      "is_text": true,
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 14,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 4,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 5,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0015",
+      "coordinates": {
+        "x_min": 509.5,
+        "y_min": 386.2,
+        "x_max": 593.0,
+        "y_max": 403.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠦᠳᠡ ᠳᠤᠮᠳᠠ",
+      "is_text": true,
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 15,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 5,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 11,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0016",
+      "coordinates": {
+        "x_min": 502.5,
+        "y_min": 405.8,
+        "x_max": 602.0,
+        "y_max": 418.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠡᠩᠭᠦᠷᠡᠢ",
+      "is_text": true,
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 16,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 6,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 15,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0017",
+      "coordinates": {
+        "x_min": 301.4,
+        "y_min": 494.8,
+        "x_max": 462.6,
+        "y_max": 552.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠠᠯᠮᠠᠩ ᠰᠠᠷᠠᠨ ᠤ ᠲᠣᠯᠢᠶ᠎ᠠ ① ᠰᠢᠭ᠋ ᠪᠦᠬᠦᠢ ᠣᠯᠠᠨ ᠠᠨᠳᠠᠬᠤ ᠦᠭᠡᠢ ᠠᠯᠲᠠᠨ ᠨᠡᠷᠡᠨ ᠦ ᠲᠤᠶᠠᠭ᠎ᠠ",
+      "is_text": true,
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 17,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 8,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 17,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0018",
+      "coordinates": {
+        "x_min": 300.9,
+        "y_min": 553.6,
+        "x_max": 464.7,
+        "y_max": 669.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠢᠷᠡᠵᠦ᠍ ᠪᠠᠢᠭ᠎ᠠ ᠪᠦᠬᠦᠨ ᠰᠠᠢᠬᠠᠨ ᠴᠤ᠌ ᠢᠷᠡᠨ᠎ᠡ ᠳ᠋ᠠ ᠭᠡᠵᠦ᠍ ᠪᠣᠳᠤᠬᠤ ᠨᠢ ᠢᠯᠡᠭᠦᠦ ᠰᠠᠢᠬᠠᠨ ᠪᠠᠢᠳᠠᠭ᠃ ᠠᠮᠢᠳᠤᠷᠠᠯ ᠦᠪᠡᠷ ᠢᠶᠡᠨ ᠬᠦᠯᠢᠶᠡᠯᠲᠡ ᠶᠤᠮ᠃",
+      "is_text": true,
+      "reading_order": 18,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 18,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 9,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 6,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0019",
+      "coordinates": {
+        "x_min": 301.7,
+        "y_min": 670.7,
+        "x_max": 462.6,
+        "y_max": 757.5
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠬᠠᠷᠠᠴᠠᠨ ᠳ᠋ᠤ ᠴᠢᠨᠢ ᠡᠷᠬᠡᠯᠡᠵᠤ ᠬᠠᠢᠷᠠᠨ ᠳ᠋ᠤ ᠴᠢᠨᠢ ᠤᠶᠠᠷᠠᠮᠠᠷ",
+      "is_text": true,
+      "reading_order": 19,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 19,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 10,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 7,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0020",
+      "coordinates": {
+        "x_min": 301.6,
+        "y_min": 758.7,
+        "x_max": 461.8,
+        "y_max": 787.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠠᠢᠯ ᠠᠢᠯ ᠤᠨ ᠡᠭᠦᠳᠡᠨ ᠡᠴᠡ ᠪᠡᠭᠡᠵᠢᠩ ᠬᠦᠷᠬᠦ",
+      "is_text": true,
+      "reading_order": 20,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 20,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 11,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 10,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0021",
+      "coordinates": {
+        "x_min": 300.5,
+        "y_min": 786.5,
+        "x_max": 463.5,
+        "y_max": 830.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠠᠢᠯ ᠪᠠᠢᠭ᠎ᠠ ᠭᠠᠵᠠᠷ ᠥᠯᠪᠡᠷᠴᠦ ᠦᠬᠦᠳᠡᠭ ᠦᠭᠡᠢ ᠬᠥᠮᠥᠨ ᠪᠠᠢᠭ᠎ᠠ ᠭᠠᠵᠠᠷ",
+      "is_text": true,
+      "reading_order": 21,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 21,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 12,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 18,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0022",
+      "coordinates": {
+        "x_min": 299.3,
+        "y_min": 830.8,
+        "x_max": 462.9,
+        "y_max": 901.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠡᠳᠦᠷ ᠪᠦᠷᠢ ᠬᠣᠶᠠᠷ ᠵᠤᠷᠪᠤᠰ ᠵᠦᠢᠷ ᠰᠡᠴᠡᠨ ᠦᠭᠡᠰ ᠴᠡᠭᠡᠵᠢᠯᠡᠶ᠎ᠡ",
+      "is_text": true,
+      "reading_order": 22,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 22,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 13,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 4,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0023",
+      "coordinates": {
+        "x_min": 301.6,
+        "y_min": 905.8,
+        "x_max": 464.7,
+        "y_max": 977.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠲᠡᠮᠡᠭᠡᠨ ᠨᠢᠷᠤᠭᠤᠨ ᠳᠡᠭᠡᠷ᠎ᠡ ᠦᠰᠦᠭᠰᠡᠨ ᠬᠦᠦ ᠲᠧᠭᠨᠢᠭ ᠵᠠᠢᠳᠠᠯᠠᠨ ᠵᠢᠷᠭᠠᠵᠤ᠂ ᠬᠦᠪᠡᠭᠡ ᠦᠭᠡᠢ ᠰᠠᠨᠰᠠᠷ ᠤᠨ ᠪᠡᠯᠴᠢᠭᠡᠷ ᠲᠦ",
+      "is_text": true,
+      "reading_order": 23,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 23,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 14,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 8,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0024",
+      "coordinates": {
+        "x_min": 300.4,
+        "y_min": 977.9,
+        "x_max": 463.9,
+        "y_max": 1035.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠦᠷᠭᠦᠭᠰᠡᠨ ᠬᠤᠯᠠᠨ ᠰᠢᠭ᠋ ᠴᠠᠬᠢᠯᠠᠵᠤ ᠤᠳᠬᠤ ᠴᠠᠭ ᠤᠨ ᠲᠦᠪᠡᠷᠭᠡᠨ ᠲᠠᠢ ᠠᠯᠬᠤᠭ᠎ᠠ ᠰᠠᠴᠠᠭᠤᠯᠠᠵᠤ᠂ ᠦᠨᠦ",
+      "is_text": true,
+      "reading_order": 24,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 24,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 15,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 9,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0025",
+      "coordinates": {
+        "x_min": 483.9,
+        "y_min": 465.4,
+        "x_max": 648.6,
+        "y_max": 582.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠲᠡᠢᠮᠦ ᠴᠦ ᠪᠣᠯᠬᠣᠷ ᠮᠠᠨ ᠤ ᠵᠠᠯᠠᠭᠤᠰ ᠲᠡᠨᠡᠭ ᠵᠣᠷᠢᠭ ᠢᠶᠠᠷ ᠪᠢᠰᠢ᠂ ᠲᠡᠭᠷᠢᠯᠢᠭ ᠦᠢᠯᠡᠰ ᠢᠶᠡᠷ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠢᠶᠠᠨ ᠲᠡᠭᠷᠢ ᠶᠢ ᠡᠷᠭᠦᠬᠦ ᠨᠢ ᠴᠠᠭ ᠡᠷᠢᠨ ᠦ ᠤᠷᠢᠶ᠎ᠠ ᠳᠠᠭᠤᠳᠠᠯᠭ᠎ᠠ᠂ ᠴᠠᠭᠯᠠᠰᠢ ᠦᠭᠡᠢ ᠰᠡᠳᠬᠢᠯ ᠦᠨ",
+      "is_text": true,
+      "reading_order": 25,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 25,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 16,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 13,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0026",
+      "coordinates": {
+        "x_min": 484.5,
+        "y_min": 626.8,
+        "x_max": 644.9,
+        "y_max": 655.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠰᠠᠢᠨ ᠨᠡᠷ᠎ᠡ ᠲᠠᠢ ᠮᠠᠭᠤ ᠶᠠᠪᠤᠭᠰᠠᠨ ᠡᠴᠡ ᠮᠠᠭᠤ",
+      "is_text": true,
+      "reading_order": 26,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 26,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 18,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 20,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0027",
+      "coordinates": {
+        "x_min": 483.8,
+        "y_min": 657.1,
+        "x_max": 645.6,
+        "y_max": 698.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠶᠠᠮᠠᠷ ᠴᠤ᠌ ᠨᠣᠮ ᠂ ᠣᠯᠠᠨ ᠬᠡᠯᠡ ᠰᠣᠷᠣᠯ᠎ᠠ ᠭᠡᠳ ᠢᠷᠠᠭᠤ ᠰᠠᠢᠬᠠᠨ",
+      "is_text": true,
+      "reading_order": 27,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 27,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 19,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 66,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0028",
+      "coordinates": {
+        "x_min": 483.7,
+        "y_min": 698.2,
+        "x_max": 645.5,
+        "y_max": 742.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠶᠠᠭᠠᠬᠢᠵᠤ ᠴᠤ ᠭᠤᠶᠤᠵᠤ ᠭᠠᠩᠭᠠᠯᠠᠯ᠎ᠠ ᠭᠡᠳ ᠶᠠᠰᠤ ᠤᠭᠰᠠᠭ᠎ᠠ ᠪᠠᠨ",
+      "is_text": true,
+      "reading_order": 28,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 28,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 20,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 56,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0029",
+      "coordinates": {
+        "x_min": 484.2,
+        "y_min": 743.7,
+        "x_max": 645.7,
+        "y_max": 784.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠬᠡᠯᠡ ᠨᠢ ᠮᠣᠩᠭᠣᠯ ᠎ᠵᠢᠡᠷ ᠵᠢᠡᠨ ᠪᠠᠢᠪᠠᠯ ᠬᠡᠵᠢᠶᠡᠳᠡ ᠳ᠋ᠦ ᠪᠡᠨ",
+      "is_text": true,
+      "reading_order": 29,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 29,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 21,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 22,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0030",
+      "coordinates": {
+        "x_min": 484.8,
+        "y_min": 785.8,
+        "x_max": 645.6,
+        "y_max": 831.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠦᠰᠦᠭ ᠨᠢ ᠪᠣᠰᠤᠭ᠎ᠠ ᠪᠠᠷ ᠵᠢᠡᠨ ᠪᠠᠢᠪᠠᠯ ᠡᠭᠦᠷᠢᠳᠡ ᠪᠡᠷ ᠮᠣᠩᠭᠣᠯ ᠡᠷᠡᠨ ᠴᠠᠭ",
+      "is_text": true,
+      "reading_order": 30,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 30,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 22,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 45,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0031",
+      "coordinates": {
+        "x_min": 484.0,
+        "y_min": 832.5,
+        "x_max": 649.0,
+        "y_max": 934.5
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠡᠵᠢ ᠡᠴᠡ ᠪᠡᠨ ᠲᠠᠬᠢᠭᠠᠳ ᠲᠦᠷᠦᠬᠦ ᠪᠢᠰᠢ ᠳ᠋ᠠ ᠪᠢ ᠶᠠᠮᠠᠷ ᠦᠨᠡᠨ ᠬᠤᠳᠠᠯ ᠤᠨ ᠠᠷᠤ ᠳ᠋ᠤ ᠰᠡᠭᠦᠯᠴᠢ ᠵᠢᠨ ᠴᠡᠭ ᠢ ᠬᠠᠳᠬᠤᠬᠤ ᠪᠢᠰᠢ ᠪᠢ ᠶᠠᠮᠠᠷ ᠡᠭᠦᠯᠡ ᠲᠠᠢ ᠨᠠᠷᠠ ᠲᠠᠢ ᠬᠣᠷᠸ᠎ᠠ ᠳ᠋ᠦ᠍",
+      "is_text": true,
+      "reading_order": 31,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 31,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 23,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 61,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0032",
+      "coordinates": {
+        "x_min": 484.2,
+        "y_min": 933.6,
+        "x_max": 646.0,
+        "y_max": 1005.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠣᠨᠴᠠ ᠯᠠ ᠮᠤᠩᠭᠤᠯ ᠳ᠋ᠤ ᠪᠣᠰᠣᠭ᠎ᠠ ᠪᠡᠷ ᠪᠢᠴᠢᠭ᠍ᠳᠡᠳᠡᠭ",
+      "is_text": true,
+      "reading_order": 32,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 32,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 24,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 69,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0033",
+      "coordinates": {
+        "x_min": 484.2,
+        "y_min": 1006.5,
+        "x_max": 646.0,
+        "y_max": 1038.3
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠦᠨᠡᠬᠡᠨ ᠬᠠᠷᠠᠩᠭᠤᠢ ᠵᠢᠨ ᠰᠥ᠋ ᠪᠣᠯᠵᠤ ᠦᠵᠡᠰᠬᠦᠯᠡᠩ",
+      "is_text": true,
+      "reading_order": 33,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 33,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 25,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 23,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0034",
+      "coordinates": {
+        "x_min": 668.1,
+        "y_min": 203.1,
+        "x_max": 829.6,
+        "y_max": 229.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠠᠭᠤᠯᠠ ᠶᠢᠨ ᠰᠢᠪᠠᠭᠤ ᠥᠥᠷ ᠵᠢᠡᠷ ᠵᠢᠷᠭᠢᠵᠦ",
+      "is_text": true,
+      "reading_order": 34,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 34,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 26,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 21,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0035",
+      "coordinates": {
+        "x_min": 667.2,
+        "y_min": 233.1,
+        "x_max": 829.5,
+        "y_max": 379.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠬᠦᠰᠡᠯ ᠵᠣᠷᠢᠭ ᠢ ᠮᠢᠨᠢ ᠬᠥᠪᠴᠢᠯᠡᠵᠦ ᠥᠭᠭᠦᠭᠰᠡᠨ ᠬᠥᠬᠡ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠥᠨᠳᠥᠷᠯᠢᠭ ᠮᠢᠨᠢ ᠪᠠᠯᠠᠷ ᠴᠠᠭ ᠡᠴᠡ ᠲᠡᠮᠡᠤᠯᠵᠦ ᠢᠷᠡᠭᠰᠡᠨ ᠪᠠᠯᠠᠷᠠᠰᠢ ᠦᠭᠡᠢ ᠢᠲᠡᠭᠡᠯ ᠦᠦ ᠳ᠋ᠠ ᠬᠠᠶᠢᠷ᠎ᠠ ᠪᠠᠨ ᠪᠢ ᠲᠠᠨ ᠳ᠋ᠤ ᠪᠠᠨ ᠡᠷᠭᠦᠶ᠎ᠡ ᠢᠷᠦᠭᠡᠯ ᠢᠶᠡᠨ ᠪᠢ ᠲᠠᠨ ᠳ᠋ᠤ ᠪᠠᠨ",
+      "is_text": true,
+      "reading_order": 35,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 35,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 27,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 24,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0036",
+      "coordinates": {
+        "x_min": 668.1,
+        "y_min": 380.2,
+        "x_max": 829.4,
+        "y_max": 423.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠭᠠᠵᠠᠷ ᠲᠡᠭᠷᠢ ᠵᠢᠨ ᠬᠣᠷᠮᠣᠢ ᠵᠠᠯᠭᠠᠭᠠᠳ ᠭᠠᠩᠭᠠᠩ ᠬᠤᠨ ᠰᠢᠭ᠋ ᠮᠣᠩᠭᠣᠯ",
+      "is_text": true,
+      "reading_order": 36,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 36,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 28,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 60,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0037",
+      "coordinates": {
+        "x_min": 665.8,
+        "y_min": 423.2,
+        "x_max": 831.3,
+        "y_max": 554.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠵᠢᠰᠦᠨ ᠦ ᠴᠢᠨᠢ ᠰᠠᠢᠬᠠᠨ ᠵᠢᠡᠷ ᠴᠠᠢ ᠪᠡᠨ ᠰᠦᠯᠡᠬᠦ ᠭᠡᠰᠡᠨ ᠪᠢᠰᠢ ᠵᠢᠷᠦᠬᠡᠨ ᠦ ᠴᠢᠨᠢ ᠰᠠᠢᠬᠠᠨ ᠵᠢᠡᠷ ᠬᠠᠨᠢ ᠪᠡᠨ ᠪᠣᠯᠭᠠᠶ᠎ᠠ ᠭᠡᠰᠡᠨ ᠶᠤᠮ",
+      "is_text": true,
+      "reading_order": 37,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 37,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 29,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 37,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0038",
+      "coordinates": {
+        "x_min": 667.5,
+        "y_min": 557.2,
+        "x_max": 829.5,
+        "y_max": 586.5
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠡᠷ᠎ᠡ ᠵᠢᠨ ᠴᠡᠭᠡᠯ ᠳ᠋ᠤ ᠬᠦᠷᠦᠭᠡᠳ ᠡᠷᠳᠡᠮᠲᠡᠶ",
+      "is_text": true,
+      "reading_order": 38,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 38,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 30,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 62,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0039",
+      "coordinates": {
+        "x_min": 667.9,
+        "y_min": 585.4,
+        "x_max": 828.2,
+        "y_max": 685.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠰᠠᠢᠨ ᠮᠠᠭᠤ ᠵᠢ ᠲᠤᠩᠭᠠᠭᠠᠳ ᠰᠠᠷᠠᠭᠤᠯ ᠶᠠᠪᠤᠬᠤ ᠭᠠᠢᠬᠠᠮᠰᠢᠭ ᠰᠠᠷᠠ ᠦᠭᠡᠢ ᠰᠥᠨᠢ ᠰᠢᠭ ᠬᠠᠷᠠᠩᠭᠤᠢ ᠰᠠᠭᠠᠷ ᠶᠠᠪᠤᠬᠤ ᠭᠤᠳᠤᠮᠰᠢᠭ",
+      "is_text": true,
+      "reading_order": 39,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 39,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 31,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 26,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0040",
+      "coordinates": {
+        "x_min": 667.6,
+        "y_min": 687.2,
+        "x_max": 828.9,
+        "y_max": 729.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠮᠤᠩᠭᠤᠯ ᠠᠨᠠᠭᠠᠬᠤ ᠤᠬᠠᠭᠠᠨ ᠤ ᠶᠠᠰᠤ ᠪᠠᠷᠢᠬᠤ ᠵᠠᠰᠠᠯ",
+      "is_text": true,
+      "reading_order": 40,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 40,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 32,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 55,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0041",
+      "coordinates": {
+        "x_min": 666.6,
+        "y_min": 732.1,
+        "x_max": 828.9,
+        "y_max": 772.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠮᠦᠩᠬᠡ ᠵᠢᠨ ᠶᠠᠭᠤᠮ᠎ᠠ ᠪᠣᠯ ᠡᠨᠡ ᠡᠳᠦᠷ ᠬᠣᠨᠣᠭ ᠎ᠤᠳ ᠂ ᠮᠦᠷᠦᠭᠡᠳᠦᠯ",
+      "is_text": true,
+      "reading_order": 41,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 41,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 33,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 73,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0042",
+      "coordinates": {
+        "x_min": 665.8,
+        "y_min": 774.0,
+        "x_max": 828.2,
+        "y_max": 833.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠬᠡᠢ ᠮᠣᠷᠢ ᠨᠢ ᠭᠦᠶᠦᠵᠦ ᠬᠡᠰᠢᠭ ᠪᠤᠶᠠᠨ ᠨᠢ ᠳᠡᠯᠭᠡᠷᠡᠬᠦ",
+      "is_text": true,
+      "reading_order": 42,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 42,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 34,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 41,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0043",
+      "coordinates": {
+        "x_min": 666.5,
+        "y_min": 834.7,
+        "x_max": 829.6,
+        "y_max": 875.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠤᠤᠯ ᠦᠭᠡ ᠵᠢᠨ ᠦᠨᠳᠦᠰᠦᠨ ᠤᠳᠬ᠎ᠠ ᠵᠢ ᠬᠠᠳᠠᠭᠠᠯᠠᠭᠰᠠᠨ ᠪᠥᠭᠡᠳ",
+      "is_text": true,
+      "reading_order": 43,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 43,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 35,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 42,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0044",
+      "coordinates": {
+        "x_min": 667.9,
+        "y_min": 877.5,
+        "x_max": 827.4,
+        "y_max": 905.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠵᠢᠱᠢᠶᠡᠯᠡᠪᠡᠯ᠄ ᠮᠠᠯᠴᠢᠨ᠂ ᠶᠠᠪᠤᠭᠤᠯᠪᠠ᠂",
+      "is_text": true,
+      "reading_order": 44,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 44,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 36,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 25,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0045",
+      "coordinates": {
+        "x_min": 665.5,
+        "y_min": 908.1,
+        "x_max": 829.2,
+        "y_max": 934.3
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠵᠢᠷᠭᠤᠭ᠎ᠠ ᠳ᠋ᠤ᠂ ᠵᠥᠪᠬᠡᠨ ᠲᠣᠰᠣᠭᠳᠠᠬᠤᠨ",
+      "is_text": true,
+      "reading_order": 45,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 45,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 37,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 63,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0046",
+      "coordinates": {
+        "x_min": 666.5,
+        "y_min": 936.7,
+        "x_max": 831.3,
+        "y_max": 994.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠠᠪᠢᠶᠠᠨ ᠤ ᠰᠡᠯᠭᠦᠴᠡᠯ ᠵᠢᠡᠷ ᠦᠭᠡ ᠪᠦᠲᠦᠬᠦ ᠦᠵᠡᠭᠳᠡᠯ ᠢ ᠡᠭᠡᠰᠢᠭ ᠦᠨ ᠰᠡᠯᠭᠦᠴᠡᠯ",
+      "is_text": true,
+      "reading_order": 46,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 46,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 38,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 46,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0047",
+      "coordinates": {
+        "x_min": 665.9,
+        "y_min": 995.9,
+        "x_max": 830.7,
+        "y_max": 1036.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠣᠳᠣ ᠦᠶ᠎ᠡ ᠵᠢᠨ ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠦᠭᠡ ᠪᠦᠲᠦᠬᠦ ᠠᠷᠭ᠎ᠠ ᠳ᠋ᠤ ᠦᠭᠡ",
+      "is_text": true,
+      "reading_order": 47,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 47,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 39,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 49,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0048",
+      "coordinates": {
+        "x_min": 849.6,
+        "y_min": 203.6,
+        "x_max": 965.6,
+        "y_max": 217.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠬᠡᠯᠡ ᠪᠣᠯ",
+      "is_text": true,
+      "reading_order": 48,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 48,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 40,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 51,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0049",
+      "coordinates": {
+        "x_min": 849.2,
+        "y_min": 219.5,
+        "x_max": 1012.8,
+        "y_max": 305.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "10. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠠᠶᠠᠯᠭ᠎ᠠ ᠦᠭᠡ ᠵᠢᠨ ᠣᠨᠴᠠᠯᠢᠭ ᠰᠢᠨᠵᠢ᠂ ᠲᠥᠷᠥᠯ ᠵᠦᠢᠯ ᠢ ᠵᠢᠱᠢᠶ᠎ᠡ ᠲᠠᠢ ᠶᠠᠷᠢ᠃",
+      "is_text": true,
+      "reading_order": 49,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 49,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 41,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 28,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0050",
+      "coordinates": {
+        "x_min": 849.4,
+        "y_min": 307.8,
+        "x_max": 1013.0,
+        "y_max": 393.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "8. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠬᠠᠨᠳᠤᠯᠭ᠎ᠠ ᠦᠭᠡ ᠵᠢᠨ ᠣᠨᠴᠠᠯᠢᠭ ᠰᠢᠨᠵᠢ᠂ ᠲᠥᠷᠥᠯ ᠵᠦᠢᠯ ᠢ ᠵᠢᠱᠢᠶ᠎ᠡ ᠲᠠᠢ ᠶᠠᠷᠢ᠃",
+      "is_text": true,
+      "reading_order": 50,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 50,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 42,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 64,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0051",
+      "coordinates": {
+        "x_min": 850.4,
+        "y_min": 437.8,
+        "x_max": 1014.0,
+        "y_max": 497.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "3. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠰᠤᠯᠠ ᠦᠭᠡ ᠵᠢᠨ ᠣᠨᠴᠠᠯᠢᠭ ᠰᠢᠨᠵᠢ᠂ ᠲᠥᠷᠥᠯ ᠵᠦᠢᠯ ᠢ ᠵᠢᠱᠢᠶ᠎ᠡ ᠲᠠᠢ ᠶᠠᠷᠢ᠃",
+      "is_text": true,
+      "reading_order": 51,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 51,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 44,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 29,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0052",
+      "coordinates": {
+        "x_min": 849.7,
+        "y_min": 497.8,
+        "x_max": 1012.6,
+        "y_max": 583.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "1. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠲᠠᠶᠢᠪᠤᠷᠢ ᠦᠭᠡ ᠵᠢᠨ ᠣᠨᠴᠠᠯᠢᠭ ᠰᠢᠨᠵᠢ ᠂ ᠲᠥᠷᠥᠯ ᠵᠦᠶᠯ ᠢ ᠵᠢᠱᠢᠶ᠎ᠡ ᠲᠠᠢ ᠶᠠᠷᠢ᠃",
+      "is_text": true,
+      "reading_order": 52,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 52,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 45,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 43,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0053",
+      "coordinates": {
+        "x_min": 851.1,
+        "y_min": 584.9,
+        "x_max": 1012.7,
+        "y_max": 613.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "2. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠳᠠᠭᠠᠪᠤᠷᠢ ᠦᠭᠡ ᠵᠢᠨ",
+      "is_text": true,
+      "reading_order": 53,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 53,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 46,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 67,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0054",
+      "coordinates": {
+        "x_min": 851.5,
+        "y_min": 612.3,
+        "x_max": 1013.4,
+        "y_max": 642.5
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "4. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠪᠠᠲᠤᠯᠠᠬᠤ ᠰᠤᠯᠠ ᠦᠭᠡ",
+      "is_text": true,
+      "reading_order": 54,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 54,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 47,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 50,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0055",
+      "coordinates": {
+        "x_min": 849.4,
+        "y_min": 644.8,
+        "x_max": 1013.0,
+        "y_max": 685.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "5. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠦᠭᠡᠶᠢᠰᠬᠡᠬᠦ ᠰᠤᠯᠠ ᠦᠭᠡ ᠨᠦᠭᠦᠳ ᠨᠢ",
+      "is_text": true,
+      "reading_order": 55,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 55,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 48,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 74,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0056",
+      "coordinates": {
+        "x_min": 850.2,
+        "y_min": 687.0,
+        "x_max": 1013.1,
+        "y_max": 731.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "7. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠵᠡᠷᠭᠡᠴᠡᠭᠦᠯᠦᠨ ᠬᠣᠯᠪᠣᠬᠤ ᠦᠭᠡ ᠨᠦᠭᠦᠳ ᠨᠢ",
+      "is_text": true,
+      "reading_order": 56,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 56,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 49,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 38,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0057",
+      "coordinates": {
+        "x_min": 849.1,
+        "y_min": 732.8,
+        "x_max": 1012.7,
+        "y_max": 758.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "9. ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡᠨ ᠦ ᠬᠠᠨᠳᠤᠯᠭ᠎ᠠ ᠦᠭᠡ",
+      "is_text": true,
+      "reading_order": 57,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 57,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 50,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 59,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0058",
+      "coordinates": {
+        "x_min": 850.9,
+        "y_min": 760.2,
+        "x_max": 1013.4,
+        "y_max": 789.3
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠲᠡᠮᠦᠷ ᠠᠶᠠᠭ᠎ᠠ᠄ ᠲᠣᠳᠣᠳᠬᠠᠯ ᠲᠤᠳᠤᠳᠬᠠᠭᠠᠯᠤᠭᠴᠢ",
+      "is_text": true,
+      "reading_order": 58,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 58,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 51,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 27,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0059",
+      "coordinates": {
+        "x_min": 852.4,
+        "y_min": 789.0,
+        "x_max": 1013.0,
+        "y_max": 818.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠵᠤᠤ ᠢᠤᠢ ᠬᠠᠢ᠂ ᠢᠯᠠᠯᠠᠲᠠ᠂ ᠪᠦᠷᠭᠦᠳ ᠪᠤᠳᠠᠭ᠎ᠠ",
+      "is_text": true,
+      "reading_order": 59,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 59,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 52,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 30,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0060",
+      "coordinates": {
+        "x_min": 849.8,
+        "y_min": 820.6,
+        "x_max": 1014.1,
+        "y_max": 862.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠨᠢᠭᠡ ᠵᠡᠷᠭᠡᠴᠡᠭ᠍ᠰᠡᠨ ᠬᠠᠷᠢᠴᠠᠭ᠎ᠠ ᠬᠡᠯᠡᠨ ᠦ ᠵᠦᠢ ᠶᠢᠨ ᠲᠠᠯ᠎ᠠ ᠪᠠᠷ",
+      "is_text": true,
+      "reading_order": 60,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 60,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 53,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 68,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0061",
+      "coordinates": {
+        "x_min": 850.3,
+        "y_min": 861.9,
+        "x_max": 1013.6,
+        "y_max": 1007.5
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠶᠢᠨ ᠵᠦᠢ ᠶᠢᠨ ᠬᠣᠯᠪᠣᠭᠠᠨ ᠤ ᠬᠠᠷᠢᠴᠠᠭ᠎ᠠ᠄ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠳᠡᠬᠢ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠶᠢᠨ ᠵᠦᠢ ᠶᠢᠨ ᠬᠣᠯᠪᠣᠭᠠᠨ ᠤ ᠢᠯᠡᠳᠭᠡᠬᠦ ᠬᠡᠯᠡᠨ ᠦ ᠵᠦᠢ ᠶᠢᠨ ᠤᠳᠬ᠎ᠠ ᠶᠢ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠶᠢᠨ ᠵᠦᠢ ᠶᠢᠨ ᠬᠣᠯᠪᠣᠭᠠᠨ ᠤ ᠬᠠᠷᠢᠴᠠᠭ᠎ᠠ ᠭᠡᠨ᠎ᠡ᠃",
+      "is_text": true,
+      "reading_order": 61,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 61,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 54,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 31,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0062",
+      "coordinates": {
+        "x_min": 850.3,
+        "y_min": 1010.2,
+        "x_max": 1012.9,
+        "y_max": 1040.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠴᠡᠪᠡᠷ ᠠᠰᠠᠭᠤᠬᠤ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠨᠠᠢᠢᠷᠠᠭᠤᠯᠭ᠎ᠠ",
+      "is_text": true,
+      "reading_order": 62,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 62,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 55,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 47,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0063",
+      "coordinates": {
+        "x_min": 1031.9,
+        "y_min": 203.1,
+        "x_max": 1106.4,
+        "y_max": 219.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠨᠢᠭᠡ ᠴᠡᠪᠡᠷ",
+      "is_text": true,
+      "reading_order": 63,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 63,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 56,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 70,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0064",
+      "coordinates": {
+        "x_min": 1033.6,
+        "y_min": 218.9,
+        "x_max": 1194.9,
+        "y_max": 378.5
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠠᠰᠠᠭᠤᠬᠤ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠳᠤ ᠥᠪᠡᠷ ᠢᠶᠡᠨ ᠥᠪᠡᠷ ᠡᠴᠡ ᠪᠡᠨ ᠠᠰᠠᠭᠤᠭᠰᠠᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠪᠠᠰᠠ ᠪᠠᠭᠲᠠᠨ᠎ᠠ᠃",
+      "is_text": true,
+      "reading_order": 64,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 64,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 57,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 33,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0065",
+      "coordinates": {
+        "x_min": 1032.9,
+        "y_min": 379.9,
+        "x_max": 1197.6,
+        "y_max": 496.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠠᠰᠠᠭᠤᠬᠤ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠶᠢ ᠳᠣᠲᠣᠷ᠎ᠠ ᠨᠢ ᠣᠨᠴᠠᠭᠠᠢᠯᠠᠨ ᠠᠰᠠᠭᠤᠭᠰᠠᠨ᠂ ᠰᠤᠩᠭᠤᠵᠤ ᠠᠰᠠᠭᠤᠭᠰᠠᠨ᠂ ᠲᠤᠲᠤᠷᠬᠠᠢᠯᠠᠵᠤ ᠠᠰᠠᠭᠤᠭᠰᠠᠨ ᠭᠡᠬᠦ ᠮᠡᠲᠦ ᠴᠢᠨᠠᠭᠰᠢᠳᠠ ᠨᠠᠷᠢᠨ ᠠᠩᠭᠢᠯᠠᠵᠤ ᠪᠣᠯᠣᠨ᠎ᠠ᠃ ᠬᠡᠨ᠂ ᠶᠠᠭᠤ᠂ ᠠᠯᠢ᠂",
+      "is_text": true,
+      "reading_order": 65,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 65,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 58,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 52,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0066",
+      "coordinates": {
+        "x_min": 1032.5,
+        "y_min": 496.9,
+        "x_max": 1196.5,
+        "y_max": 555.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠠᠴᠢ ᠶᠢ ᠮᠡᠳᠡᠭ᠍ᠰᠡᠨ ᠦᠭᠡᠢ ᠨᠢ ᠴᠣᠬᠣᠮ ᠬᠡᠨ ᠪᠣᠢ ᠠᠯᠢᠮ᠎ᠠ ᠶᠤᠮ ᠦᠦ᠂ ᠠᠯᠮᠤᠷᠠᠳ ᠶᠤᠮ ᠦᠦ",
+      "is_text": true,
+      "reading_order": 66,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 66,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 59,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 44,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0067",
+      "coordinates": {
+        "x_min": 1033.2,
+        "y_min": 557.8,
+        "x_max": 1196.8,
+        "y_max": 656.6
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠭᠠᠭᠴᠠ ᠪᠦᠯᠦᠭ᠍ᠲᠦ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠶᠢᠨ ᠥᠭᠦᠯᠡᠬᠦᠨ ᠦ ᠰᠢᠨᠵᠢ ᠶᠢ ᠤᠤᠯ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠶᠢᠨ ᠠᠶᠠᠰ ᠪᠣᠯᠣᠨ ᠭᠣᠣᠯᠯᠠᠬᠤ ᠦᠭᠡ ᠶᠢᠨ ᠬᠡᠯᠡᠨ ᠦ ᠵᠦᠢ ᠶᠢᠨ ᠬᠡᠯᠪᠡᠷᠢ ᠪᠡᠷ ᠢᠯᠡᠳᠬᠡᠨ᠎ᠡ᠃",
+      "is_text": true,
+      "reading_order": 67,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 67,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 60,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 75,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0068",
+      "coordinates": {
+        "x_min": 1034.6,
+        "y_min": 661.0,
+        "x_max": 1195.3,
+        "y_max": 700.3
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠨᠢᠭᠡ ᠭᠠᠭᠴᠠ ᠪᠦᠯᠦᠭ᠍ᠲᠦ ᠡᠩ ᠦᠨ ᠥᠭᠦᠯᠡᠪᠦᠷᠢ ᠵᠥᠪᠬᠡᠨ",
+      "is_text": true,
+      "reading_order": 68,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 68,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 61,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 39,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0069",
+      "coordinates": {
+        "x_min": 1033.8,
+        "y_min": 702.3,
+        "x_max": 1195.7,
+        "y_max": 729.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "7. ᠡᠰᠡᠷᠭᠦ ᠲᠠᠯ᠎ᠠ ᠶᠢᠨ ᠳᠦᠷᠢ᠃ ᠵᠢᠩᠭᠠᠷ ᠤᠨ",
+      "is_text": true,
+      "reading_order": 69,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 69,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 62,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 48,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0070",
+      "coordinates": {
+        "x_min": 1032.8,
+        "y_min": 732.4,
+        "x_max": 1197.2,
+        "y_max": 772.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠵᠢᠩᠭᠠᠷ ᠤᠨ ᠲᠤᠤᠯᠢ ᠳᠤ ᠭᠠᠷᠬᠤ ᠡᠰᠡᠷᠭᠦ ᠲᠠᠯ᠎ᠠ ᠶᠢᠨ ᠳᠦᠷᠢ ᠶᠢᠨ",
+      "is_text": true,
+      "reading_order": 70,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 70,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 63,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 72,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0071",
+      "coordinates": {
+        "x_min": 1033.0,
+        "y_min": 773.2,
+        "x_max": 1196.2,
+        "y_max": 817.3
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠵᠢᠩᠭᠠᠷ ᠤᠨ ᠲᠤᠤᠯᠢ ᠳᠠᠬᠢ ᠳᠡᠭᠡᠷᠡᠬᠢ ᠡᠲᠡᠭᠡᠷ ᠣᠯᠠᠨ ᠵᠦᠢᠯ ᠤᠨ ᠤᠷᠠᠨ",
+      "is_text": true,
+      "reading_order": 71,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 71,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 64,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 53,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0072",
+      "coordinates": {
+        "x_min": 1033.2,
+        "y_min": 818.3,
+        "x_max": 1197.1,
+        "y_max": 934.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠳᠠᠢᠨ ᠭᠦᠨ ᠵᠠᠯᠠᠭᠤᠰ ᠤᠨ ᠴᠠᠭᠳᠤᠷ ᠵᠠᠳᠠᠬᠤ᠂ ᠪᠤᠳᠤᠯᠭ᠎ᠠ ᠠᠭᠰᠠᠨ ᠠᠶᠤᠬᠤ᠂ ᠱᠢᠨᠡᠨ ᠳ᠋ᠤᠷ ᠰᠤᠷᠪᠤᠯᠢᠲᠤ ᠲᠦᠷᠦᠯ ᠎ᠦᠨ ᠦᠷ᠎ᠡ ᠬᠡᠮᠡᠭᠴᠢ ᠰᠠᠢᠨ ᠭᠡᠷ ᠵᠤᠤ ᠂ ᠠᠬᠤᠤ ᠳ᠋ᠡᠭᠡᠳ ᠬᠡᠳᠦ ᠵᠢᠳᠦᠨ ᠦᠶ᠎ᠡ ᠂ ᠮᠦ ᠬᠡᠮᠡᠬᠦ",
+      "is_text": true,
+      "reading_order": 72,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 72,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 65,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 32,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0073",
+      "coordinates": {
+        "x_min": 1033.2,
+        "y_min": 966.3,
+        "x_max": 1196.1,
+        "y_max": 1008.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠭᠤᠷᠪᠠᠳᠤᠭᠠᠷ ᠬᠡᠰᠡᠭ ᠂ ᠲᠣᠮᠣᠭ ᠰᠢᠯᠦᠭ ᠤᠨ ᠵᠣᠬᠢᠶᠠᠯ ᠤᠳ ,",
+      "is_text": true,
+      "reading_order": 73,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 73,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 67,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 34,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0074",
+      "coordinates": {
+        "x_min": 1033.2,
+        "y_min": 1010.6,
+        "x_max": 1194.3,
+        "y_max": 1038.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠣᠯᠣᠭᠰᠠᠨ ᠴᠠᠷᠢᠶ᠎ᠠ ᠎ᠶᠢ ᠠᠪᠴᠣ ᠭᠠᠯ ᠎ᠤᠨ",
+      "is_text": true,
+      "reading_order": 74,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 74,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 68,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 35,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0075",
+      "coordinates": {
+        "x_min": 21.5,
+        "y_min": 158.3,
+        "x_max": 230.0,
+        "y_max": 302.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "6. ᠭᠠᠭᠴᠠ ᠲᠦᠯᠬᠢᠭᠦᠷ ᠵᠡᠭᠦᠵᠦ ᠪᠣᠯᠬᠤ ᠦᠭᠡᠢ᠂ ᠦᠨᠦᠴᠢᠨ ᠦᠷᠦᠭᠡᠰᠦᠨ ᠪᠣᠯᠤᠨ᠎ᠠ ᠭᠡᠳᠡᠭ᠃ 7. ᠦᠬᠡᠷ ᠡᠳᠦᠷ ᠡᠮ ᠳᠠᠩ ᠢ ᠡᠬᠢᠯᠡᠵᠦ ᠤᠤᠭᠤᠬᠤ ᠦᠭᠡᠢ᠂ ᠦᠬᠦᠭᠡᠷ ᠦᠨ ᠠᠮᠠᠰᠠᠷ ᠨᠡᠭᠡᠭᠡᠭᠳᠡᠭᠰᠡᠨ ᠡᠳᠦᠷ ᠭᠡᠳᠡᠭ᠃ 8.",
+      "is_text": true,
+      "reading_order": 75,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 75,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 70,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 65,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0076",
+      "coordinates": {
+        "x_min": 21.5,
+        "y_min": 305.2,
+        "x_max": 228.2,
+        "y_max": 378.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "1. ᠭᠠᠬᠠᠢ ᠡᠳᠦᠷ ᠬᠤᠷᠢᠮ ᠬᠢᠵᠦ ᠪᠣᠯᠬᠤ ᠦᠭᠡᠢ ᠦᠬᠦᠵᠦ ᠬᠠᠭᠠᠴᠠᠨ᠎ᠠ ᠭᠡᠳᠡᠭ᠃ 2.",
+      "is_text": true,
+      "reading_order": 76,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 76,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 71,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 71,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0077",
+      "coordinates": {
+        "x_min": 99.9,
+        "y_min": 746.1,
+        "x_max": 202.8,
+        "y_max": 757.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠬᠢᠶ᠎ᠠ",
+      "is_text": true,
+      "reading_order": 77,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 77,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 76,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 99,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0078",
+      "coordinates": {
+        "x_min": 20.8,
+        "y_min": 861.8,
+        "x_max": 226.2,
+        "y_max": 918.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠣᠷᠴᠢᠯᠠᠩ ᠶᠢᠷᠲᠢᠴᠦ᠍ ᠎ᠶᠢᠨ ᠰᠢᠨᠵᠢᠯᠡᠬᠦ ᠣᠬᠠᠭᠠᠨ ᠎ᠤ ᠨᠢᠭᠣᠴᠠ ᠤᠷᠤᠰᠢᠬᠤᠢ ᠪᠤᠳᠠᠰ ᠤᠨ ᠤᠯᠠᠷᠢᠨ ᠬᠤᠪᠢᠰᠬᠤ ᠶᠤᠰᠤᠨ ᠠᠯᠢᠪᠠ",
+      "is_text": true,
+      "reading_order": 78,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 78,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 78,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 80,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0079",
+      "coordinates": {
+        "x_min": 21.4,
+        "y_min": 920.4,
+        "x_max": 227.8,
+        "y_max": 1036.0
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠲᠡᠭᠷᠢ ᠭᠠᠵᠠᠷ ᠬᠦᠮᠦᠨ ᠭᠤᠷᠪᠠ ᠶᠢᠨ ᠨᠢᠭᠡᠳᠦᠯ ᠳᠡᠯᠭᠡᠷ ᠤᠷᠢᠯᠠᠩ ᠤᠨ ᠰᠤᠷᠠᠭ ᠲᠤᠬᠢᠶᠠᠨ ᠤ ᠨᠡᠪᠲᠡᠷᠡᠯ ᠡᠷᠡᠭᠦᠯ ᠡᠩᠬᠡ ᠬᠦᠵᠢᠯ ᠪᠠᠳᠠᠷᠠᠯ ᠤᠨ ᠬᠦᠰᠡᠯᠡᠩ ᠡᠷᠬᠢᠮ ᠴᠢᠬᠤᠯᠠ ᠨᠢ ᠦᠵᠢᠨ ᠠᠬᠤᠢ ᠶᠢᠨ ᠬᠠᠮᠠᠭᠠᠯᠠᠯ",
+      "is_text": true,
+      "reading_order": 79,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 79,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 79,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 78,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0080",
+      "coordinates": {
+        "x_min": 20.5,
+        "y_min": 1037.0,
+        "x_max": 228.1,
+        "y_max": 1138.6
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠲᠠᠢᠪᠤᠩ ᠪᠠᠶᠠᠰᠤᠯ ᠤᠷᠲᠤ ᠨᠠᠰᠤᠯᠠᠬᠤ ᠶᠢᠨ ᠵᠢᠮ᠎ᠡ ᠲᠠᠮᠢᠷ ᠰᠣᠪᠢᠯᠠᠯᠲᠠ ᠤᠳᠠᠭᠠᠨᠵᠢᠷᠭᠠᠬᠤ ᠶᠢᠨ ᠳᠣᠮ ᠪᠠᠢᠭᠠᠯᠢ ᠶᠢᠨ ᠠᠷᠢᠭᠤᠨ ᠡᠨᠡᠸ᠋ᠷᠭᠢ ᠶᠢᠨ ᠰᠢᠮ᠎ᠡ ᠡᠪᠡᠳᠴᠢᠨ ᠢ ᠠᠷᠢᠯᠭᠠᠵᠤ ᠨᠠᠰᠤ ᠶᠢ ᠤᠷᠳᠤᠳᠬᠠᠬᠤ ᠠᠳᠢᠰ",
+      "is_text": true,
+      "reading_order": 80,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 80,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 80,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 76,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0081",
+      "coordinates": {
+        "x_min": 22.5,
+        "y_min": 1245.6,
+        "x_max": 225.7,
+        "y_max": 1333.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠤᠷᠤᠰᠤᠨ ᠣᠳᠣᠭᠰᠠᠨ ᠡᠳᠦᠷ ᠤᠳ ᠢ ᠦᠭᠡᠢ ᠪᠦᠯᠬᠤᠤ ᠦᠭᠰᠦᠵᠦ ᠪᠤᠯᠳᠠᠭ ᠤᠷᠤᠭᠰᠢᠯᠠᠬᠤ ᠴᠠᠭ ᠤᠨ ᠵᠡᠭᠦᠦ ᠶᠢ ᠬᠢᠮᠠᠭᠠᠳᠠᠶ᠎ᠠ ᠠᠷᠭᠠᠮᠵᠢᠯᠠᠵᠤ ᠪᠣᠯᠳᠠᠭ ᠦᠭᠡᠢ ᠪᠤᠯᠬᠤᠷ ᠤᠷᠮᠠᠰᠢᠵᠤ ᠤᠬᠠᠭᠠᠷᠠᠬᠤ ᠣᠷᠴᠢᠯᠠᠩ",
+      "is_text": true,
+      "reading_order": 81,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 81,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 82,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 89,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0082",
+      "coordinates": {
+        "x_min": 22.9,
+        "y_min": 1335.5,
+        "x_max": 228.3,
+        "y_max": 1477.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠲᠣᠯᠣᠭᠠᠢ ᠰᠢᠭᠡᠷᠡᠩ ᠲᠠᠢ ᠪᠠᠨ ᠨᠡᠢᠯᠡᠭᠡᠳ ᠲᠣᠭᠣᠭ᠎ᠠ ᠳᠦᠭᠦᠷᠦᠨ᠎ᠡ",
+      "is_text": true,
+      "reading_order": 82,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 82,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 83,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 85,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0083",
+      "coordinates": {
+        "x_min": 23.3,
+        "y_min": 1585.4,
+        "x_max": 208.4,
+        "y_max": 1670.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠬᠥᠮᠥᠨ ᠳᠦ ᠲᠤᠭᠤᠯᠵᠤ ᠪᠠᠢᠵᠤ ᠤᠬᠠᠭᠠᠵᠢᠬᠤ ᠵᠠᠮ ᠳᠠᠪᠠᠵᠤ ᠪᠠᠢᠵᠤ ᠡᠪᠳᠡᠯᠡᠬᠦ ᠵᠢᠷᠭᠠᠯ ᠠᠯᠳᠠᠵᠤ ᠪᠠᠢᠵᠤ ᠤᠨᠤᠬᠤ ᠰᠤᠩᠭᠤᠯᠲᠠ ᠬᠦᠯᠢᠶᠡᠵᠤ ᠪᠠᠢᠵᠤ ᠵᠣᠯᠭᠠᠬᠤ ᠲᠠᠪᠢᠯᠠᠩ ᠭᠡᠵᠤ",
+      "is_text": true,
+      "reading_order": 83,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 83,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 87,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 91,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0084",
+      "coordinates": {
+        "x_min": 22.4,
+        "y_min": 1673.6,
+        "x_max": 209.3,
+        "y_max": 1730.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠡᠳᠦᠷ ᠪᠦᠷᠢ ᠬᠣᠶᠠᠷ ᠵᠤᠷᠪᠤᠰ ᠵᠦᠷ ᠰᠡᠴᠡᠨ ᠦᠭᠡ ᠴᠡᠭᠡᠵᠢᠯᠡᠶ᠎ᠡ ᠠᠪᠤ ᠶᠢᠨ ᠬᠦᠦ ᠶᠢ ᠠᠷᠢᠬᠢ ᠪᠠᠷᠠᠨ᠎ᠠ ᠠᠷᠭᠠᠯ",
+      "is_text": true,
+      "reading_order": 84,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 84,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 88,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 86,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0085",
+      "coordinates": {
+        "x_min": 227.4,
+        "y_min": 1583.3,
+        "x_max": 414.7,
+        "y_max": 1730.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠲᠡᠪᠡᠨᠡ ᠴᠢᠨᠡᠭᠡ ᠨᠦᠬᠡ ᠪᠡᠷ ᠲᠡᠮᠡᠭᠡᠨ ᠴᠥᠨᠡᠭᠡ ᠰᠠᠯᠬᠢ",
+      "is_text": true,
+      "reading_order": 85,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 85,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 89,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 95,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0086",
+      "coordinates": {
+        "x_min": 434.5,
+        "y_min": 1583.9,
+        "x_max": 618.3,
+        "y_max": 1641.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠦ ᠤᠯᠠᠮᠵᠢᠯᠠᠯᠲᠤ ᠶᠠᠰᠤ ᠪᠠᠷᠢᠬᠤ ᠮᠡᠷᠭᠡᠵᠢᠯ ᠦᠨ ᠪᠤᠳᠠᠰ ᠤᠨ ᠪᠤᠰᠤ ᠰᠤᠶᠤᠯ ᠤᠨ ᠥᠪ ᠬᠡᠮᠡᠨ",
+      "is_text": true,
+      "reading_order": 86,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 86,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 90,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 100,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0087",
+      "coordinates": {
+        "x_min": 433.2,
+        "y_min": 1643.0,
+        "x_max": 618.7,
+        "y_max": 1729.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠲᠣᠪᠴᠢ ᠠᠭᠤᠯᠭ᠎ᠠ ᠮᠣᠩᠭᠣᠯ ᠠᠨᠠᠭᠠᠬᠤ ᠤᠬᠠᠭᠠᠨ ᠤ ᠶᠠᠰᠤ ᠪᠠᠷᠢᠬᠤ ᠮᠡᠷᠭᠡᠵᠢᠯ ᠪᠣᠯ ᠮᠣᠩᠭᠣᠯ ᠠᠨᠠᠭᠠᠬᠤ ᠤᠬᠠᠭᠠᠨ ᠤ ᠦᠨᠳᠦᠰᠦᠨ ᠣᠨᠣᠯ ᠢᠶᠠᠷ ᠤᠳᠤᠷᠢᠳᠤᠮᠵᠢ ᠪᠣᠯᠭᠠᠨ᠂ ᠭᠠᠷ ᠳᠠᠮ",
+      "is_text": true,
+      "reading_order": 87,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 87,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 91,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 102,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0088",
+      "coordinates": {
+        "x_min": 638.7,
+        "y_min": 1581.5,
+        "x_max": 821.5,
+        "y_max": 1611.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠠᠨᠠᠭᠠᠬᠤ ᠤᠬᠠᠭᠠᠨ ᠤ ᠶᠠᠰᠤ ᠪᠠᠷᠢᠬᠤ ᠮᠡᠷᠭᠡᠵᠢᠯ",
+      "is_text": true,
+      "reading_order": 88,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 88,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 92,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 103,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0089",
+      "coordinates": {
+        "x_min": 638.2,
+        "y_min": 1613.5,
+        "x_max": 823.9,
+        "y_max": 1715.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠪᠣᠯᠤᠭᠰᠠᠳ ᠨᠣᠮ ᠰᠤᠳᠤᠷ ᠲᠤ ᠨᠡᠪᠲᠡᠷᠡᠵᠦ᠂ ᠲᠤᠬᠠᠶᠢᠯᠠᠭᠰᠠᠨ ᠠᠵᠢᠯ ᠳᠤ ᠪᠠᠨ ᠭᠠᠷᠮᠠᠭᠠᠶᠢᠯᠠᠨ᠂ ᠡᠨᠡᠷᠢᠩᠭᠦᠶ ᠴᠠᠭᠠᠪᠤᠷ ᠰᠡᠳᠬᠢᠯ ᠢ ᠡᠪᠦᠷᠯᠡᠬᠦ ᠂ ᠡᠷᠬᠡ ᠲᠡᠭᠰᠢ ᠲᠥᠪ ᠭᠣᠣᠯᠴᠢ ᠪᠠᠶᠢᠬᠤ ᠂ ᠠᠵᠢᠯ ᠳᠤ ᠪᠠᠨ",
+      "is_text": true,
+      "reading_order": 89,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 89,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 93,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 81,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0090",
+      "coordinates": {
+        "x_min": 693.9,
+        "y_min": 1715.8,
+        "x_max": 799.7,
+        "y_max": 1729.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠢᠷᠠᠭᠤ",
+      "is_text": true,
+      "reading_order": 90,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 90,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 94,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 92,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0091",
+      "coordinates": {
+        "x_min": 853.9,
+        "y_min": 1243.8,
+        "x_max": 1024.6,
+        "y_max": 1316.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠤᠲᠠᠰᠤᠲᠤ ᠬᠤᠭᠤᠷ ᠢᠶᠠᠨ ᠬᠦᠭᠯᠡᠭᠦᠯᠬᠦ ᠳᠦ ᠤᠷᠭᠤᠭ᠎ᠠ ᠴᠡᠴᠡᠨ ᠦᠭᠡᠰ ᠤᠷᠤᠰᠴᠤ ᠪᠠᠢᠭ᠎ᠠ ᠮᠡᠲᠦ ᠤᠨᠳᠤᠷᠤᠨ᠎ᠠ᠂ ᠠᠷᠠᠯᠲᠤ ᠬᠤᠭᠤᠷ ᠢᠶᠠᠨ",
+      "is_text": true,
+      "reading_order": 91,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 91,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 96,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 82,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0092",
+      "coordinates": {
+        "x_min": 854.6,
+        "y_min": 1319.2,
+        "x_max": 1025.3,
+        "y_max": 1420.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠭᠡᠰᠡᠷ ᠰᠣᠶᠣᠯ ᠤᠨ ᠰᠢᠷᠢᠰ ᠰᠤᠷᠪᠤᠯᠵᠢᠯᠠᠭ᠎ᠠ ᠠᠷᠪᠠᠨ ᠬᠣᠶᠠᠷ ᠠᠬᠠᠯᠠᠭᠴᠢ ᠬᠤᠭᠤᠷᠴᠢ ᠠᠪᠢᠶᠠᠰᠲᠤ ᠭᠡᠩᠰᠡᠷᠡᠭ᠍ᠴᠢ᠂100 ᠭᠠᠷᠤᠢ ᠬᠤᠪᠢ ᠦᠯᠢᠭᠡᠷ ᠪᠠ ᠳᠠᠭᠤᠤ ᠶᠢᠨ ᠰᠢ ᠲᠠᠢ ᠨᠡᠷᠡᠲᠦ ᠤᠷᠠᠯᠢᠭ᠌ᠴᠢᠨ",
+      "is_text": true,
+      "reading_order": 92,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 92,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 97,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 101,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0093",
+      "coordinates": {
+        "x_min": 854.9,
+        "y_min": 1422.0,
+        "x_max": 1026.4,
+        "y_max": 1537.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠰᠢᠨ᠎ᠡ ᠣᠨ ᠳᠤ ᠪᠠᠨ ᠠᠵᠠ ᠬᠡᠢᠮᠦᠷᠢ ᠵᠣᠯ ᠵᠢᠷᠭᠠᠯᠲᠠᠢ ᠡᠷᠡᠭᠦᠯ ᠡᠨᠡᠭᠦᠬᠡᠨ ᠰᠠᠷᠠᠭᠤᠯ ᠰᠠᠢᠬᠠᠨ ᠢᠲᠡᠭᠡᠯ ᠲᠡᠭᠦᠯᠳᠡᠷ ᠢᠳᠡ ᠬᠦᠴᠦᠲᠠᠢ ᠤᠨᠠᠴᠠ ᠠᠮᠵᠢᠯᠲᠠ ᠤᠢ ᠪᠢᠯᠢᠭ᠍ᠲᠦ ᠥᠶᠥᠭ ᠲᠠᠪᠠᠲᠠᠢ ᠦᠯᠡᠵᠡᠢ ᠪᠡᠯᠭᠡ ᠲᠠᠢ ᠪᠠᠢᠬᠤ",
+      "is_text": true,
+      "reading_order": 93,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 93,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 98,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 108,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0094",
+      "coordinates": {
+        "x_min": 854.4,
+        "y_min": 1538.1,
+        "x_max": 1027.0,
+        "y_max": 1625.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠬᠦᠦᠰᠣ ᠡ ᠵᠢᠷᠦᠬᠡᠨ ᠳᠦ ᠪᠡᠨ ᠢᠲᠡᠭᠡᠯ ᠲᠠᠢ ᠵᠢᠰᠦᠨ ᠳᠦ ᠪᠡᠨ ᠪᠠᠶᠠᠰᠤᠯ ᠲᠠᠢ ᠠᠮᠠᠨ ᠳᠤ ᠪᠠᠨ ᠪᠡᠯᠡᠭ ᠢᠷᠦᠭᠡᠯ ᠲᠠᠢ ᠰᠡᠳᠭᠢᠯ ᠴᠡᠪᠡᠷ᠂ ᠢᠲᠠᠭᠡᠯ ᠳᠦᠭᠦᠷᠡᠩ",
+      "is_text": true,
+      "reading_order": 94,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 94,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 99,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 84,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0095",
+      "coordinates": {
+        "x_min": 853.5,
+        "y_min": 1627.0,
+        "x_max": 1025.7,
+        "y_max": 1726.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠲᠤᠷᠭᠠᠨ ᠴᠠᠭᠠᠨ ᠬᠠᠳᠠᠭ ᠲᠤ ᠪᠠᠨ ᠮᠡᠨᠳᠦ ᠶᠢᠨ ᠢᠷᠦᠭᠡᠯ ᠰᠢᠩᠭᠡᠭᠡᠵᠦ ᠲᠤᠩᠭᠠᠯᠠᠭ ᠮᠦᠩᠭᠦᠨ ᠬᠤᠨᠳᠠᠭᠠᠨ ᠳᠤ ᠪᠠᠨ ᠪᠤᠶᠠᠨ ᠤ ᠪᠡᠯᠭᠡ ᠮᠡᠯᠮᠡᠯᠵᠡᠭᠦᠯᠦᠨ ᠰᠠᠢᠨ ᠤ ᠢᠷᠦᠭᠡᠯ ᠳᠡᠪᠰᠢᠭᠦᠯᠵᠦ",
+      "is_text": true,
+      "reading_order": 95,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 95,
+      "column_index": 4,
+      "attributes": {
+        "omnidocbench_order": 100,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 77,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0096",
+      "coordinates": {
+        "x_min": 1047.2,
+        "y_min": 1245.6,
+        "x_max": 1216.0,
+        "y_max": 1271.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠭᠠᠷᠴᠠᠭ᠎ᠠ ᠦᠭᠡᠢ ᠰᠠᠢᠨ ᠰᠤᠷᠬᠤ ᠶᠣᠰᠣᠲᠠᠢ",
+      "is_text": true,
+      "reading_order": 96,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 96,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 101,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 97,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0097",
+      "coordinates": {
+        "x_min": 1046.1,
+        "y_min": 1275.7,
+        "x_max": 1217.2,
+        "y_max": 1359.9
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠠᠮᠤᠷᠵᠢᠬᠤ ᠭᠠᠵᠠᠷ ᠤᠨ ᠬᠠᠭᠠᠯᠭᠠᠨ ᠤ ᠵᠠᠪᠰᠠᠷ ᠢᠶᠠᠷ ᠠᠮᠤᠷ ᠢ ᠨᠢ ᠠᠰᠠᠭᠤᠵᠤ ᠡᠵᠢ ᠶᠢ ᠴᠢᠨᠢ ᠤᠶᠠᠷᠠᠭᠠᠭᠰᠠᠨ ᠠᠩᠬᠠᠨ ᠤ ᠪᠦᠪᠡᠢ ᠶᠢ ᠮᠠᠨᠴᠤᠢ ᠳᠡᠭᠡᠷ᠎ᠡ ᠴᠢᠨᠢ",
+      "is_text": true,
+      "reading_order": 97,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 97,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 102,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 106,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0098",
+      "coordinates": {
+        "x_min": 1045.8,
+        "y_min": 1362.7,
+        "x_max": 1216.9,
+        "y_max": 1551.6
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠠᠽᠢᠶ᠎ᠠ ᠶᠢᠨ ᠴᠡᠭᠡᠵᠢᠨ ᠳᠡᠭᠡᠷ᠎ᠡ ᠮᠣᠩᠭᠣᠯ ᠭᠡᠳᠡᠭ ᠠᠤᠭ᠎ᠠ ᠨᠡᠷ᠎ᠡ ᠶᠢ ᠰᠠᠯᠠᠮ᠎ᠠ ᠪᠠᠷ ᠢᠶᠠᠨ ᠰᠡᠢᠯᠦᠭᠰᠡᠨ ᠲᠠᠯ᠎ᠠ ᠰᠢᠭ᠋ ᠰᠡᠳᠬᠢᠯ ᠲᠠᠢ᠂ ᠠᠭᠤᠯᠠ ᠰᠢᠭ᠋ ᠬᠦᠮᠦᠰ ᠦᠨ ᠲᠠᠰᠤᠷᠬᠠᠢ ᠨᠢ ᠭᠡᠳᠡᠭ ᠢᠶᠡᠨ ᠮᠠᠷᠲᠠᠵᠤ ᠪᠣᠯᠬᠤ ᠦᠭᠡᠢ",
+      "is_text": true,
+      "reading_order": 98,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 98,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 103,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 107,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0099",
+      "coordinates": {
+        "x_min": 1047.3,
+        "y_min": 1553.9,
+        "x_max": 1217.9,
+        "y_max": 1610.6
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠡᠨᠡ ᠬᠡᠯᠡ ᠪᠡᠷ ᠳᠠᠭᠤᠯᠠᠵᠤ᠂ ᠡᠨᠡ ᠬᠡᠯᠡ ᠪᠡᠷ ᠤᠬᠢᠯᠠᠵᠤ ᠡᠨᠡ ᠬᠡᠯᠡ ᠪᠡᠷ ᠤᠨᠠᠵᠤ᠂ ᠡᠨᠡ ᠬᠡᠯᠡ ᠪᠡᠷ",
+      "is_text": true,
+      "reading_order": 99,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 99,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 104,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 87,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0100",
+      "coordinates": {
+        "x_min": 1046.5,
+        "y_min": 1612.1,
+        "x_max": 1218.7,
+        "y_max": 1697.6
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠥᠬᠢᠨ ᠳᠦ ᠪᠡᠨ ᠢᠯᠡᠭᠡᠬᠦ ᠵᠠᠬᠢᠳᠠᠯ ᠴᠣᠢᠨᠠᠮ ᠶᠠᠭᠠᠬᠢᠵᠦ ᠴᠤ ᠴᠢ ᠭᠣᠶᠣᠵᠤ ᠭᠠᠩᠭᠠᠯ᠎ᠠ ᠭᠡᠰᠡᠨ ᠶᠠᠰᠤ ᠤᠭᠰᠠᠭ᠎ᠠ ᠪᠠᠨ ᠳᠠᠯᠳᠠᠷᠠᠲᠠᠯ᠎ᠠ ᠭᠣᠶᠣᠭᠠᠳ ᠬᠡᠷᠡᠭ ᠦᠭᠡᠢ",
+      "is_text": true,
+      "reading_order": 100,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 100,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 105,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 94,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0101",
+      "coordinates": {
+        "x_min": 1047.4,
+        "y_min": 1699.7,
+        "x_max": 1214.9,
+        "y_max": 1727.4
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠨᠤᠲᠤᠭ ᠢᠶᠠᠨ ᠰᠠᠨᠠᠬᠤ ᠨᠢ ᠲᠥᠷᠥᠯᠬᠢ ᠶᠢᠨ",
+      "is_text": true,
+      "reading_order": 101,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 101,
+      "column_index": 5,
+      "attributes": {
+        "omnidocbench_order": 106,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 105,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0102",
+      "coordinates": {
+        "x_min": 25.0,
+        "y_min": 614.3,
+        "x_max": 226.3,
+        "y_max": 684.5
+      },
+      "points": null,
+      "block_label": "caption",
+      "block_content": "ᠨᠢᠭᠡᠨ ᠳᠡᠭᠡᠪᠦᠷ ᠦᠨ ᠳᠣᠣᠷ᠎ᠠ ᠬᠦᠰᠡᠯ ᠢᠶᠡᠨ ᠨᠡᠢᠯᠡᠭᠦᠯᠵᠦ ᠨᠢᠭᠡᠨ ᠪᠠᠭᠰᠢ ᠶᠢᠨ ᠰᠤᠷᠭᠠᠯ ᠢᠶᠠᠷ ᠣᠶᠣᠨ ᠢᠶᠠᠨ ᠬᠤᠷᠴᠠᠯᠠᠭᠰᠠᠨ ᠰᠢᠷᠬᠡᠭ ᠰᠢᠷᠬᠡᠭ ᠡᠪᠡᠰᠦᠨ ",
+      "is_text": true,
+      "reading_order": 102,
+      "reading_group": "caption",
+      "reading_role": "caption",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 102,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 74,
+        "omnidocbench_category_type": "figure_caption",
+        "omnidocbench_anno_id": 79,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0103",
+      "coordinates": {
+        "x_min": 22.7,
+        "y_min": 686.8,
+        "x_max": 226.3,
+        "y_max": 744.1
+      },
+      "points": null,
+      "block_label": "caption",
+      "block_content": "ᠲᠠᠨ᠎ᠠ᠄ ᠤᠤᠭᠠᠯ ᠰᠤᠷᠭᠠᠯᠲᠠ ᠶᠢᠨ ᠲᠥᠪ ᠦᠨ ᠴᠠᠭᠠᠨ ᠲᠣᠯᠣᠭᠠᠢ ᠠᠨᠭᠭᠢ ᠡᠴᠡ ᠲᠤᠰ ᠡᠷᠭᠦᠮᠵᠢᠯᠡᠯ ᠢᠭᠠᠷᠳᠠᠭᠤᠯᠪᠠ ᠃",
+      "is_text": true,
+      "reading_order": 103,
+      "reading_group": "caption",
+      "reading_role": "caption",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 103,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 75,
+        "omnidocbench_category_type": "figure_caption",
+        "omnidocbench_anno_id": 96,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_b0104",
+      "coordinates": {
+        "x_min": 279.9,
+        "y_min": 1421.8,
+        "x_max": 824.2,
+        "y_max": 1477.7
+      },
+      "points": null,
+      "block_label": "caption",
+      "block_content": "《 ᠲᠠᠳᠠᠳᠤᠩᠭ᠎ᠠ 》 ᠬᠤᠨᠳᠠᠭᠠᠲᠤ ᠠᠩᠬᠠᠳᠤᠭᠠᠷ ᠬᠤᠭᠤᠴᠠᠭᠠᠨ ᠎ᠤ ᠮᠤᠩᠭᠤᠯ ᠪᠤᠯᠤᠳ ᠪᠢᠷ ᠦᠨ ᠪᠢᠴᠢᠯᠭᠡ ᠶᠢᠨ ᠤᠷᠤᠯᠳᠤᠭᠠᠨ",
+      "is_text": true,
+      "reading_order": 104,
+      "reading_group": "caption",
+      "reading_role": "caption",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "01_报纸页:omni",
+      "reading_flow_rank": 104,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 85,
+        "omnidocbench_category_type": "figure_caption",
+        "omnidocbench_anno_id": 88,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_s0105",
+      "coordinates": {
+        "x_min": 21.0,
+        "y_min": 464.6,
+        "x_max": 228.5,
+        "y_max": 593.3
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "reading_group": "non_ocr",
+      "reading_role": "image",
+      "reading_order_confidence": "none",
+      "reading_region": "non_ocr",
+      "reading_flow_id": "01_报纸页:non_ocr",
+      "reading_flow_rank": 999,
+      "attributes": {
+        "omnidocbench_category_type": "figure",
+        "omnidocbench_anno_id": 40,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_omni_03_s0106",
+      "coordinates": {
+        "x_min": 277.4,
+        "y_min": 1097.5,
+        "x_max": 825.3,
+        "y_max": 1403.3
+      },
+      "points": null,
+      "block_label": "image",
+      "block_content": "",
+      "is_text": false,
+      "reading_group": "non_ocr",
+      "reading_role": "image",
+      "reading_order_confidence": "none",
+      "reading_region": "non_ocr",
+      "reading_flow_id": "01_报纸页:non_ocr",
+      "reading_flow_rank": 999,
+      "attributes": {
+        "omnidocbench_category_type": "figure",
+        "omnidocbench_anno_id": 90,
+        "template_source": "omnidocbench"
+      }
+    }
+  ],
+  "created_at": "2026-07-06T20:11:05",
+  "updated_at": "2026-07-06T20:11:05"
+}

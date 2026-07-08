@@ -1,0 +1,744 @@
+{
+  "image_id": "5d6fd15f-5d6f-d15f-5d6f-5d6fd15f5d6f",
+  "file_name": "01_newspaper_page_vertical_tree_06.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "mongolian_vertical_json_tree_v3",
+    "language_code": "mn-trad",
+    "language_name": "传统蒙古文",
+    "script_note": "传统蒙古文，竖排从上到下，列从左到右",
+    "template_type": "newspaper_page",
+    "category": "newspaper_page",
+    "variant": 6,
+    "layout_name": "newspaper_page_vertical_tree_06",
+    "document_id": "01_newspaper_page_vertical_tree_06",
+    "title": "报纸页",
+    "doc_no": "MN-V3-01-06",
+    "date": "2026-07-02",
+    "rows": null,
+    "columns": null,
+    "source_records": [],
+    "diagnostics": {
+      "marked_blocks": 23,
+      "page_width": 1180,
+      "page_height": 1760,
+      "body_scroll_width": 1180,
+      "body_scroll_height": 1760,
+      "overflow_blocks": [],
+      "crop": {
+        "x": 14,
+        "y": 14,
+        "width": 1097,
+        "height": 1720,
+        "enabled": true,
+        "original_width": 1180,
+        "original_height": 1760,
+        "content_bbox": {
+          "x_min": 44,
+          "y_min": 44,
+          "x_max": 1081,
+          "y_max": 1704
+        },
+        "padding": 30,
+        "tight_crop": true,
+        "crop_source": "marked_blocks",
+        "content_height_ratio": 0.9432,
+        "bottom_blank_ratio_before_crop": 0.0318
+      }
+    }
+  },
+  "blocks": [
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0001",
+      "coordinates": {
+        "x_min": 30,
+        "y_min": 30,
+        "x_max": 72,
+        "y_max": 1690
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ",
+      "is_text": true,
+      "order": "0",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 0,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "34px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0002",
+      "coordinates": {
+        "x_min": 82,
+        "y_min": 30,
+        "x_max": 108,
+        "y_max": 1690
+      },
+      "points": null,
+      "block_label": "metadata",
+      "block_content": "20260702",
+      "is_text": true,
+      "order": "1",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 1,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "13px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0011",
+      "coordinates": {
+        "x_min": 156,
+        "y_min": 50,
+        "x_max": 188,
+        "y_max": 460
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ᠭᠤᠷᠪᠠᠳᠤᠭᠠᠷ",
+      "is_text": true,
+      "order": "2",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 2,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0012",
+      "coordinates": {
+        "x_min": 286,
+        "y_min": 50,
+        "x_max": 318,
+        "y_max": 460
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ᠲᠡᠭᠦᠯᠡ",
+      "is_text": true,
+      "order": "3",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 3,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0013",
+      "coordinates": {
+        "x_min": 416,
+        "y_min": 50,
+        "x_max": 448,
+        "y_max": 460
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ᠴᠢᠯᠠᠭᠤᠨ",
+      "is_text": true,
+      "order": "4",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 4,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0014",
+      "coordinates": {
+        "x_min": 546,
+        "y_min": 50,
+        "x_max": 578,
+        "y_max": 460
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ᠪᠣᠯᠭᠠᠬᠤ》",
+      "is_text": true,
+      "order": "5",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 5,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0015",
+      "coordinates": {
+        "x_min": 676,
+        "y_min": 50,
+        "x_max": 708,
+        "y_max": 460
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ᠪᠢ ᠳᠡᠯᠡᠬᠡᠢ",
+      "is_text": true,
+      "order": "6",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 6,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0016",
+      "coordinates": {
+        "x_min": 806,
+        "y_min": 50,
+        "x_max": 838,
+        "y_max": 460
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ᠥᠷᠭᠡᠨ",
+      "is_text": true,
+      "order": "7",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 7,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0017",
+      "coordinates": {
+        "x_min": 936,
+        "y_min": 50,
+        "x_max": 968,
+        "y_max": 460
+      },
+      "points": null,
+      "block_label": "section_title",
+      "block_content": "ᠡᠳᠡᠭᠡᠷ",
+      "is_text": true,
+      "order": "8",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 8,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "24px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0018",
+      "coordinates": {
+        "x_min": 196,
+        "y_min": 486,
+        "x_max": 222,
+        "y_max": 1546
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠮᠠᠭᠤ 《 ᠪᠤᠷᠤ ᠪᠠᠨᠳᠢ》 ᠪᠣᠯᠵᠤ ᠴᠤ ᠲᠠᠭᠠᠷᠠᠯ᠎ᠠ ᠯᠠ ᠳ᠋ᠠ᠃ ᠬᠡᠦᠬᠡᠨ ᠨᠦᠭᠦᠳ ᠲᠦ ᠤᠤᠯ ᠠᠴᠠ ᠪᠠᠨ ᠬᠠᠷᠠᠴᠤᠳ",
+      "is_text": true,
+      "order": "9",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 9,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0019",
+      "coordinates": {
+        "x_min": 261,
+        "y_min": 486,
+        "x_max": 287,
+        "y_max": 1546
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "᠂ ᠤ - ᠣᠯᠠᠨ ᠂ ᠦ᠊ ᠃ ᠦᠰᠦ ᠭᠡᠬᠦ᠌ ᠮᠡᠲᠦ᠍ ᠡᠭᠡᠱᠢᠭ ᠳᠤᠯᠤᠭ᠎ᠠ ᠪᠠᠷ ᠪᠦᠲᠦᠵᠡᠢ ᠃ 2 ᠡᠭᠡᠰᠢᠭ ᠭᠡᠢᠭᠦᠯᠦᠭᠴᠢ",
+      "is_text": true,
+      "order": "10",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 10,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0020",
+      "coordinates": {
+        "x_min": 326,
+        "y_min": 486,
+        "x_max": 352,
+        "y_max": 1546
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠵᠢᠷᠪᠢᠭᠢᠨᠡᠬᠦ ᠶᠢᠨ ᠳᠤᠮᠳᠠ ᠬᠡᠳᠦᠨ ᠥᠨᠳᠥᠷ ᠶᠠᠭᠤᠮ᠎ᠠ ᠰᠦᠮᠡᠯᠵᠡᠨ ᠦᠵᠡᠭ᠍ᠳᠡᠬᠦ ᠨᠢ ᠬᠠᠷᠢ ᠭᠠᠵᠠᠷ ᠤᠨ ᠬᠥᠮᠥᠨ",
+      "is_text": true,
+      "order": "11",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 11,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0021",
+      "coordinates": {
+        "x_min": 391,
+        "y_min": 486,
+        "x_max": 417,
+        "y_max": 1546
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠬᠦᠰᠡᠯ ᠵᠣᠷᠢᠭ ᠢ ᠮᠢᠨᠢ ᠬᠥᠪᠴᠢᠯᠡᠵᠦ ᠥᠭᠭᠦᠭᠰᠡᠨ ᠬᠥᠬᠡ ᠮᠣᠩᠭᠣᠯ ᠤᠨ ᠥᠨᠳᠥᠷᠯᠢᠭ ᠮᠢᠨᠢ ᠪᠠᠯᠠᠷ ᠴᠠᠭ ᠡᠴᠡ",
+      "is_text": true,
+      "order": "12",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 12,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0022",
+      "coordinates": {
+        "x_min": 456,
+        "y_min": 486,
+        "x_max": 482,
+        "y_max": 1546
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠪᠣᠯᠪᠠᠴᠤ ᠳᠡᠭᠡᠷ᠎ᠡ ᠨᠢ ᠤᠨᠤᠭᠰᠠᠨ ᠦᠵᠡᠰᠭᠦᠯᠡᠩᠲᠦ ᠥᠬᠢᠨ ᠠᠵᠢᠭ ᠦᠭᠡᠢ ᠰᠠᠭᠤᠵᠤ ᠦᠭᠦᠯᠡᠯᠳᠦᠬᠦ ᠪᠥᠭᠡᠳ ᠦᠭᠡ",
+      "is_text": true,
+      "order": "13",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 13,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0023",
+      "coordinates": {
+        "x_min": 521,
+        "y_min": 486,
+        "x_max": 547,
+        "y_max": 1546
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠪᠤᠷᠴᠠᠭ ᠤᠨ ᠲᠠᠯᠠᠪᠠᠢ ᠶᠢᠨ ᠬᠠᠷᠢᠴᠠᠯ ᠨᠢ7:2᠂ ᠰᠢᠷ᠎ᠠ ᠪᠤᠷᠴᠠᠭ ᠪᠠ ᠲᠣᠳᠣᠷᠭ᠎ᠠ ᠶᠢᠨ ᠲᠠᠯᠠᠪᠠᠢ ᠶᠢᠨ ᠬᠠᠷᠢᠴᠠᠯ",
+      "is_text": true,
+      "order": "14",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 14,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0024",
+      "coordinates": {
+        "x_min": 586,
+        "y_min": 486,
+        "x_max": 612,
+        "y_max": 1546
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "᠎ᠤᠨ ᠱᠢᠯᠭᠠᠯᠲᠠ ᠎ᠶ᠋ᠢᠨ ᠦᠨᠳᠦᠰᠦᠯᠡᠬᠦ᠌ ᠰᠤᠷᠬᠤ ᠪᠢᠴᠢᠭ ᠪᠤᠯᠪᠠ᠃ ᠎ᠳᠦ ᠱᠢ ᠎ᠶ᠋ᠢᠨ ᠡᠷᠳᠡᠮ ᠱᠢᠨᠵᠢᠯᠡᠭᠦᠨ",
+      "is_text": true,
+      "order": "15",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 15,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0025",
+      "coordinates": {
+        "x_min": 651,
+        "y_min": 486,
+        "x_max": 677,
+        "y_max": 1546
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "᠂ ᠪᠤᠳᠤᠪᠠᠯ ᠬᠠᠷᠢᠭᠤᠯᠲᠠ ᠨᠢ ᠪᠠᠷᠤᠭ5.73 ᠪᠠᠢᠵᠤ᠂5 6 ᠳᠠᠬᠢᠨ ᠤ ᠬᠤᠭᠤᠷᠤᠨᠳᠤ ᠪᠤᠯᠤᠨ᠎ᠠ᠃ ᠡᠢᠮᠦ ᠡᠴᠡ ᠵᠦᠪ",
+      "is_text": true,
+      "order": "16",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 16,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0026",
+      "coordinates": {
+        "x_min": 716,
+        "y_min": 486,
+        "x_max": 742,
+        "y_max": 1546
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠡᠴᠡ ᠪᠡᠨ ᠲᠠᠬᠢᠭᠠᠳ ᠲᠦᠷᠦᠬᠦ ᠪᠢᠰᠢ ᠳ᠋ᠠ ᠪᠢ ᠶᠠᠮᠠᠷ ᠦᠨᠡᠨ ᠬᠤᠳᠠᠯ ᠤᠨ ᠠᠷᠤ ᠳ᠋ᠤ ᠰᠡᠭᠦᠯᠴᠢ ᠵᠢᠨ ᠴᠡᠭ ᠢ",
+      "is_text": true,
+      "order": "17",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 17,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0027",
+      "coordinates": {
+        "x_min": 781,
+        "y_min": 486,
+        "x_max": 807,
+        "y_max": 1546
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠶᠡᠬᠡ ᠮᠤᠩᠭᠤᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠮᠠᠨᠳᠤᠬᠤ ᠶᠤᠰᠤᠲᠠᠢ᠃ 3 ᠠᠭᠤᠤ ᠶᠡᠬᠡ ᠮᠤᠩᠭᠤᠯ ᠦᠨᠳᠦᠰᠦᠲᠡᠨ ᠠᠰᠢᠳᠠ ᠮᠠᠨᠳᠤᠲᠤᠭᠠᠢ᠃",
+      "is_text": true,
+      "order": "18",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 18,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0028",
+      "coordinates": {
+        "x_min": 846,
+        "y_min": 486,
+        "x_max": 872,
+        "y_max": 1546
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠨᠢ ᠪᠠᠷᠤᠭ 209.96 ᠮᠢᠩᠭᠠᠨ ᠲᠦᠮᠡᠨ ᠯᠢᠲ᠋ᠷ ᠲᠠᠢ ᠲᠡᠩᠴᠡᠨ᠎ᠡ᠃ ᠡᠢᠮᠦ ᠡᠴᠡ ᠵᠦᠪ ᠬᠠᠷᠢᠭᠤᠯᠲᠠ ᠨᠢ ᠪᠣᠯᠤᠨ᠎ᠠ᠃",
+      "is_text": true,
+      "order": "19",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 19,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0029",
+      "coordinates": {
+        "x_min": 911,
+        "y_min": 486,
+        "x_max": 937,
+        "y_max": 1546
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠰᠦ ᠳᠦ ᠴᠢᠰᠤ ᠲᠤᠰᠬᠠᠵᠤ ᠪᠣᠯᠬᠤ ᠦᠭᠡᠢ᠂ ᠶᠡᠬᠡ ᠨᠢᠭᠦᠯ ᠭᠡᠳᠡᠭ᠃ 5. ᠦᠯᠦᠨ ᠢᠶᠡᠷ ᠨᠤᠭᠤᠭᠠᠨ ᠴᠠᠢ ᠤᠤᠭᠤᠵᠤ ᠪᠤᠯᠬᠤ ᠦᠭᠡᠢ᠂ ᠡᠪᠡᠳᠴᠢᠨ ᠤᠯᠤᠨ᠎ᠠ ᠭᠡᠳᠡᠭ᠃",
+      "is_text": true,
+      "order": "20",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 20,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0030",
+      "coordinates": {
+        "x_min": 976,
+        "y_min": 486,
+        "x_max": 1002,
+        "y_max": 1546
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠢ ᠳᠡᠭᠡᠭᠰᠢᠯᠡᠭᠦᠯᠵᠦ᠂ ᠬᠤᠳᠠᠯᠳᠤᠨ ᠠᠪᠬᠤ ᠬᠢᠵᠠᠭᠠᠷ ᠲᠣᠭ᠎ᠠ ᠶᠢ ᠲᠣᠭᠲᠠᠭᠠᠭᠰᠠᠨ ᠠᠴᠠ ᠲᠣᠰᠬᠣᠨ ᠤ ᠠᠷᠠᠳ ᠲᠦᠯᠡᠭᠡ",
+      "is_text": true,
+      "order": "21",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 21,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    },
+    {
+      "block_id": "01_newspaper_page_vertical_tree_06_b0031",
+      "coordinates": {
+        "x_min": 1041,
+        "y_min": 486,
+        "x_max": 1067,
+        "y_max": 1546
+      },
+      "points": null,
+      "block_label": "list_item",
+      "block_content": "ᠰᠢᠷᠬᠡᠭ ᠡᠪᠡᠰᠦᠨ ᠦ ᠰᠣᠷ ᠰᠢᠭ ᠬᠡᠦᠬᠡᠳ ᠤᠳ ᠰᠢᠯᠦᠭ ᠰᠢᠯᠦᠭ ᠦᠨ ᠢᠵᠢᠯ ᠰᠠᠨᠠᠭᠴᠢ ᠰᠢᠭ ᠲᠠᠰᠤᠯᠴᠠᠵᠤ ᠶᠠᠪᠤᠭᠰᠠᠨ",
+      "is_text": true,
+      "order": "22",
+      "attributes": {
+        "tag": "div",
+        "row": null,
+        "col": null,
+        "dom_index": 22,
+        "reading_flow_id": null,
+        "reading_flow_rank": null,
+        "reading_region": null,
+        "column_index": null,
+        "font_size": "16px",
+        "font_family": "\"Noto Sans Mongolian\", \"Arial Unicode\", sans-serif",
+        "is_text": true,
+        "asset_id": null,
+        "asset_source": null,
+        "asset_crop": null
+      }
+    }
+  ],
+  "created_at": "2026-07-06T03:03:08.863Z",
+  "updated_at": "2026-07-06T03:03:08.863Z"
+}

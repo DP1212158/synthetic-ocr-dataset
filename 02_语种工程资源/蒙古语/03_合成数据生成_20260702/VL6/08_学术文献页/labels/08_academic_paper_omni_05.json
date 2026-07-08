@@ -1,0 +1,516 @@
+{
+  "image_id": "39c4acd190c6df2c",
+  "file_name": "08_academic_paper_omni_05.png",
+  "status": "synthetic",
+  "attributes": {
+    "generator": "omnidocbench_vl6_generator_v1",
+    "template_source": "omnidocbench",
+    "omnidocbench_template_id": "omni_01142_70907d2ce5819bc7",
+    "omnidocbench_index": 1142,
+    "omnidocbench_image_path": "eastmoney_a2542ccf95ec3bb51dcc6fb90a7c32b18f883e10a3cb301901a428882d8d2015.pdf_2.jpg",
+    "omnidocbench_data_source": "research_report",
+    "language_code": "mn-trad",
+    "language_name": "传统蒙古文",
+    "script_note": "传统蒙古文，竖排从上到下，列从左到右",
+    "category": "academic_paper",
+    "category_cn": "学术文献页",
+    "document_id": "08_academic_paper_omni_05",
+    "reading_order_policy": "omnidocbench_order_multicolumn_ltr_v1",
+    "filtered_blocks": 3,
+    "equation_blocks_filtered": 0,
+    "structure_blocks_non_ocr": 1,
+    "block_status_counts": {
+      "text": 17,
+      "structure": 1,
+      "filtered": 3
+    },
+    "source_records": "/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/蒙古语/01_文本数据获取_20260702/data/vl3_long_text_sources/records.jsonl"
+  },
+  "blocks": [
+    {
+      "block_id": "08_academic_paper_omni_05_b0001",
+      "coordinates": {
+        "x_min": 87.5,
+        "y_min": 188.4,
+        "x_max": 217.1,
+        "y_max": 218.3
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠡᠳᠦ ᠶᠠᠩ ᠰᠢᠶᠦ᠋ᠨ ᠦ 《 ᠵᠢᠤ ᠴᠧᠩ ᠬᠦᠩ ᠣ",
+      "is_text": true,
+      "reading_order": 1,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "08_学术文献页:omni",
+      "reading_flow_rank": 1,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 1,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 4,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "08_academic_paper_omni_05_b0002",
+      "coordinates": {
+        "x_min": 87.4,
+        "y_min": 394.7,
+        "x_max": 217.2,
+        "y_max": 424.1
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠰᠠᠭᠤᠭ᠎ᠠ ᠬᠦᠭᠵᠢᠮᠴᠢᠳ ᠬᠢᠭᠡᠳ ᠵᠤᠭᠰᠤᠭ᠎",
+      "is_text": true,
+      "reading_order": 2,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "08_学术文献页:omni",
+      "reading_flow_rank": 2,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 4,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 16,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "08_academic_paper_omni_05_b0003",
+      "coordinates": {
+        "x_min": 86.8,
+        "y_min": 525.2,
+        "x_max": 192.8,
+        "y_max": 554.8
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠡᠷᠬᠡᠴᠡᠩᠭᠡᠯ ᠬᠤᠲᠤᠭ᠍ᠴᠡᠩᠭᠡᠯ ᠡᠨ",
+      "is_text": true,
+      "reading_order": 3,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "08_学术文献页:omni",
+      "reading_flow_rank": 3,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 6,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 8,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "08_academic_paper_omni_05_b0004",
+      "coordinates": {
+        "x_min": 87.3,
+        "y_min": 1188.6,
+        "x_max": 191.1,
+        "y_max": 1218.1
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠮᠠᠯ ᠮᠠᠭᠤ ᠪᠠᠨ ᠰᠠᠵᠢᠨ᠎ᠠ ᠮᠠᠯᠠ",
+      "is_text": true,
+      "reading_order": 4,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "08_学术文献页:omni",
+      "reading_flow_rank": 4,
+      "column_index": 0,
+      "attributes": {
+        "omnidocbench_order": 12,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 11,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "08_academic_paper_omni_05_b0005",
+      "coordinates": {
+        "x_min": 123.7,
+        "y_min": 1250.6,
+        "x_max": 338.0,
+        "y_max": 1273.8
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠠᠪᠤ ᠶᠢᠨ ᠬᠦᠦ ᠠᠳᠠᠯᠢ ᠦᠭᠡᠢ ᠠᠷᠪᠠᠨ ᠬᠤᠷᠤᠭᠤ ᠲᠡᠭ᠍ᠰ",
+      "is_text": true,
+      "reading_order": 5,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "08_学术文献页:omni",
+      "reading_flow_rank": 5,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 13,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 9,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "08_academic_paper_omni_05_b0006",
+      "coordinates": {
+        "x_min": 124.1,
+        "y_min": 1471.0,
+        "x_max": 337.8,
+        "y_max": 1497.3
+      },
+      "points": null,
+      "block_label": "document_title",
+      "block_content": "ᠡᠷᠢᠭᠡᠳ ᠣᠯᠳᠠᠳᠠᠭ ᠦᠭᠡᠢ ᠮᠣᠯᠣᠷ ᠡᠷᠳᠡᠨᠢ ᠡᠷᠭᠢᠭᠡᠳ ᠢᠷᠡᠳᠡ",
+      "is_text": true,
+      "reading_order": 6,
+      "reading_group": "document_title",
+      "reading_role": "title",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "08_学术文献页:omni",
+      "reading_flow_rank": 6,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 16,
+        "omnidocbench_category_type": "title",
+        "omnidocbench_anno_id": 14,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "08_academic_paper_omni_05_b0007",
+      "coordinates": {
+        "x_min": 86.6,
+        "y_min": 238.1,
+        "x_max": 1149.8,
+        "y_max": 300.1
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠯᠢᠦ ᠬᠦᠩ ᠴᠢᠤᠸᠠᠨ ᠎ 《 ᠰᠢᠤᠸᠠᠨ ᠮᠢ ᠲᠠ ᠰᠤᠪᠤᠷᠭ᠎ᠠ ᠎ᠶ᠋ᠢᠨ ᠬᠦᠰᠢᠶ᠎ᠡ》",
+      "is_text": true,
+      "reading_order": 7,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "08_学术文献页:omni",
+      "reading_flow_rank": 7,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 2,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 12,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "08_academic_paper_omni_05_b0008",
+      "coordinates": {
+        "x_min": 88.4,
+        "y_min": 318.3,
+        "x_max": 806.8,
+        "y_max": 350.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠰᠤᠷᠢ ᠤᠯᠤᠰ ᠲᠠᠩ ᠤᠯᠤᠰ ᠤᠨ ᠦᠶ᠎ᠡ ᠳᠦ ᠮᠠᠨ ᠤ ᠤᠯᠤᠰ ᠤᠨ ᠤᠷᠠᠨ ᠪᠢᠴᠢᠯᠭᠡ ᠶᠢᠨ ᠤᠷᠠᠯᠢᠭ ᠪᠠᠰᠠ ᠨᠢᠭᠡᠨ ᠤᠷᠭᠢᠯ ᠳᠤ ᠠᠬᠢᠭᠰᠠᠨ ᠪᠠᠢᠨ᠎ᠠ᠃ ᠰᠦᠢ ᠤᠯᠤᠰ ᠤᠨ ᠤᠷᠠᠨ ᠪᠢᠴᠢᠯᠭᠡ ᠶᠢ",
+      "is_text": true,
+      "reading_order": 8,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "08_学术文献页:omni",
+      "reading_flow_rank": 8,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 3,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 3,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "08_academic_paper_omni_05_b0009",
+      "coordinates": {
+        "x_min": 88.9,
+        "y_min": 442.6,
+        "x_max": 1152.3,
+        "y_max": 498.8
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠳᠠᠩ ᠰᠢᠤᠸᠠᠨᠽᠦ᠋ᠩ ᠬᠠᠭᠠᠨ ᠤ ᠦᠶ᠎ᠡ ᠳᠦ ᠳᠡᠯᠭᠡᠷᠡᠭᠰᠡᠨ 《 ᠰᠤᠯᠤᠩᠭᠠᠨ ᠪᠠᠩᠵᠠᠯ ᠥᠳᠥᠨ ᠳᠠᠪᠠᠯᠲᠤ ᠪᠦᠵᠢᠭ》 ᠢ ᠰᠢᠯᠦᠭᠴᠢ ᠪᠡᠢ ᠵᠢᠦᠢ ᠢ ᠄ 《ᠮᠢᠩᠭᠠᠨ ᠳᠠᠭᠤᠤ ᠲᠦᠮᠡᠨ ᠪᠦᠵᠢᠭ ᠢ ᠬᠡᠯᠡᠭᠡᠳ ᠪᠠᠷᠠᠬᠤ ᠦᠭᠡᠢ᠂ ᠰᠤᠯᠤᠩᠭᠠᠨ ᠪᠠᠩᠵᠠᠯᠲᠤ ᠪᠦᠵᠢᠭ ᠢᠨᠤ ᠬᠠᠮᠤᠭ ᠠᠴᠠ ᠰᠤᠨᠢᠷᠬᠠᠯᠲᠠᠢ》 ᠬᠡᠮᠡᠨ ᠮᠠᠭᠲᠠᠵᠠᠢ᠃ ᠪᠠᠷᠠᠭᠤᠨ ᠬᠢᠵᠠᠭᠠᠷ ᠤᠷᠤᠨ ᠠᠴᠠ ᠤᠯᠠᠮᠵᠢᠯᠠᠨ ᠢᠷᠡᠭᠰᠡᠨ 《 ᠬᠤ ᠎ᠶᠢᠨ ᠡᠷᠭᠢᠯᠳᠦᠬᠦ᠌ ᠪᠦᠵᠢᠭ 》᠎ᠲᠦ᠍ ᠪᠦᠵᠢᠭᠯᠡᠭᠴᠢ ᠎ᠶᠢᠨ ᠪᠡᠶ᠎ᠡ ᠨᠢ ᠬᠣᠢ ᠰᠠᠯᠬᠢᠨ ᠮᠡᠲᠦ᠍ ᠬᠦᠩᠭᠡᠨ ᠱᠠᠯᠠᠮᠠᠭᠠᠢ ᠡᠷᠭᠢᠯᠳᠦᠳᠡᠭ ᠃ ᠠᠯᠳᠠᠷᠲᠤ ᠪᠦᠵᠢᠭᠴᠢᠨ ᠬᠦᠩ ᠰᠦᠨ ᠳ᠋ᠠᠨᠢᠶᠠᠩ ᠰᠠᠯᠠᠮ᠎ᠠ ᠶᠢᠨ ᠪᠦᠵᠢᠭ ᠲᠦ ᠴᠢᠳᠠᠮᠠᠭᠠᠢ ᠪᠢᠯᠡ᠃ ᠰᠢᠯᠦᠭᠴᠢ ᠳ᠋ᠦ᠋ ᠹᠦ᠋ ᠪᠠᠭ᠎ᠠ ᠳᠤ ᠪᠠᠨ ᠲᠡᠭᠦᠨ ᠦ ᠲᠣᠭᠯᠠᠯᠲᠠ ᠶᠢ ᠦᠵᠡᠵᠦ",
+      "is_text": true,
+      "reading_order": 9,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "08_学术文献页:omni",
+      "reading_flow_rank": 9,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 5,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 17,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "08_academic_paper_omni_05_b0010",
+      "coordinates": {
+        "x_min": 86.1,
+        "y_min": 573.0,
+        "x_max": 1153.7,
+        "y_max": 773.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠠᠮᠢᠳᠤ ᠶᠠᠪᠤᠪᠠᠯ ᠠᠯᠲᠠᠨ ᠠᠶᠠᠭᠠᠨ ᠠᠴᠠ ᠤᠰᠤ ᠤᠤᠭᠤᠨ᠎ᠠ",
+      "is_text": true,
+      "reading_order": 10,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "08_学术文献页:omni",
+      "reading_flow_rank": 10,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 7,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 18,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "08_academic_paper_omni_05_b0011",
+      "coordinates": {
+        "x_min": 87.3,
+        "y_min": 783.4,
+        "x_max": 1153.0,
+        "y_max": 869.5
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠡᠪᠦᠯ ᠦᠨ ᠴᠠᠰᠤ ᠦᠵᠡᠬᠦ ᠳᠦ ᠡᠭᠡᠭᠡ ᠯᠠ ᠠᠳᠠᠯᠢᠬᠠᠨ ᠦᠵᠡᠰᠬᠦᠯᠡᠩᠲᠦ ᠬᠢᠯᠤᠭᠠᠨ ᠭᠠᠷ ᠢᠶᠠᠷ ᠢᠶᠠᠨ ᠳᠡᠯᠡᠬᠡᠶ ᠶᠢᠨ ᠠᠲᠤᠷᠢᠶ᠎ᠠ ᠶᠢ ᠲᠡᠭᠰᠢᠯᠡᠨ᠎ᠡ᠃ ᠣᠴᠢ ᠦᠰᠦᠷᠭᠡᠨ ᠵᠢᠷᠢᠯᠵᠡᠭᠰᠡᠨ ᠲᠣᠭᠣᠷᠠᠢ ᠶᠢᠨ ᠴᠢᠮᠡᠭᠡ ᠵᠢᠮ ᠵᠢᠮ᠃ ᠣᠷᠴᠢᠯᠠᠩ ᠢ ᠭᠡᠰᠦᠨ ᠲᠣᠭᠣᠷᠢᠭᠰᠠᠨ ᠬᠦᠷᠳᠦᠨ ᠦ ᠮᠦᠷ ᠶᠠᠭ ᠳᠠᠭ᠃ ᠡᠪᠦᠯ ᠦᠨ ᠡᠪᠦᠯ ᠦᠨ ᠴᠠᠰᠤ ᠦᠵᠡᠬᠦ ᠳᠦ ᠡᠭᠡᠭᠡ ᠯᠠ ᠠᠳᠠᠯᠢᠬᠠᠨ ᠦᠵᠡᠰᠬᠦᠯᠡᠩᠲᠦ ᠴᠠᠭᠠᠨ ᠴᠡᠭᠡᠵᠢᠨ ᠳᠡᠭᠡᠨ ᠡᠩᠭᠦᠷᠡᠢ ᠬᠠᠪᠤᠷ ᠢ ᠪᠦᠪᠡᠢᠯᠡᠨ᠎ᠡ᠃ ᠰᠡᠵᠢᠭᠦᠷ ᠬᠠᠲᠠᠨ ᠳᠤ ᠥᠩᠭᠡᠶᠢᠭᠰᠡᠨ ᠪᠤᠭᠤ ᠡᠭᠦᠨ ᠢ ᠦᠵᠡᠵᠡᠢ ᠭᠡᠨ᠎ᠡ ᠰᠡᠮᠡᠵᠡᠨ ᠡᠭᠦᠯᠡ ᠪᠡᠷ ᠱᠠᠭᠠᠢᠭᠰᠠᠨ ᠰᠠᠷᠠ ᠡᠭᠦᠨ ᠢ ᠬᠠᠷᠠᠵᠠᠢ ᠭᠡᠨ᠎ᠡ᠃",
+      "is_text": true,
+      "reading_order": 11,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "08_学术文献页:omni",
+      "reading_flow_rank": 11,
+      "column_index": 3,
+      "attributes": {
+        "omnidocbench_order": 8,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 6,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "08_academic_paper_omni_05_b0012",
+      "coordinates": {
+        "x_min": 84.7,
+        "y_min": 878.9,
+        "x_max": 1152.4,
+        "y_max": 997.3
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠪ᠂ ᠪᠦᠷᠢᠨᠪᠡᠬᠢ ᠶᠢᠨ ᠤᠳᠬ᠎ᠠ ᠤᠶᠠᠩᠭ᠎ᠠ ᠶᠢᠨ ᠴᠢᠭᠤᠯᠭᠠᠨ",
+      "is_text": true,
+      "reading_order": 12,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "08_学术文献页:omni",
+      "reading_flow_rank": 12,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 9,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 0,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "08_academic_paper_omni_05_b0013",
+      "coordinates": {
+        "x_min": 85.1,
+        "y_min": 1006.7,
+        "x_max": 1152.2,
+        "y_max": 1093.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠬᠠᠷᠠᠴᠠᠨ ᠤ ᠲᠠᠨᠢ ᠭᠡᠭᠡ ᠳᠦ ᠰᠢᠯᠦᠭ ᠲᠡᠷᠡᠯᠡᠵᠦ ᠶᠠᠪᠤᠬᠤ ᠳᠤ ᠬᠠᠪᠤᠷ ᠤᠨ ᠰᠢᠪᠠᠭᠤᠳ ᠤᠨ ᠳᠠᠭᠤᠨ ᠢᠴᠢᠭᠡᠳ ᠪᠤᠯᠳᠠᠭ ᠦᠭᠡᠢ ᠵᠠᠶᠠᠭ᠎ᠠ ᠵᠠᠶᠠᠭ᠎ᠠ ᠪᠠᠨ ᠳᠠᠭᠠᠭᠰᠠᠨ ᠲᠠᠪᠢᠯᠠᠩ ᠭᠡᠵᠦ ᠪᠠᠢᠬᠤ ᠠᠴᠠ ᠵᠠᠢ ᠦᠭᠡᠢ ᠲᠤᠳᠤᠨᠤᠬᠠᠨ ᠰᠡᠳᠬᠢᠯ ᠳᠦ ᠬᠠᠭᠠᠴᠠᠯ ᠭᠡᠵᠦ ᠪᠠᠢᠳᠠᠭ ᠦᠭᠡᠢ ᠮᠢᠩᠭᠠᠨ ᠵᠢᠯ ᠦᠩᠭᠡᠷᠡᠪᠡᠴᠦ ᠰᠢᠨᠡᠬᠡᠨ ᠪᠠᠢᠬᠤ ᠦᠭᠡ ᠶᠢ ᠮᠠᠭᠠᠳ ᠣᠳᠣ ᠯᠠ ᠬᠡᠯᠡᠶ᠎ᠡ ᠴᠢᠮ᠎ᠠ ᠳ᠋ᠦ᠍ ᠪᠢ ᠬᠠᠢᠷᠠᠲᠠᠢ",
+      "is_text": true,
+      "reading_order": 13,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "08_学术文献页:omni",
+      "reading_flow_rank": 13,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 10,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 19,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "08_academic_paper_omni_05_b0014",
+      "coordinates": {
+        "x_min": 88.2,
+        "y_min": 1103.3,
+        "x_max": 1151.2,
+        "y_max": 1162.5
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠡᠪᠦᠯ ᠦᠨ ᠡᠪᠦᠯ ᠦᠨ ᠴᠠᠰᠤ ᠦᠵᠡᠬᠦ ᠳᠦ ᠡᠭᠡᠭᠡ ᠯᠠ ᠠᠳᠠᠯᠢᠬᠠᠨ ᠰᠡᠳᠭᠢᠯ ᠪᠠ ᠰᠦ ᠦᠵᠡᠰᠭᠦᠯᠡᠩᠲᠦ ᠴᠠᠭᠠᠨ ᠬᠠᠴᠠᠷ ᠢᠶᠠᠨ ᠤᠨᠠᠬᠤ ᠨᠠᠷᠠᠨ ᠲᠠᠢ ᠲᠠᠭᠠᠷᠠᠭᠤᠯᠤᠨ᠎ᠠ᠃ 2 ᠠᠩᠴᠢᠨ ᠬᠦᠷᠦᠭᠡᠴᠢᠨ ᠦ ᠭᠠᠨᠵᠤᠭ᠎ᠠ ᠲᠣᠪᠣ ᠲᠣᠪᠣ ᠤᠯᠠᠭᠠᠨ ᠠᠪᠠ ᠶᠢᠨ ᠨᠣᠬᠠᠳ ᠤᠨ ᠳᠠᠭᠤ ᠬᠥᠪ ᠬᠥᠪ ᠬᠦᠨᠳᠡᠢ᠃ 《 ᠴᠣᠯᠮᠣᠨ 》 1987 ᠣᠨ ᠎ᠤ 2 ᠳ᠋ᠣᠭᠠᠷ ᠬᠣᠭᠣᠴᠠᠭ᠎ᠠ ᠂ 《 ᠣᠮᠠᠷᠠᠳᠣ ᠣᠷᠣᠨ ᠎ᠤ ᠰᠢᠯᠦᠭ 》 ᠭᠡᠰᠡᠨ ᠭᠠᠷᠴᠠᠭᠳᠠᠢ ᠮᠦᠴᠡᠯᠭᠡ ᠰᠢᠯᠦᠭ ᠡᠴᠡ ᠰᠣᠩᠭᠣᠪᠠ",
+      "is_text": true,
+      "reading_order": 14,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "08_学术文献页:omni",
+      "reading_flow_rank": 14,
+      "column_index": 2,
+      "attributes": {
+        "omnidocbench_order": 11,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 10,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "08_academic_paper_omni_05_b0015",
+      "coordinates": {
+        "x_min": 158.4,
+        "y_min": 1282.5,
+        "x_max": 449.4,
+        "y_max": 1309.2
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠥᠴᠥᠬᠡᠨ ᠢᠶᠡᠨ ᠤᠬᠠᠭᠠᠷᠠᠪᠠᠯ ᠠᠭᠤᠤ ᠶᠡᠬᠡ ᠶᠢᠨ ᠡᠵᠡᠨ",
+      "is_text": true,
+      "reading_order": 15,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "08_学术文献页:omni",
+      "reading_flow_rank": 15,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 14,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 1,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "08_academic_paper_omni_05_b0016",
+      "coordinates": {
+        "x_min": 162.9,
+        "y_min": 1330.4,
+        "x_max": 506.4,
+        "y_max": 1454.7
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠬᠠᠷᠪᠤᠭᠰᠠᠨ ᠰᠤᠮᠤᠨ ᠳᠤ ᠬᠣᠭᠣᠰᠤᠨ ᠦᠭᠡᠢ ᠬᠠᠨᠳᠤᠭᠰᠠᠨ ᠵᠦᠭ ᠲᠦ ᠳᠠᠢᠰᠦᠨ ᠦᠭᠡᠢ",
+      "is_text": true,
+      "reading_order": 16,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "08_学术文献页:omni",
+      "reading_flow_rank": 16,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 15,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 7,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "08_academic_paper_omni_05_b0017",
+      "coordinates": {
+        "x_min": 160.3,
+        "y_min": 1501.4,
+        "x_max": 506.7,
+        "y_max": 1592.6
+      },
+      "points": null,
+      "block_label": "paragraph",
+      "block_content": "ᠭᠠᠯᠠᠭᠤ ᠭᠠᠷᠪᠠᠯ ᠳᠠᠭᠤ ᠲᠠᠢ ᠬᠥᠮᠥᠨ ᠶᠠᠪᠤᠪᠠᠯ ᠨᠡᠷ᠎ᠡ ᠲᠠᠢ",
+      "is_text": true,
+      "reading_order": 17,
+      "reading_group": "body",
+      "reading_role": "paragraph",
+      "reading_order_confidence": "high",
+      "reading_region": "body",
+      "reading_flow_id": "08_学术文献页:omni",
+      "reading_flow_rank": 17,
+      "column_index": 1,
+      "attributes": {
+        "omnidocbench_order": 17,
+        "omnidocbench_category_type": "text_block",
+        "omnidocbench_anno_id": 15,
+        "template_source": "omnidocbench"
+      }
+    },
+    {
+      "block_id": "08_academic_paper_omni_05_s0018",
+      "coordinates": {
+        "x_min": 581.1,
+        "y_min": 1233.7,
+        "x_max": 1124.6,
+        "y_max": 1604.3
+      },
+      "points": null,
+      "block_label": "table",
+      "block_content": "",
+      "is_text": false,
+      "reading_group": "non_ocr",
+      "reading_role": "table",
+      "reading_order_confidence": "none",
+      "reading_region": "non_ocr",
+      "reading_flow_id": "08_学术文献页:non_ocr",
+      "reading_flow_rank": 999,
+      "attributes": {
+        "omnidocbench_category_type": "table",
+        "omnidocbench_anno_id": 13,
+        "template_source": "omnidocbench"
+      }
+    }
+  ],
+  "created_at": "2026-07-06T20:11:05",
+  "updated_at": "2026-07-06T20:11:05"
+}
