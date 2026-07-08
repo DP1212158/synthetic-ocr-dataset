@@ -54,6 +54,10 @@ def load_profile(path: Path | None) -> Dict:
     return profile
 
 
+def allow_tibetan_small_marks(profile: Dict) -> bool:
+    return str(profile.get("cleanup_profile", "")).lower().startswith("tibetan")
+
+
 def ratio(count: int, text: str) -> float:
     return count / max(len(text), 1)
 
@@ -248,7 +252,7 @@ def main() -> int:
             and out_of_bounds == 0
             and tiny_boxes == 0
             and all(count == 0 for count in residue_blocks.values())
-            and small_mark_blocks == 0
+            and (small_mark_blocks == 0 or allow_tibetan_small_marks(profile))
             and pua_blocks == 0
             and unsupported_char_blocks == 0
         )

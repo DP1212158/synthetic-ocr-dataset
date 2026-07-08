@@ -2,14 +2,21 @@
 
 批次日期：20260702
 
+说明：白语已使用 `VL_latest_20260706_bai_textfix` 修正版，修复了壮语模板固定词混入问题；其他语种沿用 `VL_latest_20260706`。
+
 | 语种 | 状态 | 干净图 | 干净通过 | 干净密度风险 | 干净验收 | 增强状态 | 增强通过 | 增强密度风险 | 增强验收 | 光照图 | 干净目录 | 增强目录 |
 |---|---|---:|---:|---:|---|---|---:|---:|---|---:|---|---|
-| 壮语 | failed_augmentation | 72 | 72 | 0 | True | failed | NA | NA | NA | NA | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/壮语/03_合成数据生成_20260702/VL3_clean_source` | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/壮语/03_合成数据生成_20260702/VL3` |
-| 藏语 | failed_augmentation | 72 | 72 | 0 | True | failed | NA | NA | NA | NA | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/藏语/03_合成数据生成_20260702/VL3_clean_source` | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/藏语/03_合成数据生成_20260702/VL3` |
+| 壮语 | passed | 72 | 72 | 0 | True | passed | 72 | 0 | True | 72 | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/壮语/03_合成数据生成_20260702/VL_latest_20260706_source` | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/壮语/03_合成数据生成_20260702/VL_latest_20260706` |
+| 藏语 | passed | 72 | 72 | 0 | True | passed | 72 | 0 | True | 72 | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/藏语/03_合成数据生成_20260702/VL_latest_20260706_source` | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/藏语/03_合成数据生成_20260702/VL_latest_20260706` |
+| 朝鲜语 | passed | 72 | 72 | 0 | True | passed | 72 | 0 | True | 72 | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/朝鲜语/03_合成数据生成_20260702/VL_latest_20260706_source` | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/朝鲜语/03_合成数据生成_20260702/VL_latest_20260706` |
+| 白语 | passed | 72 | 72 | 0 | True | passed | 72 | 0 | True | 72 | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/白语/03_合成数据生成_20260702/VL_latest_20260706_bai_textfix_source` | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/白语/03_合成数据生成_20260702/VL_latest_20260706_bai_textfix` |
+| 维吾尔语 | passed | 72 | 72 | 0 | True | passed | 72 | 0 | True | 72 | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/维吾尔语/03_合成数据生成_20260702/VL_latest_20260706_source` | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/维吾尔语/03_合成数据生成_20260702/VL_latest_20260706` |
+| 哈萨克语 | passed | 72 | 72 | 0 | True | passed | 72 | 0 | True | 72 | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/哈萨克语/03_合成数据生成_20260702/VL_latest_20260706_source` | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/哈萨克语/03_合成数据生成_20260702/VL_latest_20260706` |
+| 蒙古语 | passed | 72 | 72 | 0 | True | passed | 72 | 0 | True | 72 | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/蒙古语/03_合成数据生成_20260702/VL_latest_20260706_source` | `/Users/dp/Downloads/中央民族大学合作项目/合成OCR数据集_交付版/02_语种工程资源/蒙古语/03_合成数据生成_20260702/VL_latest_20260706` |
 
 ## 人工重点抽检
 
+- 白语：修正版已确认 OCR 文本块和交付文本文件中无壮语模板固定词残留。
 - 维吾尔语、哈萨克语：RTL 字形连写、栏顺序、标题方向。
 - 传统蒙古文：竖排方向、列顺序、标签框贴合。
-- 白语：文本源真实性，确认未误用壮语文本。
 - 朝鲜语：Hangul 显示和类别区分度。

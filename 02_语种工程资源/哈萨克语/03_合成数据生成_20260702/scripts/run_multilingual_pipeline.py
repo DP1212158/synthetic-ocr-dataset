@@ -121,11 +121,30 @@ def discover_all_jobs(config: dict[str, Any], project_root: Path) -> list[dict[s
 
 def latest_prebuilt_records(project_root: Path, language_dir: str) -> Path | None:
     root = project_root / "02_语种工程资源" / language_dir
-    candidates = sorted(root.glob("01_文本数据获取_*/data/**/records.jsonl"))
+    candidates = sorted(root.glob("01_文本数据获取_*/data/**/*.jsonl"))
     candidates = [p for p in candidates if p.is_file()]
     if not candidates:
         return None
-    scored = sorted(candidates, key=lambda p: ("clean" not in str(p), p.stat().st_size), reverse=True)
+
+    def score(path: Path) -> tuple[int, str, int]:
+        name = path.name
+        text = str(path)
+        priority = 0
+        if "records_generation" in name and "final" in name:
+            priority = 6
+        elif "cleaned" in text or "clean" in text:
+            priority = 5
+        elif name == "records.jsonl" and "vl3_long_text_sources" in text:
+            priority = 4
+        elif name == "records.jsonl" and "people_daily" in text:
+            priority = 4
+        elif name == "records.jsonl":
+            priority = 3
+        elif "raw_segments" in name:
+            priority = 1
+        return (priority, text, path.stat().st_size)
+
+    scored = sorted(candidates, key=score, reverse=True)
     return scored[0]
 
 
@@ -430,6 +449,8 @@ def run_generation(paths: dict[str, Path], records: Path, job: dict[str, Any], p
                 str(paths["scripts_dir"] / "qa_version_acceptance.py"),
                 "--version-dir",
                 str(paths["version_dir"]),
+                "--language-profile",
+                str(paths["profile_path"]),
                 "--max-density-warnings",
                 "0",
             ],
@@ -504,6 +525,8 @@ def run_generation(paths: dict[str, Path], records: Path, job: dict[str, Any], p
             str(paths["scripts_dir"] / "qa_version_acceptance.py"),
             "--version-dir",
             str(paths["version_dir"]),
+            "--language-profile",
+            str(paths["profile_path"]),
             "--max-density-warnings",
             "0",
         ],
@@ -561,6 +584,8 @@ def run_version_qa(paths: dict[str, Path], version_dir: Path, py: str) -> bool:
             str(paths["scripts_dir"] / "qa_version_acceptance.py"),
             "--version-dir",
             str(version_dir),
+            "--language-profile",
+            str(paths["profile_path"]),
             "--max-density-warnings",
             "0",
         ],
@@ -624,6 +649,10 @@ def run_delivery_finalization(
     ]
     if image_assets_dir:
         cmd.extend(["--image-assets-dir", str(image_assets_dir)])
+    else:
+        default_assets = paths["lang_root"].parents[1] / "04_共享图片资产" / "random120-coco2014"
+        if default_assets.exists():
+            cmd.extend(["--image-assets-dir", str(default_assets)])
     proc = run(cmd, allow_fail=True)
     if proc.returncode != 0:
         write_json(source_version_dir / "reports" / "failed_delivery_finalization.json", {"output": proc.stdout})
@@ -745,8 +774,12 @@ def main() -> int:
             continue
         job = dict(job)
         job["_max_category_workers"] = args.max_category_workers
-        job["_clean_version_name"] = "VL3_clean" if args.delivery_version_name.upper() == "VL3" else "v1"
-        job["_source_version_dir_name"] = "VL3_clean_source" if args.delivery_version_name.upper() == "VL3" else "v1"
+        if args.finalize_delivery:
+            job["_clean_version_name"] = f"{args.delivery_output_name}_source"
+            job["_source_version_dir_name"] = f"{args.delivery_output_name}_source"
+        else:
+            job["_clean_version_name"] = "VL3_clean" if args.delivery_version_name.upper() == "VL3" else "v1"
+            job["_source_version_dir_name"] = "VL3_clean_source" if args.delivery_version_name.upper() == "VL3" else "v1"
         jobs.append(job)
 
     def run_one_language(job: dict[str, Any]) -> dict[str, Any]:

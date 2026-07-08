@@ -669,7 +669,8 @@ def reduce_decor_lines(html_text: str) -> tuple[str, dict[str, int]]:
         "margin-note", "reading-map-item", "figure-note", "followup", "side-note",
         "toc-row", "extract", "point", "mini-ex", "appendix-row", "metric",
         "analysis-note", "paper-footnote", "ref-item", "review-card", "timeline-item",
-        "brief-line", "strip-item",
+        "brief-line", "strip-item", "tag", "chip", "badge", "pill", "route-chip",
+        "metadata-chip", "metadata-chips",
     ]
     for cls in text_container_classes:
         pattern = rf"(\.{re.escape(cls)}\s*\{{[^}}]*?)border(?:-(?:left|right|top|bottom))?\s*:\s*(?!0\b|none\b)[^;}}]+;([^}}]*\}})"

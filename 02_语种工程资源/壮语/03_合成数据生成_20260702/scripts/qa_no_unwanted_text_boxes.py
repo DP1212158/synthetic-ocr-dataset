@@ -33,7 +33,7 @@ ALLOWED_CLASSES = {
     "inner-frame",
 }
 TEXT_BOX_CLASS_PATTERNS = [
-    re.compile(r"(?:^|[-_])(card|box|kv|clause|note|followup|extract|brief|digest)(?:$|[-_])", re.I),
+    re.compile(r"(?:^|[-_])(card|box|kv|clause|note|followup|extract|brief|digest|tag|chip|badge|pill)(?:$|[-_])", re.I),
 ]
 STYLE_BORDER_RE = re.compile(r"border(?:-(?:left|right|top|bottom))?\s*:\s*(?!0\b|none\b)[^;]+;", re.I)
 STYLE_SHADOW_RE = re.compile(r"box-shadow\s*:\s*(?!none\b)[^;]+;", re.I)

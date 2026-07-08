@@ -34,6 +34,16 @@ def write_json(path: Path, payload: Any) -> None:
     path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
+def load_profile(path: Path | None) -> dict[str, Any]:
+    if not path or not path.exists():
+        return {}
+    return read_json(path)
+
+
+def allow_tibetan_small_marks(profile: dict[str, Any]) -> bool:
+    return str(profile.get("cleanup_profile", "")).lower().startswith("tibetan")
+
+
 def category_dirs(version_dir: Path) -> list[Path]:
     return sorted(
         p
@@ -53,9 +63,11 @@ def main() -> int:
     parser.add_argument("--samples-per-category", type=int, default=6)
     parser.add_argument("--max-density-warnings", type=int, default=0)
     parser.add_argument("--fail-on-warning", action="store_true")
+    parser.add_argument("--language-profile")
     args = parser.parse_args()
 
     version_dir = Path(args.version_dir)
+    profile = load_profile(Path(args.language_profile) if args.language_profile else None)
     reports_dir = version_dir / "reports"
     qa_path = reports_dir / "qa_summary.json"
     density_path = reports_dir / "qa_density_summary.json"
@@ -73,14 +85,16 @@ def main() -> int:
     issues: list[dict[str, Any]] = []
     if qa.get("failed_basic"):
         issues.append({"level": "error", "code": "basic_qa_failed", "detail": qa["failed_basic"]})
-    for key in [
+    qa_error_keys = [
         "total_overflow_blocks",
         "total_out_of_bounds_blocks",
         "total_cyrillic_blocks",
-        "total_tibetan_small_mark_blocks",
         "total_pua_blocks",
         "total_unsupported_char_blocks",
-    ]:
+    ]
+    if not allow_tibetan_small_marks(profile):
+        qa_error_keys.append("total_tibetan_small_mark_blocks")
+    for key in qa_error_keys:
         if int(qa.get(key, 0)) != 0:
             issues.append({"level": "error", "code": key, "detail": qa.get(key)})
     for name, count in (qa.get("total_script_residue_blocks") or {}).items():

@@ -2,3 +2,38 @@
 __pycache__/
 *.py[cod]
 *.log
+
+# Local Python environments and packaged dependencies.
+.venv*/
+venv/
+env/
+
+# Runtime/cache output.
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+node_modules/
+playwright-report/
+test-results/
+
+# Large downloaded benchmark/source caches.
+05_总报告与索引/omnidocbench_cache/
+05_总报告与索引/VL3_ebook_source_validation/cache/
+**/cache/
+*.xml.bz2
+
+# Generated QA/report folders under text-pool construction.
+02_语种工程资源/*/01_文本数据获取_*/data/**/reports*/
+
+# Local demos and scratch dashboards.
+图片浏览_demo/
+多语种合成数据生成汇总_20260702/visual_dashboard/
+多语种合成数据生成汇总_20260702/pp_doclayout_*/
+多语种合成数据生成汇总_20260702/VL4_*_pilot/
+多语种合成数据生成汇总_20260702/VL4_*_smoke/
+多语种合成数据生成汇总_20260702/VL5_orderfix_smoke/
+
+# Intermediate/generated experiment versions. Keep final delivery folders and
+# source code/configs tracked; regenerate these on demand.
+02_语种工程资源/*/03_合成数据生成_20260702/VL[3-9]*/
+02_语种工程资源/*/03_合成数据生成_20260702/VL_latest_*/

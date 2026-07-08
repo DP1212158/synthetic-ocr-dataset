@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+from contextlib import nullcontext
 import datetime as dt
 import html
 import json
@@ -18,6 +19,7 @@ CYRILLIC_RE = re.compile(r"[\u0400-\u04ff]")
 TIBETAN_DECORATIVE_MARK_RE = re.compile(r"[\u0f04-\u0f0a\u0f0c\u0f0e-\u0f14\u0f3a-\u0f3d]")
 TIBETAN_SHAD_RE = re.compile(r"\s*།+\s*")
 TIBETAN_RE = re.compile(r"[\u0f00-\u0fff]")
+ZERO_WIDTH_CONTROL_RE = re.compile(r"[\u200b-\u200f\u202a-\u202e\u2060-\u206f]")
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 DEFAULT_TITLE = "Vahcuengh Yienghneix"
@@ -35,6 +37,7 @@ def esc(text: str) -> str:
 
 
 def cleanse_text(text: str) -> str:
+    text = ZERO_WIDTH_CONTROL_RE.sub("", str(text or ""))
     text = CYRILLIC_RE.sub("", text)
     text = TIBETAN_DECORATIVE_MARK_RE.sub(" ", text)
     text = TIBETAN_SHAD_RE.sub(" ། ", text)
@@ -144,20 +147,46 @@ def fallback_text(label: str) -> str:
     return shared_fallback_text(label)
 
 
+def flow_ctx(b: "Builder", region: str, container: str, role: str = "body"):
+    return b.flow.context(region, container, role) if b.flow else nullcontext()
+
+
 class Builder:
-    def __init__(self, document_id: str):
+    def __init__(self, document_id: str, flow: Any | None = None):
         self.document_id = document_id
         self.counter = 0
+        self.flow = flow
 
     def bid(self) -> str:
         self.counter += 1
         return f"{self.document_id}_b{self.counter:04d}"
 
-    def block(self, label: str, text: str, cls: str, tag: str = "div", attrs: str = "") -> str:
+    def block(
+        self,
+        label: str,
+        text: str,
+        cls: str,
+        tag: str = "div",
+        attrs: str = "",
+        flow: str | None = None,
+        ocr_orderable: bool | None = None,
+        caption_of: str | None = None,
+    ) -> str:
         cleaned = cleanse_text(text)
         if not cleaned and label != "image":
             cleaned = fallback_text(label)
-        return f'<{tag} class="{cls}" data-block-id="{self.bid()}" data-label="{label}" {attrs}>{esc(cleaned)}</{tag}>'
+        block_id = self.bid()
+        flow_attrs = ""
+        if self.flow:
+            flow_attrs = self.flow.attrs(
+                block_id,
+                label,
+                cleaned,
+                flow=flow,
+                ocr_orderable=ocr_orderable,
+                caption_of=caption_of,
+            )
+        return f'<{tag} class="{cls}" data-block-id="{block_id}" data-label="{label}" {attrs} {flow_attrs}>{esc(cleaned)}</{tag}>'
 
 
 def base_css(page: dict[str, Any], style: dict[str, Any], font_family: str, profile: dict[str, Any] | None = None) -> str:
@@ -213,7 +242,7 @@ def base_css(page: dict[str, Any], style: dict[str, Any], font_family: str, prof
     .columns-4 {{ columns: 4; column-gap: 15px; }}
     .sidebar {{ border-left: 3px solid {style['accent']}; padding-left: 13px; }}
     .side-title {{ font-size: {base_size + 3}px; font-weight: 900; color: {style['accent']}; margin-bottom: 8px; }}
-    .brief-line {{ font-size: {base_size - 2}px; line-height: 1.29; border-bottom: 1px dotted {style['line']}; padding: 6px 0; }}
+    .brief-line {{ font-size: {base_size - 2}px; line-height: 1.29; padding: 6px 0; }}
     .image-box {{ min-height: 250px; background: repeating-linear-gradient(135deg, #e4e0d6, #e4e0d6 12px, #f4f0e7 12px, #f4f0e7 24px); border: 1.5px solid {style['line']}; margin: 10px 0 7px; }}
     .caption {{ font-size: {base_size - 4}px; color: {style['muted']}; line-height: 1.28; margin-bottom: 10px; }}
     .brief-strip, .related-strip, .metric-strip {{ display: grid; gap: 10px; margin-top: 14px; border-top: 2px solid {style['line']}; padding-top: 10px; }}
@@ -232,6 +261,7 @@ def base_css(page: dict[str, Any], style: dict[str, Any], font_family: str, prof
 
 
 def wrap(doc: dict[str, Any], body: str, css: str, page: dict[str, Any]) -> str:
+    css = apply_vl9_visual_cleanup(css, doc.get("version_name"))
     return f"""<!doctype html>
 <html lang="{esc(doc['html_lang'])}" dir="{esc(str(doc.get('css_direction', doc.get('writing_direction', 'ltr'))))}">
 <head>
@@ -245,11 +275,12 @@ def wrap(doc: dict[str, Any], body: str, css: str, page: dict[str, Any]) -> str:
 
 
 def random_meta_items(rng: random.Random, variant: int) -> list[str]:
-    return [f"No {180 + variant:03d}", f"2026-07-{variant:02d}", rng.choice(["Saw A", "Yieb 03", "Dakbieq"])]
+    return [f"No {180 + variant:03d}", f"2026-07-{variant:02d}", safe_fragment(2, 18)]
 
 
 def render_issue_bar(b: Builder, rng: random.Random, variant: int) -> str:
-    return '<div class="issue-bar">' + ''.join(b.block("metadata", item, "meta") for item in random_meta_items(rng, variant)) + '</div>'
+    with flow_ctx(b, "masthead", f"issue_bar_v{variant:02d}", "metadata"):
+        return '<div class="issue-bar">' + ''.join(b.block("metadata", item, "meta") for item in random_meta_items(rng, variant)) + '</div>'
 
 
 def render_masthead(b: Builder, template: dict[str, Any], records: list[dict[str, str]], rng: random.Random, doc: dict[str, Any]) -> str:
@@ -257,36 +288,37 @@ def render_masthead(b: Builder, template: dict[str, Any], records: list[dict[str
     variant = int(template["variant"])
     title_extra = record_title(records, rng, 8, 18) if variant in (2, 5) else ""
     title = cleanse_text(f"{doc['title']} {title_extra}")
-    if region_type == "masthead_compact":
-        return f"""<header class="masthead-compact">
-          {b.block('metadata', rng.choice(KICKERS), 'kicker')}
+    with flow_ctx(b, "masthead", f"masthead_v{variant:02d}", "title"):
+        if region_type == "masthead_compact":
+            return f"""<header class="masthead-compact">
+          {b.block('metadata', safe_fragment(2, 22), 'kicker')}
           {b.block('document_title', title, 'newspaper-name')}
           <div>{render_issue_bar(b, rng, variant)}</div>
         </header>"""
-    if region_type == "masthead_split":
-        return f"""<header class="masthead-split">
+        if region_type == "masthead_split":
+            return f"""<header class="masthead-split">
           {b.block('document_title', title, 'newspaper-name left')}
-          <div>{b.block('metadata', rng.choice(KICKERS), 'meta')}{render_issue_bar(b, rng, variant)}</div>
+          <div>{b.block('metadata', safe_fragment(2, 22), 'meta')}{render_issue_bar(b, rng, variant)}</div>
         </header>"""
-    if region_type == "masthead_banner":
-        return f"""<header class="masthead-banner">
+        if region_type == "masthead_banner":
+            return f"""<header class="masthead-banner">
           {b.block('document_title', title, 'newspaper-name left')}
-          {b.block('metadata', rng.choice(KICKERS), 'meta')}
+          {b.block('metadata', safe_fragment(2, 22), 'meta')}
           {render_issue_bar(b, rng, variant)}
         </header>"""
-    if region_type == "special_masthead":
-        return f"""<header class="special-masthead">
-          {b.block('metadata', 'SPECIAL', 'kicker')}
+        if region_type == "special_masthead":
+            return f"""<header class="special-masthead">
+          {b.block('metadata', safe_fragment(2, 22), 'kicker')}
           {b.block('document_title', title, 'newspaper-name')}
           <div>{b.block('metadata', record_title(records, rng, 8, 22), 'meta')}{render_issue_bar(b, rng, variant)}</div>
         </header>"""
-    if region_type == "masthead_minimal":
-        return f"""<header class="masthead-minimal">
+        if region_type == "masthead_minimal":
+            return f"""<header class="masthead-minimal">
           {b.block('document_title', title, 'newspaper-name left')}
           <div>{render_issue_bar(b, rng, variant)}</div>
         </header>"""
-    return f"""<header class="masthead">
-      {b.block('metadata', rng.choice(KICKERS), 'kicker')}
+        return f"""<header class="masthead">
+      {b.block('metadata', safe_fragment(2, 22), 'kicker')}
       {b.block('document_title', title, 'newspaper-name')}
       {render_issue_bar(b, rng, variant)}
     </header>"""
@@ -303,55 +335,63 @@ def story_block(
     caption: bool = False,
     text_min: int = 58,
     text_max: int = 128,
+    region: str = "body",
+    container: str = "story",
 ) -> str:
     head_cls = f"headline {headline_scale}".strip()
-    parts = [f'<article class="{cls}">', b.block("section_title", record_title(records, rng, 10, 32), head_cls)]
-    if include_image:
-        parts.append(b.block("image", "", "image-box"))
-        if caption:
-            parts.append(b.block("caption", record_text(records, rng, 26, 58), "caption"))
-    for _ in range(paragraphs):
-        parts.append(b.block("paragraph", record_text(records, rng, text_min, text_max), "news-para"))
-    parts.append("</article>")
-    return "".join(parts)
+    with flow_ctx(b, region, container, "article"):
+        parts = [f'<article class="{cls}">', b.block("section_title", record_title(records, rng, 10, 32), head_cls)]
+        if include_image:
+            parts.append(b.block("image", "", "image-box"))
+            if caption:
+                parts.append(b.block("caption", record_text(records, rng, 26, 58), "caption"))
+        for _ in range(paragraphs):
+            parts.append(b.block("paragraph", record_text(records, rng, text_min, text_max), "news-para"))
+        parts.append("</article>")
+        return "".join(parts)
 
 
 def brief_list(b: Builder, records: list[dict[str, str]], rng: random.Random, count: int, title: str | None = None, cls: str = "sidebar") -> str:
-    header = b.block("section_title", title or rng.choice(SECTION_TITLES), "side-title") if title else ""
-    lines = "".join(b.block("list_item", record_text(records, rng, 24, 64), "brief-line") for _ in range(count))
-    return f'<aside class="{cls}">{header}{lines}</aside>'
+    with flow_ctx(b, "sidebar", title or cls, "sidebar"):
+        header = b.block("section_title", title or safe_fragment(2, 20), "side-title") if title else ""
+        lines = "".join(b.block("list_item", record_text(records, rng, 24, 64), "brief-line") for _ in range(count))
+        return f'<aside class="{cls}">{header}{lines}</aside>'
 
 
 def strip_items(b: Builder, records: list[dict[str, str]], rng: random.Random, count: int, cls: str) -> str:
-    return f'<section class="{cls}">' + "".join(b.block("list_item", record_text(records, rng, 28, 68), "strip-item") for _ in range(count)) + "</section>"
+    with flow_ctx(b, "bottom_strip", cls, "list"):
+        return f'<section class="{cls}">' + "".join(b.block("list_item", record_text(records, rng, 28, 68), "strip-item") for _ in range(count)) + "</section>"
 
 
 def box_section(b: Builder, records: list[dict[str, str]], rng: random.Random, cls: str, title: str | None, count: int) -> str:
-    parts = [f'<section class="{cls}">']
-    if title:
-        parts.append(b.block("section_title", title, "headline"))
-    for _ in range(count):
-        parts.append(b.block("list_item", record_text(records, rng, 22, 58), "small-para"))
-    parts.append("</section>")
-    return "".join(parts)
+    region = "sidebar" if "box" in cls or "ad" in cls else "secondary_stories"
+    with flow_ctx(b, region, title or cls, "module"):
+        parts = [f'<section class="{cls}">']
+        if title:
+            parts.append(b.block("section_title", title, "headline"))
+        for _ in range(count):
+            parts.append(b.block("list_item", record_text(records, rng, 22, 58), "small-para"))
+        parts.append("</section>")
+        return "".join(parts)
 
 
 def render_v01(b: Builder, template: dict[str, Any], records: list[dict[str, str]], rng: random.Random, doc: dict[str, Any]) -> str:
     masthead = render_masthead(b, template, records, rng, doc)
-    lead = story_block(b, records, rng, "story lead-story", 4, "xl", True, True, 92, 176)
-    center = '<section class="columns-2">' + "".join(story_block(b, records, rng, paragraphs=2, text_min=78, text_max=160) for _ in range(10)) + "</section>"
+    lead = story_block(b, records, rng, "story lead-story", 4, "xl", True, True, 92, 176, region="lead_story", container="lead_story")
+    center = '<section class="columns-2">' + "".join(story_block(b, records, rng, paragraphs=2, text_min=78, text_max=160, region="secondary_stories", container=f"secondary_{i:02d}") for i in range(10)) + "</section>"
     side = brief_list(b, records, rng, 22, "Mboq Doengh")
     main = f'<main class="grid" style="grid-template-columns:1.08fr 1.22fr .72fr">{lead}{center}{side}</main>'
-    footer = b.block("footer", "newspaper json template v01", "footer")
+    with flow_ctx(b, "footer", "footer", "footer"):
+        footer = b.block("footer", "newspaper json template v01", "footer")
     return masthead + main + footer
 
 
 def render_v02(b: Builder, template: dict[str, Any], records: list[dict[str, str]], rng: random.Random, doc: dict[str, Any]) -> str:
     masthead = render_masthead(b, template, records, rng, doc)
-    hero = story_block(b, records, rng, "story lead-story", 2, "xxl", True, True, 72, 140)
-    side = '<section>' + "".join(story_block(b, records, rng, paragraphs=1, text_min=56, text_max=116) for _ in range(3)) + "</section>"
+    hero = story_block(b, records, rng, "story lead-story", 2, "xxl", True, True, 72, 140, region="lead_story", container="hero")
+    side = '<section>' + "".join(story_block(b, records, rng, paragraphs=1, text_min=56, text_max=116, region="secondary_stories", container=f"top_side_{i:02d}") for i in range(3)) + "</section>"
     top = f'<section class="grid" style="grid-template-columns:1.55fr .8fr;margin-bottom:16px">{hero}{side}</section>'
-    body = '<section class="columns-3">' + "".join(story_block(b, records, rng, paragraphs=1, text_min=58, text_max=118) for _ in range(6)) + "</section>"
+    body = '<section class="columns-3">' + "".join(story_block(b, records, rng, paragraphs=1, text_min=58, text_max=118, region="secondary_stories", container=f"body_story_{i:02d}") for i in range(6)) + "</section>"
     strip = strip_items(b, records, rng, 6, "brief-strip")
     return masthead + top + body + strip
 
@@ -360,9 +400,10 @@ def render_v03(b: Builder, template: dict[str, Any], records: list[dict[str, str
     masthead = render_masthead(b, template, records, rng, doc)
     stories = []
     for i in range(34):
-        stories.append(story_block(b, records, rng, paragraphs=1, text_min=64, text_max=132))
+        stories.append(story_block(b, records, rng, paragraphs=1, text_min=64, text_max=132, region="secondary_stories", container=f"dense_story_{i:02d}"))
         if i == 5:
-            stories.append(f'<section class="micro-ad">{b.block("section_title", "Gvangj Gau", "headline")}{b.block("paragraph", record_text(records, rng, 40, 86), "small-para")}</section>')
+            with flow_ctx(b, "sidebar", "micro_ad", "module"):
+                stories.append(f'<section class="micro-ad">{b.block("section_title", "Gvangj Gau", "headline")}{b.block("paragraph", record_text(records, rng, 40, 86), "small-para")}</section>')
     body = '<main class="columns-4">' + "".join(stories) + "</main>"
     strip = strip_items(b, records, rng, 8, "brief-strip")
     return masthead + body + strip
@@ -371,7 +412,7 @@ def render_v03(b: Builder, template: dict[str, Any], records: list[dict[str, str
 def render_v04(b: Builder, template: dict[str, Any], records: list[dict[str, str]], rng: random.Random, doc: dict[str, Any]) -> str:
     masthead = render_masthead(b, template, records, rng, doc)
     notice = box_section(b, records, rng, "community-box", "Gvangj Gau", 7)
-    news = '<section>' + "".join(story_block(b, records, rng, paragraphs=1, text_min=54, text_max=112) for _ in range(5)) + "</section>"
+    news = '<section>' + "".join(story_block(b, records, rng, paragraphs=1, text_min=54, text_max=112, region="secondary_stories", container=f"news_{i:02d}") for i in range(5)) + "</section>"
     calendar = box_section(b, records, rng, "calendar-box", "06/2026", 6)
     contact = box_section(b, records, rng, "contact-box", rng.choice(CONTACT_LABELS), 3)
     ad = box_section(b, records, rng, "small-ad-box", "Gau Cek", 3)
@@ -383,11 +424,13 @@ def render_v04(b: Builder, template: dict[str, Any], records: list[dict[str, str
 
 def render_v05(b: Builder, template: dict[str, Any], records: list[dict[str, str]], rng: random.Random, doc: dict[str, Any]) -> str:
     masthead = render_masthead(b, template, records, rng, doc)
-    main_story = f'<section class="lead-story">{b.block("section_title", record_title(records, rng, 12, 34), "headline xxl")}{b.block("paragraph", record_text(records, rng, 120, 210), "news-para")}' + "".join(b.block("paragraph", record_text(records, rng, 92, 178), "news-para") for _ in range(12)) + "</section>"
-    timeline = '<aside class="sidebar">' + b.block("section_title", "Seizgan", "side-title")
-    for i in range(1, 13):
-        timeline += f'<div class="timeline-item">{b.block("metadata", f"{i:02d}", "timeline-no")}{b.block("list_item", record_text(records, rng, 34, 80), "small-para")}</div>'
-    timeline += box_section(b, records, rng, "fact-box", "Gij Yawj", 8) + "</aside>"
+    with flow_ctx(b, "lead_story", "main_story", "article"):
+        main_story = f'<section class="lead-story">{b.block("section_title", record_title(records, rng, 12, 34), "headline xxl")}{b.block("paragraph", record_text(records, rng, 120, 210), "news-para")}' + "".join(b.block("paragraph", record_text(records, rng, 92, 178), "news-para") for _ in range(12)) + "</section>"
+    with flow_ctx(b, "sidebar", "timeline", "sidebar"):
+        timeline = '<aside class="sidebar">' + b.block("section_title", "Seizgan", "side-title")
+        for i in range(1, 13):
+            timeline += f'<div class="timeline-item">{b.block("metadata", f"{i:02d}", "timeline-no")}{b.block("list_item", record_text(records, rng, 34, 80), "small-para")}</div>'
+        timeline += box_section(b, records, rng, "fact-box", "Gij Yawj", 8) + "</aside>"
     grid = f'<main class="grid" style="grid-template-columns:1.35fr .75fr">{main_story}{timeline}</main>'
     related = strip_items(b, records, rng, 5, "related-strip")
     return masthead + grid + related
@@ -395,8 +438,8 @@ def render_v05(b: Builder, template: dict[str, Any], records: list[dict[str, str
 
 def render_v06(b: Builder, template: dict[str, Any], records: list[dict[str, str]], rng: random.Random, doc: dict[str, Any]) -> str:
     masthead = render_masthead(b, template, records, rng, doc)
-    primary = story_block(b, records, rng, "story lead-story", 2, "xl", True, True, 70, 142)
-    cards = '<section>' + "".join(f'<div class="digest-card">{story_block(b, records, rng, "story", 1, "", text_min=48, text_max=106)}</div>' for _ in range(6)) + "</section>"
+    primary = story_block(b, records, rng, "story lead-story", 2, "xl", True, True, 70, 142, region="lead_story", container="primary")
+    cards = '<section>' + "".join(f'<div class="digest-card">{story_block(b, records, rng, "story", 1, "", text_min=48, text_max=106, region="secondary_stories", container=f"digest_{i:02d}")}</div>' for i in range(6)) + "</section>"
     side = brief_list(b, records, rng, 10, "Doengh Vaiq")
     grid = f'<main class="grid" style="grid-template-columns:1.25fr 1fr .72fr">{primary}{cards}{side}</main>'
     metrics = strip_items(b, records, rng, 4, "metric-strip")
@@ -444,9 +487,13 @@ from synthetic_text_utils import (  # noqa: E402
     read_text_records,
     record_text,
     record_title,
+    safe_fragment,
+    safe_title,
     select_span,
     vertical_css as shared_vertical_css,
 )
+from reading_flow_v1 import FlowPlanner, write_template_flow_plan  # noqa: E402
+from vl9_visual_style import apply_vl9_visual_cleanup  # noqa: E402
 
 
 def main() -> int:
@@ -480,29 +527,33 @@ def main() -> int:
 
     rng = random.Random(args.seed)
     manifest = []
+    flow_plans = []
     for template in spec["templates"]:
         variant = int(template["variant"])
         document_id = f"01_newspaper_page_json_{variant:02d}"
-        b = Builder(document_id)
         page = template["page"]
         style = template["style_tokens"]
         doc = {
             "document_id": document_id,
-            "title": DEFAULT_TITLE,
+            "title": safe_title(rng, 8, 34),
             "html_lang": language_profile["html_lang"],
             "font_family": language_profile["font_family"],
             "css_direction": language_profile.get("css_direction", language_profile.get("writing_direction", "ltr")),
             "css_writing_mode": language_profile.get("css_writing_mode", "horizontal-tb"),
             "writing_direction": language_profile.get("writing_direction", "ltr"),
             "template_id": template["template_id"],
+            "version_name": version_name,
         }
+        flow = FlowPlanner(document_id, "newspaper_page", variant, doc["writing_direction"])
+        b = Builder(document_id, flow)
         body = RENDERERS[variant](b, template, records, rng, doc)
         css = base_css(page, style, doc["font_family"], doc)
         (html_dir / f"{document_id}.html").write_text(wrap(doc, body, css, page), encoding="utf-8")
+        flow_plans.append(flow.plan())
         manifest.append(
             {
                 "document_id": document_id,
-                "title": DEFAULT_TITLE,
+                "title": doc["title"],
                 "category": "newspaper_page",
                 "category_cn": "报纸页",
                 "variant": variant,
@@ -521,6 +572,7 @@ def main() -> int:
                 "columns": None,
                 "created_at": now_local(),
                 "source_records": [],
+                "reading_order_policy": "template_flow_v1",
                 "content_plan": template.get("content_plan", {}),
                 "qa_constraints": template.get("qa_constraints", {}),
             }
@@ -532,6 +584,7 @@ def main() -> int:
         encoding="utf-8",
     )
     (meta_dir / "newspaper_template_spec.json").write_text(json.dumps(spec, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_template_flow_plan(out_dir, flow_plans)
     if args.output_root:
         (out_dir / "README.md").write_text(
             f"# {args.start_index:02d} 报纸页\n\n本目录属于壮语 `{version_name}`，由报纸专用 JSON 结构树生成，共 6 张。\n\n- `html/`\n- `images/`\n- `labels/`\n- `metadata/`\n- `reports/`\n",

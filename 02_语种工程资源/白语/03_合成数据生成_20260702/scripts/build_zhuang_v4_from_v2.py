@@ -669,7 +669,8 @@ def reduce_decor_lines(html_text: str) -> tuple[str, dict[str, int]]:
         "margin-note", "reading-map-item", "figure-note", "followup", "side-note",
         "toc-row", "extract", "point", "mini-ex", "appendix-row", "metric",
         "analysis-note", "paper-footnote", "ref-item", "review-card", "timeline-item",
-        "brief-line", "strip-item",
+        "brief-line", "strip-item", "tag", "chip", "badge", "pill", "route-chip",
+        "metadata-chip", "metadata-chips",
     ]
     for cls in text_container_classes:
         pattern = rf"(\.{re.escape(cls)}\s*\{{[^}}]*?)border(?:-(?:left|right|top|bottom))?\s*:\s*(?!0\b|none\b)[^;}}]+;([^}}]*\}})"
@@ -795,7 +796,12 @@ def transform_htmls(
     }
     for cat in category_dirs(clean_dir):
         html_manifest = read_json(cat / "metadata" / "html_manifest.json")
-        cat_decor = {"border_bottom_removed": 0, "border_top_softened": 0, "dotted_softened": 0}
+        cat_decor = {
+            "border_bottom_removed": 0,
+            "border_top_softened": 0,
+            "dotted_softened": 0,
+            "text_container_border_removed": 0,
+        }
         for item in html_manifest:
             html_path = cat / "html" / f"{item['document_id']}.html"
             text = html_path.read_text(encoding="utf-8")
@@ -815,7 +821,7 @@ def transform_htmls(
             )
             text, decor_stats = reduce_decor_lines(text)
             for key, value in decor_stats.items():
-                cat_decor[key] += value
+                cat_decor[key] = cat_decor.get(key, 0) + value
             text, asset_index = replace_image_placeholders(
                 text,
                 item["document_id"],
@@ -1279,6 +1285,8 @@ def run_final_qa(out_v4: Path, profile_path: Path) -> None:
         str(ENGINE_ROOT / "scripts" / "qa_version_acceptance.py"),
         "--version-dir",
         str(out_v4),
+        "--language-profile",
+        str(profile_path),
         "--max-density-warnings",
         "0",
     ])

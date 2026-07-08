@@ -1,0 +1,208 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v4",
+  "template_id": "certificate_proof_vertical_tree_v4_06",
+  "variant": 6,
+  "category_id": "certificate_proof",
+  "category_cn": "证书证明",
+  "folder": "02_证书证明",
+  "template_name_cn": "简式单位证明",
+  "layout_family": "v4_minimal_unit_proof",
+  "design_prompt": "留白较大但标题、正文、日期、章印完整。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 980,
+    "height": 1320,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical_v4"
+  },
+  "qa_expectations": {
+    "min_blocks": 8,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "outer",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box",
+      "box": {
+        "x": 52,
+        "y": 52,
+        "w": 876,
+        "h": 1216
+      },
+      "visual": {}
+    },
+    {
+      "id": "serial",
+      "kind": "text",
+      "label": "metadata",
+      "role": "serial",
+      "class": "tiny",
+      "box": {
+        "x": 94,
+        "y": 100,
+        "w": 30,
+        "h": 1110
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 24,
+        "max_chars": 96,
+        "value": "20260702"
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "title",
+      "class": "title",
+      "box": {
+        "x": 170,
+        "y": 120,
+        "w": 62,
+        "h": 1060
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 28
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 290,
+        "y": 180,
+        "w": 38,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 22,
+        "max_chars": 68
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 350,
+        "y": 180,
+        "w": 38,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 22,
+        "max_chars": 68
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 410,
+        "y": 180,
+        "w": 38,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 22,
+        "max_chars": 68
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 470,
+        "y": 180,
+        "w": 38,
+        "h": 900
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 22,
+        "max_chars": 68
+      },
+      "visual": {}
+    },
+    {
+      "id": "date",
+      "kind": "text",
+      "label": "metadata",
+      "role": "date",
+      "class": "small",
+      "box": {
+        "x": 760,
+        "y": 190,
+        "w": 34,
+        "h": 700
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 24,
+        "max_chars": 96,
+        "value": "20260702"
+      },
+      "visual": {}
+    },
+    {
+      "id": "seal",
+      "kind": "text",
+      "label": "seal",
+      "role": "seal",
+      "class": "subtitle stamp",
+      "box": {
+        "x": 800,
+        "y": 700,
+        "w": 112,
+        "h": 112
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    }
+  ]
+}

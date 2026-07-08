@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+from contextlib import nullcontext
 import datetime as dt
 import html
 import json
@@ -19,6 +20,7 @@ CJK_RE = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff]")
 TIBETAN_DECORATIVE_MARK_RE = re.compile(r"[\u0f04-\u0f0a\u0f0c\u0f0e-\u0f14\u0f3a-\u0f3d]")
 TIBETAN_SHAD_RE = re.compile(r"\s*།+\s*")
 TIBETAN_RE = re.compile(r"[\u0f00-\u0fff]")
+ZERO_WIDTH_CONTROL_RE = re.compile(r"[\u200b-\u200f\u202a-\u202e\u2060-\u206f]")
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 THEMES = [
@@ -38,6 +40,7 @@ def esc(text: str) -> str:
 
 
 def cleanse_text(text: str) -> str:
+    text = ZERO_WIDTH_CONTROL_RE.sub("", str(text or ""))
     text = CYRILLIC_RE.sub("", text)
     text = CJK_RE.sub("", text)
     text = TIBETAN_DECORATIVE_MARK_RE.sub(" ", text)
@@ -139,20 +142,45 @@ def fallback_text(label: str) -> str:
     return shared_fallback_text(label)
 
 
+def flow_ctx(b: "Builder", region: str, container: str, role: str = "body"):
+    return b.flow.context(region, container, role) if b.flow else nullcontext()
+
+
 class Builder:
-    def __init__(self, document_id: str):
+    def __init__(self, document_id: str, flow: Any | None = None):
         self.document_id = document_id
         self.counter = 0
+        self.flow = flow
 
     def bid(self) -> str:
         self.counter += 1
         return f"{self.document_id}_b{self.counter:04d}"
 
-    def block(self, label: str, text: str, cls: str, tag: str = "div") -> str:
+    def block(
+        self,
+        label: str,
+        text: str,
+        cls: str,
+        tag: str = "div",
+        flow: str | None = None,
+        ocr_orderable: bool | None = None,
+        caption_of: str | None = None,
+    ) -> str:
         cleaned = cleanse_text(text)
         if not cleaned and label != "image":
             cleaned = fallback_text(label)
-        return f'<{tag} class="{cls}" data-block-id="{self.bid()}" data-label="{label}">{esc(cleaned)}</{tag}>'
+        block_id = self.bid()
+        flow_attrs = ""
+        if self.flow:
+            flow_attrs = self.flow.attrs(
+                block_id,
+                label,
+                cleaned,
+                flow=flow,
+                ocr_orderable=ocr_orderable,
+                caption_of=caption_of,
+            )
+        return f'<{tag} class="{cls}" data-block-id="{block_id}" data-label="{label}" {flow_attrs}>{esc(cleaned)}</{tag}>'
 
 
 def base_css(page: dict[str, Any], theme: dict[str, str], font_family: str, base: int = 20, profile: dict[str, Any] | None = None) -> str:
@@ -182,6 +210,7 @@ def base_css(page: dict[str, Any], theme: dict[str, str], font_family: str, base
 
 
 def wrap(doc: dict[str, Any], body: str, css: str, cls: str) -> str:
+    css = apply_vl9_visual_cleanup(css, doc.get("version_name"))
     return f"""<!doctype html>
 <html lang="{esc(doc['html_lang'])}" dir="{esc(str(doc.get('css_direction', doc.get('writing_direction', 'ltr'))))}">
 <head><meta charset="utf-8"><title>{esc(doc['title'])}</title><style>{css}</style></head>
@@ -199,42 +228,88 @@ def kv(b: Builder, label: str, value: str, cls: str = "kv") -> str:
 
 
 def small_table(b: Builder, records: list[dict[str, str]], rng: random.Random, rows: int, cols: int = 3) -> str:
-    head = "<tr>" + "".join(b.block("table_header", f"H{i}", "", "th") for i in range(1, cols + 1)) + "</tr>"
-    body = ""
-    for _ in range(rows):
-        body += "<tr>" + "".join(b.block("table_cell_text", record_text(records, rng, 16, 38), "", "td") for _ in range(cols)) + "</tr>"
-    return f"<table>{head}{body}</table>"
+    with flow_ctx(b, "figure_table", "table", "table"):
+        head = "<tr>" + "".join(b.block("table_header", f"H{i}", "", "th") for i in range(1, cols + 1)) + "</tr>"
+        body = ""
+        for _ in range(rows):
+            body += "<tr>" + "".join(b.block("table_cell_text", record_text(records, rng, 16, 38), "", "td") for _ in range(cols)) + "</tr>"
+        return f"<table>{head}{body}</table>"
 
 
 def academic_renderer(b: Builder, tpl: dict[str, Any], records: list[dict[str, str]], rng: random.Random, doc: dict[str, Any], theme: dict[str, str]) -> str:
     v = int(tpl["variant"])
     page = tpl["page"]
     if v == 1:
-        kws = "".join(b.block("metadata", record_title(records, rng, 5, 13), "keyword") for _ in range(6))
-        footnotes = "".join(f'<section class="paper-footnote">{b.block("metadata", f"{i:02d}", "ref-no")}{b.block("note", record_text(records, rng, 28, 58), "small")}</section>' for i in range(1, 13))
-        body = f"""<header class="paper-head">{b.block('document_title', record_title(records, rng, 12, 32), 'doc-title')}{b.block('metadata','Author 1 / Institute 2 / 2026','meta')}{b.block('document_subtitle', record_text(records, rng, 150, 240), 'abstract')}<div class="keywords">{kws}</div></header><article class="paper-cols">{para_stack(b, records, rng, 58, 64, 118)}</article><section class="paper-footnotes">{footnotes}</section>{b.block('page_number','1','folio')}"""
+        with flow_ctx(b, "keywords", "keywords", "metadata"):
+            kws = "".join(b.block("metadata", record_title(records, rng, 5, 13), "keyword") for _ in range(6))
+        with flow_ctx(b, "footnotes", "paper_footnotes", "note"):
+            footnotes = "".join(f'<section class="paper-footnote">{b.block("metadata", f"{i:02d}", "ref-no")}{b.block("note", record_text(records, rng, 28, 58), "small")}</section>' for i in range(1, 13))
+        with flow_ctx(b, "paper_title", "paper_head", "title"):
+            head = f"""<header class="paper-head">{b.block('document_title', record_title(records, rng, 12, 32), 'doc-title')}{b.block('metadata','Author 1 / Institute 2 / 2026','meta')}{b.block('document_subtitle', record_text(records, rng, 150, 240), 'abstract')}<div class="keywords">{kws}</div></header>"""
+        with flow_ctx(b, "body_columns", "paper_body", "body"):
+            article = para_stack(b, records, rng, 58, 64, 118)
+        with flow_ctx(b, "footer", "folio", "page_number"):
+            folio = b.block('page_number','1','folio')
+        body = f"""{head}<article class="paper-cols">{article}</article><section class="paper-footnotes">{footnotes}</section>{folio}"""
         extra = f""".paper-head{{text-align:center;border-bottom:3px double {theme['line']};padding-bottom:14px;margin-bottom:16px;}}.abstract{{text-align:left;background:{theme['soft']};border:1px solid {theme['line']};padding:11px;margin-top:10px;font-size:16px;line-height:1.32;}}.keywords{{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-top:9px;}}.keyword{{border:1px solid {theme['line']};padding:4px 8px;font-size:13px;}}.paper-cols{{columns:2;column-gap:24px;}}.paper-cols .para{{font-size:15px;line-height:1.25;margin-bottom:5px;}}.paper-footnotes{{position:absolute;left:62px;right:62px;bottom:68px;border-top:2px solid {theme['line']};padding-top:10px;display:grid;grid-template-columns:1fr 1fr;gap:4px 18px;}}.paper-footnote{{display:grid;grid-template-columns:34px 1fr;gap:7px;}}.paper-footnote .small{{font-size:12px;line-height:1.14;}}"""
     elif v == 2:
-        analysis_notes = "".join(f'<section class="analysis-note">{b.block("metadata", f"N{i}", "ref-no")}{b.block("note", record_text(records, rng, 30, 64), "small")}</section>' for i in range(1, 11))
-        body = f"""{b.block('section_title', record_title(records, rng, 10, 22), 'section-title')}<section class="fig-paper"><main>{para_stack(b, records, rng, 28, 58, 108)}{b.block('section_title','Gij Yienghguh','section-title')}{para_stack(b, records, rng, 14, 48, 92)}</main><aside>{b.block('image','','image-box')}{b.block('caption',record_text(records,rng,55,96),'caption')}{small_table(b, records, rng, 10, 3)}</aside></section><section class="analysis-notes">{analysis_notes}</section>{b.block('page_number','2','folio')}"""
+        with flow_ctx(b, "footnotes", "analysis_notes", "note"):
+            analysis_notes = "".join(f'<section class="analysis-note">{b.block("metadata", f"N{i}", "ref-no")}{b.block("note", record_text(records, rng, 30, 64), "small")}</section>' for i in range(1, 11))
+        with flow_ctx(b, "paper_title", "paper_section_head", "heading"):
+            title = b.block('section_title', record_title(records, rng, 10, 22), 'section-title')
+        with flow_ctx(b, "body_columns", "figure_paper_body", "body"):
+            main_body = f"{para_stack(b, records, rng, 28, 58, 108)}{b.block('section_title','Gij Yienghguh','section-title')}{para_stack(b, records, rng, 14, 48, 92)}"
+        with flow_ctx(b, "figure_table", "figure_and_table", "figure"):
+            aside = f"{b.block('image','','image-box')}{b.block('caption',record_text(records,rng,55,96),'caption')}{small_table(b, records, rng, 10, 3)}"
+        with flow_ctx(b, "footer", "folio", "page_number"):
+            folio = b.block('page_number','2','folio')
+        body = f"""{title}<section class="fig-paper"><main>{main_body}</main><aside>{aside}</aside></section><section class="analysis-notes">{analysis_notes}</section>{folio}"""
         extra = f""".fig-paper{{display:grid;grid-template-columns:1fr 380px;gap:24px;align-items:start;}}.fig-paper main{{columns:2;column-gap:20px;}}.fig-paper main .para{{font-size:15px;line-height:1.27;margin-bottom:5px;}}.fig-paper .image-box{{height:420px;margin-bottom:12px;}}.fig-paper td,.fig-paper th{{font-size:13px;padding:6px;}}.analysis-notes{{position:absolute;left:62px;right:62px;bottom:68px;border-top:2px solid {theme['line']};padding-top:10px;display:grid;grid-template-columns:1fr 1fr;gap:6px 20px;}}.analysis-note{{display:grid;grid-template-columns:38px 1fr;gap:8px;}}.analysis-note .small{{font-size:12px;line-height:1.14;}}"""
     elif v == 3:
-        metrics = "".join(f'<section class="metric">{b.block("metadata", f"M{i}", "metric-no")}{b.block("paragraph", record_text(records, rng, 28, 58), "small")}</section>' for i in range(1, 10))
-        appendix = "".join(f'<section class="appendix-row">{b.block("metadata", f"A{i:02d}", "appendix-no")}{b.block("paragraph", record_text(records, rng, 38, 78), "small")}</section>' for i in range(1, 13))
-        body = f"""{b.block('document_title','Swhngim Bouxcuengh','doc-title')}<main class="experiment"><section>{para_stack(b, records, rng, 20, 54, 104)}{small_table(b, records, rng, 10, 4)}</section><aside>{metrics}</aside></main>{b.block('section_title','Gienzronz','section-title')}{para_stack(b, records, rng, 8, 48, 92)}<section class="appendix">{appendix}</section>"""
+        with flow_ctx(b, "sidebar", "metrics", "sidebar"):
+            metrics = "".join(f'<section class="metric">{b.block("metadata", f"M{i}", "metric-no")}{b.block("paragraph", record_text(records, rng, 28, 58), "small")}</section>' for i in range(1, 10))
+        with flow_ctx(b, "references", "appendix", "reference"):
+            appendix = "".join(f'<section class="appendix-row">{b.block("metadata", f"A{i:02d}", "appendix-no")}{b.block("paragraph", record_text(records, rng, 38, 78), "small")}</section>' for i in range(1, 13))
+        with flow_ctx(b, "paper_title", "experiment_title", "title"):
+            title = b.block('document_title','Swhngim Bouxcuengh','doc-title')
+        with flow_ctx(b, "body_columns", "experiment_body", "body"):
+            body_main = para_stack(b, records, rng, 20, 54, 104)
+        with flow_ctx(b, "body_columns", "conclusion", "body"):
+            conclusion = f"{b.block('section_title','Gienzronz','section-title')}{para_stack(b, records, rng, 8, 48, 92)}"
+        body = f"""{title}<main class="experiment"><section>{body_main}{small_table(b, records, rng, 10, 4)}</section><aside>{metrics}</aside></main>{conclusion}<section class="appendix">{appendix}</section>"""
         extra = f""".experiment{{display:grid;grid-template-columns:1fr 300px;gap:22px;margin-top:14px;}}.experiment section .para{{font-size:15px;line-height:1.28;margin-bottom:5px;}}.metric{{border-left:5px solid {theme['accent']};padding:7px 0 7px 10px;border-bottom:1px dotted {theme['line']};}}.metric-no,.appendix-no{{font-weight:900;color:{theme['accent']};}}.appendix{{display:grid;grid-template-columns:1fr 1fr;gap:5px 18px;border-top:2px solid {theme['line']};margin-top:14px;padding-top:10px;}}.appendix-row{{display:grid;grid-template-columns:46px 1fr;gap:8px;border-bottom:1px dotted {theme['line']};padding:4px 0;}}"""
     elif v == 4:
-        refs = "".join(f'<section class="ref-item">{b.block("metadata", f"[{i}]", "ref-no")}{b.block("paragraph", record_text(records, rng, 45, 88), "small")}</section>' for i in range(1, 57))
-        body = f"""{b.block('document_title','Vwnzyen Cawxgya','doc-title')}<main class="refs">{refs}</main>{b.block('page_number','18','folio')}"""
+        with flow_ctx(b, "references", "references", "reference"):
+            refs = "".join(f'<section class="ref-item">{b.block("metadata", f"[{i}]", "ref-no")}{b.block("paragraph", record_text(records, rng, 45, 88), "small")}</section>' for i in range(1, 57))
+        with flow_ctx(b, "paper_title", "references_title", "title"):
+            title = b.block('document_title','Vwnzyen Cawxgya','doc-title')
+        with flow_ctx(b, "footer", "folio", "page_number"):
+            folio = b.block('page_number','18','folio')
+        body = f"""{title}<main class="refs">{refs}</main>{folio}"""
         extra = f""".refs{{columns:2;column-gap:28px;margin-top:16px;}}.ref-item{{break-inside:avoid;display:grid;grid-template-columns:42px 1fr;gap:8px;border-bottom:1px dotted {theme['line']};padding:4px 0;}}.ref-no{{font-size:14px;color:{theme['accent']};font-weight:900;}}.ref-item .small{{font-size:13px;line-height:1.2;}}"""
     elif v == 5:
-        boxes = "".join(f'<section class="review-box">{b.block("section_title", record_title(records,rng,7,16), "section-title")}{b.block("paragraph", record_text(records,rng,46,84), "small")}</section>' for _ in range(12))
-        review_notes = "".join(f'<section class="review-note">{b.block("metadata", f"R{i}", "ref-no")}{b.block("note", record_text(records, rng, 30, 62), "small")}</section>' for i in range(1, 11))
-        body = f"""{b.block('document_title',record_title(records,rng,12,28),'doc-title')}<main class="review-paper"><section>{para_stack(b, records, rng, 42, 50, 96)}</section><aside>{boxes}</aside></main><section class="review-notes">{review_notes}</section>{b.block('page_number','9','folio')}"""
+        with flow_ctx(b, "sidebar", "review_boxes", "sidebar"):
+            boxes = "".join(f'<section class="review-box">{b.block("section_title", record_title(records,rng,7,16), "section-title")}{b.block("paragraph", record_text(records,rng,46,84), "small")}</section>' for _ in range(12))
+        with flow_ctx(b, "footnotes", "review_notes", "note"):
+            review_notes = "".join(f'<section class="review-note">{b.block("metadata", f"R{i}", "ref-no")}{b.block("note", record_text(records, rng, 30, 62), "small")}</section>' for i in range(1, 11))
+        with flow_ctx(b, "paper_title", "review_title", "title"):
+            title = b.block('document_title',record_title(records,rng,12,28),'doc-title')
+        with flow_ctx(b, "body_columns", "review_body", "body"):
+            body_text = para_stack(b, records, rng, 42, 50, 96)
+        with flow_ctx(b, "footer", "folio", "page_number"):
+            folio = b.block('page_number','9','folio')
+        body = f"""{title}<main class="review-paper"><section>{body_text}</section><aside>{boxes}</aside></main><section class="review-notes">{review_notes}</section>{folio}"""
         extra = f""".review-paper{{display:grid;grid-template-columns:1fr 330px;gap:22px;}}.review-paper section{{columns:2;column-gap:20px;}}.review-paper section .para{{font-size:15px;line-height:1.25;margin-bottom:5px;}}.review-box{{background:{theme['soft']};border:1px solid {theme['line']};padding:8px;margin-bottom:7px;}}.review-box .section-title{{font-size:15px;}}.review-box .small{{font-size:12.5px;line-height:1.18;}}.review-notes{{position:absolute;left:62px;right:62px;bottom:68px;border-top:2px solid {theme['line']};padding-top:10px;display:grid;grid-template-columns:1fr 1fr;gap:5px 20px;}}.review-note{{display:grid;grid-template-columns:38px 1fr;gap:8px;}}.review-note .small{{font-size:12px;line-height:1.14;}}"""
     else:
-        comments = "".join(f'<section class="comment">{b.block("metadata", f"C{i}", "comment-no")}{b.block("note", record_text(records,rng,32,66), "small")}</section>' for i in range(1, 19))
-        body = f"""<main class="reviewed"><article>{b.block('section_title',record_title(records,rng,8,20),'section-title')}{para_stack(b, records, rng, 42, 50, 98)}</article><aside>{b.block('section_title','Sawmaj','section-title')}{comments}</aside></main>{b.block('page_number','12','folio')}"""
+        with flow_ctx(b, "sidebar", "review_comments", "sidebar"):
+            comments = "".join(f'<section class="comment">{b.block("metadata", f"C{i}", "comment-no")}{b.block("note", record_text(records,rng,32,66), "small")}</section>' for i in range(1, 19))
+        with flow_ctx(b, "body_columns", "reviewed_article", "body"):
+            article = f"{b.block('section_title',record_title(records,rng,8,20),'section-title')}{para_stack(b, records, rng, 42, 50, 98)}"
+        with flow_ctx(b, "sidebar", "comment_title", "heading"):
+            side_title = b.block('section_title','Sawmaj','section-title')
+        with flow_ctx(b, "footer", "folio", "page_number"):
+            folio = b.block('page_number','12','folio')
+        body = f"""<main class="reviewed"><article>{article}</article><aside>{side_title}{comments}</aside></main>{folio}"""
         extra = f""".reviewed{{display:grid;grid-template-columns:1fr 285px;gap:24px;}}.reviewed article{{columns:2;column-gap:22px;}}.reviewed article .para{{font-size:15px;line-height:1.25;margin-bottom:5px;}}.comment{{border-top:2px solid {theme['accent']};padding-top:5px;margin-bottom:6px;}}.comment-no{{font-weight:900;color:{theme['accent']};}}.comment .small{{font-size:12.5px;line-height:1.18;}}"""
     return wrap(doc, body, base_css(page, theme, doc["font_family"], 20, doc) + extra, "academic-page")
 
@@ -411,10 +486,13 @@ from synthetic_text_utils import (  # noqa: E402
     read_text_records,
     record_text,
     record_title,
+    safe_title,
     select_span,
     is_vertical_profile as shared_is_vertical_profile,
     vertical_css as shared_vertical_css,
 )
+from reading_flow_v1 import FlowPlanner, write_template_flow_plan  # noqa: E402
+from vl9_visual_style import apply_vl9_visual_cleanup  # noqa: E402
 
 
 def main() -> int:
@@ -447,28 +525,33 @@ def main() -> int:
         reset_category_dir(folder)
         renderer = RENDERERS[category_id]
         html_manifest = []
+        flow_plans = []
         for tpl in cat["templates"]:
             variant = int(tpl["variant"])
             document_id = f"{args.start_index + offset:02d}_{category_id}_json_{variant:02d}"
-            b = Builder(document_id)
             theme = THEMES[(offset + variant - 1) % len(THEMES)]
+            doc_title = safe_title(rng, 8, 34)
             doc = {
                 "document_id": document_id,
-                "title": cat["title"],
+                "title": doc_title,
                 "html_lang": profile["html_lang"],
                 "font_family": profile["font_family"],
                     "css_direction": profile.get("css_direction", profile.get("writing_direction", "ltr")),
                     "css_writing_mode": profile.get("css_writing_mode", "horizontal-tb"),
                     "writing_direction": profile.get("writing_direction", "ltr"),
                 "template_id": tpl["template_id"],
+                "version_name": version_name,
             }
+            flow = FlowPlanner(document_id, category_id, variant, doc["writing_direction"])
+            b = Builder(document_id, flow)
             html_text = renderer(b, tpl, records, rng, doc, theme)
             (folder / "html" / f"{document_id}.html").write_text(html_text, encoding="utf-8")
+            flow_plans.append(flow.plan())
             page = tpl["page"]
             html_manifest.append(
                 {
                     "document_id": document_id,
-                    "title": cat["title"],
+                    "title": doc_title,
                     "category": category_id,
                     "category_cn": category_cn,
                     "variant": variant,
@@ -488,11 +571,13 @@ def main() -> int:
                     "created_at": now_local(),
                     "source_records": [],
                     "content_density": tpl.get("content_density"),
+                    "reading_order_policy": "template_flow_v1",
                 }
             )
         write_json(folder / "metadata" / "html_manifest.json", html_manifest)
         write_json(folder / "metadata" / "category_plan.json", [{"category": category_id, "category_cn": category_cn, "samples": 6}])
         write_json(folder / "metadata" / "remaining_pages_template_spec.json", {"category": cat, "source_schema": spec["schema_version"]})
+        write_template_flow_plan(folder, flow_plans)
         (folder / "README.md").write_text(
             f"# {args.start_index + offset:02d} {category_cn}\n\n本目录属于壮语 `{version_name}`，由剩余类别 JSON 结构树生成，共 6 张。\n\n- `html/`\n- `images/`\n- `labels/`\n- `metadata/`\n- `reports/`\n",
             encoding="utf-8",

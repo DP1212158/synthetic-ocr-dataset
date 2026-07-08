@@ -1,0 +1,304 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v4",
+  "template_id": "historical_classic_vertical_tree_v4_04",
+  "variant": 4,
+  "category_id": "historical_classic",
+  "category_cn": "历史文档_古籍",
+  "folder": "09_历史文档_古籍",
+  "template_name_cn": "碑帖拓片页",
+  "layout_family": "v4_rubbing_page",
+  "design_prompt": "深底浅字风格与竖列。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 960,
+    "height": 1600,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical_v4"
+  },
+  "qa_expectations": {
+    "min_blocks": 10,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "dark",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box dark-fill",
+      "box": {
+        "x": 44,
+        "y": 44,
+        "w": 872,
+        "h": 1512
+      },
+      "visual": {
+        "background": "#2c2924",
+        "color": "#efe5c9"
+      }
+    },
+    {
+      "id": "meta",
+      "kind": "text",
+      "label": "metadata",
+      "role": "rubbing_meta",
+      "class": "small light",
+      "box": {
+        "x": 96,
+        "y": 96,
+        "w": 34,
+        "h": 1380
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 16
+      },
+      "visual": {}
+    },
+    {
+      "id": "rubbing_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body light",
+      "box": {
+        "x": 160,
+        "y": 110,
+        "w": 36,
+        "h": 1340
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 80
+      },
+      "visual": {}
+    },
+    {
+      "id": "rubbing_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body light",
+      "box": {
+        "x": 218,
+        "y": 110,
+        "w": 36,
+        "h": 1340
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 80
+      },
+      "visual": {}
+    },
+    {
+      "id": "rubbing_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body light",
+      "box": {
+        "x": 276,
+        "y": 110,
+        "w": 36,
+        "h": 1340
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 80
+      },
+      "visual": {}
+    },
+    {
+      "id": "rubbing_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body light",
+      "box": {
+        "x": 334,
+        "y": 110,
+        "w": 36,
+        "h": 1340
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 80
+      },
+      "visual": {}
+    },
+    {
+      "id": "rubbing_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body light",
+      "box": {
+        "x": 392,
+        "y": 110,
+        "w": 36,
+        "h": 1340
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 80
+      },
+      "visual": {}
+    },
+    {
+      "id": "rubbing_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body light",
+      "box": {
+        "x": 450,
+        "y": 110,
+        "w": 36,
+        "h": 1340
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 80
+      },
+      "visual": {}
+    },
+    {
+      "id": "rubbing_07",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body light",
+      "box": {
+        "x": 508,
+        "y": 110,
+        "w": 36,
+        "h": 1340
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 80
+      },
+      "visual": {}
+    },
+    {
+      "id": "rubbing_08",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body light",
+      "box": {
+        "x": 566,
+        "y": 110,
+        "w": 36,
+        "h": 1340
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 80
+      },
+      "visual": {}
+    },
+    {
+      "id": "rubbing_09",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body light",
+      "box": {
+        "x": 624,
+        "y": 110,
+        "w": 36,
+        "h": 1340
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 80
+      },
+      "visual": {}
+    },
+    {
+      "id": "rubbing_10",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body light",
+      "box": {
+        "x": 682,
+        "y": 110,
+        "w": 36,
+        "h": 1340
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 80
+      },
+      "visual": {}
+    },
+    {
+      "id": "rubbing_11",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body light",
+      "box": {
+        "x": 740,
+        "y": 110,
+        "w": 36,
+        "h": 1340
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 80
+      },
+      "visual": {}
+    },
+    {
+      "id": "rubbing_12",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body light",
+      "box": {
+        "x": 798,
+        "y": 110,
+        "w": 36,
+        "h": 1340
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 80
+      },
+      "visual": {}
+    }
+  ]
+}

@@ -169,7 +169,21 @@ def style_for_box(box: dict[str, Any], visual: dict[str, Any] | None = None) -> 
     return ";".join(style)
 
 
-def html_element(doc_id: str, idx: int, element: dict[str, Any], sampler: TextSampler) -> str:
+def data_attrs(element: dict[str, Any], id_by_element: dict[str, str]) -> str:
+    attrs = element.get("attributes") or {}
+    out = []
+    for key, value in attrs.items():
+        if value is None:
+            continue
+        html_key = "data-" + str(key).replace("_", "-")
+        html_value = str(value)
+        if key == "caption_of":
+            html_value = id_by_element.get(html_value, html_value)
+        out.append(f'{html_key}="{esc(html_value)}"')
+    return (" " + " ".join(out)) if out else ""
+
+
+def html_element(doc_id: str, idx: int, element: dict[str, Any], sampler: TextSampler, id_by_element: dict[str, str]) -> str:
     kind = str(element.get("kind", "text"))
     label = str(element.get("label", kind))
     box = element["box"]
@@ -180,7 +194,7 @@ def html_element(doc_id: str, idx: int, element: dict[str, Any], sampler: TextSa
     text = sampler.sample(element.get("text", {}), int(box["h"]), cls)
     content = esc(text)
     block_id = f"{doc_id}_b{idx:04d}"
-    return f'<div data-block-id="{block_id}" data-label="{esc(label)}" class="{esc(cls)}" style="{style}">{content}</div>'
+    return f'<div data-block-id="{block_id}" data-label="{esc(label)}"{data_attrs(element, id_by_element)} class="{esc(cls)}" style="{style}">{content}</div>'
 
 
 def render_html(profile: dict[str, Any], template: dict[str, Any], doc_id: str, elements: list[str]) -> str:
@@ -207,6 +221,24 @@ def category_dirs_from_index(index: dict[str, Any]) -> list[tuple[str, str, str]
         if row not in seen:
             seen.append(row)
     return seen
+
+
+def template_index_filename(index: dict[str, Any]) -> str:
+    schema = str(index.get("schema_version", ""))
+    if schema.endswith(".v4"):
+        return "template_index_v4.json"
+    if schema.endswith(".v3"):
+        return "template_index_v3.json"
+    return "template_index.json"
+
+
+def template_version_label(index: dict[str, Any]) -> str:
+    schema = str(index.get("schema_version", ""))
+    if schema.endswith(".v4"):
+        return "v4"
+    if schema.endswith(".v3"):
+        return "v3"
+    return "json"
 
 
 def main() -> int:
@@ -241,7 +273,8 @@ def main() -> int:
             variant = int(template["variant"])
             doc_id = f"{folder[:2]}_{category}_vertical_tree_{variant:02d}"
             sampler = TextSampler(records, rng)
-            html_elements = [html_element(doc_id, idx, element, sampler) for idx, element in enumerate(template["elements"], 1)]
+            id_by_element = {str(element.get("id")): f"{doc_id}_b{idx:04d}" for idx, element in enumerate(template["elements"], 1) if element.get("id")}
+            html_elements = [html_element(doc_id, idx, element, sampler, id_by_element) for idx, element in enumerate(template["elements"], 1)]
             html_text = render_html(profile, template, doc_id, html_elements)
             html_path = cat_dir / "html" / f"{doc_id}.html"
             html_path.write_text(html_text, encoding="utf-8")
@@ -294,13 +327,14 @@ def main() -> int:
 
     write_json(version_dir / "metadata" / "category_plan.json", all_category_plan)
     write_json(version_dir / "metadata" / "html_manifest.json", all_manifest)
-    write_json(version_dir / "metadata" / "template_index_v3.json", index)
+    template_version = template_version_label(index)
+    write_json(version_dir / "metadata" / template_index_filename(index), index)
     readme = (
         f"# {args.version_name}\n\n"
-        "本目录是传统蒙古文 JSON 结构树驱动版式。当前包含 12 类，每类 6 张，共 72 张。\n\n"
-        "相对 `v2` 的核心变化：每一类不再只有一个模板函数，而是使用 6 套独立 JSON 结构树。"
+        f"本目录是传统蒙古文 JSON 结构树驱动版式（模板 {template_version}）。当前包含 12 类，每类 6 张，共 72 张。\n\n"
+        "核心生成方式：每一类使用 6 套独立 JSON 结构树。"
         "每个 JSON 文件包含完整页面尺寸、版式说明、元素坐标、标签类型和文本填充策略。\n\n"
-        "模板库：`configs/mongolian_vertical_templates_v3/`\n"
+        f"模板库：`{templates_root}`\n"
     )
     (version_dir / "README.md").write_text(readme, encoding="utf-8")
 

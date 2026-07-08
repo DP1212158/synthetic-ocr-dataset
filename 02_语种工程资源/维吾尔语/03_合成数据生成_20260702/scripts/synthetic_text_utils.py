@@ -26,6 +26,7 @@ PRIVATE_USE_RE = re.compile(r"[\ue000-\uf8ff]")
 REPLACEMENT_OR_BOX_RE = re.compile(r"[\ufffd\u25a0\u25a1\u25af]")
 MONGOLIAN_PRESENTATION_PUNCT_RE = re.compile(r"[︽︾︕︖︵︶︔﹇﹈]")
 MONGOLIAN_UNSAFE_SYMBOL_RE = re.compile(r"[\u200d=+~※%!—–]")
+ZERO_WIDTH_CONTROL_RE = re.compile(r"[\u200b-\u200f\u202a-\u202e\u2060-\u206f]")
 
 NUMERIC_TITLE_RE = re.compile(r"^[\d\s\-:/.()]+$")
 DATE_WORD_RE = re.compile(r"\b(nyied|hauh|nienz|bi'?nyinh|ngoenz)\b", re.IGNORECASE)
@@ -67,6 +68,7 @@ def _ratio(count: int, text: str) -> float:
 def cleanse_text(text: str) -> str:
     """Clean text according to the active language profile."""
     text = str(text or "")
+    text = ZERO_WIDTH_CONTROL_RE.sub("", text)
     text = HTML_RE.sub(" ", text)
     text = LATEX_RE.sub(" ", text)
     text = text.replace("\u00a0", " ")
@@ -126,6 +128,13 @@ def load_language_profile(path: Path | None) -> dict[str, Any]:
     profile.setdefault("css_direction", "ltr")
     profile.setdefault("css_writing_mode", "horizontal-tb")
     ACTIVE_PROFILE.clear()
+    cleanup = str(profile.get("cleanup_profile", "")).lower()
+    if cleanup.startswith("tibetan"):
+        profile["max_tibetan_ratio"] = max(float(profile.get("max_tibetan_ratio", 0.0)), 1.0)
+        profile.setdefault("max_latin_ratio", 0.0)
+        profile.setdefault("max_arabic_ratio", 0.0)
+        profile.setdefault("max_mongolian_ratio", 0.0)
+        profile.setdefault("max_hangul_ratio", 0.0)
     ACTIVE_PROFILE.update(profile)
     return profile
 

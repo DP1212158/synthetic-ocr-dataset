@@ -18,6 +18,7 @@ CYRILLIC_RE = re.compile(r"[\u0400-\u04ff]")
 TIBETAN_DECORATIVE_MARK_RE = re.compile(r"[\u0f04-\u0f0a\u0f0c\u0f0e-\u0f14\u0f3a-\u0f3d]")
 TIBETAN_SHAD_RE = re.compile(r"\s*།+\s*")
 TIBETAN_RE = re.compile(r"[\u0f00-\u0fff]")
+ZERO_WIDTH_CONTROL_RE = re.compile(r"[\u200b-\u200f\u202a-\u202e\u2060-\u206f]")
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 DEFAULT_TITLE = "Vahcuengh Yienghneix"
@@ -35,6 +36,7 @@ def esc(text: str) -> str:
 
 
 def cleanse_text(text: str) -> str:
+    text = ZERO_WIDTH_CONTROL_RE.sub("", str(text or ""))
     text = CYRILLIC_RE.sub("", text)
     text = TIBETAN_DECORATIVE_MARK_RE.sub(" ", text)
     text = TIBETAN_SHAD_RE.sub(" ། ", text)
@@ -213,7 +215,7 @@ def base_css(page: dict[str, Any], style: dict[str, Any], font_family: str, prof
     .columns-4 {{ columns: 4; column-gap: 15px; }}
     .sidebar {{ border-left: 3px solid {style['accent']}; padding-left: 13px; }}
     .side-title {{ font-size: {base_size + 3}px; font-weight: 900; color: {style['accent']}; margin-bottom: 8px; }}
-    .brief-line {{ font-size: {base_size - 2}px; line-height: 1.29; border-bottom: 1px dotted {style['line']}; padding: 6px 0; }}
+    .brief-line {{ font-size: {base_size - 2}px; line-height: 1.29; padding: 6px 0; }}
     .image-box {{ min-height: 250px; background: repeating-linear-gradient(135deg, #e4e0d6, #e4e0d6 12px, #f4f0e7 12px, #f4f0e7 24px); border: 1.5px solid {style['line']}; margin: 10px 0 7px; }}
     .caption {{ font-size: {base_size - 4}px; color: {style['muted']}; line-height: 1.28; margin-bottom: 10px; }}
     .brief-strip, .related-strip, .metric-strip {{ display: grid; gap: 10px; margin-top: 14px; border-top: 2px solid {style['line']}; padding-top: 10px; }}

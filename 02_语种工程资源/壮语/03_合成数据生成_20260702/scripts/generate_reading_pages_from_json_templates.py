@@ -19,6 +19,7 @@ CJK_RE = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff]")
 TIBETAN_DECORATIVE_MARK_RE = re.compile(r"[\u0f04-\u0f0a\u0f0c\u0f0e-\u0f14\u0f3a-\u0f3d]")
 TIBETAN_SHAD_RE = re.compile(r"\s*།+\s*")
 TIBETAN_RE = re.compile(r"[\u0f00-\u0fff]")
+ZERO_WIDTH_CONTROL_RE = re.compile(r"[\u200b-\u200f\u202a-\u202e\u2060-\u206f]")
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 THEMES = [
@@ -38,6 +39,7 @@ def esc(text: str) -> str:
 
 
 def cleanse_text(text: str) -> str:
+    text = ZERO_WIDTH_CONTROL_RE.sub("", str(text or ""))
     text = CYRILLIC_RE.sub("", text)
     text = CJK_RE.sub("", text)
     text = TIBETAN_DECORATIVE_MARK_RE.sub(" ", text)
@@ -207,7 +209,7 @@ def book_renderer(b: Builder, tpl: dict[str, Any], records: list[dict[str, str]]
         reading_map = "".join(f'<section class="reading-map-item">{b.block("metadata", f"{i:02d}", "map-no")}{b.block("note", record_text(records, rng, 34, 72), "small")}</section>' for i in range(1, 9))
         body = f"""<section class="opener"><div>{b.block('metadata', 'Chapter 02', 'chapter-no')}{b.block('document_title', record_title(records, rng, 12, 28), 'opener-title')}{b.block('document_subtitle', record_text(records, rng, 56, 100), 'epigraph')}</div><aside>{notes}</aside></section>
         <section class="opening-text">{para_stack(b, records, rng, 14, 72, 132)}</section><section class="reading-map">{reading_map}</section>{b.block('page_number', '24', 'folio')}"""
-        extra = f""".opener{{display:grid;grid-template-columns:1fr 300px;gap:30px;align-items:end;min-height:310px;border-bottom:3px double {theme['line']};padding-bottom:18px;}}.chapter-no{{font-size:28px;font-weight:900;color:{theme['accent']};}}.opener-title{{font-size:54px;font-weight:900;line-height:1.34;}}.epigraph{{font-size:21px;line-height:1.36;color:{theme['muted']};margin-top:12px;}}.margin-note{{border-left:5px solid {theme['accent']};padding:6px 0 6px 10px;margin-bottom:8px;font-size:15px;line-height:1.36;}}.opening-text{{margin-top:20px;columns:2;column-gap:28px;}}.opening-text .para{{font-size:17px;line-height:1.4;margin-bottom:8px;}}.reading-map{{display:grid;grid-template-columns:1fr 1fr;gap:8px 16px;border-top:1.5px solid {theme['line']};margin-top:18px;padding-top:12px;}}.reading-map-item{{display:grid;grid-template-columns:42px 1fr;gap:8px;border-bottom:1px dotted {theme['line']};padding-bottom:6px;}}.map-no{{font-size:18px;font-weight:900;color:{theme['accent']};}}"""
+        extra = f""".opener{{display:grid;grid-template-columns:1fr 300px;gap:30px;align-items:end;min-height:310px;border-bottom:3px double {theme['line']};padding-bottom:18px;}}.chapter-no{{font-size:28px;font-weight:900;color:{theme['accent']};}}.opener-title{{font-size:54px;font-weight:900;line-height:1.34;}}.epigraph{{font-size:21px;line-height:1.36;color:{theme['muted']};margin-top:12px;}}.margin-note{{padding:6px 0 6px 10px;margin-bottom:8px;font-size:15px;line-height:1.36;color:{theme['muted']};}}.opening-text{{margin-top:20px;columns:2;column-gap:28px;}}.opening-text .para{{font-size:17px;line-height:1.4;margin-bottom:8px;}}.reading-map{{display:grid;grid-template-columns:1fr 1fr;gap:8px 16px;border-top:1.5px solid {theme['line']};margin-top:18px;padding-top:12px;}}.reading-map-item{{display:grid;grid-template-columns:42px 1fr;gap:8px;border-bottom:1px dotted {theme['line']};padding-bottom:6px;}}.map-no{{font-size:18px;font-weight:900;color:{theme['accent']};}}"""
     elif v == 3:
         side_notes = "".join(f'<section class="figure-note">{b.block("metadata", f"{i:02d}", "meta")}{b.block("note", record_text(records, rng, 32, 66), "small")}</section>' for i in range(1, 6))
         followups = "".join(f'<section class="followup">{b.block("section_title", record_title(records, rng, 7, 16), "section-title")}{b.block("paragraph", record_text(records, rng, 48, 92), "small")}</section>' for _ in range(8))

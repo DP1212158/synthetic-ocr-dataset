@@ -19,6 +19,7 @@ CJK_RE = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff]")
 TIBETAN_DECORATIVE_MARK_RE = re.compile(r"[\u0f04-\u0f0a\u0f0c\u0f0e-\u0f14\u0f3a-\u0f3d]")
 TIBETAN_SHAD_RE = re.compile(r"\s*།+\s*")
 TIBETAN_RE = re.compile(r"[\u0f00-\u0fff]")
+ZERO_WIDTH_CONTROL_RE = re.compile(r"[\u200b-\u200f\u202a-\u202e\u2060-\u206f]")
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 THEMES = [
@@ -38,6 +39,7 @@ def esc(text: str) -> str:
 
 
 def cleanse_text(text: str) -> str:
+    text = ZERO_WIDTH_CONTROL_RE.sub("", str(text or ""))
     text = CYRILLIC_RE.sub("", text)
     text = CJK_RE.sub("", text)
     text = TIBETAN_DECORATIVE_MARK_RE.sub(" ", text)
@@ -411,6 +413,7 @@ from synthetic_text_utils import (  # noqa: E402
     read_text_records,
     record_text,
     record_title,
+    safe_title,
     select_span,
     is_vertical_profile as shared_is_vertical_profile,
     vertical_css as shared_vertical_css,
@@ -452,9 +455,10 @@ def main() -> int:
             document_id = f"{args.start_index + offset:02d}_{category_id}_json_{variant:02d}"
             b = Builder(document_id)
             theme = THEMES[(offset + variant - 1) % len(THEMES)]
+            doc_title = safe_title(rng, 8, 34)
             doc = {
                 "document_id": document_id,
-                "title": cat["title"],
+                "title": doc_title,
                 "html_lang": profile["html_lang"],
                 "font_family": profile["font_family"],
                     "css_direction": profile.get("css_direction", profile.get("writing_direction", "ltr")),
@@ -468,7 +472,7 @@ def main() -> int:
             html_manifest.append(
                 {
                     "document_id": document_id,
-                    "title": cat["title"],
+                    "title": doc_title,
                     "category": category_id,
                     "category_cn": category_cn,
                     "variant": variant,

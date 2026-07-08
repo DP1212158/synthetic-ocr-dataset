@@ -173,7 +173,9 @@ def main() -> int:
     core = load_v4_module()
     source_dir = Path(args.source_version_dir)
     output_dir = Path(args.output_version_dir)
-    temp_dir = output_dir.parent / f"{output_dir.name}_clean_source"
+    temp_dir = output_dir.parent / f"{output_dir.name}_finalize_work"
+    if temp_dir.resolve() == source_dir.resolve():
+        temp_dir = output_dir.parent / f"{output_dir.name}_finalize_work_tmp"
     asset_dir = core.find_asset_dir(PROJECT_ROOT, Path(args.image_assets_dir) if args.image_assets_dir else None)
     assets = core.load_image_assets(asset_dir)
 

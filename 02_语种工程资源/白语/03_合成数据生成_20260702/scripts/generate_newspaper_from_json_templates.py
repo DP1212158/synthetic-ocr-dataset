@@ -18,6 +18,7 @@ CYRILLIC_RE = re.compile(r"[\u0400-\u04ff]")
 TIBETAN_DECORATIVE_MARK_RE = re.compile(r"[\u0f04-\u0f0a\u0f0c\u0f0e-\u0f14\u0f3a-\u0f3d]")
 TIBETAN_SHAD_RE = re.compile(r"\s*།+\s*")
 TIBETAN_RE = re.compile(r"[\u0f00-\u0fff]")
+ZERO_WIDTH_CONTROL_RE = re.compile(r"[\u200b-\u200f\u202a-\u202e\u2060-\u206f]")
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 DEFAULT_TITLE = "Vahcuengh Yienghneix"
@@ -35,6 +36,7 @@ def esc(text: str) -> str:
 
 
 def cleanse_text(text: str) -> str:
+    text = ZERO_WIDTH_CONTROL_RE.sub("", str(text or ""))
     text = CYRILLIC_RE.sub("", text)
     text = TIBETAN_DECORATIVE_MARK_RE.sub(" ", text)
     text = TIBETAN_SHAD_RE.sub(" ། ", text)
@@ -213,7 +215,7 @@ def base_css(page: dict[str, Any], style: dict[str, Any], font_family: str, prof
     .columns-4 {{ columns: 4; column-gap: 15px; }}
     .sidebar {{ border-left: 3px solid {style['accent']}; padding-left: 13px; }}
     .side-title {{ font-size: {base_size + 3}px; font-weight: 900; color: {style['accent']}; margin-bottom: 8px; }}
-    .brief-line {{ font-size: {base_size - 2}px; line-height: 1.29; border-bottom: 1px dotted {style['line']}; padding: 6px 0; }}
+    .brief-line {{ font-size: {base_size - 2}px; line-height: 1.29; padding: 6px 0; }}
     .image-box {{ min-height: 250px; background: repeating-linear-gradient(135deg, #e4e0d6, #e4e0d6 12px, #f4f0e7 12px, #f4f0e7 24px); border: 1.5px solid {style['line']}; margin: 10px 0 7px; }}
     .caption {{ font-size: {base_size - 4}px; color: {style['muted']}; line-height: 1.28; margin-bottom: 10px; }}
     .brief-strip, .related-strip, .metric-strip {{ display: grid; gap: 10px; margin-top: 14px; border-top: 2px solid {style['line']}; padding-top: 10px; }}
@@ -245,7 +247,7 @@ def wrap(doc: dict[str, Any], body: str, css: str, page: dict[str, Any]) -> str:
 
 
 def random_meta_items(rng: random.Random, variant: int) -> list[str]:
-    return [f"No {180 + variant:03d}", f"2026-07-{variant:02d}", rng.choice(["Saw A", "Yieb 03", "Dakbieq"])]
+    return [f"No {180 + variant:03d}", f"2026-07-{variant:02d}", safe_fragment(2, 18)]
 
 
 def render_issue_bar(b: Builder, rng: random.Random, variant: int) -> str:
@@ -259,24 +261,24 @@ def render_masthead(b: Builder, template: dict[str, Any], records: list[dict[str
     title = cleanse_text(f"{doc['title']} {title_extra}")
     if region_type == "masthead_compact":
         return f"""<header class="masthead-compact">
-          {b.block('metadata', rng.choice(KICKERS), 'kicker')}
+          {b.block('metadata', safe_fragment(2, 22), 'kicker')}
           {b.block('document_title', title, 'newspaper-name')}
           <div>{render_issue_bar(b, rng, variant)}</div>
         </header>"""
     if region_type == "masthead_split":
         return f"""<header class="masthead-split">
           {b.block('document_title', title, 'newspaper-name left')}
-          <div>{b.block('metadata', rng.choice(KICKERS), 'meta')}{render_issue_bar(b, rng, variant)}</div>
+          <div>{b.block('metadata', safe_fragment(2, 22), 'meta')}{render_issue_bar(b, rng, variant)}</div>
         </header>"""
     if region_type == "masthead_banner":
         return f"""<header class="masthead-banner">
           {b.block('document_title', title, 'newspaper-name left')}
-          {b.block('metadata', rng.choice(KICKERS), 'meta')}
+          {b.block('metadata', safe_fragment(2, 22), 'meta')}
           {render_issue_bar(b, rng, variant)}
         </header>"""
     if region_type == "special_masthead":
         return f"""<header class="special-masthead">
-          {b.block('metadata', 'SPECIAL', 'kicker')}
+          {b.block('metadata', safe_fragment(2, 22), 'kicker')}
           {b.block('document_title', title, 'newspaper-name')}
           <div>{b.block('metadata', record_title(records, rng, 8, 22), 'meta')}{render_issue_bar(b, rng, variant)}</div>
         </header>"""
@@ -286,7 +288,7 @@ def render_masthead(b: Builder, template: dict[str, Any], records: list[dict[str
           <div>{render_issue_bar(b, rng, variant)}</div>
         </header>"""
     return f"""<header class="masthead">
-      {b.block('metadata', rng.choice(KICKERS), 'kicker')}
+      {b.block('metadata', safe_fragment(2, 22), 'kicker')}
       {b.block('document_title', title, 'newspaper-name')}
       {render_issue_bar(b, rng, variant)}
     </header>"""
@@ -317,7 +319,7 @@ def story_block(
 
 
 def brief_list(b: Builder, records: list[dict[str, str]], rng: random.Random, count: int, title: str | None = None, cls: str = "sidebar") -> str:
-    header = b.block("section_title", title or rng.choice(SECTION_TITLES), "side-title") if title else ""
+    header = b.block("section_title", title or safe_fragment(2, 20), "side-title") if title else ""
     lines = "".join(b.block("list_item", record_text(records, rng, 24, 64), "brief-line") for _ in range(count))
     return f'<aside class="{cls}">{header}{lines}</aside>'
 
@@ -444,6 +446,8 @@ from synthetic_text_utils import (  # noqa: E402
     read_text_records,
     record_text,
     record_title,
+    safe_fragment,
+    safe_title,
     select_span,
     vertical_css as shared_vertical_css,
 )
@@ -488,7 +492,7 @@ def main() -> int:
         style = template["style_tokens"]
         doc = {
             "document_id": document_id,
-            "title": DEFAULT_TITLE,
+            "title": safe_title(rng, 8, 34),
             "html_lang": language_profile["html_lang"],
             "font_family": language_profile["font_family"],
             "css_direction": language_profile.get("css_direction", language_profile.get("writing_direction", "ltr")),
@@ -502,7 +506,7 @@ def main() -> int:
         manifest.append(
             {
                 "document_id": document_id,
-                "title": DEFAULT_TITLE,
+                "title": doc["title"],
                 "category": "newspaper_page",
                 "category_cn": "报纸页",
                 "variant": variant,

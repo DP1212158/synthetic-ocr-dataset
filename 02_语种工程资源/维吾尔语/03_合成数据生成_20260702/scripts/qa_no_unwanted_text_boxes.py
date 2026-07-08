@@ -33,13 +33,15 @@ ALLOWED_CLASSES = {
     "inner-frame",
 }
 TEXT_BOX_CLASS_PATTERNS = [
-    re.compile(r"(?:^|[-_])(card|box|kv|clause|note|followup|extract|brief|digest)(?:$|[-_])", re.I),
+    re.compile(r"(?:^|[-_])(card|box|kv|clause|note|followup|extract|brief|digest|tag|chip|badge|pill)(?:$|[-_])", re.I),
 ]
 STYLE_BORDER_RE = re.compile(r"border(?:-(?:left|right|top|bottom))?\s*:\s*(?!0\b|none\b)[^;]+;", re.I)
+STYLE_SHADOW_RE = re.compile(r"box-shadow\s*:\s*(?!none\b)[^;]+;", re.I)
 BLOCK_RE = re.compile(
     r"<(?P<tag>[a-zA-Z0-9]+)(?P<attrs>[^>]*\bdata-block-id=\"(?P<bid>[^\"]+)\"[^>]*)>",
     re.I,
 )
+STYLE_BLOCK_RE = re.compile(r"<style[^>]*>(?P<css>.*?)</style>", re.I | re.S)
 
 
 def write_json(path: Path, payload: Any) -> None:
@@ -59,6 +61,22 @@ def has_boxy_class(classes: str) -> bool:
     return any(pattern.search(token) for token in tokens for pattern in TEXT_BOX_CLASS_PATTERNS)
 
 
+def visible_boxy_css_for_classes(html_text: str, classes: str) -> bool:
+    """Return true when a risky class still has visible CSS border/shadow."""
+    tokens = [token.strip() for token in classes.split() if token.strip()]
+    risky = [token for token in tokens if has_boxy_class(token)]
+    if not risky:
+        return False
+    css = "\n".join(match.group("css") for match in STYLE_BLOCK_RE.finditer(html_text))
+    for token in risky:
+        pattern = re.compile(rf"\.{re.escape(token)}(?:[^\{{]*)\{{(?P<body>.*?)\}}", re.I | re.S)
+        for match in pattern.finditer(css):
+            body = match.group("body")
+            if STYLE_BORDER_RE.search(body) or STYLE_SHADOW_RE.search(body):
+                return True
+    return False
+
+
 def inspect_html(path: Path) -> list[dict[str, Any]]:
     text = path.read_text(encoding="utf-8")
     issues = []
@@ -69,13 +87,17 @@ def inspect_html(path: Path) -> list[dict[str, Any]]:
         style = attr(attrs, "style")
         if label in ALLOWED_LABELS:
             continue
-        if STYLE_BORDER_RE.search(style) or has_boxy_class(classes):
+        style_has_box = bool(STYLE_BORDER_RE.search(style) or STYLE_SHADOW_RE.search(style))
+        css_has_box = visible_boxy_css_for_classes(text, classes)
+        if style_has_box or css_has_box:
             issues.append({
                 "html": str(path),
                 "block_id": match.group("bid"),
                 "label": label,
                 "class": classes,
                 "style_border": bool(STYLE_BORDER_RE.search(style)),
+                "style_shadow": bool(STYLE_SHADOW_RE.search(style)),
+                "css_box": css_has_box,
                 "boxy_class": has_boxy_class(classes),
             })
     return issues

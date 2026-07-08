@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-07-03T19:06:29",
+  "language": "壮语",
+  "sources": [
+    {
+      "source": "zawiki_dump_20260702",
+      "url": "https://dumps.wikimedia.org/zawiki/latest/zawiki-latest-pages-articles.xml.bz2",
+      "cache_path": "02_语种工程资源/壮语/01_文本数据获取_20260703/data/zhuang_expanded_text_pool_20260703/cache/zawiki-latest-pages-articles.xml.bz2",
+      "sha256": "25dd43974273dfa3ed9430c19ab617c460bb0863cee521a4c3b0db2e98972bc7",
+      "pages": 3832,
+      "records": 5113,
+      "license_note": "Wikimedia dump; generally CC BY-SA with attribution required"
+    },
+    {
+      "source": "archive_zawiki_pdf_text",
+      "path": "05_总报告与索引/VL3_ebook_source_validation/cache/zhuang_archive_djvu_txt.txt",
+      "records": 5
+    },
+    {
+      "source": "verified_local_labels",
+      "path": "02_语种工程资源/壮语/01_文本数据获取_20260701/data/local_verified_label_text_pool_20260701/records.jsonl",
+      "records": 620
+    }
+  ],
+  "records": 5613,
+  "output_jsonl": "02_语种工程资源/壮语/01_文本数据获取_20260703/data/zhuang_expanded_text_pool_20260703/records.jsonl"
+}

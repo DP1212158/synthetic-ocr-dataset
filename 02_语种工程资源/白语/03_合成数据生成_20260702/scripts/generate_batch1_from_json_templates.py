@@ -18,6 +18,7 @@ CYRILLIC_RE = re.compile(r"[\u0400-\u04ff]")
 TIBETAN_DECORATIVE_MARK_RE = re.compile(r"[\u0f04-\u0f0a\u0f0c\u0f0e-\u0f14\u0f3a-\u0f3d]")
 TIBETAN_SHAD_RE = re.compile(r"\s*།+\s*")
 TIBETAN_RE = re.compile(r"[\u0f00-\u0fff]")
+ZERO_WIDTH_CONTROL_RE = re.compile(r"[\u200b-\u200f\u202a-\u202e\u2060-\u206f]")
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 THEMES = [
@@ -37,6 +38,7 @@ def esc(text: str) -> str:
 
 
 def cleanse_text(text: str) -> str:
+    text = ZERO_WIDTH_CONTROL_RE.sub("", str(text or ""))
     text = CYRILLIC_RE.sub("", text)
     text = TIBETAN_DECORATIVE_MARK_RE.sub(" ", text)
     text = TIBETAN_SHAD_RE.sub(" ", text)
@@ -295,11 +297,11 @@ def sign_renderer(b: Builder, template: dict[str, Any], records: list[dict[str, 
     if v == 1:
         arrows = "".join(b.block("metadata", label, "route-chip") for label in ["A-01", "B-02", "Loux", "Heuz"])
         body = f"""<section class="street-scene"><div class="sign-board">{b.block('document_title', record_title(records,rng,10,24), 'sign-title')}{b.block('metadata','Loux Byaij','meta')}{b.block('paragraph', record_text(records,rng,60,130), 'sign-copy')}<div class="route-row">{arrows}</div></div></section>"""
-        extra = """.page{background:linear-gradient(145deg,#c9d2d7,#f4f1e8 50%,#b8b0a2)}.street-scene{min-height:760px;display:flex;align-items:center;justify-content:center}.sign-board{width:1040px;border:18px solid #314a58;background:#fffdf4;box-shadow:20px 22px 0 rgba(30,40,50,.18);padding:58px;text-align:center}.sign-title{font-size:82px;font-weight:900;line-height:1.4}.sign-copy{font-size:34px;line-height:1.42;margin-top:24px}.route-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:24px}.route-chip{border:2px solid #314a58;padding:10px;font-size:22px;font-weight:900}"""
+        extra = """.page{background:linear-gradient(145deg,#c9d2d7,#f4f1e8 50%,#b8b0a2)}.street-scene{min-height:760px;display:flex;align-items:center;justify-content:center}.sign-board{width:1040px;border:18px solid #314a58;background:#fffdf4;box-shadow:20px 22px 0 rgba(30,40,50,.18);padding:58px;text-align:center}.sign-title{font-size:82px;font-weight:900;line-height:1.4}.sign-copy{font-size:34px;line-height:1.42;margin-top:24px}.route-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:24px}.route-chip{padding:10px;font-size:22px;font-weight:900;text-decoration:underline;text-underline-offset:5px}"""
     elif v == 2:
         tags = "".join(b.block("list_item", record_title(records, rng, 8, 20), "tag") for _ in range(5))
         body = f"""<section class="event-poster">{b.block('image','','image-box')}{b.block('metadata','EVENT','event-mark')}{b.block('document_title',doc['title'],'poster-title')}{b.block('paragraph',record_text(records,rng,95,175),'poster-copy')}<div>{tags}</div></section>"""
-        extra = f""".event-poster{{min-height:1260px;border-top:20px solid {theme['accent']};border-bottom:20px solid {theme['accent']};padding:38px;display:flex;flex-direction:column;justify-content:center}}.image-box{{min-height:320px;margin-bottom:28px}}.event-mark{{font-size:24px;font-weight:900;color:{theme['accent']}}}.poster-title{{font-size:66px;font-weight:900;line-height:1.36;margin:22px 0}}.poster-copy{{font-size:30px;line-height:1.42}}.tag{{display:inline-block;border:1.5px solid {theme['line']};padding:8px 12px;margin:6px;font-size:21px}}"""
+        extra = f""".event-poster{{min-height:1260px;border-top:20px solid {theme['accent']};border-bottom:20px solid {theme['accent']};padding:38px;display:flex;flex-direction:column;justify-content:center}}.image-box{{min-height:320px;margin-bottom:28px}}.event-mark{{font-size:24px;font-weight:900;color:{theme['accent']}}}.poster-title{{font-size:66px;font-weight:900;line-height:1.36;margin:22px 0}}.poster-copy{{font-size:30px;line-height:1.42}}.tag{{display:inline-block;padding:8px 12px;margin:6px;font-size:21px;font-weight:700;color:{theme['accent']}}}"""
     elif v == 3:
         notes = "".join(f'<section class="wall-note">{b.block("section_title", record_title(records,rng,8,20), "section-title")}{b.block("paragraph", record_text(records,rng,42,90), "small")}</section>' for _ in range(5))
         body = f"""<section class="wall-board">{notes}<aside>{b.block('image','','image-box')}{b.block('metadata','Byaij Mbwn','meta')}</aside></section>"""
