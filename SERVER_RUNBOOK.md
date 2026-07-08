@@ -42,7 +42,19 @@ npx playwright install chromium
 npx playwright install-deps chromium
 ```
 
-字体需要在服务器可见：
+## 字体前置检查（服务器跑生成前必做）
+
+`00_共享资源/fonts/` 不是"全语种字体整包"，它是字体支持机制：仓库内置各语种所需的开源字体（见下表），拷贝到用户字体目录并刷新 font cache 后由 fontconfig/Chromium 识别；不足的部分再从系统 Noto 字体补齐。**跑生成前必须先完成字体识别验证，否则会渲染出方块（tofu）。**
+
+各语种字体来源：
+
+- 维吾尔语、哈萨克语（Arabic-script）：仓库内置 `00_共享资源/fonts/arabic/`（Noto Naskh/Sans Arabic、Scheherazade New）。
+- 藏语：仓库内置 `00_共享资源/fonts/tibetan/`（Noto Serif Tibetan）。
+- 朝鲜语（谚文）：仓库内置 `00_共享资源/fonts/korean/`（Noto Sans KR）。
+- 传统蒙古文：仓库内置 `00_共享资源/fonts/mongolian/`（Noto Sans Mongolian，竖排）。
+- 兜底/CJK 混排：依赖服务器系统 Noto 字体（`fonts-noto`、`fonts-noto-cjk`）。
+
+第一步，安装内置字体到用户字体目录：
 
 ```bash
 mkdir -p ~/.local/share/fonts/synthetic-ocr
@@ -50,7 +62,24 @@ cp -R 00_共享资源/fonts/* ~/.local/share/fonts/synthetic-ocr/
 fc-cache -fv
 ```
 
-重点确认藏文、朝鲜文、阿拉伯系维吾尔/哈萨克、传统蒙古文字体都能被 Chromium 识别。
+第二步，按需补装系统 Noto 字体（服务器缺字体时）：
+
+```bash
+# Ubuntu/Debian 示例
+sudo apt-get update
+sudo apt-get install -y fontconfig fonts-noto fonts-noto-cjk fonts-noto-extra
+fc-cache -fv
+```
+
+第三步，验证目标字体已被 fontconfig 识别：
+
+```bash
+fc-list | grep -Ei "Tibetan|Mongolian|Noto Sans KR|Naskh|Scheherazade|Noto"
+```
+
+应能分别看到 `Noto Serif Tibetan`、`Noto Sans Mongolian`、`Noto Sans KR`、`Noto Naskh Arabic`、`Scheherazade New`。若某项缺失，先补装再继续。
+
+第四步，跑单语种 smoke 后**人工看图**确认无方块，特别是 RTL（维吾尔/哈萨克）和传统蒙古文竖排，自动 QA 无法证明字形正确，只能排乱码/越界/图片占位等流程问题。
 
 ## 当前主入口
 
