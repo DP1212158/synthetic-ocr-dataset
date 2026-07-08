@@ -1,0 +1,871 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v4",
+  "template_id": "complex_form_vertical_tree_v4_01",
+  "variant": 1,
+  "category_id": "complex_form",
+  "category_cn": "复杂表单登记页",
+  "folder": "11_复杂表单登记页",
+  "template_name_cn": "登记申请表",
+  "layout_family": "v4_registration_form",
+  "design_prompt": "标题、字段、备注和签名区。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1240,
+    "height": 1540,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical_v4"
+  },
+  "qa_expectations": {
+    "min_blocks": 18,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "outer",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box",
+      "box": {
+        "x": 54,
+        "y": 54,
+        "w": 1132,
+        "h": 1432
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "form_title",
+      "class": "title",
+      "box": {
+        "x": 100,
+        "y": 88,
+        "w": 58,
+        "h": 1360
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 28
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_label_01",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 210,
+        "y": 115,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_value_01",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 244,
+        "y": 115,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_label_02",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 306,
+        "y": 115,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_value_02",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 340,
+        "y": 115,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_label_03",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 402,
+        "y": 115,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_value_03",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 436,
+        "y": 115,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_label_04",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 498,
+        "y": 115,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_value_04",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 532,
+        "y": 115,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_label_05",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 594,
+        "y": 115,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_value_05",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 628,
+        "y": 115,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_label_06",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 690,
+        "y": 115,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_value_06",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 724,
+        "y": 115,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_label_07",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 786,
+        "y": 115,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_value_07",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 820,
+        "y": 115,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_label_08",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 882,
+        "y": 115,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_value_08",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 916,
+        "y": 115,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_label_09",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 210,
+        "y": 545,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_value_09",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 244,
+        "y": 545,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_label_10",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 306,
+        "y": 545,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_value_10",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 340,
+        "y": 545,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_label_11",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 402,
+        "y": 545,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_value_11",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 436,
+        "y": 545,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_label_12",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 498,
+        "y": 545,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_value_12",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 532,
+        "y": 545,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_label_13",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 594,
+        "y": 545,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_value_13",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 628,
+        "y": 545,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_label_14",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 690,
+        "y": 545,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_value_14",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 724,
+        "y": 545,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_label_15",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 786,
+        "y": 545,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_value_15",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 820,
+        "y": 545,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_label_16",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 882,
+        "y": 545,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "field_value_16",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 916,
+        "y": 545,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_label_01",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 230,
+        "y": 1030,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_value_01",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 264,
+        "y": 1030,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_label_02",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 375,
+        "y": 1030,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_value_02",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 409,
+        "y": 1030,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_label_03",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 520,
+        "y": 1030,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_value_03",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 554,
+        "y": 1030,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_label_04",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 665,
+        "y": 1030,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_value_04",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 699,
+        "y": 1030,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_label_05",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 810,
+        "y": 1030,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_value_05",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 844,
+        "y": 1030,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    }
+  ]
+}

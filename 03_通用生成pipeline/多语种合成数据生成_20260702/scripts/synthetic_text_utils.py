@@ -26,8 +26,10 @@ PRIVATE_USE_RE = re.compile(r"[\ue000-\uf8ff]")
 REPLACEMENT_OR_BOX_RE = re.compile(r"[\ufffd\u25a0\u25a1\u25af]")
 MONGOLIAN_PRESENTATION_PUNCT_RE = re.compile(r"[︽︾︕︖︵︶︔﹇﹈]")
 MONGOLIAN_UNSAFE_SYMBOL_RE = re.compile(r"[\u200d=+~※%!—–]")
+ZERO_WIDTH_CONTROL_RE = re.compile(r"[\u200b-\u200f\u202a-\u202e\u2060-\u206f]")
 
 NUMERIC_TITLE_RE = re.compile(r"^[\d\s\-:/.()]+$")
+BAD_TITLE_LITERAL_RE = re.compile(r"^(fallback records?|records?|untitled|unknown|none|null|na|n/a)$", re.IGNORECASE)
 DATE_WORD_RE = re.compile(r"\b(nyied|hauh|nienz|bi'?nyinh|ngoenz)\b", re.IGNORECASE)
 
 ACTIVE_PROFILE: dict[str, Any] = {}
@@ -55,6 +57,55 @@ DEFAULT_SAFE_TITLES = [
     "Saunghawj Neiyungz",
 ]
 
+DEFAULT_BLOCKED_TEMPLATE_TERMS = {
+    "bai": [
+        "Vahcuengh",
+        "Sawcuengh",
+        "Ngoenzneix",
+        "Yienghneix",
+        "Bouxcuengh",
+        "Gvangjsih",
+        "Vwnzva",
+        "Gijyez",
+        "Gijmingz",
+        "Saedsaed",
+        "Cangh",
+        "Doengh",
+        "Gvangj Gau",
+        "Mboq Doengh",
+        "Doengh Vaiq",
+        "Gij Yawj",
+        "Gij Yienghguh",
+        "Swhngim Bouxcuengh",
+        "Gienzronz",
+        "Vwnzyen Cawxgya",
+        "Gijbon Lijsi",
+        "Guj Sawbon",
+        "Guj Saw Dak",
+        "Gaejgangj",
+        "Gij Cawxgya",
+        "Gizci",
+        "Seizgan",
+        "Dihdeiz",
+        "Duzgaiq",
+        "Fujgan",
+        "Sawmaj",
+        "Mingz",
+        "Hauh",
+        "Dihci",
+        "Lienzyau",
+        "Cingzkuang",
+        "Gijman",
+        "Cingzdan",
+        "Gijbiz",
+        "Daezmoq",
+        "Dakbieq",
+        "Yieb",
+        "Deihce",
+        "Cawxgya",
+    ]
+}
+
 SENTENCE_END_RE = re.compile(r"([.!?。！？]+|།+|።+)\s+")
 CLAUSE_END_RE = re.compile(r"([,;:，；：、]+|།+)\s+")
 TEXT_STREAMS: dict[int, "ContinuousTextSampler"] = {}
@@ -64,9 +115,29 @@ def _ratio(count: int, text: str) -> float:
     return count / max(len(text), 1)
 
 
+def _blocked_template_terms() -> list[str]:
+    profile = ACTIVE_PROFILE or {}
+    configured = profile.get("blocked_template_terms")
+    if isinstance(configured, list):
+        return [str(item) for item in configured if str(item).strip()]
+    language_code = str(profile.get("language_code", "")).lower()
+    return DEFAULT_BLOCKED_TEMPLATE_TERMS.get(language_code, [])
+
+
+def _remove_blocked_template_terms(text: str) -> str:
+    terms = _blocked_template_terms()
+    if not terms or not text:
+        return text
+    cleaned = text
+    for term in terms:
+        cleaned = re.sub(rf"(?<![A-Za-z]){re.escape(term)}(?![A-Za-z])", " ", cleaned, flags=re.IGNORECASE)
+    return cleaned
+
+
 def cleanse_text(text: str) -> str:
     """Clean text according to the active language profile."""
     text = str(text or "")
+    text = ZERO_WIDTH_CONTROL_RE.sub("", text)
     text = HTML_RE.sub(" ", text)
     text = LATEX_RE.sub(" ", text)
     text = text.replace("\u00a0", " ")
@@ -100,6 +171,7 @@ def cleanse_text(text: str) -> str:
     if cleanup != "tibetan":
         text = TIBETAN_DECORATIVE_MARK_RE.sub(" ", text)
         text = TIBETAN_SHAD_RE.sub(" ", text)
+    text = _remove_blocked_template_terms(text)
     text = re.sub(r"\s+", " ", text)
     return text.strip()
 
@@ -169,6 +241,8 @@ def text_quality(text: str, script_re: re.Pattern[str] | None = None) -> dict[st
 def is_bad_title(title: str) -> bool:
     title = cleanse_text(title)
     if len(title) < 5:
+        return True
+    if BAD_TITLE_LITERAL_RE.fullmatch(title):
         return True
     if NUMERIC_TITLE_RE.fullmatch(title):
         return True

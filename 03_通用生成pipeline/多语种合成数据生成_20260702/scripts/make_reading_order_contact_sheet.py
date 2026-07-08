@@ -51,15 +51,16 @@ def draw_overlay(image_path: Path, label_path: Path, output_path: Path) -> dict[
     missing = []
     for block in blocks:
         order = block.get("reading_order")
+        is_text = block.get("is_text", True) is not False
         if order is None:
-            missing.append(block.get("block_id"))
+            if is_text and str(block.get("block_content") or "").strip():
+                missing.append(block.get("block_id"))
             continue
         c = block.get("coordinates") or {}
         x1 = float(c.get("x_min", 0))
         y1 = float(c.get("y_min", 0))
         x2 = float(c.get("x_max", 0))
         y2 = float(c.get("y_max", 0))
-        is_text = block.get("is_text", True) is not False
         color = (32, 114, 220) if is_text else (230, 125, 35)
         draw.rectangle([x1, y1, x2, y2], outline=color, width=3)
         label_text = str(order)
@@ -135,7 +136,7 @@ def main() -> int:
         "missing_reading_order_images": len(missing),
         "missing_reading_order_items": missing,
         "contact_sheet": str(version_dir / "reports" / "contact_sheet_reading_order.jpg"),
-        "pass": len(items) == 72 and not missing,
+        "pass": len(items) > 0 and not missing,
     }
     (version_dir / "reports" / "reading_order_overlay_summary.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2),

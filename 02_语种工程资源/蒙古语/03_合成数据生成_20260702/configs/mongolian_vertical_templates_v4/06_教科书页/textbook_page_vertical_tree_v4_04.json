@@ -1,0 +1,400 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v4",
+  "template_id": "textbook_page_vertical_tree_v4_04",
+  "variant": 4,
+  "category_id": "textbook_page",
+  "category_cn": "教科书页",
+  "folder": "06_教科书页",
+  "template_name_cn": "活动任务页",
+  "layout_family": "v4_activity_steps",
+  "design_prompt": "步骤、填写区和提示卡片。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1160,
+    "height": 1580,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical_v4"
+  },
+  "qa_expectations": {
+    "min_blocks": 10,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "chapter_title",
+      "role": "activity",
+      "class": "title",
+      "box": {
+        "x": 80,
+        "y": 70,
+        "w": 54,
+        "h": 1430
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "step_01",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 190,
+        "y": 120,
+        "w": 36,
+        "h": 640
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "step_02",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 282,
+        "y": 120,
+        "w": 36,
+        "h": 640
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "step_03",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 374,
+        "y": 120,
+        "w": 36,
+        "h": 640
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "step_04",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 466,
+        "y": 120,
+        "w": 36,
+        "h": 640
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "step_05",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 558,
+        "y": 120,
+        "w": 36,
+        "h": 640
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "step_06",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 650,
+        "y": 120,
+        "w": 36,
+        "h": 640
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "step_07",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 742,
+        "y": 120,
+        "w": 36,
+        "h": 640
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "ans_01",
+      "kind": "answer_area",
+      "label": "answer_area",
+      "role": "answer_area",
+      "class": "answer-box",
+      "box": {
+        "x": 232,
+        "y": 120,
+        "w": 42,
+        "h": 640
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "ans_02",
+      "kind": "answer_area",
+      "label": "answer_area",
+      "role": "answer_area",
+      "class": "answer-box",
+      "box": {
+        "x": 324,
+        "y": 120,
+        "w": 42,
+        "h": 640
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "ans_03",
+      "kind": "answer_area",
+      "label": "answer_area",
+      "role": "answer_area",
+      "class": "answer-box",
+      "box": {
+        "x": 416,
+        "y": 120,
+        "w": 42,
+        "h": 640
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "ans_04",
+      "kind": "answer_area",
+      "label": "answer_area",
+      "role": "answer_area",
+      "class": "answer-box",
+      "box": {
+        "x": 508,
+        "y": 120,
+        "w": 42,
+        "h": 640
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "ans_05",
+      "kind": "answer_area",
+      "label": "answer_area",
+      "role": "answer_area",
+      "class": "answer-box",
+      "box": {
+        "x": 600,
+        "y": 120,
+        "w": 42,
+        "h": 640
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "ans_06",
+      "kind": "answer_area",
+      "label": "answer_area",
+      "role": "answer_area",
+      "class": "answer-box",
+      "box": {
+        "x": 692,
+        "y": 120,
+        "w": 42,
+        "h": 640
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "ans_07",
+      "kind": "answer_area",
+      "label": "answer_area",
+      "role": "answer_area",
+      "class": "answer-box",
+      "box": {
+        "x": 784,
+        "y": 120,
+        "w": 42,
+        "h": 640
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "hint_01",
+      "kind": "text",
+      "label": "note",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 820,
+        "y": 140,
+        "w": 30,
+        "h": 1230
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 50
+      },
+      "visual": {}
+    },
+    {
+      "id": "hint_02",
+      "kind": "text",
+      "label": "note",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 870,
+        "y": 140,
+        "w": 30,
+        "h": 1230
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 50
+      },
+      "visual": {}
+    },
+    {
+      "id": "hint_03",
+      "kind": "text",
+      "label": "note",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 920,
+        "y": 140,
+        "w": 30,
+        "h": 1230
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 50
+      },
+      "visual": {}
+    },
+    {
+      "id": "hint_04",
+      "kind": "text",
+      "label": "note",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 970,
+        "y": 140,
+        "w": 30,
+        "h": 1230
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 50
+      },
+      "visual": {}
+    },
+    {
+      "id": "hint_05",
+      "kind": "text",
+      "label": "note",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 1020,
+        "y": 140,
+        "w": 30,
+        "h": 1230
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 16,
+        "max_chars": 50
+      },
+      "visual": {}
+    }
+  ]
+}

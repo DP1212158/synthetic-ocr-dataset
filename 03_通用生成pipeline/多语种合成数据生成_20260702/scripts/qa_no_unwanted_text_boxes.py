@@ -32,8 +32,20 @@ ALLOWED_CLASSES = {
     "ornamental-cert",
     "inner-frame",
 }
+RISKY_CONTAINER_CLASSES = {
+    "sidebar",
+    "rule",
+    "key-box",
+    "hint",
+    "check-box",
+    "check-line",
+    "callout",
+    "vocab-head",
+    "exercise-head",
+    "pull-quote",
+}
 TEXT_BOX_CLASS_PATTERNS = [
-    re.compile(r"(?:^|[-_])(card|box|kv|clause|note|followup|extract|brief|digest)(?:$|[-_])", re.I),
+    re.compile(r"(?:^|[-_])(card|box|kv|clause|note|followup|extract|brief|digest|tag|chip|badge|pill)(?:$|[-_])", re.I),
 ]
 STYLE_BORDER_RE = re.compile(r"border(?:-(?:left|right|top|bottom))?\s*:\s*(?!0\b|none\b)[^;]+;", re.I)
 STYLE_SHADOW_RE = re.compile(r"box-shadow\s*:\s*(?!none\b)[^;]+;", re.I)
@@ -42,6 +54,7 @@ BLOCK_RE = re.compile(
     re.I,
 )
 STYLE_BLOCK_RE = re.compile(r"<style[^>]*>(?P<css>.*?)</style>", re.I | re.S)
+CLASS_ATTR_RE = re.compile(r"<(?P<tag>[a-zA-Z0-9]+)(?P<attrs>[^>]*\bclass=\"(?P<class>[^\"]+)\"[^>]*)>", re.I)
 
 
 def write_json(path: Path, payload: Any) -> None:
@@ -99,6 +112,37 @@ def inspect_html(path: Path) -> list[dict[str, Any]]:
                 "style_shadow": bool(STYLE_SHADOW_RE.search(style)),
                 "css_box": css_has_box,
                 "boxy_class": has_boxy_class(classes),
+            })
+    css = "\n".join(match.group("css") for match in STYLE_BLOCK_RE.finditer(text))
+    for match in CLASS_ATTR_RE.finditer(text):
+        classes = attr(match.group("attrs"), "class")
+        tokens = {token.strip() for token in classes.split() if token.strip()}
+        risky_tokens = sorted(tokens & RISKY_CONTAINER_CLASSES)
+        if not risky_tokens:
+            continue
+        if any(token in ALLOWED_CLASSES for token in tokens):
+            continue
+        css_has_box = False
+        inline_has_box = bool(STYLE_BORDER_RE.search(attr(match.group("attrs"), "style")) or STYLE_SHADOW_RE.search(attr(match.group("attrs"), "style")))
+        for token in risky_tokens:
+            pattern = re.compile(rf"\.{re.escape(token)}(?:[^\{{]*)\{{(?P<body>.*?)\}}", re.I | re.S)
+            for css_match in pattern.finditer(css):
+                body = css_match.group("body")
+                if STYLE_BORDER_RE.search(body) or STYLE_SHADOW_RE.search(body):
+                    css_has_box = True
+                    break
+            if css_has_box:
+                break
+        if inline_has_box or css_has_box:
+            issues.append({
+                "html": str(path),
+                "block_id": None,
+                "label": "container",
+                "class": classes,
+                "style_border": inline_has_box,
+                "style_shadow": False,
+                "css_box": css_has_box,
+                "boxy_class": True,
             })
     return issues
 

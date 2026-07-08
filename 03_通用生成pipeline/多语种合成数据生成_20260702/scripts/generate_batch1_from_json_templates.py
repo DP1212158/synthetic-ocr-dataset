@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+from contextlib import nullcontext
 import datetime as dt
 import html
 import json
@@ -18,6 +19,7 @@ CYRILLIC_RE = re.compile(r"[\u0400-\u04ff]")
 TIBETAN_DECORATIVE_MARK_RE = re.compile(r"[\u0f04-\u0f0a\u0f0c\u0f0e-\u0f14\u0f3a-\u0f3d]")
 TIBETAN_SHAD_RE = re.compile(r"\s*།+\s*")
 TIBETAN_RE = re.compile(r"[\u0f00-\u0fff]")
+ZERO_WIDTH_CONTROL_RE = re.compile(r"[\u200b-\u200f\u202a-\u202e\u2060-\u206f]")
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 THEMES = [
@@ -37,6 +39,7 @@ def esc(text: str) -> str:
 
 
 def cleanse_text(text: str) -> str:
+    text = ZERO_WIDTH_CONTROL_RE.sub("", str(text or ""))
     text = CYRILLIC_RE.sub("", text)
     text = TIBETAN_DECORATIVE_MARK_RE.sub(" ", text)
     text = TIBETAN_SHAD_RE.sub(" ", text)
@@ -136,20 +139,46 @@ def fallback_text(label: str) -> str:
     return shared_fallback_text(label)
 
 
+def flow_ctx(b: "Builder", region: str, container: str, role: str = "body"):
+    return b.flow.context(region, container, role) if b.flow else nullcontext()
+
+
 class Builder:
-    def __init__(self, document_id: str):
+    def __init__(self, document_id: str, flow: Any | None = None):
         self.document_id = document_id
         self.counter = 0
+        self.flow = flow
 
     def bid(self) -> str:
         self.counter += 1
         return f"{self.document_id}_b{self.counter:04d}"
 
-    def block(self, label: str, text: str, cls: str, tag: str = "div", attrs: str = "") -> str:
+    def block(
+        self,
+        label: str,
+        text: str,
+        cls: str,
+        tag: str = "div",
+        attrs: str = "",
+        flow: str | None = None,
+        ocr_orderable: bool | None = None,
+        caption_of: str | None = None,
+    ) -> str:
         cleaned = cleanse_text(text)
         if not cleaned and label != "image":
             cleaned = fallback_text(label)
-        return f'<{tag} class="{cls}" data-block-id="{self.bid()}" data-label="{label}" {attrs}>{esc(cleaned)}</{tag}>'
+        block_id = self.bid()
+        flow_attrs = ""
+        if self.flow:
+            flow_attrs = self.flow.attrs(
+                block_id,
+                label,
+                cleaned,
+                flow=flow,
+                ocr_orderable=ocr_orderable,
+                caption_of=caption_of,
+            )
+        return f'<{tag} class="{cls}" data-block-id="{block_id}" data-label="{label}" {attrs} {flow_attrs}>{esc(cleaned)}</{tag}>'
 
 
 def base_css(page: dict[str, Any], theme: dict[str, str], font_family: str, base_size: int = 23, profile: dict[str, Any] | None = None) -> str:
@@ -181,6 +210,7 @@ def base_css(page: dict[str, Any], theme: dict[str, str], font_family: str, base
 
 
 def wrap(doc: dict[str, Any], body: str, css: str, page: dict[str, Any], cls: str) -> str:
+    css = apply_vl9_visual_cleanup(css, doc.get("version_name"))
     return f"""<!doctype html>
 <html lang="{esc(doc['html_lang'])}" dir="{esc(str(doc.get('css_direction', doc.get('writing_direction', 'ltr'))))}">
 <head><meta charset="utf-8"><title>{esc(doc['title'])}</title><style>{css}</style></head>
@@ -190,13 +220,15 @@ def wrap(doc: dict[str, Any], body: str, css: str, page: dict[str, Any], cls: st
 
 
 def kv(b: Builder, label: str, value: str, cls: str = "kv") -> str:
-    return f'<div class="{cls}">{b.block("field_label", label, "field-label")}{b.block("field_value", value, "field-value")}</div>'
+    with flow_ctx(b, "body", cls, "field"):
+        return f'<div class="{cls}">{b.block("field_label", label, "field-label")}{b.block("field_value", value, "field-value")}</div>'
 
 
 def simple_table(b: Builder, headers: list[str], rows: list[list[str]]) -> str:
-    head = "<tr>" + "".join(b.block("table_header", h, "", "th") for h in headers) + "</tr>"
-    body = "".join("<tr>" + "".join(b.block("table_cell_text", cell, "", "td") for cell in row) + "</tr>" for row in rows)
-    return f"<table>{head}{body}</table>"
+    with flow_ctx(b, "figure_table", "table", "table"):
+        head = "<tr>" + "".join(b.block("table_header", h, "", "th") for h in headers) + "</tr>"
+        body = "".join("<tr>" + "".join(b.block("table_cell_text", cell, "", "td") for cell in row) + "</tr>" for row in rows)
+        return f"<table>{head}{body}</table>"
 
 
 def certificate_renderer(b: Builder, template: dict[str, Any], records: list[dict[str, str]], rng: random.Random, doc: dict[str, Any], theme: dict[str, str]) -> str:
@@ -295,11 +327,11 @@ def sign_renderer(b: Builder, template: dict[str, Any], records: list[dict[str, 
     if v == 1:
         arrows = "".join(b.block("metadata", label, "route-chip") for label in ["A-01", "B-02", "Loux", "Heuz"])
         body = f"""<section class="street-scene"><div class="sign-board">{b.block('document_title', record_title(records,rng,10,24), 'sign-title')}{b.block('metadata','Loux Byaij','meta')}{b.block('paragraph', record_text(records,rng,60,130), 'sign-copy')}<div class="route-row">{arrows}</div></div></section>"""
-        extra = """.page{background:linear-gradient(145deg,#c9d2d7,#f4f1e8 50%,#b8b0a2)}.street-scene{min-height:760px;display:flex;align-items:center;justify-content:center}.sign-board{width:1040px;border:18px solid #314a58;background:#fffdf4;box-shadow:20px 22px 0 rgba(30,40,50,.18);padding:58px;text-align:center}.sign-title{font-size:82px;font-weight:900;line-height:1.4}.sign-copy{font-size:34px;line-height:1.42;margin-top:24px}.route-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:24px}.route-chip{border:2px solid #314a58;padding:10px;font-size:22px;font-weight:900}"""
+        extra = """.page{background:linear-gradient(145deg,#c9d2d7,#f4f1e8 50%,#b8b0a2)}.street-scene{min-height:760px;display:flex;align-items:center;justify-content:center}.sign-board{width:1040px;border:18px solid #314a58;background:#fffdf4;box-shadow:20px 22px 0 rgba(30,40,50,.18);padding:58px;text-align:center}.sign-title{font-size:82px;font-weight:900;line-height:1.4}.sign-copy{font-size:34px;line-height:1.42;margin-top:24px}.route-row{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:24px}.route-chip{padding:10px;font-size:22px;font-weight:900;text-decoration:underline;text-underline-offset:5px}"""
     elif v == 2:
         tags = "".join(b.block("list_item", record_title(records, rng, 8, 20), "tag") for _ in range(5))
         body = f"""<section class="event-poster">{b.block('image','','image-box')}{b.block('metadata','EVENT','event-mark')}{b.block('document_title',doc['title'],'poster-title')}{b.block('paragraph',record_text(records,rng,95,175),'poster-copy')}<div>{tags}</div></section>"""
-        extra = f""".event-poster{{min-height:1260px;border-top:20px solid {theme['accent']};border-bottom:20px solid {theme['accent']};padding:38px;display:flex;flex-direction:column;justify-content:center}}.image-box{{min-height:320px;margin-bottom:28px}}.event-mark{{font-size:24px;font-weight:900;color:{theme['accent']}}}.poster-title{{font-size:66px;font-weight:900;line-height:1.36;margin:22px 0}}.poster-copy{{font-size:30px;line-height:1.42}}.tag{{display:inline-block;border:1.5px solid {theme['line']};padding:8px 12px;margin:6px;font-size:21px}}"""
+        extra = f""".event-poster{{min-height:1260px;border-top:20px solid {theme['accent']};border-bottom:20px solid {theme['accent']};padding:38px;display:flex;flex-direction:column;justify-content:center}}.image-box{{min-height:320px;margin-bottom:28px}}.event-mark{{font-size:24px;font-weight:900;color:{theme['accent']}}}.poster-title{{font-size:66px;font-weight:900;line-height:1.36;margin:22px 0}}.poster-copy{{font-size:30px;line-height:1.42}}.tag{{display:inline-block;padding:8px 12px;margin:6px;font-size:21px;font-weight:700;color:{theme['accent']}}}"""
     elif v == 3:
         notes = "".join(f'<section class="wall-note">{b.block("section_title", record_title(records,rng,8,20), "section-title")}{b.block("paragraph", record_text(records,rng,42,90), "small")}</section>' for _ in range(5))
         body = f"""<section class="wall-board">{notes}<aside>{b.block('image','','image-box')}{b.block('metadata','Byaij Mbwn','meta')}</aside></section>"""
@@ -367,6 +399,8 @@ from synthetic_text_utils import (  # noqa: E402
     select_span,
     vertical_css as shared_vertical_css,
 )
+from reading_flow_v1 import FlowPlanner, write_template_flow_plan  # noqa: E402
+from vl9_visual_style import apply_vl9_visual_cleanup  # noqa: E402
 
 
 def main() -> int:
@@ -400,6 +434,7 @@ def main() -> int:
         meta_dir.mkdir(parents=True, exist_ok=True)
         manifest = []
         category_plan = []
+        flow_plans = []
         for cat_idx, cat in enumerate(spec["categories"], 1):
             category_id = cat["category_id"]
             category_cn = cat["category_cn"]
@@ -408,7 +443,6 @@ def main() -> int:
             for tpl in cat["templates"]:
                 variant = int(tpl["variant"])
                 document_id = f"{cat_idx:02d}_{category_id}_json_{variant:02d}"
-                b = Builder(document_id)
                 theme = THEMES[(cat_idx + variant - 2) % len(THEMES)]
                 doc = {
                     "document_id": document_id,
@@ -419,9 +453,13 @@ def main() -> int:
                     "css_writing_mode": profile.get("css_writing_mode", "horizontal-tb"),
                     "writing_direction": profile.get("writing_direction", "ltr"),
                     "template_id": tpl["template_id"],
+                    "version_name": version_name,
                 }
+                flow = FlowPlanner(document_id, category_id, variant, doc["writing_direction"])
+                b = Builder(document_id, flow)
                 html_text = renderer(b, tpl, records, rng, doc, theme)
                 (html_dir / f"{document_id}.html").write_text(html_text, encoding="utf-8")
+                flow_plans.append(flow.plan())
                 page = tpl["page"]
                 manifest.append(
                     {
@@ -446,11 +484,13 @@ def main() -> int:
                         "created_at": now_local(),
                         "source_records": [],
                         "content_density": tpl.get("content_density"),
+                        "reading_order_policy": "template_flow_v1",
                     }
                 )
         write_json(meta_dir / "html_manifest.json", manifest)
         write_json(meta_dir / "category_plan.json", category_plan)
         write_json(meta_dir / "batch1_template_spec.json", spec)
+        write_template_flow_plan(out_dir, flow_plans)
         print(f"generated {len(manifest)} html files across {len(category_plan)} categories in {html_dir}")
         return 0
 
@@ -464,10 +504,10 @@ def main() -> int:
         reset_category_dir(folder)
         renderer = RENDERERS[category_id]
         html_manifest = []
+        flow_plans = []
         for tpl in cat["templates"]:
             variant = int(tpl["variant"])
             document_id = f"{args.start_index + offset:02d}_{category_id}_json_{variant:02d}"
-            b = Builder(document_id)
             theme = THEMES[(offset + variant - 1) % len(THEMES)]
             doc = {
                 "document_id": document_id,
@@ -478,9 +518,13 @@ def main() -> int:
                     "css_writing_mode": profile.get("css_writing_mode", "horizontal-tb"),
                     "writing_direction": profile.get("writing_direction", "ltr"),
                 "template_id": tpl["template_id"],
+                "version_name": version_name,
             }
+            flow = FlowPlanner(document_id, category_id, variant, doc["writing_direction"])
+            b = Builder(document_id, flow)
             html_text = renderer(b, tpl, records, rng, doc, theme)
             (folder / "html" / f"{document_id}.html").write_text(html_text, encoding="utf-8")
+            flow_plans.append(flow.plan())
             page = tpl["page"]
             html_manifest.append(
                 {
@@ -505,11 +549,13 @@ def main() -> int:
                     "created_at": now_local(),
                     "source_records": [],
                     "content_density": tpl.get("content_density"),
+                    "reading_order_policy": "template_flow_v1",
                 }
             )
         write_json(folder / "metadata" / "html_manifest.json", html_manifest)
         write_json(folder / "metadata" / "category_plan.json", [{"category": category_id, "category_cn": category_cn, "samples": 6}])
         write_json(folder / "metadata" / "batch1_template_spec.json", {"category": cat, "source_schema": spec["schema_version"]})
+        write_template_flow_plan(folder, flow_plans)
         (folder / "README.md").write_text(
             f"# {args.start_index + offset:02d} {category_cn}\n\n本目录属于壮语 `{version_name}`，由分类 JSON 结构树生成，共 6 张。\n\n- `html/`\n- `images/`\n- `labels/`\n- `metadata/`\n- `reports/`\n",
             encoding="utf-8",

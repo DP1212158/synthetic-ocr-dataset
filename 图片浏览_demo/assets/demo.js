@@ -1,0 +1,369 @@
+const state = {
+  manifest: null,
+  languageId: null,
+  categoryId: null,
+  showOrderOverlay: false,
+  labelCache: new Map(),
+};
+
+const els = {
+  generatedMeta: document.querySelector("#generatedMeta"),
+  languageNav: document.querySelector("#languageNav"),
+  categoryNav: document.querySelector("#categoryNav"),
+  currentTitle: document.querySelector("#currentTitle"),
+  currentPath: document.querySelector("#currentPath"),
+  versionStat: document.querySelector("#versionStat"),
+  categoryStat: document.querySelector("#categoryStat"),
+  languageStat: document.querySelector("#languageStat"),
+  toggleOrderOverlay: document.querySelector("#toggleOrderOverlay"),
+  imageGrid: document.querySelector("#imageGrid"),
+  previewDialog: document.querySelector("#previewDialog"),
+  previewImage: document.querySelector("#previewImage"),
+  previewName: document.querySelector("#previewName"),
+  previewPath: document.querySelector("#previewPath"),
+  closePreview: document.querySelector("#closePreview"),
+};
+
+function getCurrentLanguage() {
+  return state.manifest.languages.find((language) => language.id === state.languageId);
+}
+
+function getCurrentCategory() {
+  const language = getCurrentLanguage();
+  if (!language) return null;
+  return language.categories.find((category) => category.id === state.categoryId);
+}
+
+function button(label, count, active, onClick) {
+  const node = document.createElement("button");
+  node.type = "button";
+  node.className = `nav-button${active ? " active" : ""}`;
+
+  const labelNode = document.createElement("span");
+  labelNode.textContent = label;
+  const countNode = document.createElement("small");
+  countNode.textContent = count;
+  node.append(labelNode, countNode);
+
+  node.addEventListener("click", onClick);
+  return node;
+}
+
+function renderLanguageNav() {
+  els.languageNav.replaceChildren();
+  state.manifest.languages.forEach((language) => {
+    els.languageNav.appendChild(
+      button(
+        `${language.name} ${language.version}`,
+        `${language.image_count} 张`,
+        language.id === state.languageId,
+        () => {
+          state.languageId = language.id;
+          state.categoryId = language.categories[0]?.id ?? null;
+          render({ resetScroll: true });
+        }
+      )
+    );
+  });
+}
+
+function renderCategoryNav() {
+  const language = getCurrentLanguage();
+  els.categoryNav.replaceChildren();
+  if (!language) return;
+
+  language.categories.forEach((category) => {
+    els.categoryNav.appendChild(
+      button(category.name, `${category.image_count} 张`, category.id === state.categoryId, () => {
+        state.categoryId = category.id;
+        render({ resetScroll: true });
+      })
+    );
+  });
+}
+
+function renderSummary() {
+  const language = getCurrentLanguage();
+  const category = getCurrentCategory();
+
+  if (!language || !category) {
+    els.currentTitle.textContent = "暂无可浏览图片";
+    els.currentPath.textContent = "请先生成 image_manifest.json";
+    els.versionStat.textContent = "-";
+    els.categoryStat.textContent = "-";
+    els.languageStat.textContent = "-";
+    els.toggleOrderOverlay.disabled = true;
+    return;
+  }
+
+  els.currentTitle.textContent = `${language.name} / ${category.name}`;
+  els.currentPath.textContent = category.source_path;
+  els.versionStat.textContent = language.version;
+  els.categoryStat.textContent = `${category.image_count}`;
+  els.languageStat.textContent = `${language.image_count}`;
+  const hasLabels = category.images.some((image) => image.label_path);
+  els.toggleOrderOverlay.disabled = !hasLabels;
+  els.toggleOrderOverlay.classList.toggle("active", state.showOrderOverlay);
+  els.toggleOrderOverlay.textContent = !hasLabels ? "无顺序标签" : state.showOrderOverlay ? "隐藏顺序" : "显示顺序";
+}
+
+function imageCard(image, index, total) {
+  const card = document.createElement("article");
+  card.className = "image-card";
+
+  const imageButton = document.createElement("button");
+  imageButton.type = "button";
+  imageButton.className = "image-button";
+  imageButton.title = "点击放大查看";
+  imageButton.addEventListener("click", () => openImagePreview(image));
+
+  const img = document.createElement("img");
+  img.src = image.path;
+  img.alt = image.filename;
+  img.loading = index === 0 ? "eager" : "lazy";
+  img.addEventListener("load", () => drawOrderOverlay(imageButton, img, image));
+  imageButton.appendChild(img);
+
+  const overlay = document.createElement("div");
+  overlay.className = "order-overlay";
+  overlay.hidden = true;
+  imageButton.appendChild(overlay);
+
+  const meta = document.createElement("div");
+  meta.className = "image-meta";
+
+  const name = document.createElement("strong");
+  name.textContent = `第 ${index + 1}/${total} 张 · ${image.filename}`;
+  const sourcePath = document.createElement("span");
+  sourcePath.textContent = image.source_path;
+  meta.append(name, sourcePath);
+
+  card.append(imageButton, meta);
+  return card;
+}
+
+function renderImages({ resetScroll = false } = {}) {
+  const category = getCurrentCategory();
+  els.imageGrid.replaceChildren();
+
+  if (!category || category.images.length === 0) {
+    const empty = document.createElement("div");
+    empty.className = "empty-state";
+    empty.textContent = "这个类别暂时没有可加载的图片。";
+    els.imageGrid.appendChild(empty);
+    return;
+  }
+
+  category.images.forEach((image, index) => {
+    els.imageGrid.appendChild(imageCard(image, index, category.images.length));
+  });
+
+  if (resetScroll) {
+    els.imageGrid.scrollTo({ top: 0, left: 0, behavior: "auto" });
+  }
+}
+
+function openImagePreview(image) {
+  els.previewName.textContent = image.filename;
+  els.previewPath.textContent = image.source_path;
+  els.previewImage.src = image.path;
+  els.previewImage.alt = image.filename;
+
+  if (typeof els.previewDialog.showModal === "function") {
+    els.previewDialog.showModal();
+  } else {
+    window.open(image.path, "_blank");
+  }
+}
+
+function orderValue(block, fallbackIndex) {
+  const rawValue = block.reading_order ?? block.order ?? fallbackIndex + 1;
+  const parsed = Number.parseInt(rawValue, 10);
+  return Number.isFinite(parsed) ? parsed : fallbackIndex + 1;
+}
+
+function blockCoordinates(block) {
+  const coordinates = block.coordinates;
+  if (!coordinates) return null;
+
+  const xMin = Number(coordinates.x_min);
+  const yMin = Number(coordinates.y_min);
+  const xMax = Number(coordinates.x_max);
+  const yMax = Number(coordinates.y_max);
+  if (![xMin, yMin, xMax, yMax].every(Number.isFinite)) return null;
+  if (xMax <= xMin || yMax <= yMin) return null;
+
+  return { xMin, yMin, xMax, yMax };
+}
+
+function hasVisibleText(block) {
+  return typeof block.block_content === "string" && block.block_content.trim().length > 0;
+}
+
+async function loadLabel(image) {
+  if (!image.label_path) return null;
+  if (state.labelCache.has(image.label_path)) {
+    return state.labelCache.get(image.label_path);
+  }
+
+  const labelPromise = fetch(image.label_path, { cache: "no-store" })
+    .then((response) => {
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.json();
+    })
+    .catch((error) => {
+      console.warn("Label load failed", image.label_path, error);
+      return null;
+    });
+  state.labelCache.set(image.label_path, labelPromise);
+  return labelPromise;
+}
+
+async function drawOrderOverlay(imageButton, img, image) {
+  const overlay = imageButton.querySelector(".order-overlay");
+  if (!overlay) return;
+
+  overlay.replaceChildren();
+  overlay.hidden = !state.showOrderOverlay;
+  if (!state.showOrderOverlay || !image.label_path || !img.naturalWidth || !img.naturalHeight) return;
+
+  const label = await loadLabel(image);
+  if (!label || !Array.isArray(label.blocks)) return;
+
+  const imageRect = img.getBoundingClientRect();
+  const buttonRect = imageButton.getBoundingClientRect();
+  overlay.style.left = `${imageRect.left - buttonRect.left}px`;
+  overlay.style.top = `${imageRect.top - buttonRect.top}px`;
+  overlay.style.width = `${imageRect.width}px`;
+  overlay.style.height = `${imageRect.height}px`;
+
+  const scaleX = imageRect.width / img.naturalWidth;
+  const scaleY = imageRect.height / img.naturalHeight;
+
+  const blocks = label.blocks
+    .map((block, index) => ({ block, index, coordinates: blockCoordinates(block) }))
+    .filter((item) => item.coordinates && item.block?.is_text !== false && hasVisibleText(item.block))
+    .sort((a, b) => orderValue(a.block, a.index) - orderValue(b.block, b.index));
+
+  blocks.forEach(({ block, index, coordinates }) => {
+    const box = document.createElement("div");
+    box.className = "order-box";
+    box.style.left = `${coordinates.xMin * scaleX}px`;
+    box.style.top = `${coordinates.yMin * scaleY}px`;
+    box.style.width = `${(coordinates.xMax - coordinates.xMin) * scaleX}px`;
+    box.style.height = `${(coordinates.yMax - coordinates.yMin) * scaleY}px`;
+    box.title = block.block_content || block.block_label || block.block_id || "";
+
+    const badge = document.createElement("span");
+    badge.className = "order-badge";
+    badge.textContent = `${orderValue(block, index)}`;
+    box.appendChild(badge);
+    overlay.appendChild(box);
+  });
+}
+
+function redrawVisibleOverlays() {
+  els.imageGrid.querySelectorAll(".image-button").forEach((imageButton) => {
+    const img = imageButton.querySelector("img");
+    const imagePath = img?.getAttribute("src");
+    const category = getCurrentCategory();
+    const image = category?.images.find((item) => item.path === imagePath);
+    if (img && image) drawOrderOverlay(imageButton, img, image);
+  });
+}
+
+function closePreview() {
+  if (els.previewDialog.open) {
+    els.previewDialog.close();
+  }
+}
+
+function clearPreviewImage() {
+  els.previewImage.removeAttribute("src");
+  els.previewImage.alt = "";
+}
+
+function render(options = {}) {
+  renderLanguageNav();
+  renderCategoryNav();
+  renderSummary();
+  renderImages(options);
+}
+
+function navigateCategory(offset) {
+  const language = getCurrentLanguage();
+  if (!language || language.categories.length === 0) return;
+
+  const currentIndex = language.categories.findIndex((category) => category.id === state.categoryId);
+  const nextIndex = Math.min(Math.max(currentIndex + offset, 0), language.categories.length - 1);
+  if (nextIndex === currentIndex) return;
+
+  state.categoryId = language.categories[nextIndex].id;
+  render({ resetScroll: true });
+}
+
+function navigateLanguage(offset) {
+  const languages = state.manifest?.languages ?? [];
+  if (languages.length === 0) return;
+
+  const currentIndex = languages.findIndex((language) => language.id === state.languageId);
+  const nextIndex = Math.min(Math.max(currentIndex + offset, 0), languages.length - 1);
+  if (nextIndex === currentIndex) return;
+
+  const language = languages[nextIndex];
+  state.languageId = language.id;
+  state.categoryId = language.categories[0]?.id ?? null;
+  render({ resetScroll: true });
+}
+
+function handleKeyboard(event) {
+  if (els.previewDialog.open) return;
+  if (event.target instanceof Element && event.target.closest("button, dialog")) return;
+
+  if (event.key === "ArrowLeft") {
+    navigateCategory(-1);
+  } else if (event.key === "ArrowRight") {
+    navigateCategory(1);
+  } else if (event.key === "Home") {
+    els.imageGrid.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  } else if (event.key === "[") {
+    navigateLanguage(-1);
+  } else if (event.key === "]") {
+    navigateLanguage(1);
+  }
+}
+
+async function init() {
+  try {
+    const response = await fetch("./data/image_manifest.json", { cache: "no-store" });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    state.manifest = await response.json();
+
+    const firstLanguage = state.manifest.languages.find((language) => language.image_count > 0);
+    state.languageId = firstLanguage?.id ?? state.manifest.languages[0]?.id ?? null;
+    state.categoryId = firstLanguage?.categories[0]?.id ?? null;
+
+    const totalImages = state.manifest.languages.reduce((sum, language) => sum + language.image_count, 0);
+    els.generatedMeta.textContent = `索引生成时间：${state.manifest.generated_at}，共 ${state.manifest.languages.length} 个语种、${totalImages} 张图片。`;
+    render({ resetScroll: true });
+  } catch (error) {
+    els.generatedMeta.textContent = `读取索引失败：${error.message}`;
+    els.currentTitle.textContent = "无法加载 demo";
+    els.currentPath.textContent = "请先运行 scripts/build_image_manifest.py";
+  }
+}
+
+els.closePreview.addEventListener("click", closePreview);
+els.previewDialog.addEventListener("close", clearPreviewImage);
+els.previewDialog.addEventListener("click", (event) => {
+  if (event.target === els.previewDialog) closePreview();
+});
+els.toggleOrderOverlay.addEventListener("click", () => {
+  state.showOrderOverlay = !state.showOrderOverlay;
+  renderSummary();
+  redrawVisibleOverlays();
+});
+window.addEventListener("resize", redrawVisibleOverlays);
+document.addEventListener("keydown", handleKeyboard);
+
+init();

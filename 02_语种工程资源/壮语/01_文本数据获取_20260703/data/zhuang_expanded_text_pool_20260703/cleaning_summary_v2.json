@@ -1,0 +1,21 @@
+{
+  "input_jsonl": "02_语种工程资源/壮语/01_文本数据获取_20260703/data/zhuang_expanded_text_pool_20260703/records_clean.jsonl",
+  "output_jsonl": "02_语种工程资源/壮语/01_文本数据获取_20260703/data/zhuang_expanded_text_pool_20260703/records_clean_v2.jsonl",
+  "input_records": 4307,
+  "output_records": 3603,
+  "dropped_records": 704,
+  "drop_reasons": {
+    "mediawiki_artifact": 228,
+    "english_stopword_density": 265,
+    "german_stopword_density": 117,
+    "obvious_foreign_phrase": 81,
+    "wiki_list_markup": 12,
+    "url_or_domain": 1
+  },
+  "source_counts": {
+    "zawiki_dump_20260702": 3000,
+    "archive_zawiki_pdf_text": 2,
+    "verified_local_labels": 601
+  },
+  "cleaning_policy": "strict_target_script_v2 removes zero-width controls, MediaWiki artifacts, URL/domain fragments, obvious foreign-language stopword-heavy records, and non-target scripts"
+}

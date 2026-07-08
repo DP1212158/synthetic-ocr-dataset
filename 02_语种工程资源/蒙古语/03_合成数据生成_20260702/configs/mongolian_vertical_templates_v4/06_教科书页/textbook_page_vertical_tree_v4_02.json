@@ -1,0 +1,535 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v4",
+  "template_id": "textbook_page_vertical_tree_v4_02",
+  "variant": 2,
+  "category_id": "textbook_page",
+  "category_cn": "教科书页",
+  "folder": "06_教科书页",
+  "template_name_cn": "词汇练习页",
+  "layout_family": "v4_vocab_workbook",
+  "design_prompt": "词汇字段、例句和练习区。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1180,
+    "height": 1500,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical_v4"
+  },
+  "qa_expectations": {
+    "min_blocks": 10,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "chapter_title",
+      "role": "vocab",
+      "class": "title",
+      "box": {
+        "x": 78,
+        "y": 70,
+        "w": 54,
+        "h": 1350
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_label_01",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 180,
+        "y": 100,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_value_01",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 214,
+        "y": 100,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_label_02",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 296,
+        "y": 100,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_value_02",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 330,
+        "y": 100,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_label_03",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 412,
+        "y": 100,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_value_03",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 446,
+        "y": 100,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_label_04",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 528,
+        "y": 100,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_value_04",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 562,
+        "y": 100,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_label_05",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 644,
+        "y": 100,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_value_05",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 678,
+        "y": 100,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_label_06",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 180,
+        "y": 620,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_value_06",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 214,
+        "y": 620,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_label_07",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 296,
+        "y": 620,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_value_07",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 330,
+        "y": 620,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_label_08",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 412,
+        "y": 620,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_value_08",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 446,
+        "y": 620,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_label_09",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 528,
+        "y": 620,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_value_09",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 562,
+        "y": 620,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_label_10",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 644,
+        "y": 620,
+        "w": 28,
+        "h": 260
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "vocab_value_10",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 678,
+        "y": 620,
+        "w": 42,
+        "h": 260
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 6,
+        "max_chars": 24
+      },
+      "visual": {}
+    },
+    {
+      "id": "examples_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 810,
+        "y": 120,
+        "w": 32,
+        "h": 1190
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 66
+      },
+      "visual": {}
+    },
+    {
+      "id": "examples_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 864,
+        "y": 120,
+        "w": 32,
+        "h": 1190
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 66
+      },
+      "visual": {}
+    },
+    {
+      "id": "examples_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 918,
+        "y": 120,
+        "w": 32,
+        "h": 1190
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 66
+      },
+      "visual": {}
+    },
+    {
+      "id": "examples_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 972,
+        "y": 120,
+        "w": 32,
+        "h": 1190
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 66
+      },
+      "visual": {}
+    },
+    {
+      "id": "examples_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 1026,
+        "y": 120,
+        "w": 32,
+        "h": 1190
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 20,
+        "max_chars": 66
+      },
+      "visual": {}
+    }
+  ]
+}

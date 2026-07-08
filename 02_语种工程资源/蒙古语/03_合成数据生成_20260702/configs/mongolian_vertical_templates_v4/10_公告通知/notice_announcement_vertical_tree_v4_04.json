@@ -1,0 +1,415 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v4",
+  "template_id": "notice_announcement_vertical_tree_v4_04",
+  "variant": 4,
+  "category_id": "notice_announcement",
+  "category_cn": "公告通知",
+  "folder": "10_公告通知",
+  "template_name_cn": "公示名单",
+  "layout_family": "v4_public_list",
+  "design_prompt": "名单短项和编号列。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1180,
+    "height": 1500,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical_v4"
+  },
+  "qa_expectations": {
+    "min_blocks": 6,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box note-fill",
+      "box": {
+        "x": 68,
+        "y": 68,
+        "w": 1044,
+        "h": 1364
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "notice_title",
+      "class": "title",
+      "box": {
+        "x": 140,
+        "y": 110,
+        "w": 66,
+        "h": 1250
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 28
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_01",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 260,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_02",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 304,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_03",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 348,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_04",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 392,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_05",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 436,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_06",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 480,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_07",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 524,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_08",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 568,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_09",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 612,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_10",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 656,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_11",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 700,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_12",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 744,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_13",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 788,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_14",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 832,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_15",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 876,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_16",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 920,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_17",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 964,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "public_18",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 1008,
+        "y": 150,
+        "w": 28,
+        "h": 1140
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    }
+  ]
+}

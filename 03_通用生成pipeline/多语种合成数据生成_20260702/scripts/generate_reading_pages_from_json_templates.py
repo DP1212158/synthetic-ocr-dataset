@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+from contextlib import nullcontext
 import datetime as dt
 import html
 import json
@@ -19,6 +20,7 @@ CJK_RE = re.compile(r"[\u3400-\u4dbf\u4e00-\u9fff]")
 TIBETAN_DECORATIVE_MARK_RE = re.compile(r"[\u0f04-\u0f0a\u0f0c\u0f0e-\u0f14\u0f3a-\u0f3d]")
 TIBETAN_SHAD_RE = re.compile(r"\s*།+\s*")
 TIBETAN_RE = re.compile(r"[\u0f00-\u0fff]")
+ZERO_WIDTH_CONTROL_RE = re.compile(r"[\u200b-\u200f\u202a-\u202e\u2060-\u206f]")
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
 THEMES = [
@@ -38,6 +40,7 @@ def esc(text: str) -> str:
 
 
 def cleanse_text(text: str) -> str:
+    text = ZERO_WIDTH_CONTROL_RE.sub("", str(text or ""))
     text = CYRILLIC_RE.sub("", text)
     text = CJK_RE.sub("", text)
     text = TIBETAN_DECORATIVE_MARK_RE.sub(" ", text)
@@ -137,20 +140,45 @@ def fallback_text(label: str) -> str:
     return shared_fallback_text(label)
 
 
+def flow_ctx(b: "Builder", region: str, container: str, role: str = "body"):
+    return b.flow.context(region, container, role) if b.flow else nullcontext()
+
+
 class Builder:
-    def __init__(self, document_id: str):
+    def __init__(self, document_id: str, flow: Any | None = None):
         self.document_id = document_id
         self.counter = 0
+        self.flow = flow
 
     def bid(self) -> str:
         self.counter += 1
         return f"{self.document_id}_b{self.counter:04d}"
 
-    def block(self, label: str, text: str, cls: str, tag: str = "div") -> str:
+    def block(
+        self,
+        label: str,
+        text: str,
+        cls: str,
+        tag: str = "div",
+        flow: str | None = None,
+        ocr_orderable: bool | None = None,
+        caption_of: str | None = None,
+    ) -> str:
         cleaned = cleanse_text(text)
         if not cleaned and label != "image":
             cleaned = fallback_text(label)
-        return f'<{tag} class="{cls}" data-block-id="{self.bid()}" data-label="{label}">{esc(cleaned)}</{tag}>'
+        block_id = self.bid()
+        flow_attrs = ""
+        if self.flow:
+            flow_attrs = self.flow.attrs(
+                block_id,
+                label,
+                cleaned,
+                flow=flow,
+                ocr_orderable=ocr_orderable,
+                caption_of=caption_of,
+            )
+        return f'<{tag} class="{cls}" data-block-id="{block_id}" data-label="{label}" {flow_attrs}>{esc(cleaned)}</{tag}>'
 
 
 def base_css(page: dict[str, Any], theme: dict[str, str], font_family: str, base: int = 21, profile: dict[str, Any] | None = None) -> str:
@@ -181,6 +209,7 @@ def base_css(page: dict[str, Any], theme: dict[str, str], font_family: str, base
 
 
 def wrap(doc: dict[str, Any], body: str, css: str, cls: str) -> str:
+    css = apply_vl9_visual_cleanup(css, doc.get("version_name"))
     return f"""<!doctype html>
 <html lang="{esc(doc['html_lang'])}" dir="{esc(str(doc.get('css_direction', doc.get('writing_direction', 'ltr'))))}">
 <head><meta charset="utf-8"><title>{esc(doc['title'])}</title><style>{css}</style></head>
@@ -207,7 +236,7 @@ def book_renderer(b: Builder, tpl: dict[str, Any], records: list[dict[str, str]]
         reading_map = "".join(f'<section class="reading-map-item">{b.block("metadata", f"{i:02d}", "map-no")}{b.block("note", record_text(records, rng, 34, 72), "small")}</section>' for i in range(1, 9))
         body = f"""<section class="opener"><div>{b.block('metadata', 'Chapter 02', 'chapter-no')}{b.block('document_title', record_title(records, rng, 12, 28), 'opener-title')}{b.block('document_subtitle', record_text(records, rng, 56, 100), 'epigraph')}</div><aside>{notes}</aside></section>
         <section class="opening-text">{para_stack(b, records, rng, 14, 72, 132)}</section><section class="reading-map">{reading_map}</section>{b.block('page_number', '24', 'folio')}"""
-        extra = f""".opener{{display:grid;grid-template-columns:1fr 300px;gap:30px;align-items:end;min-height:310px;border-bottom:3px double {theme['line']};padding-bottom:18px;}}.chapter-no{{font-size:28px;font-weight:900;color:{theme['accent']};}}.opener-title{{font-size:54px;font-weight:900;line-height:1.34;}}.epigraph{{font-size:21px;line-height:1.36;color:{theme['muted']};margin-top:12px;}}.margin-note{{border-left:5px solid {theme['accent']};padding:6px 0 6px 10px;margin-bottom:8px;font-size:15px;line-height:1.36;}}.opening-text{{margin-top:20px;columns:2;column-gap:28px;}}.opening-text .para{{font-size:17px;line-height:1.4;margin-bottom:8px;}}.reading-map{{display:grid;grid-template-columns:1fr 1fr;gap:8px 16px;border-top:1.5px solid {theme['line']};margin-top:18px;padding-top:12px;}}.reading-map-item{{display:grid;grid-template-columns:42px 1fr;gap:8px;border-bottom:1px dotted {theme['line']};padding-bottom:6px;}}.map-no{{font-size:18px;font-weight:900;color:{theme['accent']};}}"""
+        extra = f""".opener{{display:grid;grid-template-columns:1fr 300px;gap:30px;align-items:end;min-height:310px;border-bottom:3px double {theme['line']};padding-bottom:18px;}}.chapter-no{{font-size:28px;font-weight:900;color:{theme['accent']};}}.opener-title{{font-size:54px;font-weight:900;line-height:1.34;}}.epigraph{{font-size:21px;line-height:1.36;color:{theme['muted']};margin-top:12px;}}.margin-note{{padding:6px 0 6px 10px;margin-bottom:8px;font-size:15px;line-height:1.36;color:{theme['muted']};}}.opening-text{{margin-top:20px;columns:2;column-gap:28px;}}.opening-text .para{{font-size:17px;line-height:1.4;margin-bottom:8px;}}.reading-map{{display:grid;grid-template-columns:1fr 1fr;gap:8px 16px;border-top:1.5px solid {theme['line']};margin-top:18px;padding-top:12px;}}.reading-map-item{{display:grid;grid-template-columns:42px 1fr;gap:8px;border-bottom:1px dotted {theme['line']};padding-bottom:6px;}}.map-no{{font-size:18px;font-weight:900;color:{theme['accent']};}}"""
     elif v == 3:
         side_notes = "".join(f'<section class="figure-note">{b.block("metadata", f"{i:02d}", "meta")}{b.block("note", record_text(records, rng, 32, 66), "small")}</section>' for i in range(1, 6))
         followups = "".join(f'<section class="followup">{b.block("section_title", record_title(records, rng, 7, 16), "section-title")}{b.block("paragraph", record_text(records, rng, 48, 92), "small")}</section>' for _ in range(8))
@@ -273,32 +302,66 @@ def magazine_renderer(b: Builder, tpl: dict[str, Any], records: list[dict[str, s
     v = int(tpl["variant"])
     page = tpl["page"]
     if v == 1:
-        shorts = "".join(f'<section class="short-block">{b.block("section_title", record_title(records, rng, 7, 18), "section-title")}{b.block("paragraph", record_text(records, rng, 40, 80), "small")}</section>' for _ in range(12))
-        lower_cards = "".join(
-            f'<section class="feature-card">{b.block("metadata", f"{i:02d}", "card-no")}{b.block("section_title", record_title(records, rng, 7, 18), "section-title")}{b.block("paragraph", record_text(records, rng, 46, 90), "small")}</section>'
-            for i in range(1, 7)
-        )
-        body = f"""<section class="feature-open"><div>{b.block('image', '', 'image-box')}{b.block('caption', record_text(records, rng, 28, 62), 'caption')}{para_stack(b, records, rng, 12, 42, 88, 'small')}</div><main>{b.block('metadata', 'FEATURE', 'mag-label')}{b.block('document_title', record_title(records, rng, 10, 28), 'feature-title')}{b.block('document_subtitle', record_text(records, rng, 70, 130), 'deck')}{shorts}</main></section><section class="feature-bottom">{lower_cards}</section>"""
+        with flow_ctx(b, "article_body", "feature_shorts", "module"):
+            shorts = "".join(f'<section class="short-block">{b.block("section_title", record_title(records, rng, 7, 18), "section-title")}{b.block("paragraph", record_text(records, rng, 40, 80), "small")}</section>' for _ in range(12))
+        with flow_ctx(b, "modules", "feature_bottom", "module"):
+            lower_cards = "".join(
+                f'<section class="feature-card">{b.block("metadata", f"{i:02d}", "card-no")}{b.block("section_title", record_title(records, rng, 7, 18), "section-title")}{b.block("paragraph", record_text(records, rng, 46, 90), "small")}</section>'
+                for i in range(1, 7)
+            )
+        with flow_ctx(b, "lead_media", "feature_visual", "media"):
+            visual = f"{b.block('image', '', 'image-box')}{b.block('caption', record_text(records, rng, 28, 62), 'caption')}{para_stack(b, records, rng, 12, 42, 88, 'small')}"
+        with flow_ctx(b, "feature_head", "feature_head", "title"):
+            head = f"{b.block('metadata', 'FEATURE', 'mag-label')}{b.block('document_title', record_title(records, rng, 10, 28), 'feature-title')}{b.block('document_subtitle', record_text(records, rng, 70, 130), 'deck')}"
+        body = f"""<section class="feature-open"><div>{visual}</div><main>{head}{shorts}</main></section><section class="feature-bottom">{lower_cards}</section>"""
         extra = f""".feature-open{{display:grid;grid-template-columns:500px 1fr;gap:28px;align-items:start;}}.feature-open .image-box{{height:430px;}}.mag-label{{font-size:20px;font-weight:900;color:{theme['accent']};letter-spacing:0;}}.feature-title{{font-size:48px;font-weight:900;line-height:1.32;}}.deck{{font-size:19px;color:{theme['muted']};line-height:1.34;margin:12px 0;}}.short-block{{border-top:2px solid {theme['line']};padding-top:6px;margin-top:7px;}}.short-block .section-title{{font-size:17px;}}.short-block .small,.feature-open div .small{{font-size:13px;line-height:1.28;}}.feature-bottom{{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px;border-top:4px solid {theme['accent']};padding-top:16px}}.feature-card{{border:1.4px solid {theme['line']};background:{theme['soft']};padding:10px;min-height:130px}}.card-no{{font-size:20px;font-weight:900;color:{theme['accent']}}}.feature-card .section-title{{font-size:16px;line-height:1.26}}.feature-card .small{{font-size:13px;line-height:1.28}}"""
     elif v == 2:
-        lines = "".join(b.block("list_item", record_title(records, rng, 8, 22), "cover-line") for _ in range(12))
-        departments = "".join(f'<section class="cover-dept">{b.block("section_title", record_title(records, rng, 6, 14), "section-title")}{b.block("paragraph", record_text(records, rng, 30, 62), "small")}</section>' for _ in range(4))
-        body = f"""<section class="cover-page">{b.block('metadata', '2026 / 07', 'issue')}{b.block('document_title', doc['title'], 'journal-name')}{b.block('image', '', 'cover-visual')}{b.block('document_subtitle', record_title(records, rng, 12, 30), 'cover-title')}<aside>{lines}</aside><section class="cover-depts">{departments}</section></section>"""
+        with flow_ctx(b, "article_body", "cover_lines", "list"):
+            lines = "".join(b.block("list_item", record_title(records, rng, 8, 22), "cover-line") for _ in range(12))
+        with flow_ctx(b, "modules", "cover_departments", "module"):
+            departments = "".join(f'<section class="cover-dept">{b.block("section_title", record_title(records, rng, 6, 14), "section-title")}{b.block("paragraph", record_text(records, rng, 30, 62), "small")}</section>' for _ in range(4))
+        with flow_ctx(b, "cover", "cover_head", "title"):
+            head = f"{b.block('metadata', '2026 / 07', 'issue')}{b.block('document_title', doc['title'], 'journal-name')}"
+        with flow_ctx(b, "lead_media", "cover_visual", "media"):
+            visual = b.block('image', '', 'cover-visual')
+        with flow_ctx(b, "feature_head", "cover_title", "title"):
+            cover_title = b.block('document_subtitle', record_title(records, rng, 12, 30), 'cover-title')
+        body = f"""<section class="cover-page">{head}{visual}{cover_title}<aside>{lines}</aside><section class="cover-depts">{departments}</section></section>"""
         extra = f""".cover-page{{min-height:1280px;border:18px solid {theme['accent']};padding:32px;position:relative;background:{theme['soft']};}}.issue{{text-align:right;font-size:22px;font-weight:900;}}.journal-name{{font-size:48px;font-weight:900;}}.cover-visual{{height:330px;margin:18px 0;background:repeating-linear-gradient(135deg,#d8dedb,#d8dedb 14px,#f9f6ea 14px,#f9f6ea 28px);border:1.5px solid {theme['line']};}}.cover-title{{font-size:46px;font-weight:900;line-height:1.34;}}.cover-line{{font-size:17px;line-height:1.32;border-top:1px solid {theme['line']};padding:7px 0;}}.cover-depts{{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:18px;}}.cover-dept{{border:1px solid {theme['line']};background:rgba(255,255,255,.55);padding:10px;}}.cover-dept .section-title{{font-size:17px;}}.cover-dept .small{{font-size:14px;line-height:1.32;}}"""
     elif v == 3:
-        body = f"""<section class="landscape"><div>{b.block('image', '', 'image-box')}{b.block('caption', record_text(records, rng, 38, 78), 'caption')}</div><article>{b.block('metadata', 'PHOTO ESSAY', 'mag-label')}{b.block('document_title', record_title(records, rng, 10, 26), 'land-title')}<section class="land-cols">{para_stack(b, records, rng, 6, 62, 118)}</section></article></section>"""
+        with flow_ctx(b, "lead_media", "photo_essay_visual", "media"):
+            visual = f"{b.block('image', '', 'image-box')}{b.block('caption', record_text(records, rng, 38, 78), 'caption')}"
+        with flow_ctx(b, "feature_head", "photo_essay_head", "title"):
+            head = f"{b.block('metadata', 'PHOTO ESSAY', 'mag-label')}{b.block('document_title', record_title(records, rng, 10, 26), 'land-title')}"
+        with flow_ctx(b, "article_body", "photo_essay_body", "body"):
+            cols = para_stack(b, records, rng, 6, 62, 118)
+        body = f"""<section class="landscape"><div>{visual}</div><article>{head}<section class="land-cols">{cols}</section></article></section>"""
         extra = f""".page{{padding:48px 54px;}}.landscape{{display:grid;grid-template-columns:650px 1fr;gap:32px;align-items:center;min-height:820px;}}.landscape .image-box{{height:620px;}}.land-title{{font-size:52px;font-weight:900;line-height:1.35;margin:12px 0 18px;}}.land-cols{{columns:2;column-gap:22px;}}.land-cols .para{{font-size:18px;line-height:1.38;}}"""
     elif v == 4:
-        entries = "".join(f'<section class="journal-entry">{b.block("metadata", f"{10+i*3}", "entry-page")}{b.block("section_title", record_title(records, rng, 8, 22), "section-title")}{b.block("paragraph", record_text(records, rng, 34, 74), "small")}</section>' for i in range(18))
-        body = f"""{b.block('document_title', 'Muluq', 'contents-title')}{b.block('metadata', 'Vol. 07', 'meta')}<main class="journal-contents">{entries}</main>"""
+        with flow_ctx(b, "article_body", "journal_contents", "list"):
+            entries = "".join(f'<section class="journal-entry">{b.block("metadata", f"{10+i*3}", "entry-page")}{b.block("section_title", record_title(records, rng, 8, 22), "section-title")}{b.block("paragraph", record_text(records, rng, 34, 74), "small")}</section>' for i in range(18))
+        with flow_ctx(b, "feature_head", "contents_head", "title"):
+            body = f"""{b.block('document_title', 'Muluq', 'contents-title')}{b.block('metadata', 'Vol. 07', 'meta')}<main class="journal-contents">{entries}</main>"""
         extra = f""".contents-title{{font-size:52px;font-weight:900;border-bottom:8px solid {theme['accent']};padding-bottom:12px;}}.journal-contents{{display:grid;grid-template-columns:1fr 1fr;gap:9px 24px;margin-top:18px;}}.journal-entry{{display:grid;grid-template-columns:54px 1fr;gap:8px;border-bottom:1px solid {theme['line']};padding-bottom:7px;}}.journal-entry .section-title{{font-size:17px;}}.journal-entry .small{{font-size:14px;line-height:1.28;}}.entry-page{{font-size:23px;font-weight:900;color:{theme['accent']};grid-row:1/3;}}"""
     elif v == 5:
-        subheads = "".join(f'<section class="side-digest">{b.block("section_title", record_title(records, rng, 6, 14), "section-title")}{b.block("paragraph", record_text(records, rng, 28, 56), "small")}</section>' for _ in range(6))
-        body = f"""<header class="column-head">{b.block('metadata', 'COLUMN', 'mag-label')}{b.block('document_title', record_title(records, rng, 10, 28), 'doc-title')}{b.block('metadata', 'Author / 2026', 'meta')}</header>{b.block('quote', record_text(records, rng, 58, 105), 'pull-quote')}<main class="column-layout"><article class="article-cols">{para_stack(b, records, rng, 38, 58, 112)}</article><aside>{subheads}</aside></main>{b.block('page_number', '64', 'folio')}"""
+        with flow_ctx(b, "sidebar", "column_side_digest", "sidebar"):
+            subheads = "".join(f'<section class="side-digest">{b.block("section_title", record_title(records, rng, 6, 14), "section-title")}{b.block("paragraph", record_text(records, rng, 28, 56), "small")}</section>' for _ in range(6))
+        with flow_ctx(b, "feature_head", "column_head", "title"):
+            head = f"""<header class="column-head">{b.block('metadata', 'COLUMN', 'mag-label')}{b.block('document_title', record_title(records, rng, 10, 28), 'doc-title')}{b.block('metadata', 'Author / 2026', 'meta')}</header>{b.block('quote', record_text(records, rng, 58, 105), 'pull-quote')}"""
+        with flow_ctx(b, "article_body", "column_body", "body"):
+            article = para_stack(b, records, rng, 38, 58, 112)
+        with flow_ctx(b, "footer", "folio", "page_number"):
+            folio = b.block('page_number', '64', 'folio')
+        body = f"""{head}<main class="column-layout"><article class="article-cols">{article}</article><aside>{subheads}</aside></main>{folio}"""
         extra = f""".column-head{{text-align:center;border-bottom:3px double {theme['line']};padding-bottom:14px;}}.pull-quote{{font-size:24px;line-height:1.34;color:{theme['accent']};border-left:10px solid {theme['accent']};padding:10px 16px;margin:14px 40px;background:{theme['soft']};}}.column-layout{{display:grid;grid-template-columns:1fr 245px;gap:18px;}}.article-cols{{columns:2;column-gap:20px;}}.article-cols .para{{font-size:15px;line-height:1.3;margin-bottom:5px;}}.side-digest{{border-top:2px solid {theme['accent']};padding-top:7px;margin-bottom:10px;}}.side-digest .section-title{{font-size:15px;}}.side-digest .small{{font-size:12px;line-height:1.22;}}"""
     else:
-        modules = "".join(f'<section class="module m{i}">{b.block("section_title", record_title(records, rng, 7, 18), "section-title")}{b.block("paragraph", record_text(records, rng, 34, 78), "small")}{b.block("metadata", "No " + str(i), "meta")}</section>' for i in range(1, 13))
-        body = f"""<header class="module-head">{b.block('document_title', doc['title'], 'doc-title')}{b.block('metadata', 'INFO MIX', 'mag-label')}</header><main class="modules">{b.block('image', '', 'visual-block')}{modules}</main>"""
+        with flow_ctx(b, "modules", "info_modules", "module"):
+            modules = "".join(f'<section class="module m{i}">{b.block("section_title", record_title(records, rng, 7, 18), "section-title")}{b.block("paragraph", record_text(records, rng, 34, 78), "small")}{b.block("metadata", "No " + str(i), "meta")}</section>' for i in range(1, 13))
+        with flow_ctx(b, "feature_head", "module_head", "title"):
+            head = f"""<header class="module-head">{b.block('document_title', doc['title'], 'doc-title')}{b.block('metadata', 'INFO MIX', 'mag-label')}</header>"""
+        with flow_ctx(b, "lead_media", "module_visual", "media"):
+            visual = b.block('image', '', 'visual-block')
+        body = f"""{head}<main class="modules">{visual}{modules}</main>"""
         extra = f""".module-head{{display:flex;justify-content:space-between;align-items:end;border-bottom:3px solid {theme['line']};padding-bottom:14px;}}.modules{{display:grid;grid-template-columns:1.2fr 1fr 1fr;grid-auto-rows:minmax(128px,auto);gap:12px;margin-top:18px;}}.visual-block{{grid-row:span 2;min-height:290px;background:repeating-linear-gradient(135deg,#dfe3de,#dfe3de 12px,#f5efe6 12px,#f5efe6 24px);border:1.5px solid {theme['line']};}}.module{{border:1.4px solid {theme['line']};background:{theme['soft']};padding:11px;}}.module .section-title{{font-size:17px;}}.module .small{{font-size:14px;line-height:1.28;}}.m4,.m9{{grid-column:span 2;}}"""
     return wrap(doc, body, base_css(page, theme, doc["font_family"], 21, doc) + extra, "magazine-page")
 
@@ -351,6 +414,8 @@ from synthetic_text_utils import (  # noqa: E402
     select_span,
     vertical_css as shared_vertical_css,
 )
+from reading_flow_v1 import FlowPlanner, write_template_flow_plan  # noqa: E402
+from vl9_visual_style import apply_vl9_visual_cleanup  # noqa: E402
 
 
 def main() -> int:
@@ -383,10 +448,10 @@ def main() -> int:
         reset_category_dir(folder)
         renderer = RENDERERS[category_id]
         html_manifest = []
+        flow_plans = []
         for tpl in cat["templates"]:
             variant = int(tpl["variant"])
             document_id = f"{args.start_index + offset:02d}_{category_id}_json_{variant:02d}"
-            b = Builder(document_id)
             theme = THEMES[(offset + variant - 1) % len(THEMES)]
             doc = {
                 "document_id": document_id,
@@ -397,9 +462,13 @@ def main() -> int:
                     "css_writing_mode": profile.get("css_writing_mode", "horizontal-tb"),
                     "writing_direction": profile.get("writing_direction", "ltr"),
                 "template_id": tpl["template_id"],
+                "version_name": version_name,
             }
+            flow = FlowPlanner(document_id, category_id, variant, doc["writing_direction"])
+            b = Builder(document_id, flow)
             html_text = renderer(b, tpl, records, rng, doc, theme)
             (folder / "html" / f"{document_id}.html").write_text(html_text, encoding="utf-8")
+            flow_plans.append(flow.plan())
             page = tpl["page"]
             html_manifest.append(
                 {
@@ -424,11 +493,13 @@ def main() -> int:
                     "created_at": now_local(),
                     "source_records": [],
                     "content_density": tpl.get("content_density"),
+                    "reading_order_policy": "template_flow_v1",
                 }
             )
         write_json(folder / "metadata" / "html_manifest.json", html_manifest)
         write_json(folder / "metadata" / "category_plan.json", [{"category": category_id, "category_cn": category_cn, "samples": 6}])
         write_json(folder / "metadata" / "reading_pages_template_spec.json", {"category": cat, "source_schema": spec["schema_version"]})
+        write_template_flow_plan(folder, flow_plans)
         (folder / "README.md").write_text(
             f"# {args.start_index + offset:02d} {category_cn}\n\n本目录属于壮语 `{version_name}`，由阅读型页面 JSON 结构树生成，共 6 张。\n\n- `html/`\n- `images/`\n- `labels/`\n- `metadata/`\n- `reports/`\n",
             encoding="utf-8",

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>多语种合成图片浏览 Demo</title>
+    <link rel="stylesheet" href="./assets/demo.css?v=20260708_vl7" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <h1>多语种合成图片浏览</h1>
+          <p id="generatedMeta">正在读取图片索引...</p>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <aside class="sidebar" aria-label="图片筛选">
+          <section class="nav-section">
+            <div class="section-label">语种</div>
+            <div id="languageNav" class="button-list"></div>
+          </section>
+          <section class="nav-section">
+            <div class="section-label">数据类型</div>
+            <div id="categoryNav" class="button-list compact"></div>
+          </section>
+        </aside>
+
+        <section class="content">
+          <div class="summary-panel">
+            <div>
+              <div class="eyebrow">当前查看</div>
+              <h2 id="currentTitle">-</h2>
+              <p id="currentPath">-</p>
+            </div>
+            <div class="summary-side">
+              <div class="stat-grid">
+                <div class="stat">
+                  <span>版本</span>
+                  <strong id="versionStat">-</strong>
+                </div>
+                <div class="stat">
+                  <span>类别图片</span>
+                  <strong id="categoryStat">-</strong>
+                </div>
+                <div class="stat">
+                  <span>语种总数</span>
+                  <strong id="languageStat">-</strong>
+                </div>
+              </div>
+              <button id="toggleOrderOverlay" type="button" class="ghost-button">显示顺序</button>
+            </div>
+          </div>
+
+          <div id="imageGrid" class="image-grid" aria-live="polite"></div>
+        </section>
+      </main>
+    </div>
+
+    <dialog id="previewDialog" class="preview-dialog">
+      <div class="preview-toolbar">
+        <div>
+          <strong id="previewName"></strong>
+          <span id="previewPath"></span>
+        </div>
+        <button id="closePreview" type="button" class="ghost-button">关闭</button>
+      </div>
+      <img id="previewImage" alt="" />
+    </dialog>
+
+    <script src="./assets/demo.js?v=20260708_vl7_orderfix"></script>
+  </body>
+</html>

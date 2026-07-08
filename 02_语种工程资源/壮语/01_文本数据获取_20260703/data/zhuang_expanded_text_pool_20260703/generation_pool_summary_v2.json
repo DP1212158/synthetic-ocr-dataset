@@ -1,0 +1,14 @@
+{
+  "input_jsonl": "02_语种工程资源/壮语/01_文本数据获取_20260703/data/zhuang_expanded_text_pool_20260703/records_clean_v2.jsonl",
+  "output_jsonl": "02_语种工程资源/壮语/01_文本数据获取_20260703/data/zhuang_expanded_text_pool_20260703/records_generation_v2.jsonl",
+  "output_records": 2365,
+  "reserved_or_dropped": {
+    "short_body_record": 637,
+    "verified_local_labels_reserved_not_generation_body": 601
+  },
+  "source_counts": {
+    "zawiki_dump_20260702": 2363,
+    "archive_zawiki_pdf_text": 2
+  },
+  "policy": "Use long readable body records from Zhuang wiki/archive for VL3_zhuang_expanded_v2 generation; keep local verified OCR labels as provenance/reference pool but not primary body source."
+}

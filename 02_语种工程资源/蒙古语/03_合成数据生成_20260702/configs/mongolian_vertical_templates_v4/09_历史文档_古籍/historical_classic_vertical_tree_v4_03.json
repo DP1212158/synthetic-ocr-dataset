@@ -1,0 +1,321 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v4",
+  "template_id": "historical_classic_vertical_tree_v4_03",
+  "variant": 3,
+  "category_id": "historical_classic",
+  "category_cn": "历史文档_古籍",
+  "folder": "09_历史文档_古籍",
+  "template_name_cn": "档案记录页",
+  "layout_family": "v4_archive_record",
+  "design_prompt": "编号、正文、章印和附件栏。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1080,
+    "height": 1520,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical_v4"
+  },
+  "qa_expectations": {
+    "min_blocks": 10,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "outer",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box",
+      "box": {
+        "x": 44,
+        "y": 44,
+        "w": 992,
+        "h": 1432
+      },
+      "visual": {}
+    },
+    {
+      "id": "meta",
+      "kind": "text",
+      "label": "metadata",
+      "role": "classic_meta",
+      "class": "tiny",
+      "box": {
+        "x": 86,
+        "y": 86,
+        "w": 34,
+        "h": 1340
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 16
+      },
+      "visual": {}
+    },
+    {
+      "id": "serial",
+      "kind": "text",
+      "label": "metadata",
+      "role": "serial",
+      "class": "tiny",
+      "box": {
+        "x": 150,
+        "y": 100,
+        "w": 28,
+        "h": 1280
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 24,
+        "max_chars": 96,
+        "value": "20260702"
+      },
+      "visual": {}
+    },
+    {
+      "id": "record_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 220,
+        "y": 110,
+        "w": 36,
+        "h": 1190
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "record_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 284,
+        "y": 110,
+        "w": 36,
+        "h": 1190
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "record_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 348,
+        "y": 110,
+        "w": 36,
+        "h": 1190
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "record_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 412,
+        "y": 110,
+        "w": 36,
+        "h": 1190
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "record_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 476,
+        "y": 110,
+        "w": 36,
+        "h": 1190
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "record_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 540,
+        "y": 110,
+        "w": 36,
+        "h": 1190
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "record_07",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 604,
+        "y": 110,
+        "w": 36,
+        "h": 1190
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "record_08",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 668,
+        "y": 110,
+        "w": 36,
+        "h": 1190
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "record_09",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 732,
+        "y": 110,
+        "w": 36,
+        "h": 1190
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "record_10",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 796,
+        "y": 110,
+        "w": 36,
+        "h": 1190
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "record_11",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 860,
+        "y": 110,
+        "w": 36,
+        "h": 1190
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 24,
+        "max_chars": 76
+      },
+      "visual": {}
+    },
+    {
+      "id": "seal",
+      "kind": "text",
+      "label": "seal",
+      "role": "seal",
+      "class": "subtitle stamp",
+      "box": {
+        "x": 890,
+        "y": 780,
+        "w": 106,
+        "h": 106
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 10
+      },
+      "visual": {}
+    }
+  ]
+}

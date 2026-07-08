@@ -1,0 +1,12 @@
+{
+  "name": "synthetic-ocr-delivery",
+  "private": true,
+  "scripts": {
+    "install-browsers": "playwright install chromium",
+    "install-browser-deps": "playwright install-deps chromium",
+    "demo": "python3 -m http.server 8766"
+  },
+  "dependencies": {
+    "playwright": "^1.45.0"
+  }
+}
