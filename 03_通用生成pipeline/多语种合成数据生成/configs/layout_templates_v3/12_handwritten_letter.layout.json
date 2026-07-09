@@ -1,0 +1,1242 @@
+{
+  "schema_version": "category_layout_tree.v3",
+  "category_index": 12,
+  "category_id": "handwritten_letter",
+  "category_cn": "手写笔记信件",
+  "shared_constraints": {
+    "required_labels": [
+      "paragraph",
+      "metadata"
+    ],
+    "min_ocr_blocks": 6,
+    "qa": {
+      "reading_order_explicit": true,
+      "overflow_blocks": 0
+    }
+  },
+  "variants": [
+    {
+      "variant": 1,
+      "template_id": "handwritten_letter_v3_01",
+      "template_name_cn": "私人信件",
+      "layout_family": "personal_letter",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1650,
+        "orientation": "portrait",
+        "background": "cream_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fdfaf0",
+        "ink": "#26324a",
+        "line": "#c9b48c"
+      },
+      "regions": [
+        {
+          "id": "letter",
+          "order": 1,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 170
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 170
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 60,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "letter",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 2,
+      "template_id": "handwritten_letter_v3_02",
+      "template_name_cn": "感谢信",
+      "layout_family": "thank_you_letter",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1600,
+        "orientation": "portrait",
+        "background": "cream_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fbf7ea",
+        "ink": "#222018",
+        "line": "#cbb98f"
+      },
+      "regions": [
+        {
+          "id": "letter",
+          "order": 1,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 170
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 170
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 60,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 50,
+            "max_chars": 130
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "letter",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 3,
+      "template_id": "handwritten_letter_v3_03",
+      "template_name_cn": "日记页",
+      "layout_family": "diary_page",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1700,
+        "orientation": "portrait",
+        "background": "cream_paper"
+      },
+      "tight_crop": true,
+      "preserve_full_page": true,
+      "style_tokens": {
+        "paper": "#fdfbf2",
+        "ink": "#2a2a33",
+        "line": "#c7cdd6"
+      },
+      "regions": [
+        {
+          "id": "diary",
+          "order": 1,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "diary",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "diary",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "diary",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 180
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "diary",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 180
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "diary",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "diary",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 60,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "diary",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 4,
+      "template_id": "handwritten_letter_v3_04",
+      "template_name_cn": "读书笔记摘抄",
+      "layout_family": "study_excerpt_notes",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1700,
+        "orientation": "portrait",
+        "background": "cream_paper"
+      },
+      "tight_crop": true,
+      "preserve_full_page": true,
+      "style_tokens": {
+        "paper": "#fcfaf1",
+        "ink": "#22252b",
+        "line": "#c9cdd4"
+      },
+      "regions": [
+        {
+          "id": "notes",
+          "order": 1,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "notes",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "notes",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "notes",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "notes",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "notes",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 60,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "notes",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 60,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "notes",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 8,
+            "max_chars": 30
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 5,
+      "template_id": "handwritten_letter_v3_05",
+      "template_name_cn": "便条备忘",
+      "layout_family": "memo_note",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1180,
+        "height": 1450,
+        "orientation": "portrait",
+        "background": "warm_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fdf6e6",
+        "ink": "#2b2b2b",
+        "line": "#d8c69a"
+      },
+      "regions": [
+        {
+          "id": "memo",
+          "order": 1,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "memo",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "memo",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "memo",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 40,
+            "max_chars": 110
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "memo",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 40,
+            "max_chars": 110
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "memo",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 40,
+            "max_chars": 110
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "memo",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 40,
+            "max_chars": 110
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "memo",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 6,
+      "template_id": "handwritten_letter_v3_06",
+      "template_name_cn": "问候便笺",
+      "layout_family": "greeting_note",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1500,
+        "orientation": "portrait",
+        "background": "cream_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fbf6ec",
+        "ink": "#27303f",
+        "line": "#ccb98d"
+      },
+      "regions": [
+        {
+          "id": "letter",
+          "order": 1,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 60,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 60,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 50,
+            "max_chars": 130
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "letter",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 7,
+      "template_id": "handwritten_letter_v3_p01",
+      "template_name_cn": "竖版私人信件",
+      "layout_family": "portrait_personal_letter",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 538,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "cream_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fdfaf0",
+        "ink": "#26324a",
+        "line": "#c9b48c"
+      },
+      "regions": [
+        {
+          "id": "letter",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 85,
+            "max_chars": 145
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 85,
+            "max_chars": 145
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "letter",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        }
+      ],
+      "orientation": "portrait"
+    },
+    {
+      "variant": 8,
+      "template_id": "handwritten_letter_v3_p02",
+      "template_name_cn": "竖版日记随笔",
+      "layout_family": "portrait_diary",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 566,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "cream_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fdfaf0",
+        "ink": "#26324a",
+        "line": "#c9b48c"
+      },
+      "regions": [
+        {
+          "id": "letter",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "letter",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 85,
+            "max_chars": 145
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 85,
+            "max_chars": 145
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "letter",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 85,
+            "max_chars": 145
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        }
+      ],
+      "orientation": "portrait"
+    },
+    {
+      "variant": 9,
+      "template_id": "handwritten_letter_v3_p03",
+      "template_name_cn": "竖版读书笔记",
+      "layout_family": "portrait_reading_notes",
+      "complexity": "C",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 582,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "cream_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fdfaf0",
+        "ink": "#26324a",
+        "line": "#c9b48c"
+      },
+      "regions": [
+        {
+          "id": "letter",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "letter",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 85,
+            "max_chars": 145
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "letter",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 85,
+            "max_chars": 145
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "letter",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 85,
+            "max_chars": 145
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "letter",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        }
+      ],
+      "orientation": "portrait"
+    }
+  ]
+}

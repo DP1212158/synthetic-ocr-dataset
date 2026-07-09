@@ -1,0 +1,131 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v4",
+  "template_id": "sign_poster_scene_vertical_tree_v4_06",
+  "variant": 6,
+  "category_id": "sign_poster_scene",
+  "category_cn": "标牌海报场景",
+  "folder": "04_标牌海报场景",
+  "template_name_cn": "警示提示牌",
+  "layout_family": "v4_warning_sign",
+  "design_prompt": "少量大字、重点提示和边框。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 900,
+    "height": 1180,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical_v4"
+  },
+  "qa_expectations": {
+    "min_blocks": 5,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "warning",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box urgent-fill",
+      "box": {
+        "x": 80,
+        "y": 80,
+        "w": 740,
+        "h": 1020
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "warning_title",
+      "class": "title",
+      "box": {
+        "x": 190,
+        "y": 140,
+        "w": 92,
+        "h": 880
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "message",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "warning_message",
+      "class": "subtitle",
+      "box": {
+        "x": 390,
+        "y": 160,
+        "w": 58,
+        "h": 820
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 15,
+        "max_chars": 17
+      },
+      "visual": {}
+    },
+    {
+      "id": "detail",
+      "kind": "text",
+      "label": "note",
+      "role": "warning_detail",
+      "class": "small",
+      "box": {
+        "x": 545,
+        "y": 180,
+        "w": 38,
+        "h": 760
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 33
+      },
+      "visual": {}
+    },
+    {
+      "id": "meta",
+      "kind": "text",
+      "label": "metadata",
+      "role": "warning_meta",
+      "class": "tiny",
+      "box": {
+        "x": 640,
+        "y": 190,
+        "w": 30,
+        "h": 720
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 24,
+        "max_chars": 96,
+        "value": "2026"
+      },
+      "visual": {}
+    }
+  ]
+}

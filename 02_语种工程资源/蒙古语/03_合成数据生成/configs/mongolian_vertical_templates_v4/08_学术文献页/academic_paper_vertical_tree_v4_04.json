@@ -1,0 +1,327 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v4",
+  "template_id": "academic_paper_vertical_tree_v4_04",
+  "variant": 4,
+  "category_id": "academic_paper",
+  "category_cn": "学术文献页",
+  "folder": "08_学术文献页",
+  "template_name_cn": "摘要关键词页",
+  "layout_family": "v4_academic_abstract",
+  "design_prompt": "摘要、关键词与引言竖栏。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1280,
+    "height": 1900,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical_v4"
+  },
+  "qa_expectations": {
+    "min_blocks": 12,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "meta",
+      "kind": "text",
+      "label": "metadata",
+      "role": "meta",
+      "class": "tiny",
+      "box": {
+        "x": 58,
+        "y": 66,
+        "w": 34,
+        "h": 1760
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 50,
+        "max_chars": 84
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 1
+      }
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "paper_title",
+      "class": "title",
+      "box": {
+        "x": 110,
+        "y": 62,
+        "w": 60,
+        "h": 1768
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 19,
+        "max_chars": 32
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 2
+      }
+    },
+    {
+      "id": "abstract_t",
+      "kind": "text",
+      "label": "section_title",
+      "role": "abstract",
+      "class": "subtitle",
+      "box": {
+        "x": 196,
+        "y": 72,
+        "w": 40,
+        "h": 1591
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 25,
+        "max_chars": 41
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 3
+      }
+    },
+    {
+      "id": "abstract_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "abstract_body",
+      "class": "body",
+      "box": {
+        "x": 260,
+        "y": 68,
+        "w": 76,
+        "h": 1756
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 66,
+        "max_chars": 109
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 4
+      }
+    },
+    {
+      "id": "abstract_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "abstract_body",
+      "class": "body",
+      "box": {
+        "x": 354,
+        "y": 68,
+        "w": 76,
+        "h": 1756
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 66,
+        "max_chars": 109
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 5
+      }
+    },
+    {
+      "id": "abstract_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "abstract_body",
+      "class": "body",
+      "box": {
+        "x": 448,
+        "y": 68,
+        "w": 76,
+        "h": 1756
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 66,
+        "max_chars": 109
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 6
+      }
+    },
+    {
+      "id": "body_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 542,
+        "y": 68,
+        "w": 76,
+        "h": 1756
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 66,
+        "max_chars": 109
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 7
+      }
+    },
+    {
+      "id": "body_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 636,
+        "y": 68,
+        "w": 76,
+        "h": 1756
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 66,
+        "max_chars": 109
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 8
+      }
+    },
+    {
+      "id": "body_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 730,
+        "y": 68,
+        "w": 76,
+        "h": 1756
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 66,
+        "max_chars": 109
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 9
+      }
+    },
+    {
+      "id": "body_07",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 824,
+        "y": 68,
+        "w": 76,
+        "h": 1756
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 66,
+        "max_chars": 109
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 10
+      }
+    },
+    {
+      "id": "body_08",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 918,
+        "y": 68,
+        "w": 76,
+        "h": 1756
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 66,
+        "max_chars": 109
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 11
+      }
+    },
+    {
+      "id": "body_09",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 1012,
+        "y": 68,
+        "w": 76,
+        "h": 1756
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 66,
+        "max_chars": 109
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 12
+      }
+    },
+    {
+      "id": "body_10",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 1106,
+        "y": 68,
+        "w": 76,
+        "h": 1756
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 66,
+        "max_chars": 109
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 13
+      }
+    }
+  ]
+}

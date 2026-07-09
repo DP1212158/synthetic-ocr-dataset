@@ -1,0 +1,1464 @@
+{
+  "schema_version": "category_layout_tree.v3",
+  "category_index": 10,
+  "category_id": "notice_announcement",
+  "category_cn": "公告通知",
+  "shared_constraints": {
+    "required_labels": [
+      "document_title",
+      "paragraph"
+    ],
+    "min_ocr_blocks": 8,
+    "qa": {
+      "reading_order_explicit": true,
+      "overflow_blocks": 0
+    }
+  },
+  "variants": [
+    {
+      "variant": 1,
+      "template_id": "notice_announcement_v3_01",
+      "template_name_cn": "正式通知单栏",
+      "layout_family": "single_column_formal_notice",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1600,
+        "orientation": "portrait",
+        "background": "clean_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fdfdfb",
+        "ink": "#141414",
+        "line": "#8f2f2f"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "sign",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 10,
+            "max_chars": 34
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 200
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 200
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 200
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 60,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 2,
+      "template_id": "notice_announcement_v3_02",
+      "template_name_cn": "决定决议单栏",
+      "layout_family": "single_column_resolution",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1700,
+        "orientation": "portrait",
+        "background": "clean_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fdfdfb",
+        "ink": "#141414",
+        "line": "#8f2f2f"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "sign",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 10,
+            "max_chars": 34
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 180
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 180
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 180
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 3,
+      "template_id": "notice_announcement_v3_03",
+      "template_name_cn": "通告条款单栏",
+      "layout_family": "single_column_public_announcement",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1700,
+        "orientation": "portrait",
+        "background": "clean_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fdfdfb",
+        "ink": "#141414",
+        "line": "#8f2f2f"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "sign",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 8,
+            "max_chars": 30
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 18,
+            "max_chars": 60
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 18,
+            "max_chars": 60
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 18,
+            "max_chars": 60
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 18,
+            "max_chars": 60
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 40,
+            "max_chars": 120
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 4,
+      "template_id": "notice_announcement_v3_04",
+      "template_name_cn": "公示单栏",
+      "layout_family": "single_column_public_notice",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1600,
+        "orientation": "portrait",
+        "background": "clean_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fdfdfb",
+        "ink": "#141414",
+        "line": "#8f2f2f"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "sign",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 180
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 16,
+            "max_chars": 54
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 16,
+            "max_chars": 54
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 50,
+            "max_chars": 130
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 5,
+      "template_id": "notice_announcement_v3_05",
+      "template_name_cn": "会议通知单栏",
+      "layout_family": "single_column_meeting_notice",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1600,
+        "orientation": "portrait",
+        "background": "clean_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fdfdfb",
+        "ink": "#141414",
+        "line": "#8f2f2f"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "sign",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 10,
+            "max_chars": 32
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 14,
+            "max_chars": 48
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 14,
+            "max_chars": 48
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 14,
+            "max_chars": 48
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 50,
+            "max_chars": 130
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 6,
+      "template_id": "notice_announcement_v3_06",
+      "template_name_cn": "公告附表页",
+      "layout_family": "notice_with_table",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1700,
+        "orientation": "portrait",
+        "background": "clean_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fdfdfb",
+        "ink": "#141414",
+        "line": "#8f2f2f"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "table",
+          "order": 3,
+          "layout": "columns",
+          "columns": 3,
+          "flow": "table",
+          "gap": 24
+        },
+        {
+          "id": "sign",
+          "order": 4,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 10,
+            "max_chars": 32
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "table",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "table",
+          "column": 1,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "table",
+          "column": 2,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "table",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "table",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "table",
+          "column": 2,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "table",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "table",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "table",
+          "column": 2,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 14,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 7,
+      "template_id": "notice_announcement_v3_p01",
+      "template_name_cn": "竖版正式通知",
+      "layout_family": "portrait_formal_notice",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 380,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "clean_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fdfdfb",
+        "ink": "#141414",
+        "line": "#8f2f2f"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack",
+          "columns": 1
+        },
+        {
+          "id": "sign",
+          "order": 3,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 10,
+            "max_chars": 34
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 95,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 95,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 95,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "portrait"
+    },
+    {
+      "variant": 8,
+      "template_id": "notice_announcement_v3_p02",
+      "template_name_cn": "竖版决定决议",
+      "layout_family": "portrait_resolution",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 420,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "clean_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fdfdfb",
+        "ink": "#141414",
+        "line": "#8f2f2f"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack",
+          "columns": 1
+        },
+        {
+          "id": "sign",
+          "order": 3,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 10,
+            "max_chars": 34
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 95,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 95,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 95,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "portrait"
+    },
+    {
+      "variant": 9,
+      "template_id": "notice_announcement_v3_p03",
+      "template_name_cn": "竖版公示通告",
+      "layout_family": "portrait_public_announcement",
+      "complexity": "C",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 420,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "clean_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fdfdfb",
+        "ink": "#141414",
+        "line": "#8f2f2f"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack",
+          "columns": 1
+        },
+        {
+          "id": "sign",
+          "order": 3,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 10,
+            "max_chars": 34
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 95,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 95,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 95,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "sign",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "portrait"
+    }
+  ]
+}

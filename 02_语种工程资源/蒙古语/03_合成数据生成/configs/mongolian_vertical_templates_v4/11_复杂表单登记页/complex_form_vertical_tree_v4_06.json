@@ -1,0 +1,1396 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v4",
+  "template_id": "complex_form_vertical_tree_v4_06",
+  "variant": 6,
+  "category_id": "complex_form",
+  "category_cn": "复杂表单登记页",
+  "folder": "11_复杂表单登记页",
+  "template_name_cn": "业务受理表",
+  "layout_family": "v4_service_intake_form",
+  "design_prompt": "受理字段对、备注与签章区。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1300,
+    "height": 1960,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical_v4"
+  },
+  "qa_expectations": {
+    "min_blocks": 60,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "outer",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box",
+      "box": {
+        "x": 48,
+        "y": 48,
+        "w": 1204,
+        "h": 1864
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "form_title",
+      "class": "title",
+      "box": {
+        "x": 66,
+        "y": 78,
+        "w": 60,
+        "h": 1802
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 20,
+        "max_chars": 33
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 1
+      }
+    },
+    {
+      "id": "field_label_01",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 150,
+        "y": 84,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 2
+      }
+    },
+    {
+      "id": "field_value_01",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 184,
+        "y": 84,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 5
+      }
+    },
+    {
+      "id": "field_label_02",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 250,
+        "y": 84,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 8
+      }
+    },
+    {
+      "id": "field_value_02",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 284,
+        "y": 84,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 11
+      }
+    },
+    {
+      "id": "field_label_03",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 350,
+        "y": 84,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 14
+      }
+    },
+    {
+      "id": "field_value_03",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 384,
+        "y": 84,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 17
+      }
+    },
+    {
+      "id": "field_label_04",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 450,
+        "y": 84,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 20
+      }
+    },
+    {
+      "id": "field_value_04",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 484,
+        "y": 84,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 23
+      }
+    },
+    {
+      "id": "field_label_05",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 550,
+        "y": 84,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 26
+      }
+    },
+    {
+      "id": "field_value_05",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 584,
+        "y": 84,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 29
+      }
+    },
+    {
+      "id": "field_label_06",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 650,
+        "y": 84,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 32
+      }
+    },
+    {
+      "id": "field_value_06",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 684,
+        "y": 84,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 35
+      }
+    },
+    {
+      "id": "field_label_07",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 750,
+        "y": 84,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 38
+      }
+    },
+    {
+      "id": "field_value_07",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 784,
+        "y": 84,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 41
+      }
+    },
+    {
+      "id": "field_label_08",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 850,
+        "y": 84,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 44
+      }
+    },
+    {
+      "id": "field_value_08",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 884,
+        "y": 84,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 47
+      }
+    },
+    {
+      "id": "field_label_09",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 950,
+        "y": 84,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 50
+      }
+    },
+    {
+      "id": "field_value_09",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 984,
+        "y": 84,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 53
+      }
+    },
+    {
+      "id": "field_label_10",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 1050,
+        "y": 84,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 56
+      }
+    },
+    {
+      "id": "field_value_10",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 1084,
+        "y": 84,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 59
+      }
+    },
+    {
+      "id": "field_label_11",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 150,
+        "y": 679,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 3
+      }
+    },
+    {
+      "id": "field_value_11",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 184,
+        "y": 679,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 6
+      }
+    },
+    {
+      "id": "field_label_12",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 250,
+        "y": 679,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 9
+      }
+    },
+    {
+      "id": "field_value_12",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 284,
+        "y": 679,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 12
+      }
+    },
+    {
+      "id": "field_label_13",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 350,
+        "y": 679,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 15
+      }
+    },
+    {
+      "id": "field_value_13",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 384,
+        "y": 679,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 18
+      }
+    },
+    {
+      "id": "field_label_14",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 450,
+        "y": 679,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 21
+      }
+    },
+    {
+      "id": "field_value_14",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 484,
+        "y": 679,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 24
+      }
+    },
+    {
+      "id": "field_label_15",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 550,
+        "y": 679,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 27
+      }
+    },
+    {
+      "id": "field_value_15",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 584,
+        "y": 679,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 30
+      }
+    },
+    {
+      "id": "field_label_16",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 650,
+        "y": 679,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 33
+      }
+    },
+    {
+      "id": "field_value_16",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 684,
+        "y": 679,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 36
+      }
+    },
+    {
+      "id": "field_label_17",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 750,
+        "y": 679,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 39
+      }
+    },
+    {
+      "id": "field_value_17",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 784,
+        "y": 679,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 42
+      }
+    },
+    {
+      "id": "field_label_18",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 850,
+        "y": 679,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 45
+      }
+    },
+    {
+      "id": "field_value_18",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 884,
+        "y": 679,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 48
+      }
+    },
+    {
+      "id": "field_label_19",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 950,
+        "y": 679,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 51
+      }
+    },
+    {
+      "id": "field_value_19",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 984,
+        "y": 679,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 54
+      }
+    },
+    {
+      "id": "field_label_20",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 1050,
+        "y": 679,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 57
+      }
+    },
+    {
+      "id": "field_value_20",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 1084,
+        "y": 679,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 60
+      }
+    },
+    {
+      "id": "field_label_21",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 150,
+        "y": 1274,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 4
+      }
+    },
+    {
+      "id": "field_value_21",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 184,
+        "y": 1274,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 7
+      }
+    },
+    {
+      "id": "field_label_22",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 250,
+        "y": 1274,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 10
+      }
+    },
+    {
+      "id": "field_value_22",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 284,
+        "y": 1274,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 13
+      }
+    },
+    {
+      "id": "field_label_23",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 350,
+        "y": 1274,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 16
+      }
+    },
+    {
+      "id": "field_value_23",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 384,
+        "y": 1274,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 19
+      }
+    },
+    {
+      "id": "field_label_24",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 450,
+        "y": 1274,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 22
+      }
+    },
+    {
+      "id": "field_value_24",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 484,
+        "y": 1274,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 25
+      }
+    },
+    {
+      "id": "field_label_25",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 550,
+        "y": 1274,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 28
+      }
+    },
+    {
+      "id": "field_value_25",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 584,
+        "y": 1274,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 31
+      }
+    },
+    {
+      "id": "field_label_26",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 650,
+        "y": 1274,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 34
+      }
+    },
+    {
+      "id": "field_value_26",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 684,
+        "y": 1274,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 37
+      }
+    },
+    {
+      "id": "field_label_27",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 750,
+        "y": 1274,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 40
+      }
+    },
+    {
+      "id": "field_value_27",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 784,
+        "y": 1274,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 43
+      }
+    },
+    {
+      "id": "field_label_28",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 850,
+        "y": 1274,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 46
+      }
+    },
+    {
+      "id": "field_value_28",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 884,
+        "y": 1274,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 49
+      }
+    },
+    {
+      "id": "field_label_29",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 950,
+        "y": 1274,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 52
+      }
+    },
+    {
+      "id": "field_value_29",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 984,
+        "y": 1274,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 55
+      }
+    },
+    {
+      "id": "field_label_30",
+      "kind": "text",
+      "label": "field_label",
+      "role": "field_label",
+      "class": "tiny",
+      "box": {
+        "x": 1050,
+        "y": 1274,
+        "w": 28,
+        "h": 571
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 16,
+        "max_chars": 27
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 58
+      }
+    },
+    {
+      "id": "field_value_30",
+      "kind": "text",
+      "label": "field_value",
+      "role": "field_value",
+      "class": "small boxed",
+      "box": {
+        "x": 1084,
+        "y": 1274,
+        "w": 46,
+        "h": 571
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 22
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 61
+      }
+    }
+  ]
+}

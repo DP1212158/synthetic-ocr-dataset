@@ -1,0 +1,206 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v4",
+  "template_id": "sign_poster_scene_vertical_tree_v4_04",
+  "variant": 4,
+  "category_id": "sign_poster_scene",
+  "category_cn": "标牌海报场景",
+  "folder": "04_标牌海报场景",
+  "template_name_cn": "导向标识牌",
+  "layout_family": "v4_wayfinding_board",
+  "design_prompt": "多条导向项和编号列。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1500,
+    "height": 900,
+    "orientation": "landscape",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical_v4"
+  },
+  "qa_expectations": {
+    "min_blocks": 5,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "panel",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box",
+      "box": {
+        "x": 54,
+        "y": 54,
+        "w": 1392,
+        "h": 792
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "wayfinding",
+      "class": "title",
+      "box": {
+        "x": 120,
+        "y": 100,
+        "w": 76,
+        "h": 680
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 14
+      },
+      "visual": {}
+    },
+    {
+      "id": "dir_1",
+      "kind": "text",
+      "label": "list_item",
+      "role": "direction",
+      "class": "subtitle boxed",
+      "box": {
+        "x": 300,
+        "y": 120,
+        "w": 42,
+        "h": 620
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 10,
+        "max_chars": 12
+      },
+      "visual": {}
+    },
+    {
+      "id": "dir_2",
+      "kind": "text",
+      "label": "list_item",
+      "role": "direction",
+      "class": "subtitle boxed",
+      "box": {
+        "x": 460,
+        "y": 120,
+        "w": 42,
+        "h": 620
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 10,
+        "max_chars": 12
+      },
+      "visual": {}
+    },
+    {
+      "id": "dir_3",
+      "kind": "text",
+      "label": "list_item",
+      "role": "direction",
+      "class": "subtitle boxed",
+      "box": {
+        "x": 620,
+        "y": 120,
+        "w": 42,
+        "h": 620
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 10,
+        "max_chars": 12
+      },
+      "visual": {}
+    },
+    {
+      "id": "dir_4",
+      "kind": "text",
+      "label": "list_item",
+      "role": "direction",
+      "class": "subtitle boxed",
+      "box": {
+        "x": 780,
+        "y": 120,
+        "w": 42,
+        "h": 620
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 10,
+        "max_chars": 12
+      },
+      "visual": {}
+    },
+    {
+      "id": "dir_5",
+      "kind": "text",
+      "label": "list_item",
+      "role": "direction",
+      "class": "subtitle boxed",
+      "box": {
+        "x": 940,
+        "y": 120,
+        "w": 42,
+        "h": 620
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 10,
+        "max_chars": 12
+      },
+      "visual": {}
+    },
+    {
+      "id": "dir_6",
+      "kind": "text",
+      "label": "list_item",
+      "role": "direction",
+      "class": "subtitle boxed",
+      "box": {
+        "x": 1100,
+        "y": 120,
+        "w": 42,
+        "h": 620
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 10,
+        "max_chars": 12
+      },
+      "visual": {}
+    },
+    {
+      "id": "dir_7",
+      "kind": "text",
+      "label": "list_item",
+      "role": "direction",
+      "class": "subtitle boxed",
+      "box": {
+        "x": 1260,
+        "y": 120,
+        "w": 42,
+        "h": 620
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 10,
+        "max_chars": 12
+      },
+      "visual": {}
+    }
+  ]
+}

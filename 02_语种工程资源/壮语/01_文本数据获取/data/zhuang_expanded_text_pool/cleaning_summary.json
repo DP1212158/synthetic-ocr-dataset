@@ -1,0 +1,20 @@
+{
+  "input_records": 5613,
+  "output_records": 4307,
+  "dropped_records": 1306,
+  "drop_reasons": {
+    "reference_or_link_list": 166,
+    "known_low_value_page": 49,
+    "low_latin": 27,
+    "cjk": 1055,
+    "hangul": 10,
+    "pua": 14,
+    "cyrillic": 16,
+    "high_digit": 93,
+    "arabic": 15,
+    "mongolian": 1,
+    "short": 1,
+    "box": 1
+  },
+  "output_jsonl": "02_语种工程资源/壮语/01_文本数据获取/data/zhuang_expanded_text_pool/records_clean.jsonl"
+}

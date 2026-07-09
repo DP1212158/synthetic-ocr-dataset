@@ -1,0 +1,653 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v4",
+  "template_id": "newspaper_page_vertical_tree_v4_06",
+  "variant": 6,
+  "category_id": "newspaper_page",
+  "category_cn": "报纸页",
+  "folder": "01_报纸页",
+  "template_name_cn": "快讯索引版",
+  "layout_family": "v4_dispatch_index",
+  "design_prompt": "大量短讯索引和竖线分隔，接近日报快讯页。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1180,
+    "height": 1680,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical_v4"
+  },
+  "qa_expectations": {
+    "min_blocks": 20,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "name",
+      "kind": "text",
+      "label": "document_title",
+      "role": "dispatch_name",
+      "class": "title",
+      "box": {
+        "x": 46,
+        "y": 52,
+        "w": 46,
+        "h": 1575
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 28
+      },
+      "visual": {}
+    },
+    {
+      "id": "date",
+      "kind": "text",
+      "label": "metadata",
+      "role": "date",
+      "class": "tiny",
+      "box": {
+        "x": 104,
+        "y": 52,
+        "w": 26,
+        "h": 1575
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 24,
+        "max_chars": 96,
+        "value": "20260702"
+      },
+      "visual": {}
+    },
+    {
+      "id": "rule_01",
+      "kind": "decor",
+      "label": "decor",
+      "class": "rule-v",
+      "box": {
+        "x": 150,
+        "y": 72,
+        "w": 1,
+        "h": 1470
+      },
+      "visual": {}
+    },
+    {
+      "id": "rule_02",
+      "kind": "decor",
+      "label": "decor",
+      "class": "rule-v",
+      "box": {
+        "x": 268,
+        "y": 72,
+        "w": 1,
+        "h": 1470
+      },
+      "visual": {}
+    },
+    {
+      "id": "rule_03",
+      "kind": "decor",
+      "label": "decor",
+      "class": "rule-v",
+      "box": {
+        "x": 386,
+        "y": 72,
+        "w": 1,
+        "h": 1470
+      },
+      "visual": {}
+    },
+    {
+      "id": "rule_04",
+      "kind": "decor",
+      "label": "decor",
+      "class": "rule-v",
+      "box": {
+        "x": 504,
+        "y": 72,
+        "w": 1,
+        "h": 1470
+      },
+      "visual": {}
+    },
+    {
+      "id": "rule_05",
+      "kind": "decor",
+      "label": "decor",
+      "class": "rule-v",
+      "box": {
+        "x": 622,
+        "y": 72,
+        "w": 1,
+        "h": 1470
+      },
+      "visual": {}
+    },
+    {
+      "id": "rule_06",
+      "kind": "decor",
+      "label": "decor",
+      "class": "rule-v",
+      "box": {
+        "x": 740,
+        "y": 72,
+        "w": 1,
+        "h": 1470
+      },
+      "visual": {}
+    },
+    {
+      "id": "rule_07",
+      "kind": "decor",
+      "label": "decor",
+      "class": "rule-v",
+      "box": {
+        "x": 858,
+        "y": 72,
+        "w": 1,
+        "h": 1470
+      },
+      "visual": {}
+    },
+    {
+      "id": "rule_08",
+      "kind": "decor",
+      "label": "decor",
+      "class": "rule-v",
+      "box": {
+        "x": 976,
+        "y": 72,
+        "w": 1,
+        "h": 1470
+      },
+      "visual": {}
+    },
+    {
+      "id": "rule_09",
+      "kind": "decor",
+      "label": "decor",
+      "class": "rule-v",
+      "box": {
+        "x": 1094,
+        "y": 72,
+        "w": 1,
+        "h": 1470
+      },
+      "visual": {}
+    },
+    {
+      "id": "topic_01",
+      "kind": "text",
+      "label": "section_title",
+      "role": "brief_topic",
+      "class": "subtitle",
+      "box": {
+        "x": 168,
+        "y": 82,
+        "w": 30,
+        "h": 300
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 4,
+        "max_chars": 6
+      },
+      "visual": {}
+    },
+    {
+      "id": "topic_02",
+      "kind": "text",
+      "label": "section_title",
+      "role": "brief_topic",
+      "class": "subtitle",
+      "box": {
+        "x": 286,
+        "y": 82,
+        "w": 30,
+        "h": 300
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 4,
+        "max_chars": 6
+      },
+      "visual": {}
+    },
+    {
+      "id": "topic_03",
+      "kind": "text",
+      "label": "section_title",
+      "role": "brief_topic",
+      "class": "subtitle",
+      "box": {
+        "x": 404,
+        "y": 82,
+        "w": 30,
+        "h": 300
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 4,
+        "max_chars": 6
+      },
+      "visual": {}
+    },
+    {
+      "id": "topic_04",
+      "kind": "text",
+      "label": "section_title",
+      "role": "brief_topic",
+      "class": "subtitle",
+      "box": {
+        "x": 522,
+        "y": 82,
+        "w": 30,
+        "h": 300
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 4,
+        "max_chars": 6
+      },
+      "visual": {}
+    },
+    {
+      "id": "topic_05",
+      "kind": "text",
+      "label": "section_title",
+      "role": "brief_topic",
+      "class": "subtitle",
+      "box": {
+        "x": 640,
+        "y": 82,
+        "w": 30,
+        "h": 300
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 4,
+        "max_chars": 6
+      },
+      "visual": {}
+    },
+    {
+      "id": "topic_06",
+      "kind": "text",
+      "label": "section_title",
+      "role": "brief_topic",
+      "class": "subtitle",
+      "box": {
+        "x": 758,
+        "y": 82,
+        "w": 30,
+        "h": 300
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 4,
+        "max_chars": 6
+      },
+      "visual": {}
+    },
+    {
+      "id": "topic_07",
+      "kind": "text",
+      "label": "section_title",
+      "role": "brief_topic",
+      "class": "subtitle",
+      "box": {
+        "x": 876,
+        "y": 82,
+        "w": 30,
+        "h": 300
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 4,
+        "max_chars": 6
+      },
+      "visual": {}
+    },
+    {
+      "id": "topic_08",
+      "kind": "text",
+      "label": "section_title",
+      "role": "brief_topic",
+      "class": "subtitle",
+      "box": {
+        "x": 994,
+        "y": 82,
+        "w": 30,
+        "h": 300
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 4,
+        "max_chars": 6
+      },
+      "visual": {}
+    },
+    {
+      "id": "dispatch_01",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 192,
+        "y": 420,
+        "w": 26,
+        "h": 1060
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "dispatch_02",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 250,
+        "y": 420,
+        "w": 26,
+        "h": 1060
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "dispatch_03",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 308,
+        "y": 420,
+        "w": 26,
+        "h": 1060
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "dispatch_04",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 366,
+        "y": 420,
+        "w": 26,
+        "h": 1060
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "dispatch_05",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 424,
+        "y": 420,
+        "w": 26,
+        "h": 1060
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "dispatch_06",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 482,
+        "y": 420,
+        "w": 26,
+        "h": 1060
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "dispatch_07",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 540,
+        "y": 420,
+        "w": 26,
+        "h": 1060
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "dispatch_08",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 598,
+        "y": 420,
+        "w": 26,
+        "h": 1060
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "dispatch_09",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 656,
+        "y": 420,
+        "w": 26,
+        "h": 1060
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "dispatch_10",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 714,
+        "y": 420,
+        "w": 26,
+        "h": 1060
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "dispatch_11",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 772,
+        "y": 420,
+        "w": 26,
+        "h": 1060
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "dispatch_12",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 830,
+        "y": 420,
+        "w": 26,
+        "h": 1060
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "dispatch_13",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 888,
+        "y": 420,
+        "w": 26,
+        "h": 1060
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "dispatch_14",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 946,
+        "y": 420,
+        "w": 26,
+        "h": 1060
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "dispatch_15",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 1004,
+        "y": 420,
+        "w": 26,
+        "h": 1060
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    },
+    {
+      "id": "dispatch_16",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 1062,
+        "y": 420,
+        "w": 26,
+        "h": 1060
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 44
+      },
+      "visual": {}
+    }
+  ]
+}

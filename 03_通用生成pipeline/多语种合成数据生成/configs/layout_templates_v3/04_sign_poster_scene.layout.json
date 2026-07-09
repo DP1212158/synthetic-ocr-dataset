@@ -1,0 +1,1143 @@
+{
+  "schema_version": "category_layout_tree.v3",
+  "category_index": 4,
+  "category_id": "sign_poster_scene",
+  "category_cn": "标牌海报场景",
+  "shared_constraints": {
+    "required_labels": [
+      "document_title"
+    ],
+    "min_ocr_blocks": 2,
+    "qa": {
+      "reading_order_explicit": true,
+      "overflow_blocks": 0
+    }
+  },
+  "variants": [
+    {
+      "variant": 1,
+      "template_id": "sign_poster_scene_v3_01",
+      "template_name_cn": "公共标识牌",
+      "layout_family": "public_signage_board",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 620,
+        "orientation": "landscape",
+        "background": "sign_panel"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#0f5aa8",
+        "ink": "#ffffff",
+        "line": "#ffffff"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 3,
+            "max_chars": 14
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "subtitle",
+          "label": "subtitle",
+          "text": {
+            "source": "section_title",
+            "min_chars": 3,
+            "max_chars": 14
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 6,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 6,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 6,
+            "max_chars": 26
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 2,
+      "template_id": "sign_poster_scene_v3_02",
+      "template_name_cn": "方向指示牌",
+      "layout_family": "directional_wayfinding_sign",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1000,
+        "height": 1300,
+        "orientation": "portrait",
+        "background": "sign_panel"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#1b1b1b",
+        "ink": "#f5f5f5",
+        "line": "#f5c518"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "footer",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 3,
+            "max_chars": 14
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 6,
+            "max_chars": 30
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 6,
+            "max_chars": 30
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 6,
+            "max_chars": 30
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "footer",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 3,
+      "template_id": "sign_poster_scene_v3_03",
+      "template_name_cn": "活动海报",
+      "layout_family": "event_poster",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1080,
+        "height": 1528,
+        "orientation": "portrait",
+        "background": "poster_bright"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fff7ec",
+        "ink": "#1a1206",
+        "line": "#c8471f"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "footer",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "subtitle",
+          "label": "subtitle",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 30,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 26
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "footer",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 6,
+            "max_chars": 26
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 4,
+      "template_id": "sign_poster_scene_v3_04",
+      "template_name_cn": "宣传标语牌",
+      "layout_family": "slogan_banner_board",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1400,
+        "height": 560,
+        "orientation": "landscape",
+        "background": "banner_red"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#b31217",
+        "ink": "#fff7e6",
+        "line": "#ffd54a"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 6,
+            "max_chars": 26
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 6,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 6,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 5,
+      "template_id": "sign_poster_scene_v3_05",
+      "template_name_cn": "警示牌",
+      "layout_family": "warning_notice_sign",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1000,
+        "height": 1240,
+        "orientation": "portrait",
+        "background": "warning_yellow"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#f6c400",
+        "ink": "#1a1a1a",
+        "line": "#1a1a1a"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 3,
+            "max_chars": 14
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 8,
+            "max_chars": 32
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 6,
+            "max_chars": 30
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 6,
+            "max_chars": 30
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 6,
+      "template_id": "sign_poster_scene_v3_06",
+      "template_name_cn": "图文海报",
+      "layout_family": "illustrated_poster_main_plus_side",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1600,
+        "orientation": "portrait",
+        "background": "poster_bright"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fbf6ee",
+        "ink": "#161208",
+        "line": "#2f6f4f"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "columns",
+          "columns": 2,
+          "column_ratios": [
+            0.9,
+            1.1
+          ],
+          "flow": "main_plus_side",
+          "gap": 24
+        },
+        {
+          "id": "footer",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "image",
+          "label": "image",
+          "ocr_orderable": false,
+          "height": 320
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "caption",
+          "label": "caption",
+          "text": {
+            "source": "caption",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 1,
+          "role": "subtitle",
+          "label": "subtitle",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 1,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 30,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 1,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 6,
+            "max_chars": 30
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 1,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 26
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "footer",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 6,
+            "max_chars": 26
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 7,
+      "template_id": "sign_poster_scene_v3_p01",
+      "template_name_cn": "竖版告示海报",
+      "layout_family": "portrait_notice_poster",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "orientation": "portrait",
+      "page": {
+        "width": 330,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "sign_panel"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#0f5aa8",
+        "ink": "#ffffff",
+        "line": "#ffffff"
+      },
+      "regions": [
+        {
+          "id": "body",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "body",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "subtitle",
+          "label": "subtitle",
+          "text": {
+            "source": "section_title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 12,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 12,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 12,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 12,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 8,
+            "max_chars": 30
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        }
+      ]
+    },
+    {
+      "variant": 8,
+      "template_id": "sign_poster_scene_v3_p02",
+      "template_name_cn": "竖版活动海报",
+      "layout_family": "portrait_event_poster",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "orientation": "portrait",
+      "page": {
+        "width": 330,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "sign_panel"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#0f5aa8",
+        "ink": "#ffffff",
+        "line": "#ffffff"
+      },
+      "regions": [
+        {
+          "id": "body",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "body",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "subtitle",
+          "label": "subtitle",
+          "text": {
+            "source": "section_title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 12,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 12,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 12,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 12,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 8,
+            "max_chars": 30
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        }
+      ]
+    },
+    {
+      "variant": 9,
+      "template_id": "sign_poster_scene_v3_p03",
+      "template_name_cn": "竖版须知长图",
+      "layout_family": "portrait_guidelines_tall",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "orientation": "portrait",
+      "page": {
+        "width": 330,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "sign_panel"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#0f5aa8",
+        "ink": "#ffffff",
+        "line": "#ffffff"
+      },
+      "regions": [
+        {
+          "id": "body",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "body",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "subtitle",
+          "label": "subtitle",
+          "text": {
+            "source": "section_title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 12,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 12,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 12,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 12,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 12,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 8,
+            "max_chars": 30
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "body",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        }
+      ]
+    }
+  ]
+}

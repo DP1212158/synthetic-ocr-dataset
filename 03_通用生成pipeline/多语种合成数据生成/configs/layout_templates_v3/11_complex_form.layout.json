@@ -1,0 +1,3022 @@
+{
+  "schema_version": "category_layout_tree.v3",
+  "category_index": 11,
+  "category_id": "complex_form",
+  "category_cn": "复杂表单登记页",
+  "shared_constraints": {
+    "required_labels": [
+      "document_title",
+      "field_label",
+      "field_value"
+    ],
+    "min_ocr_blocks": 12,
+    "qa": {
+      "reading_order_explicit": true,
+      "overflow_blocks": 0
+    }
+  },
+  "variants": [
+    {
+      "variant": 1,
+      "template_id": "complex_form_v3_01",
+      "template_name_cn": "单栏简易登记表",
+      "layout_family": "single_column_registration",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1600,
+        "orientation": "portrait",
+        "background": "warm_paper"
+      },
+      "tight_crop": true,
+      "preserve_full_page": true,
+      "style_tokens": {
+        "paper": "#fbfaf3",
+        "ink": "#161616",
+        "line": "#3a3a3a"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack",
+          "flow": "form_grid"
+        },
+        {
+          "id": "sign",
+          "order": 3,
+          "layout": "stack",
+          "flow": "form_grid"
+        },
+        {
+          "id": "footer",
+          "order": 4,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 14,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 15,
+          "region": "sign",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 10
+          }
+        },
+        {
+          "region": "sign",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 60
+        },
+        {
+          "reading_order": 16,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 2,
+      "template_id": "complex_form_v3_02",
+      "template_name_cn": "两栏对照登记表",
+      "layout_family": "two_column_registration",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1754,
+        "orientation": "portrait",
+        "background": "warm_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fbf9f1",
+        "ink": "#151515",
+        "line": "#333"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "columns",
+          "columns": 2,
+          "column_ratios": [
+            0.36,
+            0.64
+          ],
+          "gap": 24,
+          "flow": "form_grid"
+        },
+        {
+          "id": "footer",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "body",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 14,
+          "region": "body",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 15,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 16,
+          "region": "body",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 26
+          }
+        },
+        {
+          "reading_order": 17,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 18,
+          "region": "body",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 26
+          }
+        },
+        {
+          "reading_order": 19,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 3,
+      "template_id": "complex_form_v3_03",
+      "template_name_cn": "申请审批表",
+      "layout_family": "application_approval_form",
+      "complexity": "C",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1754,
+        "orientation": "portrait",
+        "background": "clean_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fcfbf6",
+        "ink": "#141414",
+        "line": "#2c2c2c"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "applicant",
+          "order": 2,
+          "layout": "columns",
+          "columns": 2,
+          "column_ratios": [
+            0.36,
+            0.64
+          ],
+          "gap": 24,
+          "flow": "form_grid"
+        },
+        {
+          "id": "reason",
+          "order": 3,
+          "layout": "stack"
+        },
+        {
+          "id": "approval",
+          "order": 4,
+          "layout": "columns",
+          "columns": 2,
+          "column_ratios": [
+            0.36,
+            0.64
+          ],
+          "gap": 24,
+          "flow": "form_grid"
+        },
+        {
+          "id": "sign",
+          "order": 5,
+          "layout": "stack",
+          "flow": "form_grid"
+        },
+        {
+          "id": "footer",
+          "order": 6,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "applicant",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "applicant",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "applicant",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "applicant",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "applicant",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "applicant",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "applicant",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "applicant",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "applicant",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "applicant",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "reason",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 14
+          }
+        },
+        {
+          "reading_order": 14,
+          "region": "reason",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 60,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 15,
+          "region": "approval",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 10
+          }
+        },
+        {
+          "reading_order": 16,
+          "region": "approval",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 17,
+          "region": "approval",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 10
+          }
+        },
+        {
+          "reading_order": 18,
+          "region": "approval",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 19,
+          "region": "approval",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 10
+          }
+        },
+        {
+          "reading_order": 20,
+          "region": "approval",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 21,
+          "region": "sign",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 10
+          }
+        },
+        {
+          "region": "sign",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 56
+        },
+        {
+          "reading_order": 22,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 4,
+      "template_id": "complex_form_v3_04",
+      "template_name_cn": "材料清单档案卡",
+      "layout_family": "material_checklist_archive",
+      "complexity": "C",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1754,
+        "orientation": "portrait",
+        "background": "warm_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fbf9f0",
+        "ink": "#151515",
+        "line": "#2f2f2f"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "info",
+          "order": 2,
+          "layout": "columns",
+          "columns": 2,
+          "column_ratios": [
+            0.36,
+            0.64
+          ],
+          "gap": 24,
+          "flow": "form_grid"
+        },
+        {
+          "id": "checklist",
+          "order": 3,
+          "layout": "stack"
+        },
+        {
+          "id": "remarks",
+          "order": 4,
+          "layout": "stack"
+        },
+        {
+          "id": "handler",
+          "order": 5,
+          "layout": "columns",
+          "columns": 2,
+          "column_ratios": [
+            0.36,
+            0.64
+          ],
+          "gap": 24,
+          "flow": "form_grid"
+        },
+        {
+          "id": "footer",
+          "order": 6,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "info",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "info",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "info",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "info",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "info",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "info",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "info",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "info",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "checklist",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 14
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "checklist",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 10,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "checklist",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 10,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 14,
+          "region": "checklist",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 10,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 15,
+          "region": "checklist",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 10,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 16,
+          "region": "checklist",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 10,
+            "max_chars": 44
+          }
+        },
+        {
+          "reading_order": 17,
+          "region": "remarks",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 16,
+            "max_chars": 60
+          }
+        },
+        {
+          "reading_order": 18,
+          "region": "handler",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 10
+          }
+        },
+        {
+          "reading_order": 19,
+          "region": "handler",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 20,
+          "region": "handler",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 10
+          }
+        },
+        {
+          "reading_order": 21,
+          "region": "handler",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 22,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 5,
+      "template_id": "complex_form_v3_05",
+      "template_name_cn": "双栏密集报名表",
+      "layout_family": "dense_four_column_signup",
+      "complexity": "C",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1754,
+        "orientation": "portrait",
+        "background": "clean_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fcfbf7",
+        "ink": "#141414",
+        "line": "#2a2a2a"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "form",
+          "order": 2,
+          "layout": "columns",
+          "columns": 4,
+          "column_ratios": [
+            0.2,
+            0.3,
+            0.2,
+            0.3
+          ],
+          "gap": 18,
+          "flow": "form_grid"
+        },
+        {
+          "id": "declaration",
+          "order": 3,
+          "layout": "stack"
+        },
+        {
+          "id": "sign",
+          "order": 4,
+          "layout": "stack",
+          "flow": "form_grid"
+        },
+        {
+          "id": "footer",
+          "order": 5,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "form",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "form",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 14
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "form",
+          "column": 2,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "form",
+          "column": 3,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 14
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "form",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "form",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 14
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "form",
+          "column": 2,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "form",
+          "column": 3,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "form",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "form",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "form",
+          "column": 2,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 14,
+          "region": "form",
+          "column": 3,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 15,
+          "region": "form",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 16,
+          "region": "form",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 17,
+          "region": "form",
+          "column": 2,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 18,
+          "region": "form",
+          "column": 3,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 19,
+          "region": "declaration",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 14
+          }
+        },
+        {
+          "reading_order": 20,
+          "region": "declaration",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 50,
+            "max_chars": 130
+          }
+        },
+        {
+          "reading_order": 21,
+          "region": "sign",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 10
+          }
+        },
+        {
+          "region": "sign",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 50
+        },
+        {
+          "reading_order": 22,
+          "region": "sign",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 10
+          }
+        },
+        {
+          "region": "sign",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 50
+        },
+        {
+          "reading_order": 23,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 6,
+      "template_id": "complex_form_v3_06",
+      "template_name_cn": "横向档案信息卡",
+      "layout_family": "landscape_archive_card",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1500,
+        "height": 980,
+        "orientation": "landscape",
+        "background": "warm_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fbf9f1",
+        "ink": "#151515",
+        "line": "#333"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "columns",
+          "columns": 2,
+          "column_ratios": [
+            0.66,
+            0.34
+          ],
+          "gap": 30,
+          "flow": "form_grid"
+        },
+        {
+          "id": "review",
+          "order": 3,
+          "layout": "stack",
+          "flow": "form_grid"
+        },
+        {
+          "id": "footer",
+          "order": 4,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 26
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 26
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 30
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 14,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 15,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 16,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 17,
+          "region": "body",
+          "column": 1,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 18,
+          "region": "body",
+          "column": 1,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 22
+          }
+        },
+        {
+          "region": "body",
+          "column": 1,
+          "role": "image",
+          "label": "image",
+          "ocr_orderable": false,
+          "height": 300
+        },
+        {
+          "reading_order": 19,
+          "region": "body",
+          "column": 1,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 10,
+            "max_chars": 36
+          }
+        },
+        {
+          "reading_order": 20,
+          "region": "review",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 10
+          }
+        },
+        {
+          "region": "review",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 48
+        },
+        {
+          "reading_order": 21,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 7,
+      "template_id": "complex_form_v3_p01",
+      "template_name_cn": "竖版登记表单栏",
+      "layout_family": "portrait_registration",
+      "complexity": "C",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 760,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "warm_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fbfaf3",
+        "ink": "#161616",
+        "line": "#3a3a3a"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack",
+          "columns": 1
+        },
+        {
+          "id": "sign",
+          "order": 3,
+          "layout": "stack",
+          "columns": 1
+        },
+        {
+          "id": "footer",
+          "order": 4,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 14,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 15,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 16,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 17,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 18,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 19,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 20,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 70
+        },
+        {
+          "reading_order": 21,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 22,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 23,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 24,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 25,
+          "region": "sign",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 10
+          }
+        },
+        {
+          "region": "sign",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 70
+        },
+        {
+          "reading_order": 26,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "portrait"
+    },
+    {
+      "variant": 8,
+      "template_id": "complex_form_v3_p02",
+      "template_name_cn": "竖版审批登记表",
+      "layout_family": "portrait_approval_form",
+      "complexity": "C",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 760,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "warm_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fbfaf3",
+        "ink": "#161616",
+        "line": "#3a3a3a"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack",
+          "columns": 1
+        },
+        {
+          "id": "sign",
+          "order": 3,
+          "layout": "stack",
+          "columns": 1
+        },
+        {
+          "id": "footer",
+          "order": 4,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 14,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 70
+        },
+        {
+          "reading_order": 15,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 16,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 17,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 18,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 19,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 20,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 21,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 22,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 23,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 24,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 25,
+          "region": "sign",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 10
+          }
+        },
+        {
+          "region": "sign",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 80
+        },
+        {
+          "reading_order": 26,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "portrait"
+    },
+    {
+      "variant": 9,
+      "template_id": "complex_form_v3_p03",
+      "template_name_cn": "竖版信息采集表",
+      "layout_family": "portrait_data_collection",
+      "complexity": "C",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 760,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "warm_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fbfaf3",
+        "ink": "#161616",
+        "line": "#3a3a3a"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack",
+          "columns": 1
+        },
+        {
+          "id": "sign",
+          "order": 3,
+          "layout": "stack",
+          "columns": 1
+        },
+        {
+          "id": "footer",
+          "order": 4,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 14,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 15,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 16,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 17,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 18,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 19,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 20,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 21,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 22,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 70
+        },
+        {
+          "reading_order": 23,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 8
+          }
+        },
+        {
+          "reading_order": 24,
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 4,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 25,
+          "region": "sign",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "safe_fragment",
+            "min_chars": 2,
+            "max_chars": 10
+          }
+        },
+        {
+          "region": "sign",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 70
+        },
+        {
+          "reading_order": 26,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        }
+      ],
+      "orientation": "portrait"
+    }
+  ]
+}

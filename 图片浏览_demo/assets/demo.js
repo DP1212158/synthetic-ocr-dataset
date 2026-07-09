@@ -1,5 +1,8 @@
 const state = {
   manifest: null,
+  datasets: {},
+  versions: [],
+  version: null,
   languageId: null,
   categoryId: null,
   showOrderOverlay: false,
@@ -8,6 +11,7 @@ const state = {
 
 const els = {
   generatedMeta: document.querySelector("#generatedMeta"),
+  versionNav: document.querySelector("#versionNav"),
   languageNav: document.querySelector("#languageNav"),
   categoryNav: document.querySelector("#categoryNav"),
   currentTitle: document.querySelector("#currentTitle"),
@@ -24,8 +28,12 @@ const els = {
   closePreview: document.querySelector("#closePreview"),
 };
 
+function getCurrentLanguages() {
+  return state.datasets[state.version] || [];
+}
+
 function getCurrentLanguage() {
-  return state.manifest.languages.find((language) => language.id === state.languageId);
+  return getCurrentLanguages().find((language) => language.id === state.languageId);
 }
 
 function getCurrentCategory() {
@@ -49,12 +57,35 @@ function button(label, count, active, onClick) {
   return node;
 }
 
+function selectVersion(version) {
+  if (state.version === version) return;
+  state.version = version;
+  const languages = getCurrentLanguages();
+  const firstLanguage = languages.find((language) => language.image_count > 0) || languages[0];
+  state.languageId = firstLanguage?.id ?? null;
+  state.categoryId = firstLanguage?.categories[0]?.id ?? null;
+  state.labelCache.clear();
+  render({ resetScroll: true });
+}
+
+function renderVersionNav() {
+  if (!els.versionNav) return;
+  els.versionNav.replaceChildren();
+  state.versions.forEach((version) => {
+    const languages = state.datasets[version] || [];
+    const total = languages.reduce((sum, language) => sum + language.image_count, 0);
+    els.versionNav.appendChild(
+      button(version, `${total} 张`, version === state.version, () => selectVersion(version))
+    );
+  });
+}
+
 function renderLanguageNav() {
   els.languageNav.replaceChildren();
-  state.manifest.languages.forEach((language) => {
+  getCurrentLanguages().forEach((language) => {
     els.languageNav.appendChild(
       button(
-        `${language.name} ${language.version}`,
+        `${language.name}`,
         `${language.image_count} 张`,
         language.id === state.languageId,
         () => {
@@ -284,6 +315,7 @@ function clearPreviewImage() {
 }
 
 function render(options = {}) {
+  renderVersionNav();
   renderLanguageNav();
   renderCategoryNav();
   renderSummary();
@@ -303,7 +335,7 @@ function navigateCategory(offset) {
 }
 
 function navigateLanguage(offset) {
-  const languages = state.manifest?.languages ?? [];
+  const languages = getCurrentLanguages();
   if (languages.length === 0) return;
 
   const currentIndex = languages.findIndex((language) => language.id === state.languageId);
@@ -314,6 +346,13 @@ function navigateLanguage(offset) {
   state.languageId = language.id;
   state.categoryId = language.categories[0]?.id ?? null;
   render({ resetScroll: true });
+}
+
+function navigateVersion(offset) {
+  if (state.versions.length === 0) return;
+  const currentIndex = state.versions.indexOf(state.version);
+  const nextIndex = Math.min(Math.max(currentIndex + offset, 0), state.versions.length - 1);
+  if (nextIndex !== currentIndex) selectVersion(state.versions[nextIndex]);
 }
 
 function handleKeyboard(event) {
@@ -330,21 +369,46 @@ function handleKeyboard(event) {
     navigateLanguage(-1);
   } else if (event.key === "]") {
     navigateLanguage(1);
+  } else if (event.key === "," || event.key === "-") {
+    navigateVersion(-1);
+  } else if (event.key === "." || event.key === "=") {
+    navigateVersion(1);
   }
 }
 
 async function init() {
   try {
-    const response = await fetch("./data/image_manifest.json", { cache: "no-store" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    state.manifest = await response.json();
+    let manifest = window.__IMAGE_MANIFEST__ || null;
+    if (!manifest) {
+      const response = await fetch("./data/image_manifest.json", { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      manifest = await response.json();
+    }
+    state.manifest = manifest;
 
-    const firstLanguage = state.manifest.languages.find((language) => language.image_count > 0);
-    state.languageId = firstLanguage?.id ?? state.manifest.languages[0]?.id ?? null;
+    // Multi-version manifest, with backward-compatible fallback to a single
+    // {languages: [...]} payload.
+    if (manifest.datasets && Array.isArray(manifest.versions) && manifest.versions.length) {
+      state.datasets = manifest.datasets;
+      state.versions = manifest.versions;
+      state.version = manifest.default_version || manifest.versions[0];
+    } else {
+      const legacyVersion = manifest.languages?.[0]?.version || "current";
+      state.datasets = { [legacyVersion]: manifest.languages || [] };
+      state.versions = [legacyVersion];
+      state.version = legacyVersion;
+    }
+
+    const languages = getCurrentLanguages();
+    const firstLanguage = languages.find((language) => language.image_count > 0) || languages[0];
+    state.languageId = firstLanguage?.id ?? null;
     state.categoryId = firstLanguage?.categories[0]?.id ?? null;
 
-    const totalImages = state.manifest.languages.reduce((sum, language) => sum + language.image_count, 0);
-    els.generatedMeta.textContent = `索引生成时间：${state.manifest.generated_at}，共 ${state.manifest.languages.length} 个语种、${totalImages} 张图片。`;
+    const totalImages = languages.reduce((sum, language) => sum + language.image_count, 0);
+    els.generatedMeta.textContent =
+      `索引生成时间：${state.manifest.generated_at}，` +
+      `共 ${state.versions.length} 个版本（${state.versions.join(" / ")}）。` +
+      `当前 ${state.version}：${languages.length} 个语种、${totalImages} 张图片。`;
     render({ resetScroll: true });
   } catch (error) {
     els.generatedMeta.textContent = `读取索引失败：${error.message}`;

@@ -1,0 +1,245 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v4",
+  "template_id": "certificate_proof_vertical_tree_v4_03",
+  "variant": 3,
+  "category_id": "certificate_proof",
+  "category_cn": "证书证明",
+  "folder": "02_证书证明",
+  "template_name_cn": "横幅荣誉证书",
+  "layout_family": "v4_landscape_award",
+  "design_prompt": "横向页面内保留竖排列，章位和标题突出。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1280,
+    "height": 940,
+    "orientation": "landscape",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical_v4"
+  },
+  "qa_expectations": {
+    "min_blocks": 8,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "outer",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box ornate",
+      "box": {
+        "x": 48,
+        "y": 48,
+        "w": 1184,
+        "h": 844
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "award_title",
+      "class": "title",
+      "box": {
+        "x": 120,
+        "y": 96,
+        "w": 82,
+        "h": 750
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "sub",
+      "kind": "text",
+      "label": "document_subtitle",
+      "role": "award_subtitle",
+      "class": "subtitle",
+      "box": {
+        "x": 260,
+        "y": 126,
+        "w": 50,
+        "h": 690
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 8,
+        "max_chars": 14
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 390,
+        "y": 136,
+        "w": 34,
+        "h": 640
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 21,
+        "max_chars": 23
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 450,
+        "y": 136,
+        "w": 34,
+        "h": 640
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 21,
+        "max_chars": 23
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 510,
+        "y": 136,
+        "w": 34,
+        "h": 640
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 21,
+        "max_chars": 23
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 570,
+        "y": 136,
+        "w": 34,
+        "h": 640
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 21,
+        "max_chars": 23
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 630,
+        "y": 136,
+        "w": 34,
+        "h": 640
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 21,
+        "max_chars": 23
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 690,
+        "y": 136,
+        "w": 34,
+        "h": 640
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 21,
+        "max_chars": 23
+      },
+      "visual": {}
+    },
+    {
+      "id": "seal",
+      "kind": "text",
+      "label": "seal",
+      "role": "seal",
+      "class": "subtitle stamp",
+      "box": {
+        "x": 1050,
+        "y": 260,
+        "w": 126,
+        "h": 126
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 2,
+        "max_chars": 6
+      },
+      "visual": {}
+    },
+    {
+      "id": "date",
+      "kind": "text",
+      "label": "metadata",
+      "role": "date",
+      "class": "small",
+      "box": {
+        "x": 1130,
+        "y": 120,
+        "w": 32,
+        "h": 680
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 24,
+        "max_chars": 96,
+        "value": "20260702"
+      },
+      "visual": {}
+    }
+  ]
+}

@@ -4,8 +4,8 @@
 
 - language id: `tibetan`
 - 文字方向：藏文字母，横排 LTR
-- 当前文本池：`01_文本数据获取_20260702/data/vl3_long_text_sources/records.jsonl`
-- 语言 profile：`03_合成数据生成_20260702/configs/tibetan_language_profile.json`
-- 通用生成脚本：`../../03_通用生成pipeline/多语种合成数据生成_20260702/scripts/run_vl7_full.py`
+- 当前文本池：`01_文本数据获取/data/vl3_long_text_sources/records.jsonl`
+- 语言 profile：`03_合成数据生成/configs/tibetan_language_profile.json`
+- 通用生成脚本：`../../03_通用生成pipeline/多语种合成数据生成/scripts/run_full_generation.py`
 
 生成数据时不要在本目录手动复制通用脚本或通用模板；统一使用 `03_通用生成pipeline/` 下的主线入口。

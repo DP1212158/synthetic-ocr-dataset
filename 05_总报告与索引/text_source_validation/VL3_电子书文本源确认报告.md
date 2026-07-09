@@ -1,0 +1,115 @@
+# VL3 电子书文本源确认报告
+
+- 生成时间：2026-07-03T18:05:00
+- 目标：为 7 个语种确认至少一个可抽取可读文字的电子书/长文本源。
+- 验证方式：实际下载或读取候选 EPUB/PDF/TXT/JSONL，按语种脚本正则统计可读段落。
+- 状态说明：`pass` 可直接进入文本源构建；`pass_small_source_needs_longer_backup` 证明可抽取但源偏短；`needs_*` 表示当前可读文本存在，但还不满足“可下载电子书正文已确认”的严格要求。
+
+| 语种 | 状态 | 当前确认源 | 可读段落 | 最高脚本比例 | 本地路径 |
+|---|---|---|---:|---:|---|
+| 壮语 | pass_small_source_needs_longer_backup | zawiki-Vahcuengh-20200727.pdf / DjVuTXT | 9 | 0.948 | `05_总报告与索引/text_source_validation/cache/zhuang_archive_djvu_txt.txt` |
+| 藏语 | pass | Kriya Tantra Leethong.epub | 4262 | 1.0 | `02_语种工程资源/藏语/01_文本数据获取/data/vl3_long_text_sources/source_files/Kriya Tantra Leethong.epub` |
+| 蒙古语 | needs_ebook_source | existing verified traditional Mongolian text pool; ebook source not yet verified | 384 | 1.0 | `02_语种工程资源/蒙古语/01_文本数据获取/data/local_verified_label_text_pool_cleaned_20260702/records.jsonl` |
+| 维吾尔语 | pass | مۇقەددەس يازمىلارنىڭ يېڭى دۇنيا تەرجىمىسى | 40 | 0.9773 | `05_总报告与索引/text_source_validation/cache/uyghur_jw_nwt_epub.epub` |
+| 哈萨克语 | pass | كيەلى جازبالار. جاڭا دۇنيە اۋدارماسى | 2337 | 0.931 | `05_总报告与索引/text_source_validation/cache/kazakh_jw_nwt_epub.epub` |
+| 朝鲜语 | pass | 신세계역 성경 (2014년 개정판) | 26483 | 1.0 | `05_总报告与索引/text_source_validation/cache/korean_jw_nwt_epub.epub` |
+| 白语 | needs_downloadable_ebook_source | 白语大理方言基础教程 / existing verified Bai text pool | 619 | 1.0 | `02_语种工程资源/白语/01_文本数据获取/data/local_verified_label_text_pool_20260702/records.jsonl` |
+
+## 结论
+
+- 已可直接用于电子书/长文本抽取：藏语、维吾尔语、哈萨克语、朝鲜语。
+- 壮语可抽取，但 Archive/Wikipedia PDF 文本量偏小，建议补一个更长的壮语书源后再全量生成。
+- 白语、传统蒙古文当前本地可读文本池可用，但还没有完成“可下载电子书正文”的严格来源确认；全量推进前应补齐或确认原始书源。
+
+## 样本文本
+
+### 壮语 - pass_small_source_needs_longer_backup
+- 来源：https://archive.org/download/zawiki-Vahcuengh-20200727.pdf/zawiki-Vahcuengh-20200727_djvu.txt
+- SHA256：`6acddf3f8f15a075...`
+- license_note：Readable Zhuang text extracted from Archive/Wikipedia PDF text, but only 9 good segments. It can prove extraction path, but should be supplemented with a longer ebook/text source before full VL3 generation.
+
+```text
+Sawcuengh dwg saw gyoebyaem, yung lahdingh cihmeh guh cihmeh hingzsik, yungh Vahcuengh fanghyenz haihbaek guh goekdaej, aeu yaem Vahcuengh Vujmingz guh biucinj, dwg yinzminz cwngfuj youg 1956 nienz caux ok, 1957 nienz ginggvaq bihcinj youq dieg Bouxcuengh doihengz sawjyungh cunj dahit saujsu minzcuz
+```
+
+```text
+■ The prospects for the long-term survival of Non-Han minority languages in the south of China (http://www.linguapax.org/congres04/pdf/prosser.pdf)
+```
+
+### 藏语 - pass
+- 来源：local file stored under Tibetan text source directory
+- SHA256：`11a8a1a5d64f211d...`
+- license_note：local supplied EPUB; license note not verified by script
+
+```text
+། སྐབས་དེར་དམིགས་པ་སྤོ་བ་ཙམ་ལས་མེ་ལྕེ་མི་དམིགས་པར་བསྒོམ་པའི་དོན་མིན་པར་འདོད་པ་ལྟར་ན་སྐབས་དེར་མེ་ལྕེ་ཡང་སྒྲུབ་པ་པོ་དེའི་དམིགས་པའི་ཡུལ་དུ་ཡོད་དགོས་པར་འདོད་དགོས་ཤི ང་། དེ་ལྟར་ན་སྒྲ་གནས་ཀྱི་སྐབས་སུ་སྒྲ་འབའ་ཞིག་ལ་དམིགས་པར་མི་འགྱུར་བའི་ཐལ་བ་ཡོད་ཅི ང་། མེ་གནས་དང་སྒྲ་གནས་གཉིས་ལ་དམིགས་པ་གཏད་ས་ཙམ་ལས་དམིགས་རྣམ
+```
+
+```text
+། ལྷག་པར་ཨེ་ཝཾ་ཕྱག་རྒྱ་ལས་མི་བསྐྱོད་རྡོ་རྗེའི་མདོ་སྔགས་ཀྱི་ལྟ་བ་མཐར་ཐུག་པ་ཤ་སྟག་བསྟན་པ་ཞིག་ཡིན་པ་ད ང་། དཔལ་ཁང་ལོ་ཙཱ་བ་ད ང་། དཔའ་བོ་གཙུག་ལག་རྒྱ་མཚོ་ད ང་། འཇམ་མགོན་བློ་གྲོས་མཐའ་ཡས་སོགས་ཀྱིས་ཀྱང་མི་བསྐྱོད་རྡོ་རྗེའི་ལུགས་སུ་བྱ་རྒྱུད་ལ་ཙམ་ཁྱད་གཉིས་སུ་ཕྱེས་ནས་གསུངས་པས་ན་ཀརྨ་ཀམ་ཚང་ཡོངས་གྲགས་ལ་ཡང་མི་བསྐྱོད་
+```
+
+### 蒙古语 - needs_ebook_source
+- 来源：Archive candidates checked but OCR text was not Unicode U+1800; large EPUB download not completed
+- SHA256：`1f71bd2d7ed63b78...`
+- license_note：Current usable text is local verified label pool, not a verified downloadable ebook. Must be replaced or source-confirmed before strict ebook-only delivery.
+
+```text
+ᠲᠡᠮᠦᠷ ᠠᠶᠠᠭ᠎ᠠ᠄ ᠲᠣᠳᠣᠳᠬᠠᠯ ᠲᠤᠳᠤᠳᠬᠠᠭᠠᠯᠤᠭᠴᠢ ᠶᠢᠨ ᠬᠠᠷᠢᠴᠠᠭ᠎ᠠ
+```
+
+```text
+ᠵᠤᠤ ᠢᠤᠢ ᠬᠠᠢ᠂ ᠢᠯᠠᠯᠠᠲᠠ᠂ ᠪᠦᠷᠭᠦᠳ ᠪᠤᠳᠠᠭ᠎ᠠ ᠢᠳᠡᠬᠦ ᠪᠡᠷ ᠶᠠᠪᠤᠨ᠎ᠠ᠃ ᠵᠤᠤ ᠢᠤᠢ ᠬᠠᠢ ᠪᠤᠳᠠᠭ᠎ᠠ ᠢᠳᠡᠬᠦ ᠪᠡᠷ ᠲᠡᠮᠦᠷ ᠠᠶᠠᠭ᠎ᠠ᠂ ᠮᠣᠳᠣᠨ ᠰᠠᠪᠬ᠎ᠠ᠂ ᠮᠦᠩᠭᠦᠨ ᠬᠠᠯᠪᠠᠭ᠎ᠠ ᠠᠪᠴᠢᠷᠠᠪᠠ᠃
+```
+
+### 维吾尔语 - pass
+- 来源：https://akamd1.jw-cdn.org/sg2/p/59fc07/1/o/nwt_UGA.epub
+- SHA256：`5a434bf8f0f56259...`
+- license_note：JW.org public EPUB; source/license terms must be reviewed before redistribution
+
+```text
+ئېلىنغان مە‌زمۇن كىتابلارنىڭ ناملىرى ۋە تىزىملىكى
+```
+
+```text
+ئېلىنغان مە‌زمۇن مە‌تتا كىتابىنىڭ قىسقىچە مە‌زمۇ‌نى
+```
+
+### 哈萨克语 - pass
+- 来源：https://akamd1.jw-cdn.org/sg2/p/5d36c60/2/o/nwt_AZA.epub
+- SHA256：`61bcb5cd164d2f41...`
+- license_note：JW.org public EPUB; source/license terms must be reviewed before redistribution
+
+```text
+‏الىنعان ءماتىن فىلىپىلىكتە‌رگە
+```
+
+```text
+‏الىنعان ءماتىن فىلىپىلىكتە‌رگە
+```
+
+### 朝鲜语 - pass
+- 来源：https://akamd1.jw-cdn.org/sg2/p/70b89ce/2/o/nwt_KO.epub
+- SHA256：`faec4534e8f1c3e6...`
+- license_note：JW.org public EPUB; source/license terms must be reviewed before redistribution
+
+```text
+북쪽 열 지파 이스라엘 왕국이 멸망되다 예언자 이사야 미가 스바냐 예레미야 나훔 하박국 다니엘 에스겔 오바댜 호세아
+```
+
+```text
+바나바는 어떻게 사울이 길에서 주를 보았고 주께서 그에게 말씀하셨는지 그리고 어떻게 그가 다마스쿠스에서 예수의 이름으로 담대하게 말했는지를 그들에게 상세히 이야기해 주었다.
+```
+
+### 白语 - needs_downloadable_ebook_source
+- 来源：https://cbs.muc.edu.cn/info/1223/4956.htm
+- SHA256：`8aa759734f6696e1...`
+- license_note：Readable Bai text pool exists and official textbook page was found, but no downloadable full ebook text was verified. Must be source-confirmed or replaced before strict ebook-only delivery.
+
+```text
+Dit Qi Zanx Daiblit Dit Yi Jif Yifbainx Guixdienb Dit Nei Jif Weittuf Daiblit Dit Sanl Jif Daiblit Tienpcel Dit Bia Zanx Miepsib Zefssenk
+```
+
+```text
+belded sua ded sua nadzil sua gerlzil sua hhex sua belhhex sua zerdserx ni gerlni merlni atzip ni atwa ni atmerd ni
+```

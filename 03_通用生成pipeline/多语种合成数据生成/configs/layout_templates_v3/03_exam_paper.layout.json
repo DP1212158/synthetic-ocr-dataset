@@ -1,0 +1,2719 @@
+{
+  "schema_version": "category_layout_tree.v3",
+  "category_index": 3,
+  "category_id": "exam_paper",
+  "category_cn": "考试卷",
+  "shared_constraints": {
+    "required_labels": [
+      "document_title",
+      "question",
+      "metadata"
+    ],
+    "min_ocr_blocks": 6,
+    "qa": {
+      "reading_order_explicit": true,
+      "overflow_blocks": 0
+    }
+  },
+  "variants": [
+    {
+      "variant": 1,
+      "template_id": "exam_paper_v3_01",
+      "template_name_cn": "单栏语文试卷",
+      "layout_family": "single_column_choice_exam",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1754,
+        "orientation": "portrait",
+        "background": "plain_white"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#ffffff",
+        "ink": "#151515",
+        "line": "#333"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "footer",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "header",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 8,
+            "max_chars": 32
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 20,
+            "max_chars": 70
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 70
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 20,
+            "max_chars": 70
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 70
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 20,
+            "max_chars": 70
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 70
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 20,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 14,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 15,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 20,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 16,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 17,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 18,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 19,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 20,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 20,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 21,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 22,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 2,
+      "template_id": "exam_paper_v3_02",
+      "template_name_cn": "单栏数学测验",
+      "layout_family": "single_column_calc_exam",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1754,
+        "orientation": "portrait",
+        "background": "plain_white"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#ffffff",
+        "ink": "#141414",
+        "line": "#3a3a3a"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "footer",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 60
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 110
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 60
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 110
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 60
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 110
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 20,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 14,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 20,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 15,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 16,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 17,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 18,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 20,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 19,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 20,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 21,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 22,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 3,
+      "template_id": "exam_paper_v3_03",
+      "template_name_cn": "单栏填空题卷",
+      "layout_family": "single_column_fill_blank_exam",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1754,
+        "orientation": "portrait",
+        "background": "plain_white"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#ffffff",
+        "ink": "#151515",
+        "line": "#333"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "footer",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "header",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 8,
+            "max_chars": 32
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 18,
+            "max_chars": 64
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 50
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 18,
+            "max_chars": 64
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 50
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 18,
+            "max_chars": 64
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 50
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 18,
+            "max_chars": 64
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 50
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 20,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 14,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 15,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 16,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 20,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 17,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 18,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 19,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 20,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 20,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 21,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 22,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 4,
+      "template_id": "exam_paper_v3_04",
+      "template_name_cn": "单栏简答题卷",
+      "layout_family": "single_column_short_answer_exam",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1600,
+        "orientation": "portrait",
+        "background": "plain_white"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#ffffff",
+        "ink": "#141414",
+        "line": "#333"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "footer",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 22,
+            "max_chars": 80
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 150
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 22,
+            "max_chars": 80
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 150
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 20,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 20,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 14,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 15,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 16,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 17,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 20,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 18,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 19,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 20,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 21,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 20,
+            "max_chars": 56
+          }
+        },
+        {
+          "reading_order": 22,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 5,
+      "template_id": "exam_paper_v3_05",
+      "template_name_cn": "双栏试卷",
+      "layout_family": "two_column_exam",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1754,
+        "orientation": "portrait",
+        "background": "plain_white"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#ffffff",
+        "ink": "#151515",
+        "line": "#333"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "columns",
+          "columns": 2,
+          "flow": "continuous_columns",
+          "gap": 30
+        },
+        {
+          "id": "footer",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 80
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 80
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 1,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "region": "body",
+          "column": 1,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 80
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 1,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "region": "body",
+          "column": 1,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 80
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 1,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 56
+          }
+        },
+        {
+          "region": "body",
+          "column": 1,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 80
+        },
+        {
+          "reading_order": 9,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 6,
+      "template_id": "exam_paper_v3_06",
+      "template_name_cn": "试卷主栏加侧栏说明",
+      "layout_family": "exam_main_plus_side_notes",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1754,
+        "orientation": "portrait",
+        "background": "plain_white"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#ffffff",
+        "ink": "#141414",
+        "line": "#3a3a3a"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "columns",
+          "columns": 2,
+          "column_ratios": [
+            1.6,
+            0.6
+          ],
+          "flow": "main_plus_side",
+          "gap": 28
+        },
+        {
+          "id": "footer",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 20,
+            "max_chars": 70
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 100
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 20,
+            "max_chars": 70
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 100
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 20,
+            "max_chars": 70
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "answer_area",
+          "label": "answer_area",
+          "ocr_orderable": false,
+          "height": 100
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 1,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 14
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 1,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 8,
+            "max_chars": 30
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 1,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 8,
+            "max_chars": 36
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 1,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 8,
+            "max_chars": 36
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 7,
+      "template_id": "exam_paper_v3_p01",
+      "template_name_cn": "竖版多题试卷",
+      "layout_family": "portrait_stacked_questions",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "orientation": "portrait",
+      "page": {
+        "width": 760,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "plain_white"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#ffffff",
+        "ink": "#151515",
+        "line": "#333"
+      },
+      "regions": [
+        {
+          "id": "body",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "body",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "subtitle",
+          "label": "subtitle",
+          "text": {
+            "source": "section_title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 14,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 15,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 16,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 17,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 18,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 19,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 20,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 21,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 22,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 23,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 24,
+          "region": "body",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        }
+      ]
+    },
+    {
+      "variant": 8,
+      "template_id": "exam_paper_v3_p02",
+      "template_name_cn": "竖版分节试卷",
+      "layout_family": "portrait_sectioned_exam",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "orientation": "portrait",
+      "page": {
+        "width": 760,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "plain_white"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#ffffff",
+        "ink": "#151515",
+        "line": "#333"
+      },
+      "regions": [
+        {
+          "id": "body",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "body",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "subtitle",
+          "label": "subtitle",
+          "text": {
+            "source": "section_title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 14,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 15,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 16,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 17,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 18,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 19,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 20,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 21,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 22,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 23,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 24,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 25,
+          "region": "body",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        }
+      ]
+    },
+    {
+      "variant": 9,
+      "template_id": "exam_paper_v3_p03",
+      "template_name_cn": "竖版综合试卷",
+      "layout_family": "portrait_comprehensive_exam",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "orientation": "portrait",
+      "page": {
+        "width": 760,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "plain_white"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#ffffff",
+        "ink": "#151515",
+        "line": "#333"
+      },
+      "regions": [
+        {
+          "id": "body",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "body",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "subtitle",
+          "label": "subtitle",
+          "text": {
+            "source": "section_title",
+            "min_chars": 6,
+            "max_chars": 20
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 14,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 15,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 16,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 17,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 18,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 19,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 20,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 21,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 22,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 23,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 24,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 25,
+          "region": "body",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 24,
+            "max_chars": 90
+          }
+        },
+        {
+          "reading_order": 26,
+          "region": "body",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1255 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v4",
+  "template_id": "newspaper_page_vertical_tree_v4_03",
+  "variant": 3,
+  "category_id": "newspaper_page",
+  "category_cn": "报纸页",
+  "folder": "01_报纸页",
+  "template_name_cn": "三段式晚报版",
+  "layout_family": "v4_evening_three_band",
+  "design_prompt": "上中下三段新闻区，栏目边界清晰。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1440,
+    "height": 1760,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical_v4"
+  },
+  "qa_expectations": {
+    "min_blocks": 20,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "top_band",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box note-fill",
+      "box": {
+        "x": 50,
+        "y": 52,
+        "w": 1340,
+        "h": 450
+      },
+      "visual": {}
+    },
+    {
+      "id": "name",
+      "kind": "text",
+      "label": "document_title",
+      "role": "evening_name",
+      "class": "title",
+      "box": {
+        "x": 90,
+        "y": 76,
+        "w": 58,
+        "h": 360
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 7
+      },
+      "visual": {}
+    },
+    {
+      "id": "top_news_01",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 200,
+        "y": 92,
+        "w": 30,
+        "h": 340
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "top_news_02",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 272,
+        "y": 92,
+        "w": 30,
+        "h": 340
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "top_news_03",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 344,
+        "y": 92,
+        "w": 30,
+        "h": 340
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "top_news_04",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 416,
+        "y": 92,
+        "w": 30,
+        "h": 340
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "top_news_05",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 488,
+        "y": 92,
+        "w": 30,
+        "h": 340
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "top_news_06",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 560,
+        "y": 92,
+        "w": 30,
+        "h": 340
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "top_news_07",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 632,
+        "y": 92,
+        "w": 30,
+        "h": 340
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "top_news_08",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 704,
+        "y": 92,
+        "w": 30,
+        "h": 340
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "top_news_09",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 776,
+        "y": 92,
+        "w": 30,
+        "h": 340
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "top_news_10",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 848,
+        "y": 92,
+        "w": 30,
+        "h": 340
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "top_news_11",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 920,
+        "y": 92,
+        "w": 30,
+        "h": 340
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "top_news_12",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 992,
+        "y": 92,
+        "w": 30,
+        "h": 340
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "top_news_13",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 1064,
+        "y": 92,
+        "w": 30,
+        "h": 340
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "top_news_14",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 1136,
+        "y": 92,
+        "w": 30,
+        "h": 340
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "top_news_15",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 1208,
+        "y": 92,
+        "w": 30,
+        "h": 340
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_band",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box",
+      "box": {
+        "x": 70,
+        "y": 560,
+        "w": 1300,
+        "h": 520
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_title",
+      "kind": "text",
+      "label": "section_title",
+      "role": "section",
+      "class": "subtitle",
+      "box": {
+        "x": 116,
+        "y": 595,
+        "w": 44,
+        "h": 450
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 7,
+        "max_chars": 9
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 190,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 246,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 302,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 358,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 414,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 470,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_07",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 526,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_08",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 582,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_09",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 638,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_10",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 694,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_11",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 750,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_12",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 806,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_13",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 862,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_14",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 918,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_15",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 974,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_16",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 1030,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_17",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 1086,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_18",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 1142,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "mid_19",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 1198,
+        "y": 600,
+        "w": 32,
+        "h": 440
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 13,
+        "max_chars": 15
+      },
+      "visual": {}
+    },
+    {
+      "id": "photo",
+      "kind": "image",
+      "label": "image",
+      "role": "photo",
+      "class": "image-fill",
+      "box": {
+        "x": 890,
+        "y": 610,
+        "w": 300,
+        "h": 380
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "bottom_band",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box soft-fill",
+      "box": {
+        "x": 50,
+        "y": 1130,
+        "w": 1340,
+        "h": 540
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 100,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 150,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 200,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 250,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 300,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 350,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_07",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 400,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_08",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 450,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_09",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 500,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_10",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 550,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_11",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 600,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_12",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 650,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_13",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 700,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_14",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 750,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_15",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 800,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_16",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 850,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_17",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 900,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_18",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 950,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_19",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 1000,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_20",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 1050,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_21",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 1100,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_22",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 1150,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_23",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 1200,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_24",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 1250,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    },
+    {
+      "id": "bottom_25",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "small",
+      "box": {
+        "x": 1300,
+        "y": 1170,
+        "w": 28,
+        "h": 420
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 16,
+        "max_chars": 18
+      },
+      "visual": {}
+    }
+  ]
+}

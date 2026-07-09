@@ -1,0 +1,1421 @@
+{
+  "schema_version": "category_layout_tree.v3",
+  "category_index": 5,
+  "category_id": "book_page",
+  "category_cn": "书籍页",
+  "shared_constraints": {
+    "required_labels": [
+      "document_title",
+      "paragraph"
+    ],
+    "min_ocr_blocks": 7,
+    "qa": {
+      "reading_order_explicit": true,
+      "overflow_blocks": 0
+    }
+  },
+  "variants": [
+    {
+      "variant": 1,
+      "template_id": "book_page_v3_01",
+      "template_name_cn": "单栏正文页",
+      "layout_family": "single_column_prose",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1754,
+        "orientation": "portrait",
+        "background": "book_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fbf9f3",
+        "ink": "#1a1a1a",
+        "line": "#333"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "footer",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 180
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 180
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 180
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 170
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 2,
+      "template_id": "book_page_v3_02",
+      "template_name_cn": "单栏带小节标题",
+      "layout_family": "single_column_with_sections",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1754,
+        "orientation": "portrait",
+        "background": "book_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fcfaf5",
+        "ink": "#181818",
+        "line": "#2c2c2c"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "footer",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 6,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 180
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 170
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 6,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 180
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 170
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 3,
+      "template_id": "book_page_v3_03",
+      "template_name_cn": "单栏插图页",
+      "layout_family": "single_column_illustrated",
+      "complexity": "S",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1754,
+        "orientation": "portrait",
+        "background": "book_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fbf9f2",
+        "ink": "#191919",
+        "line": "#303030"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "footer",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "header",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 6,
+            "max_chars": 24
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 180
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 160
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "image",
+          "label": "image",
+          "ocr_orderable": false,
+          "height": 300
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "caption",
+          "label": "caption",
+          "text": {
+            "source": "caption",
+            "min_chars": 10,
+            "max_chars": 36
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 180
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 4,
+      "template_id": "book_page_v3_04",
+      "template_name_cn": "双栏连续正文",
+      "layout_family": "two_column_continuous",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1754,
+        "orientation": "portrait",
+        "background": "book_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fbf9f3",
+        "ink": "#1a1a1a",
+        "line": "#2b2b2b"
+      },
+      "regions": [
+        {
+          "id": "title",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "columns",
+          "columns": 2,
+          "flow": "continuous_columns",
+          "gap": 40
+        },
+        {
+          "id": "footer",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "title",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 1,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 1,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 1,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 5,
+      "template_id": "book_page_v3_05",
+      "template_name_cn": "双栏带小节标题",
+      "layout_family": "two_column_with_heading",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1754,
+        "orientation": "portrait",
+        "background": "book_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fcfaf5",
+        "ink": "#181818",
+        "line": "#2c2c2c"
+      },
+      "regions": [
+        {
+          "id": "title",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "columns",
+          "columns": 2,
+          "flow": "continuous_columns",
+          "gap": 40
+        },
+        {
+          "id": "footer",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "title",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 6,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 1,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 1,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 6,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 1,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 1,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 6,
+      "template_id": "book_page_v3_06",
+      "template_name_cn": "双栏图文页",
+      "layout_family": "two_column_illustrated",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1754,
+        "orientation": "portrait",
+        "background": "book_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fbf9f2",
+        "ink": "#191919",
+        "line": "#303030"
+      },
+      "regions": [
+        {
+          "id": "title",
+          "order": 1,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "columns",
+          "columns": 2,
+          "flow": "continuous_columns",
+          "gap": 40
+        },
+        {
+          "id": "footer",
+          "order": 3,
+          "layout": "stack"
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "title",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 150
+          }
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "image",
+          "label": "image",
+          "ocr_orderable": false,
+          "height": 220
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "caption",
+          "label": "caption",
+          "text": {
+            "source": "caption",
+            "min_chars": 10,
+            "max_chars": 36
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 1,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 1,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 160
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 1,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 150
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 16
+          }
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 7,
+      "template_id": "book_page_v3_p01",
+      "template_name_cn": "竖版正文书页",
+      "layout_family": "portrait_body_bookpage",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "orientation": "portrait",
+      "page": {
+        "width": 462,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "book_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fbf9f3",
+        "ink": "#1a1a1a",
+        "line": "#333"
+      },
+      "regions": [
+        {
+          "id": "body",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "body",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 8,
+            "max_chars": 30
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "body",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        }
+      ]
+    },
+    {
+      "variant": 8,
+      "template_id": "book_page_v3_p02",
+      "template_name_cn": "竖版章节书页",
+      "layout_family": "portrait_chapter_bookpage",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "orientation": "portrait",
+      "page": {
+        "width": 504,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "book_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fbf9f3",
+        "ink": "#1a1a1a",
+        "line": "#333"
+      },
+      "regions": [
+        {
+          "id": "body",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "body",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 8,
+            "max_chars": 30
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "body",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        }
+      ]
+    },
+    {
+      "variant": 9,
+      "template_id": "book_page_v3_p03",
+      "template_name_cn": "竖版长文书页",
+      "layout_family": "portrait_longform_bookpage",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "orientation": "portrait",
+      "page": {
+        "width": 546,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "book_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#fbf9f3",
+        "ink": "#1a1a1a",
+        "line": "#333"
+      },
+      "regions": [
+        {
+          "id": "body",
+          "order": 1,
+          "layout": "stack",
+          "columns": 1
+        }
+      ],
+      "blocks": [
+        {
+          "reading_order": 1,
+          "region": "body",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 22
+          }
+        },
+        {
+          "reading_order": 2,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 3,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 4,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 18
+          }
+        },
+        {
+          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 9,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 10,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 11,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          }
+        },
+        {
+          "reading_order": 12,
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 8,
+            "max_chars": 30
+          }
+        },
+        {
+          "reading_order": 13,
+          "region": "body",
+          "column": 0,
+          "role": "metadata",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 8,
+            "max_chars": 28
+          }
+        }
+      ]
+    }
+  ]
+}

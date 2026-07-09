@@ -52,13 +52,13 @@
 主入口位于：
 
 ```bash
-03_通用生成pipeline/多语种合成数据生成_20260702/scripts/run_vl7_full.py
+03_通用生成pipeline/多语种合成数据生成/scripts/run_full_generation.py
 ```
 
 单语种 smoke：
 
 ```bash
-python 03_通用生成pipeline/多语种合成数据生成_20260702/scripts/run_vl7_full.py \
+python 03_通用生成pipeline/多语种合成数据生成/scripts/run_full_generation.py \
   --version-name VL9 \
   --languages tibetan \
   --max-language-workers 1 \
@@ -68,7 +68,7 @@ python 03_通用生成pipeline/多语种合成数据生成_20260702/scripts/run_
 非蒙古语六语种：
 
 ```bash
-python 03_通用生成pipeline/多语种合成数据生成_20260702/scripts/run_vl7_full.py \
+python 03_通用生成pipeline/多语种合成数据生成/scripts/run_full_generation.py \
   --version-name VL9 \
   --languages tibetan zhuang korean bai uyghur kazakh \
   --max-language-workers 2 \

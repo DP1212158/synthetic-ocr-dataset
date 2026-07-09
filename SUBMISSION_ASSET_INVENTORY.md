@@ -18,7 +18,7 @@
 - `04_共享图片资产/random120-coco2014/`
   - 120 张小规模真实图片资产，用于生成时替换图片占位。
 - `05_总报告与索引/`
-  - 仅保留 `text_source_validation_20260706/` 这类文本源确认/provenance 记录。
+  - 仅保留 `text_source_validation/` 这类文本源确认/provenance 记录。
   - 已删除 OmniDocBench 下载缓存和 142MB 原始模板图库。
 - `图片浏览_demo/`
   - 静态浏览页面、JS/CSS 和 manifest 构建脚本。
@@ -34,11 +34,11 @@
 
 - `01_最终VL2数据/`
   - 已淘汰旧交付版本，删除。
-- `02_语种工程资源/*/03_合成数据生成_20260702/VL*/`
+- `02_语种工程资源/*/03_合成数据生成/VL*/`
   - VL3/VL4/VL5/VL6/VL7/VL8/VL9、`VL_latest_*` 等生成输出，全部删除。
-- `02_语种工程资源/*/03_合成数据生成_20260702/scripts/`
+- `02_语种工程资源/*/03_合成数据生成/scripts/`
   - 旧的语种侧脚本副本已删除，统一使用 `03_通用生成pipeline/`。
-- `02_语种工程资源/*/03_合成数据生成_20260702/configs/layout_templates_v2/`
+- `02_语种工程资源/*/03_合成数据生成/configs/layout_templates_v2/`
   - 旧的语种侧通用模板副本已删除，统一使用通用 pipeline 的模板。
 - 本地环境与缓存
   - `.venv_pp_layout/`
@@ -57,7 +57,7 @@
 推荐先 smoke：
 
 ```bash
-python 03_通用生成pipeline/多语种合成数据生成_20260702/scripts/run_vl7_full.py \
+python 03_通用生成pipeline/多语种合成数据生成/scripts/run_full_generation.py \
   --version-name VL9 \
   --languages tibetan \
   --max-language-workers 1 \
@@ -67,7 +67,7 @@ python 03_通用生成pipeline/多语种合成数据生成_20260702/scripts/run_
 非蒙古语六语种：
 
 ```bash
-python 03_通用生成pipeline/多语种合成数据生成_20260702/scripts/run_vl7_full.py \
+python 03_通用生成pipeline/多语种合成数据生成/scripts/run_full_generation.py \
   --version-name VL9 \
   --languages tibetan zhuang korean bai uyghur kazakh \
   --max-language-workers 2 \

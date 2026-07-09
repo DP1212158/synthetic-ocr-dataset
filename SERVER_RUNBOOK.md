@@ -17,7 +17,7 @@
 不要提交：
 
 - `01_最终VL2数据/`：已淘汰的旧交付数据。
-- `02_语种工程资源/*/03_合成数据生成_20260702/VL*/`、`VL_latest_*`：所有生成输出。
+- `02_语种工程资源/*/03_合成数据生成/VL*/`、`VL_latest_*`：所有生成输出。
 - `.venv*/`、`node_modules/`、`__pycache__/`、`.DS_Store`、日志和浏览器测试缓存。
 - `05_总报告与索引/omnidocbench_cache/`、`05_总报告与索引/VL6_omni_original_templates/` 等下载缓存/可视化图库。
 - `多语种合成数据生成汇总_20260702/`：历史汇总与可视化产物。
@@ -87,16 +87,16 @@ fc-list | grep -Ei "Tibetan|Mongolian|Noto Sans KR|Naskh|Scheherazade|Noto"
 
 核心入口：
 
-- `03_通用生成pipeline/多语种合成数据生成_20260702/scripts/run_vl7_full.py`
-- `03_通用生成pipeline/多语种合成数据生成_20260702/scripts/render_table_dataset.mjs`
-- `03_通用生成pipeline/多语种合成数据生成_20260702/scripts/attach_image_assets_to_vl7.py`
-- `03_通用生成pipeline/多语种合成数据生成_20260702/scripts/qa_reading_flow_v1.py`
-- `03_通用生成pipeline/多语种合成数据生成_20260702/scripts/make_reading_order_contact_sheet.py`
+- `03_通用生成pipeline/多语种合成数据生成/scripts/run_full_generation.py`
+- `03_通用生成pipeline/多语种合成数据生成/scripts/render_table_dataset.mjs`
+- `03_通用生成pipeline/多语种合成数据生成/scripts/attach_image_assets_to_vl7.py`
+- `03_通用生成pipeline/多语种合成数据生成/scripts/qa_reading_flow_v1.py`
+- `03_通用生成pipeline/多语种合成数据生成/scripts/make_reading_order_contact_sheet.py`
 
 先跑单语种 smoke：
 
 ```bash
-python 03_通用生成pipeline/多语种合成数据生成_20260702/scripts/run_vl7_full.py \
+python 03_通用生成pipeline/多语种合成数据生成/scripts/run_full_generation.py \
   --version-name VL9 \
   --languages tibetan \
   --max-language-workers 1 \
@@ -106,7 +106,7 @@ python 03_通用生成pipeline/多语种合成数据生成_20260702/scripts/run_
 确认 smoke 通过后，生成非蒙古语六语种：
 
 ```bash
-python 03_通用生成pipeline/多语种合成数据生成_20260702/scripts/run_vl7_full.py \
+python 03_通用生成pipeline/多语种合成数据生成/scripts/run_full_generation.py \
   --version-name VL9 \
   --languages tibetan zhuang korean bai uyghur kazakh \
   --max-language-workers 2 \
@@ -142,7 +142,7 @@ http://127.0.0.1:8766/图片浏览_demo/index.html
 ## 已进入脚本的关键修复
 
 - `render_table_dataset.mjs`：渲染成功后显式退出，避免浏览器句柄导致 Node 卡住。
-- `run_vl7_full.py`：支持 `--attach-image-assets`，生成 HTML 后、渲染前接入真实图片资产。
+- `run_full_generation.py`：支持 `--attach-image-assets`，生成 HTML 后、渲染前接入真实图片资产。
 - `vl9_visual_style.py`：VL9 去掉普通文本框、大量隔离横线，保留表格/表单/证书/答题区/图片等语义结构线。
 - `qa_no_unwanted_text_boxes.py`：增加对普通容器 class 的文本框风险扫描。
 

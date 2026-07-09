@@ -1,0 +1,203 @@
+{
+  "schema_version": "mongolian_vertical_layout_tree.v4",
+  "template_id": "sign_poster_scene_vertical_tree_v4_05",
+  "variant": 5,
+  "category_id": "sign_poster_scene",
+  "category_cn": "标牌海报场景",
+  "folder": "04_标牌海报场景",
+  "template_name_cn": "墙面宣传栏",
+  "layout_family": "v4_wall_publicity_panel",
+  "design_prompt": "宣传栏内含图片、栏目和短条目。",
+  "writing_system": {
+    "language": "传统蒙古文",
+    "writing_mode": "vertical-lr",
+    "line_direction": "top_to_bottom",
+    "column_order": "left_to_right",
+    "page_rotation": "none"
+  },
+  "page": {
+    "width": 1080,
+    "height": 1320,
+    "orientation": "portrait",
+    "background": "warm_paper",
+    "tight_crop": true
+  },
+  "style_tokens": {
+    "paper": "#fbf8ed",
+    "ink": "#151515",
+    "muted": "#625d55",
+    "accent": "#8f2f2f",
+    "line": "#222222",
+    "font_scale": "native_vertical_v4"
+  },
+  "qa_expectations": {
+    "min_blocks": 5,
+    "overflow_blocks": 0,
+    "out_of_bounds_blocks": 0,
+    "latin_residue_blocks": 0
+  },
+  "elements": [
+    {
+      "id": "wall",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box note-fill",
+      "box": {
+        "x": 62,
+        "y": 62,
+        "w": 956,
+        "h": 1196
+      },
+      "visual": {}
+    },
+    {
+      "id": "image",
+      "kind": "image",
+      "label": "image",
+      "role": "publicity_image",
+      "class": "image-fill",
+      "box": {
+        "x": 120,
+        "y": 110,
+        "w": 310,
+        "h": 420
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "wall_title",
+      "class": "title",
+      "box": {
+        "x": 475,
+        "y": 110,
+        "w": 68,
+        "h": 1070
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 4,
+        "max_chars": 22
+      },
+      "visual": {}
+    },
+    {
+      "id": "wall_item_01",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 580,
+        "y": 140,
+        "w": 36,
+        "h": 960
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 43
+      },
+      "visual": {}
+    },
+    {
+      "id": "wall_item_02",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 640,
+        "y": 140,
+        "w": 36,
+        "h": 960
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 43
+      },
+      "visual": {}
+    },
+    {
+      "id": "wall_item_03",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 700,
+        "y": 140,
+        "w": 36,
+        "h": 960
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 43
+      },
+      "visual": {}
+    },
+    {
+      "id": "wall_item_04",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 760,
+        "y": 140,
+        "w": 36,
+        "h": 960
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 43
+      },
+      "visual": {}
+    },
+    {
+      "id": "wall_item_05",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 820,
+        "y": 140,
+        "w": 36,
+        "h": 960
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 43
+      },
+      "visual": {}
+    },
+    {
+      "id": "wall_item_06",
+      "kind": "text",
+      "label": "list_item",
+      "role": "short_item",
+      "class": "small",
+      "box": {
+        "x": 880,
+        "y": 140,
+        "w": 36,
+        "h": 960
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 12,
+        "max_chars": 43
+      },
+      "visual": {}
+    }
+  ]
+}
