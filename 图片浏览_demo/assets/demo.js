@@ -149,9 +149,14 @@ function imageCard(image, index, total) {
   imageButton.addEventListener("click", () => openImagePreview(image));
 
   const img = document.createElement("img");
-  img.src = image.path;
+  img.src = image.thumb_path || image.path;
   img.alt = image.filename;
   img.loading = index === 0 ? "eager" : "lazy";
+  img.decoding = "async";
+  if (image.width && image.height) {
+    img.width = image.width;
+    img.height = image.height;
+  }
   img.addEventListener("load", () => drawOrderOverlay(imageButton, img, image));
   imageButton.appendChild(img);
 
@@ -231,6 +236,25 @@ function hasVisibleText(block) {
   return typeof block.block_content === "string" && block.block_content.trim().length > 0;
 }
 
+function blockPolygon(block, coordinates) {
+  // Prefer the tight rotated quadrilateral injected for augmented versions.
+  const poly = block.polygon;
+  if (Array.isArray(poly) && poly.length >= 3) {
+    const points = poly
+      .map((p) => (Array.isArray(p) ? [Number(p[0]), Number(p[1])] : [Number(p.x), Number(p.y)]))
+      .filter((p) => Number.isFinite(p[0]) && Number.isFinite(p[1]));
+    if (points.length >= 3) return points;
+  }
+  // Fall back to the axis-aligned box corners.
+  const { xMin, yMin, xMax, yMax } = coordinates;
+  return [
+    [xMin, yMin],
+    [xMax, yMin],
+    [xMax, yMax],
+    [xMin, yMax],
+  ];
+}
+
 async function loadLabel(image) {
   if (!image.label_path) return null;
   if (state.labelCache.has(image.label_path)) {
@@ -261,6 +285,12 @@ async function drawOrderOverlay(imageButton, img, image) {
   const label = await loadLabel(image);
   if (!label || !Array.isArray(label.blocks)) return;
 
+  // Coordinates in labels are in ORIGINAL pixel space. When the grid shows a
+  // downscaled thumbnail, img.naturalWidth is the thumb size, so prefer the
+  // original dimensions carried in the manifest for correct overlay scaling.
+  const baseWidth = image.width || img.naturalWidth;
+  const baseHeight = image.height || img.naturalHeight;
+
   const imageRect = img.getBoundingClientRect();
   const buttonRect = imageButton.getBoundingClientRect();
   overlay.style.left = `${imageRect.left - buttonRect.left}px`;
@@ -268,29 +298,65 @@ async function drawOrderOverlay(imageButton, img, image) {
   overlay.style.width = `${imageRect.width}px`;
   overlay.style.height = `${imageRect.height}px`;
 
-  const scaleX = imageRect.width / img.naturalWidth;
-  const scaleY = imageRect.height / img.naturalHeight;
-
   const blocks = label.blocks
     .map((block, index) => ({ block, index, coordinates: blockCoordinates(block) }))
     .filter((item) => item.coordinates && item.block?.is_text !== false && hasVisibleText(item.block))
     .sort((a, b) => orderValue(a.block, a.index) - orderValue(b.block, b.index));
 
-  blocks.forEach(({ block, index, coordinates }) => {
-    const box = document.createElement("div");
-    box.className = "order-box";
-    box.style.left = `${coordinates.xMin * scaleX}px`;
-    box.style.top = `${coordinates.yMin * scaleY}px`;
-    box.style.width = `${(coordinates.xMax - coordinates.xMin) * scaleX}px`;
-    box.style.height = `${(coordinates.yMax - coordinates.yMin) * scaleY}px`;
-    box.title = block.block_content || block.block_label || block.block_id || "";
+  // Draw as an SVG so we can render the tight rotated quadrilateral (block.polygon,
+  // present in geometrically augmented versions like VL12) instead of a loose
+  // axis-aligned rectangle. viewBox handles scaling from original pixels to display.
+  const SVG_NS = "http://www.w3.org/2000/svg";
+  const svg = document.createElementNS(SVG_NS, "svg");
+  svg.setAttribute("class", "order-svg");
+  svg.setAttribute("width", `${imageRect.width}`);
+  svg.setAttribute("height", `${imageRect.height}`);
+  svg.setAttribute("viewBox", `0 0 ${baseWidth} ${baseHeight}`);
+  svg.setAttribute("preserveAspectRatio", "none");
+  const fontSize = Math.max(11, baseWidth / 55);
 
-    const badge = document.createElement("span");
-    badge.className = "order-badge";
-    badge.textContent = `${orderValue(block, index)}`;
-    box.appendChild(badge);
-    overlay.appendChild(box);
+  blocks.forEach(({ block, index, coordinates }) => {
+    const points = blockPolygon(block, coordinates);
+    const pointsAttr = points.map((p) => `${p[0]},${p[1]}`).join(" ");
+
+    const poly = document.createElementNS(SVG_NS, "polygon");
+    poly.setAttribute("points", pointsAttr);
+    poly.setAttribute("class", "order-poly");
+    poly.setAttribute("vector-effect", "non-scaling-stroke");
+    const titleNode = document.createElementNS(SVG_NS, "title");
+    titleNode.textContent = block.block_content || block.block_label || block.block_id || "";
+    poly.appendChild(titleNode);
+    svg.appendChild(poly);
+
+    // Order badge anchored at the polygon's top-left-most vertex.
+    const anchor = points.reduce((best, p) => (p[1] < best[1] || (p[1] === best[1] && p[0] < best[0]) ? p : best), points[0]);
+    const label = `${orderValue(block, index)}`;
+    const badgeW = fontSize * (0.72 * label.length + 0.5);
+    const badgeH = fontSize * 1.25;
+    const bx = Math.min(Math.max(anchor[0], 0), baseWidth - badgeW);
+    const by = Math.min(Math.max(anchor[1], 0), baseHeight - badgeH);
+
+    const rect = document.createElementNS(SVG_NS, "rect");
+    rect.setAttribute("x", `${bx}`);
+    rect.setAttribute("y", `${by}`);
+    rect.setAttribute("width", `${badgeW}`);
+    rect.setAttribute("height", `${badgeH}`);
+    rect.setAttribute("rx", `${fontSize * 0.25}`);
+    rect.setAttribute("class", "order-badge-bg");
+    svg.appendChild(rect);
+
+    const text = document.createElementNS(SVG_NS, "text");
+    text.setAttribute("x", `${bx + badgeW / 2}`);
+    text.setAttribute("y", `${by + badgeH / 2}`);
+    text.setAttribute("font-size", `${fontSize}`);
+    text.setAttribute("text-anchor", "middle");
+    text.setAttribute("dominant-baseline", "central");
+    text.setAttribute("class", "order-badge-text");
+    text.textContent = label;
+    svg.appendChild(text);
   });
+
+  overlay.appendChild(svg);
 }
 
 function redrawVisibleOverlays() {
@@ -298,7 +364,9 @@ function redrawVisibleOverlays() {
     const img = imageButton.querySelector("img");
     const imagePath = img?.getAttribute("src");
     const category = getCurrentCategory();
-    const image = category?.images.find((item) => item.path === imagePath);
+    const image = category?.images.find(
+      (item) => item.thumb_path === imagePath || item.path === imagePath
+    );
     if (img && image) drawOrderOverlay(imageButton, img, image);
   });
 }

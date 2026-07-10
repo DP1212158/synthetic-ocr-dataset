@@ -5,9 +5,9 @@
   "category_id": "textbook_page",
   "category_cn": "教科书页",
   "folder": "06_教科书页",
-  "template_name_cn": "复习检测页",
-  "layout_family": "v4_review_questions",
-  "design_prompt": "复习正文、题目和答题区。",
+  "template_name_cn": "重点提示页",
+  "layout_family": "v4_textbook_lesson_blocks",
+  "design_prompt": "小节标题、讲解正文、例题框、图解与编号练习。",
   "writing_system": {
     "language": "传统蒙古文",
     "writing_mode": "vertical-lr",
@@ -16,8 +16,8 @@
     "page_rotation": "none"
   },
   "page": {
-    "width": 1100,
-    "height": 1500,
+    "width": 1220,
+    "height": 1700,
     "orientation": "portrait",
     "background": "warm_paper",
     "tight_crop": true
@@ -26,7 +26,7 @@
     "paper": "#fbf8ed",
     "ink": "#151515",
     "muted": "#625d55",
-    "accent": "#8f2f2f",
+    "accent": "#5a2f7a",
     "line": "#222222",
     "font_scale": "native_vertical_v4"
   },
@@ -38,331 +38,1018 @@
   },
   "elements": [
     {
-      "id": "title",
-      "kind": "text",
-      "label": "chapter_title",
-      "role": "review",
-      "class": "title",
+      "id": "outer",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box",
       "box": {
-        "x": 80,
-        "y": 70,
-        "w": 54,
-        "h": 1350
-      },
-      "text": {
-        "source": "safe_fragment",
-        "min_chars": 4,
-        "max_chars": 24
+        "x": 46,
+        "y": 50,
+        "w": 1128,
+        "h": 1600
       },
       "visual": {}
     },
     {
-      "id": "summary_01",
+      "id": "sec_title",
       "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
+      "label": "section_title",
+      "role": "section",
+      "class": "subtitle",
       "box": {
-        "x": 170,
-        "y": 100,
-        "w": 30,
-        "h": 1180
+        "x": 76,
+        "y": 110,
+        "w": 40,
+        "h": 820
       },
       "text": {
-        "source": "short",
-        "min_chars": 20,
-        "max_chars": 42
+        "source": "title",
+        "min_chars": 89,
+        "max_chars": 145
       },
-      "visual": {}
-    },
-    {
-      "id": "summary_02",
-      "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
-      "box": {
-        "x": 220,
-        "y": 100,
-        "w": 30,
-        "h": 1180
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 20,
-        "max_chars": 42
-      },
-      "visual": {}
-    },
-    {
-      "id": "summary_03",
-      "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
-      "box": {
-        "x": 270,
-        "y": 100,
-        "w": 30,
-        "h": 1180
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 20,
-        "max_chars": 42
-      },
-      "visual": {}
-    },
-    {
-      "id": "summary_04",
-      "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
-      "box": {
-        "x": 320,
-        "y": 100,
-        "w": 30,
-        "h": 1180
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 20,
-        "max_chars": 42
-      },
-      "visual": {}
-    },
-    {
-      "id": "summary_05",
-      "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
-      "box": {
-        "x": 370,
-        "y": 100,
-        "w": 30,
-        "h": 1180
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 20,
-        "max_chars": 42
-      },
-      "visual": {}
-    },
-    {
-      "id": "summary_06",
-      "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
-      "box": {
-        "x": 420,
-        "y": 100,
-        "w": 30,
-        "h": 1180
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 20,
-        "max_chars": 42
-      },
-      "visual": {}
-    },
-    {
-      "id": "summary_07",
-      "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
-      "box": {
-        "x": 470,
-        "y": 100,
-        "w": 30,
-        "h": 1180
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 20,
-        "max_chars": 42
-      },
-      "visual": {}
-    },
-    {
-      "id": "review_q_01",
-      "kind": "text",
-      "label": "question_text",
-      "role": "question",
-      "class": "body",
-      "box": {
-        "x": 560,
-        "y": 120,
-        "w": 32,
-        "h": 560
-      },
-      "text": {
-        "source": "question",
-        "min_chars": 12,
-        "max_chars": 20
-      },
-      "visual": {}
-    },
-    {
-      "id": "review_a_01",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
-      "class": "answer-box",
-      "box": {
-        "x": 598,
-        "y": 120,
-        "w": 38,
-        "h": 560
-      },
-      "text": {
-        "source": "blank"
+      "visual": {
+        "color": "#5a2f7a"
       }
     },
     {
-      "id": "review_q_02",
-      "kind": "text",
-      "label": "question_text",
-      "role": "question",
-      "class": "body",
+      "id": "ex_panel",
+      "kind": "decor",
+      "label": "decor",
+      "class": "boxed note-fill",
       "box": {
-        "x": 646,
-        "y": 120,
-        "w": 32,
-        "h": 560
-      },
-      "text": {
-        "source": "question",
-        "min_chars": 12,
-        "max_chars": 20
+        "x": 327,
+        "y": 110,
+        "w": 250,
+        "h": 1480
       },
       "visual": {}
     },
     {
-      "id": "review_a_02",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
-      "class": "answer-box",
+      "id": "ex_title",
+      "kind": "text",
+      "label": "section_title",
+      "role": "example",
+      "class": "subtitle",
       "box": {
-        "x": 684,
-        "y": 120,
-        "w": 38,
-        "h": 560
+        "x": 339,
+        "y": 126,
+        "w": 34,
+        "h": 720
       },
       "text": {
-        "source": "blank"
+        "source": "title",
+        "min_chars": 78,
+        "max_chars": 128
+      },
+      "visual": {
+        "color": "#5a2f7a"
       }
     },
     {
-      "id": "review_q_03",
+      "id": "ex_01",
       "kind": "text",
-      "label": "question_text",
-      "role": "question",
+      "label": "paragraph",
+      "role": "example_body",
       "class": "body",
       "box": {
-        "x": 732,
-        "y": 120,
+        "x": 385,
+        "y": 126,
         "w": 32,
-        "h": 560
+        "h": 465
       },
       "text": {
-        "source": "question",
-        "min_chars": 12,
-        "max_chars": 20
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
       },
       "visual": {}
     },
     {
-      "id": "review_a_03",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
-      "class": "answer-box",
-      "box": {
-        "x": 770,
-        "y": 120,
-        "w": 38,
-        "h": 560
-      },
-      "text": {
-        "source": "blank"
-      }
-    },
-    {
-      "id": "review_q_04",
+      "id": "ex_02",
       "kind": "text",
-      "label": "question_text",
-      "role": "question",
+      "label": "paragraph",
+      "role": "example_body",
       "class": "body",
       "box": {
-        "x": 818,
-        "y": 120,
+        "x": 425,
+        "y": 126,
         "w": 32,
-        "h": 560
+        "h": 465
       },
       "text": {
-        "source": "question",
-        "min_chars": 12,
-        "max_chars": 20
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
       },
       "visual": {}
     },
     {
-      "id": "review_a_04",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
-      "class": "answer-box",
-      "box": {
-        "x": 856,
-        "y": 120,
-        "w": 38,
-        "h": 560
-      },
-      "text": {
-        "source": "blank"
-      }
-    },
-    {
-      "id": "review_q_05",
+      "id": "ex_03",
       "kind": "text",
-      "label": "question_text",
-      "role": "question",
+      "label": "paragraph",
+      "role": "example_body",
       "class": "body",
       "box": {
-        "x": 904,
-        "y": 120,
+        "x": 465,
+        "y": 126,
         "w": 32,
-        "h": 560
+        "h": 465
       },
       "text": {
-        "source": "question",
-        "min_chars": 12,
-        "max_chars": 20
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
       },
       "visual": {}
     },
     {
-      "id": "review_a_05",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
-      "class": "answer-box",
+      "id": "ex_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "example_body",
+      "class": "body",
       "box": {
-        "x": 942,
-        "y": 120,
-        "w": 38,
-        "h": 560
+        "x": 505,
+        "y": 126,
+        "w": 32,
+        "h": 465
       },
       "text": {
-        "source": "blank"
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
+      },
+      "visual": {}
+    },
+    {
+      "id": "ex_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "example_body",
+      "class": "body",
+      "box": {
+        "x": 385,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
+      },
+      "visual": {}
+    },
+    {
+      "id": "ex_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "example_body",
+      "class": "body",
+      "box": {
+        "x": 425,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
+      },
+      "visual": {}
+    },
+    {
+      "id": "ex_07",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "example_body",
+      "class": "body",
+      "box": {
+        "x": 465,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
+      },
+      "visual": {}
+    },
+    {
+      "id": "ex_08",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "example_body",
+      "class": "body",
+      "box": {
+        "x": 505,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
+      },
+      "visual": {}
+    },
+    {
+      "id": "ex_09",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "example_body",
+      "class": "body",
+      "box": {
+        "x": 385,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
+      },
+      "visual": {}
+    },
+    {
+      "id": "ex_10",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "example_body",
+      "class": "body",
+      "box": {
+        "x": 425,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
+      },
+      "visual": {}
+    },
+    {
+      "id": "ex_11",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "example_body",
+      "class": "body",
+      "box": {
+        "x": 465,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
+      },
+      "visual": {}
+    },
+    {
+      "id": "ex_12",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "example_body",
+      "class": "body",
+      "box": {
+        "x": 505,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_01",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 593,
+        "y": 110,
+        "w": 32,
+        "h": 476
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 71,
+        "max_chars": 102
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_02",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 633,
+        "y": 110,
+        "w": 32,
+        "h": 476
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 71,
+        "max_chars": 102
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_03",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 673,
+        "y": 110,
+        "w": 32,
+        "h": 476
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 71,
+        "max_chars": 102
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_04",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 713,
+        "y": 110,
+        "w": 32,
+        "h": 476
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 71,
+        "max_chars": 102
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_05",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 753,
+        "y": 110,
+        "w": 32,
+        "h": 476
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 71,
+        "max_chars": 102
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_06",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 593,
+        "y": 612,
+        "w": 32,
+        "h": 476
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 71,
+        "max_chars": 102
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_07",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 633,
+        "y": 612,
+        "w": 32,
+        "h": 476
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 71,
+        "max_chars": 102
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_08",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 673,
+        "y": 612,
+        "w": 32,
+        "h": 476
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 71,
+        "max_chars": 102
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_09",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 713,
+        "y": 612,
+        "w": 32,
+        "h": 476
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 71,
+        "max_chars": 102
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_10",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 753,
+        "y": 612,
+        "w": 32,
+        "h": 476
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 71,
+        "max_chars": 102
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_11",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 593,
+        "y": 1114,
+        "w": 32,
+        "h": 476
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 71,
+        "max_chars": 102
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_12",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 633,
+        "y": 1114,
+        "w": 32,
+        "h": 476
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 71,
+        "max_chars": 102
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_13",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 673,
+        "y": 1114,
+        "w": 32,
+        "h": 476
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 71,
+        "max_chars": 102
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_14",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 713,
+        "y": 1114,
+        "w": 32,
+        "h": 476
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 71,
+        "max_chars": 102
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_15",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 753,
+        "y": 1114,
+        "w": 32,
+        "h": 476
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 71,
+        "max_chars": 102
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_panel",
+      "kind": "decor",
+      "label": "decor",
+      "class": "boxed soft-fill",
+      "box": {
+        "x": 797,
+        "y": 110,
+        "w": 363,
+        "h": 1480
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_title",
+      "kind": "text",
+      "label": "section_title",
+      "role": "exercise",
+      "class": "subtitle",
+      "box": {
+        "x": 809,
+        "y": 126,
+        "w": 32,
+        "h": 720
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 78,
+        "max_chars": 128
+      },
+      "visual": {
+        "color": "#5a2f7a"
       }
+    },
+    {
+      "id": "hw_01",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 851,
+        "y": 126,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_02",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 891,
+        "y": 126,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_03",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 931,
+        "y": 126,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_04",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 971,
+        "y": 126,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_05",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1011,
+        "y": 126,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_06",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1051,
+        "y": 126,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_07",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1091,
+        "y": 126,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_08",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 851,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_09",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 891,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_10",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 931,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_11",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 971,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_12",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1011,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_13",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1051,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_14",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1091,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_15",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 851,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_16",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 891,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_17",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 931,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_18",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 971,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_19",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1011,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_20",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1051,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_21",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1091,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
     }
   ]
 }

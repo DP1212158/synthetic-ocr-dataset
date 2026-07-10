@@ -333,6 +333,31 @@ button {
   white-space: nowrap;
 }
 
+.order-svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: visible;
+}
+
+.order-poly {
+  fill: rgba(22, 106, 122, 0.08);
+  stroke: rgba(22, 106, 122, 0.82);
+  stroke-width: 1.5px;
+  pointer-events: auto;
+}
+
+.order-badge-bg {
+  fill: rgba(14, 83, 96, 0.94);
+}
+
+.order-badge-text {
+  fill: #fff;
+  font-weight: 800;
+  font-family: inherit;
+  pointer-events: none;
+}
+
 .image-meta {
   flex: 0 0 auto;
   padding: 12px 14px 14px;

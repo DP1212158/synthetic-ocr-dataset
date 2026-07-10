@@ -2,13 +2,14 @@
   "schema_version": "category_layout_tree.v3",
   "category_index": 6,
   "category_id": "textbook_page",
-  "category_cn": "教科书页",
+  "category_cn": "教科书内页",
   "shared_constraints": {
     "required_labels": [
       "document_title",
+      "section_title",
       "paragraph"
     ],
-    "min_ocr_blocks": 7,
+    "min_ocr_blocks": 10,
     "qa": {
       "reading_order_explicit": true,
       "overflow_blocks": 0
@@ -18,9 +19,9 @@
     {
       "variant": 1,
       "template_id": "textbook_page_v3_01",
-      "template_name_cn": "单栏课文讲解",
-      "layout_family": "single_column_lesson",
-      "complexity": "S",
+      "template_name_cn": "单栏课节",
+      "layout_family": "lesson_single_col",
+      "complexity": "M",
       "writing_mode": "horizontal-tb",
       "page": {
         "width": 1240,
@@ -30,15 +31,19 @@
       },
       "tight_crop": true,
       "style_tokens": {
-        "paper": "#fdfbf6",
-        "ink": "#151515",
-        "line": "#2a3d55"
+        "paper": "#ffffff",
+        "ink": "#16213a",
+        "line": "#8aa0b6",
+        "accent": "#1f6f8b",
+        "accent2": "#e0862f",
+        "band_ink": "#eaf4f7"
       },
       "regions": [
         {
           "id": "header",
           "order": 1,
-          "layout": "stack"
+          "layout": "stack",
+          "visual": "band"
         },
         {
           "id": "body",
@@ -46,27 +51,27 @@
           "layout": "stack"
         },
         {
-          "id": "footer",
+          "id": "example",
           "order": 3,
-          "layout": "stack"
+          "layout": "stack",
+          "visual": "softband"
+        },
+        {
+          "id": "exercise",
+          "order": 4,
+          "layout": "stack",
+          "visual": "card"
+        },
+        {
+          "id": "footer",
+          "order": 5,
+          "layout": "stack",
+          "visual": "footer"
         }
       ],
       "blocks": [
         {
-          "reading_order": 1,
           "region": "header",
-          "column": 0,
-          "role": "metadata",
-          "label": "metadata",
-          "text": {
-            "source": "metadata",
-            "min_chars": 6,
-            "max_chars": 22
-          }
-        },
-        {
-          "reading_order": 2,
-          "region": "body",
           "column": 0,
           "role": "document_title",
           "label": "document_title",
@@ -74,58 +79,133 @@
             "source": "title",
             "min_chars": 6,
             "max_chars": 22
-          }
+          },
+          "reading_order": 1
         },
         {
-          "reading_order": 3,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 90,
-            "max_chars": 175
-          }
-        },
-        {
-          "reading_order": 4,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 90,
-            "max_chars": 175
-          }
-        },
-        {
-          "reading_order": 5,
           "region": "body",
           "column": 0,
           "role": "section_title",
           "label": "section_title",
           "text": {
             "source": "section_title",
-            "min_chars": 5,
-            "max_chars": 18
-          }
+            "min_chars": 4,
+            "max_chars": 14
+          },
+          "accent": true,
+          "reading_order": 2
         },
         {
-          "reading_order": 6,
           "region": "body",
           "column": 0,
-          "role": "note",
-          "label": "note",
+          "role": "paragraph",
+          "label": "paragraph",
           "text": {
-            "source": "note",
-            "min_chars": 20,
-            "max_chars": 60
-          }
+            "source": "paragraph",
+            "min_chars": 110,
+            "max_chars": 210
+          },
+          "reading_order": 3
         },
         {
-          "reading_order": 7,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 14,
+            "max_chars": 48
+          },
+          "reading_order": 4
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 14,
+            "max_chars": 48
+          },
+          "reading_order": 5
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 14,
+            "max_chars": 44
+          },
+          "reading_order": 6
+        },
+        {
+          "region": "example",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 12
+          },
+          "accent": true,
+          "reading_order": 7
+        },
+        {
+          "region": "example",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 80,
+            "max_chars": 170
+          },
+          "reading_order": 8
+        },
+        {
+          "region": "exercise",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 12
+          },
+          "accent": true,
+          "reading_order": 9
+        },
+        {
+          "region": "exercise",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 54
+          },
+          "reading_order": 10
+        },
+        {
+          "region": "exercise",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 54
+          },
+          "reading_order": 11
+        },
+        {
           "region": "footer",
           "column": 0,
           "role": "footer",
@@ -134,7 +214,8 @@
             "source": "metadata",
             "min_chars": 4,
             "max_chars": 16
-          }
+          },
+          "reading_order": 12
         }
       ],
       "orientation": "landscape"
@@ -142,9 +223,9 @@
     {
       "variant": 2,
       "template_id": "textbook_page_v3_02",
-      "template_name_cn": "课文加练习题",
-      "layout_family": "single_column_exercises",
-      "complexity": "S",
+      "template_name_cn": "图解双栏",
+      "layout_family": "illustrated_two_col",
+      "complexity": "M",
       "writing_mode": "horizontal-tb",
       "page": {
         "width": 1240,
@@ -154,43 +235,37 @@
       },
       "tight_crop": true,
       "style_tokens": {
-        "paper": "#fdfbf6",
-        "ink": "#141414",
-        "line": "#2a3d55"
+        "paper": "#ffffff",
+        "ink": "#16213a",
+        "line": "#8aa0b6",
+        "accent": "#1f6f8b",
+        "accent2": "#e0862f",
+        "band_ink": "#eaf4f7"
       },
       "regions": [
         {
           "id": "header",
           "order": 1,
-          "layout": "stack"
+          "layout": "stack",
+          "visual": "band"
         },
         {
           "id": "body",
           "order": 2,
-          "layout": "stack"
+          "layout": "columns",
+          "columns": 2,
+          "gap": 34
         },
         {
           "id": "footer",
           "order": 3,
-          "layout": "stack"
+          "layout": "stack",
+          "visual": "footer"
         }
       ],
       "blocks": [
         {
-          "reading_order": 1,
           "region": "header",
-          "column": 0,
-          "role": "metadata",
-          "label": "metadata",
-          "text": {
-            "source": "metadata",
-            "min_chars": 6,
-            "max_chars": 22
-          }
-        },
-        {
-          "reading_order": 2,
-          "region": "body",
           "column": 0,
           "role": "document_title",
           "label": "document_title",
@@ -198,34 +273,10 @@
             "source": "title",
             "min_chars": 6,
             "max_chars": 22
-          }
+          },
+          "reading_order": 1
         },
         {
-          "reading_order": 3,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 90,
-            "max_chars": 175
-          }
-        },
-        {
-          "reading_order": 4,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 80,
-            "max_chars": 160
-          }
-        },
-        {
-          "reading_order": 5,
           "region": "body",
           "column": 0,
           "role": "section_title",
@@ -233,47 +284,117 @@
           "text": {
             "source": "section_title",
             "min_chars": 4,
-            "max_chars": 16
-          }
+            "max_chars": 14
+          },
+          "accent": true,
+          "reading_order": 2
         },
         {
-          "reading_order": 6,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 100,
+            "max_chars": 200
+          },
+          "reading_order": 3
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "figure",
+          "label": "figure",
+          "ocr_orderable": false,
+          "height": 190
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "caption",
+          "label": "caption",
+          "text": {
+            "source": "caption",
+            "min_chars": 10,
+            "max_chars": 40
+          },
+          "reading_order": 4
+        },
+        {
           "region": "body",
           "column": 0,
           "role": "list_item",
           "label": "list_item",
           "text": {
-            "source": "question",
-            "min_chars": 20,
-            "max_chars": 70
-          }
+            "source": "list_item",
+            "min_chars": 14,
+            "max_chars": 46
+          },
+          "reading_order": 5
         },
         {
-          "reading_order": 7,
           "region": "body",
-          "column": 0,
+          "column": 1,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 12
+          },
+          "accent": true,
+          "reading_order": 6
+        },
+        {
+          "region": "body",
+          "column": 1,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 100,
+            "max_chars": 190
+          },
+          "reading_order": 7
+        },
+        {
+          "region": "body",
+          "column": 1,
           "role": "list_item",
           "label": "list_item",
           "text": {
-            "source": "question",
-            "min_chars": 20,
-            "max_chars": 70
-          }
+            "source": "list_item",
+            "min_chars": 14,
+            "max_chars": 46
+          },
+          "reading_order": 8
         },
         {
-          "reading_order": 8,
           "region": "body",
-          "column": 0,
+          "column": 1,
           "role": "list_item",
           "label": "list_item",
           "text": {
-            "source": "question",
-            "min_chars": 20,
-            "max_chars": 70
-          }
+            "source": "list_item",
+            "min_chars": 14,
+            "max_chars": 44
+          },
+          "reading_order": 9
         },
         {
-          "reading_order": 9,
+          "region": "body",
+          "column": 1,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 52
+          },
+          "reading_order": 10
+        },
+        {
           "region": "footer",
           "column": 0,
           "role": "footer",
@@ -282,7 +403,8 @@
             "source": "metadata",
             "min_chars": 4,
             "max_chars": 16
-          }
+          },
+          "reading_order": 11
         }
       ],
       "orientation": "landscape"
@@ -290,27 +412,31 @@
     {
       "variant": 3,
       "template_id": "textbook_page_v3_03",
-      "template_name_cn": "单栏图解课文",
-      "layout_family": "single_column_illustrated",
-      "complexity": "S",
+      "template_name_cn": "概念讲解",
+      "layout_family": "concept_framed_example",
+      "complexity": "M",
       "writing_mode": "horizontal-tb",
       "page": {
         "width": 1240,
         "height": 1754,
         "orientation": "portrait",
-        "background": "warm_paper"
+        "background": "clean_paper"
       },
       "tight_crop": true,
       "style_tokens": {
-        "paper": "#fbf8ee",
-        "ink": "#151515",
-        "line": "#2a3d55"
+        "paper": "#ffffff",
+        "ink": "#16213a",
+        "line": "#8aa0b6",
+        "accent": "#1f6f8b",
+        "accent2": "#e0862f",
+        "band_ink": "#eaf4f7"
       },
       "regions": [
         {
           "id": "header",
           "order": 1,
-          "layout": "stack"
+          "layout": "stack",
+          "visual": "band"
         },
         {
           "id": "body",
@@ -318,27 +444,26 @@
           "layout": "stack"
         },
         {
-          "id": "footer",
+          "id": "example",
           "order": 3,
+          "layout": "stack",
+          "visual": "framed"
+        },
+        {
+          "id": "body2",
+          "order": 4,
           "layout": "stack"
+        },
+        {
+          "id": "footer",
+          "order": 5,
+          "layout": "stack",
+          "visual": "footer"
         }
       ],
       "blocks": [
         {
-          "reading_order": 1,
           "region": "header",
-          "column": 0,
-          "role": "metadata",
-          "label": "metadata",
-          "text": {
-            "source": "metadata",
-            "min_chars": 6,
-            "max_chars": 22
-          }
-        },
-        {
-          "reading_order": 2,
-          "region": "body",
           "column": 0,
           "role": "document_title",
           "label": "document_title",
@@ -346,78 +471,133 @@
             "source": "title",
             "min_chars": 6,
             "max_chars": 22
-          }
+          },
+          "reading_order": 1
         },
         {
-          "reading_order": 3,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 90,
-            "max_chars": 175
-          }
-        },
-        {
-          "region": "body",
-          "column": 0,
-          "role": "image",
-          "label": "image",
-          "ocr_orderable": false,
-          "height": 300
-        },
-        {
-          "reading_order": 4,
-          "region": "body",
-          "column": 0,
-          "role": "caption",
-          "label": "caption",
-          "text": {
-            "source": "caption",
-            "min_chars": 10,
-            "max_chars": 36
-          }
-        },
-        {
-          "reading_order": 5,
           "region": "body",
           "column": 0,
           "role": "section_title",
           "label": "section_title",
           "text": {
             "source": "section_title",
-            "min_chars": 5,
-            "max_chars": 18
-          }
+            "min_chars": 4,
+            "max_chars": 14
+          },
+          "accent": true,
+          "reading_order": 2
         },
         {
-          "reading_order": 6,
           "region": "body",
           "column": 0,
           "role": "paragraph",
           "label": "paragraph",
           "text": {
             "source": "paragraph",
-            "min_chars": 80,
-            "max_chars": 160
-          }
+            "min_chars": 110,
+            "max_chars": 210
+          },
+          "reading_order": 3
         },
         {
-          "reading_order": 7,
           "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 100,
+            "max_chars": 190
+          },
+          "reading_order": 4
+        },
+        {
+          "region": "example",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 12
+          },
+          "accent": true,
+          "reading_order": 5
+        },
+        {
+          "region": "example",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 150
+          },
+          "reading_order": 6
+        },
+        {
+          "region": "example",
           "column": 0,
           "role": "list_item",
           "label": "list_item",
           "text": {
-            "source": "question",
-            "min_chars": 20,
-            "max_chars": 66
-          }
+            "source": "list_item",
+            "min_chars": 14,
+            "max_chars": 46
+          },
+          "reading_order": 7
         },
         {
-          "reading_order": 8,
+          "region": "body2",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 12
+          },
+          "accent": true,
+          "reading_order": 8
+        },
+        {
+          "region": "body2",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 14,
+            "max_chars": 48
+          },
+          "reading_order": 9
+        },
+        {
+          "region": "body2",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 14,
+            "max_chars": 46
+          },
+          "reading_order": 10
+        },
+        {
+          "region": "body2",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 14,
+            "max_chars": 44
+          },
+          "reading_order": 11
+        },
+        {
           "region": "footer",
           "column": 0,
           "role": "footer",
@@ -426,7 +606,8 @@
             "source": "metadata",
             "min_chars": 4,
             "max_chars": 16
-          }
+          },
+          "reading_order": 12
         }
       ],
       "orientation": "landscape"
@@ -434,8 +615,8 @@
     {
       "variant": 4,
       "template_id": "textbook_page_v3_04",
-      "template_name_cn": "双栏课文讲解",
-      "layout_family": "two_column_continuous",
+      "template_name_cn": "练习活动",
+      "layout_family": "activity_exercises",
       "complexity": "M",
       "writing_mode": "horizontal-tb",
       "page": {
@@ -446,34 +627,43 @@
       },
       "tight_crop": true,
       "style_tokens": {
-        "paper": "#fdfbf6",
-        "ink": "#151515",
-        "line": "#2a3d55"
+        "paper": "#ffffff",
+        "ink": "#16213a",
+        "line": "#8aa0b6",
+        "accent": "#1f6f8b",
+        "accent2": "#e0862f",
+        "band_ink": "#eaf4f7"
       },
       "regions": [
         {
-          "id": "title",
+          "id": "header",
           "order": 1,
+          "layout": "stack",
+          "visual": "band"
+        },
+        {
+          "id": "intro",
+          "order": 2,
           "layout": "stack"
         },
         {
-          "id": "body",
-          "order": 2,
+          "id": "exercise",
+          "order": 3,
           "layout": "columns",
           "columns": 2,
-          "flow": "continuous_columns",
-          "gap": 36
+          "gap": 30,
+          "visual": "card"
         },
         {
           "id": "footer",
-          "order": 3,
-          "layout": "stack"
+          "order": 4,
+          "layout": "stack",
+          "visual": "footer"
         }
       ],
       "blocks": [
         {
-          "reading_order": 1,
-          "region": "title",
+          "region": "header",
           "column": 0,
           "role": "document_title",
           "label": "document_title",
@@ -481,106 +671,107 @@
             "source": "title",
             "min_chars": 6,
             "max_chars": 22
-          }
+          },
+          "reading_order": 1
         },
         {
-          "reading_order": 2,
-          "region": "body",
+          "region": "intro",
           "column": 0,
-          "role": "section_title",
-          "label": "section_title",
-          "text": {
-            "source": "section_title",
-            "min_chars": 5,
-            "max_chars": 18
-          }
-        },
-        {
-          "reading_order": 3,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 80,
-            "max_chars": 160
-          }
-        },
-        {
-          "reading_order": 4,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 80,
-            "max_chars": 150
-          }
-        },
-        {
-          "reading_order": 5,
-          "region": "body",
-          "column": 0,
-          "role": "note",
-          "label": "note",
-          "text": {
-            "source": "note",
-            "min_chars": 20,
-            "max_chars": 60
-          }
-        },
-        {
-          "reading_order": 6,
-          "region": "body",
-          "column": 1,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 80,
-            "max_chars": 160
-          }
-        },
-        {
-          "reading_order": 7,
-          "region": "body",
-          "column": 1,
           "role": "section_title",
           "label": "section_title",
           "text": {
             "source": "section_title",
             "min_chars": 4,
-            "max_chars": 16
-          }
+            "max_chars": 14
+          },
+          "accent": true,
+          "reading_order": 2
         },
         {
-          "reading_order": 8,
-          "region": "body",
-          "column": 1,
-          "role": "list_item",
-          "label": "list_item",
+          "region": "intro",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 180
+          },
+          "reading_order": 3
+        },
+        {
+          "region": "exercise",
+          "column": 0,
+          "role": "question",
+          "label": "question",
           "text": {
             "source": "question",
-            "min_chars": 18,
-            "max_chars": 60
-          }
+            "min_chars": 16,
+            "max_chars": 54
+          },
+          "reading_order": 4
         },
         {
-          "reading_order": 9,
-          "region": "body",
-          "column": 1,
-          "role": "list_item",
-          "label": "list_item",
+          "region": "exercise",
+          "column": 0,
+          "role": "question",
+          "label": "question",
           "text": {
             "source": "question",
-            "min_chars": 18,
-            "max_chars": 60
-          }
+            "min_chars": 16,
+            "max_chars": 52
+          },
+          "reading_order": 5
         },
         {
-          "reading_order": 10,
+          "region": "exercise",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 50
+          },
+          "reading_order": 6
+        },
+        {
+          "region": "exercise",
+          "column": 1,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 54
+          },
+          "reading_order": 7
+        },
+        {
+          "region": "exercise",
+          "column": 1,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 52
+          },
+          "reading_order": 8
+        },
+        {
+          "region": "exercise",
+          "column": 1,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 50
+          },
+          "reading_order": 9
+        },
+        {
           "region": "footer",
           "column": 0,
           "role": "footer",
@@ -589,7 +780,8 @@
             "source": "metadata",
             "min_chars": 4,
             "max_chars": 16
-          }
+          },
+          "reading_order": 10
         }
       ],
       "orientation": "landscape"
@@ -597,159 +789,8 @@
     {
       "variant": 5,
       "template_id": "textbook_page_v3_05",
-      "template_name_cn": "双栏课文加练习",
-      "layout_family": "two_column_lesson_exercise",
-      "complexity": "M",
-      "writing_mode": "horizontal-tb",
-      "page": {
-        "width": 1240,
-        "height": 1754,
-        "orientation": "portrait",
-        "background": "warm_paper"
-      },
-      "tight_crop": true,
-      "style_tokens": {
-        "paper": "#fbf8ee",
-        "ink": "#151515",
-        "line": "#2a3d55"
-      },
-      "regions": [
-        {
-          "id": "title",
-          "order": 1,
-          "layout": "stack"
-        },
-        {
-          "id": "body",
-          "order": 2,
-          "layout": "columns",
-          "columns": 2,
-          "flow": "continuous_columns",
-          "gap": 36
-        },
-        {
-          "id": "footer",
-          "order": 3,
-          "layout": "stack"
-        }
-      ],
-      "blocks": [
-        {
-          "reading_order": 1,
-          "region": "title",
-          "column": 0,
-          "role": "document_title",
-          "label": "document_title",
-          "text": {
-            "source": "title",
-            "min_chars": 6,
-            "max_chars": 22
-          }
-        },
-        {
-          "reading_order": 2,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 80,
-            "max_chars": 160
-          }
-        },
-        {
-          "reading_order": 3,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 80,
-            "max_chars": 160
-          }
-        },
-        {
-          "reading_order": 4,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 70,
-            "max_chars": 150
-          }
-        },
-        {
-          "reading_order": 5,
-          "region": "body",
-          "column": 1,
-          "role": "section_title",
-          "label": "section_title",
-          "text": {
-            "source": "section_title",
-            "min_chars": 4,
-            "max_chars": 16
-          }
-        },
-        {
-          "reading_order": 6,
-          "region": "body",
-          "column": 1,
-          "role": "list_item",
-          "label": "list_item",
-          "text": {
-            "source": "question",
-            "min_chars": 18,
-            "max_chars": 60
-          }
-        },
-        {
-          "reading_order": 7,
-          "region": "body",
-          "column": 1,
-          "role": "list_item",
-          "label": "list_item",
-          "text": {
-            "source": "question",
-            "min_chars": 18,
-            "max_chars": 60
-          }
-        },
-        {
-          "reading_order": 8,
-          "region": "body",
-          "column": 1,
-          "role": "list_item",
-          "label": "list_item",
-          "text": {
-            "source": "question",
-            "min_chars": 18,
-            "max_chars": 60
-          }
-        },
-        {
-          "reading_order": 9,
-          "region": "footer",
-          "column": 0,
-          "role": "footer",
-          "label": "metadata",
-          "text": {
-            "source": "metadata",
-            "min_chars": 4,
-            "max_chars": 16
-          }
-        }
-      ],
-      "orientation": "landscape"
-    },
-    {
-      "variant": 6,
-      "template_id": "textbook_page_v3_06",
-      "template_name_cn": "双栏图解课文",
-      "layout_family": "two_column_illustrated",
+      "template_name_cn": "阅读理解",
+      "layout_family": "reading_with_note",
       "complexity": "M",
       "writing_mode": "horizontal-tb",
       "page": {
@@ -760,34 +801,43 @@
       },
       "tight_crop": true,
       "style_tokens": {
-        "paper": "#fdfbf6",
-        "ink": "#151515",
-        "line": "#2a3d55"
+        "paper": "#ffffff",
+        "ink": "#16213a",
+        "line": "#8aa0b6",
+        "accent": "#1f6f8b",
+        "accent2": "#e0862f",
+        "band_ink": "#eaf4f7"
       },
       "regions": [
         {
-          "id": "title",
+          "id": "header",
           "order": 1,
-          "layout": "stack"
+          "layout": "stack",
+          "visual": "band"
         },
         {
           "id": "body",
           "order": 2,
           "layout": "columns",
           "columns": 2,
-          "flow": "continuous_columns",
-          "gap": 36
+          "gap": 34
+        },
+        {
+          "id": "note",
+          "order": 3,
+          "layout": "stack",
+          "visual": "softband"
         },
         {
           "id": "footer",
-          "order": 3,
-          "layout": "stack"
+          "order": 4,
+          "layout": "stack",
+          "visual": "footer"
         }
       ],
       "blocks": [
         {
-          "reading_order": 1,
-          "region": "title",
+          "region": "header",
           "column": 0,
           "role": "document_title",
           "label": "document_title",
@@ -795,42 +845,584 @@
             "source": "title",
             "min_chars": 6,
             "max_chars": 22
-          }
+          },
+          "reading_order": 1
         },
         {
-          "reading_order": 2,
           "region": "body",
           "column": 0,
           "role": "section_title",
           "label": "section_title",
           "text": {
             "source": "section_title",
-            "min_chars": 5,
-            "max_chars": 18
-          }
+            "min_chars": 4,
+            "max_chars": 14
+          },
+          "accent": true,
+          "reading_order": 2
         },
         {
-          "reading_order": 3,
           "region": "body",
           "column": 0,
           "role": "paragraph",
           "label": "paragraph",
           "text": {
             "source": "paragraph",
-            "min_chars": 80,
-            "max_chars": 160
-          }
+            "min_chars": 110,
+            "max_chars": 210
+          },
+          "reading_order": 3
         },
         {
           "region": "body",
           "column": 0,
-          "role": "image",
-          "label": "image",
-          "ocr_orderable": false,
-          "height": 220
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 100,
+            "max_chars": 190
+          },
+          "reading_order": 4
         },
         {
-          "reading_order": 4,
+          "region": "body",
+          "column": 1,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 100,
+            "max_chars": 190
+          },
+          "reading_order": 5
+        },
+        {
+          "region": "body",
+          "column": 1,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 14,
+            "max_chars": 48
+          },
+          "reading_order": 6
+        },
+        {
+          "region": "body",
+          "column": 1,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 14,
+            "max_chars": 46
+          },
+          "reading_order": 7
+        },
+        {
+          "region": "note",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 12
+          },
+          "accent": true,
+          "reading_order": 8
+        },
+        {
+          "region": "note",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 30,
+            "max_chars": 80
+          },
+          "reading_order": 9
+        },
+        {
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 16
+          },
+          "reading_order": 10
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 6,
+      "template_id": "textbook_page_v3_06",
+      "template_name_cn": "单元导入",
+      "layout_family": "unit_opener_figure",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 1240,
+        "height": 1754,
+        "orientation": "portrait",
+        "background": "clean_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#ffffff",
+        "ink": "#16213a",
+        "line": "#8aa0b6",
+        "accent": "#1f6f8b",
+        "accent2": "#e0862f",
+        "band_ink": "#eaf4f7"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack",
+          "visual": "band"
+        },
+        {
+          "id": "lead",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "body",
+          "order": 3,
+          "layout": "columns",
+          "columns": 2,
+          "gap": 34
+        },
+        {
+          "id": "footer",
+          "order": 4,
+          "layout": "stack",
+          "visual": "footer"
+        }
+      ],
+      "blocks": [
+        {
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 22
+          },
+          "reading_order": 1
+        },
+        {
+          "region": "lead",
+          "column": 0,
+          "role": "subtitle",
+          "label": "subtitle",
+          "text": {
+            "source": "section_title",
+            "min_chars": 8,
+            "max_chars": 26
+          },
+          "accent": true,
+          "reading_order": 2
+        },
+        {
+          "region": "lead",
+          "column": 0,
+          "role": "figure",
+          "label": "figure",
+          "ocr_orderable": false,
+          "height": 210
+        },
+        {
+          "region": "lead",
+          "column": 0,
+          "role": "caption",
+          "label": "caption",
+          "text": {
+            "source": "caption",
+            "min_chars": 10,
+            "max_chars": 42
+          },
+          "reading_order": 3
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 100,
+            "max_chars": 190
+          },
+          "reading_order": 4
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 14,
+            "max_chars": 46
+          },
+          "reading_order": 5
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 14,
+            "max_chars": 44
+          },
+          "reading_order": 6
+        },
+        {
+          "region": "body",
+          "column": 1,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 12
+          },
+          "accent": true,
+          "reading_order": 7
+        },
+        {
+          "region": "body",
+          "column": 1,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 100,
+            "max_chars": 190
+          },
+          "reading_order": 8
+        },
+        {
+          "region": "body",
+          "column": 1,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 16,
+            "max_chars": 52
+          },
+          "reading_order": 9
+        },
+        {
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 16
+          },
+          "reading_order": 10
+        }
+      ],
+      "orientation": "landscape"
+    },
+    {
+      "variant": 7,
+      "template_id": "textbook_page_v3_07",
+      "template_name_cn": "竖排课节",
+      "layout_family": "lesson_portrait",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 470,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "clean_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#ffffff",
+        "ink": "#16213a",
+        "line": "#8aa0b6",
+        "accent": "#1f6f8b",
+        "accent2": "#e0862f",
+        "band_ink": "#eaf4f7"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack",
+          "visual": "band"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "example",
+          "order": 3,
+          "layout": "stack",
+          "visual": "softband"
+        },
+        {
+          "id": "exercise",
+          "order": 4,
+          "layout": "stack",
+          "visual": "card"
+        },
+        {
+          "id": "footer",
+          "order": 5,
+          "layout": "stack",
+          "visual": "footer"
+        }
+      ],
+      "blocks": [
+        {
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 18
+          },
+          "reading_order": 1
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 12
+          },
+          "accent": true,
+          "reading_order": 2
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 160
+          },
+          "reading_order": 3
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 12,
+            "max_chars": 40
+          },
+          "reading_order": 4
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 12,
+            "max_chars": 40
+          },
+          "reading_order": 5
+        },
+        {
+          "region": "example",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 10
+          },
+          "accent": true,
+          "reading_order": 6
+        },
+        {
+          "region": "example",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 140
+          },
+          "reading_order": 7
+        },
+        {
+          "region": "exercise",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 10
+          },
+          "accent": true,
+          "reading_order": 8
+        },
+        {
+          "region": "exercise",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 14,
+            "max_chars": 46
+          },
+          "reading_order": 9
+        },
+        {
+          "region": "exercise",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 14,
+            "max_chars": 46
+          },
+          "reading_order": 10
+        },
+        {
+          "region": "footer",
+          "column": 0,
+          "role": "footer",
+          "label": "metadata",
+          "text": {
+            "source": "metadata",
+            "min_chars": 4,
+            "max_chars": 14
+          },
+          "reading_order": 11
+        }
+      ],
+      "orientation": "portrait"
+    },
+    {
+      "variant": 8,
+      "template_id": "textbook_page_v3_08",
+      "template_name_cn": "竖排图解",
+      "layout_family": "illustrated_portrait",
+      "complexity": "M",
+      "writing_mode": "horizontal-tb",
+      "page": {
+        "width": 470,
+        "height": 2400,
+        "orientation": "portrait",
+        "background": "clean_paper"
+      },
+      "tight_crop": true,
+      "style_tokens": {
+        "paper": "#ffffff",
+        "ink": "#16213a",
+        "line": "#8aa0b6",
+        "accent": "#1f6f8b",
+        "accent2": "#e0862f",
+        "band_ink": "#eaf4f7"
+      },
+      "regions": [
+        {
+          "id": "header",
+          "order": 1,
+          "layout": "stack",
+          "visual": "band"
+        },
+        {
+          "id": "body",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "footer",
+          "order": 3,
+          "layout": "stack",
+          "visual": "footer"
+        }
+      ],
+      "blocks": [
+        {
+          "region": "header",
+          "column": 0,
+          "role": "document_title",
+          "label": "document_title",
+          "text": {
+            "source": "title",
+            "min_chars": 6,
+            "max_chars": 18
+          },
+          "reading_order": 1
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 12
+          },
+          "accent": true,
+          "reading_order": 2
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 90,
+            "max_chars": 160
+          },
+          "reading_order": 3
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "figure",
+          "label": "figure",
+          "ocr_orderable": false,
+          "height": 200
+        },
+        {
           "region": "body",
           "column": 0,
           "role": "caption",
@@ -839,58 +1431,71 @@
             "source": "caption",
             "min_chars": 10,
             "max_chars": 36
-          }
+          },
+          "reading_order": 4
         },
         {
-          "reading_order": 5,
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 12,
+            "max_chars": 42
+          },
+          "reading_order": 5
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "list_item",
+          "label": "list_item",
+          "text": {
+            "source": "list_item",
+            "min_chars": 12,
+            "max_chars": 40
+          },
+          "reading_order": 6
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "section_title",
+          "label": "section_title",
+          "text": {
+            "source": "section_title",
+            "min_chars": 4,
+            "max_chars": 10
+          },
+          "accent": true,
+          "reading_order": 7
+        },
+        {
           "region": "body",
           "column": 0,
           "role": "paragraph",
           "label": "paragraph",
           "text": {
             "source": "paragraph",
-            "min_chars": 70,
-            "max_chars": 150
-          }
-        },
-        {
-          "reading_order": 6,
-          "region": "body",
-          "column": 1,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
             "min_chars": 80,
-            "max_chars": 160
-          }
+            "max_chars": 150
+          },
+          "reading_order": 8
         },
         {
-          "reading_order": 7,
           "region": "body",
-          "column": 1,
-          "role": "note",
-          "label": "note",
-          "text": {
-            "source": "note",
-            "min_chars": 20,
-            "max_chars": 60
-          }
-        },
-        {
-          "reading_order": 8,
-          "region": "body",
-          "column": 1,
-          "role": "list_item",
-          "label": "list_item",
+          "column": 0,
+          "role": "question",
+          "label": "question",
           "text": {
             "source": "question",
-            "min_chars": 18,
-            "max_chars": 60
-          }
+            "min_chars": 14,
+            "max_chars": 46
+          },
+          "reading_order": 9
         },
         {
-          "reading_order": 9,
           "region": "footer",
           "column": 0,
           "role": "footer",
@@ -898,572 +1503,184 @@
           "text": {
             "source": "metadata",
             "min_chars": 4,
-            "max_chars": 16
-          }
+            "max_chars": 14
+          },
+          "reading_order": 10
         }
       ],
-      "orientation": "landscape"
-    },
-    {
-      "variant": 7,
-      "template_id": "textbook_page_v3_p01",
-      "template_name_cn": "竖版课文页",
-      "layout_family": "portrait_lesson_page",
-      "complexity": "M",
-      "writing_mode": "horizontal-tb",
-      "orientation": "portrait",
-      "page": {
-        "width": 504,
-        "height": 2400,
-        "orientation": "portrait",
-        "background": "clean_paper"
-      },
-      "tight_crop": true,
-      "style_tokens": {
-        "paper": "#fdfbf6",
-        "ink": "#151515",
-        "line": "#2a3d55"
-      },
-      "regions": [
-        {
-          "id": "body",
-          "order": 1,
-          "layout": "stack",
-          "columns": 1
-        }
-      ],
-      "blocks": [
-        {
-          "reading_order": 1,
-          "region": "body",
-          "column": 0,
-          "role": "document_title",
-          "label": "document_title",
-          "text": {
-            "source": "title",
-            "min_chars": 6,
-            "max_chars": 22
-          }
-        },
-        {
-          "reading_order": 2,
-          "region": "body",
-          "column": 0,
-          "role": "section_title",
-          "label": "section_title",
-          "text": {
-            "source": "section_title",
-            "min_chars": 4,
-            "max_chars": 18
-          }
-        },
-        {
-          "reading_order": 3,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 70,
-            "max_chars": 140
-          }
-        },
-        {
-          "reading_order": 4,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 70,
-            "max_chars": 140
-          }
-        },
-        {
-          "reading_order": 5,
-          "region": "body",
-          "column": 0,
-          "role": "list_item",
-          "label": "list_item",
-          "text": {
-            "source": "list_item",
-            "min_chars": 12,
-            "max_chars": 44
-          }
-        },
-        {
-          "reading_order": 6,
-          "region": "body",
-          "column": 0,
-          "role": "list_item",
-          "label": "list_item",
-          "text": {
-            "source": "list_item",
-            "min_chars": 12,
-            "max_chars": 44
-          }
-        },
-        {
-          "reading_order": 7,
-          "region": "body",
-          "column": 0,
-          "role": "list_item",
-          "label": "list_item",
-          "text": {
-            "source": "list_item",
-            "min_chars": 12,
-            "max_chars": 44
-          }
-        },
-        {
-          "reading_order": 8,
-          "region": "body",
-          "column": 0,
-          "role": "section_title",
-          "label": "section_title",
-          "text": {
-            "source": "section_title",
-            "min_chars": 4,
-            "max_chars": 18
-          }
-        },
-        {
-          "reading_order": 9,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 70,
-            "max_chars": 140
-          }
-        },
-        {
-          "reading_order": 10,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 70,
-            "max_chars": 140
-          }
-        },
-        {
-          "reading_order": 11,
-          "region": "body",
-          "column": 0,
-          "role": "note",
-          "label": "note",
-          "text": {
-            "source": "note",
-            "min_chars": 8,
-            "max_chars": 30
-          }
-        },
-        {
-          "reading_order": 12,
-          "region": "body",
-          "column": 0,
-          "role": "metadata",
-          "label": "metadata",
-          "text": {
-            "source": "metadata",
-            "min_chars": 8,
-            "max_chars": 28
-          }
-        }
-      ]
-    },
-    {
-      "variant": 8,
-      "template_id": "textbook_page_v3_p02",
-      "template_name_cn": "竖版知识点页",
-      "layout_family": "portrait_keypoints_page",
-      "complexity": "M",
-      "writing_mode": "horizontal-tb",
-      "orientation": "portrait",
-      "page": {
-        "width": 546,
-        "height": 2400,
-        "orientation": "portrait",
-        "background": "clean_paper"
-      },
-      "tight_crop": true,
-      "style_tokens": {
-        "paper": "#fdfbf6",
-        "ink": "#151515",
-        "line": "#2a3d55"
-      },
-      "regions": [
-        {
-          "id": "body",
-          "order": 1,
-          "layout": "stack",
-          "columns": 1
-        }
-      ],
-      "blocks": [
-        {
-          "reading_order": 1,
-          "region": "body",
-          "column": 0,
-          "role": "document_title",
-          "label": "document_title",
-          "text": {
-            "source": "title",
-            "min_chars": 6,
-            "max_chars": 22
-          }
-        },
-        {
-          "reading_order": 2,
-          "region": "body",
-          "column": 0,
-          "role": "section_title",
-          "label": "section_title",
-          "text": {
-            "source": "section_title",
-            "min_chars": 4,
-            "max_chars": 18
-          }
-        },
-        {
-          "reading_order": 3,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 70,
-            "max_chars": 140
-          }
-        },
-        {
-          "reading_order": 4,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 70,
-            "max_chars": 140
-          }
-        },
-        {
-          "reading_order": 5,
-          "region": "body",
-          "column": 0,
-          "role": "list_item",
-          "label": "list_item",
-          "text": {
-            "source": "list_item",
-            "min_chars": 12,
-            "max_chars": 44
-          }
-        },
-        {
-          "reading_order": 6,
-          "region": "body",
-          "column": 0,
-          "role": "list_item",
-          "label": "list_item",
-          "text": {
-            "source": "list_item",
-            "min_chars": 12,
-            "max_chars": 44
-          }
-        },
-        {
-          "reading_order": 7,
-          "region": "body",
-          "column": 0,
-          "role": "list_item",
-          "label": "list_item",
-          "text": {
-            "source": "list_item",
-            "min_chars": 12,
-            "max_chars": 44
-          }
-        },
-        {
-          "reading_order": 8,
-          "region": "body",
-          "column": 0,
-          "role": "section_title",
-          "label": "section_title",
-          "text": {
-            "source": "section_title",
-            "min_chars": 4,
-            "max_chars": 18
-          }
-        },
-        {
-          "reading_order": 9,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 70,
-            "max_chars": 140
-          }
-        },
-        {
-          "reading_order": 10,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 70,
-            "max_chars": 140
-          }
-        },
-        {
-          "reading_order": 11,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 70,
-            "max_chars": 140
-          }
-        },
-        {
-          "reading_order": 12,
-          "region": "body",
-          "column": 0,
-          "role": "note",
-          "label": "note",
-          "text": {
-            "source": "note",
-            "min_chars": 8,
-            "max_chars": 30
-          }
-        },
-        {
-          "reading_order": 13,
-          "region": "body",
-          "column": 0,
-          "role": "metadata",
-          "label": "metadata",
-          "text": {
-            "source": "metadata",
-            "min_chars": 8,
-            "max_chars": 28
-          }
-        }
-      ]
+      "orientation": "portrait"
     },
     {
       "variant": 9,
-      "template_id": "textbook_page_v3_p03",
-      "template_name_cn": "竖版练习课文页",
-      "layout_family": "portrait_lesson_with_list",
+      "template_id": "textbook_page_v3_09",
+      "template_name_cn": "竖排练习",
+      "layout_family": "exercises_portrait",
       "complexity": "M",
       "writing_mode": "horizontal-tb",
-      "orientation": "portrait",
       "page": {
-        "width": 588,
+        "width": 470,
         "height": 2400,
         "orientation": "portrait",
         "background": "clean_paper"
       },
       "tight_crop": true,
       "style_tokens": {
-        "paper": "#fdfbf6",
-        "ink": "#151515",
-        "line": "#2a3d55"
+        "paper": "#ffffff",
+        "ink": "#16213a",
+        "line": "#8aa0b6",
+        "accent": "#1f6f8b",
+        "accent2": "#e0862f",
+        "band_ink": "#eaf4f7"
       },
       "regions": [
         {
-          "id": "body",
+          "id": "header",
           "order": 1,
           "layout": "stack",
-          "columns": 1
+          "visual": "band"
+        },
+        {
+          "id": "intro",
+          "order": 2,
+          "layout": "stack"
+        },
+        {
+          "id": "exercise",
+          "order": 3,
+          "layout": "stack",
+          "visual": "card"
+        },
+        {
+          "id": "footer",
+          "order": 4,
+          "layout": "stack",
+          "visual": "footer"
         }
       ],
       "blocks": [
         {
-          "reading_order": 1,
-          "region": "body",
+          "region": "header",
           "column": 0,
           "role": "document_title",
           "label": "document_title",
           "text": {
             "source": "title",
             "min_chars": 6,
-            "max_chars": 22
-          }
+            "max_chars": 18
+          },
+          "reading_order": 1
         },
         {
-          "reading_order": 2,
-          "region": "body",
+          "region": "intro",
           "column": 0,
           "role": "section_title",
           "label": "section_title",
           "text": {
             "source": "section_title",
             "min_chars": 4,
-            "max_chars": 18
-          }
+            "max_chars": 12
+          },
+          "accent": true,
+          "reading_order": 2
         },
         {
-          "reading_order": 3,
-          "region": "body",
+          "region": "intro",
           "column": 0,
           "role": "paragraph",
           "label": "paragraph",
           "text": {
             "source": "paragraph",
-            "min_chars": 70,
-            "max_chars": 140
-          }
+            "min_chars": 80,
+            "max_chars": 150
+          },
+          "reading_order": 3
         },
         {
-          "reading_order": 4,
-          "region": "body",
+          "region": "exercise",
           "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
+          "role": "question",
+          "label": "question",
           "text": {
-            "source": "paragraph",
-            "min_chars": 70,
-            "max_chars": 140
-          }
+            "source": "question",
+            "min_chars": 14,
+            "max_chars": 48
+          },
+          "reading_order": 4
         },
         {
-          "reading_order": 5,
-          "region": "body",
+          "region": "exercise",
           "column": 0,
-          "role": "list_item",
-          "label": "list_item",
+          "role": "question",
+          "label": "question",
           "text": {
-            "source": "list_item",
-            "min_chars": 12,
+            "source": "question",
+            "min_chars": 14,
+            "max_chars": 46
+          },
+          "reading_order": 5
+        },
+        {
+          "region": "exercise",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 14,
+            "max_chars": 46
+          },
+          "reading_order": 6
+        },
+        {
+          "region": "exercise",
+          "column": 0,
+          "role": "question",
+          "label": "question",
+          "text": {
+            "source": "question",
+            "min_chars": 14,
             "max_chars": 44
-          }
+          },
+          "reading_order": 7
         },
         {
-          "reading_order": 6,
-          "region": "body",
+          "region": "exercise",
           "column": 0,
-          "role": "list_item",
-          "label": "list_item",
+          "role": "question",
+          "label": "question",
           "text": {
-            "source": "list_item",
-            "min_chars": 12,
+            "source": "question",
+            "min_chars": 14,
             "max_chars": 44
-          }
+          },
+          "reading_order": 8
         },
         {
-          "reading_order": 7,
-          "region": "body",
-          "column": 0,
-          "role": "list_item",
-          "label": "list_item",
-          "text": {
-            "source": "list_item",
-            "min_chars": 12,
-            "max_chars": 44
-          }
-        },
-        {
-          "reading_order": 8,
-          "region": "body",
-          "column": 0,
-          "role": "section_title",
-          "label": "section_title",
-          "text": {
-            "source": "section_title",
-            "min_chars": 4,
-            "max_chars": 18
-          }
-        },
-        {
-          "reading_order": 9,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 70,
-            "max_chars": 140
-          }
-        },
-        {
-          "reading_order": 10,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 70,
-            "max_chars": 140
-          }
-        },
-        {
-          "reading_order": 11,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 70,
-            "max_chars": 140
-          }
-        },
-        {
-          "reading_order": 12,
-          "region": "body",
-          "column": 0,
-          "role": "paragraph",
-          "label": "paragraph",
-          "text": {
-            "source": "paragraph",
-            "min_chars": 70,
-            "max_chars": 140
-          }
-        },
-        {
-          "reading_order": 13,
-          "region": "body",
+          "region": "exercise",
           "column": 0,
           "role": "note",
           "label": "note",
           "text": {
             "source": "note",
-            "min_chars": 8,
-            "max_chars": 30
-          }
+            "min_chars": 20,
+            "max_chars": 56
+          },
+          "reading_order": 9
         },
         {
-          "reading_order": 14,
-          "region": "body",
+          "region": "footer",
           "column": 0,
-          "role": "metadata",
+          "role": "footer",
           "label": "metadata",
           "text": {
             "source": "metadata",
-            "min_chars": 8,
-            "max_chars": 28
-          }
+            "min_chars": 4,
+            "max_chars": 14
+          },
+          "reading_order": 10
         }
-      ]
+      ],
+      "orientation": "portrait"
     }
   ]
 }

@@ -5,9 +5,9 @@
   "category_id": "textbook_page",
   "category_cn": "教科书页",
   "folder": "06_教科书页",
-  "template_name_cn": "词汇练习页",
-  "layout_family": "v4_vocab_workbook",
-  "design_prompt": "词汇字段、例句和练习区。",
+  "template_name_cn": "图解知识页",
+  "layout_family": "v4_textbook_lesson_blocks",
+  "design_prompt": "小节标题、讲解正文、例题框、图解与编号练习。",
   "writing_system": {
     "language": "传统蒙古文",
     "writing_mode": "vertical-lr",
@@ -16,8 +16,8 @@
     "page_rotation": "none"
   },
   "page": {
-    "width": 1180,
-    "height": 1500,
+    "width": 1220,
+    "height": 1700,
     "orientation": "portrait",
     "background": "warm_paper",
     "tight_crop": true
@@ -26,7 +26,7 @@
     "paper": "#fbf8ed",
     "ink": "#151515",
     "muted": "#625d55",
-    "accent": "#8f2f2f",
+    "accent": "#7a3210",
     "line": "#222222",
     "font_scale": "native_vertical_v4"
   },
@@ -38,496 +38,845 @@
   },
   "elements": [
     {
-      "id": "title",
-      "kind": "text",
-      "label": "chapter_title",
-      "role": "vocab",
-      "class": "title",
+      "id": "outer",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box",
       "box": {
-        "x": 78,
-        "y": 70,
-        "w": 54,
-        "h": 1350
-      },
-      "text": {
-        "source": "safe_fragment",
-        "min_chars": 4,
-        "max_chars": 24
+        "x": 46,
+        "y": 50,
+        "w": 1128,
+        "h": 1600
       },
       "visual": {}
     },
     {
-      "id": "vocab_label_01",
+      "id": "sec_title",
       "kind": "text",
-      "label": "field_label",
-      "role": "field_label",
-      "class": "tiny",
+      "label": "section_title",
+      "role": "section",
+      "class": "subtitle",
       "box": {
-        "x": 180,
-        "y": 100,
-        "w": 28,
-        "h": 260
+        "x": 76,
+        "y": 110,
+        "w": 40,
+        "h": 820
       },
       "text": {
-        "source": "safe_fragment",
-        "min_chars": 2,
-        "max_chars": 10
+        "source": "title",
+        "min_chars": 89,
+        "max_chars": 145
+      },
+      "visual": {
+        "color": "#7a3210"
+      }
+    },
+    {
+      "id": "ex_panel",
+      "kind": "decor",
+      "label": "decor",
+      "class": "boxed note-fill",
+      "box": {
+        "x": 327,
+        "y": 110,
+        "w": 250,
+        "h": 1480
       },
       "visual": {}
     },
     {
-      "id": "vocab_value_01",
+      "id": "ex_title",
       "kind": "text",
-      "label": "field_value",
-      "role": "field_value",
-      "class": "small boxed",
+      "label": "section_title",
+      "role": "example",
+      "class": "subtitle",
       "box": {
-        "x": 214,
-        "y": 100,
-        "w": 42,
-        "h": 260
+        "x": 339,
+        "y": 126,
+        "w": 34,
+        "h": 720
       },
       "text": {
-        "source": "short",
-        "min_chars": 6,
-        "max_chars": 11
+        "source": "title",
+        "min_chars": 78,
+        "max_chars": 128
       },
-      "visual": {}
+      "visual": {
+        "color": "#7a3210"
+      }
     },
     {
-      "id": "vocab_label_02",
-      "kind": "text",
-      "label": "field_label",
-      "role": "field_label",
-      "class": "tiny",
-      "box": {
-        "x": 296,
-        "y": 100,
-        "w": 28,
-        "h": 260
-      },
-      "text": {
-        "source": "safe_fragment",
-        "min_chars": 2,
-        "max_chars": 10
-      },
-      "visual": {}
-    },
-    {
-      "id": "vocab_value_02",
-      "kind": "text",
-      "label": "field_value",
-      "role": "field_value",
-      "class": "small boxed",
-      "box": {
-        "x": 330,
-        "y": 100,
-        "w": 42,
-        "h": 260
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 6,
-        "max_chars": 11
-      },
-      "visual": {}
-    },
-    {
-      "id": "vocab_label_03",
-      "kind": "text",
-      "label": "field_label",
-      "role": "field_label",
-      "class": "tiny",
-      "box": {
-        "x": 412,
-        "y": 100,
-        "w": 28,
-        "h": 260
-      },
-      "text": {
-        "source": "safe_fragment",
-        "min_chars": 2,
-        "max_chars": 10
-      },
-      "visual": {}
-    },
-    {
-      "id": "vocab_value_03",
-      "kind": "text",
-      "label": "field_value",
-      "role": "field_value",
-      "class": "small boxed",
-      "box": {
-        "x": 446,
-        "y": 100,
-        "w": 42,
-        "h": 260
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 6,
-        "max_chars": 11
-      },
-      "visual": {}
-    },
-    {
-      "id": "vocab_label_04",
-      "kind": "text",
-      "label": "field_label",
-      "role": "field_label",
-      "class": "tiny",
-      "box": {
-        "x": 528,
-        "y": 100,
-        "w": 28,
-        "h": 260
-      },
-      "text": {
-        "source": "safe_fragment",
-        "min_chars": 2,
-        "max_chars": 10
-      },
-      "visual": {}
-    },
-    {
-      "id": "vocab_value_04",
-      "kind": "text",
-      "label": "field_value",
-      "role": "field_value",
-      "class": "small boxed",
-      "box": {
-        "x": 562,
-        "y": 100,
-        "w": 42,
-        "h": 260
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 6,
-        "max_chars": 11
-      },
-      "visual": {}
-    },
-    {
-      "id": "vocab_label_05",
-      "kind": "text",
-      "label": "field_label",
-      "role": "field_label",
-      "class": "tiny",
-      "box": {
-        "x": 644,
-        "y": 100,
-        "w": 28,
-        "h": 260
-      },
-      "text": {
-        "source": "safe_fragment",
-        "min_chars": 2,
-        "max_chars": 10
-      },
-      "visual": {}
-    },
-    {
-      "id": "vocab_value_05",
-      "kind": "text",
-      "label": "field_value",
-      "role": "field_value",
-      "class": "small boxed",
-      "box": {
-        "x": 678,
-        "y": 100,
-        "w": 42,
-        "h": 260
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 6,
-        "max_chars": 11
-      },
-      "visual": {}
-    },
-    {
-      "id": "vocab_label_06",
-      "kind": "text",
-      "label": "field_label",
-      "role": "field_label",
-      "class": "tiny",
-      "box": {
-        "x": 180,
-        "y": 620,
-        "w": 28,
-        "h": 260
-      },
-      "text": {
-        "source": "safe_fragment",
-        "min_chars": 2,
-        "max_chars": 10
-      },
-      "visual": {}
-    },
-    {
-      "id": "vocab_value_06",
-      "kind": "text",
-      "label": "field_value",
-      "role": "field_value",
-      "class": "small boxed",
-      "box": {
-        "x": 214,
-        "y": 620,
-        "w": 42,
-        "h": 260
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 6,
-        "max_chars": 11
-      },
-      "visual": {}
-    },
-    {
-      "id": "vocab_label_07",
-      "kind": "text",
-      "label": "field_label",
-      "role": "field_label",
-      "class": "tiny",
-      "box": {
-        "x": 296,
-        "y": 620,
-        "w": 28,
-        "h": 260
-      },
-      "text": {
-        "source": "safe_fragment",
-        "min_chars": 2,
-        "max_chars": 10
-      },
-      "visual": {}
-    },
-    {
-      "id": "vocab_value_07",
-      "kind": "text",
-      "label": "field_value",
-      "role": "field_value",
-      "class": "small boxed",
-      "box": {
-        "x": 330,
-        "y": 620,
-        "w": 42,
-        "h": 260
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 6,
-        "max_chars": 11
-      },
-      "visual": {}
-    },
-    {
-      "id": "vocab_label_08",
-      "kind": "text",
-      "label": "field_label",
-      "role": "field_label",
-      "class": "tiny",
-      "box": {
-        "x": 412,
-        "y": 620,
-        "w": 28,
-        "h": 260
-      },
-      "text": {
-        "source": "safe_fragment",
-        "min_chars": 2,
-        "max_chars": 10
-      },
-      "visual": {}
-    },
-    {
-      "id": "vocab_value_08",
-      "kind": "text",
-      "label": "field_value",
-      "role": "field_value",
-      "class": "small boxed",
-      "box": {
-        "x": 446,
-        "y": 620,
-        "w": 42,
-        "h": 260
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 6,
-        "max_chars": 11
-      },
-      "visual": {}
-    },
-    {
-      "id": "vocab_label_09",
-      "kind": "text",
-      "label": "field_label",
-      "role": "field_label",
-      "class": "tiny",
-      "box": {
-        "x": 528,
-        "y": 620,
-        "w": 28,
-        "h": 260
-      },
-      "text": {
-        "source": "safe_fragment",
-        "min_chars": 2,
-        "max_chars": 10
-      },
-      "visual": {}
-    },
-    {
-      "id": "vocab_value_09",
-      "kind": "text",
-      "label": "field_value",
-      "role": "field_value",
-      "class": "small boxed",
-      "box": {
-        "x": 562,
-        "y": 620,
-        "w": 42,
-        "h": 260
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 6,
-        "max_chars": 11
-      },
-      "visual": {}
-    },
-    {
-      "id": "vocab_label_10",
-      "kind": "text",
-      "label": "field_label",
-      "role": "field_label",
-      "class": "tiny",
-      "box": {
-        "x": 644,
-        "y": 620,
-        "w": 28,
-        "h": 260
-      },
-      "text": {
-        "source": "safe_fragment",
-        "min_chars": 2,
-        "max_chars": 10
-      },
-      "visual": {}
-    },
-    {
-      "id": "vocab_value_10",
-      "kind": "text",
-      "label": "field_value",
-      "role": "field_value",
-      "class": "small boxed",
-      "box": {
-        "x": 678,
-        "y": 620,
-        "w": 42,
-        "h": 260
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 6,
-        "max_chars": 11
-      },
-      "visual": {}
-    },
-    {
-      "id": "examples_01",
+      "id": "ex_01",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "example_body",
       "class": "body",
       "box": {
-        "x": 810,
-        "y": 120,
+        "x": 385,
+        "y": 126,
         "w": 32,
-        "h": 1190
+        "h": 465
       },
       "text": {
         "source": "short",
-        "min_chars": 20,
-        "max_chars": 42
+        "min_chars": 60,
+        "max_chars": 108
       },
       "visual": {}
     },
     {
-      "id": "examples_02",
+      "id": "ex_02",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "example_body",
       "class": "body",
       "box": {
-        "x": 864,
-        "y": 120,
+        "x": 425,
+        "y": 126,
         "w": 32,
-        "h": 1190
+        "h": 465
       },
       "text": {
         "source": "short",
-        "min_chars": 20,
-        "max_chars": 42
+        "min_chars": 60,
+        "max_chars": 108
       },
       "visual": {}
     },
     {
-      "id": "examples_03",
+      "id": "ex_03",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "example_body",
       "class": "body",
       "box": {
-        "x": 918,
-        "y": 120,
+        "x": 465,
+        "y": 126,
         "w": 32,
-        "h": 1190
+        "h": 465
       },
       "text": {
         "source": "short",
-        "min_chars": 20,
-        "max_chars": 42
+        "min_chars": 60,
+        "max_chars": 108
       },
       "visual": {}
     },
     {
-      "id": "examples_04",
+      "id": "ex_04",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "example_body",
       "class": "body",
       "box": {
-        "x": 972,
-        "y": 120,
+        "x": 505,
+        "y": 126,
         "w": 32,
-        "h": 1190
+        "h": 465
       },
       "text": {
         "source": "short",
-        "min_chars": 20,
-        "max_chars": 42
+        "min_chars": 60,
+        "max_chars": 108
       },
       "visual": {}
     },
     {
-      "id": "examples_05",
+      "id": "ex_05",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "example_body",
       "class": "body",
       "box": {
-        "x": 1026,
-        "y": 120,
+        "x": 385,
+        "y": 617,
         "w": 32,
-        "h": 1190
+        "h": 465
       },
       "text": {
         "source": "short",
-        "min_chars": 20,
-        "max_chars": 42
+        "min_chars": 60,
+        "max_chars": 108
+      },
+      "visual": {}
+    },
+    {
+      "id": "ex_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "example_body",
+      "class": "body",
+      "box": {
+        "x": 425,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
+      },
+      "visual": {}
+    },
+    {
+      "id": "ex_07",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "example_body",
+      "class": "body",
+      "box": {
+        "x": 465,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
+      },
+      "visual": {}
+    },
+    {
+      "id": "ex_08",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "example_body",
+      "class": "body",
+      "box": {
+        "x": 505,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
+      },
+      "visual": {}
+    },
+    {
+      "id": "ex_09",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "example_body",
+      "class": "body",
+      "box": {
+        "x": 385,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
+      },
+      "visual": {}
+    },
+    {
+      "id": "ex_10",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "example_body",
+      "class": "body",
+      "box": {
+        "x": 425,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
+      },
+      "visual": {}
+    },
+    {
+      "id": "ex_11",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "example_body",
+      "class": "body",
+      "box": {
+        "x": 465,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
+      },
+      "visual": {}
+    },
+    {
+      "id": "ex_12",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "example_body",
+      "class": "body",
+      "box": {
+        "x": 505,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 60,
+        "max_chars": 108
+      },
+      "visual": {}
+    },
+    {
+      "id": "fig",
+      "kind": "image",
+      "label": "image",
+      "role": "figure",
+      "class": "image-fill",
+      "box": {
+        "x": 593,
+        "y": 110,
+        "w": 240,
+        "h": 380
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "cap",
+      "kind": "text",
+      "label": "caption",
+      "role": "caption",
+      "class": "small",
+      "box": {
+        "x": 837,
+        "y": 110,
+        "w": 22,
+        "h": 380
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 62,
+        "max_chars": 101
+      },
+      "visual": {},
+      "attributes": {
+        "caption_of": "fig"
+      }
+    },
+    {
+      "id": "num_01",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 593,
+        "y": 520,
+        "w": 32,
+        "h": 522
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 78,
+        "max_chars": 112
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_02",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 633,
+        "y": 520,
+        "w": 32,
+        "h": 522
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 78,
+        "max_chars": 112
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_03",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 673,
+        "y": 520,
+        "w": 32,
+        "h": 522
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 78,
+        "max_chars": 112
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_04",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 713,
+        "y": 520,
+        "w": 32,
+        "h": 522
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 78,
+        "max_chars": 112
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_05",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 753,
+        "y": 520,
+        "w": 32,
+        "h": 522
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 78,
+        "max_chars": 112
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_06",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 593,
+        "y": 1068,
+        "w": 32,
+        "h": 522
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 78,
+        "max_chars": 112
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_07",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 633,
+        "y": 1068,
+        "w": 32,
+        "h": 522
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 78,
+        "max_chars": 112
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_08",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 673,
+        "y": 1068,
+        "w": 32,
+        "h": 522
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 78,
+        "max_chars": 112
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_09",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 713,
+        "y": 1068,
+        "w": 32,
+        "h": 522
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 78,
+        "max_chars": 112
+      },
+      "visual": {}
+    },
+    {
+      "id": "num_10",
+      "kind": "text",
+      "label": "list_item",
+      "role": "numbered",
+      "class": "list_item",
+      "box": {
+        "x": 753,
+        "y": 1068,
+        "w": 32,
+        "h": 522
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 78,
+        "max_chars": 112
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_panel",
+      "kind": "decor",
+      "label": "decor",
+      "class": "boxed soft-fill",
+      "box": {
+        "x": 875,
+        "y": 110,
+        "w": 285,
+        "h": 1480
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_title",
+      "kind": "text",
+      "label": "section_title",
+      "role": "exercise",
+      "class": "subtitle",
+      "box": {
+        "x": 887,
+        "y": 126,
+        "w": 32,
+        "h": 720
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 78,
+        "max_chars": 128
+      },
+      "visual": {
+        "color": "#7a3210"
+      }
+    },
+    {
+      "id": "hw_01",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 929,
+        "y": 126,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_02",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 969,
+        "y": 126,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_03",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1009,
+        "y": 126,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_04",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1049,
+        "y": 126,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_05",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1089,
+        "y": 126,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_06",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 929,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_07",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 969,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_08",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1009,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_09",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1049,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_10",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1089,
+        "y": 617,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_11",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 929,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_12",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 969,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_13",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1009,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_14",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1049,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
+      },
+      "visual": {}
+    },
+    {
+      "id": "hw_15",
+      "kind": "text",
+      "label": "list_item",
+      "role": "exercise",
+      "class": "list_item",
+      "box": {
+        "x": 1089,
+        "y": 1108,
+        "w": 32,
+        "h": 465
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 69,
+        "max_chars": 99
       },
       "visual": {}
     }

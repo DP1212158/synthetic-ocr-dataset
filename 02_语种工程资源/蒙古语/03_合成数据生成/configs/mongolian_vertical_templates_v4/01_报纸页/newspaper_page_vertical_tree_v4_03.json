@@ -5,9 +5,9 @@
   "category_id": "newspaper_page",
   "category_cn": "报纸页",
   "folder": "01_报纸页",
-  "template_name_cn": "三段式晚报版",
-  "layout_family": "v4_evening_three_band",
-  "design_prompt": "上中下三段新闻区，栏目边界清晰。",
+  "template_name_cn": "双栏时政要闻版",
+  "layout_family": "v4_broadsheet_masthead_columns",
+  "design_prompt": "通栏刊名、头条、新闻照片与密集竖栏组合。",
   "writing_system": {
     "language": "传统蒙古文",
     "writing_mode": "vertical-lr",
@@ -16,8 +16,8 @@
     "page_rotation": "none"
   },
   "page": {
-    "width": 1440,
-    "height": 1760,
+    "width": 1320,
+    "height": 1860,
     "orientation": "portrait",
     "background": "warm_paper",
     "tight_crop": true
@@ -26,363 +26,789 @@
     "paper": "#fbf8ed",
     "ink": "#151515",
     "muted": "#625d55",
-    "accent": "#8f2f2f",
+    "accent": "#274a86",
     "line": "#222222",
     "font_scale": "native_vertical_v4"
   },
   "qa_expectations": {
-    "min_blocks": 20,
+    "min_blocks": 18,
     "overflow_blocks": 0,
     "out_of_bounds_blocks": 0,
     "latin_residue_blocks": 0
   },
   "elements": [
     {
-      "id": "top_band",
-      "kind": "decor",
-      "label": "decor",
-      "class": "box note-fill",
-      "box": {
-        "x": 50,
-        "y": 52,
-        "w": 1340,
-        "h": 450
-      },
-      "visual": {}
-    },
-    {
-      "id": "name",
-      "kind": "text",
-      "label": "document_title",
-      "role": "evening_name",
-      "class": "title",
-      "box": {
-        "x": 90,
-        "y": 76,
-        "w": 58,
-        "h": 360
-      },
-      "text": {
-        "source": "safe_fragment",
-        "min_chars": 4,
-        "max_chars": 7
-      },
-      "visual": {}
-    },
-    {
-      "id": "top_news_01",
-      "kind": "text",
-      "label": "list_item",
-      "role": "short_item",
-      "class": "small",
-      "box": {
-        "x": 200,
-        "y": 92,
-        "w": 30,
-        "h": 340
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 12,
-        "max_chars": 15
-      },
-      "visual": {}
-    },
-    {
-      "id": "top_news_02",
-      "kind": "text",
-      "label": "list_item",
-      "role": "short_item",
-      "class": "small",
-      "box": {
-        "x": 272,
-        "y": 92,
-        "w": 30,
-        "h": 340
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 12,
-        "max_chars": 15
-      },
-      "visual": {}
-    },
-    {
-      "id": "top_news_03",
-      "kind": "text",
-      "label": "list_item",
-      "role": "short_item",
-      "class": "small",
-      "box": {
-        "x": 344,
-        "y": 92,
-        "w": 30,
-        "h": 340
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 12,
-        "max_chars": 15
-      },
-      "visual": {}
-    },
-    {
-      "id": "top_news_04",
-      "kind": "text",
-      "label": "list_item",
-      "role": "short_item",
-      "class": "small",
-      "box": {
-        "x": 416,
-        "y": 92,
-        "w": 30,
-        "h": 340
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 12,
-        "max_chars": 15
-      },
-      "visual": {}
-    },
-    {
-      "id": "top_news_05",
-      "kind": "text",
-      "label": "list_item",
-      "role": "short_item",
-      "class": "small",
-      "box": {
-        "x": 488,
-        "y": 92,
-        "w": 30,
-        "h": 340
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 12,
-        "max_chars": 15
-      },
-      "visual": {}
-    },
-    {
-      "id": "top_news_06",
-      "kind": "text",
-      "label": "list_item",
-      "role": "short_item",
-      "class": "small",
-      "box": {
-        "x": 560,
-        "y": 92,
-        "w": 30,
-        "h": 340
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 12,
-        "max_chars": 15
-      },
-      "visual": {}
-    },
-    {
-      "id": "top_news_07",
-      "kind": "text",
-      "label": "list_item",
-      "role": "short_item",
-      "class": "small",
-      "box": {
-        "x": 632,
-        "y": 92,
-        "w": 30,
-        "h": 340
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 12,
-        "max_chars": 15
-      },
-      "visual": {}
-    },
-    {
-      "id": "top_news_08",
-      "kind": "text",
-      "label": "list_item",
-      "role": "short_item",
-      "class": "small",
-      "box": {
-        "x": 704,
-        "y": 92,
-        "w": 30,
-        "h": 340
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 12,
-        "max_chars": 15
-      },
-      "visual": {}
-    },
-    {
-      "id": "top_news_09",
-      "kind": "text",
-      "label": "list_item",
-      "role": "short_item",
-      "class": "small",
-      "box": {
-        "x": 776,
-        "y": 92,
-        "w": 30,
-        "h": 340
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 12,
-        "max_chars": 15
-      },
-      "visual": {}
-    },
-    {
-      "id": "top_news_10",
-      "kind": "text",
-      "label": "list_item",
-      "role": "short_item",
-      "class": "small",
-      "box": {
-        "x": 848,
-        "y": 92,
-        "w": 30,
-        "h": 340
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 12,
-        "max_chars": 15
-      },
-      "visual": {}
-    },
-    {
-      "id": "top_news_11",
-      "kind": "text",
-      "label": "list_item",
-      "role": "short_item",
-      "class": "small",
-      "box": {
-        "x": 920,
-        "y": 92,
-        "w": 30,
-        "h": 340
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 12,
-        "max_chars": 15
-      },
-      "visual": {}
-    },
-    {
-      "id": "top_news_12",
-      "kind": "text",
-      "label": "list_item",
-      "role": "short_item",
-      "class": "small",
-      "box": {
-        "x": 992,
-        "y": 92,
-        "w": 30,
-        "h": 340
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 12,
-        "max_chars": 15
-      },
-      "visual": {}
-    },
-    {
-      "id": "top_news_13",
-      "kind": "text",
-      "label": "list_item",
-      "role": "short_item",
-      "class": "small",
-      "box": {
-        "x": 1064,
-        "y": 92,
-        "w": 30,
-        "h": 340
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 12,
-        "max_chars": 15
-      },
-      "visual": {}
-    },
-    {
-      "id": "top_news_14",
-      "kind": "text",
-      "label": "list_item",
-      "role": "short_item",
-      "class": "small",
-      "box": {
-        "x": 1136,
-        "y": 92,
-        "w": 30,
-        "h": 340
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 12,
-        "max_chars": 15
-      },
-      "visual": {}
-    },
-    {
-      "id": "top_news_15",
-      "kind": "text",
-      "label": "list_item",
-      "role": "short_item",
-      "class": "small",
-      "box": {
-        "x": 1208,
-        "y": 92,
-        "w": 30,
-        "h": 340
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 12,
-        "max_chars": 15
-      },
-      "visual": {}
-    },
-    {
-      "id": "mid_band",
+      "id": "outer",
       "kind": "decor",
       "label": "decor",
       "class": "box",
       "box": {
-        "x": 70,
-        "y": 560,
-        "w": 1300,
-        "h": 520
+        "x": 36,
+        "y": 44,
+        "w": 1248,
+        "h": 1772
       },
       "visual": {}
     },
     {
-      "id": "mid_title",
+      "id": "mast_band",
+      "kind": "decor",
+      "label": "decor",
+      "class": "boxed soft-fill",
+      "box": {
+        "x": 52,
+        "y": 60,
+        "w": 1216,
+        "h": 96
+      },
+      "visual": {}
+    },
+    {
+      "id": "masthead",
+      "kind": "text",
+      "label": "document_title",
+      "role": "masthead",
+      "class": "title",
+      "box": {
+        "x": 64,
+        "y": 96,
+        "w": 56,
+        "h": 900
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 28,
+        "max_chars": 30
+      },
+      "visual": {}
+    },
+    {
+      "id": "issue",
+      "kind": "text",
+      "label": "metadata",
+      "role": "issue",
+      "class": "tiny",
+      "box": {
+        "x": 138,
+        "y": 96,
+        "w": 24,
+        "h": 300
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 4,
+        "max_chars": 96,
+        "value": "2026 07 02"
+      },
+      "visual": {}
+    },
+    {
+      "id": "r0",
+      "kind": "decor",
+      "label": "decor",
+      "class": "rule-v",
+      "box": {
+        "x": 178,
+        "y": 96,
+        "w": 2,
+        "h": 1652
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_title",
       "kind": "text",
       "label": "section_title",
-      "role": "section",
+      "role": "lead",
       "class": "subtitle",
       "box": {
-        "x": 116,
-        "y": 595,
-        "w": 44,
-        "h": 450
+        "x": 194,
+        "y": 96,
+        "w": 42,
+        "h": 840
       },
       "text": {
         "source": "title",
-        "min_chars": 7,
-        "max_chars": 9
+        "min_chars": 91,
+        "max_chars": 149
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_01",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 248,
+        "y": 96,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_02",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 285,
+        "y": 96,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_03",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 322,
+        "y": 96,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_04",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 359,
+        "y": 96,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_05",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 396,
+        "y": 96,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 433,
+        "y": 96,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_07",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 470,
+        "y": 96,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_08",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 507,
+        "y": 96,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_09",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 248,
+        "y": 515,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_10",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 285,
+        "y": 515,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_11",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 322,
+        "y": 515,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_12",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 359,
+        "y": 515,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_13",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 396,
+        "y": 515,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_14",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 433,
+        "y": 515,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_15",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 470,
+        "y": 515,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_16",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 507,
+        "y": 515,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_17",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 248,
+        "y": 934,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_18",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 285,
+        "y": 934,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_19",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 322,
+        "y": 934,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_20",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 359,
+        "y": 934,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_21",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 396,
+        "y": 934,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_22",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 433,
+        "y": 934,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_23",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 470,
+        "y": 934,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_24",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 507,
+        "y": 934,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_25",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 248,
+        "y": 1353,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_26",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 285,
+        "y": 1353,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_27",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 322,
+        "y": 1353,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_28",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 359,
+        "y": 1353,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_29",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 396,
+        "y": 1353,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_30",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 433,
+        "y": 1353,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_31",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 470,
+        "y": 1353,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "lead_32",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 507,
+        "y": 1353,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "r1",
+      "kind": "decor",
+      "label": "decor",
+      "class": "rule-v",
+      "box": {
+        "x": 542,
+        "y": 96,
+        "w": 2,
+        "h": 1652
+      },
+      "visual": {}
+    },
+    {
+      "id": "photo1",
+      "kind": "image",
+      "label": "image",
+      "role": "figure",
+      "class": "image-fill",
+      "box": {
+        "x": 558,
+        "y": 104,
+        "w": 300,
+        "h": 470
+      },
+      "text": {
+        "source": "blank"
+      }
+    },
+    {
+      "id": "cap1",
+      "kind": "text",
+      "label": "caption",
+      "role": "caption",
+      "class": "small",
+      "box": {
+        "x": 864,
+        "y": 104,
+        "w": 24,
+        "h": 470
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 76,
+        "max_chars": 125
+      },
+      "visual": {},
+      "attributes": {
+        "caption_of": "photo1"
+      }
+    },
+    {
+      "id": "sub_title",
+      "kind": "text",
+      "label": "section_title",
+      "role": "subhead",
+      "class": "subtitle",
+      "box": {
+        "x": 558,
+        "y": 606,
+        "w": 40,
+        "h": 560
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 61,
+        "max_chars": 99
       },
       "visual": {}
     },
@@ -390,18 +816,18 @@
       "id": "mid_01",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 190,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 610,
+        "y": 606,
+        "w": 29,
+        "h": 558
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 73,
+        "max_chars": 129
       },
       "visual": {}
     },
@@ -409,18 +835,18 @@
       "id": "mid_02",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 246,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 647,
+        "y": 606,
+        "w": 29,
+        "h": 558
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 73,
+        "max_chars": 129
       },
       "visual": {}
     },
@@ -428,18 +854,18 @@
       "id": "mid_03",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 302,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 684,
+        "y": 606,
+        "w": 29,
+        "h": 558
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 73,
+        "max_chars": 129
       },
       "visual": {}
     },
@@ -447,18 +873,18 @@
       "id": "mid_04",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 358,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 721,
+        "y": 606,
+        "w": 29,
+        "h": 558
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 73,
+        "max_chars": 129
       },
       "visual": {}
     },
@@ -466,18 +892,18 @@
       "id": "mid_05",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 414,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 758,
+        "y": 606,
+        "w": 29,
+        "h": 558
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 73,
+        "max_chars": 129
       },
       "visual": {}
     },
@@ -485,18 +911,18 @@
       "id": "mid_06",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 470,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 795,
+        "y": 606,
+        "w": 29,
+        "h": 558
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 73,
+        "max_chars": 129
       },
       "visual": {}
     },
@@ -504,18 +930,18 @@
       "id": "mid_07",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 526,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 610,
+        "y": 1190,
+        "w": 29,
+        "h": 558
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 73,
+        "max_chars": 129
       },
       "visual": {}
     },
@@ -523,18 +949,18 @@
       "id": "mid_08",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 582,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 647,
+        "y": 1190,
+        "w": 29,
+        "h": 558
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 73,
+        "max_chars": 129
       },
       "visual": {}
     },
@@ -542,18 +968,18 @@
       "id": "mid_09",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 638,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 684,
+        "y": 1190,
+        "w": 29,
+        "h": 558
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 73,
+        "max_chars": 129
       },
       "visual": {}
     },
@@ -561,18 +987,18 @@
       "id": "mid_10",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 694,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 721,
+        "y": 1190,
+        "w": 29,
+        "h": 558
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 73,
+        "max_chars": 129
       },
       "visual": {}
     },
@@ -580,18 +1006,18 @@
       "id": "mid_11",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 750,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 758,
+        "y": 1190,
+        "w": 29,
+        "h": 558
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 73,
+        "max_chars": 129
       },
       "visual": {}
     },
@@ -599,655 +1025,722 @@
       "id": "mid_12",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 806,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 795,
+        "y": 1190,
+        "w": 29,
+        "h": 558
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 73,
+        "max_chars": 129
       },
       "visual": {}
     },
     {
-      "id": "mid_13",
+      "id": "right_01",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 862,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 908,
+        "y": 96,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "mid_14",
+      "id": "right_02",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 918,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 945,
+        "y": 96,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "mid_15",
+      "id": "right_03",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 974,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 982,
+        "y": 96,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "mid_16",
+      "id": "right_04",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 1030,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 1019,
+        "y": 96,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "mid_17",
+      "id": "right_05",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 1086,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 1056,
+        "y": 96,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "mid_18",
+      "id": "right_06",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 1142,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 1093,
+        "y": 96,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "mid_19",
+      "id": "right_07",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "news_column",
       "class": "body",
       "box": {
-        "x": 1198,
-        "y": 600,
-        "w": 32,
-        "h": 440
+        "x": 1130,
+        "y": 96,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 13,
-        "max_chars": 15
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "photo",
-      "kind": "image",
-      "label": "image",
-      "role": "photo",
-      "class": "image-fill",
-      "box": {
-        "x": 890,
-        "y": 610,
-        "w": 300,
-        "h": 380
-      },
-      "text": {
-        "source": "blank"
-      }
-    },
-    {
-      "id": "bottom_band",
-      "kind": "decor",
-      "label": "decor",
-      "class": "box soft-fill",
-      "box": {
-        "x": 50,
-        "y": 1130,
-        "w": 1340,
-        "h": 540
-      },
-      "visual": {}
-    },
-    {
-      "id": "bottom_01",
+      "id": "right_08",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 100,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 1167,
+        "y": 96,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_02",
+      "id": "right_09",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 150,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 1204,
+        "y": 96,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_03",
+      "id": "right_10",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 200,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 908,
+        "y": 515,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_04",
+      "id": "right_11",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 250,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 945,
+        "y": 515,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_05",
+      "id": "right_12",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 300,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 982,
+        "y": 515,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_06",
+      "id": "right_13",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 350,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 1019,
+        "y": 515,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_07",
+      "id": "right_14",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 400,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 1056,
+        "y": 515,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_08",
+      "id": "right_15",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 450,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 1093,
+        "y": 515,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_09",
+      "id": "right_16",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 500,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 1130,
+        "y": 515,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_10",
+      "id": "right_17",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 550,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 1167,
+        "y": 515,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_11",
+      "id": "right_18",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 600,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 1204,
+        "y": 515,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_12",
+      "id": "right_19",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 650,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 908,
+        "y": 934,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_13",
+      "id": "right_20",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 700,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 945,
+        "y": 934,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_14",
+      "id": "right_21",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 750,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 982,
+        "y": 934,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_15",
+      "id": "right_22",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 800,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 1019,
+        "y": 934,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_16",
+      "id": "right_23",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 850,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 1056,
+        "y": 934,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_17",
+      "id": "right_24",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 900,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 1093,
+        "y": 934,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_18",
+      "id": "right_25",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 950,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 1130,
+        "y": 934,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_19",
+      "id": "right_26",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 1000,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 1167,
+        "y": 934,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_20",
+      "id": "right_27",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 1050,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 1204,
+        "y": 934,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_21",
+      "id": "right_28",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 1100,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 908,
+        "y": 1353,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_22",
+      "id": "right_29",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 1150,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 945,
+        "y": 1353,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_23",
+      "id": "right_30",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 1200,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 982,
+        "y": 1353,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_24",
+      "id": "right_31",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 1250,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 1019,
+        "y": 1353,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
       },
       "visual": {}
     },
     {
-      "id": "bottom_25",
+      "id": "right_32",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "small",
+      "role": "news_column",
+      "class": "body",
       "box": {
-        "x": 1300,
-        "y": 1170,
-        "w": 28,
-        "h": 420
+        "x": 1056,
+        "y": 1353,
+        "w": 29,
+        "h": 393
       },
       "text": {
         "source": "short",
-        "min_chars": 16,
-        "max_chars": 18
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "right_33",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 1093,
+        "y": 1353,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "right_34",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 1130,
+        "y": 1353,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "right_35",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 1167,
+        "y": 1353,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "right_36",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "news_column",
+      "class": "body",
+      "box": {
+        "x": 1204,
+        "y": 1353,
+        "w": 29,
+        "h": 393
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 51,
+        "max_chars": 91
+      },
+      "visual": {}
+    },
+    {
+      "id": "footer",
+      "kind": "text",
+      "label": "footer",
+      "role": "footer",
+      "class": "tiny",
+      "box": {
+        "x": 1278,
+        "y": 96,
+        "w": 22,
+        "h": 300
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 4,
+        "max_chars": 96,
+        "value": "01"
       },
       "visual": {}
     }

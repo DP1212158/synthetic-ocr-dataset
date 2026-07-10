@@ -5,9 +5,9 @@
   "category_id": "exam_paper",
   "category_cn": "考试卷",
   "folder": "03_考试卷",
-  "template_name_cn": "填空答题卡",
-  "layout_family": "v4_exam_blank_sheet",
-  "design_prompt": "短题和长答题线密集排列。",
+  "template_name_cn": "分节问答卷",
+  "layout_family": "v4_exam_zoned_questions",
+  "design_prompt": "校名卷名头、评分表、编号题与答题格分区排布。",
   "writing_system": {
     "language": "传统蒙古文",
     "writing_mode": "vertical-lr",
@@ -16,8 +16,8 @@
     "page_rotation": "none"
   },
   "page": {
-    "width": 1240,
-    "height": 1640,
+    "width": 1300,
+    "height": 1840,
     "orientation": "portrait",
     "background": "warm_paper",
     "tight_crop": true
@@ -26,7 +26,7 @@
     "paper": "#fbf8ed",
     "ink": "#151515",
     "muted": "#625d55",
-    "accent": "#8f2f2f",
+    "accent": "#3d6b3d",
     "line": "#222222",
     "font_scale": "native_vertical_v4"
   },
@@ -38,21 +38,34 @@
   },
   "elements": [
     {
+      "id": "outer",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box",
+      "box": {
+        "x": 40,
+        "y": 46,
+        "w": 1220,
+        "h": 1748
+      },
+      "visual": {}
+    },
+    {
       "id": "title",
       "kind": "text",
       "label": "document_title",
       "role": "exam_title",
       "class": "title",
       "box": {
-        "x": 56,
-        "y": 56,
-        "w": 52,
-        "h": 1520
+        "x": 60,
+        "y": 92,
+        "w": 50,
+        "h": 1660
       },
       "text": {
         "source": "title",
-        "min_chars": 8,
-        "max_chars": 31
+        "min_chars": 127,
+        "max_chars": 157
       },
       "visual": {}
     },
@@ -63,486 +76,652 @@
       "role": "exam_meta",
       "class": "tiny",
       "box": {
-        "x": 126,
-        "y": 60,
-        "w": 28,
-        "h": 1510
+        "x": 124,
+        "y": 92,
+        "w": 26,
+        "h": 1660
       },
       "text": {
         "source": "literal",
-        "min_chars": 24,
+        "min_chars": 4,
         "max_chars": 96,
-        "value": "2026"
+        "value": "2026 07 02"
       },
       "visual": {}
     },
     {
-      "id": "answer_sheet",
+      "id": "score_box",
       "kind": "decor",
       "label": "decor",
-      "class": "box",
+      "class": "boxed soft-fill",
       "box": {
-        "x": 180,
-        "y": 80,
-        "w": 980,
-        "h": 1420
+        "x": 1050,
+        "y": 92,
+        "w": 200,
+        "h": 150
       },
       "visual": {}
     },
     {
-      "id": "blank_q_01",
+      "id": "score_h_1",
+      "kind": "text",
+      "label": "table_header",
+      "role": "score",
+      "class": "small",
+      "box": {
+        "x": 1064,
+        "y": 104,
+        "w": 26,
+        "h": 126
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 8,
+        "max_chars": 14
+      },
+      "visual": {}
+    },
+    {
+      "id": "score_h_2",
+      "kind": "text",
+      "label": "table_header",
+      "role": "score",
+      "class": "small",
+      "box": {
+        "x": 1110,
+        "y": 104,
+        "w": 26,
+        "h": 126
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 8,
+        "max_chars": 14
+      },
+      "visual": {}
+    },
+    {
+      "id": "score_h_3",
+      "kind": "text",
+      "label": "table_header",
+      "role": "score",
+      "class": "small",
+      "box": {
+        "x": 1156,
+        "y": 104,
+        "w": 26,
+        "h": 126
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 8,
+        "max_chars": 14
+      },
+      "visual": {}
+    },
+    {
+      "id": "score_h_4",
+      "kind": "text",
+      "label": "table_header",
+      "role": "score",
+      "class": "small",
+      "box": {
+        "x": 1202,
+        "y": 104,
+        "w": 26,
+        "h": 126
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 8,
+        "max_chars": 14
+      },
+      "visual": {}
+    },
+    {
+      "id": "r0",
+      "kind": "decor",
+      "label": "decor",
+      "class": "rule-v",
+      "box": {
+        "x": 168,
+        "y": 92,
+        "w": 2,
+        "h": 1660
+      },
+      "visual": {}
+    },
+    {
+      "id": "q_01",
       "kind": "text",
       "label": "question_text",
       "role": "question",
       "class": "body",
       "box": {
-        "x": 230,
-        "y": 120,
-        "w": 28,
-        "h": 1300
+        "x": 188,
+        "y": 190,
+        "w": 32,
+        "h": 760
       },
       "text": {
         "source": "question",
-        "min_chars": 12,
-        "max_chars": 42
+        "min_chars": 103,
+        "max_chars": 148
       },
       "visual": {}
     },
     {
-      "id": "blank_a_01",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
+      "id": "a_01",
+      "kind": "decor",
+      "label": "decor",
       "class": "answer-box",
       "box": {
-        "x": 264,
-        "y": 120,
-        "w": 30,
-        "h": 1300
+        "x": 228,
+        "y": 190,
+        "w": 40,
+        "h": 760
       },
-      "text": {
-        "source": "blank"
-      }
+      "visual": {}
     },
     {
-      "id": "blank_q_02",
+      "id": "q_02",
       "kind": "text",
       "label": "question_text",
       "role": "question",
       "class": "body",
       "box": {
-        "x": 300,
-        "y": 120,
-        "w": 28,
-        "h": 1300
+        "x": 272,
+        "y": 190,
+        "w": 32,
+        "h": 760
       },
       "text": {
         "source": "question",
-        "min_chars": 12,
-        "max_chars": 42
+        "min_chars": 103,
+        "max_chars": 148
       },
       "visual": {}
     },
     {
-      "id": "blank_a_02",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
+      "id": "a_02",
+      "kind": "decor",
+      "label": "decor",
       "class": "answer-box",
       "box": {
-        "x": 334,
-        "y": 120,
-        "w": 30,
-        "h": 1300
+        "x": 312,
+        "y": 190,
+        "w": 40,
+        "h": 760
       },
-      "text": {
-        "source": "blank"
-      }
+      "visual": {}
     },
     {
-      "id": "blank_q_03",
+      "id": "q_03",
       "kind": "text",
       "label": "question_text",
       "role": "question",
       "class": "body",
       "box": {
-        "x": 370,
-        "y": 120,
-        "w": 28,
-        "h": 1300
+        "x": 356,
+        "y": 190,
+        "w": 32,
+        "h": 760
       },
       "text": {
         "source": "question",
-        "min_chars": 12,
-        "max_chars": 42
+        "min_chars": 103,
+        "max_chars": 148
       },
       "visual": {}
     },
     {
-      "id": "blank_a_03",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
+      "id": "a_03",
+      "kind": "decor",
+      "label": "decor",
       "class": "answer-box",
       "box": {
-        "x": 404,
-        "y": 120,
-        "w": 30,
-        "h": 1300
+        "x": 396,
+        "y": 190,
+        "w": 40,
+        "h": 760
       },
-      "text": {
-        "source": "blank"
-      }
+      "visual": {}
     },
     {
-      "id": "blank_q_04",
+      "id": "q_04",
       "kind": "text",
       "label": "question_text",
       "role": "question",
       "class": "body",
       "box": {
         "x": 440,
-        "y": 120,
-        "w": 28,
-        "h": 1300
+        "y": 190,
+        "w": 32,
+        "h": 760
       },
       "text": {
         "source": "question",
-        "min_chars": 12,
-        "max_chars": 42
+        "min_chars": 103,
+        "max_chars": 148
       },
       "visual": {}
     },
     {
-      "id": "blank_a_04",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
+      "id": "a_04",
+      "kind": "decor",
+      "label": "decor",
       "class": "answer-box",
       "box": {
-        "x": 474,
-        "y": 120,
-        "w": 30,
-        "h": 1300
+        "x": 480,
+        "y": 190,
+        "w": 40,
+        "h": 760
       },
-      "text": {
-        "source": "blank"
-      }
+      "visual": {}
     },
     {
-      "id": "blank_q_05",
+      "id": "q_05",
       "kind": "text",
       "label": "question_text",
       "role": "question",
       "class": "body",
       "box": {
-        "x": 510,
-        "y": 120,
-        "w": 28,
-        "h": 1300
+        "x": 524,
+        "y": 190,
+        "w": 32,
+        "h": 760
       },
       "text": {
         "source": "question",
-        "min_chars": 12,
-        "max_chars": 42
+        "min_chars": 103,
+        "max_chars": 148
       },
       "visual": {}
     },
     {
-      "id": "blank_a_05",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
+      "id": "a_05",
+      "kind": "decor",
+      "label": "decor",
       "class": "answer-box",
       "box": {
-        "x": 544,
-        "y": 120,
-        "w": 30,
-        "h": 1300
+        "x": 564,
+        "y": 190,
+        "w": 40,
+        "h": 760
       },
-      "text": {
-        "source": "blank"
-      }
+      "visual": {}
     },
     {
-      "id": "blank_q_06",
+      "id": "q_06",
       "kind": "text",
       "label": "question_text",
       "role": "question",
       "class": "body",
       "box": {
-        "x": 580,
-        "y": 120,
-        "w": 28,
-        "h": 1300
+        "x": 608,
+        "y": 190,
+        "w": 32,
+        "h": 760
       },
       "text": {
         "source": "question",
-        "min_chars": 12,
-        "max_chars": 42
+        "min_chars": 103,
+        "max_chars": 148
       },
       "visual": {}
     },
     {
-      "id": "blank_a_06",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
+      "id": "a_06",
+      "kind": "decor",
+      "label": "decor",
       "class": "answer-box",
       "box": {
-        "x": 614,
-        "y": 120,
-        "w": 30,
-        "h": 1300
+        "x": 648,
+        "y": 190,
+        "w": 40,
+        "h": 760
       },
-      "text": {
-        "source": "blank"
-      }
+      "visual": {}
     },
     {
-      "id": "blank_q_07",
+      "id": "q_07",
       "kind": "text",
       "label": "question_text",
       "role": "question",
       "class": "body",
       "box": {
-        "x": 650,
-        "y": 120,
-        "w": 28,
-        "h": 1300
+        "x": 692,
+        "y": 190,
+        "w": 32,
+        "h": 760
       },
       "text": {
         "source": "question",
-        "min_chars": 12,
-        "max_chars": 42
+        "min_chars": 103,
+        "max_chars": 148
       },
       "visual": {}
     },
     {
-      "id": "blank_a_07",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
+      "id": "a_07",
+      "kind": "decor",
+      "label": "decor",
       "class": "answer-box",
       "box": {
-        "x": 684,
-        "y": 120,
-        "w": 30,
-        "h": 1300
+        "x": 732,
+        "y": 190,
+        "w": 40,
+        "h": 760
       },
-      "text": {
-        "source": "blank"
-      }
+      "visual": {}
     },
     {
-      "id": "blank_q_08",
+      "id": "q_08",
       "kind": "text",
       "label": "question_text",
       "role": "question",
       "class": "body",
       "box": {
-        "x": 720,
-        "y": 120,
-        "w": 28,
-        "h": 1300
+        "x": 776,
+        "y": 190,
+        "w": 32,
+        "h": 760
       },
       "text": {
         "source": "question",
-        "min_chars": 12,
-        "max_chars": 42
+        "min_chars": 103,
+        "max_chars": 148
       },
       "visual": {}
     },
     {
-      "id": "blank_a_08",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
+      "id": "a_08",
+      "kind": "decor",
+      "label": "decor",
       "class": "answer-box",
       "box": {
-        "x": 754,
-        "y": 120,
-        "w": 30,
-        "h": 1300
+        "x": 816,
+        "y": 190,
+        "w": 40,
+        "h": 760
       },
-      "text": {
-        "source": "blank"
-      }
+      "visual": {}
     },
     {
-      "id": "blank_q_09",
+      "id": "q_09",
       "kind": "text",
       "label": "question_text",
       "role": "question",
       "class": "body",
       "box": {
-        "x": 790,
-        "y": 120,
-        "w": 28,
-        "h": 1300
+        "x": 188,
+        "y": 1010,
+        "w": 32,
+        "h": 760
       },
       "text": {
         "source": "question",
-        "min_chars": 12,
-        "max_chars": 42
+        "min_chars": 103,
+        "max_chars": 148
       },
       "visual": {}
     },
     {
-      "id": "blank_a_09",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
+      "id": "a_09",
+      "kind": "decor",
+      "label": "decor",
       "class": "answer-box",
       "box": {
-        "x": 824,
-        "y": 120,
-        "w": 30,
-        "h": 1300
+        "x": 228,
+        "y": 1010,
+        "w": 40,
+        "h": 760
       },
-      "text": {
-        "source": "blank"
-      }
+      "visual": {}
     },
     {
-      "id": "blank_q_10",
+      "id": "q_10",
       "kind": "text",
       "label": "question_text",
       "role": "question",
       "class": "body",
       "box": {
-        "x": 860,
-        "y": 120,
-        "w": 28,
-        "h": 1300
+        "x": 272,
+        "y": 1010,
+        "w": 32,
+        "h": 760
       },
       "text": {
         "source": "question",
-        "min_chars": 12,
-        "max_chars": 42
+        "min_chars": 103,
+        "max_chars": 148
       },
       "visual": {}
     },
     {
-      "id": "blank_a_10",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
+      "id": "a_10",
+      "kind": "decor",
+      "label": "decor",
       "class": "answer-box",
       "box": {
-        "x": 894,
-        "y": 120,
-        "w": 30,
-        "h": 1300
+        "x": 312,
+        "y": 1010,
+        "w": 40,
+        "h": 760
       },
-      "text": {
-        "source": "blank"
-      }
+      "visual": {}
     },
     {
-      "id": "blank_q_11",
+      "id": "q_11",
       "kind": "text",
       "label": "question_text",
       "role": "question",
       "class": "body",
       "box": {
-        "x": 930,
-        "y": 120,
-        "w": 28,
-        "h": 1300
+        "x": 356,
+        "y": 1010,
+        "w": 32,
+        "h": 760
       },
       "text": {
         "source": "question",
-        "min_chars": 12,
-        "max_chars": 42
+        "min_chars": 103,
+        "max_chars": 148
       },
       "visual": {}
     },
     {
-      "id": "blank_a_11",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
+      "id": "a_11",
+      "kind": "decor",
+      "label": "decor",
       "class": "answer-box",
       "box": {
-        "x": 964,
-        "y": 120,
-        "w": 30,
-        "h": 1300
+        "x": 396,
+        "y": 1010,
+        "w": 40,
+        "h": 760
       },
-      "text": {
-        "source": "blank"
-      }
+      "visual": {}
     },
     {
-      "id": "blank_q_12",
+      "id": "q_12",
       "kind": "text",
       "label": "question_text",
       "role": "question",
       "class": "body",
       "box": {
-        "x": 1000,
-        "y": 120,
-        "w": 28,
-        "h": 1300
+        "x": 440,
+        "y": 1010,
+        "w": 32,
+        "h": 760
       },
       "text": {
         "source": "question",
-        "min_chars": 12,
-        "max_chars": 42
+        "min_chars": 103,
+        "max_chars": 148
       },
       "visual": {}
     },
     {
-      "id": "blank_a_12",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
+      "id": "a_12",
+      "kind": "decor",
+      "label": "decor",
       "class": "answer-box",
       "box": {
-        "x": 1034,
-        "y": 120,
-        "w": 30,
-        "h": 1300
+        "x": 480,
+        "y": 1010,
+        "w": 40,
+        "h": 760
       },
-      "text": {
-        "source": "blank"
-      }
+      "visual": {}
     },
     {
-      "id": "blank_q_13",
+      "id": "q_13",
       "kind": "text",
       "label": "question_text",
       "role": "question",
       "class": "body",
       "box": {
-        "x": 1070,
-        "y": 120,
-        "w": 28,
-        "h": 1300
+        "x": 524,
+        "y": 1010,
+        "w": 32,
+        "h": 760
       },
       "text": {
         "source": "question",
-        "min_chars": 12,
-        "max_chars": 42
+        "min_chars": 103,
+        "max_chars": 148
       },
       "visual": {}
     },
     {
-      "id": "blank_a_13",
-      "kind": "answer_area",
-      "label": "answer_area",
-      "role": "answer_area",
+      "id": "a_13",
+      "kind": "decor",
+      "label": "decor",
       "class": "answer-box",
       "box": {
-        "x": 1104,
-        "y": 120,
-        "w": 30,
-        "h": 1300
+        "x": 564,
+        "y": 1010,
+        "w": 40,
+        "h": 760
+      },
+      "visual": {}
+    },
+    {
+      "id": "q_14",
+      "kind": "text",
+      "label": "question_text",
+      "role": "question",
+      "class": "body",
+      "box": {
+        "x": 608,
+        "y": 1010,
+        "w": 32,
+        "h": 760
       },
       "text": {
-        "source": "blank"
-      }
+        "source": "question",
+        "min_chars": 103,
+        "max_chars": 148
+      },
+      "visual": {}
+    },
+    {
+      "id": "a_14",
+      "kind": "decor",
+      "label": "decor",
+      "class": "answer-box",
+      "box": {
+        "x": 648,
+        "y": 1010,
+        "w": 40,
+        "h": 760
+      },
+      "visual": {}
+    },
+    {
+      "id": "q_15",
+      "kind": "text",
+      "label": "question_text",
+      "role": "question",
+      "class": "body",
+      "box": {
+        "x": 692,
+        "y": 1010,
+        "w": 32,
+        "h": 760
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 103,
+        "max_chars": 148
+      },
+      "visual": {}
+    },
+    {
+      "id": "a_15",
+      "kind": "decor",
+      "label": "decor",
+      "class": "answer-box",
+      "box": {
+        "x": 732,
+        "y": 1010,
+        "w": 40,
+        "h": 760
+      },
+      "visual": {}
+    },
+    {
+      "id": "q_16",
+      "kind": "text",
+      "label": "question_text",
+      "role": "question",
+      "class": "body",
+      "box": {
+        "x": 776,
+        "y": 1010,
+        "w": 32,
+        "h": 760
+      },
+      "text": {
+        "source": "question",
+        "min_chars": 103,
+        "max_chars": 148
+      },
+      "visual": {}
+    },
+    {
+      "id": "a_16",
+      "kind": "decor",
+      "label": "decor",
+      "class": "answer-box",
+      "box": {
+        "x": 816,
+        "y": 1010,
+        "w": 40,
+        "h": 760
+      },
+      "visual": {}
+    },
+    {
+      "id": "footer",
+      "kind": "text",
+      "label": "footer",
+      "role": "footer",
+      "class": "tiny",
+      "box": {
+        "x": 1262,
+        "y": 92,
+        "w": 22,
+        "h": 1660
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 4,
+        "max_chars": 96,
+        "value": "1 2"
+      },
+      "visual": {}
     }
   ]
 }

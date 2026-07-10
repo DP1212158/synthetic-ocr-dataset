@@ -16,8 +16,8 @@
     "page_rotation": "none"
   },
   "page": {
-    "width": 1280,
-    "height": 1900,
+    "width": 1200,
+    "height": 1780,
     "orientation": "portrait",
     "background": "warm_paper",
     "tight_crop": true
@@ -38,34 +38,34 @@
   },
   "elements": [
     {
-      "id": "paper",
+      "id": "frame",
       "kind": "decor",
       "label": "decor",
-      "class": "box",
+      "class": "thin",
       "box": {
-        "x": 56,
-        "y": 56,
-        "w": 1168,
-        "h": 1788
+        "x": 46,
+        "y": 54,
+        "w": 1108,
+        "h": 1672
       },
       "visual": {}
     },
     {
-      "id": "recipient",
+      "id": "greeting",
       "kind": "text",
-      "label": "recipient",
-      "role": "recipient",
+      "label": "section_title",
+      "role": "salutation",
       "class": "subtitle hand",
       "box": {
-        "x": 84,
+        "x": 72,
         "y": 90,
-        "w": 48,
-        "h": 1714
+        "w": 46,
+        "h": 620
       },
       "text": {
         "source": "title",
-        "min_chars": 26,
-        "max_chars": 44
+        "min_chars": 15,
+        "max_chars": 23
       },
       "visual": {},
       "attributes": {
@@ -76,18 +76,18 @@
       "id": "body_01",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "letter_body",
       "class": "body hand",
       "box": {
-        "x": 178,
-        "y": 96,
-        "w": 78,
-        "h": 1702
+        "x": 150,
+        "y": 90,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 63,
-        "max_chars": 105
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -98,18 +98,18 @@
       "id": "body_02",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "letter_body",
       "class": "body hand",
       "box": {
-        "x": 276,
-        "y": 96,
-        "w": 78,
-        "h": 1702
+        "x": 244,
+        "y": 90,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 63,
-        "max_chars": 105
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -120,18 +120,18 @@
       "id": "body_03",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "letter_body",
       "class": "body hand",
       "box": {
-        "x": 374,
-        "y": 96,
-        "w": 78,
-        "h": 1702
+        "x": 338,
+        "y": 90,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 63,
-        "max_chars": 105
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -142,18 +142,18 @@
       "id": "body_04",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "letter_body",
       "class": "body hand",
       "box": {
-        "x": 472,
-        "y": 96,
-        "w": 78,
-        "h": 1702
+        "x": 432,
+        "y": 90,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 63,
-        "max_chars": 105
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -164,18 +164,18 @@
       "id": "body_05",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "letter_body",
       "class": "body hand",
       "box": {
-        "x": 570,
-        "y": 96,
-        "w": 78,
-        "h": 1702
+        "x": 526,
+        "y": 90,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 63,
-        "max_chars": 105
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -186,18 +186,18 @@
       "id": "body_06",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "letter_body",
       "class": "body hand",
       "box": {
-        "x": 668,
-        "y": 96,
-        "w": 78,
-        "h": 1702
+        "x": 620,
+        "y": 90,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 63,
-        "max_chars": 105
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -208,18 +208,18 @@
       "id": "body_07",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "letter_body",
       "class": "body hand",
       "box": {
-        "x": 766,
-        "y": 96,
-        "w": 78,
-        "h": 1702
+        "x": 714,
+        "y": 90,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 63,
-        "max_chars": 105
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -227,21 +227,21 @@
       }
     },
     {
-      "id": "body_08",
+      "id": "closing",
       "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body hand",
+      "label": "section_title",
+      "role": "closing",
+      "class": "subtitle hand",
       "box": {
-        "x": 864,
-        "y": 96,
-        "w": 78,
-        "h": 1702
+        "x": 830,
+        "y": 90,
+        "w": 44,
+        "h": 620
       },
       "text": {
-        "source": "short",
-        "min_chars": 63,
-        "max_chars": 105
+        "source": "title",
+        "min_chars": 15,
+        "max_chars": 23
       },
       "visual": {},
       "attributes": {
@@ -249,47 +249,25 @@
       }
     },
     {
-      "id": "body_09",
-      "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body hand",
-      "box": {
-        "x": 962,
-        "y": 96,
-        "w": 78,
-        "h": 1702
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 63,
-        "max_chars": 105
-      },
-      "visual": {},
-      "attributes": {
-        "reading_order": 10
-      }
-    },
-    {
-      "id": "signature",
+      "id": "signer",
       "kind": "text",
       "label": "metadata",
       "role": "signature",
       "class": "small hand",
       "box": {
-        "x": 1156,
-        "y": 110,
-        "w": 42,
-        "h": 857
+        "x": 900,
+        "y": 90,
+        "w": 40,
+        "h": 560
       },
       "text": {
         "source": "safe_fragment",
-        "min_chars": 20,
-        "max_chars": 33
+        "min_chars": 21,
+        "max_chars": 29
       },
       "visual": {},
       "attributes": {
-        "reading_order": 11
+        "reading_order": 10
       }
     },
     {
@@ -299,20 +277,18 @@
       "role": "date",
       "class": "small hand",
       "box": {
-        "x": 1216,
-        "y": 110,
+        "x": 960,
+        "y": 90,
         "w": 40,
-        "h": 942
+        "h": 460
       },
       "text": {
         "source": "literal",
-        "min_chars": 22,
-        "max_chars": 36,
-        "value": "2026 ᠣᠨ 7 ᠰᠠᠷ᠎ᠠ"
+        "value": "2026 ᠣᠨ 7 ᠰᠠᠷᠠ"
       },
       "visual": {},
       "attributes": {
-        "reading_order": 12
+        "reading_order": 11
       }
     }
   ]

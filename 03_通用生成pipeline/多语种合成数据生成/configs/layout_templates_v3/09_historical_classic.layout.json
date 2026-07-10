@@ -470,7 +470,31 @@
           }
         },
         {
-          "reading_order": 8,
+          "region": "body",
+          "column": 0,
+          "role": "paragraph",
+          "label": "paragraph",
+          "text": {
+            "source": "paragraph",
+            "min_chars": 70,
+            "max_chars": 160
+          },
+          "reading_order": 8
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "note",
+          "label": "note",
+          "text": {
+            "source": "note",
+            "min_chars": 20,
+            "max_chars": 60
+          },
+          "reading_order": 9
+        },
+        {
+          "reading_order": 10,
           "region": "body",
           "column": 0,
           "role": "metadata",
@@ -482,7 +506,7 @@
           }
         },
         {
-          "reading_order": 9,
+          "reading_order": 11,
           "region": "footer",
           "column": 0,
           "role": "footer",

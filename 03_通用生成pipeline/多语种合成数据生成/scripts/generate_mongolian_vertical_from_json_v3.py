@@ -9,8 +9,21 @@ import random
 import shutil
 from pathlib import Path
 from typing import Any
+from urllib.parse import quote
 
 from synthetic_text_utils import cleanse_text, load_language_profile, read_text_records, record_text, record_title, safe_fragment, select_span
+
+IMAGE_ASSET_EXTS = {".jpg", ".jpeg", ".png", ".webp"}
+
+
+def load_image_assets(assets_dir: Path | None) -> list[str]:
+    if not assets_dir or not assets_dir.exists():
+        return []
+    return sorted(
+        str(p.resolve())
+        for p in assets_dir.rglob("*")
+        if p.is_file() and p.suffix.lower() in IMAGE_ASSET_EXTS
+    )
 
 
 def write_json(path: Path, payload: Any) -> None:
@@ -183,12 +196,17 @@ def data_attrs(element: dict[str, Any], id_by_element: dict[str, str]) -> str:
     return (" " + " ".join(out)) if out else ""
 
 
-def html_element(doc_id: str, idx: int, element: dict[str, Any], sampler: TextSampler, id_by_element: dict[str, str]) -> str:
+def html_element(doc_id: str, idx: int, element: dict[str, Any], sampler: TextSampler, id_by_element: dict[str, str], assets: list[str] | None = None) -> str:
     kind = str(element.get("kind", "text"))
     label = str(element.get("label", kind))
     box = element["box"]
     cls = class_for_element(element)
     style = style_for_box(box, element.get("visual", {}))
+    if kind in ("image", "photo", "figure") or "image-fill" in cls:
+        if assets:
+            asset = sampler.rng.choice(assets)
+            style += f";background-image:url('file://{quote(asset)}');background-size:cover;background-position:center;background-repeat:no-repeat"
+        return f'<div class="{esc(cls)}" aria-hidden="true" data-is-text="false" data-label="{esc(label)}" style="{style}"></div>'
     if kind == "decor" or label == "decor":
         return f'<div class="{esc(cls)}" aria-hidden="true" data-is-text="false" style="{style}"></div>'
     text = sampler.sample(element.get("text", {}), int(box["h"]), cls)
@@ -250,11 +268,13 @@ def main() -> int:
     parser.add_argument("--min-records", type=int, default=40)
     parser.add_argument("--seed", type=int, default=2026070213)
     parser.add_argument("--version-name", default="v3")
+    parser.add_argument("--image-assets-dir", default=None, help="dir of real images to fill image regions")
     args = parser.parse_args()
 
     profile = load_language_profile(Path(args.language_profile))
     records = read_text_records(Path(args.text_jsonl), profile, args.min_records)
     rng = random.Random(args.seed)
+    assets = load_image_assets(Path(args.image_assets_dir) if args.image_assets_dir else None)
     version_dir = Path(args.output_root)
     templates_root = Path(args.templates_root)
     index = read_json(templates_root / "index.json")
@@ -279,7 +299,7 @@ def main() -> int:
             doc_id = f"{folder[:2]}_{category}_vertical_tree_{variant:02d}"
             sampler = TextSampler(records, rng)
             id_by_element = {str(element.get("id")): f"{doc_id}_b{idx:04d}" for idx, element in enumerate(template["elements"], 1) if element.get("id")}
-            html_elements = [html_element(doc_id, idx, element, sampler, id_by_element) for idx, element in enumerate(template["elements"], 1)]
+            html_elements = [html_element(doc_id, idx, element, sampler, id_by_element, assets) for idx, element in enumerate(template["elements"], 1)]
             html_text = render_html(profile, template, doc_id, html_elements)
             html_path = cat_dir / "html" / f"{doc_id}.html"
             html_path.write_text(html_text, encoding="utf-8")

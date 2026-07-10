@@ -16,8 +16,8 @@
     "page_rotation": "none"
   },
   "page": {
-    "width": 1220,
-    "height": 1860,
+    "width": 1200,
+    "height": 1780,
     "orientation": "portrait",
     "background": "warm_paper",
     "tight_crop": true
@@ -31,28 +31,41 @@
     "font_scale": "native_vertical_v4"
   },
   "qa_expectations": {
-    "min_blocks": 11,
+    "min_blocks": 16,
     "overflow_blocks": 0,
     "out_of_bounds_blocks": 0,
     "latin_residue_blocks": 0
   },
   "elements": [
     {
-      "id": "meta",
-      "kind": "text",
-      "label": "metadata",
-      "role": "meta",
-      "class": "tiny",
+      "id": "frame",
+      "kind": "decor",
+      "label": "decor",
+      "class": "thin",
       "box": {
-        "x": 58,
-        "y": 66,
-        "w": 34,
-        "h": 1720
+        "x": 46,
+        "y": 54,
+        "w": 1108,
+        "h": 1672
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "section_title",
+      "role": "references",
+      "class": "subtitle",
+      "box": {
+        "x": 68,
+        "y": 80,
+        "w": 44,
+        "h": 560
       },
       "text": {
-        "source": "safe_fragment",
-        "min_chars": 50,
-        "max_chars": 83
+        "source": "title",
+        "min_chars": 14,
+        "max_chars": 22
       },
       "visual": {},
       "attributes": {
@@ -60,21 +73,21 @@
       }
     },
     {
-      "id": "title",
+      "id": "ref_01",
       "kind": "text",
-      "label": "document_title",
-      "role": "paper_title",
-      "class": "title",
+      "label": "list_item",
+      "role": "reference",
+      "class": "small",
       "box": {
-        "x": 110,
-        "y": 62,
-        "w": 60,
-        "h": 1728
+        "x": 124,
+        "y": 84,
+        "w": 40,
+        "h": 1600
       },
       "text": {
-        "source": "title",
-        "min_chars": 19,
-        "max_chars": 31
+        "source": "fill",
+        "min_chars": 72,
+        "max_chars": 88
       },
       "visual": {},
       "attributes": {
@@ -82,21 +95,21 @@
       }
     },
     {
-      "id": "abstract_t",
+      "id": "ref_02",
       "kind": "text",
-      "label": "section_title",
-      "role": "abstract",
-      "class": "subtitle",
+      "label": "list_item",
+      "role": "reference",
+      "class": "small",
       "box": {
-        "x": 196,
-        "y": 72,
+        "x": 174,
+        "y": 84,
         "w": 40,
-        "h": 1555
+        "h": 1600
       },
       "text": {
-        "source": "safe_fragment",
-        "min_chars": 24,
-        "max_chars": 40
+        "source": "fill",
+        "min_chars": 72,
+        "max_chars": 88
       },
       "visual": {},
       "attributes": {
@@ -104,21 +117,21 @@
       }
     },
     {
-      "id": "abstract_01",
+      "id": "ref_03",
       "kind": "text",
-      "label": "paragraph",
-      "role": "abstract_body",
-      "class": "body",
+      "label": "list_item",
+      "role": "reference",
+      "class": "small",
       "box": {
-        "x": 260,
-        "y": 68,
-        "w": 76,
-        "h": 1716
+        "x": 224,
+        "y": 84,
+        "w": 40,
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 64,
-        "max_chars": 106
+        "source": "fill",
+        "min_chars": 72,
+        "max_chars": 88
       },
       "visual": {},
       "attributes": {
@@ -126,21 +139,21 @@
       }
     },
     {
-      "id": "abstract_02",
+      "id": "ref_04",
       "kind": "text",
-      "label": "paragraph",
-      "role": "abstract_body",
-      "class": "body",
+      "label": "list_item",
+      "role": "reference",
+      "class": "small",
       "box": {
-        "x": 354,
-        "y": 68,
-        "w": 76,
-        "h": 1716
+        "x": 274,
+        "y": 84,
+        "w": 40,
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 64,
-        "max_chars": 106
+        "source": "fill",
+        "min_chars": 72,
+        "max_chars": 88
       },
       "visual": {},
       "attributes": {
@@ -148,21 +161,21 @@
       }
     },
     {
-      "id": "abstract_03",
+      "id": "ref_05",
       "kind": "text",
-      "label": "paragraph",
-      "role": "abstract_body",
-      "class": "body",
+      "label": "list_item",
+      "role": "reference",
+      "class": "small",
       "box": {
-        "x": 448,
-        "y": 68,
-        "w": 76,
-        "h": 1716
+        "x": 324,
+        "y": 84,
+        "w": 40,
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 64,
-        "max_chars": 106
+        "source": "fill",
+        "min_chars": 72,
+        "max_chars": 88
       },
       "visual": {},
       "attributes": {
@@ -170,21 +183,21 @@
       }
     },
     {
-      "id": "body_04",
+      "id": "ref_06",
       "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
+      "label": "list_item",
+      "role": "reference",
+      "class": "small",
       "box": {
-        "x": 542,
-        "y": 68,
-        "w": 76,
-        "h": 1716
+        "x": 374,
+        "y": 84,
+        "w": 40,
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 64,
-        "max_chars": 106
+        "source": "fill",
+        "min_chars": 72,
+        "max_chars": 88
       },
       "visual": {},
       "attributes": {
@@ -192,21 +205,21 @@
       }
     },
     {
-      "id": "body_05",
+      "id": "ref_07",
       "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
+      "label": "list_item",
+      "role": "reference",
+      "class": "small",
       "box": {
-        "x": 636,
-        "y": 68,
-        "w": 76,
-        "h": 1716
+        "x": 424,
+        "y": 84,
+        "w": 40,
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 64,
-        "max_chars": 106
+        "source": "fill",
+        "min_chars": 72,
+        "max_chars": 88
       },
       "visual": {},
       "attributes": {
@@ -214,21 +227,21 @@
       }
     },
     {
-      "id": "body_06",
+      "id": "ref_08",
       "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
+      "label": "list_item",
+      "role": "reference",
+      "class": "small",
       "box": {
-        "x": 730,
-        "y": 68,
-        "w": 76,
-        "h": 1716
+        "x": 474,
+        "y": 84,
+        "w": 40,
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 64,
-        "max_chars": 106
+        "source": "fill",
+        "min_chars": 72,
+        "max_chars": 88
       },
       "visual": {},
       "attributes": {
@@ -236,21 +249,21 @@
       }
     },
     {
-      "id": "body_07",
+      "id": "ref_09",
       "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
+      "label": "list_item",
+      "role": "reference",
+      "class": "small",
       "box": {
-        "x": 824,
-        "y": 68,
-        "w": 76,
-        "h": 1716
+        "x": 524,
+        "y": 84,
+        "w": 40,
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 64,
-        "max_chars": 106
+        "source": "fill",
+        "min_chars": 72,
+        "max_chars": 88
       },
       "visual": {},
       "attributes": {
@@ -258,21 +271,21 @@
       }
     },
     {
-      "id": "body_08",
+      "id": "ref_10",
       "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
+      "label": "list_item",
+      "role": "reference",
+      "class": "small",
       "box": {
-        "x": 918,
-        "y": 68,
-        "w": 76,
-        "h": 1716
+        "x": 574,
+        "y": 84,
+        "w": 40,
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 64,
-        "max_chars": 106
+        "source": "fill",
+        "min_chars": 72,
+        "max_chars": 88
       },
       "visual": {},
       "attributes": {
@@ -280,25 +293,113 @@
       }
     },
     {
-      "id": "body_09",
+      "id": "ext_01",
       "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
+      "label": "list_item",
+      "role": "reference",
+      "class": "small",
       "box": {
-        "x": 1012,
-        "y": 68,
+        "x": 636,
+        "y": 84,
         "w": 76,
-        "h": 1716
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 64,
-        "max_chars": 106
+        "source": "fill",
+        "min_chars": 216,
+        "max_chars": 264
       },
       "visual": {},
       "attributes": {
         "reading_order": 12
+      }
+    },
+    {
+      "id": "ext_02",
+      "kind": "text",
+      "label": "list_item",
+      "role": "reference",
+      "class": "small",
+      "box": {
+        "x": 730,
+        "y": 84,
+        "w": 76,
+        "h": 1600
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 216,
+        "max_chars": 264
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 13
+      }
+    },
+    {
+      "id": "ext_03",
+      "kind": "text",
+      "label": "list_item",
+      "role": "reference",
+      "class": "small",
+      "box": {
+        "x": 824,
+        "y": 84,
+        "w": 76,
+        "h": 1600
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 216,
+        "max_chars": 264
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 14
+      }
+    },
+    {
+      "id": "ext_04",
+      "kind": "text",
+      "label": "list_item",
+      "role": "reference",
+      "class": "small",
+      "box": {
+        "x": 918,
+        "y": 84,
+        "w": 76,
+        "h": 1600
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 216,
+        "max_chars": 264
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 15
+      }
+    },
+    {
+      "id": "ext_05",
+      "kind": "text",
+      "label": "list_item",
+      "role": "reference",
+      "class": "small",
+      "box": {
+        "x": 1012,
+        "y": 84,
+        "w": 76,
+        "h": 1600
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 216,
+        "max_chars": 264
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 16
       }
     }
   ]

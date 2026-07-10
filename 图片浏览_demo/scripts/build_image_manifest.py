@@ -12,6 +12,14 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEMO_ROOT = Path(__file__).resolve().parents[1]
 MANIFEST_PATH = DEMO_ROOT / "data" / "image_manifest.json"
+PREVIEW_ROOT = DEMO_ROOT / "previews"
+
+try:
+    from PIL import Image  # noqa: F401
+
+    _HAS_PIL = True
+except Exception:  # noqa: BLE001
+    _HAS_PIL = False
 
 DEFAULT_VERSION = "VL7"
 
@@ -53,18 +61,20 @@ LANGUAGE_SPECS = [
     },
 ]
 
+# 用类别名词干做子串匹配，兼容不同版本的目录命名
+# （如 VL11「书籍页/教科书页/杂志期刊页」与 VL12「书籍内页/教科书内页/杂志内页」）
 CATEGORY_NAMES = [
-    "报纸页",
+    "报纸",
     "证书证明",
     "考试卷",
-    "标牌海报场景",
-    "书籍页",
-    "教科书页",
-    "杂志期刊页",
-    "学术文献页",
-    "历史文档_古籍",
+    "标牌海报",
+    "书籍",
+    "教科书",
+    "杂志",
+    "学术文献",
+    "历史文档",
     "公告通知",
-    "复杂表单登记页",
+    "复杂表单",
     "手写笔记信件",
 ]
 
@@ -73,6 +83,29 @@ IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
 
 def to_demo_relative(path: Path) -> str:
     return "../" + path.relative_to(PROJECT_ROOT).as_posix()
+
+
+def thumb_for(image_path: Path) -> tuple[str | None, str | None]:
+    """Return (demo-relative thumb path, source-relative thumb path) if a
+    generated WebP preview exists, else (None, None)."""
+    rel = image_path.relative_to(PROJECT_ROOT).with_suffix(".webp")
+    thumb = PREVIEW_ROOT / rel
+    if thumb.exists():
+        return (
+            thumb.relative_to(DEMO_ROOT).as_posix(),
+            thumb.relative_to(PROJECT_ROOT).as_posix(),
+        )
+    return (None, None)
+
+
+def image_dimensions(image_path: Path) -> tuple[int | None, int | None]:
+    if not _HAS_PIL:
+        return (None, None)
+    try:
+        with Image.open(image_path) as im:
+            return im.size  # (width, height) from header, no full decode
+    except Exception:  # noqa: BLE001
+        return (None, None)
 
 
 def category_sort_key(path: Path) -> tuple[int, str]:
@@ -90,10 +123,16 @@ def collect_category(category_dir: Path) -> dict:
         for image_path in sorted(images_dir.iterdir(), key=lambda p: p.name):
             if image_path.is_file() and image_path.suffix.lower() in IMAGE_EXTENSIONS:
                 label_path = labels_dir / f"{image_path.stem}.json"
+                thumb_path, thumb_source = thumb_for(image_path)
+                width, height = image_dimensions(image_path)
                 images.append(
                     {
                         "filename": image_path.name,
                         "path": to_demo_relative(image_path),
+                        "thumb_path": thumb_path,
+                        "thumb_source_path": thumb_source,
+                        "width": width,
+                        "height": height,
                         "source_path": image_path.relative_to(PROJECT_ROOT).as_posix(),
                         "label_path": to_demo_relative(label_path) if label_path.exists() else None,
                         "label_source_path": label_path.relative_to(PROJECT_ROOT).as_posix()

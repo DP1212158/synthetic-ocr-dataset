@@ -16,8 +16,8 @@
     "page_rotation": "none"
   },
   "page": {
-    "width": 1240,
-    "height": 1820,
+    "width": 1200,
+    "height": 1780,
     "orientation": "portrait",
     "background": "warm_paper",
     "tight_crop": true
@@ -31,54 +31,54 @@
     "font_scale": "native_vertical_v4"
   },
   "qa_expectations": {
-    "min_blocks": 14,
+    "min_blocks": 15,
     "overflow_blocks": 0,
     "out_of_bounds_blocks": 0,
     "latin_residue_blocks": 0
   },
   "elements": [
     {
-      "id": "outer",
+      "id": "frame",
       "kind": "decor",
       "label": "decor",
       "class": "ornate",
       "box": {
-        "x": 40,
-        "y": 40,
-        "w": 1160,
-        "h": 1740
-      },
-      "visual": {}
-    },
-    {
-      "id": "inner",
-      "kind": "decor",
-      "label": "decor",
-      "class": "box",
-      "box": {
-        "x": 96,
-        "y": 74,
-        "w": 1048,
+        "x": 46,
+        "y": 54,
+        "w": 1108,
         "h": 1672
       },
       "visual": {}
     },
     {
-      "id": "meta",
-      "kind": "text",
-      "label": "metadata",
-      "role": "classic_meta",
-      "class": "tiny",
+      "id": "banxin",
+      "kind": "decor",
+      "label": "decor",
+      "class": "box",
       "box": {
-        "x": 110,
-        "y": 96,
-        "w": 30,
-        "h": 1628
+        "x": 72,
+        "y": 80,
+        "w": 1056,
+        "h": 1620
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "sutra_title",
+      "class": "title",
+      "box": {
+        "x": 90,
+        "y": 100,
+        "w": 54,
+        "h": 560
       },
       "text": {
-        "source": "safe_fragment",
-        "min_chars": 47,
-        "max_chars": 78
+        "source": "title",
+        "min_chars": 9,
+        "max_chars": 16
       },
       "visual": {},
       "attributes": {
@@ -86,21 +86,21 @@
       }
     },
     {
-      "id": "classic_01",
+      "id": "body_01",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 158,
-        "y": 96,
-        "w": 56,
-        "h": 1628
+        "x": 156,
+        "y": 100,
+        "w": 58,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 30,
-        "max_chars": 50
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -108,21 +108,21 @@
       }
     },
     {
-      "id": "classic_02",
+      "id": "body_02",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 228,
-        "y": 96,
-        "w": 56,
-        "h": 1628
+        "x": 224,
+        "y": 100,
+        "w": 58,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 30,
-        "max_chars": 50
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -130,21 +130,21 @@
       }
     },
     {
-      "id": "classic_03",
+      "id": "body_03",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 298,
-        "y": 96,
-        "w": 56,
-        "h": 1628
+        "x": 292,
+        "y": 100,
+        "w": 58,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 30,
-        "max_chars": 50
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -152,21 +152,21 @@
       }
     },
     {
-      "id": "classic_04",
+      "id": "body_04",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 368,
-        "y": 96,
-        "w": 56,
-        "h": 1628
+        "x": 360,
+        "y": 100,
+        "w": 58,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 30,
-        "max_chars": 50
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -174,21 +174,21 @@
       }
     },
     {
-      "id": "classic_05",
+      "id": "body_05",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 438,
-        "y": 96,
-        "w": 56,
-        "h": 1628
+        "x": 428,
+        "y": 100,
+        "w": 58,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 30,
-        "max_chars": 50
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -196,21 +196,21 @@
       }
     },
     {
-      "id": "classic_06",
+      "id": "body_06",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 508,
-        "y": 96,
-        "w": 56,
-        "h": 1628
+        "x": 496,
+        "y": 100,
+        "w": 58,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 30,
-        "max_chars": 50
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -218,21 +218,21 @@
       }
     },
     {
-      "id": "classic_07",
+      "id": "body_07",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 578,
-        "y": 96,
-        "w": 56,
-        "h": 1628
+        "x": 564,
+        "y": 100,
+        "w": 58,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 30,
-        "max_chars": 50
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -240,21 +240,21 @@
       }
     },
     {
-      "id": "classic_08",
+      "id": "body_08",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 648,
-        "y": 96,
-        "w": 56,
-        "h": 1628
+        "x": 632,
+        "y": 100,
+        "w": 58,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 30,
-        "max_chars": 50
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -262,21 +262,21 @@
       }
     },
     {
-      "id": "classic_09",
+      "id": "body_09",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 718,
-        "y": 96,
-        "w": 56,
-        "h": 1628
+        "x": 700,
+        "y": 100,
+        "w": 58,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 30,
-        "max_chars": 50
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -284,21 +284,21 @@
       }
     },
     {
-      "id": "classic_10",
+      "id": "body_10",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 788,
-        "y": 96,
-        "w": 56,
-        "h": 1628
+        "x": 768,
+        "y": 100,
+        "w": 58,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 30,
-        "max_chars": 50
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -306,21 +306,21 @@
       }
     },
     {
-      "id": "classic_11",
+      "id": "body_11",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 858,
-        "y": 96,
-        "w": 56,
-        "h": 1628
+        "x": 836,
+        "y": 100,
+        "w": 58,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 30,
-        "max_chars": 50
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -328,21 +328,21 @@
       }
     },
     {
-      "id": "classic_12",
+      "id": "body_12",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 928,
-        "y": 96,
-        "w": 56,
-        "h": 1628
+        "x": 904,
+        "y": 100,
+        "w": 58,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 30,
-        "max_chars": 50
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -350,21 +350,21 @@
       }
     },
     {
-      "id": "classic_13",
+      "id": "body_13",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 998,
-        "y": 96,
-        "w": 56,
-        "h": 1628
+        "x": 972,
+        "y": 100,
+        "w": 58,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 30,
-        "max_chars": 50
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -372,25 +372,73 @@
       }
     },
     {
-      "id": "classic_14",
+      "id": "body_14",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 1068,
-        "y": 96,
-        "w": 56,
-        "h": 1628
+        "x": 1040,
+        "y": 100,
+        "w": 58,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 30,
-        "max_chars": 50
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
         "reading_order": 15
+      }
+    },
+    {
+      "id": "redrule_0",
+      "kind": "decor",
+      "label": "decor",
+      "class": "rule-v",
+      "box": {
+        "x": 150,
+        "y": 96,
+        "w": 3,
+        "h": 1568
+      },
+      "visual": {
+        "background": "#8f2f2f",
+        "opacity": "0.6"
+      }
+    },
+    {
+      "id": "redrule_1",
+      "kind": "decor",
+      "label": "decor",
+      "class": "rule-v",
+      "box": {
+        "x": 490,
+        "y": 96,
+        "w": 3,
+        "h": 1568
+      },
+      "visual": {
+        "background": "#8f2f2f",
+        "opacity": "0.6"
+      }
+    },
+    {
+      "id": "redrule_2",
+      "kind": "decor",
+      "label": "decor",
+      "class": "rule-v",
+      "box": {
+        "x": 830,
+        "y": 96,
+        "w": 3,
+        "h": 1568
+      },
+      "visual": {
+        "background": "#8f2f2f",
+        "opacity": "0.6"
       }
     }
   ]

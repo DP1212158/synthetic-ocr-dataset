@@ -16,8 +16,8 @@
     "page_rotation": "none"
   },
   "page": {
-    "width": 1280,
-    "height": 1900,
+    "width": 1200,
+    "height": 1780,
     "orientation": "portrait",
     "background": "warm_paper",
     "tight_crop": true
@@ -38,21 +38,34 @@
   },
   "elements": [
     {
+      "id": "frame",
+      "kind": "decor",
+      "label": "decor",
+      "class": "thin",
+      "box": {
+        "x": 46,
+        "y": 54,
+        "w": 1108,
+        "h": 1672
+      },
+      "visual": {}
+    },
+    {
       "id": "meta",
       "kind": "text",
       "label": "metadata",
-      "role": "meta",
+      "role": "affiliation",
       "class": "tiny",
       "box": {
-        "x": 58,
-        "y": 66,
-        "w": 34,
-        "h": 1760
+        "x": 68,
+        "y": 80,
+        "w": 28,
+        "h": 1600
       },
       "text": {
         "source": "safe_fragment",
-        "min_chars": 50,
-        "max_chars": 84
+        "min_chars": 76,
+        "max_chars": 104
       },
       "visual": {},
       "attributes": {
@@ -66,15 +79,15 @@
       "role": "paper_title",
       "class": "title",
       "box": {
-        "x": 110,
-        "y": 62,
-        "w": 60,
-        "h": 1768
+        "x": 104,
+        "y": 80,
+        "w": 58,
+        "h": 760
       },
       "text": {
-        "source": "title",
-        "min_chars": 19,
-        "max_chars": 32
+        "source": "fill",
+        "min_chars": 15,
+        "max_chars": 19
       },
       "visual": {},
       "attributes": {
@@ -82,21 +95,21 @@
       }
     },
     {
-      "id": "abstract_t",
+      "id": "authors",
       "kind": "text",
-      "label": "section_title",
-      "role": "abstract",
-      "class": "subtitle",
+      "label": "metadata",
+      "role": "authors",
+      "class": "small",
       "box": {
-        "x": 196,
-        "y": 72,
-        "w": 40,
-        "h": 1591
+        "x": 176,
+        "y": 80,
+        "w": 34,
+        "h": 700
       },
       "text": {
         "source": "safe_fragment",
-        "min_chars": 25,
-        "max_chars": 41
+        "min_chars": 26,
+        "max_chars": 36
       },
       "visual": {},
       "attributes": {
@@ -104,21 +117,21 @@
       }
     },
     {
-      "id": "abstract_01",
+      "id": "abs_h",
       "kind": "text",
-      "label": "paragraph",
-      "role": "abstract_body",
-      "class": "body",
+      "label": "section_title",
+      "role": "abstract",
+      "class": "subtitle",
       "box": {
-        "x": 260,
-        "y": 68,
-        "w": 76,
-        "h": 1756
+        "x": 224,
+        "y": 88,
+        "w": 40,
+        "h": 460
       },
       "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 109
+        "source": "title",
+        "min_chars": 11,
+        "max_chars": 19
       },
       "visual": {},
       "attributes": {
@@ -126,21 +139,21 @@
       }
     },
     {
-      "id": "abstract_02",
+      "id": "abstract",
       "kind": "text",
       "label": "paragraph",
       "role": "abstract_body",
-      "class": "body",
+      "class": "body soft-fill",
       "box": {
-        "x": 354,
-        "y": 68,
-        "w": 76,
-        "h": 1756
+        "x": 276,
+        "y": 84,
+        "w": 300,
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 109
+        "source": "fill",
+        "min_chars": 576,
+        "max_chars": 704
       },
       "visual": {},
       "attributes": {
@@ -148,21 +161,21 @@
       }
     },
     {
-      "id": "abstract_03",
+      "id": "kw_h",
       "kind": "text",
-      "label": "paragraph",
-      "role": "abstract_body",
-      "class": "body",
+      "label": "section_title",
+      "role": "keywords",
+      "class": "subtitle",
       "box": {
-        "x": 448,
-        "y": 68,
-        "w": 76,
-        "h": 1756
+        "x": 594,
+        "y": 88,
+        "w": 40,
+        "h": 420
       },
       "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 109
+        "source": "title",
+        "min_chars": 10,
+        "max_chars": 17
       },
       "visual": {},
       "attributes": {
@@ -170,21 +183,21 @@
       }
     },
     {
-      "id": "body_04",
+      "id": "keywords",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
+      "role": "keywords",
+      "class": "small boxed",
       "box": {
-        "x": 542,
-        "y": 68,
-        "w": 76,
-        "h": 1756
+        "x": 646,
+        "y": 84,
+        "w": 60,
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 109
+        "source": "fill",
+        "min_chars": 144,
+        "max_chars": 176
       },
       "visual": {},
       "attributes": {
@@ -192,21 +205,21 @@
       }
     },
     {
-      "id": "body_05",
+      "id": "intro_h",
       "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
+      "label": "section_title",
+      "role": "introduction",
+      "class": "subtitle",
       "box": {
-        "x": 636,
-        "y": 68,
-        "w": 76,
-        "h": 1756
+        "x": 724,
+        "y": 88,
+        "w": 40,
+        "h": 420
       },
       "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 109
+        "source": "title",
+        "min_chars": 10,
+        "max_chars": 17
       },
       "visual": {},
       "attributes": {
@@ -214,21 +227,21 @@
       }
     },
     {
-      "id": "body_06",
+      "id": "intro_01",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 730,
-        "y": 68,
+        "x": 778,
+        "y": 84,
         "w": 76,
-        "h": 1756
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 109
+        "source": "fill",
+        "min_chars": 115,
+        "max_chars": 140
       },
       "visual": {},
       "attributes": {
@@ -236,21 +249,21 @@
       }
     },
     {
-      "id": "body_07",
+      "id": "intro_02",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 824,
-        "y": 68,
+        "x": 872,
+        "y": 84,
         "w": 76,
-        "h": 1756
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 109
+        "source": "fill",
+        "min_chars": 115,
+        "max_chars": 140
       },
       "visual": {},
       "attributes": {
@@ -258,21 +271,21 @@
       }
     },
     {
-      "id": "body_08",
+      "id": "intro_03",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 918,
-        "y": 68,
+        "x": 966,
+        "y": 84,
         "w": 76,
-        "h": 1756
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 109
+        "source": "fill",
+        "min_chars": 115,
+        "max_chars": 140
       },
       "visual": {},
       "attributes": {
@@ -280,47 +293,25 @@
       }
     },
     {
-      "id": "body_09",
+      "id": "intro_04",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 1012,
-        "y": 68,
+        "x": 1060,
+        "y": 84,
         "w": 76,
-        "h": 1756
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 109
+        "source": "fill",
+        "min_chars": 115,
+        "max_chars": 140
       },
       "visual": {},
       "attributes": {
         "reading_order": 12
-      }
-    },
-    {
-      "id": "body_10",
-      "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
-      "box": {
-        "x": 1106,
-        "y": 68,
-        "w": 76,
-        "h": 1756
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 109
-      },
-      "visual": {},
-      "attributes": {
-        "reading_order": 13
       }
     }
   ]

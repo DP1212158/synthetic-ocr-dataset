@@ -230,7 +230,31 @@
           }
         },
         {
-          "reading_order": 15,
+          "region": "body",
+          "column": 0,
+          "role": "field_label",
+          "label": "field_label",
+          "text": {
+            "source": "field_label",
+            "min_chars": 4,
+            "max_chars": 12
+          },
+          "reading_order": 15
+        },
+        {
+          "region": "body",
+          "column": 0,
+          "role": "field_value",
+          "label": "field_value",
+          "text": {
+            "source": "field_value",
+            "min_chars": 6,
+            "max_chars": 24
+          },
+          "reading_order": 16
+        },
+        {
+          "reading_order": 17,
           "region": "sign",
           "column": 0,
           "role": "field_label",
@@ -250,7 +274,7 @@
           "height": 60
         },
         {
-          "reading_order": 16,
+          "reading_order": 18,
           "region": "footer",
           "column": 0,
           "role": "footer",

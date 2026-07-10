@@ -16,8 +16,8 @@
     "page_rotation": "none"
   },
   "page": {
-    "width": 1240,
-    "height": 1820,
+    "width": 1200,
+    "height": 1780,
     "orientation": "portrait",
     "background": "warm_paper",
     "tight_crop": true
@@ -31,41 +31,40 @@
     "font_scale": "native_vertical_v4"
   },
   "qa_expectations": {
-    "min_blocks": 10,
+    "min_blocks": 11,
     "overflow_blocks": 0,
     "out_of_bounds_blocks": 0,
     "latin_residue_blocks": 0
   },
   "elements": [
     {
-      "id": "paper",
+      "id": "frame",
       "kind": "decor",
       "label": "decor",
-      "class": "box",
+      "class": "thin",
       "box": {
-        "x": 56,
-        "y": 56,
-        "w": 1128,
-        "h": 1708
+        "x": 46,
+        "y": 54,
+        "w": 1108,
+        "h": 1672
       },
       "visual": {}
     },
     {
-      "id": "recipient",
+      "id": "date",
       "kind": "text",
-      "label": "recipient",
-      "role": "diary_head",
+      "label": "section_title",
+      "role": "diary_date",
       "class": "subtitle hand",
       "box": {
-        "x": 84,
+        "x": 72,
         "y": 90,
-        "w": 48,
-        "h": 1634
+        "w": 44,
+        "h": 520
       },
       "text": {
-        "source": "title",
-        "min_chars": 25,
-        "max_chars": 42
+        "source": "literal",
+        "value": "2026 ᠣᠨ 7 ᠰᠠᠷᠠ"
       },
       "visual": {},
       "attributes": {
@@ -73,21 +72,21 @@
       }
     },
     {
-      "id": "body_01",
+      "id": "mood",
       "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body hand",
+      "label": "metadata",
+      "role": "mood",
+      "class": "small hand",
       "box": {
-        "x": 178,
-        "y": 96,
-        "w": 78,
-        "h": 1622
+        "x": 126,
+        "y": 90,
+        "w": 36,
+        "h": 460
       },
       "text": {
-        "source": "short",
-        "min_chars": 60,
-        "max_chars": 101
+        "source": "safe_fragment",
+        "min_chars": 17,
+        "max_chars": 25
       },
       "visual": {},
       "attributes": {
@@ -95,21 +94,21 @@
       }
     },
     {
-      "id": "body_02",
+      "id": "body_01",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "diary_body",
       "class": "body hand",
       "box": {
-        "x": 276,
-        "y": 96,
-        "w": 78,
-        "h": 1622
+        "x": 180,
+        "y": 90,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 60,
-        "max_chars": 101
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -117,21 +116,21 @@
       }
     },
     {
-      "id": "body_03",
+      "id": "body_02",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "diary_body",
       "class": "body hand",
       "box": {
-        "x": 374,
-        "y": 96,
-        "w": 78,
-        "h": 1622
+        "x": 274,
+        "y": 90,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 60,
-        "max_chars": 101
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -139,21 +138,21 @@
       }
     },
     {
-      "id": "body_04",
+      "id": "body_03",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "diary_body",
       "class": "body hand",
       "box": {
-        "x": 472,
-        "y": 96,
-        "w": 78,
-        "h": 1622
+        "x": 368,
+        "y": 90,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 60,
-        "max_chars": 101
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -161,21 +160,21 @@
       }
     },
     {
-      "id": "body_05",
+      "id": "body_04",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "diary_body",
       "class": "body hand",
       "box": {
-        "x": 570,
-        "y": 96,
-        "w": 78,
-        "h": 1622
+        "x": 462,
+        "y": 90,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 60,
-        "max_chars": 101
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -183,21 +182,21 @@
       }
     },
     {
-      "id": "body_06",
+      "id": "body_05",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "diary_body",
       "class": "body hand",
       "box": {
-        "x": 668,
-        "y": 96,
-        "w": 78,
-        "h": 1622
+        "x": 556,
+        "y": 90,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 60,
-        "max_chars": 101
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -205,21 +204,21 @@
       }
     },
     {
-      "id": "body_07",
+      "id": "body_06",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "diary_body",
       "class": "body hand",
       "box": {
-        "x": 766,
-        "y": 96,
-        "w": 78,
-        "h": 1622
+        "x": 650,
+        "y": 90,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 60,
-        "max_chars": 101
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -227,21 +226,21 @@
       }
     },
     {
-      "id": "body_08",
+      "id": "body_07",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "diary_body",
       "class": "body hand",
       "box": {
-        "x": 864,
-        "y": 96,
-        "w": 78,
-        "h": 1622
+        "x": 744,
+        "y": 90,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 60,
-        "max_chars": 101
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -249,21 +248,21 @@
       }
     },
     {
-      "id": "signature",
+      "id": "body_08",
       "kind": "text",
-      "label": "metadata",
-      "role": "signature",
-      "class": "small hand",
+      "label": "paragraph",
+      "role": "diary_body",
+      "class": "body hand",
       "box": {
-        "x": 1116,
-        "y": 110,
-        "w": 42,
-        "h": 817
+        "x": 838,
+        "y": 90,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "safe_fragment",
-        "min_chars": 19,
-        "max_chars": 31
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -271,22 +270,34 @@
       }
     },
     {
-      "id": "date",
+      "id": "note_bg",
+      "kind": "decor",
+      "label": "decor",
+      "class": "note-fill",
+      "box": {
+        "x": 940,
+        "y": 100,
+        "w": 170,
+        "h": 500
+      },
+      "visual": {}
+    },
+    {
+      "id": "note",
       "kind": "text",
-      "label": "metadata",
-      "role": "date",
+      "label": "paragraph",
+      "role": "sticky_note",
       "class": "small hand",
       "box": {
-        "x": 1176,
-        "y": 110,
-        "w": 40,
-        "h": 898
+        "x": 960,
+        "y": 120,
+        "w": 130,
+        "h": 460
       },
       "text": {
-        "source": "literal",
-        "min_chars": 21,
-        "max_chars": 35,
-        "value": "2026 ᠣᠨ 7 ᠰᠠᠷ᠎ᠠ"
+        "source": "short",
+        "min_chars": 86,
+        "max_chars": 119
       },
       "visual": {},
       "attributes": {

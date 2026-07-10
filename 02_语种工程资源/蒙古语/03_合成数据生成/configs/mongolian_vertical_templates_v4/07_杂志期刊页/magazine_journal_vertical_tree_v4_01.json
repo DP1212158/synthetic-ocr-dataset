@@ -31,7 +31,7 @@
     "font_scale": "native_vertical_v4"
   },
   "qa_expectations": {
-    "min_blocks": 7,
+    "min_blocks": 10,
     "overflow_blocks": 0,
     "out_of_bounds_blocks": 0,
     "latin_residue_blocks": 0
@@ -43,10 +43,10 @@
       "label": "decor",
       "class": "boxed",
       "box": {
-        "x": 44,
-        "y": 44,
-        "w": 1112,
-        "h": 1692
+        "x": 46,
+        "y": 54,
+        "w": 1108,
+        "h": 1672
       },
       "visual": {}
     },
@@ -57,19 +57,63 @@
       "role": "magazine_name",
       "class": "title",
       "box": {
-        "x": 60,
-        "y": 70,
-        "w": 74,
-        "h": 1620
+        "x": 70,
+        "y": 84,
+        "w": 56,
+        "h": 1040
       },
       "text": {
-        "source": "title",
-        "min_chars": 18,
-        "max_chars": 29
+        "source": "fill",
+        "min_chars": 21,
+        "max_chars": 26
       },
       "visual": {},
       "attributes": {
         "reading_order": 1
+      }
+    },
+    {
+      "id": "feature",
+      "kind": "text",
+      "label": "section_title",
+      "role": "feature",
+      "class": "title",
+      "box": {
+        "x": 140,
+        "y": 84,
+        "w": 62,
+        "h": 760
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 15,
+        "max_chars": 19
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 2
+      }
+    },
+    {
+      "id": "subtitle",
+      "kind": "text",
+      "label": "section_title",
+      "role": "subtitle",
+      "class": "subtitle",
+      "box": {
+        "x": 214,
+        "y": 84,
+        "w": 42,
+        "h": 600
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 15,
+        "max_chars": 23
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 3
       }
     },
     {
@@ -79,10 +123,10 @@
       "role": "cover",
       "class": "image-fill",
       "box": {
-        "x": 170,
-        "y": 80,
+        "x": 270,
+        "y": 90,
         "w": 430,
-        "h": 891
+        "h": 780
       },
       "text": {
         "source": "blank"
@@ -96,42 +140,64 @@
       "role": "caption",
       "class": "small",
       "box": {
-        "x": 610,
-        "y": 80,
-        "w": 40,
-        "h": 891
+        "x": 712,
+        "y": 90,
+        "w": 38,
+        "h": 780
       },
       "text": {
         "source": "short",
-        "min_chars": 21,
-        "max_chars": 34
+        "min_chars": 29,
+        "max_chars": 40
       },
       "visual": {},
       "attributes": {
-        "reading_order": 3,
-        "caption_of": "cover"
+        "caption_of": "cover",
+        "reading_order": 6
       }
     },
     {
-      "id": "feature",
+      "id": "quote",
       "kind": "text",
-      "label": "section_title",
-      "role": "feature",
-      "class": "subtitle",
+      "label": "paragraph",
+      "role": "pull_quote",
+      "class": "subtitle soft-fill",
       "box": {
-        "x": 170,
-        "y": 1042,
-        "w": 46,
-        "h": 583
+        "x": 270,
+        "y": 902,
+        "w": 200,
+        "h": 800
       },
       "text": {
-        "source": "title",
-        "min_chars": 9,
-        "max_chars": 15
+        "source": "fill",
+        "min_chars": 118,
+        "max_chars": 145
       },
       "visual": {},
       "attributes": {
-        "reading_order": 2
+        "reading_order": 4
+      }
+    },
+    {
+      "id": "byline",
+      "kind": "text",
+      "label": "metadata",
+      "role": "byline",
+      "class": "small",
+      "box": {
+        "x": 486,
+        "y": 902,
+        "w": 36,
+        "h": 800
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 31,
+        "max_chars": 42
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 5
       }
     },
     {
@@ -141,19 +207,19 @@
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 680,
-        "y": 80,
-        "w": 74,
+        "x": 766,
+        "y": 84,
+        "w": 76,
         "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 60,
-        "max_chars": 99
+        "source": "fill",
+        "min_chars": 115,
+        "max_chars": 140
       },
       "visual": {},
       "attributes": {
-        "reading_order": 4
+        "reading_order": 7
       }
     },
     {
@@ -163,19 +229,19 @@
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 772,
-        "y": 80,
-        "w": 74,
+        "x": 860,
+        "y": 84,
+        "w": 76,
         "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 60,
-        "max_chars": 99
+        "source": "fill",
+        "min_chars": 115,
+        "max_chars": 140
       },
       "visual": {},
       "attributes": {
-        "reading_order": 5
+        "reading_order": 8
       }
     },
     {
@@ -185,19 +251,19 @@
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 864,
-        "y": 80,
-        "w": 74,
+        "x": 954,
+        "y": 84,
+        "w": 76,
         "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 60,
-        "max_chars": 99
+        "source": "fill",
+        "min_chars": 115,
+        "max_chars": 140
       },
       "visual": {},
       "attributes": {
-        "reading_order": 6
+        "reading_order": 9
       }
     },
     {
@@ -207,41 +273,19 @@
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 956,
-        "y": 80,
-        "w": 74,
-        "h": 1600
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 60,
-        "max_chars": 99
-      },
-      "visual": {},
-      "attributes": {
-        "reading_order": 7
-      }
-    },
-    {
-      "id": "lead_05",
-      "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
-      "box": {
         "x": 1048,
-        "y": 80,
-        "w": 74,
+        "y": 84,
+        "w": 76,
         "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 60,
-        "max_chars": 99
+        "source": "fill",
+        "min_chars": 115,
+        "max_chars": 140
       },
       "visual": {},
       "attributes": {
-        "reading_order": 8
+        "reading_order": 10
       }
     }
   ]

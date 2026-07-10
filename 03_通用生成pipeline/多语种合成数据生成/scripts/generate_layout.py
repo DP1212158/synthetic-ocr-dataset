@@ -69,7 +69,7 @@ def select_variants(category: dict[str, Any], writing_mode_wanted: str, rng: ran
 
 NON_OCR_LABELS = {
     "image", "photo", "figure", "answer_area", "rule", "divider",
-    "decorative_rule", "table_structure", "visual",
+    "decorative_rule", "table_structure", "visual", "seal", "stamp",
 }
 
 # role -> Chinese bank key
@@ -232,6 +232,9 @@ def base_css(profile: dict[str, Any], tokens: dict[str, Any], writing_mode: str)
     paper = tokens.get("paper", "#fbf8ee")
     ink = tokens.get("ink", "#161616")
     line = tokens.get("line", "#222")
+    accent = tokens.get("accent", "#8a2f2f")
+    accent2 = tokens.get("accent2", accent)
+    band_ink = tokens.get("band_ink", "#f7f2e6")
     vertical = writing_mode == "vertical-lr"
     vtext_css = (
         """
@@ -259,6 +262,41 @@ def base_css(profile: dict[str, Any], tokens: dict[str, Any], writing_mode: str)
     .v3-image {{ background:repeating-linear-gradient(135deg,#d8d2c2,#d8d2c2 14px,#efe9d9 14px,#efe9d9 28px); border:2px solid #303030; }}
     .v3-rule {{ border-top:2px solid {line}; height:0; }}
     .v3-answer {{ border:1.4px solid {line}; background:rgba(255,255,255,.5); }}
+
+    /* --- refined visual vocabulary --- */
+    .page.framed {{ border:3px double {accent}; }}
+    .page.framed-inset::before {{ content:""; position:absolute; inset:22px; border:1.5px solid {line}; pointer-events:none; }}
+    .accent {{ color:{accent}; }}
+    .v3-title.accent, .v3-heading.accent, .v3-subtitle.accent {{ color:{accent}; }}
+    /* header / masthead band */
+    .v3region.band {{ background:{accent}; color:{band_ink}; padding:14px 20px; border-radius:2px; margin-bottom:18px; }}
+    .v3region.band .v3-blk {{ color:{band_ink}; }}
+    .v3region.band .v3-title {{ letter-spacing:1px; }}
+    .v3region.softband {{ background:rgba(138,47,47,.08); border-left:5px solid {accent}; padding:12px 16px; }}
+    /* card / framed region */
+    .v3region.card {{ border:1.4px solid {line}; background:rgba(255,255,255,.5); padding:16px; border-radius:3px; }}
+    .v3region.framed {{ border:2px solid {accent}; padding:16px; }}
+    /* footer strip */
+    .v3region.footer {{ border-top:1.5px solid {line}; padding-top:8px; margin-top:14px; color:#4a4a4a; }}
+    /* section divider */
+    .v3-divider {{ border:0; border-top:2px solid {accent}; height:0; opacity:.8; }}
+    .v3-divider.thin {{ border-top:1px solid {line}; opacity:.6; }}
+    /* form field rows */
+    .v3-field-label {{ font-weight:800; color:#2a2a2a; }}
+    .v3-field-value {{ border-bottom:1.4px solid {line}; padding-bottom:2px; min-height:1.4em; }}
+    /* seal / stamp */
+    .v3-seal {{ border:3px solid {accent}; color:{accent}; border-radius:50%; display:flex; align-items:center; justify-content:center; text-align:center; font-weight:800; opacity:.82; transform:rotate(-8deg); line-height:1.1; }}
+    /* badge / tag */
+    .v3-badge {{ display:inline-block; background:{accent}; color:{band_ink}; padding:3px 10px; border-radius:10px; font-size:13px; font-weight:700; }}
+    /* table grid (region layout=grid) */
+    .v3region.grid {{ border:1.4px solid {line}; }}
+    .v3region.grid .v3col {{ border-right:1px solid {line}; }}
+    .v3region.grid .v3col:last-child {{ border-right:0; }}
+    .v3region.grid .v3-blk {{ border-bottom:1px solid {line}; padding:6px 8px; margin:0; }}
+    .v3region.grid .v3-blk:last-child {{ border-bottom:0; }}
+    .v3region.grid .v3-blk.th {{ background:rgba(138,47,47,.14); font-weight:800; }}
+    .v3-title {{ margin:0 0 6px; }}
+    .v3-heading {{ margin:10px 0 4px; }}
     {vtext_css}
     """
 
@@ -271,17 +309,43 @@ def render_block(blk: dict[str, Any], direction: str) -> str:
     role = blk.get("role", label)
     block_id = blk["_id"]
     if not blk["_orderable"]:
-        cls = "v3-image" if label in ("image", "photo", "figure") else ("v3-rule" if label in ("rule", "divider", "decorative_rule") else "v3-answer")
-        h = int(blk.get("height", 300 if cls == "v3-image" else (2 if cls == "v3-rule" else 120)))
-        style = f"height:{h}px;"
-        if cls == "v3-image" and blk.get("_asset"):
-            style += f"background-image:url('file://{quote(blk['_asset'])}');background-size:cover;background-position:center;background-repeat:no-repeat;"
-        extra = f' data-caption-anchor="1"' if label in ("image", "photo", "figure") else ""
+        if label in ("image", "photo", "figure"):
+            h = int(blk.get("height", 300))
+            style = f"height:{h}px;"
+            if blk.get("_asset"):
+                style += f"background-image:url('file://{quote(blk['_asset'])}');background-size:cover;background-position:center;background-repeat:no-repeat;"
+            return (
+                f'<div data-block-id="{block_id}" data-label="{esc(label)}" data-is-text="false" '
+                f'data-ocr-orderable="false" class="v3-blk v3-image" style="{style}" data-caption-anchor="1"></div>'
+            )
+        if label in ("seal", "stamp"):
+            sz = int(blk.get("size", blk.get("height", 118)))
+            fs = max(11, sz // 7)
+            txt = esc(str(blk.get("seal_text", "")))
+            return (
+                f'<div data-label="{esc(label)}" data-is-text="false" aria-hidden="true" '
+                f'class="v3-blk v3-seal" style="width:{sz}px;height:{sz}px;font-size:{fs}px;margin:6px 0;">{txt}</div>'
+            )
+        if label in ("divider", "decorative_rule"):
+            thin = " thin" if blk.get("thin") else ""
+            return f'<div data-label="{esc(label)}" data-is-text="false" aria-hidden="true" class="v3-blk v3-divider{thin}" style="height:0;"></div>'
+        if label == "rule":
+            return f'<div data-label="rule" data-is-text="false" aria-hidden="true" class="v3-blk v3-rule" style="height:0;"></div>'
+        h = int(blk.get("height", 120))
         return (
             f'<div data-block-id="{block_id}" data-label="{esc(label)}" data-is-text="false" '
-            f'data-ocr-orderable="false" class="v3-blk {cls}" style="{style}"{extra}></div>'
+            f'data-ocr-orderable="false" class="v3-blk v3-answer" style="height:{h}px;"></div>'
         )
     role_cls = ROLE_CLASS.get(role, "v3-body")
+    extra_cls = ""
+    if blk.get("accent"):
+        extra_cls += " accent"
+    if role == "field_label" or label == "field_label":
+        extra_cls += " v3-field-label"
+    if role == "field_value" or label == "field_value":
+        extra_cls += " v3-field-value"
+    if blk.get("th"):
+        extra_cls += " th"
     zh_cls = " zh" if blk.get("_zh") else ""
     cap = f' data-caption-of="{blk["_caption_of"]}"' if blk.get("_caption_of") else ""
     flow_path = f'{esc(blk["region"])}/{esc(role)}/{blk["reading_order"]}'
@@ -291,17 +355,20 @@ def render_block(blk: dict[str, Any], direction: str) -> str:
         f'data-flow-rank="{blk["reading_order"]}" data-flow-region="{esc(blk["region"])}" '
         f'data-flow-container="{esc(blk["region"])}" data-flow-role="{esc(role)}" '
         f'data-flow-direction="{direction}" data-ocr-orderable="true"{cap} '
-        f'class="v3-blk text {role_cls}{zh_cls}">{esc(blk["_text"])}</div>'
+        f'class="v3-blk text {role_cls}{extra_cls}{zh_cls}">{esc(blk["_text"])}</div>'
     )
 
 
 def render_region(region: dict[str, Any], blocks: list[dict[str, Any]], direction: str) -> str:
     layout = region.get("layout", "stack")
+    visual = str(region.get("visual") or region.get("style") or "")
+    vcls = f" {visual}" if visual in {"band", "card", "framed", "footer", "softband"} else ""
     region_blocks = [b for b in blocks if b["region"] == region["id"]]
     if layout in ("columns", "grid"):
+        gridcls = " grid" if layout == "grid" else ""
         ncols = int(region.get("columns", 1))
         ratios = region.get("column_ratios")
-        gap = int(region.get("gap", 18))
+        gap = int(region.get("gap", 0 if layout == "grid" else 18))
         cols: dict[int, list[dict[str, Any]]] = {i: [] for i in range(ncols)}
         for b in region_blocks:
             cols[min(int(b.get("column", 0)), ncols - 1)].append(b)
@@ -315,9 +382,9 @@ def render_region(region: dict[str, Any], blocks: list[dict[str, Any]], directio
         # on the right and is read first). Using flex-direction:row-reverse here
         # would double-reverse it back to left-to-right — the RTL bug. Always use
         # plain "row" and let the container direction handle column progression.
-        return f'<section class="v3region cols" style="display:flex;gap:{gap}px;flex-direction:row">{"".join(col_divs)}</section>'
+        return f'<section class="v3region cols{gridcls}{vcls}" style="display:flex;gap:{gap}px;flex-direction:row">{"".join(col_divs)}</section>'
     inner = "".join(render_block(b, direction) for b in region_blocks)
-    return f'<section class="v3region stack">{inner}</section>'
+    return f'<section class="v3region stack{vcls}">{inner}</section>'
 
 
 # --------------------------------------------------------------------------- #
@@ -365,11 +432,19 @@ def build_document(category: dict[str, Any], variant: dict[str, Any], profile: d
     css = base_css(profile, variant.get("style_tokens", {}), writing_mode)
     regions = sorted(variant["regions"], key=lambda r: r.get("order", 999))
     body = "".join(render_region(r, blocks, direction) for r in regions)
+    frame = page.get("frame")
+    page_cls = "page"
+    if frame in (True, "framed", "border"):
+        page_cls += " framed"
+    elif frame in ("inset", "framed-inset"):
+        page_cls += " framed-inset"
+    elif frame in ("both", "framed-both"):
+        page_cls += " framed framed-inset"
     html = (
         f'<!doctype html><html lang="{esc(profile.get("html_lang","und"))}" dir="{direction}">'
         f"<head><meta charset=\"utf-8\"><title>{esc(category['category_cn'])} {esc(doc_id)}</title>"
         f"<style>{css}</style></head>"
-        f'<body><main class="page" style="width:{width}px;min-height:{height}px">{body}</main></body></html>'
+        f'<body><main class="{page_cls}" style="width:{width}px;min-height:{height}px">{body}</main></body></html>'
     )
     n_ocr = sum(1 for b in blocks if b["_orderable"])
     manifest = {

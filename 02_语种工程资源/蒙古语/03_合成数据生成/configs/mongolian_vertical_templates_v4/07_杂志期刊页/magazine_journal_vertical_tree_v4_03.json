@@ -16,8 +16,8 @@
     "page_rotation": "none"
   },
   "page": {
-    "width": 1180,
-    "height": 1760,
+    "width": 1200,
+    "height": 1780,
     "orientation": "portrait",
     "background": "warm_paper",
     "tight_crop": true
@@ -31,7 +31,7 @@
     "font_scale": "native_vertical_v4"
   },
   "qa_expectations": {
-    "min_blocks": 6,
+    "min_blocks": 9,
     "overflow_blocks": 0,
     "out_of_bounds_blocks": 0,
     "latin_residue_blocks": 0
@@ -43,29 +43,29 @@
       "label": "decor",
       "class": "boxed",
       "box": {
-        "x": 44,
-        "y": 44,
-        "w": 1092,
+        "x": 46,
+        "y": 54,
+        "w": 1108,
         "h": 1672
       },
       "visual": {}
     },
     {
-      "id": "name",
+      "id": "title",
       "kind": "text",
       "label": "document_title",
-      "role": "magazine_name",
+      "role": "feature_title",
       "class": "title",
       "box": {
-        "x": 60,
-        "y": 70,
-        "w": 74,
-        "h": 1600
+        "x": 70,
+        "y": 84,
+        "w": 58,
+        "h": 760
       },
       "text": {
-        "source": "title",
-        "min_chars": 18,
-        "max_chars": 29
+        "source": "fill",
+        "min_chars": 15,
+        "max_chars": 19
       },
       "visual": {},
       "attributes": {
@@ -73,16 +73,16 @@
       }
     },
     {
-      "id": "cover",
+      "id": "img1",
       "kind": "image",
       "label": "image",
-      "role": "cover",
+      "role": "photo",
       "class": "image-fill",
       "box": {
-        "x": 170,
-        "y": 80,
-        "w": 430,
-        "h": 880
+        "x": 138,
+        "y": 96,
+        "w": 320,
+        "h": 552
       },
       "text": {
         "source": "blank"
@@ -90,66 +90,84 @@
       "visual": {}
     },
     {
-      "id": "caption",
+      "id": "cap1",
       "kind": "text",
       "label": "caption",
       "role": "caption",
       "class": "small",
       "box": {
-        "x": 610,
-        "y": 80,
-        "w": 40,
-        "h": 880
+        "x": 466,
+        "y": 96,
+        "w": 34,
+        "h": 552
       },
       "text": {
         "source": "short",
         "min_chars": 21,
-        "max_chars": 34
+        "max_chars": 29
       },
       "visual": {},
       "attributes": {
-        "reading_order": 3,
-        "caption_of": "cover"
-      }
-    },
-    {
-      "id": "feature",
-      "kind": "text",
-      "label": "section_title",
-      "role": "feature",
-      "class": "subtitle",
-      "box": {
-        "x": 170,
-        "y": 1030,
-        "w": 46,
-        "h": 576
-      },
-      "text": {
-        "source": "title",
-        "min_chars": 9,
-        "max_chars": 15
-      },
-      "visual": {},
-      "attributes": {
+        "caption_of": "img1",
         "reading_order": 2
       }
     },
     {
-      "id": "lead_01",
+      "id": "img2",
+      "kind": "image",
+      "label": "image",
+      "role": "photo",
+      "class": "image-fill",
+      "box": {
+        "x": 138,
+        "y": 692,
+        "w": 320,
+        "h": 552
+      },
+      "text": {
+        "source": "blank"
+      },
+      "visual": {}
+    },
+    {
+      "id": "cap2",
+      "kind": "text",
+      "label": "caption",
+      "role": "caption",
+      "class": "small",
+      "box": {
+        "x": 466,
+        "y": 692,
+        "w": 34,
+        "h": 552
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 21,
+        "max_chars": 29
+      },
+      "visual": {},
+      "attributes": {
+        "caption_of": "img2",
+        "reading_order": 3
+      }
+    },
+    {
+      "id": "body_01",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 680,
-        "y": 80,
-        "w": 74,
-        "h": 1580
+        "x": 520,
+        "y": 84,
+        "w": 76,
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 59,
-        "max_chars": 98
+        "source": "fill",
+        "min_chars": 115,
+        "max_chars": 140
       },
       "visual": {},
       "attributes": {
@@ -157,21 +175,21 @@
       }
     },
     {
-      "id": "lead_02",
+      "id": "body_02",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 772,
-        "y": 80,
-        "w": 74,
-        "h": 1580
+        "x": 614,
+        "y": 84,
+        "w": 76,
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 59,
-        "max_chars": 98
+        "source": "fill",
+        "min_chars": 115,
+        "max_chars": 140
       },
       "visual": {},
       "attributes": {
@@ -179,21 +197,21 @@
       }
     },
     {
-      "id": "lead_03",
+      "id": "body_03",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 864,
-        "y": 80,
-        "w": 74,
-        "h": 1580
+        "x": 708,
+        "y": 84,
+        "w": 76,
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 59,
-        "max_chars": 98
+        "source": "fill",
+        "min_chars": 115,
+        "max_chars": 140
       },
       "visual": {},
       "attributes": {
@@ -201,21 +219,21 @@
       }
     },
     {
-      "id": "lead_04",
+      "id": "body_04",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 956,
-        "y": 80,
-        "w": 74,
-        "h": 1580
+        "x": 802,
+        "y": 84,
+        "w": 76,
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 59,
-        "max_chars": 98
+        "source": "fill",
+        "min_chars": 115,
+        "max_chars": 140
       },
       "visual": {},
       "attributes": {
@@ -223,25 +241,47 @@
       }
     },
     {
-      "id": "lead_06",
+      "id": "body_05",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 1048,
-        "y": 80,
-        "w": 74,
-        "h": 1580
+        "x": 896,
+        "y": 84,
+        "w": 76,
+        "h": 1600
       },
       "text": {
-        "source": "short",
-        "min_chars": 40,
-        "max_chars": 90
+        "source": "fill",
+        "min_chars": 115,
+        "max_chars": 140
       },
       "visual": {},
       "attributes": {
         "reading_order": 8
+      }
+    },
+    {
+      "id": "body_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "vertical_text_column",
+      "class": "body",
+      "box": {
+        "x": 990,
+        "y": 84,
+        "w": 76,
+        "h": 1600
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 115,
+        "max_chars": 140
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 9
       }
     }
   ]

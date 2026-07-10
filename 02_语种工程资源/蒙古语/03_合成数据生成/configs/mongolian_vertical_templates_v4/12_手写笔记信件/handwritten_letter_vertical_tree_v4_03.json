@@ -16,8 +16,8 @@
     "page_rotation": "none"
   },
   "page": {
-    "width": 1180,
-    "height": 1760,
+    "width": 1200,
+    "height": 1780,
     "orientation": "portrait",
     "background": "warm_paper",
     "tight_crop": true
@@ -38,34 +38,47 @@
   },
   "elements": [
     {
-      "id": "paper",
+      "id": "frame",
       "kind": "decor",
       "label": "decor",
-      "class": "box",
+      "class": "thin",
       "box": {
-        "x": 56,
-        "y": 56,
-        "w": 1068,
-        "h": 1648
+        "x": 46,
+        "y": 54,
+        "w": 1108,
+        "h": 1672
       },
       "visual": {}
     },
     {
-      "id": "recipient",
-      "kind": "text",
-      "label": "recipient",
-      "role": "diary_head",
-      "class": "subtitle hand",
+      "id": "note_bg",
+      "kind": "decor",
+      "label": "decor",
+      "class": "note-fill",
       "box": {
-        "x": 84,
+        "x": 140,
+        "y": 80,
+        "w": 620,
+        "h": 1620
+      },
+      "visual": {}
+    },
+    {
+      "id": "title",
+      "kind": "text",
+      "label": "document_title",
+      "role": "memo_title",
+      "class": "title hand",
+      "box": {
+        "x": 72,
         "y": 90,
-        "w": 48,
-        "h": 1574
+        "w": 54,
+        "h": 760
       },
       "text": {
-        "source": "title",
-        "min_chars": 24,
-        "max_chars": 41
+        "source": "fill",
+        "min_chars": 15,
+        "max_chars": 19
       },
       "visual": {},
       "attributes": {
@@ -76,18 +89,18 @@
       "id": "body_01",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "note_body",
       "class": "body hand",
       "box": {
-        "x": 178,
-        "y": 96,
-        "w": 78,
-        "h": 1562
+        "x": 156,
+        "y": 100,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 58,
-        "max_chars": 97
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -98,18 +111,18 @@
       "id": "body_02",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "note_body",
       "class": "body hand",
       "box": {
-        "x": 276,
-        "y": 96,
-        "w": 78,
-        "h": 1562
+        "x": 250,
+        "y": 100,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 58,
-        "max_chars": 97
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -120,18 +133,18 @@
       "id": "body_03",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "note_body",
       "class": "body hand",
       "box": {
-        "x": 374,
-        "y": 96,
-        "w": 78,
-        "h": 1562
+        "x": 344,
+        "y": 100,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 58,
-        "max_chars": 97
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -142,18 +155,18 @@
       "id": "body_04",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "note_body",
       "class": "body hand",
       "box": {
-        "x": 472,
-        "y": 96,
-        "w": 78,
-        "h": 1562
+        "x": 438,
+        "y": 100,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 58,
-        "max_chars": 97
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -164,18 +177,18 @@
       "id": "body_05",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "note_body",
       "class": "body hand",
       "box": {
-        "x": 570,
-        "y": 96,
-        "w": 78,
-        "h": 1562
+        "x": 532,
+        "y": 100,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 58,
-        "max_chars": 97
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -183,21 +196,21 @@
       }
     },
     {
-      "id": "body_06",
+      "id": "list_01",
       "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body hand",
+      "label": "list_item",
+      "role": "checklist",
+      "class": "small hand",
       "box": {
-        "x": 668,
-        "y": 96,
-        "w": 78,
-        "h": 1562
+        "x": 700,
+        "y": 100,
+        "w": 48,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 58,
-        "max_chars": 97
+        "source": "fill",
+        "min_chars": 139,
+        "max_chars": 170
       },
       "visual": {},
       "attributes": {
@@ -205,21 +218,21 @@
       }
     },
     {
-      "id": "body_07",
+      "id": "list_02",
       "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body hand",
+      "label": "list_item",
+      "role": "checklist",
+      "class": "small hand",
       "box": {
         "x": 766,
-        "y": 96,
-        "w": 78,
-        "h": 1562
+        "y": 100,
+        "w": 48,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 58,
-        "max_chars": 97
+        "source": "fill",
+        "min_chars": 139,
+        "max_chars": 170
       },
       "visual": {},
       "attributes": {
@@ -227,21 +240,21 @@
       }
     },
     {
-      "id": "body_08",
+      "id": "list_03",
       "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body hand",
+      "label": "list_item",
+      "role": "checklist",
+      "class": "small hand",
       "box": {
-        "x": 864,
-        "y": 96,
-        "w": 78,
-        "h": 1562
+        "x": 832,
+        "y": 100,
+        "w": 48,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 58,
-        "max_chars": 97
+        "source": "fill",
+        "min_chars": 139,
+        "max_chars": 170
       },
       "visual": {},
       "attributes": {
@@ -249,48 +262,25 @@
       }
     },
     {
-      "id": "signature",
+      "id": "memo",
       "kind": "text",
-      "label": "metadata",
-      "role": "signature",
+      "label": "paragraph",
+      "role": "margin_memo",
       "class": "small hand",
       "box": {
-        "x": 1056,
-        "y": 110,
-        "w": 42,
-        "h": 787
+        "x": 940,
+        "y": 100,
+        "w": 44,
+        "h": 1300
       },
       "text": {
         "source": "safe_fragment",
-        "min_chars": 18,
-        "max_chars": 30
+        "min_chars": 50,
+        "max_chars": 68
       },
       "visual": {},
       "attributes": {
         "reading_order": 10
-      }
-    },
-    {
-      "id": "date",
-      "kind": "text",
-      "label": "metadata",
-      "role": "date",
-      "class": "small hand",
-      "box": {
-        "x": 1116,
-        "y": 110,
-        "w": 40,
-        "h": 865
-      },
-      "text": {
-        "source": "literal",
-        "min_chars": 20,
-        "max_chars": 34,
-        "value": "2026 ᠣᠨ 7 ᠰᠠᠷ᠎ᠠ"
-      },
-      "visual": {},
-      "attributes": {
-        "reading_order": 11
       }
     }
   ]

@@ -5,9 +5,9 @@
   "category_id": "certificate_proof",
   "category_cn": "证书证明",
   "folder": "02_证书证明",
-  "template_name_cn": "奖状装饰版",
-  "layout_family": "v4_award_decorated",
-  "design_prompt": "大标题、装饰色带、正文列和落款分区。",
+  "template_name_cn": "古典描边证书",
+  "layout_family": "v4_formal_double_frame",
+  "design_prompt": "双重边框、居中竖排标题、正文、印章与落款。",
   "writing_system": {
     "language": "传统蒙古文",
     "writing_mode": "vertical-lr",
@@ -16,7 +16,7 @@
     "page_rotation": "none"
   },
   "page": {
-    "width": 1180,
+    "width": 1080,
     "height": 1500,
     "orientation": "portrait",
     "background": "warm_paper",
@@ -26,7 +26,7 @@
     "paper": "#fbf8ed",
     "ink": "#151515",
     "muted": "#625d55",
-    "accent": "#8f2f2f",
+    "accent": "#5a2f7a",
     "line": "#222222",
     "font_scale": "native_vertical_v4"
   },
@@ -41,12 +41,25 @@
       "id": "outer",
       "kind": "decor",
       "label": "decor",
-      "class": "box ornate",
+      "class": "ornate",
       "box": {
-        "x": 52,
+        "x": 48,
         "y": 52,
-        "w": 1076,
+        "w": 984,
         "h": 1396
+      },
+      "visual": {}
+    },
+    {
+      "id": "inner",
+      "kind": "decor",
+      "label": "decor",
+      "class": "thin",
+      "box": {
+        "x": 78,
+        "y": 84,
+        "w": 924,
+        "h": 1332
       },
       "visual": {}
     },
@@ -57,16 +70,16 @@
       "role": "serial",
       "class": "tiny",
       "box": {
-        "x": 94,
-        "y": 100,
-        "w": 30,
-        "h": 1290
+        "x": 108,
+        "y": 120,
+        "w": 24,
+        "h": 420
       },
       "text": {
         "source": "literal",
-        "min_chars": 24,
+        "min_chars": 4,
         "max_chars": 96,
-        "value": "20260702"
+        "value": "2026 ᠣᠨ 7 ᠰᠠᠷᠠ"
       },
       "visual": {}
     },
@@ -79,26 +92,13 @@
       "box": {
         "x": 170,
         "y": 120,
-        "w": 62,
-        "h": 1240
+        "w": 60,
+        "h": 560
       },
       "text": {
         "source": "safe_fragment",
-        "min_chars": 4,
-        "max_chars": 25
-      },
-      "visual": {}
-    },
-    {
-      "id": "ribbon",
-      "kind": "decor",
-      "label": "decor",
-      "class": "soft-fill",
-      "box": {
-        "x": 280,
-        "y": 110,
-        "w": 100,
-        "h": 1280
+        "min_chars": 18,
+        "max_chars": 30
       },
       "visual": {}
     },
@@ -109,15 +109,15 @@
       "role": "subtitle",
       "class": "subtitle",
       "box": {
-        "x": 430,
-        "y": 150,
-        "w": 48,
-        "h": 1120
+        "x": 250,
+        "y": 140,
+        "w": 42,
+        "h": 840
       },
       "text": {
         "source": "title",
-        "min_chars": 8,
-        "max_chars": 23
+        "min_chars": 91,
+        "max_chars": 149
       },
       "visual": {}
     },
@@ -125,18 +125,18 @@
       "id": "body_01",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "cert_body",
       "class": "body",
       "box": {
-        "x": 540,
-        "y": 170,
-        "w": 36,
-        "h": 1030
+        "x": 336,
+        "y": 150,
+        "w": 34,
+        "h": 557
       },
       "text": {
         "source": "short",
-        "min_chars": 24,
-        "max_chars": 36
+        "min_chars": 72,
+        "max_chars": 129
       },
       "visual": {}
     },
@@ -144,18 +144,18 @@
       "id": "body_02",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "cert_body",
       "class": "body",
       "box": {
-        "x": 600,
-        "y": 170,
-        "w": 36,
-        "h": 1030
+        "x": 378,
+        "y": 150,
+        "w": 34,
+        "h": 557
       },
       "text": {
         "source": "short",
-        "min_chars": 24,
-        "max_chars": 36
+        "min_chars": 72,
+        "max_chars": 129
       },
       "visual": {}
     },
@@ -163,18 +163,18 @@
       "id": "body_03",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "cert_body",
       "class": "body",
       "box": {
-        "x": 660,
-        "y": 170,
-        "w": 36,
-        "h": 1030
+        "x": 420,
+        "y": 150,
+        "w": 34,
+        "h": 557
       },
       "text": {
         "source": "short",
-        "min_chars": 24,
-        "max_chars": 36
+        "min_chars": 72,
+        "max_chars": 129
       },
       "visual": {}
     },
@@ -182,18 +182,18 @@
       "id": "body_04",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "cert_body",
       "class": "body",
       "box": {
-        "x": 720,
-        "y": 170,
-        "w": 36,
-        "h": 1030
+        "x": 462,
+        "y": 150,
+        "w": 34,
+        "h": 557
       },
       "text": {
         "source": "short",
-        "min_chars": 24,
-        "max_chars": 36
+        "min_chars": 72,
+        "max_chars": 129
       },
       "visual": {}
     },
@@ -201,18 +201,266 @@
       "id": "body_05",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
+      "role": "cert_body",
       "class": "body",
       "box": {
-        "x": 780,
-        "y": 170,
-        "w": 36,
-        "h": 1030
+        "x": 504,
+        "y": 150,
+        "w": 34,
+        "h": 557
       },
       "text": {
         "source": "short",
-        "min_chars": 24,
-        "max_chars": 36
+        "min_chars": 72,
+        "max_chars": 129
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_06",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "cert_body",
+      "class": "body",
+      "box": {
+        "x": 546,
+        "y": 150,
+        "w": 34,
+        "h": 557
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 72,
+        "max_chars": 129
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_07",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "cert_body",
+      "class": "body",
+      "box": {
+        "x": 588,
+        "y": 150,
+        "w": 34,
+        "h": 557
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 72,
+        "max_chars": 129
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_08",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "cert_body",
+      "class": "body",
+      "box": {
+        "x": 630,
+        "y": 150,
+        "w": 34,
+        "h": 557
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 72,
+        "max_chars": 129
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_09",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "cert_body",
+      "class": "body",
+      "box": {
+        "x": 336,
+        "y": 733,
+        "w": 34,
+        "h": 557
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 72,
+        "max_chars": 129
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_10",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "cert_body",
+      "class": "body",
+      "box": {
+        "x": 378,
+        "y": 733,
+        "w": 34,
+        "h": 557
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 72,
+        "max_chars": 129
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_11",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "cert_body",
+      "class": "body",
+      "box": {
+        "x": 420,
+        "y": 733,
+        "w": 34,
+        "h": 557
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 72,
+        "max_chars": 129
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_12",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "cert_body",
+      "class": "body",
+      "box": {
+        "x": 462,
+        "y": 733,
+        "w": 34,
+        "h": 557
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 72,
+        "max_chars": 129
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_13",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "cert_body",
+      "class": "body",
+      "box": {
+        "x": 504,
+        "y": 733,
+        "w": 34,
+        "h": 557
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 72,
+        "max_chars": 129
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_14",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "cert_body",
+      "class": "body",
+      "box": {
+        "x": 546,
+        "y": 733,
+        "w": 34,
+        "h": 557
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 72,
+        "max_chars": 129
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_15",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "cert_body",
+      "class": "body",
+      "box": {
+        "x": 588,
+        "y": 733,
+        "w": 34,
+        "h": 557
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 72,
+        "max_chars": 129
+      },
+      "visual": {}
+    },
+    {
+      "id": "body_16",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "cert_body",
+      "class": "body",
+      "box": {
+        "x": 630,
+        "y": 733,
+        "w": 34,
+        "h": 557
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 72,
+        "max_chars": 129
+      },
+      "visual": {}
+    },
+    {
+      "id": "award",
+      "kind": "text",
+      "label": "section_title",
+      "role": "award",
+      "class": "subtitle",
+      "box": {
+        "x": 700,
+        "y": 150,
+        "w": 38,
+        "h": 840
+      },
+      "text": {
+        "source": "title",
+        "min_chars": 91,
+        "max_chars": 149
+      },
+      "visual": {}
+    },
+    {
+      "id": "date",
+      "kind": "text",
+      "label": "metadata",
+      "role": "date",
+      "class": "small",
+      "box": {
+        "x": 782,
+        "y": 520,
+        "w": 30,
+        "h": 640
+      },
+      "text": {
+        "source": "literal",
+        "min_chars": 4,
+        "max_chars": 96,
+        "value": "2026 07 02"
       },
       "visual": {}
     },
@@ -223,15 +471,34 @@
       "role": "seal",
       "class": "subtitle stamp",
       "box": {
-        "x": 920,
-        "y": 800,
-        "w": 124,
-        "h": 124
+        "x": 830,
+        "y": 940,
+        "w": 130,
+        "h": 130
       },
       "text": {
         "source": "safe_fragment",
-        "min_chars": 2,
-        "max_chars": 6
+        "min_chars": 6,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "signatory",
+      "kind": "text",
+      "label": "paragraph",
+      "role": "signatory",
+      "class": "body",
+      "box": {
+        "x": 852,
+        "y": 250,
+        "w": 34,
+        "h": 560
+      },
+      "text": {
+        "source": "short",
+        "min_chars": 73,
+        "max_chars": 119
       },
       "visual": {}
     }

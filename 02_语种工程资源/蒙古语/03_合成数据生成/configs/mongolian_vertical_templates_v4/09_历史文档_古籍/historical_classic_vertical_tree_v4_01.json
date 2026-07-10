@@ -31,54 +31,54 @@
     "font_scale": "native_vertical_v4"
   },
   "qa_expectations": {
-    "min_blocks": 12,
+    "min_blocks": 14,
     "overflow_blocks": 0,
     "out_of_bounds_blocks": 0,
     "latin_residue_blocks": 0
   },
   "elements": [
     {
-      "id": "outer",
+      "id": "frame",
       "kind": "decor",
       "label": "decor",
       "class": "ornate",
       "box": {
-        "x": 40,
-        "y": 40,
-        "w": 1120,
-        "h": 1700
+        "x": 46,
+        "y": 54,
+        "w": 1108,
+        "h": 1672
       },
       "visual": {}
     },
     {
-      "id": "inner",
+      "id": "banxin",
       "kind": "decor",
       "label": "decor",
       "class": "box",
       "box": {
-        "x": 96,
-        "y": 74,
-        "w": 1008,
-        "h": 1632
+        "x": 72,
+        "y": 80,
+        "w": 1056,
+        "h": 1620
       },
       "visual": {}
     },
     {
-      "id": "meta",
+      "id": "title",
       "kind": "text",
-      "label": "metadata",
-      "role": "classic_meta",
-      "class": "tiny",
+      "label": "document_title",
+      "role": "classic_title",
+      "class": "title",
       "box": {
-        "x": 110,
-        "y": 96,
-        "w": 30,
-        "h": 1588
+        "x": 90,
+        "y": 100,
+        "w": 56,
+        "h": 1560
       },
       "text": {
-        "source": "safe_fragment",
-        "min_chars": 46,
-        "max_chars": 76
+        "source": "fill",
+        "min_chars": 32,
+        "max_chars": 39
       },
       "visual": {},
       "attributes": {
@@ -86,21 +86,21 @@
       }
     },
     {
-      "id": "classic_01",
+      "id": "body_01",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 158,
-        "y": 96,
-        "w": 62,
-        "h": 1588
+        "x": 160,
+        "y": 100,
+        "w": 54,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 59,
-        "max_chars": 98
+        "source": "fill",
+        "min_chars": 56,
+        "max_chars": 68
       },
       "visual": {},
       "attributes": {
@@ -108,21 +108,21 @@
       }
     },
     {
-      "id": "classic_02",
+      "id": "body_02",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 234,
-        "y": 96,
-        "w": 62,
-        "h": 1588
+        "x": 222,
+        "y": 100,
+        "w": 54,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 59,
-        "max_chars": 98
+        "source": "fill",
+        "min_chars": 56,
+        "max_chars": 68
       },
       "visual": {},
       "attributes": {
@@ -130,21 +130,21 @@
       }
     },
     {
-      "id": "classic_03",
+      "id": "body_03",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 310,
-        "y": 96,
-        "w": 62,
-        "h": 1588
+        "x": 284,
+        "y": 100,
+        "w": 54,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 59,
-        "max_chars": 98
+        "source": "fill",
+        "min_chars": 56,
+        "max_chars": 68
       },
       "visual": {},
       "attributes": {
@@ -152,21 +152,21 @@
       }
     },
     {
-      "id": "classic_04",
+      "id": "body_04",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 386,
-        "y": 96,
-        "w": 62,
-        "h": 1588
+        "x": 346,
+        "y": 100,
+        "w": 54,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 59,
-        "max_chars": 98
+        "source": "fill",
+        "min_chars": 56,
+        "max_chars": 68
       },
       "visual": {},
       "attributes": {
@@ -174,21 +174,21 @@
       }
     },
     {
-      "id": "classic_05",
+      "id": "body_05",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 462,
-        "y": 96,
-        "w": 62,
-        "h": 1588
+        "x": 408,
+        "y": 100,
+        "w": 54,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 59,
-        "max_chars": 98
+        "source": "fill",
+        "min_chars": 56,
+        "max_chars": 68
       },
       "visual": {},
       "attributes": {
@@ -196,21 +196,21 @@
       }
     },
     {
-      "id": "classic_06",
+      "id": "body_06",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 538,
-        "y": 96,
-        "w": 62,
-        "h": 1588
+        "x": 470,
+        "y": 100,
+        "w": 54,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 59,
-        "max_chars": 98
+        "source": "fill",
+        "min_chars": 56,
+        "max_chars": 68
       },
       "visual": {},
       "attributes": {
@@ -218,21 +218,21 @@
       }
     },
     {
-      "id": "classic_07",
+      "id": "body_07",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 614,
-        "y": 96,
-        "w": 62,
-        "h": 1588
+        "x": 532,
+        "y": 100,
+        "w": 54,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 59,
-        "max_chars": 98
+        "source": "fill",
+        "min_chars": 56,
+        "max_chars": 68
       },
       "visual": {},
       "attributes": {
@@ -240,21 +240,21 @@
       }
     },
     {
-      "id": "classic_08",
+      "id": "body_08",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 690,
-        "y": 96,
-        "w": 62,
-        "h": 1588
+        "x": 594,
+        "y": 100,
+        "w": 54,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 59,
-        "max_chars": 98
+        "source": "fill",
+        "min_chars": 56,
+        "max_chars": 68
       },
       "visual": {},
       "attributes": {
@@ -262,21 +262,21 @@
       }
     },
     {
-      "id": "classic_09",
+      "id": "body_09",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 766,
-        "y": 96,
-        "w": 62,
-        "h": 1588
+        "x": 656,
+        "y": 100,
+        "w": 54,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 59,
-        "max_chars": 98
+        "source": "fill",
+        "min_chars": 56,
+        "max_chars": 68
       },
       "visual": {},
       "attributes": {
@@ -284,21 +284,21 @@
       }
     },
     {
-      "id": "classic_10",
+      "id": "body_10",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 842,
-        "y": 96,
-        "w": 62,
-        "h": 1588
+        "x": 718,
+        "y": 100,
+        "w": 54,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 59,
-        "max_chars": 98
+        "source": "fill",
+        "min_chars": 56,
+        "max_chars": 68
       },
       "visual": {},
       "attributes": {
@@ -306,21 +306,21 @@
       }
     },
     {
-      "id": "classic_11",
+      "id": "body_11",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 918,
-        "y": 96,
-        "w": 62,
-        "h": 1588
+        "x": 780,
+        "y": 100,
+        "w": 54,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 59,
-        "max_chars": 98
+        "source": "fill",
+        "min_chars": 56,
+        "max_chars": 68
       },
       "visual": {},
       "attributes": {
@@ -328,25 +328,47 @@
       }
     },
     {
-      "id": "classic_12",
+      "id": "body_12",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 994,
-        "y": 96,
-        "w": 62,
-        "h": 1588
+        "x": 842,
+        "y": 100,
+        "w": 54,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 59,
-        "max_chars": 98
+        "source": "fill",
+        "min_chars": 56,
+        "max_chars": 68
       },
       "visual": {},
       "attributes": {
         "reading_order": 13
+      }
+    },
+    {
+      "id": "note",
+      "kind": "text",
+      "label": "annotation",
+      "role": "interlinear",
+      "class": "tiny",
+      "box": {
+        "x": 962,
+        "y": 100,
+        "w": 30,
+        "h": 1560
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 74,
+        "max_chars": 105
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 14
       }
     }
   ]

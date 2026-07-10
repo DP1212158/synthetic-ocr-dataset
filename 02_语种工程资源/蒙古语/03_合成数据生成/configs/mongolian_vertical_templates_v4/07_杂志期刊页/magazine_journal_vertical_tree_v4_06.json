@@ -16,8 +16,8 @@
     "page_rotation": "none"
   },
   "page": {
-    "width": 1300,
-    "height": 1960,
+    "width": 1200,
+    "height": 1780,
     "orientation": "portrait",
     "background": "warm_paper",
     "tight_crop": true
@@ -43,10 +43,10 @@
       "label": "decor",
       "class": "boxed",
       "box": {
-        "x": 44,
-        "y": 44,
-        "w": 1212,
-        "h": 1872
+        "x": 46,
+        "y": 54,
+        "w": 1108,
+        "h": 1672
       },
       "visual": {}
     },
@@ -57,15 +57,15 @@
       "role": "magazine_name",
       "class": "title",
       "box": {
-        "x": 60,
-        "y": 70,
-        "w": 74,
-        "h": 1800
+        "x": 72,
+        "y": 84,
+        "w": 58,
+        "h": 1000
       },
       "text": {
-        "source": "title",
+        "source": "fill",
         "min_chars": 20,
-        "max_chars": 33
+        "max_chars": 25
       },
       "visual": {},
       "attributes": {
@@ -73,21 +73,21 @@
       }
     },
     {
-      "id": "lead",
+      "id": "head",
       "kind": "text",
       "label": "section_title",
-      "role": "feature_head",
+      "role": "editorial",
       "class": "subtitle",
       "box": {
-        "x": 168,
-        "y": 70,
-        "w": 46,
-        "h": 1800
+        "x": 150,
+        "y": 84,
+        "w": 44,
+        "h": 620
       },
       "text": {
         "source": "title",
-        "min_chars": 28,
-        "max_chars": 46
+        "min_chars": 15,
+        "max_chars": 23
       },
       "visual": {},
       "attributes": {
@@ -95,21 +95,21 @@
       }
     },
     {
-      "id": "col_01",
+      "id": "editorial",
       "kind": "text",
       "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
+      "role": "editorial_body",
+      "class": "body soft-fill",
       "box": {
-        "x": 260,
-        "y": 76,
-        "w": 82,
-        "h": 1788
+        "x": 214,
+        "y": 90,
+        "w": 280,
+        "h": 1580
       },
       "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 111
+        "source": "fill",
+        "min_chars": 568,
+        "max_chars": 695
       },
       "visual": {},
       "attributes": {
@@ -117,21 +117,21 @@
       }
     },
     {
-      "id": "col_02",
+      "id": "body_01",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 362,
-        "y": 76,
-        "w": 82,
-        "h": 1788
+        "x": 520,
+        "y": 90,
+        "w": 76,
+        "h": 1580
       },
       "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 111
+        "source": "fill",
+        "min_chars": 113,
+        "max_chars": 139
       },
       "visual": {},
       "attributes": {
@@ -139,21 +139,21 @@
       }
     },
     {
-      "id": "col_03",
+      "id": "body_02",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 464,
-        "y": 76,
-        "w": 82,
-        "h": 1788
+        "x": 614,
+        "y": 90,
+        "w": 76,
+        "h": 1580
       },
       "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 111
+        "source": "fill",
+        "min_chars": 113,
+        "max_chars": 139
       },
       "visual": {},
       "attributes": {
@@ -161,21 +161,21 @@
       }
     },
     {
-      "id": "col_04",
+      "id": "body_03",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 566,
-        "y": 76,
-        "w": 82,
-        "h": 1788
+        "x": 708,
+        "y": 90,
+        "w": 76,
+        "h": 1580
       },
       "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 111
+        "source": "fill",
+        "min_chars": 113,
+        "max_chars": 139
       },
       "visual": {},
       "attributes": {
@@ -183,21 +183,21 @@
       }
     },
     {
-      "id": "col_05",
+      "id": "body_04",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 668,
-        "y": 76,
-        "w": 82,
-        "h": 1788
+        "x": 802,
+        "y": 90,
+        "w": 76,
+        "h": 1580
       },
       "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 111
+        "source": "fill",
+        "min_chars": 113,
+        "max_chars": 139
       },
       "visual": {},
       "attributes": {
@@ -205,21 +205,21 @@
       }
     },
     {
-      "id": "col_06",
+      "id": "body_05",
       "kind": "text",
       "label": "paragraph",
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 770,
-        "y": 76,
-        "w": 82,
-        "h": 1788
+        "x": 896,
+        "y": 90,
+        "w": 76,
+        "h": 1580
       },
       "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 111
+        "source": "fill",
+        "min_chars": 113,
+        "max_chars": 139
       },
       "visual": {},
       "attributes": {
@@ -227,21 +227,21 @@
       }
     },
     {
-      "id": "col_07",
+      "id": "byline",
       "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
+      "label": "metadata",
+      "role": "byline",
+      "class": "small",
       "box": {
-        "x": 872,
-        "y": 76,
-        "w": 82,
-        "h": 1788
+        "x": 1000,
+        "y": 90,
+        "w": 40,
+        "h": 900
       },
       "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 111
+        "source": "safe_fragment",
+        "min_chars": 34,
+        "max_chars": 47
       },
       "visual": {},
       "attributes": {
@@ -249,47 +249,24 @@
       }
     },
     {
-      "id": "col_08",
+      "id": "date",
       "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
+      "label": "metadata",
+      "role": "date",
+      "class": "small",
       "box": {
-        "x": 974,
-        "y": 76,
-        "w": 82,
-        "h": 1788
+        "x": 1064,
+        "y": 90,
+        "w": 40,
+        "h": 560
       },
       "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 111
+        "source": "literal",
+        "value": "2026 ᠣᠨ 7 ᠰᠠᠷᠠ"
       },
       "visual": {},
       "attributes": {
         "reading_order": 10
-      }
-    },
-    {
-      "id": "col_09",
-      "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
-      "box": {
-        "x": 1076,
-        "y": 76,
-        "w": 82,
-        "h": 1788
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 66,
-        "max_chars": 111
-      },
-      "visual": {},
-      "attributes": {
-        "reading_order": 11
       }
     }
   ]

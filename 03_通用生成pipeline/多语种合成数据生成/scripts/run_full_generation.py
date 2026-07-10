@@ -173,6 +173,8 @@ def generate_html(spec: dict[str, Any], args: argparse.Namespace, py: str, outpu
                 str(seed_base),
                 "--version-name",
                 args.version_name,
+                "--image-assets-dir",
+                str(PROJECT_ROOT / "04_共享图片资产"),
             ]
         )
         return

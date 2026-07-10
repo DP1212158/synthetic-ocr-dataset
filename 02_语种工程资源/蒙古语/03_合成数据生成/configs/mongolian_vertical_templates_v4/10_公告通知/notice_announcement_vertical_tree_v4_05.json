@@ -16,8 +16,8 @@
     "page_rotation": "none"
   },
   "page": {
-    "width": 1220,
-    "height": 1860,
+    "width": 1200,
+    "height": 1780,
     "orientation": "portrait",
     "background": "warm_paper",
     "tight_crop": true
@@ -31,22 +31,22 @@
     "font_scale": "native_vertical_v4"
   },
   "qa_expectations": {
-    "min_blocks": 9,
+    "min_blocks": 10,
     "overflow_blocks": 0,
     "out_of_bounds_blocks": 0,
     "latin_residue_blocks": 0
   },
   "elements": [
     {
-      "id": "panel",
+      "id": "frame",
       "kind": "decor",
       "label": "decor",
-      "class": "box urgent-fill",
+      "class": "boxed",
       "box": {
-        "x": 52,
-        "y": 52,
-        "w": 1116,
-        "h": 1756
+        "x": 46,
+        "y": 54,
+        "w": 1108,
+        "h": 1672
       },
       "visual": {}
     },
@@ -54,42 +54,46 @@
       "id": "title",
       "kind": "text",
       "label": "document_title",
-      "role": "notice_title",
+      "role": "poster_title",
       "class": "title",
       "box": {
-        "x": 70,
-        "y": 80,
-        "w": 72,
-        "h": 1690
+        "x": 90,
+        "y": 100,
+        "w": 90,
+        "h": 1560
       },
       "text": {
-        "source": "safe_fragment",
-        "min_chars": 18,
-        "max_chars": 31
+        "source": "fill",
+        "min_chars": 32,
+        "max_chars": 39
       },
-      "visual": {},
+      "visual": {
+        "color": "#8f2f2f"
+      },
       "attributes": {
         "reading_order": 1
       }
     },
     {
-      "id": "section",
+      "id": "subtitle",
       "kind": "text",
       "label": "section_title",
-      "role": "section",
+      "role": "poster_sub",
       "class": "subtitle",
       "box": {
-        "x": 168,
-        "y": 88,
-        "w": 46,
-        "h": 1674
+        "x": 210,
+        "y": 100,
+        "w": 54,
+        "h": 900
       },
       "text": {
-        "source": "title",
+        "source": "fill",
         "min_chars": 26,
-        "max_chars": 43
+        "max_chars": 32
       },
-      "visual": {},
+      "visual": {
+        "color": "#8f2f2f"
+      },
       "attributes": {
         "reading_order": 2
       }
@@ -101,15 +105,15 @@
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 262,
-        "y": 86,
-        "w": 80,
-        "h": 1678
+        "x": 300,
+        "y": 100,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 62,
-        "max_chars": 104
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -123,15 +127,15 @@
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 362,
-        "y": 86,
-        "w": 80,
-        "h": 1678
+        "x": 394,
+        "y": 100,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 62,
-        "max_chars": 104
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -145,15 +149,15 @@
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 462,
-        "y": 86,
-        "w": 80,
-        "h": 1678
+        "x": 488,
+        "y": 100,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 62,
-        "max_chars": 104
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -167,15 +171,15 @@
       "role": "vertical_text_column",
       "class": "body",
       "box": {
-        "x": 562,
-        "y": 86,
-        "w": 80,
-        "h": 1678
+        "x": 582,
+        "y": 100,
+        "w": 76,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 62,
-        "max_chars": 104
+        "source": "fill",
+        "min_chars": 112,
+        "max_chars": 137
       },
       "visual": {},
       "attributes": {
@@ -183,21 +187,21 @@
       }
     },
     {
-      "id": "body_05",
+      "id": "contact_01",
       "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
+      "label": "metadata",
+      "role": "contact",
+      "class": "small",
       "box": {
-        "x": 662,
-        "y": 86,
-        "w": 80,
-        "h": 1678
+        "x": 760,
+        "y": 100,
+        "w": 44,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 62,
-        "max_chars": 104
+        "source": "fill",
+        "min_chars": 69,
+        "max_chars": 85
       },
       "visual": {},
       "attributes": {
@@ -205,25 +209,47 @@
       }
     },
     {
-      "id": "body_06",
+      "id": "contact_02",
       "kind": "text",
-      "label": "paragraph",
-      "role": "vertical_text_column",
-      "class": "body",
+      "label": "metadata",
+      "role": "contact",
+      "class": "small",
       "box": {
-        "x": 762,
-        "y": 86,
-        "w": 80,
-        "h": 1678
+        "x": 818,
+        "y": 100,
+        "w": 44,
+        "h": 1560
       },
       "text": {
-        "source": "short",
-        "min_chars": 62,
-        "max_chars": 104
+        "source": "fill",
+        "min_chars": 69,
+        "max_chars": 85
       },
       "visual": {},
       "attributes": {
         "reading_order": 8
+      }
+    },
+    {
+      "id": "contact_03",
+      "kind": "text",
+      "label": "metadata",
+      "role": "contact",
+      "class": "small",
+      "box": {
+        "x": 876,
+        "y": 100,
+        "w": 44,
+        "h": 1560
+      },
+      "text": {
+        "source": "fill",
+        "min_chars": 69,
+        "max_chars": 85
+      },
+      "visual": {},
+      "attributes": {
+        "reading_order": 9
       }
     },
     {
@@ -233,38 +259,14 @@
       "role": "date",
       "class": "small",
       "box": {
-        "x": 1030,
-        "y": 90,
-        "w": 40,
-        "h": 1014
+        "x": 980,
+        "y": 100,
+        "w": 44,
+        "h": 560
       },
       "text": {
         "source": "literal",
-        "min_chars": 24,
-        "max_chars": 39,
-        "value": "2026 ᠣᠨ 7 ᠰᠠᠷ᠎ᠠ"
-      },
-      "visual": {},
-      "attributes": {
-        "reading_order": 9
-      }
-    },
-    {
-      "id": "signer",
-      "kind": "text",
-      "label": "metadata",
-      "role": "issuer",
-      "class": "small",
-      "box": {
-        "x": 1100,
-        "y": 90,
-        "w": 46,
-        "h": 1183
-      },
-      "text": {
-        "source": "safe_fragment",
-        "min_chars": 28,
-        "max_chars": 46
+        "value": "2026 ᠣᠨ 7 ᠰᠠᠷᠠ"
       },
       "visual": {},
       "attributes": {
@@ -277,10 +279,10 @@
       "label": "decor",
       "class": "stamp",
       "box": {
-        "x": 1070,
-        "y": 1620,
-        "w": 120,
-        "h": 120
+        "x": 1000,
+        "y": 1400,
+        "w": 150,
+        "h": 150
       },
       "visual": {}
     }
