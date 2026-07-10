@@ -5,9 +5,9 @@
   "category_id": "certificate_proof",
   "category_cn": "证书证明",
   "folder": "02_证书证明",
-  "template_name_cn": "简约获奖证明",
-  "layout_family": "v4_formal_double_frame",
-  "design_prompt": "双重边框、居中竖排标题、正文、印章与落款。",
+  "template_name_cn": "横幅荣誉证书",
+  "layout_family": "v4_landscape_award",
+  "design_prompt": "横向页面，特大标题居中、简短正文与印章。",
   "writing_system": {
     "language": "传统蒙古文",
     "writing_mode": "vertical-lr",
@@ -16,9 +16,9 @@
     "page_rotation": "none"
   },
   "page": {
-    "width": 1080,
-    "height": 1500,
-    "orientation": "portrait",
+    "width": 1280,
+    "height": 940,
+    "orientation": "landscape",
     "background": "warm_paper",
     "tight_crop": true
   },
@@ -26,7 +26,7 @@
     "paper": "#fbf8ed",
     "ink": "#151515",
     "muted": "#625d55",
-    "accent": "#274a86",
+    "accent": "#8f2f2f",
     "line": "#222222",
     "font_scale": "native_vertical_v4"
   },
@@ -41,45 +41,12 @@
       "id": "outer",
       "kind": "decor",
       "label": "decor",
-      "class": "boxed",
+      "class": "box ornate",
       "box": {
         "x": 48,
-        "y": 52,
-        "w": 984,
-        "h": 1396
-      },
-      "visual": {}
-    },
-    {
-      "id": "inner",
-      "kind": "decor",
-      "label": "decor",
-      "class": "thin",
-      "box": {
-        "x": 78,
-        "y": 84,
-        "w": 924,
-        "h": 1332
-      },
-      "visual": {}
-    },
-    {
-      "id": "serial",
-      "kind": "text",
-      "label": "metadata",
-      "role": "serial",
-      "class": "tiny",
-      "box": {
-        "x": 108,
-        "y": 120,
-        "w": 24,
-        "h": 420
-      },
-      "text": {
-        "source": "literal",
-        "min_chars": 4,
-        "max_chars": 96,
-        "value": "2026 ᠣᠨ 7 ᠰᠠᠷᠠ"
+        "y": 48,
+        "w": 1184,
+        "h": 844
       },
       "visual": {}
     },
@@ -87,18 +54,18 @@
       "id": "title",
       "kind": "text",
       "label": "document_title",
-      "role": "title",
+      "role": "award_title",
       "class": "title",
       "box": {
-        "x": 170,
-        "y": 120,
-        "w": 60,
-        "h": 560
+        "x": 120,
+        "y": 90,
+        "w": 96,
+        "h": 760
       },
       "text": {
         "source": "safe_fragment",
-        "min_chars": 18,
-        "max_chars": 30
+        "min_chars": 12,
+        "max_chars": 20
       },
       "visual": {}
     },
@@ -106,18 +73,18 @@
       "id": "subtitle",
       "kind": "text",
       "label": "document_subtitle",
-      "role": "subtitle",
+      "role": "award_subtitle",
       "class": "subtitle",
       "box": {
-        "x": 250,
-        "y": 140,
-        "w": 42,
-        "h": 840
+        "x": 260,
+        "y": 110,
+        "w": 64,
+        "h": 740
       },
       "text": {
         "source": "title",
-        "min_chars": 91,
-        "max_chars": 149
+        "min_chars": 15,
+        "max_chars": 23
       },
       "visual": {}
     },
@@ -128,15 +95,15 @@
       "role": "cert_body",
       "class": "body",
       "box": {
-        "x": 336,
-        "y": 150,
-        "w": 34,
-        "h": 557
+        "x": 390,
+        "y": 110,
+        "w": 54,
+        "h": 740
       },
       "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
+        "source": "fill",
+        "min_chars": 17,
+        "max_chars": 27
       },
       "visual": {}
     },
@@ -147,15 +114,15 @@
       "role": "cert_body",
       "class": "body",
       "box": {
-        "x": 378,
-        "y": 150,
-        "w": 34,
-        "h": 557
+        "x": 460,
+        "y": 110,
+        "w": 54,
+        "h": 740
       },
       "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
+        "source": "fill",
+        "min_chars": 17,
+        "max_chars": 27
       },
       "visual": {}
     },
@@ -166,15 +133,15 @@
       "role": "cert_body",
       "class": "body",
       "box": {
-        "x": 420,
-        "y": 150,
-        "w": 34,
-        "h": 557
+        "x": 530,
+        "y": 110,
+        "w": 54,
+        "h": 740
       },
       "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
+        "source": "fill",
+        "min_chars": 17,
+        "max_chars": 27
       },
       "visual": {}
     },
@@ -185,15 +152,15 @@
       "role": "cert_body",
       "class": "body",
       "box": {
-        "x": 462,
-        "y": 150,
-        "w": 34,
-        "h": 557
+        "x": 600,
+        "y": 110,
+        "w": 54,
+        "h": 740
       },
       "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
+        "source": "fill",
+        "min_chars": 17,
+        "max_chars": 27
       },
       "visual": {}
     },
@@ -204,15 +171,15 @@
       "role": "cert_body",
       "class": "body",
       "box": {
-        "x": 504,
-        "y": 150,
-        "w": 34,
-        "h": 557
+        "x": 670,
+        "y": 110,
+        "w": 54,
+        "h": 740
       },
       "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
+        "source": "fill",
+        "min_chars": 17,
+        "max_chars": 27
       },
       "visual": {}
     },
@@ -223,15 +190,15 @@
       "role": "cert_body",
       "class": "body",
       "box": {
-        "x": 546,
-        "y": 150,
-        "w": 34,
-        "h": 557
+        "x": 740,
+        "y": 110,
+        "w": 54,
+        "h": 740
       },
       "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
+        "source": "fill",
+        "min_chars": 17,
+        "max_chars": 27
       },
       "visual": {}
     },
@@ -242,15 +209,15 @@
       "role": "cert_body",
       "class": "body",
       "box": {
-        "x": 336,
-        "y": 733,
-        "w": 34,
-        "h": 557
+        "x": 810,
+        "y": 110,
+        "w": 54,
+        "h": 740
       },
       "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
+        "source": "fill",
+        "min_chars": 17,
+        "max_chars": 27
       },
       "visual": {}
     },
@@ -261,110 +228,15 @@
       "role": "cert_body",
       "class": "body",
       "box": {
-        "x": 378,
-        "y": 733,
-        "w": 34,
-        "h": 557
+        "x": 880,
+        "y": 110,
+        "w": 54,
+        "h": 740
       },
       "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
-      },
-      "visual": {}
-    },
-    {
-      "id": "body_09",
-      "kind": "text",
-      "label": "paragraph",
-      "role": "cert_body",
-      "class": "body",
-      "box": {
-        "x": 420,
-        "y": 733,
-        "w": 34,
-        "h": 557
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
-      },
-      "visual": {}
-    },
-    {
-      "id": "body_10",
-      "kind": "text",
-      "label": "paragraph",
-      "role": "cert_body",
-      "class": "body",
-      "box": {
-        "x": 462,
-        "y": 733,
-        "w": 34,
-        "h": 557
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
-      },
-      "visual": {}
-    },
-    {
-      "id": "body_11",
-      "kind": "text",
-      "label": "paragraph",
-      "role": "cert_body",
-      "class": "body",
-      "box": {
-        "x": 504,
-        "y": 733,
-        "w": 34,
-        "h": 557
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
-      },
-      "visual": {}
-    },
-    {
-      "id": "body_12",
-      "kind": "text",
-      "label": "paragraph",
-      "role": "cert_body",
-      "class": "body",
-      "box": {
-        "x": 546,
-        "y": 733,
-        "w": 34,
-        "h": 557
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
-      },
-      "visual": {}
-    },
-    {
-      "id": "award",
-      "kind": "text",
-      "label": "section_title",
-      "role": "award",
-      "class": "subtitle",
-      "box": {
-        "x": 700,
-        "y": 150,
-        "w": 38,
-        "h": 840
-      },
-      "text": {
-        "source": "title",
-        "min_chars": 91,
-        "max_chars": 149
+        "source": "fill",
+        "min_chars": 17,
+        "max_chars": 27
       },
       "visual": {}
     },
@@ -375,15 +247,13 @@
       "role": "date",
       "class": "small",
       "box": {
-        "x": 782,
-        "y": 520,
-        "w": 30,
-        "h": 640
+        "x": 1000,
+        "y": 110,
+        "w": 34,
+        "h": 740
       },
       "text": {
         "source": "literal",
-        "min_chars": 4,
-        "max_chars": 96,
         "value": "2026 07 02"
       },
       "visual": {}
@@ -395,34 +265,15 @@
       "role": "seal",
       "class": "subtitle stamp",
       "box": {
-        "x": 830,
-        "y": 940,
-        "w": 130,
-        "h": 130
+        "x": 1080,
+        "y": 700,
+        "w": 120,
+        "h": 120
       },
       "text": {
         "source": "safe_fragment",
         "min_chars": 6,
         "max_chars": 10
-      },
-      "visual": {}
-    },
-    {
-      "id": "signatory",
-      "kind": "text",
-      "label": "paragraph",
-      "role": "signatory",
-      "class": "body",
-      "box": {
-        "x": 852,
-        "y": 250,
-        "w": 34,
-        "h": 560
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 73,
-        "max_chars": 119
       },
       "visual": {}
     }

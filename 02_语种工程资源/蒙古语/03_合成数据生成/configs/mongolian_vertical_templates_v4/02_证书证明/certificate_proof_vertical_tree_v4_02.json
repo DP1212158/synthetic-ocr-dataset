@@ -5,9 +5,9 @@
   "category_id": "certificate_proof",
   "category_cn": "证书证明",
   "folder": "02_证书证明",
-  "template_name_cn": "带照片荣誉证书",
-  "layout_family": "v4_formal_double_frame",
-  "design_prompt": "双重边框、居中竖排标题、正文、印章与落款。",
+  "template_name_cn": "机关证明函",
+  "layout_family": "v4_official_proof_letter",
+  "design_prompt": "函件式正文段落、双章与落款，无副标题。",
   "writing_system": {
     "language": "传统蒙古文",
     "writing_mode": "vertical-lr",
@@ -16,8 +16,8 @@
     "page_rotation": "none"
   },
   "page": {
-    "width": 1080,
-    "height": 1500,
+    "width": 1120,
+    "height": 1520,
     "orientation": "portrait",
     "background": "warm_paper",
     "tight_crop": true
@@ -26,7 +26,7 @@
     "paper": "#fbf8ed",
     "ink": "#151515",
     "muted": "#625d55",
-    "accent": "#7a3210",
+    "accent": "#8f2f2f",
     "line": "#222222",
     "font_scale": "native_vertical_v4"
   },
@@ -41,25 +41,12 @@
       "id": "outer",
       "kind": "decor",
       "label": "decor",
-      "class": "box ornate",
+      "class": "box",
       "box": {
-        "x": 48,
+        "x": 52,
         "y": 52,
-        "w": 984,
-        "h": 1396
-      },
-      "visual": {}
-    },
-    {
-      "id": "inner",
-      "kind": "decor",
-      "label": "decor",
-      "class": "thin",
-      "box": {
-        "x": 78,
-        "y": 84,
-        "w": 924,
-        "h": 1332
+        "w": 1016,
+        "h": 1416
       },
       "visual": {}
     },
@@ -70,16 +57,14 @@
       "role": "serial",
       "class": "tiny",
       "box": {
-        "x": 108,
-        "y": 120,
-        "w": 24,
-        "h": 420
+        "x": 96,
+        "y": 100,
+        "w": 26,
+        "h": 520
       },
       "text": {
         "source": "literal",
-        "min_chars": 4,
-        "max_chars": 96,
-        "value": "2026 ᠣᠨ 7 ᠰᠠᠷᠠ"
+        "value": "2026 07 02"
       },
       "visual": {}
     },
@@ -90,34 +75,15 @@
       "role": "title",
       "class": "title",
       "box": {
-        "x": 170,
-        "y": 120,
-        "w": 60,
-        "h": 560
+        "x": 160,
+        "y": 110,
+        "w": 76,
+        "h": 1300
       },
       "text": {
         "source": "safe_fragment",
-        "min_chars": 18,
-        "max_chars": 30
-      },
-      "visual": {}
-    },
-    {
-      "id": "subtitle",
-      "kind": "text",
-      "label": "document_subtitle",
-      "role": "subtitle",
-      "class": "subtitle",
-      "box": {
-        "x": 250,
-        "y": 140,
-        "w": 42,
-        "h": 840
-      },
-      "text": {
-        "source": "title",
-        "min_chars": 91,
-        "max_chars": 149
+        "min_chars": 14,
+        "max_chars": 22
       },
       "visual": {}
     },
@@ -125,18 +91,18 @@
       "id": "body_01",
       "kind": "text",
       "label": "paragraph",
-      "role": "cert_body",
+      "role": "letter_body",
       "class": "body",
       "box": {
-        "x": 336,
-        "y": 150,
-        "w": 34,
-        "h": 557
+        "x": 270,
+        "y": 110,
+        "w": 54,
+        "h": 1300
       },
       "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
+        "source": "fill",
+        "min_chars": 27,
+        "max_chars": 42
       },
       "visual": {}
     },
@@ -144,18 +110,18 @@
       "id": "body_02",
       "kind": "text",
       "label": "paragraph",
-      "role": "cert_body",
+      "role": "letter_body",
       "class": "body",
       "box": {
-        "x": 378,
-        "y": 150,
-        "w": 34,
-        "h": 557
+        "x": 340,
+        "y": 110,
+        "w": 54,
+        "h": 1300
       },
       "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
+        "source": "fill",
+        "min_chars": 27,
+        "max_chars": 42
       },
       "visual": {}
     },
@@ -163,18 +129,18 @@
       "id": "body_03",
       "kind": "text",
       "label": "paragraph",
-      "role": "cert_body",
+      "role": "letter_body",
       "class": "body",
       "box": {
-        "x": 420,
-        "y": 150,
-        "w": 34,
-        "h": 557
+        "x": 410,
+        "y": 110,
+        "w": 54,
+        "h": 1300
       },
       "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
+        "source": "fill",
+        "min_chars": 27,
+        "max_chars": 42
       },
       "visual": {}
     },
@@ -182,18 +148,18 @@
       "id": "body_04",
       "kind": "text",
       "label": "paragraph",
-      "role": "cert_body",
+      "role": "letter_body",
       "class": "body",
       "box": {
-        "x": 462,
-        "y": 150,
-        "w": 34,
-        "h": 557
+        "x": 480,
+        "y": 110,
+        "w": 54,
+        "h": 1300
       },
       "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
+        "source": "fill",
+        "min_chars": 27,
+        "max_chars": 42
       },
       "visual": {}
     },
@@ -201,18 +167,18 @@
       "id": "body_05",
       "kind": "text",
       "label": "paragraph",
-      "role": "cert_body",
+      "role": "letter_body",
       "class": "body",
       "box": {
-        "x": 504,
-        "y": 150,
-        "w": 34,
-        "h": 557
+        "x": 550,
+        "y": 110,
+        "w": 54,
+        "h": 1300
       },
       "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
+        "source": "fill",
+        "min_chars": 27,
+        "max_chars": 42
       },
       "visual": {}
     },
@@ -220,18 +186,18 @@
       "id": "body_06",
       "kind": "text",
       "label": "paragraph",
-      "role": "cert_body",
+      "role": "letter_body",
       "class": "body",
       "box": {
-        "x": 336,
-        "y": 733,
-        "w": 34,
-        "h": 557
+        "x": 620,
+        "y": 110,
+        "w": 54,
+        "h": 1300
       },
       "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
+        "source": "fill",
+        "min_chars": 27,
+        "max_chars": 42
       },
       "visual": {}
     },
@@ -239,18 +205,18 @@
       "id": "body_07",
       "kind": "text",
       "label": "paragraph",
-      "role": "cert_body",
+      "role": "letter_body",
       "class": "body",
       "box": {
-        "x": 378,
-        "y": 733,
-        "w": 34,
-        "h": 557
+        "x": 690,
+        "y": 110,
+        "w": 54,
+        "h": 1300
       },
       "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
+        "source": "fill",
+        "min_chars": 27,
+        "max_chars": 42
       },
       "visual": {}
     },
@@ -258,152 +224,18 @@
       "id": "body_08",
       "kind": "text",
       "label": "paragraph",
-      "role": "cert_body",
+      "role": "letter_body",
       "class": "body",
       "box": {
-        "x": 420,
-        "y": 733,
-        "w": 34,
-        "h": 557
+        "x": 760,
+        "y": 110,
+        "w": 54,
+        "h": 1300
       },
       "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
-      },
-      "visual": {}
-    },
-    {
-      "id": "body_09",
-      "kind": "text",
-      "label": "paragraph",
-      "role": "cert_body",
-      "class": "body",
-      "box": {
-        "x": 462,
-        "y": 733,
-        "w": 34,
-        "h": 557
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
-      },
-      "visual": {}
-    },
-    {
-      "id": "body_10",
-      "kind": "text",
-      "label": "paragraph",
-      "role": "cert_body",
-      "class": "body",
-      "box": {
-        "x": 504,
-        "y": 733,
-        "w": 34,
-        "h": 557
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 72,
-        "max_chars": 129
-      },
-      "visual": {}
-    },
-    {
-      "id": "photo",
-      "kind": "image",
-      "label": "image",
-      "role": "figure",
-      "class": "image-fill",
-      "box": {
-        "x": 700,
-        "y": 210,
-        "w": 200,
-        "h": 260
-      },
-      "text": {
-        "source": "blank"
-      }
-    },
-    {
-      "id": "cap",
-      "kind": "text",
-      "label": "caption",
-      "role": "caption",
-      "class": "small",
-      "box": {
-        "x": 908,
-        "y": 210,
-        "w": 22,
-        "h": 260
-      },
-      "text": {
-        "source": "short",
-        "min_chars": 42,
-        "max_chars": 69
-      },
-      "visual": {},
-      "attributes": {
-        "caption_of": "photo"
-      }
-    },
-    {
-      "id": "award",
-      "kind": "text",
-      "label": "section_title",
-      "role": "award",
-      "class": "subtitle",
-      "box": {
-        "x": 700,
-        "y": 150,
-        "w": 38,
-        "h": 840
-      },
-      "text": {
-        "source": "title",
-        "min_chars": 91,
-        "max_chars": 149
-      },
-      "visual": {}
-    },
-    {
-      "id": "date",
-      "kind": "text",
-      "label": "metadata",
-      "role": "date",
-      "class": "small",
-      "box": {
-        "x": 782,
-        "y": 520,
-        "w": 30,
-        "h": 640
-      },
-      "text": {
-        "source": "literal",
-        "min_chars": 4,
-        "max_chars": 96,
-        "value": "2026 07 02"
-      },
-      "visual": {}
-    },
-    {
-      "id": "seal",
-      "kind": "text",
-      "label": "seal",
-      "role": "seal",
-      "class": "subtitle stamp",
-      "box": {
-        "x": 830,
-        "y": 940,
-        "w": 130,
-        "h": 130
-      },
-      "text": {
-        "source": "safe_fragment",
-        "min_chars": 6,
-        "max_chars": 10
+        "source": "fill",
+        "min_chars": 27,
+        "max_chars": 42
       },
       "visual": {}
     },
@@ -414,15 +246,53 @@
       "role": "signatory",
       "class": "body",
       "box": {
-        "x": 852,
-        "y": 250,
-        "w": 34,
-        "h": 560
+        "x": 880,
+        "y": 260,
+        "w": 54,
+        "h": 760
       },
       "text": {
-        "source": "short",
-        "min_chars": 73,
-        "max_chars": 119
+        "source": "fill",
+        "min_chars": 17,
+        "max_chars": 27
+      },
+      "visual": {}
+    },
+    {
+      "id": "seal_a",
+      "kind": "text",
+      "label": "seal",
+      "role": "seal",
+      "class": "subtitle stamp",
+      "box": {
+        "x": 950,
+        "y": 300,
+        "w": 110,
+        "h": 110
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 6,
+        "max_chars": 10
+      },
+      "visual": {}
+    },
+    {
+      "id": "seal_b",
+      "kind": "text",
+      "label": "seal",
+      "role": "seal",
+      "class": "subtitle stamp",
+      "box": {
+        "x": 940,
+        "y": 1120,
+        "w": 110,
+        "h": 110
+      },
+      "text": {
+        "source": "safe_fragment",
+        "min_chars": 6,
+        "max_chars": 10
       },
       "visual": {}
     }
