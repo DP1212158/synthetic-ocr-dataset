@@ -1,0 +1,42 @@
+{
+  "_comment": "版面类别目录命名权威表（single source of truth）。冻结当前 VL12 命名，防止跨版本漂移（历史上出现过 VL11 书籍页 vs VL12 书籍内页 导致可视化类别过滤失效）。check_category_naming.py 用它校验任一版本目录。两条流水线命名不同：横排(generic) 与 蒙古竖排(mongolian_vertical)。",
+  "pipelines": {
+    "generic_horizontal": [
+      "01_报纸页",
+      "02_证书证明",
+      "03_考试卷",
+      "04_标牌海报场景",
+      "05_书籍内页",
+      "06_教科书内页",
+      "07_杂志内页",
+      "08_学术文献页",
+      "09_历史文档_古籍",
+      "10_公告通知",
+      "11_复杂表单登记页",
+      "12_手写笔记信件"
+    ],
+    "mongolian_vertical": [
+      "01_报纸页",
+      "02_证书证明",
+      "03_考试卷",
+      "04_标牌海报场景",
+      "05_书籍页",
+      "06_教科书页",
+      "07_杂志期刊页",
+      "08_学术文献页",
+      "09_历史文档_古籍",
+      "10_公告通知",
+      "11_复杂表单登记页",
+      "12_手写笔记信件"
+    ]
+  },
+  "languages": {
+    "藏语": "generic_horizontal",
+    "壮语": "generic_horizontal",
+    "朝鲜语": "generic_horizontal",
+    "白语": "generic_horizontal",
+    "维吾尔语": "generic_horizontal",
+    "哈萨克语": "generic_horizontal",
+    "蒙古语": "mongolian_vertical"
+  }
+}

@@ -138,8 +138,13 @@ def analyze_label(label_path: Path, profile: dict[str, Any], target_script: str,
     doc_id = attrs.get("document_id") or label_path.stem
     category = attrs.get("category") or label_path.parent.parent.name
     mode = infer_mode(label, label_path)
+    # Bilingual Chinese mixing is a feature of the horizontal (v3) pipeline only.
+    # The Mongolian vertical pipeline never injects CJK, so its even ("mixed")
+    # variants legitimately have 0 CJK — do NOT treat that as a defect. A profile
+    # may override via "expects_bilingual_cjk".
+    expects_bilingual = bool(profile.get("expects_bilingual_cjk", target_script != "mongolian"))
     allowed = {target_script}
-    if allow_mixed_cjk and mode == "mixed":
+    if allow_mixed_cjk and mode == "mixed" and expects_bilingual:
         allowed.add("cjk")
         allowed.add("latin")  # real Chinese content carries incidental Latin (citations, emails, model names, pinyin)
 
@@ -213,7 +218,7 @@ def analyze_label(label_path: Path, profile: dict[str, Any], target_script: str,
             warnings.append(payload)
     if mode == "pure" and cjk_chars:
         failures.append({"document_id": doc_id, "issue": "pure_sample_has_cjk", "cjk_ratio": round(cjk_ratio, 4)})
-    if mode == "mixed" and allow_mixed_cjk and not (0.10 <= cjk_ratio <= 0.30):
+    if mode == "mixed" and allow_mixed_cjk and expects_bilingual and not (0.10 <= cjk_ratio <= 0.30):
         payload = {"document_id": doc_id, "issue": "mixed_cjk_ratio_out_of_range", "cjk_ratio": round(cjk_ratio, 4)}
         if block_count <= 12 and text_chars <= 260:
             warnings.append(payload | {"note": "short_mixed_layout"})

@@ -7,6 +7,9 @@ const state = {
   categoryId: null,
   showOrderOverlay: false,
   labelCache: new Map(),
+  selected: new Map(), // key = source_path -> selection record
+  previewImage: null,
+  exporting: false,
 };
 
 const els = {
@@ -26,6 +29,12 @@ const els = {
   previewName: document.querySelector("#previewName"),
   previewPath: document.querySelector("#previewPath"),
   closePreview: document.querySelector("#closePreview"),
+  previewSelect: document.querySelector("#previewSelect"),
+  selectionBar: document.querySelector("#selectionBar"),
+  selectionCount: document.querySelector("#selectionCount"),
+  exportBtn: document.querySelector("#exportBtn"),
+  clearSelBtn: document.querySelector("#clearSelBtn"),
+  selectAllBtn: document.querySelector("#selectAllBtn"),
 };
 
 function getCurrentLanguages() {
@@ -141,12 +150,29 @@ function renderSummary() {
 function imageCard(image, index, total) {
   const card = document.createElement("article");
   card.className = "image-card";
+  if (isSelected(image)) card.classList.add("selected");
 
   const imageButton = document.createElement("button");
   imageButton.type = "button";
   imageButton.className = "image-button";
   imageButton.title = "点击放大查看";
   imageButton.addEventListener("click", () => openImagePreview(image));
+
+  const selectToggle = document.createElement("button");
+  selectToggle.type = "button";
+  selectToggle.className = "select-toggle";
+  selectToggle.title = "选择/取消选择该图片";
+  selectToggle.setAttribute("aria-pressed", isSelected(image) ? "true" : "false");
+  selectToggle.textContent = isSelected(image) ? "✓" : "";
+  selectToggle.addEventListener("click", (event) => {
+    event.stopPropagation();
+    toggleSelect(image);
+    const on = isSelected(image);
+    card.classList.toggle("selected", on);
+    selectToggle.setAttribute("aria-pressed", on ? "true" : "false");
+    selectToggle.textContent = on ? "✓" : "";
+  });
+  imageButton.appendChild(selectToggle);
 
   const img = document.createElement("img");
   img.src = image.thumb_path || image.path;
@@ -200,16 +226,163 @@ function renderImages({ resetScroll = false } = {}) {
 }
 
 function openImagePreview(image) {
+  state.previewImage = image;
   els.previewName.textContent = image.filename;
   els.previewPath.textContent = image.source_path;
   els.previewImage.src = image.path;
   els.previewImage.alt = image.filename;
+  updatePreviewSelectButton();
 
   if (typeof els.previewDialog.showModal === "function") {
     els.previewDialog.showModal();
   } else {
     window.open(image.path, "_blank");
   }
+}
+
+// ---- selection & export ------------------------------------------------
+
+function isSelected(image) {
+  return image && state.selected.has(image.source_path);
+}
+
+// Derive language / version / category folder from the repo-relative source
+// path: 02_语种工程资源/<lang>/03_合成数据生成/<version>/<category>/images/<file>
+function selectionRecord(image) {
+  const parts = (image.source_path || "").split("/");
+  const lang = parts[1] || (getCurrentLanguage()?.name ?? "unknown");
+  const version = parts[3] || state.version || "";
+  const category = parts[4] || (getCurrentCategory()?.id ?? "unknown");
+  return {
+    imgUrl: image.path,
+    labelUrl: image.label_path || null,
+    lang,
+    version,
+    category,
+    filename: image.filename,
+    source_path: image.source_path,
+  };
+}
+
+function toggleSelect(image) {
+  const key = image.source_path;
+  if (state.selected.has(key)) state.selected.delete(key);
+  else state.selected.set(key, selectionRecord(image));
+  updateSelectionUI();
+  updatePreviewSelectButton();
+}
+
+function updatePreviewSelectButton() {
+  if (!els.previewSelect) return;
+  const on = isSelected(state.previewImage);
+  els.previewSelect.textContent = on ? "取消选择" : "选择该图";
+  els.previewSelect.classList.toggle("active", on);
+}
+
+function updateSelectionUI() {
+  const n = state.selected.size;
+  if (els.selectionCount) els.selectionCount.textContent = `已选 ${n} 张`;
+  if (els.selectionBar) els.selectionBar.hidden = n === 0;
+  if (els.exportBtn) els.exportBtn.disabled = n === 0 || state.exporting;
+}
+
+function selectAllInCategory() {
+  const category = getCurrentCategory();
+  if (!category) return;
+  for (const image of category.images) {
+    state.selected.set(image.source_path, selectionRecord(image));
+  }
+  updateSelectionUI();
+  renderImages();
+}
+
+function clearSelection() {
+  state.selected.clear();
+  updateSelectionUI();
+  updatePreviewSelectButton();
+  renderImages();
+}
+
+function timestamp() {
+  const d = new Date();
+  const p = (x) => String(x).padStart(2, "0");
+  return `${d.getFullYear()}${p(d.getMonth() + 1)}${p(d.getDate())}_${p(d.getHours())}${p(d.getMinutes())}${p(d.getSeconds())}`;
+}
+
+async function fetchBytes(url) {
+  const res = await fetch(url, { cache: "no-store" });
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  return new Uint8Array(await res.arrayBuffer());
+}
+
+async function exportSelected() {
+  if (state.exporting || state.selected.size === 0) return;
+  if (typeof window.createZipBlob !== "function") {
+    alert("导出组件未加载（zipwriter.js）。");
+    return;
+  }
+  state.exporting = true;
+  const records = [...state.selected.values()];
+  const total = records.length;
+  const entries = [];
+  const usedPaths = new Set();
+  let done = 0;
+  let failed = 0;
+  const btnLabel = els.exportBtn ? els.exportBtn.textContent : "";
+  updateSelectionUI();
+
+  const uniquePath = (dir, name, version) => {
+    let p = `${dir}/${name}`;
+    if (usedPaths.has(p)) {
+      const dot = name.lastIndexOf(".");
+      const stem = dot > 0 ? name.slice(0, dot) : name;
+      const ext = dot > 0 ? name.slice(dot) : "";
+      p = `${dir}/${stem}__${version}${ext}`;
+    }
+    usedPaths.add(p);
+    return p;
+  };
+
+  for (const rec of records) {
+    if (els.exportBtn) els.exportBtn.textContent = `导出 ${done + 1}/${total}…`;
+    const dir = `${rec.lang}/${rec.category}`;
+    try {
+      const imgBytes = await fetchBytes(rec.imgUrl);
+      entries.push({ path: uniquePath(dir, rec.filename, rec.version), data: imgBytes });
+      if (rec.labelUrl) {
+        try {
+          const labelBytes = await fetchBytes(rec.labelUrl);
+          const stem = rec.filename.replace(/\.[^.]+$/, "");
+          entries.push({ path: uniquePath(dir, `${stem}.json`, rec.version), data: labelBytes });
+        } catch (e) {
+          console.warn("label fetch failed", rec.labelUrl, e);
+        }
+      }
+    } catch (e) {
+      failed += 1;
+      console.warn("image fetch failed", rec.imgUrl, e);
+    }
+    done += 1;
+  }
+
+  try {
+    const blob = window.createZipBlob(entries);
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `ocr_export_${timestamp()}.zip`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 4000);
+  } catch (e) {
+    alert(`打包失败：${e.message}`);
+  }
+
+  state.exporting = false;
+  if (els.exportBtn) els.exportBtn.textContent = btnLabel || "导出 zip";
+  updateSelectionUI();
+  if (failed > 0) alert(`导出完成，${failed} 张图片获取失败（已跳过）。`);
 }
 
 function orderValue(block, fallbackIndex) {
@@ -490,6 +663,15 @@ els.previewDialog.addEventListener("close", clearPreviewImage);
 els.previewDialog.addEventListener("click", (event) => {
   if (event.target === els.previewDialog) closePreview();
 });
+if (els.previewSelect) {
+  els.previewSelect.addEventListener("click", () => {
+    if (state.previewImage) toggleSelect(state.previewImage);
+    renderImages();
+  });
+}
+if (els.exportBtn) els.exportBtn.addEventListener("click", exportSelected);
+if (els.clearSelBtn) els.clearSelBtn.addEventListener("click", clearSelection);
+if (els.selectAllBtn) els.selectAllBtn.addEventListener("click", selectAllInCategory);
 els.toggleOrderOverlay.addEventListener("click", () => {
   state.showOrderOverlay = !state.showOrderOverlay;
   renderSummary();
@@ -498,4 +680,5 @@ els.toggleOrderOverlay.addEventListener("click", () => {
 window.addEventListener("resize", redrawVisibleOverlays);
 document.addEventListener("keydown", handleKeyboard);
 
+updateSelectionUI();
 init();

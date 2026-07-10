@@ -30,7 +30,15 @@ from typing import Any
 SCRIPT_DIR = Path(__file__).resolve().parent
 ENGINE_ROOT = SCRIPT_DIR.parent
 PROJECT_ROOT = ENGINE_ROOT.parents[1]
-DEFAULT_RUNTIME_ROOT = Path("/Users/dp/.cache/codex-runtimes/codex-primary-runtime/dependencies")
+# Bundled runtime location. Overridable via env for portability across machines;
+# falls back to sys.executable / PATH `node` when it does not exist (see
+# runtime_python/runtime_node below), so the mac default is harmless on servers.
+DEFAULT_RUNTIME_ROOT = Path(
+    os.environ.get(
+        "SYNTH_RUNTIME_ROOT",
+        "/Users/dp/.cache/codex-runtimes/codex-primary-runtime/dependencies",
+    )
+)
 
 
 LANGUAGE_SPECS = [
@@ -321,9 +329,20 @@ def generate_language(spec: dict[str, Any], args: argparse.Namespace, py: str, n
         str(profile),
         "--allow-mixed-cjk",
     ])
+    # Layout-quality QA on the freshly rendered (unrotated) labels: variant
+    # diversity + no text-box overlap. Soft here; make_version.sh enforces it hard.
+    layout_ok = run_soft([
+        py,
+        str(SCRIPT_DIR / "qa_layout_quality.py"),
+        "--version-dir",
+        str(output_dir),
+        "--output-json",
+        str(output_dir / "reports" / "layout_quality_summary.json"),
+    ])
     flow_summary = read_json(output_dir / "reports" / "label_flow_audit.json") if (output_dir / "reports" / "label_flow_audit.json").exists() else {}
     overlay_summary = read_json(output_dir / "reports" / "reading_order_overlay_summary.json") if (output_dir / "reports" / "reading_order_overlay_summary.json").exists() else {}
     lang_summary = read_json(output_dir / "reports" / "language_validity_summary.json") if (output_dir / "reports" / "language_validity_summary.json").exists() else {}
+    layout_summary = read_json(output_dir / "reports" / "layout_quality_summary.json") if (output_dir / "reports" / "layout_quality_summary.json").exists() else {}
 
     total_images = sum(int(item.get("total_images", 0)) for item in qa_summaries)
     passed_basic = sum(int(item.get("passed_basic", 0)) for item in qa_summaries)
@@ -340,14 +359,17 @@ def generate_language(spec: dict[str, Any], args: argparse.Namespace, py: str, n
         "flow_pass": bool(flow_summary.get("pass")) and flow_ok,
         "overlay_pass": bool(overlay_summary.get("pass")) and overlay_ok,
         "language_pass": bool(lang_summary.get("pass")) and lang_ok,
+        "layout_quality_pass": bool(layout_summary.get("pass")) and layout_ok,
         "pass": total_images > 0
         and passed_basic == total_images
         and bool(flow_summary.get("pass"))
-        and bool(overlay_summary.get("pass")),
+        and bool(overlay_summary.get("pass"))
+        and bool(layout_summary.get("pass"))
+        and bool(lang_summary.get("pass")),
     }
     manifest_name = f"{args.version_name.lower()}_manifest.json"
     write_json(output_dir / "metadata" / manifest_name, summary)
-    print(f"== done {spec['name']}: images={total_images} basic={passed_basic} flow={summary['flow_pass']} overlay={summary['overlay_pass']} lang={summary['language_pass']}", flush=True)
+    print(f"== done {spec['name']}: images={total_images} basic={passed_basic} flow={summary['flow_pass']} overlay={summary['overlay_pass']} lang={summary['language_pass']} layout={summary['layout_quality_pass']}", flush=True)
     return summary
 
 
