@@ -28,8 +28,10 @@
 Linux 服务器建议 32 核/64G 起步，生成目录放本地 SSD。
 
 ```bash
-git clone <repo-url> synthetic-ocr-delivery
+git clone --depth 1 --single-branch --branch main <repo-url> synthetic-ocr-delivery
 cd synthetic-ocr-delivery
+# 说明：仓库历史含已淘汰的旧生成产物(~1.8GB)，浅克隆(--depth 1)只下当前快照(~45MB)。
+# 切勿 git fetch --unshallow，否则会补下全历史。
 
 python3 -m venv .venv
 source .venv/bin/activate

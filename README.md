@@ -2,6 +2,22 @@
 
 本仓库是少数民族语言合成 OCR 数据的源码资源仓库。它保留服务器重新生成数据所需的脚本、模板、文本源、字体和小规模图片资产，不再提交历史 VL 生成结果。
 
+## 克隆仓库（推荐浅克隆）
+
+早期提交中曾包含大量已淘汰的生成产物，仍留存在 Git 历史里，普通全量克隆需下载约 1.8GB。**当前 HEAD 快照不含这些生成数据，浅克隆只需下载约 45MB**，强烈建议按下面方式克隆：
+
+```bash
+git clone --depth 1 --single-branch --branch main \
+  https://github.com/DP1212158/synthetic-ocr-dataset.git synthetic-ocr-delivery
+```
+
+说明：
+
+- 浅克隆只取最新一次提交的快照，历史里的旧大文件不会被下载。
+- 请勿执行 `git fetch --unshallow`，否则会把 1.8GB 全历史补下来。
+- 后续 `git pull` 正常增量更新，不受影响。
+- 若确需完整历史（如 `git blame`/`bisect`），再用普通 `git clone`。
+
 ## 核心内容
 
 - `00_共享资源/`：各语种所需开源字体（Arabic-script、藏文、谚文、传统蒙古文）、字体修复脚本和少量字体检查材料。这是"字体支持机制"而非全语种整包，服务器跑生成前需按 `SERVER_RUNBOOK.md` 完成字体安装与识别验证。
